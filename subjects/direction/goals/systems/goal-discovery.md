@@ -1,5 +1,7 @@
 # Goal discovery
 
+**Current contribution scopes:** [P1 — Goal formulation](../../../../subjects/scopes/purposes.md#p1-goal-formulation); [V1 — Contextual favoring](../../../../subjects/scopes/valuation.md#v1-contextual-favoring); [V2 — Standards of worth](../../../../subjects/scopes/valuation.md#v2-standards-of-worth). A candidate aim and achievement conditions; contextual reasons for favoring; criteria where those must be developed. Commitment is not inferred from a proposal. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Goals](../README.md).
 Source families: [SDS](../../../../systems/sds.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.

@@ -1,10 +1,12 @@
 # Prompting
 
+**Current scoped interpretation:** [E2 — Communicative uptake](../../../subjects/scopes/expression.md#e2-communicative-uptake); [Q1 — Question specification](../../../subjects/scopes/questions.md#q1-question-specification); [E1 — Encoding and textual arrangement](../../../subjects/scopes/expression.md#e1-encoding-and-textual-arrangement); [R3 — Courses and contingencies](../../../subjects/scopes/arrangements.md#r3-courses-and-contingencies). Instruction interpretation, question content, expression, course structure, and execution are different determinations within prompt development. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Expression and interaction](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

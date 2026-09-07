@@ -1,53 +1,50 @@
 # Current working contract
 
-Revised 7 September 2026: distinguishable, non-overlapping subjects; rejection of the shared-work grouping.
+Revised 7 September 2026: subjects defined as scopes of consideration, with an implemented first scope model.
 
 ## Established direction
 
-The selected name is **Subject Systems**, with repository name `subjectsystems`. The user authorized setting up the repository from the preceding work and has continued correcting its architecture.
+The selected name is **Subject Systems**, repository `subjectsystems`. The user authorized repository setup and continued development through corrections to its organization.
 
-Subjects must be distinguishable things. Their placement must follow from their definitions; a useful contribution to a group or a convenient main home does not establish an exclusive parent. Alternative sibling categories must not overlap within the declared classification scope.
+A subject is what is being considered. Objects, processes, properties, relations, and questions can all be subjects. The hierarchy must specify each subject's actual scope; mixed entity kinds do not by themselves disqualify subjects.
 
-The user rejected the eight functional groups and questioned the direction of the hierarchy. Questions above creation was a tentative example, not approval of a complete replacement. The concrete distinction is between a question and an operation that creates a question; general creation also concerns other targets.
+Alternative branches must not admit the same fully specified matter. Assigning a main home by relevance, shared work, or primary purpose does not establish exclusion. The user's example of Questions above creation was tentative; the implemented narrower relation is creation of questions within question specification, not all creation within Questions.
 
-Each project family remains material for custom systems developed for each subject and purpose. The rejection of grouping does not invalidate that direction or erase the existing local design specifications. It does require reconsidering which things are subjects and how their boundaries are established.
+Each source project remains material for custom systems developed for each subject and particular purpose. A source reference, renamed invocation, or scope mapping is not a completed custom design.
 
-## Decisions and their standing
+## Decisions and standing
 
 | Item | Standing |
 |---|---|
-| Subject Systems; systems developed for each subject and purpose | Established direction |
-| Distinguishable subjects and non-overlapping sibling categories | Established by the user's latest correction |
-| Shared-work grouping and one main home plus other relevance | Rejected as a solution to the classification requirement |
-| Eight earlier group names and memberships | Legacy navigation only; no current taxonomic authority |
-| The original 39 topic records | Preserved material, not 39 established exclusive classes |
-| Questions above creation | User's tentative example; qualified as creation of questions rather than all creation |
-| Promoting | Withdrawn as an unsupported candidate entry; historical wording retained, with no inferred marketing or Prompting replacement |
-| Education and Collaboration | Previously excluded as standalone subjects; useful contents remain available |
-| Connections and Improvement | Earlier proposals; definitions and admission remain unresolved |
-| Integration, Evaluation, Automation, Self-improvement | Earlier reconsideration remains open and now requires explicit distinctions |
-| A complete exclusive replacement hierarchy | Not yet derived |
+| Subject Systems and subject-specific system development | Established direction |
+| Subject as a matter of consideration; explicit, non-overlapping sibling scopes | Current conceptual basis, followed by the user's request to implement the definitions |
+| [28 scopes within 11 parent scopes](subjects/scopes/README.md) | First working implementation derived from that direction; not a final or universal ontology |
+| Parent–child relation | Containment of matters; parents mean the union of their defined children |
+| Earlier eight shared-work groups | Rejected classification; legacy navigation only |
+| Original 39 labels | Each has an explicit [disposition and scope mapping](research/SCOPE-MAP.md); not 39 fixed peers |
+| Planning and Strategy | Merged where both concern prospective courses and contingencies |
+| Connections | Qualified to general relation predicates and their composition; local relation instances retain local scopes |
+| Improvement | Comparative assessment of a revision against a baseline under a specified standard |
+| Promoting | Withdrawn; no inferred adoption/marketing meaning and no substitution of Prompting |
+| Education and Collaboration | Remain excluded as standalone subjects; useful contents remain available |
+| Integration, Evaluation, Automation, Self-improvement | No generic roots reinstated; their relevant determinations are explicitly discussed in the label map |
 | Master Framework | Exact defining artifact unresolved |
-| Project Dashboard | Inspected README supplies runner/comparison/history descriptions; runtime unverified here |
+| Project Dashboard | README-described runner, comparison, and history functions; runtime unverified here |
 
-See the [current correction](decisions/0005-non-overlapping-subjects.md), [boundary analysis](DISTINCTIONS.md), and [complete audit](research/SUBJECT-AUDIT.md). The previous [grouping decision](decisions/0004-functional-groups.md) is superseded on its classification basis.
+## What this revision establishes
 
-## What is present
+Every included scope states the matter to settle, its inclusions, exclusions, boundary case, and a substantive next result. All earlier labels are mapped through narrowed meanings, splits, merges, programmes, or withdrawal. The ten local design specifications have their specific contributions mapped, including the target-specific gaps in generic designs. All 21 source families have development directions at their existing evidence standing.
 
-The boundary analysis derives the exclusion requirement, identifies the category error in Questions/creation, and uses constructed cases to separate question identity from wording, an inquirer's uncertainty, and availability. It also gives a limited partition of explicitly identified question-record changes. It distinguishes record identity from the still-incomplete substantive account of a question.
+The [boundary review](cases/subject-boundaries.md) separates fit from truth, goals from commitments, recovery from discovery increment, and other difficult cases. It also records an actual collision repaired by narrowing R2 to remedy adequacy. These arguments support the stated boundaries; they do not establish exclusion for every possible interpretation or complete coverage of all subjects.
 
-The audit covers every earlier label and records concrete collisions or ambiguities. Existing topic pages retain their questions, source references, and narrower work, with their legacy placement status explicit. There are ten local design specifications: six SDS descendants and designs drawing on GOSM, Discovery Engine, QuestionRoute, Reasoningtool2, and TruthFinder. Their operations and source lineage are preserved. Remaining customization is still open work.
-
-The source manifest records 139 artifacts in the pinned System Recovery commit and selected snapshots. Historical reviews retain their original wording. The original roster, file counts, and passed structural checks are not proof of a perfected classification or an effective system.
+The new intellectual hierarchy is in `subjects/scopes/`. Earlier topic and system files remain at legacy addresses to preserve their substantive contents and provenance. Their physical paths are not the current classification.
 
 ## Limits and source state
 
-The corpus has not been semantically audited file by file. The label audit is a bounded classification analysis, not validation of every source claim. The ten custom specifications are not prospective effectiveness results or completed customization of all projects for all subjects. No universal execution engine or automatic semantic dependency discovery is implemented.
+This is not a file-by-file semantic audit of the entire source corpus. The manifest retains 139 pinned artifacts and five selected local snapshots. Historical reviews and snapshots are unchanged.
 
-During setup, the heads of System Recovery and Reasoningtool2 matched the inspected September 6 versions. This correction does not refresh those predecessor sources. The selected versions remain pinned in the source record.
+The ten custom specifications are written designs, not general effectiveness results. Generic alternative development, design exploration, and candidate improvement still require the construction scope of their actual target. A new interface or artifact kind may need a subject not yet defined in this atlas. No universal orchestrator or automatic semantic dependency discovery has been implemented.
 
-## Working authority
+This revision uses the already recorded predecessor sources and does not claim to refresh their heads. Preserve the distinction between the user’s direction, this implementation, source claims, and observed execution.
 
-The current request governs. Archived sources, earlier decisions, and legacy folders do not silently override it. Preserve the difference between explicit user direction, a tentative user example, an assistant interpretation, a derivation, and an observed result.
-
-Choose and perform the contribution warranted by the actual situation. The user is not responsible for organizing the agent's notes or rescuing undefined categories. [NEXT.md](NEXT.md) records prepared work; it does not prescribe a universal sequence.
+[Decision 0006](decisions/0006-subjects-as-scopes.md) · [Scope hierarchy](subjects/scopes/README.md) · [Next work](NEXT.md)

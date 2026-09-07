@@ -1,5 +1,7 @@
 # Criterion discovery
 
+**Current contribution scopes:** [V2 — Standards of worth](../../../../subjects/scopes/valuation.md#v2-standards-of-worth). A proposed standard, reasons, contrast cases, and limits of application. Example verdicts inform the standard without becoming commitments. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Judgment](../README.md).
 Source families: [SDS](../../../../systems/sds.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.

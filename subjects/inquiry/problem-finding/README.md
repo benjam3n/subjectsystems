@@ -1,10 +1,12 @@
 # Problem finding
 
+**Current scoped interpretation:** [R1 — Problem formulation](../../../subjects/scopes/arrangements.md#r1-problem-formulation). Formulation of a particular obstruction relative to a requirement and situation. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Inquiry and discovery](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

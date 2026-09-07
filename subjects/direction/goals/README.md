@@ -1,10 +1,12 @@
 # Goals
 
+**Current scoped interpretation:** [P1 — Goal formulation](../../../subjects/scopes/purposes.md#p1-goal-formulation); [P2 — Commitments](../../../subjects/scopes/purposes.md#p2-commitments). An intended outcome and achievement conditions can be formulated before the aim is adopted. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Direction and choice](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

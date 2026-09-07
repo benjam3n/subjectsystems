@@ -1,10 +1,12 @@
 # Action
 
+**Current scoped interpretation:** [T2 — Execution control](../../../subjects/scopes/activity.md#t2-execution-control). Execution control is the defined matter. The content of every action is not absorbed into it. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Planning and execution](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

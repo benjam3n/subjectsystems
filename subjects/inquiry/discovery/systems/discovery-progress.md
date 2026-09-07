@@ -1,5 +1,7 @@
 # Discovery progress
 
+**Current contribution scopes:** [M2 — Discovery increment](../../../../subjects/scopes/availability.md#m2-discovery-increment); [A2 — Grounds and consequence](../../../../subjects/scopes/accounts.md#a2-grounds-and-consequence); [A5 — Epistemic position](../../../../subjects/scopes/accounts.md#a5-epistemic-position); [R3 — Courses and contingencies](../../../../subjects/scopes/arrangements.md#r3-courses-and-contingencies). An availability increment, its support and unresolved status, and a proposed continuation. A new description is not automatically a new finding. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Discovery](../README.md).
 Source families: [GOSM](../../../../systems/gosm.md), [Discovery Engine](../../../../systems/discovery-engine.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.

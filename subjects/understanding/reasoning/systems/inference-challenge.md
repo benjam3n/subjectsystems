@@ -1,5 +1,7 @@
 # Inference challenge
 
+**Current contribution scopes:** [A2 — Grounds and consequence](../../../../subjects/scopes/accounts.md#a2-grounds-and-consequence). The specified premise–conclusion relation and a targeted defeating case, scoped support, or explicit unresolved result. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Reasoning](../README.md).
 Source families: [TruthFinder](../../../../systems/truthfinder.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.

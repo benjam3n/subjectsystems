@@ -1,17 +1,13 @@
-# Subject or branch title
+# Subject or narrower scope
 
-Standing: established direction, working proposal, disputed interpretation, or unresolved scope as appropriate.
+Standing: Distinguish current user direction, a working definition, and established results.
 
-Specify the classified thing, its defining conditions, and the relation to a proposed parent. For alternative siblings, explain which membership condition excludes the others and examine a case that might satisfy more than one. State whether coverage is complete or partial. A useful main home or a shared contribution does not establish a category. Do not inherit the rejected functional grouping.
+Define the matter an answer must settle, with its target, relevant conditions, and intended range. A subject can concern an object, process, property, relation, or possibility. State its inclusions and exclusions, including where excluded matters belong when that scope exists.
 
-Distinguish the object from its expression, the operations concerning it, properties, uses, and containing work. Preserve an unresolved boundary explicitly without inventing a conventional meaning. These diagnostic distinctions are not themselves an approved universal partition.
+Show containment in the proposed parent and examine a case that could satisfy a sibling definition. A parent label does not add its everyday associations to its defined scope. Declare the limits of coverage. A closest fit or unique folder is not a boundary.
 
-Describe the actual subject and the distinction this branch introduces. Develop the narrower investigations that matter here.
+Use a positive case and a consequential near-miss. Separate matters only when their determinations genuinely differ. A single compatibility relation may need its own definition.
 
-Identify a concrete question whose answer is not yet available. Preserve competing accounts where they remain live.
+Develop a substantive finding or capability and the local system required by that purpose. Specify actual objects, operations, results, standards, and source lineage. A scope map is not a finished local system; an implemented method is not evidence of general effectiveness.
 
-Develop the local system required by this branch's purpose. Identify its source families and exact material, then specify the objects, operations, results, and criteria that the purpose requires. A source placement is a starting point for customization, not the finished system. Preserve its lineage and distinguish its standing from that of its sources.
-
-Record substantive findings, their grounds, and their effects on later work. A branch's existence is not evidence of a developed science.
-
-Identify the next warranted work, including an alternative or changed frame when it could alter the inquiry.
+Retain findings, grounds, effects on later work, and the next concrete unresolved matter. This is an optional development aid, not a per-turn form.

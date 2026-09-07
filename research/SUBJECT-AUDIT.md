@@ -1,5 +1,7 @@
 # Audit of the previous subject labels
 
+The subsequent [scope definitions](../subjects/scopes/README.md) and [complete label mapping](SCOPE-MAP.md) now supply the concrete dispositions derived from this audit. Entity-kind differences alone do not disqualify a subject; its matter must be scoped.
+
 Standing: Boundary analysis following the user's rejection of overlapping categories. All 39 legacy entries are covered; this table is an audit inventory, not a proposed set of peer classes.
 
 The rows distinguish senses present in the existing pages, provide a concrete reason why their earlier placement did not establish exclusivity, and identify the resulting correction. They are design analyses at the stated scope, not an externally validated ontology. Ordinary labels can name more than one thing; a particular sense must be fixed before its membership conditions can be compared with another category.

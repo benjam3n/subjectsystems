@@ -1,6 +1,6 @@
 # Perfection within subjects
 
-The following is a program for developing and testing strong claims. It is not a report that the claims have already been established. The functional grouping is rejected; Connections and Improvement remain earlier proposals whose exact boundaries are under review.
+The following is a program for developing and testing strong claims. It is not a report that the claims have already been established. The [current scopes](subjects/scopes/README.md) make these claims more precise. Connections is qualified to relation predicates and composition; Improvement is comparative assessment. Older branch names below should be read through the [scope mapping](research/SCOPE-MAP.md).
 
 Perfection concerns an exact activity, property, or account. Perfection of a theory of goals, perfection of goal formation, and perfect achievement of a chosen goal are three different claims.
 
@@ -25,7 +25,7 @@ Strong ideals remain available beyond bounded cases. A universal claim requires 
 
 Three further branches follow from the current program:
 
-- **Standards can be discovered.** A design or explanation can reveal a quality the original evaluation never considered. The science of Judgment therefore includes discovery and revision of criteria.
+- **Standards can be discovered.** A design or explanation can reveal a quality the original evaluation never considered. The Standards of worth scope, V2, therefore includes discovery and revision of criteria.
 - **Methods can become objects of inquiry.** ARAW, SDS, anticipation, and the master framework can each be investigated, compared, improved, or replaced within the subjects they serve.
 - **The organization can be improved.** A subject hierarchy that hides a useful connection contains a defect in representation. Representation and Connections can study and correct that defect.
 

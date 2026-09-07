@@ -1,10 +1,12 @@
 # Writing
 
+**Current scoped interpretation:** [E1 — Encoding and textual arrangement](../../../subjects/scopes/expression.md#e1-encoding-and-textual-arrangement). Textual arrangement and expression. Question formation, argument, or explanation developed through writing retain Q1, A2, or A3 as their substantive matters. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Expression and interaction](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

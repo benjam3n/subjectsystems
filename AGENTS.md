@@ -1,6 +1,6 @@
 # Working in Subject Systems
 
-Read CURRENT.md and the actual request before changing the repository. Use the subject work entry point and label audit to find retained material. The former group folders are legacy navigation, not the current classification. Consult DISTINCTIONS.md when deriving boundaries, and PURPOSE.md, ARCHITECTURE.md, NEXT.md, and original sources when they affect the task; rereading every file is not a prerequisite for useful work.
+Read CURRENT.md and the actual request before changing the repository. Use the current scope hierarchy and scope mapping to find material; the earlier label audit records the diagnosis. The former group folders are legacy navigation, not the current classification. Consult DISTINCTIONS.md when deriving boundaries, and PURPOSE.md, ARCHITECTURE.md, NEXT.md, and original sources when they affect the task; rereading every file is not a prerequisite for useful work.
 
 ## Authority
 
@@ -10,10 +10,10 @@ Carry out clear, authorized work. Retrieve resolvable context. Do not ask the us
 
 ## Organizing and developing subjects
 
-- Subjects require explicit, non-overlapping boundaries. A main home chosen by relevance, useful contribution, or primary purpose does not establish an exclusive category.
-- Declare what is being classified and what each hierarchy relation means. Alternative siblings must distinguish the same kind of unit by membership conditions that exclude each other. Parent-child containment and exhaustive coverage require their own grounds.
-- An object, its expression, an operation on it, its properties, its uses, and a containing workflow must remain distinguishable where they determine membership. Do not turn those diagnostic words into another untested universal taxonomy.
-- The original roster is an audit inventory, not a fixed set of peer subjects. Split, narrow, combine, relocate, or withdraw labels when the distinctions require it. Promoting is withdrawn; do not invent a marketing definition or silently substitute Prompting.
+- A subject is a specified matter of consideration. Objects, processes, properties, relations, and questions can all be subjects. Subjects require explicit, non-overlapping boundaries. A main home chosen by relevance, useful contribution, or primary purpose does not establish an exclusive category.
+- The classified unit is a specified matter to settle, with its target and consequential context fixed. Scope containment is the hierarchy relation. Alternative siblings must exclude the same fully specified matter. A document, project, or episode can contain several matters; do not force the whole container into one scope. Parent unions establish containment, not automatic exclusion or universal coverage.
+- Distinguish the matter investigated from things mentioned, expressed, or used in the investigation. An operation can itself be a subject. Different entity kinds are not grounds for disqualifying subjects. Use the actual inclusions and exclusions in subjects/scopes/README.md and its linked definitions.
+- The original roster is mapped in research/SCOPE-MAP.md, not retained as a fixed set of peer subjects. Split, narrow, combine, relocate, or withdraw labels when the distinctions require it. Promoting is withdrawn; do not invent a marketing definition or silently substitute Prompting.
 - Is a kind of, is a part of, acts on, creates, represents, and contributes to have different consequences. A documentation nesting does not establish all of them. Cross-references preserve dependencies; they do not repair overlapping sibling definitions.
 - Subjects and their particular purposes still govern custom system design. Source relevance is a starting point for development, not a finished local system.
 - Preserve the original source identity and evidence. Give custom descendants separate identities and purpose-specific objects, operations, results, and criteria. They may diverge, combine families, or add new operations. Do not mistake a renamed source invocation for a custom design.
@@ -43,7 +43,7 @@ Keep persistence proportional to the work. No mandatory per-turn form, transcrip
 
 ## Repository maintenance
 
-The existing group and topic paths preserve earlier work. Do not use them as authority for a new classification or add new topics by closest fit. Keep legacy navigation and the label audit consistent when updating those records. Develop and test substantive definitions before publishing a replacement subject tree as established. A partial derivation can remain partial without an invented catch-all category.
+The existing group and topic paths preserve earlier work. Do not use them as authority for a new classification or add new topics by closest fit. Keep legacy navigation and the label audit consistent when updating those records. The working definitions are in subjects/scopes/. Use them without presenting them as a final ontology. A single specified matter matching two sibling definitions requires repair or a merge; a new matter matching neither requires an explicit scope. Do not call a genuine coupling relation a composite merely to evade its boundary problem.
 
 Existing custom designs retain their local systems/ directories and source links. A later relocation must preserve their actual objects, operations, standing, and provenance. The repository does not require a new general orchestrator or an empty folder for every possible pairing.
 

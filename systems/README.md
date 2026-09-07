@@ -1,5 +1,7 @@
 # Source system families
 
+The current [scope contribution map](../research/SCOPE-SYSTEMS.md) gives precise development directions and maps the ten existing designs. The older subject links below are retained topic addresses, not the current hierarchy.
+
 The linked subject names are retained topic records under the [boundary audit](../research/SUBJECT-AUDIT.md). These source-family profiles and their relevance maps do not establish an exclusive subject taxonomy. The previous functional grouping is rejected; local descendants retain their own design identities.
 
 This is a secondary source index. Begin substantive work from [subjects](../subjects/README.md). Each family is material for custom versions developed under subjects according to the local purpose. The original relevance map is a starting set; it does not limit which family–subject combinations can be developed.

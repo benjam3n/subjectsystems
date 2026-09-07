@@ -1,10 +1,12 @@
 # Knowledge
 
+**Current scoped interpretation:** [A2 — Grounds and consequence](../../../subjects/scopes/accounts.md#a2-grounds-and-consequence); [A5 — Epistemic position](../../../subjects/scopes/accounts.md#a5-epistemic-position); [M1 — Retention and recovery](../../../subjects/scopes/availability.md#m1-retention-and-recovery); [B1 — Usable capability](../../../subjects/scopes/capability.md#b1-usable-capability). Grounds for knowing, represented epistemic position, retained material, and usable grasp are different senses. “Knowledge” alone chooses none of them. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Organization and retention](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

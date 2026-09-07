@@ -1,5 +1,7 @@
 # Design exploration
 
+**Current contribution scopes:** [G3 — General design relations](../../../../subjects/scopes/general.md#g3-general-design-relations); [V2 — Standards of worth](../../../../subjects/scopes/valuation.md#v2-standards-of-worth); [R4 — Resource feasibility](../../../../subjects/scopes/arrangements.md#r4-resource-feasibility). A form–requirement investigation with standards and feasibility contributions. The actual artifact must receive a target-specific construction scope; the generic design specification does not yet supply one for every artifact kind. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Design](../README.md).
 Source families: [SDS](../../../../systems/sds.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.

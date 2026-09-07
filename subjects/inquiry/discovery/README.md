@@ -1,10 +1,12 @@
 # Discovery
 
+**Current scoped interpretation:** [M2 — Discovery increment](../../../subjects/scopes/availability.md#m2-discovery-increment); [A2 — Grounds and consequence](../../../subjects/scopes/accounts.md#a2-grounds-and-consequence); [R3 — Courses and contingencies](../../../subjects/scopes/arrangements.md#r3-courses-and-contingencies). New availability, stronger support, and inquiry continuation are separate contributions. Discovery progress composes them. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Inquiry and discovery](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

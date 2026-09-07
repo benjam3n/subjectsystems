@@ -1,5 +1,7 @@
 # Candidate improvement
 
+**Current contribution scopes:** [V3 — Assessment under a standard](../../../../subjects/scopes/valuation.md#v3-assessment-under-a-standard). A scoped comparison of baseline and revision. Producing the revision requires the target’s construction system; criterion revision adds V2. The generic specification therefore describes a composition that still needs a concrete target. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Improvement](../README.md).
 Source families: [SDS](../../../../systems/sds.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.

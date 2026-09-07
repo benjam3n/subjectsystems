@@ -1,10 +1,12 @@
 # Values
 
+**Current scoped interpretation:** [V2 — Standards of worth](../../../subjects/scopes/valuation.md#v2-standards-of-worth); [V1 — Contextual favoring](../../../subjects/scopes/valuation.md#v1-contextual-favoring). Reasons and standards of worth use V2. What a person actually values as a descriptive preference uses V1. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Direction and choice](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

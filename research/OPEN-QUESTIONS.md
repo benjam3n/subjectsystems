@@ -5,12 +5,12 @@ These are live research and source questions. The list is open; the next importa
 ## Source and organization
 
 1. Which exact artifact defines the Master Framework, and which version is intended?
-2. What is the classified thing at the top of the hierarchy, and which membership conditions make its alternative branches exclusive? Promoting is withdrawn, not an obligatory category awaiting a definition.
-3. Which exact senses of Connections and Improvement can define subjects with exclusive boundaries, and which instead describe relations or properties of things classified elsewhere?
+2. Which real, fully specified matter would defeat the current scope boundaries by satisfying two sibling definitions? The classified unit and first definitions now exist; Promoting remains withdrawn.
+3. Which new result can be established within G1 relation predicates/composition or V3 comparative improvement, and which condition limits its transfer? Their working scopes are now defined.
 4. Which evaluation questions are clarified by distributing them, and which become harder to find?
 5. Which source contributions remain invisible when the collection is approached through these subject entries?
-6. Which apparent overlap concerns the same classified item, and which concerns different constituents, representations, operations, or roles that have been conflated?
-7. When should a branch become a peer subject rather than a narrower inquiry?
+6. Which single coupling relation requires a new scope, and which apparent overlap is several independently determinable matters within one task?
+7. When does a proposed refinement establish an exclusive division, and when should it remain a partial narrower investigation within its parent?
 8. Which generated or reconstructed source claims have mistakenly acquired the authority of direct observations or user decisions?
 9. Which artifact matches the user's remembered second method for planning years ahead?
 

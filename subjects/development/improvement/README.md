@@ -1,10 +1,12 @@
 # Improvement
 
+**Current scoped interpretation:** [V3 — Assessment under a standard](../../../subjects/scopes/valuation.md#v3-assessment-under-a-standard). A comparison under a specified standard. It does not own the operation or learning that caused a change. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Learning and improvement](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Proposed subject. Scope and branches below are starting proposals, not an exhaustive theory.
 

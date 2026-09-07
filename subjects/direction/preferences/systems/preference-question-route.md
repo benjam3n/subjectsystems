@@ -1,5 +1,7 @@
 # Preference question route
 
+**Current contribution scopes:** [V1 — Contextual favoring](../../../../subjects/scopes/valuation.md#v1-contextual-favoring); [R3 — Courses and contingencies](../../../../subjects/scopes/arrangements.md#r3-courses-and-contingencies); [Q1 — Question specification](../../../../subjects/scopes/questions.md#q1-question-specification). A contextual preference distinction, answer-dependent course, and explicit question specifications. The route is not placed inside Preferences simply because its questions concern preferences. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Preferences](../README.md).
 Source families: [QuestionRoute](../../../../systems/questionroute.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.

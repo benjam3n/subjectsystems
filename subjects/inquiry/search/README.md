@@ -1,10 +1,12 @@
 # Search
 
+**Current scoped interpretation:** [G2 — General intellectual operations](../../../subjects/scopes/general.md#g2-general-intellectual-operations); [M1 — Retention and recovery](../../../subjects/scopes/availability.md#m1-retention-and-recovery). General exploration or recovery of retained material; target-specific candidate work follows its actual matter. Search can include generation and is not Creativity’s exclusive peer. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Inquiry and discovery](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

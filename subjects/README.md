@@ -1,23 +1,21 @@
 # Subject work
 
-The current requirement is distinguishable subjects with non-overlapping sibling categories. The previous eight groups were based on shared contribution and are rejected as the subject classification.
+A subject is a specified matter of consideration. Begin with the [scope hierarchy and definitions](scopes/README.md): each scope states what its answer must settle, what belongs elsewhere, a difficult case, and the next substantive result.
 
-## Current derivation
-
-| Work | Result |
+| Entry | Use |
 |---|---|
-| [Distinguishing subjects](../DISTINCTIONS.md) | Defines the membership requirement and separates the classified object from operations, properties, roles, and containing work |
-| [Auditing the earlier labels](../research/SUBJECT-AUDIT.md) | Examines every legacy entry instead of preserving the original list as a fixed set of peers |
-| [Recording the correction](../decisions/0005-non-overlapping-subjects.md) | Replaces the shared-work rule and withdraws the undefined Promoting entry |
+| [Scope hierarchy](scopes/README.md) | Current working parents, precise scopes, and narrower investigations |
+| [All earlier labels mapped](../research/SCOPE-MAP.md) | Why a label was narrowed, split, merged, treated as a programme, or withdrawn |
+| [Reviewed boundary cases](../cases/subject-boundaries.md) | Concrete exclusions, a repaired collision, and limits of coverage |
+| [System contributions](../research/SCOPE-SYSTEMS.md) | Actual contributions of ten local designs and development directions for 21 source families |
+| [Definition of a subject](../DISTINCTIONS.md) | Scope membership, containment, and the distinction between a matter and its container |
 
-Questions is a candidate subject matter; question creation is a particular operation concerning it. General creation is not contained wholly within Questions. A question, its written expression, an act of asking it, and a workflow that creates it must not be silently treated as the same classified unit. The boundary analysis develops this example and a limited exclusive partition of changes to question records.
+Questions covers question specification and answer fit. Creation of questions is a narrower investigation within question specification. Planning and Strategy share course structure. Improvement is comparative assessment under a stated standard. These are defined relationships, not memberships chosen by relevance.
 
-These results establish a requirement and clarify concrete distinctions. They do not yet supply a complete exclusive taxonomy. No new set of broad umbrella names is adopted in its place.
+The current model is an implemented working proposal derived from the user's direction, not a claim to classify every possible subject. Whole projects can coordinate several scopes. A new single matter that fits none of the definitions needs a new scope; one fitting two sibling definitions requires repair.
 
-## Retained material
+## Retained work
 
-The [earlier topic navigation](LEGACY.md) preserves access to all existing pages and custom systems. Those folders are legacy addresses, not an endorsed hierarchy. Every entry is also linked in the complete audit, with its specific boundary issue.
+The [legacy navigation](LEGACY.md) keeps the old topic pages, evidence, and design specifications retrievable. Their old group folders have no taxonomic authority. Each topic now links to its scoped interpretation, and each local design links to the contribution map. Files have not been repeatedly moved to simulate conceptual progress.
 
-[Questions](inquiry/questions/README.md), [Goals](direction/goals/README.md), and the other topic pages retain their substantive inquiries. Their old placement does not decide their eventual parent, scope, or rank. The existing custom systems keep their local design identities and source lineage while their subject boundaries are reconsidered.
-
-Promoting is withdrawn, not an obligatory unresolved category to invent a meaning for. Its [record](unplaced/promoting/README.md) explains the earlier unsupported interpretation.
+Promoting remains withdrawn. Education and Collaboration remain excluded as standalone subjects. The treatment of the reconsidered names is explicit in the label map.

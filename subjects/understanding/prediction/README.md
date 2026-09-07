@@ -1,10 +1,12 @@
 # Prediction
 
+**Current scoped interpretation:** [A4 — Predictive relations](../../../subjects/scopes/accounts.md#a4-predictive-relations). The forecast–outcome relation, distinct from explanatory structure and grounds for acceptance. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Reasoning and understanding](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

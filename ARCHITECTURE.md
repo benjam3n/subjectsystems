@@ -1,64 +1,57 @@
-# Architecture of distinguishable subjects
+# Architecture
 
-## Classification requirement
+The primary hierarchy contains **scopes of consideration**. The secondary structure contains systems that develop results within those scopes, and compositions that coordinate distinct results. Source families retain their own identities and supply material for those systems.
 
-The intellectual hierarchy must distinguish its subjects through explicit definitions. At a division into alternative child classes, the same classified item cannot satisfy two sibling definitions in the same respect and context. Each child must satisfy its parent's definition. Exhaustive coverage is a separate claim that requires every in-scope case to be accounted for.
+## Scope containment
 
-The eight shared-work groups do not meet that requirement. They allowed the same topic to contribute to several groups and then selected a main home. Those groups now serve only as legacy navigation to retained content. They are not the current subject classification.
+Each leaf in the [scope model](subjects/scopes/README.md) defines what an answer must determine, including exclusions. Parent scopes denote the union of their named children. Narrower investigations can be developed within a scope without pretending they exhaust it.
 
-The original list also mixed an object, an operation, a property, a contextual role, and an activity containing other activities. These distinctions expose failures in that list; they are not themselves declared a finished partition of everything. See [DISTINCTIONS.md](DISTINCTIONS.md) and the [complete label audit](research/SUBJECT-AUDIT.md).
+Creating questions is an investigation within question specification. This asserts containment of subject matter, not that a creation event is a kind of question. A subject may study an object, process, property, relation, or possibility.
 
-## The relation represented by a level
+Alternative branches must not admit the same fully specified matter. Whole documents and projects can contain many matters. Their use of questions, text, reasoning, or resources does not determine membership by itself. The [boundary rule](DISTINCTIONS.md) and [cases](cases/subject-boundaries.md) govern the distinctions; the short group names do not silently broaden the definitions.
 
-| Relation | What it licenses | What it does not establish |
-|---|---|---|
-| Is a kind of | Child membership implies parent membership | That every other useful contribution belongs under this parent |
-| Is a part of | A component belongs to the specified whole | That the component is the same logical kind as the whole |
-| Acts on or creates | An operation concerns or produces a specified target | That the operation is itself that target or a subtype of it |
-| Represents | A form carries specified content | That form and content are one classified item |
-| Supports or contributes to | A stated relation between work and a receiving inquiry | An exclusive taxonomic parent |
-| Has a property or fills a role | A qualified statement about a bearer in context | A mutually exclusive intrinsic kind of that bearer |
+The former eight groups are historical navigation only. Their rejection is not repaired by renaming them. The current model derives narrower scopes, including merges and explicit exclusions, from the actual matters to be considered.
 
-A hierarchy cannot silently alternate these meanings while treating all edges as the same relation. A question-creation system can be developed within Questions without claiming that creation is a kind of question or that all creation belongs there.
+## Different relations in the repository
 
-A whole task that produces a question, a goal, and a plan has several constituents. Its classification cannot be rescued by declaring one output primary. The target units and the containing workflow must first be distinguished. Dependencies and references can connect genuinely distinct units; they cannot repair two sibling definitions that admit the same unit.
-
-## Subjects and their custom systems
-
-The design unit remains subject plus particular purpose plus a locally specified system. Give the system explicit objects, operations, results, standards, and source lineage. Their subject boundaries must be examined rather than inherited from the former group names.
-
-Question creation and goal creation can require different operations and results. A prompt used to create a question is a means used by that local system. The prompt's use does not make the question simultaneously a member of a sibling intrinsic kind called Prompting. If a system creates several kinds of output, retain its distinct components and composition; do not hide them through a main-purpose label.
-
-The ten existing specifications remain at their actual standing: written local designs, not a demonstrated exclusive taxonomy or a general effectiveness result. The [customization rule](CUSTOMIZATION.md) continues to govern their development.
-
-## Preserved source identity
-
-Original sources retain their own identities, versions, and meanings. A local descendant may deliberately change a QuestionRoute route, GOSM gate, TruthFinder challenge, or other native structure when its purpose requires it. Record the change as the descendant's design rather than attributing it to its ancestor.
-
-A source observation keeps its original context. Approval, truth, completion, implementation, and demonstrated benefit remain different claims. A source result can be consumed by later work only with the conditions needed to interpret it correctly.
-
-## Present file layout
-
-| Location | Current role |
+| Relation | Meaning |
 |---|---|
-| subjects/README.md | Entry to the corrected subject work |
-| DISTINCTIONS.md | Membership requirement and worked boundary analysis |
-| research/SUBJECT-AUDIT.md | All earlier labels and their concrete classification issues |
-| subjects/LEGACY.md | Access to the rejected grouping as historical navigation |
-| `subjects/<former-group>/<topic>/` | Legacy addresses of retained substantive material; no endorsed parent classification |
-| `subjects/<former-group>/<topic>/systems/` | Existing local design specifications preserved at their current addresses |
-| subjects/unplaced/promoting/ | Record of the withdrawn label |
-| systems/ | Source-family profiles and links to their local descendants |
-| cases/ | Worked episodes whose observations and interpretations remain distinguishable |
-| research/ | Boundary derivations and other investigations |
-| decisions/ | Established direction, rejected arrangements, and open interpretations |
-| sources/ | Pinned source identities, selected snapshots, and historical reviews |
-| tools/ | Structural navigation and identity checks |
+| Scope contains scope | Every matter admitted by the child is admitted by the parent |
+| System develops a scoped result | The system's specified purpose produces or investigates that kind of result |
+| Composition uses results | A larger task coordinates distinguishable results under their actual conditions |
+| Descendant derives from source | The local design has recorded lineage and identified changes; it retains its own identity |
+| Result supports or enables another result | A particular dependency or contribution, with its conditions stated |
+| File links to another file | Navigation; no further semantic relation follows just from the link |
 
-The replacement subject tree has not yet been derived. The physical legacy addresses preserve retrievability while that intellectual work proceeds. They do not constitute an exception to the non-overlap requirement or a reason to retain a bad category.
+Do not use a composition or a cross-reference to disguise a collision between definitions. If a single coupling relation is missing, define its matter. If two existing scopes admit that same relation, repair or combine them.
 
-## Change and continuation
+## Local systems
 
-A boundary change must reach the affected claims and placements. Preserve independent evidence and useful local work. Rename, split, combine, move, or withdraw a label when the resulting distinction requires it. Neither the original number of topics nor the former group count constrains the answer.
+A local system's purpose determines its objects, operations, results, standards, and continuation. A Questions version of a source operates on requested distinctions and answer conditions; a Goals version operates on intended outcomes and achievement conditions. Shared code or observations are possible without making those designs interchangeable.
 
-Structural checks can establish that retained files and links are present. Definitions, exclusion cases, and reasoning about scope establish whether a proposed division is non-overlapping. These are different kinds of verification.
+The [contribution map](research/SCOPE-SYSTEMS.md) places the actual results of the ten existing specifications. Some designs compose several scopes. Some remain generic and require the target's construction scope. Those gaps are recorded rather than hidden by a source-family label or a folder name.
+
+An ancestor's original procedure remains original. A descendant may deliberately alter operations, conditions, or criteria when its subject requires it; record the change instead of attributing it to the ancestor. See [CUSTOMIZATION.md](CUSTOMIZATION.md).
+
+## Current layout
+
+| Location | Role |
+|---|---|
+| `subjects/scopes/` | Current scope hierarchy and substantive definitions |
+| `research/SCOPE-MAP.md` | Disposition of every earlier label |
+| `research/SCOPE-SYSTEMS.md` | Local design contributions and source-family development directions |
+| `cases/subject-boundaries.md` | Reviewed exclusions, a repaired collision, and coverage limits |
+| `subjects/<former-group>/<topic>/` | Retained topic material with its current scoped interpretation linked |
+| `subjects/<former-group>/<topic>/systems/` | Existing design specifications, operations, and provenance |
+| `systems/` | Source-family profiles and descendant links |
+| `sources/` | Pinned identities, selected snapshots, and historical reviews |
+| `decisions/` | Direction, implementations, corrections, and superseded choices |
+| `tools/` | Structural navigation and source-identity checks |
+
+Physical relocation can follow a demonstrated retrieval need. Another mass move is not needed to make the scope definitions operative. New work should use the current scope model and develop the actual subject rather than infer membership from a legacy path.
+
+## Revision and verification
+
+A changed boundary must reach its affected definitions, label mappings, custom system contributions, and guidance. Preserve independent findings, source identity, and historical evidence.
+
+Navigation checks establish that material is reachable. Boundary arguments address exclusion. Actual use tests a local system's behavior. None certifies the other two. The first scope model is usable and revisable; unrepresented matter remains a reason to develop it, not to invent an all-purpose category.

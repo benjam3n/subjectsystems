@@ -1,10 +1,12 @@
 # Learning
 
+**Current scoped interpretation:** [B2 — Experience-dependent change](../../../subjects/scopes/capability.md#b2-experience-dependent-change). Experience-dependent update and transfer. Whether it improved performance is V3. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Learning and improvement](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

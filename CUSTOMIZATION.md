@@ -1,5 +1,7 @@
 # Systems developed for subjects and purposes
 
+The [current scope model](subjects/scopes/README.md) defines the matters developed. The [contribution map](research/SCOPE-SYSTEMS.md) specifies how existing designs relate to them, including compositions and remaining target-specific gaps.
+
 The current direction is to develop custom versions of the projects for each subject, given what the subject is trying to do. This applies across all project families. An existing project supplies material from which a local system is developed; its relevance alone does not supply the local system.
 
 The design unit is **subject + particular purpose + local system**. A subject can need several versions from the same source for different purposes. A local system can combine several source families or introduce operations absent from all of them.

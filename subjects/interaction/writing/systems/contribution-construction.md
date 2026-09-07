@@ -1,5 +1,7 @@
 # Contribution construction
 
+**Current contribution scopes:** [E1 — Encoding and textual arrangement](../../../../subjects/scopes/expression.md#e1-encoding-and-textual-arrangement). Actual text and its contribution order. If writing develops a new question, inference, or explanation, retain that substantive result in Q1, A2, or A3 as well; do not reduce writing to packaging. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Writing](../README.md).
 Source families: [Reasoningtool2](../../../../systems/reasoningtool2.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.

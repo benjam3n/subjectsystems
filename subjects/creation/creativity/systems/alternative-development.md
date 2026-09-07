@@ -1,5 +1,7 @@
 # Alternative development
 
+**Current contribution scopes:** [G2 — General intellectual operations](../../../../subjects/scopes/general.md#g2-general-intellectual-operations). A specified general exploration design. Its execution produces alternatives in a target scope such as Q1 or P1; changing the target requires local objects and operations, not merely a different label. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Creativity](../README.md).
 Source families: [SDS](../../../../systems/sds.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.

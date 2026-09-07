@@ -1,24 +1,21 @@
 # Next work
 
-The immediate architectural work is deriving explicit, non-overlapping subject boundaries from the [label audit](research/SUBJECT-AUDIT.md) and [boundary analysis](DISTINCTIONS.md). The original topic roster and eight rejected groups do not constrain the result. The Questions/creation example exposes the distinction between the thing concerned and an operation concerning it; the substantive identity of a question remains to be derived.
+The first scope definitions and hierarchy are now in place. The next work should develop a substantive result within them and use actual cases to expose missing or overlapping boundaries.
 
-Custom systems still need development for each subject and particular purpose across the project families. Ten specifications remain available; their standing is recorded in the [customization plan](research/CUSTOMIZATION-PLAN.md). Useful work can continue while boundaries are derived. These tasks can branch or be replaced by a better contribution to the actual request.
-
-| Work | Concrete result | What it resolves or enables |
+| Work | Concrete result | Why it is next |
 |---|---|---|
-| Derive a subject boundary and its alternatives | A defined classified unit, membership conditions, an exclusion argument, and a difficult case that those conditions decide or leave explicitly unresolved | Establishes actual category separation rather than one convenient main home |
-| Derive question identity | Cases where a wording change preserves a question and where changed scope, presuppositions, or answer conditions replace it | Grounds creation versus revision at the level of questions themselves, beyond stable record identifiers |
-| Develop the subject-specific project versions | Local objects, operations, results, criteria, and continuation derived from the actual purpose; source changes identified | Makes the subject determine the system rather than only its placement |
-| Exercise the new specifications | Actual outputs and failure cases at the local purpose, beginning with a needed current task | Distinguishes a written custom design from its demonstrated use |
-| Extend a real selection episode across subjects | Continue the naming and placement case with a later design choice; distinguish observed selection, selected aspect, inferred preference, and requirement | Develops Goals, Preferences, Design, and Judgment beyond a directory arrangement |
-| Investigate contribution selection | A worked case where available ability failed or succeeded in becoming the fitting next contribution, with the operative transition identified | Develops Intelligence, Reasoning, Communication, and Prompting |
-| Develop an answer-dependent inquiry | A live question with materially different continuations for different answers, including an initially unlisted question if it changes the route | Develops Questions and Discovery without reducing them to static lists |
-| Compare frames through a consequential difference | Reconstruct the same material under two frames and retain the new question, inference, or intervention exposed | Develops Representation, Understanding, and Discovery |
-| Resolve Master Framework identity | An exact artifact, repository/path/version, native claims, and justified subject placements | Replaces a named placeholder with evidence or a precise remaining retrieval gap |
-| Reconsider the four disputed categories | Contrasting cases for Integration, Evaluation, Automation, and Self-improvement, including alternative placements | Decides whether Connections and Improvement are useful subjects and whether any previous distinction was merely verbal |
-| Connect one source result to a receiving inquiry | The actual native result, conditions required by the receiver, any translation, and what the receiver changes | Demonstrates a substantive cross-subject use |
-| Revisit an actual correction at recurrence | A later applicable case showing whether the earlier correction changes selection or behavior | Separates recorded lessons from learning in use |
-| Continue the long goal journeys | Branching future work derived from a gained capability and its new possibilities, with exact source recovery for the remembered additional artifact | Keeps the program's ambition larger than recovery and infrastructure |
+| Develop question identity and construction in Q1 | A question-forming local design with cases for wording, referent, presupposition, requested examples, and answer conditions; an actual constructed question and explanation of what is new | This is the user's decisive hierarchy example and a substantive gap beyond record identity |
+| Apply that distinction to a real inquiry | A question whose answer can change the repository's next design choice, followed by the warranted continuation | Demonstrates use of the subject rather than only a written definition |
+| Specialize generic construction designs | The actual target scope and operations for alternative development, design exploration, or candidate improvement in one chosen task | The new map exposes that their generic specifications do not complete every target-specific version |
+| Exercise the existing preference and goal designs | Separately inspectable preference hypotheses, achievement conditions, and criteria from a current decision | Establishes actual contributions and prevents approval, preference, goal, and standard from becoming interchangeable |
+| Follow a correction into a later task | A later result that uses a retained distinction at the consequential point | Tests recovery, attention, and experience-dependent change instead of merely retaining advice |
+| Develop a live conditional course in R3 | Different actual continuations for materially different answers, preserving the question contents in Q1 | Advances the QuestionRoute descendant and the Planning/Strategy shared scope |
+| Examine a genuinely new coupling matter | A precise compatibility or dependency question and a justified new scope or boundary repair if needed | Tests coverage without assigning new work by closest fit |
+| Resolve Master Framework identity | The exact defining artifact and version, or a precise remaining source gap | Enables source-grounded descendants without invented mechanisms |
+
+Source-family customization remains broader than the ten existing designs. The [system map](research/SCOPE-SYSTEMS.md) and [family plan](research/CUSTOMIZATION-PLAN.md) identify those responsibilities. Develop each version from a concrete subject and purpose; do not manufacture an empty matrix of names.
+
+The next boundary check should address a real specified result, especially a coupling question. A single-matter collision warrants changing the definitions. Using several methods or mentioning several objects in one task does not by itself establish overlap.
 
 ## Source-specific engineering work
 
@@ -33,4 +30,4 @@ These are recorded dependencies from the earlier review, not instructions to edi
 
 One actual finding should change a subsequent question, operation, criterion, representation, or decision. Retain enough of the transition to make the changed use inspectable. A source link, new branch, generated answer, or passed structural check alone does not establish that checkpoint.
 
-[Open questions](research/OPEN-QUESTIONS.md) · [Goal journey](GOAL-JOURNEY.md) · [Current state](CURRENT.md)
+[Current scope model](subjects/scopes/README.md) · [Boundary cases](cases/subject-boundaries.md) · [Enduring goals](PURPOSE.md)

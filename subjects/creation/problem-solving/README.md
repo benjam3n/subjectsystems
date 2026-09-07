@@ -1,10 +1,12 @@
 # Problem solving
 
+**Current scoped interpretation:** [R1 — Problem formulation](../../../subjects/scopes/arrangements.md#r1-problem-formulation); [R2 — Remedy adequacy](../../../subjects/scopes/arrangements.md#r2-remedy-adequacy); [R3 — Courses and contingencies](../../../subjects/scopes/arrangements.md#r3-courses-and-contingencies). Formulate the problem, assess a specified remedy, and arrange work. Proof, construction, execution, and evidence retain their own scopes. See the [complete scope mapping](../../../research/SCOPE-MAP.md). The older account below remains development material.
+
 The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
 [Earlier topic navigation](../../LEGACY.md) / [Creation and problem solving](../README.md)
 
-Standing: Legacy topic entry; exclusive category boundaries remain under review.
+Standing: Retained topic material; current defined scopes are linked above. The former folder placement is historical.
 
 Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 

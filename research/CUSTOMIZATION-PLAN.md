@@ -1,5 +1,7 @@
 # Customization development plan
 
+Use the current [scope contribution map](SCOPE-SYSTEMS.md) for the actual determinations developed by these designs. It also exposes the target-specific construction gaps in generic versions. The legacy addresses below preserve the specifications and lineage.
+
 The [non-overlap correction](../decisions/0005-non-overlapping-subjects.md) preserves these local designs while requiring their subject boundaries to be examined. Links into former group folders are legacy addresses, not an endorsed classification. The original topic roster does not limit the eventual subjects or permissible local designs.
 
 Every project family is material for custom systems in the subjects, given the particular work being attempted. The existing map supplies starting purposes. Additional family–subject combinations must remain available; this table is not a closed assignment of projects to topics.

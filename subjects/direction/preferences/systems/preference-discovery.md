@@ -1,5 +1,7 @@
 # Preference discovery
 
+**Current contribution scopes:** [V1 — Contextual favoring](../../../../subjects/scopes/valuation.md#v1-contextual-favoring). An evidence-linked contextual preference account, alternatives, and a discriminating contrast. Use A2 when the support inference itself requires examination. See the [scope contribution map](../../../../research/SCOPE-SYSTEMS.md). The recorded design operations and source lineage below retain their own standing.
+
 Subject: [Preferences](../README.md).
 Source families: [SDS](../../../../systems/sds.md).
 Standing: specified design, version 0.1. Prospective effectiveness is unestablished.
