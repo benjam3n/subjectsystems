@@ -346,6 +346,42 @@
       "scope": "Presentation of represented events and defined responses of specified audiences.",
       "predecessor_scopes": [],
       "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Perspective",
+      "scope": "A specified organization of a matter that makes particular distinctions, representations, inferences or criteria available. Comparisons state what is held fixed.",
+      "predecessor_scopes": [],
+      "standing": "Defined partial scope; exclusive global placement unestablished."
+    },
+    {
+      "name": "Anticipation",
+      "scope": "Represented or inferred expectations of possible later events and their role in preparing, selecting or constructing subsequent activity.",
+      "predecessor_scopes": [],
+      "standing": "Defined partial scope; exclusive global placement unestablished."
+    },
+    {
+      "name": "Uncertainty",
+      "scope": "Unresolved alternatives relative to a specified agent, information state and target, including how their resolution affects work.",
+      "predecessor_scopes": [],
+      "standing": "Defined partial scope; exclusive global placement unestablished."
+    },
+    {
+      "name": "Conflict",
+      "scope": "Specified conditions that cannot jointly be met, and the means or effects of resolving that incompatibility.",
+      "predecessor_scopes": [],
+      "standing": "Defined partial scope; exclusive global placement unestablished."
+    },
+    {
+      "name": "Deviation",
+      "scope": "A specified departure from a reference, with its extent, causes, consequences and attainable quality kept distinct.",
+      "predecessor_scopes": [],
+      "standing": "Defined partial scope; exclusive global placement unestablished."
+    },
+    {
+      "name": "Game",
+      "scope": "Specified participant payoffs and their invariance over an admitted outcome domain.",
+      "predecessor_scopes": [],
+      "standing": "Defined partial scope; exclusive global placement unestablished."
     }
   ],
   "subjects": [
@@ -5026,16 +5062,17 @@
     },
     {
       "id": "shape-orientation-transformation",
-      "name": "Shape orientation transformation",
+      "name": "Shape representation rotation",
       "root": "Shape",
-      "parent": "Shape orientation",
-      "settles": "Determine the result of applying a specified rotation to a represented shape.",
-      "excludes": "A human's mental performance of rotation or arbitrary deformation.",
+      "parent": "Shape representation",
+      "settles": "Determine the representation produced by changing a represented shape's orientation through a specified rotation in a stated frame.",
+      "excludes": "Identifying the mechanism producing the transformation, timing it, or measuring its fidelity.",
       "predecessor_scopes": [],
       "standing": "Defined proposal",
-      "source": "Authored subject definition; Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)",
+      "source": "Meaning-aware revision from the current user note; prior scope preserved in Name Changes.",
       "source_ids": [
-        "ROTATION"
+        "ROTATION",
+        "PERSPECTIVE_NOTE"
       ],
       "broader_subjects": []
     },
@@ -5071,16 +5108,17 @@
     },
     {
       "id": "shape-representation-mental-rotation",
-      "name": "Shape representation mental rotation",
+      "name": "Shape representation rotation mechanism",
       "root": "Shape",
       "parent": "Shape representation",
-      "settles": "Determine how an agent changes an internally represented shape's orientation in a specified task.",
-      "excludes": "The mathematical rotation operation alone or a claim that all matching uses this mechanism.",
+      "settles": "Identify the operations or physical processes producing a specified rotation of a shape representation in an identified implementation.",
+      "excludes": "Merely calculating the rotated representation or inferring a unique mechanism from total response time alone.",
       "predecessor_scopes": [],
       "standing": "Defined proposal",
-      "source": "Authored subject definition; Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)",
+      "source": "Meaning-aware revision from the current user note; prior scope preserved in Name Changes.",
       "source_ids": [
-        "ROTATION"
+        "ROTATION",
+        "PERSPECTIVE_NOTE"
       ],
       "broader_subjects": []
     },
@@ -5980,7 +6018,892 @@
         "USER"
       ],
       "broader_subjects": []
+    },
+    {
+      "id": "perspective-representation-construction",
+      "name": "Perspective representation construction",
+      "root": "Perspective",
+      "parent": "Perspective representation",
+      "settles": "Construct a specified organization of a matter that exposes selected distinctions and operations.",
+      "excludes": "Changing only terminology without a consequential representational change.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-representation-omission",
+      "name": "Perspective representation omission",
+      "root": "Perspective",
+      "parent": "Perspective representation",
+      "settles": "Determine which consequential distinctions of the target matter a specified perspective leaves unavailable.",
+      "excludes": "Proving the perspective useless for every task.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-representation-equivalence",
+      "name": "Perspective representation equivalence",
+      "root": "Perspective",
+      "parent": "Perspective representation",
+      "settles": "Determine whether two specified perspectives preserve the same discriminations and licensed transitions on a declared case domain.",
+      "excludes": "Literal wording identity or a claim of equivalent implementation cost.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-consequence-accessibility",
+      "name": "Perspective consequence accessibility",
+      "root": "Perspective",
+      "parent": "Perspective consequence",
+      "settles": "Determine which consequences an agent can derive using a specified perspective under stated resources.",
+      "excludes": "Consequences merely true in the world or present in an inaccessible representation.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-change-contribution",
+      "name": "Perspective change contribution",
+      "root": "Perspective",
+      "parent": "Perspective change",
+      "settles": "Determine what changing a perspective adds to a specified inquiry or performance with the target and success standard fixed.",
+      "excludes": "Improvement produced only by replacing the goal or grading rule.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-change-criterion-drift",
+      "name": "Perspective change criterion drift",
+      "root": "Perspective",
+      "parent": "Perspective change",
+      "settles": "Determine whether a changed verdict follows from a changed evaluative rule rather than a changed representation of the same matter.",
+      "excludes": "Judging the new criterion illegitimate simply because it changed.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-scope-applicability",
+      "name": "Perspective scope applicability",
+      "root": "Perspective",
+      "parent": "Perspective scope",
+      "settles": "Determine whether a perspective's required distinctions and assumptions can be instantiated in a specified new matter.",
+      "excludes": "Proving explanatory adequacy or equivalent empirical mechanisms.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-scope-extension",
+      "name": "Perspective scope extension",
+      "root": "Perspective",
+      "parent": "Perspective scope",
+      "settles": "Construct a justified application of a perspective to a matter outside its previously recorded use domain.",
+      "excludes": "Declaring every subject an instance by redefining the terms after the fact.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-scope-coverage",
+      "name": "Perspective scope coverage",
+      "root": "Perspective",
+      "parent": "Perspective scope",
+      "settles": "Determine which matters in a declared domain a perspective can address under a specified adequacy requirement.",
+      "excludes": "Worldwide pervasiveness inferred from a few examples.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-scope-limitation",
+      "name": "Perspective scope limitation",
+      "root": "Perspective",
+      "parent": "Perspective scope",
+      "settles": "Identify a specified question or distinction the perspective cannot resolve under its stated assumptions.",
+      "excludes": "A failure caused only by missing resources outside those assumptions.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-selection",
+      "name": "Perspective selection",
+      "root": "Perspective",
+      "parent": "Perspective",
+      "settles": "Choose a perspective for a specified inquiry from stated candidates under a declared selection rule.",
+      "excludes": "Constructing a missing perspective or establishing that the selected one is universally best.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-comparison-admissibility",
+      "name": "Perspective comparison admissibility",
+      "root": "Perspective",
+      "parent": "Perspective comparison",
+      "settles": "Specify which perspectives are admitted to a comparison and why each belongs to that set.",
+      "excludes": "A conclusion quantified over every imaginable preference or goal.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-outcome-expectation",
+      "name": "Anticipation outcome expectation",
+      "root": "Anticipation",
+      "parent": "Anticipation outcome",
+      "settles": "Determine what an agent expects may occur at a stated later point, including uncertainty when represented.",
+      "excludes": "A verbal forecast, a desired outcome, or readiness inferred without evidence.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-outcome-correspondence",
+      "name": "Anticipation outcome correspondence",
+      "root": "Anticipation",
+      "parent": "Anticipation outcome",
+      "settles": "Determine how a recorded or operationally specified earlier expectation relates to the later observed outcome.",
+      "excludes": "Independent predictive accuracy when the expectation itself changes the outcome.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-action-dependence",
+      "name": "Anticipation action dependence",
+      "root": "Anticipation",
+      "parent": "Anticipation action",
+      "settles": "Determine how expected later consequences differ under specified alternative actions.",
+      "excludes": "Selecting an action or treating conditional possibilities as equally believed forecasts.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-preparation-selection",
+      "name": "Anticipation preparation selection",
+      "root": "Anticipation",
+      "parent": "Anticipation preparation",
+      "settles": "Choose what to prepare now in view of specified possible later conditions.",
+      "excludes": "Accurately forecasting which condition will occur or asserting a future claim.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-response-construction",
+      "name": "Anticipation response construction",
+      "root": "Anticipation",
+      "parent": "Anticipation response",
+      "settles": "Construct a prospective response contribution from the anticipated conversation conditions and unresolved matter.",
+      "excludes": "Retrospectively explaining a response already produced.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-continuation-construction",
+      "name": "Anticipation continuation construction",
+      "root": "Anticipation",
+      "parent": "Anticipation continuation",
+      "settles": "Construct a possible subsequent exchange by using an anticipated response as input to a further anticipated prompt or response.",
+      "excludes": "A single forecast with no continued interaction or fabricated observed dialogue.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-continuation-exclusion",
+      "name": "Anticipation continuation exclusion",
+      "root": "Anticipation",
+      "parent": "Anticipation continuation",
+      "settles": "Construct a continuation that preserves the unresolved matter while excluding a specified anticipated way of proceeding.",
+      "excludes": "Irrelevance, random text, or banning the same operation in every later task.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-influence-attribution",
+      "name": "Anticipation influence attribution",
+      "root": "Anticipation",
+      "parent": "Anticipation influence",
+      "settles": "Determine how expressing or using an anticipation changes later activity or outcomes.",
+      "excludes": "Treating a deliberately fulfilled anticipation as independent predictive validation.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-outcome-expectation-revision",
+      "name": "Anticipation outcome expectation revision",
+      "root": "Anticipation",
+      "parent": "Anticipation outcome",
+      "settles": "Change what an agent expects will occur in response to an identified consequential difference.",
+      "excludes": "Changing only the preparation while the expectation stays fixed, or erasing the prior expectation.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "anticipation-preparation-revision",
+      "name": "Anticipation preparation revision",
+      "root": "Anticipation",
+      "parent": "Anticipation preparation",
+      "settles": "Change a specified preparation in view of an identified difference in later conditions or available means.",
+      "excludes": "Changing only the estimated likelihood without changing the preparation.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-claim-expression",
+      "name": "Prediction claim expression",
+      "root": "Prediction",
+      "parent": "Prediction claim",
+      "settles": "Express a claim about a specified future or unknown outcome with its scope and epistemic force explicit.",
+      "excludes": "Having an unexpressed expectation, estimating a hidden current state, or preparing for an outcome.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "model-state-estimation",
+      "name": "Model state estimation",
+      "root": "Model",
+      "parent": "Model state",
+      "settles": "Determine a model's estimate or distribution over an unobserved state from specified observations and assumptions.",
+      "excludes": "A claim about a future event or proof that a biological system implements the model.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "uncertainty-alternative-specification",
+      "name": "Uncertainty alternative specification",
+      "root": "Uncertainty",
+      "parent": "Uncertainty alternative",
+      "settles": "Specify the unresolved alternatives for a defined target relative to an information state.",
+      "excludes": "Assigning probabilities without a basis or confusing uncertainty with unspecified wording.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "uncertainty-source-attribution",
+      "name": "Uncertainty source attribution",
+      "root": "Uncertainty",
+      "parent": "Uncertainty source",
+      "settles": "Determine which missing observations, ambiguous representations or model assumptions sustain a specified uncertainty.",
+      "excludes": "Assuming every uncertainty can be removed by collecting more data.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "uncertainty-decision-sensitivity",
+      "name": "Uncertainty decision sensitivity",
+      "root": "Uncertainty",
+      "parent": "Uncertainty decision",
+      "settles": "Determine which unresolved differences would change a specified choice under fixed decision conditions.",
+      "excludes": "Requiring every uncertainty to be resolved before acting.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "uncertainty-reduction-intervention-selection",
+      "name": "Uncertainty reduction intervention selection",
+      "root": "Uncertainty",
+      "parent": "Uncertainty reduction",
+      "settles": "Choose an observation or transformation expected to distinguish specified live alternatives under stated costs.",
+      "excludes": "Seeking information that cannot affect the unresolved matter.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "uncertainty-reduction-attainability",
+      "name": "Uncertainty reduction attainability",
+      "root": "Uncertainty",
+      "parent": "Uncertainty reduction",
+      "settles": "Determine whether specified uncertainty can be reduced using the admissible observations or operations.",
+      "excludes": "Worldwide unknowability inferred from failure of the current method.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "conflict-incompatibility-specification",
+      "name": "Conflict incompatibility specification",
+      "root": "Conflict",
+      "parent": "Conflict incompatibility",
+      "settles": "Specify which identified demands, states or commitments cannot jointly be satisfied under stated constraints.",
+      "excludes": "Treating disagreement in language as proof of incompatible outcomes.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "conflict-resolution-condition",
+      "name": "Conflict resolution condition",
+      "root": "Conflict",
+      "parent": "Conflict resolution",
+      "settles": "Specify what change would count as resolving an identified incompatibility.",
+      "excludes": "Merely suppressing its expression or assuming one party must lose.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "conflict-resolution-method-selection",
+      "name": "Conflict resolution method selection",
+      "root": "Conflict",
+      "parent": "Conflict resolution",
+      "settles": "Choose a method for resolving a specified incompatibility under identified constraints.",
+      "excludes": "Creating the method or proving that its execution resolved the conflict.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "conflict-resolution-method-creation",
+      "name": "Conflict resolution method creation",
+      "root": "Conflict",
+      "parent": "Conflict resolution",
+      "settles": "Construct a method for changing the conditions producing a specified incompatibility.",
+      "excludes": "Inventing a new method name without executable changes.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "conflict-resolution-method-applicability",
+      "name": "Conflict resolution method applicability",
+      "root": "Conflict",
+      "parent": "Conflict resolution",
+      "settles": "Determine whether a proposed resolution method's operating conditions hold in a specified conflict.",
+      "excludes": "Its desirability to every participant or its observed effectiveness.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "conflict-resolution-effect-attribution",
+      "name": "Conflict resolution effect attribution",
+      "root": "Conflict",
+      "parent": "Conflict resolution",
+      "settles": "Determine which changes in the incompatibility are attributable to a specified resolution attempt.",
+      "excludes": "Success inferred only from agreement with the method's name or from silence.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "deviation-reference-specification",
+      "name": "Deviation reference specification",
+      "root": "Deviation",
+      "parent": "Deviation reference",
+      "settles": "Specify the reference state, rule or pattern from which a departure is being considered.",
+      "excludes": "Calling the reference desirable or treating customary behavior as obligatory.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "deviation-extent-determination",
+      "name": "Deviation extent determination",
+      "root": "Deviation",
+      "parent": "Deviation extent",
+      "settles": "Determine the amount or structure of a departure under a specified difference relation.",
+      "excludes": "Its beneficial effect, creativity or unusualness in a population.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "deviation-cause-attribution",
+      "name": "Deviation cause attribution",
+      "root": "Deviation",
+      "parent": "Deviation cause",
+      "settles": "Determine what produced a specified departure from its reference under stated causal assumptions.",
+      "excludes": "Whether the departure was beneficial or intentionally chosen.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "deviation-effect-comparison",
+      "name": "Deviation effect comparison",
+      "root": "Deviation",
+      "parent": "Deviation effect",
+      "settles": "Determine how a specified departure changes the relevant outcomes under a fixed comparison standard.",
+      "excludes": "The distance from the reference or its rarity.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "deviation-effect-robustness",
+      "name": "Deviation effect robustness",
+      "root": "Deviation",
+      "parent": "Deviation effect",
+      "settles": "Determine whether a departure's comparative effect persists across a declared set of conditions or evaluative perspectives.",
+      "excludes": "Benefit for an unrestricted set of all conceivable goals.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "deviation-optimality-condition-derivation",
+      "name": "Deviation optimality condition derivation",
+      "root": "Deviation",
+      "parent": "Deviation optimality",
+      "settles": "Derive conditions under which a departure attains the best permitted result in a specified formal model.",
+      "excludes": "Evidence that an actual agent attained that result or that the model covers reality completely.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "deviation-optimality-case-determination",
+      "name": "Deviation optimality case determination",
+      "root": "Deviation",
+      "parent": "Deviation optimality",
+      "settles": "Determine whether a particular departure attains the specified optimum under the actual case's admitted alternatives and evidence.",
+      "excludes": "Optimality in a model whose relevant assumptions fail in the case.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "deviation-optimality-attainability",
+      "name": "Deviation optimality attainability",
+      "root": "Deviation",
+      "parent": "Deviation optimality",
+      "settles": "Determine whether any feasible departure attains the stipulated optimum or all required criteria jointly.",
+      "excludes": "Assuming a supremum is attained or incomparable objectives share one best item.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "comparison-alternative-dominance",
+      "name": "Comparison alternative dominance",
+      "root": "Comparison",
+      "parent": "Comparison alternative",
+      "settles": "Determine whether one alternative is no worse on every specified criterion and better on at least one.",
+      "excludes": "A weighted average concealing a loss or superiority under every possible criterion.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": [
+        "Comparison result ordering"
+      ]
+    },
+    {
+      "id": "comparison-alternative-robust-dominance",
+      "name": "Comparison alternative robust dominance",
+      "root": "Comparison",
+      "parent": "Comparison alternative",
+      "settles": "Determine whether a dominance relation holds under every admitted scenario with its strictness rule stated.",
+      "excludes": "Dominance established only after averaging scenarios or changing criteria.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": [
+        "Comparison alternative dominance"
+      ]
+    },
+    {
+      "id": "resource-use-avoidable-cost",
+      "name": "Resource use avoidable cost",
+      "root": "Resource",
+      "parent": "Resource use",
+      "settles": "Determine the excess resources consumed relative to an available feasible alternative meeting the same specified result standard.",
+      "excludes": "Declaring creative exploration wasteful solely because a cheaper familiar answer existed.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "game-payoff-sum-invariance",
+      "name": "Game payoff sum invariance",
+      "root": "Game",
+      "parent": "Game payoff",
+      "settles": "Determine whether the sum of specified participant payoffs is constant across all admitted outcomes under a fixed payoff representation.",
+      "excludes": "A single tradeoff between two choices or an invariant sum under arbitrarily changed scales.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-name-scope-underdetermination",
+      "name": "Subject name scope underdetermination",
+      "root": "Subject",
+      "parent": "Subject name",
+      "settles": "Determine which consequential parts of a subject's scope its name and available definition leave unspecified.",
+      "excludes": "Multiple fully specified meanings, which are recorded as ambiguity instead.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-name-origin-reconstruction",
+      "name": "Subject name origin reconstruction",
+      "root": "Subject",
+      "parent": "Subject name",
+      "settles": "Reconstruct how a specified subject label acquired its recorded wording and referent from available historical evidence.",
+      "excludes": "Inventing a psychological motive for the name's author.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-name-persistence-cause",
+      "name": "Subject name persistence cause",
+      "root": "Subject",
+      "parent": "Subject name",
+      "settles": "Determine what sustains a subject label's continued use despite identified scope defects.",
+      "excludes": "Assuming familiarity, authority or convenience is the cause without evidence.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-name-substitution-effect",
+      "name": "Subject name substitution effect",
+      "root": "Subject",
+      "parent": "Subject name",
+      "settles": "Determine how replacing a subject label changes the inferences, questions or operations people actually perform with fixed underlying content.",
+      "excludes": "An asserted improvement based only on liking the new wording.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-precision-requirement",
+      "name": "Expression precision requirement",
+      "root": "Expression",
+      "parent": "Expression precision",
+      "settles": "Specify which distinctions an expression must preserve for a particular use to be adequate.",
+      "excludes": "Demanding maximal detail in every context or confusing brevity with imprecision.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-account-operational-content",
+      "name": "Explanation account operational content",
+      "root": "Explanation",
+      "parent": "Explanation account",
+      "settles": "Identify the specified variables, relations or transformations by which an account explains its target and the choices it leaves unspecified.",
+      "excludes": "Treating the title of a theory as its mechanism or requiring every explanation to be a software procedure.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-active-content-interference",
+      "name": "Memory active content interference",
+      "root": "Memory",
+      "parent": "Memory active content",
+      "settles": "Determine how specified competing material changes the usability of active task content.",
+      "excludes": "Interference only during retrieval of long-term records.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "WM_BRANCH"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-active-content-interference-control",
+      "name": "Memory active content interference control",
+      "root": "Memory",
+      "parent": "Memory active content",
+      "settles": "Determine which operations preserve active task content against specified competing material and under what conditions.",
+      "excludes": "The occurrence of interference or a claim that a named circuit necessarily implements control.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "WM_BRANCH"
+      ],
+      "broader_subjects": [
+        "Memory active content maintenance"
+      ]
+    },
+    {
+      "id": "memory-active-content-binding",
+      "name": "Memory active content binding",
+      "root": "Memory",
+      "parent": "Memory active content",
+      "settles": "Determine how elements of active task content are associated into a usable structure under stated conditions.",
+      "excludes": "Permanent associations in storage or a universal requirement that every active representation is bound this way.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "WM_BRANCH"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-active-content-external-support-dependence",
+      "name": "Memory active content external support dependence",
+      "root": "Memory",
+      "parent": "Memory active content",
+      "settles": "Determine how active-content performance changes when specified external support is available or removed.",
+      "excludes": "Assuming every working-memory task must exclude all external support.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "WM_BRANCH"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-active-content-persistence-duration",
+      "name": "Memory active content persistence duration",
+      "root": "Memory",
+      "parent": "Memory active content",
+      "settles": "Determine how long specified active content remains usable under stated interference and support conditions.",
+      "excludes": "A fixed universal lifetime or proof that time alone causes loss.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored precise subject from the current perspective investigation.",
+      "source_ids": [
+        "WM_BRANCH"
+      ],
+      "broader_subjects": []
     }
   ],
-  "integration_review": "research/type-relations/subject-integration.json"
+  "integration_review": "research/type-relations/subject-integration.json",
+  "perspective_review": {
+    "basis_commit": "a87e4eb54db692e50a106f061b3ff2499a5b25ee",
+    "added_subjects": 58,
+    "name_changes": [
+      "P01",
+      "P02"
+    ],
+    "data": "perspective-investigation.json"
+  }
 }

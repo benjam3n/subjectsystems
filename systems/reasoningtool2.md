@@ -30,6 +30,7 @@ These entries are source lineage and starting points for customization. They are
 
 | Local system | Subject | Standing |
 |---|---|---|
+| [Approach selection](../subjects/understanding/reasoning/systems/approach-selection.md) | [Reasoning](../subjects/understanding/reasoning/README.md) | Custom v0.1; executed on the shape rotation naming case, general effectiveness unestablished |
 | [Contribution construction](../subjects/interaction/writing/systems/contribution-construction.md) | [Writing](../subjects/interaction/writing/README.md) | Specified v0.1; prospective effectiveness unestablished |
 
 This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).

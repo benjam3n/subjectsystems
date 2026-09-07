@@ -1,6 +1,6 @@
 # Source system families
 
-The current [scope contribution map](../research/SCOPE-SYSTEMS.md) gives precise development directions and maps the ten existing designs. The older subject links below are retained topic addresses, not the current hierarchy.
+The current [scope contribution map](../research/SCOPE-SYSTEMS.md) gives precise development directions and maps the eleven existing designs. The older subject links below are retained topic addresses, not the current hierarchy.
 
 The linked subject names are retained topic records under the [boundary audit](../research/SUBJECT-AUDIT.md). These source-family profiles and their relevance maps do not establish an exclusive subject taxonomy. The previous functional grouping is rejected; local descendants retain their own design identities.
 

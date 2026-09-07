@@ -52,7 +52,7 @@ for c in atlas['coverage']:
 (DATA/'DOMAIN-TRANSLATIONS.md').write_text('\n'.join(out))
 
 out=['# Subject requirements\n',
-     'A requirement is a scoped proposition. It is not automatically an earlier operation. Necessary case specification, successful operation conditions, quality conditions, method prerequisites, justification requirements, and conditions under study have different force. These 39 records are an examined subset; requirements for every catalog subject are not yet exhaustively derived.\n',
+     f'A requirement is a scoped proposition. It is not automatically an earlier operation. Necessary case specification, successful operation conditions, quality conditions, method prerequisites, justification requirements, and conditions under study have different force. These {len(atlas["requirements"])} records are an examined subset; requirements for every catalog subject are not yet exhaustively derived.\n',
      table(['Subject','Requirement kind','Condition','When','Scope','Related subject','Reason'],[(r['subject'],r['kind'],r['condition'],r['timing'],r['scope'],r['related_subject'],r['reason']) for r in atlas['requirements']]),
      '## Separating cases\n',table(['Case','Situation','Consequence'],[(r['case'],r['situation'],r['consequence']) for r in atlas['requirement_cases']]),
      '[Integration argument](INTEGRATION.md) · [Current catalog](../../subjects/scopes/NAMES.md)\n']

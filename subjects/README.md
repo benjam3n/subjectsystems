@@ -9,7 +9,7 @@ A subject is a specified matter of consideration. Begin with the [scope hierarch
 | [Scope hierarchy](scopes/README.md) | Current working parents, precise scopes, and narrower investigations |
 | [All earlier labels mapped](../research/SCOPE-MAP.md) | Why a label was narrowed, split, merged, treated as a programme, or withdrawn |
 | [Reviewed boundary cases](../cases/subject-boundaries.md) | Concrete exclusions, a repaired collision, and limits of coverage |
-| [System contributions](../research/SCOPE-SYSTEMS.md) | Actual contributions of ten local designs and development directions for 21 source families |
+| [System contributions](../research/SCOPE-SYSTEMS.md) | Actual contributions of eleven local designs and development directions for 21 source families |
 | [Definition of a subject](../DISTINCTIONS.md) | Scope membership, containment, and the distinction between a matter and its container |
 
 Questions covers question specification and answer fit. Creation of questions is a narrower investigation within question specification. Planning and Strategy share course structure. Improvement is comparative assessment under a stated standard. These are defined relationships, not memberships chosen by relevance.

@@ -1,0 +1,139 @@
+{
+  "standing": "Authored finite mathematical example; all payoffs are stipulated, not measurements of people.",
+  "dominance_rule": "No worse on every admitted criterion and strictly better on at least one.",
+  "dominance_pairs": [
+    [
+      "unused",
+      "damaging_conflict"
+    ],
+    [
+      "chaotic_sharing",
+      "unused"
+    ],
+    [
+      "chaotic_sharing",
+      "damaging_conflict"
+    ],
+    [
+      "scheduled_use",
+      "unused"
+    ],
+    [
+      "scheduled_use",
+      "damaging_conflict"
+    ],
+    [
+      "scheduled_use",
+      "chaotic_sharing"
+    ],
+    [
+      "exclusive_a",
+      "unused"
+    ],
+    [
+      "exclusive_a",
+      "damaging_conflict"
+    ],
+    [
+      "exclusive_b",
+      "unused"
+    ],
+    [
+      "exclusive_b",
+      "damaging_conflict"
+    ]
+  ],
+  "nondominated": [
+    "scheduled_use",
+    "exclusive_a",
+    "exclusive_b"
+  ],
+  "jointly_best": [],
+  "criterion_maxima": [
+    6,
+    6
+  ],
+  "payoff_totals": {
+    "unused": 0,
+    "damaging_conflict": -2,
+    "chaotic_sharing": 4,
+    "scheduled_use": 8,
+    "exclusive_a": 6,
+    "exclusive_b": 6
+  },
+  "full_domain_constant_sum": false,
+  "restricted_domain": [
+    "exclusive_a",
+    "exclusive_b"
+  ],
+  "restricted_domain_constant_sum": true,
+  "baseline_comparisons": [
+    {
+      "id": "unused",
+      "changes": [
+        -2,
+        -2
+      ],
+      "relations": [
+        "worse",
+        "worse"
+      ]
+    },
+    {
+      "id": "damaging_conflict",
+      "changes": [
+        -3,
+        -3
+      ],
+      "relations": [
+        "worse",
+        "worse"
+      ]
+    },
+    {
+      "id": "chaotic_sharing",
+      "changes": [
+        0,
+        0
+      ],
+      "relations": [
+        "equal",
+        "equal"
+      ]
+    },
+    {
+      "id": "scheduled_use",
+      "changes": [
+        2,
+        2
+      ],
+      "relations": [
+        "better",
+        "better"
+      ]
+    },
+    {
+      "id": "exclusive_a",
+      "changes": [
+        4,
+        -2
+      ],
+      "relations": [
+        "better",
+        "worse"
+      ]
+    },
+    {
+      "id": "exclusive_b",
+      "changes": [
+        -2,
+        4
+      ],
+      "relations": [
+        "worse",
+        "better"
+      ]
+    }
+  ],
+  "input_sha256": "2e0170402c834c9340850be46b4279a5e12d77938e7781349f73f48e16161896"
+}

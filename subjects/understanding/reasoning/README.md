@@ -43,6 +43,7 @@ The subject and the particular purpose determine each local system. The source m
 
 | Local system | Purpose | Standing |
 |---|---|---|
+| [Approach selection](systems/approach-selection.md) | Choose an approach for a precise naming or scope problem, then examine its actual contribution. | Specified v0.1 and executed on the shape rotation case |
 | [Inference challenge](systems/inference-challenge.md) | Locate whether an exact proposed inference fails, and preserve the difference between a defeated inference and an untested one. | Specified v0.1; prospective use unverified |
 
 ## Source lineage and customization candidates
@@ -52,7 +53,7 @@ Each row records an origin or a candidate for custom development. Source relevan
 | Source family | Initial place or proposed use | Source standing | Local development |
 |---|---|---|---|
 | [Reasoningtool](../../../systems/reasoningtool.md) | operations / reusable procedures | source-backed proposed placement | To customize for the stated purpose |
-| [Reasoningtool2](../../../systems/reasoningtool2.md) | choosing and composing operations | source-backed proposed placement | To customize for the stated purpose |
+| [Reasoningtool2](../../../systems/reasoningtool2.md) | choosing and composing operations | inspected pinned contract | [Approach selection](systems/approach-selection.md) — custom v0.1 executed on one live case |
 | [ARAW](../../../systems/araw.md) | conditional implications | source-backed proposed placement | To customize for the stated purpose |
 | [Historical AxiomNet](../../../systems/axiomnet-historical.md) | formal support | source-backed proposed placement | To customize for the stated purpose |
 | [Resource-engineering](../../../systems/resource-engineering.md) | operations on represented material | source-backed proposed placement | To customize for the stated purpose |

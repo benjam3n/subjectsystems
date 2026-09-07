@@ -147,6 +147,78 @@
       "kind": "User direction",
       "scope": "Attachment 65116627e968f61109931ebc1f66315b4be8d69b.webarchive, HTML main resource; admission, cross-field translation, development, requirements and resource retention questions.",
       "accessed": "2026-09-07"
+    },
+    {
+      "id": "PERSPECTIVE_NOTE",
+      "title": "User note on perspectives, deviation, anticipation and precise subjects",
+      "url": "",
+      "kind": "User direction",
+      "scope": "32abbc905554f6187cfc7878f60e1535f8b8843a.webarchive; continuing earlier anticipation and perspective work. Claims are examined, not automatically adopted.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "FRISTON_PROCESS",
+      "title": "Friston et al., Active Inference: A Process Theory",
+      "url": "https://activeinference.github.io/papers/process_theory.pdf",
+      "kind": "Original theoretical research",
+      "scope": "Sections 2.1–2.3 distinguish latent-state expectations, policies and action. Model quantities do not require verbal assertions.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "FRISTON_INTENT",
+      "title": "Friston et al., Active Inference and Intentional Behaviour, v2",
+      "url": "https://arxiv.org/html/2312.07547v2",
+      "kind": "Original theoretical research",
+      "scope": "Introduction and glossary §§1–1.1; narrow mathematical uses of belief and sentience are explicit. A universal empirical brain theory is not established by this review.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "WM_BRANCH",
+      "title": "NIMH RDoC, Working Memory functional branch",
+      "url": "https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/working-memory",
+      "kind": "Bounded source branch",
+      "scope": "One functional construct, four immediate subconstructs and definition qualifications, reviewed 2026-09-07. Associated biological entities and paradigms are inventoried as associations, not subtypes or proven mechanisms.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "WM_MAINTAIN",
+      "title": "NIMH RDoC, Active Maintenance",
+      "url": "https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/active-maintenance",
+      "kind": "Source subconstruct page",
+      "scope": "Functional placement and associated unit-of-analysis labels; a listed entity or task is not proof of a necessary mechanism or exclusive measurement.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "WM_UPDATE",
+      "title": "NIMH RDoC, Flexible Updating",
+      "url": "https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/flexible-updating",
+      "kind": "Source subconstruct page",
+      "scope": "Functional placement and associated unit-of-analysis labels; a listed entity or task is not proof of a necessary mechanism or exclusive measurement.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "WM_CAPACITY",
+      "title": "NIMH RDoC, Limited Capacity",
+      "url": "https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/limited-capacity",
+      "kind": "Source subconstruct page",
+      "scope": "Functional placement and associated unit-of-analysis labels; a listed entity or task is not proof of a necessary mechanism or exclusive measurement.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "WM_INTERFERENCE",
+      "title": "NIMH RDoC, Interference Control",
+      "url": "https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/interference-control",
+      "kind": "Source subconstruct page",
+      "scope": "Functional placement and associated unit-of-analysis labels; a listed entity or task is not proof of a necessary mechanism or exclusive measurement.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "RT2_LOCAL",
+      "title": "Reasoningtool2 current contract and conditional methods, pinned source",
+      "url": "https://github.com/benjam3n/reasoningtool2/blob/ae2435b0004ac44de9bb09c2f045805722038dbb/METHODS.md",
+      "kind": "Inspected source lineage",
+      "scope": "Local approach-selection design adapts candidate comparison, operation choice and correction propagation. It is not execution of a named original skill.",
+      "accessed": "2026-09-07"
     }
   ],
   "translations": [
@@ -326,7 +398,7 @@
       "source_term": "Mental rotation",
       "reading": "Transforming an internal shape representation and measuring task performance.",
       "subjects": [
-        "Shape representation mental rotation",
+        "Shape representation rotation mechanism",
         "Shape representation rotation duration",
         "Shape representation rotation accuracy"
       ],
@@ -1203,6 +1275,375 @@
         "USER"
       ],
       "standing": "Authored proposed translation; limited to stated reading."
+    },
+    {
+      "id": "T065",
+      "domain": "Working memory",
+      "source_term": "Working Memory",
+      "reading": "Active availability of task content through maintenance and updating, with capacity and interference qualifications.",
+      "subjects": [
+        "Memory active content maintenance",
+        "Memory active content update",
+        "Memory active content capacity",
+        "Memory active content interference control"
+      ],
+      "relation": "Composition of functional matters",
+      "residual": "No one atomic subject is asserted equivalent to the entire construct. Mechanisms and measurement remain separate.",
+      "source_ids": [
+        "WM_BRANCH"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T066",
+      "domain": "Working memory",
+      "source_term": "Active Maintenance",
+      "reading": "Keeping relevant content usable during a specified task interval.",
+      "subjects": [
+        "Memory active content maintenance"
+      ],
+      "relation": "Specified functional matter",
+      "residual": "Does not select a unique biological implementation or prove that a listed task isolates maintenance.",
+      "source_ids": [
+        "WM_MAINTAIN"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T067",
+      "domain": "Working memory",
+      "source_term": "Flexible Updating",
+      "reading": "Changing which content is actively maintained as task conditions change.",
+      "subjects": [
+        "Memory active content update"
+      ],
+      "relation": "Specified functional matter",
+      "residual": "Flexibility still needs task-dependent switching conditions; the label does not supply a mechanism.",
+      "source_ids": [
+        "WM_UPDATE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T068",
+      "domain": "Working memory",
+      "source_term": "Limited Capacity",
+      "reading": "The upper usable load under identified content, task and interference conditions.",
+      "subjects": [
+        "Memory active content capacity"
+      ],
+      "relation": "Property under study",
+      "residual": "A measured limit is not assumed fixed across all contents, supports or tasks.",
+      "source_ids": [
+        "WM_CAPACITY"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T069",
+      "domain": "Working memory",
+      "source_term": "Interference Control",
+      "reading": "Preserving relevant active content in the presence of specified competing material.",
+      "subjects": [
+        "Memory active content interference",
+        "Memory active content interference control"
+      ],
+      "relation": "Split occurrence from control",
+      "residual": "The occurrence of interference and the effectiveness of a control operation require different comparisons.",
+      "source_ids": [
+        "WM_INTERFERENCE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T070",
+      "domain": "Anticipation",
+      "source_term": "Prediction in active inference",
+      "reading": "Model-conditioned states or outcomes, including nonverbal expectations.",
+      "subjects": [
+        "Model state estimation",
+        "Anticipation outcome expectation",
+        "Anticipation action dependence"
+      ],
+      "relation": "Term used for several specified model roles",
+      "residual": "Prediction is not restricted to a consciously expressed claim. Whether a particular biological system implements the model remains empirical.",
+      "source_ids": [
+        "FRISTON_PROCESS",
+        "FRISTON_INTENT"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T071",
+      "domain": "Anticipation",
+      "source_term": "Result prediction as an expressed claim",
+      "reading": "An explicit assertion or probability statement concerning a future outcome.",
+      "subjects": [
+        "Prediction claim expression"
+      ],
+      "relation": "Narrow specified reading",
+      "residual": "This is one legitimate use of prediction, not a replacement definition imposed on every technical source.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T072",
+      "domain": "Anticipation",
+      "source_term": "Result anticipation",
+      "reading": "Expecting a later outcome and the ways that expectation may inform activity.",
+      "subjects": [
+        "Anticipation outcome expectation",
+        "Anticipation preparation selection",
+        "Anticipation influence attribution"
+      ],
+      "relation": "Split state, preparation and causal effect",
+      "residual": "Expectation need not be verbal; an action can be prepared for a possibility the agent does not judge most likely.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T073",
+      "domain": "Anticipation",
+      "source_term": "Anticipated reply",
+      "reading": "A prospective response used to construct a subsequent contribution.",
+      "subjects": [
+        "Anticipation response construction",
+        "Anticipation continuation construction",
+        "Anticipation continuation exclusion"
+      ],
+      "relation": "Operation decomposition",
+      "residual": "These are authored prompting operations; no general model performance gain is claimed from defining them.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T074",
+      "domain": "Perspective",
+      "source_term": "Behavior is a perspective",
+      "reading": "An action pattern makes selected distinctions and response possibilities available.",
+      "subjects": [
+        "Perspective representation construction",
+        "Perspective consequence accessibility",
+        "Perspective scope applicability"
+      ],
+      "relation": "Conditional interpretive mapping",
+      "residual": "Behavior need not be an explicit representation; demonstrate what the mapping preserves instead of equating all behavior with a perspective.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T075",
+      "domain": "Perspective",
+      "source_term": "Intelligence is a perspective",
+      "reading": "A capability can be examined as access to consequential distinctions and continuations.",
+      "subjects": [
+        "Perspective consequence accessibility",
+        "Anticipation preparation selection",
+        "Capability use access"
+      ],
+      "relation": "Partial reconstruction",
+      "residual": "Capacity, learning, reliability and physical resources remain separate matters; this is not identity of intelligence with perspective.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T076",
+      "domain": "Perspective",
+      "source_term": "Perspective pervasiveness",
+      "reading": "The range of specified matters for which a perspective supplies an adequate contribution.",
+      "subjects": [
+        "Perspective scope coverage",
+        "Perspective scope limitation"
+      ],
+      "relation": "Replace an unbounded impression with a declared domain",
+      "residual": "A few illuminating examples do not establish applicability to every subject.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T077",
+      "domain": "Perspective",
+      "source_term": "Biological resource allocation",
+      "reading": "Competing feasible uses of identified biological resources under actual constraints.",
+      "subjects": [
+        "Resource use capacity",
+        "Resource configuration bottleneck",
+        "Perspective scope extension"
+      ],
+      "relation": "Conditional structural translation",
+      "residual": "Do not assume deliberate allocation, shared kinetics or that all biological questions reduce to resource use.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T078",
+      "domain": "Conflict",
+      "source_term": "People interaction conflict resolution methods",
+      "reading": "Methods for resolving a specified incompatibility involving people.",
+      "subjects": [
+        "Conflict incompatibility specification",
+        "Conflict resolution condition",
+        "Conflict resolution method selection",
+        "Conflict resolution method applicability"
+      ],
+      "relation": "Program decomposition with interpersonal case parameters",
+      "residual": "A methods collection is an artifact; selecting, creating and testing a method are different subjects.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T079",
+      "domain": "Deviation",
+      "source_term": "Anti behavior",
+      "reading": "A departure alleged to frustrate the task that the behavior is supposed to serve.",
+      "subjects": [
+        "Deviation reference specification",
+        "Deviation effect comparison",
+        "Resource use avoidable cost"
+      ],
+      "relation": "Replace an evaluative placeholder with testable readings",
+      "residual": "Do not infer the actual goal from conformity. Ambiguity remains if the relevant goal, reference or feasible alternative is unspecified.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T080",
+      "domain": "Deviation",
+      "source_term": "Positive deviation",
+      "reading": "A departure judged beneficial under a specified baseline, criterion and context.",
+      "subjects": [
+        "Deviation effect comparison",
+        "Deviation effect robustness"
+      ],
+      "relation": "Qualified comparative result",
+      "residual": "Rarity, distance from the norm and creativity do not entail benefit.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T081",
+      "domain": "Deviation",
+      "source_term": "Perfected deviation",
+      "reading": "A departure claimed optimal within stated feasible alternatives and criteria.",
+      "subjects": [
+        "Deviation optimality condition derivation",
+        "Deviation optimality attainability",
+        "Deviation optimality case determination"
+      ],
+      "relation": "Split formal conditions, existence and case attainment",
+      "residual": "A best element may not exist; different objectives may have incomparable optima; formal assumptions must hold in an applied case.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T082",
+      "domain": "Deviation",
+      "source_term": "Good from all perspectives",
+      "reading": "A comparison quantified over an explicitly admitted perspective set.",
+      "subjects": [
+        "Perspective comparison admissibility",
+        "Comparison alternative dominance",
+        "Comparison alternative robust dominance"
+      ],
+      "relation": "Conditional quantified claim",
+      "residual": "Under unrestricted goals, a perspective can be defined to oppose any act. Consensus cannot be inferred by leaving the domain unstated.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T083",
+      "domain": "Conflict",
+      "source_term": "Zero-sum behavior",
+      "reading": "The total participant payoff is fixed over the complete admitted outcome set.",
+      "subjects": [
+        "Game payoff sum invariance",
+        "Comparison alternative dominance"
+      ],
+      "relation": "Separate game property from a pairwise ordering",
+      "residual": "Two outcomes can trade gains while another improves both; a single tradeoff is not zero-sum structure.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T084",
+      "domain": "Uncertainty",
+      "source_term": "Uncertainty management",
+      "reading": "Work on unresolved alternatives insofar as they affect the live inquiry or choice.",
+      "subjects": [
+        "Uncertainty alternative specification",
+        "Uncertainty source attribution",
+        "Uncertainty decision sensitivity",
+        "Uncertainty reduction intervention selection"
+      ],
+      "relation": "Program decomposition",
+      "residual": "Not every uncertainty is reducible or decision-relevant; full certainty is not a universal prerequisite for action.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T085",
+      "domain": "Subject development",
+      "source_term": "Study versus practice",
+      "reading": "Investigating an operation, performing it, and testing its contribution are distinct activities.",
+      "subjects": [
+        "Reasoning approach selection",
+        "Reasoning approach execution",
+        "Reasoning approach contribution adequacy"
+      ],
+      "relation": "Illustrative separation of actual matters",
+      "residual": "This example does not create a study and practice copy of every subject; add a new determination only when its completion condition differs.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
+    },
+    {
+      "id": "T086",
+      "domain": "Subject development",
+      "source_term": "Misleading theory names",
+      "reading": "A label leaves a consequential distinction unavailable or suggests a scope its account does not support.",
+      "subjects": [
+        "Subject name scope underdetermination",
+        "Subject name origin reconstruction",
+        "Subject name persistence cause",
+        "Subject name substitution effect",
+        "Explanation account operational content"
+      ],
+      "relation": "Separate naming, history, causal persistence and account content",
+      "residual": "A poor title does not prove an empty theory; a literal title does not prove a substantive theory.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE",
+        "FRISTON_INTENT"
+      ],
+      "standing": "Authored translation of the stated reading; not blanket equivalence."
     }
   ],
   "requirements": [
@@ -1439,7 +1880,7 @@
     },
     {
       "id": "R022",
-      "subject": "Shape orientation transformation",
+      "subject": "Shape representation rotation",
       "kind": "Necessary case specification",
       "condition": "The initial shape representation, frame and rotation are specified.",
       "timing": "At transformation",
@@ -1634,6 +2075,248 @@
       "related_subject": "Capability evidence adequacy",
       "reason": "A polished name or runnable implementation alone does not show reliable results.",
       "standing": "Conceptual condition under stated definition; not a proven sufficient workflow."
+    },
+    {
+      "id": "R040",
+      "subject": "Perspective change contribution",
+      "kind": "Comparison identification",
+      "condition": "Hold the investigated target and success standard explicit across the change.",
+      "timing": "At contribution assessment",
+      "scope": "Contribution to the original inquiry",
+      "related_subject": "Perspective change criterion drift",
+      "reason": "Otherwise an improved verdict may be caused by changing the grading rule.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R041",
+      "subject": "Perspective representation equivalence",
+      "kind": "Equivalence justification",
+      "condition": "Specify the discriminations and transitions the equivalence must preserve.",
+      "timing": "When asserting equivalence",
+      "scope": "Declared case domain",
+      "related_subject": "",
+      "reason": "Identical examples alone do not establish equivalence on unexamined cases.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R042",
+      "subject": "Perspective scope extension",
+      "kind": "Transfer justification",
+      "condition": "Identify a source relation and establish its required premises in the new matter.",
+      "timing": "Before asserting the transferred conclusion",
+      "scope": "The particular relation being transferred",
+      "related_subject": "Perspective scope applicability",
+      "reason": "Similar wording is not sufficient to license the same inference.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R043",
+      "subject": "Perspective scope coverage",
+      "kind": "Coverage justification",
+      "condition": "Declare the inventory and the adequacy condition for the coverage claim.",
+      "timing": "When reporting coverage",
+      "scope": "That inventory only",
+      "related_subject": "",
+      "reason": "Without a denominator, a percentage of all subjects has no defined meaning.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R044",
+      "subject": "Anticipation outcome expectation",
+      "kind": "Case specification",
+      "condition": "Identify the agent, earlier information state and later target.",
+      "timing": "At attribution of an expectation",
+      "scope": "The specified agent and episode",
+      "related_subject": "",
+      "reason": "No spoken sentence is universally required; evidence of the expectation is needed for the attribution.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R045",
+      "subject": "Anticipation outcome correspondence",
+      "kind": "Evidence integrity",
+      "condition": "Retain the earlier expectation independently of the later scoring decision.",
+      "timing": "Before evaluating correspondence",
+      "scope": "Accuracy claims",
+      "related_subject": "Anticipation influence attribution",
+      "reason": "Retrospectively rewriting the expectation can create artificial agreement.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R046",
+      "subject": "Anticipation preparation selection",
+      "kind": "Successful operation condition",
+      "condition": "At least one admissible preparation is selectable when selection succeeds.",
+      "timing": "At choice time",
+      "scope": "Successful selection only",
+      "related_subject": "",
+      "reason": "One can prepare for several mutually exclusive events without believing each will occur.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R047",
+      "subject": "Anticipation continuation exclusion",
+      "kind": "Result adequacy",
+      "condition": "Preserve the unresolved matter while excluding the specified continuation.",
+      "timing": "In the constructed continuation",
+      "scope": "This exchange",
+      "related_subject": "Anticipation continuation construction",
+      "reason": "Random irrelevant text satisfies difference but fails the contribution requirement.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R048",
+      "subject": "Anticipation influence attribution",
+      "kind": "Causal justification",
+      "condition": "Separate outcome agreement from evidence about how anticipation changed the outcome.",
+      "timing": "When attributing causal influence",
+      "scope": "The specified causal comparison",
+      "related_subject": "",
+      "reason": "A published plan followed by its author is not an independent forecast test.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R049",
+      "subject": "Uncertainty decision sensitivity",
+      "kind": "Comparison identification",
+      "condition": "Hold the decision rule fixed while varying the unresolved input.",
+      "timing": "During sensitivity analysis",
+      "scope": "The declared choice",
+      "related_subject": "",
+      "reason": "Changing the objective is a different reason for a different decision.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R050",
+      "subject": "Conflict resolution condition",
+      "kind": "Completion specification",
+      "condition": "Identify the incompatibility and the condition that counts as resolving it.",
+      "timing": "When claiming resolution",
+      "scope": "The specified conflict",
+      "related_subject": "Conflict incompatibility specification",
+      "reason": "Silence, suppression or a signed statement may leave the incompatibility intact.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R051",
+      "subject": "Conflict resolution method applicability",
+      "kind": "Method prerequisite",
+      "condition": "The selected method's actual operating conditions must hold for its conditional guarantee to apply.",
+      "timing": "At execution or guarantee use",
+      "scope": "That method's guarantee",
+      "related_subject": "",
+      "reason": "Applicability alone does not prove compliance, effectiveness or desirability.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R052",
+      "subject": "Deviation effect comparison",
+      "kind": "Comparison identification",
+      "condition": "Specify a reference, relevant consequences and a fixed evaluative standard.",
+      "timing": "At positive or negative verdict",
+      "scope": "That comparison",
+      "related_subject": "Deviation reference specification",
+      "reason": "Large deviation and bad deviation are different predicates.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R053",
+      "subject": "Deviation effect robustness",
+      "kind": "Quantifier specification",
+      "condition": "Declare the admitted conditions or perspectives and the strictness of the comparison.",
+      "timing": "When asserting robust benefit",
+      "scope": "Declared comparison set",
+      "related_subject": "Perspective comparison admissibility",
+      "reason": "Every case tested is not every case imaginable.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R054",
+      "subject": "Deviation optimality condition derivation",
+      "kind": "Formal justification",
+      "condition": "Define feasible alternatives and an objective or ordering before deriving optimality conditions.",
+      "timing": "In the formal argument",
+      "scope": "The model",
+      "related_subject": "",
+      "reason": "A derivation can establish that no optimum exists; successful attainment is not required to study it.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R055",
+      "subject": "Deviation optimality case determination",
+      "kind": "Applied justification",
+      "condition": "Establish case feasibility and the relevant model assumptions or use a justified case-specific comparison.",
+      "timing": "At applied optimum claim",
+      "scope": "The actual case",
+      "related_subject": "Deviation optimality attainability",
+      "reason": "An optimum in a false model need not be an optimum in the case.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R056",
+      "subject": "Comparison alternative dominance",
+      "kind": "Definition satisfaction",
+      "condition": "The proposed alternative is no worse on every admitted criterion and strictly better on at least one.",
+      "timing": "At dominance assertion",
+      "scope": "Fixed criteria and feasible alternatives",
+      "related_subject": "",
+      "reason": "Winning a weighted sum can conceal a loss and does not establish dominance.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R057",
+      "subject": "Comparison alternative robust dominance",
+      "kind": "Definition satisfaction",
+      "condition": "State which strict comparison must hold across which scenarios.",
+      "timing": "At robust dominance assertion",
+      "scope": "Declared scenario set",
+      "related_subject": "Comparison alternative dominance",
+      "reason": "Strictness in every scenario and strictness somewhere have different logical force.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R058",
+      "subject": "Resource use avoidable cost",
+      "kind": "Comparability and feasibility",
+      "condition": "The cheaper alternative was feasible with the relevant information and meets the same result standard including exploration value.",
+      "timing": "At waste attribution",
+      "scope": "The declared task and resource convention",
+      "related_subject": "",
+      "reason": "Hindsight or removal of a creative objective can fabricate inefficiency.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R059",
+      "subject": "Game payoff sum invariance",
+      "kind": "Universal-domain justification",
+      "condition": "The payoff sum is constant over every admitted outcome under fixed payoff functions.",
+      "timing": "At invariance assertion",
+      "scope": "The defined game",
+      "related_subject": "",
+      "reason": "Two opposed outcomes with equal totals do not establish invariance when a third has a different total.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R060",
+      "subject": "Subject name substitution effect",
+      "kind": "Effect justification",
+      "condition": "Separate fixed-content naming changes from changes to definitions, instructions or available evidence.",
+      "timing": "When attributing a naming effect",
+      "scope": "The examined users or operations",
+      "related_subject": "",
+      "reason": "An improved result after both renaming and redefining does not isolate the name's effect.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R061",
+      "subject": "Memory active content binding",
+      "kind": "Condition under study",
+      "condition": "Whether and how binding occurs is an investigated feature, not a prerequisite for admitting the subject.",
+      "timing": "During the inquiry",
+      "scope": "Specified content and task",
+      "related_subject": "",
+      "reason": "The source's possible feature is not strengthened into a universal necessity.",
+      "standing": "Derived scoped condition; not a mandatory universal sequence."
     }
   ],
   "requirement_cases": [
@@ -1716,6 +2399,51 @@
       "case": "Partial translation",
       "situation": "Plot is mapped only to presentation order.",
       "consequence": "The translation leaves causal organization and other intended readings uncovered; record the residual."
+    },
+    {
+      "case": "Useful departure",
+      "situation": "An exploration uses extra resources but supplies information required by the stated task.",
+      "consequence": "It is not proved wasteful by comparing it only to a cheaper familiar answer."
+    },
+    {
+      "case": "Tradeoff with a joint improvement",
+      "situation": "Two exclusive-use options trade payoffs; scheduling improves both relative to chaotic sharing.",
+      "consequence": "The broad outcome domain is not constant-sum, although a restricted subset can be."
+    },
+    {
+      "case": "Good relative to a baseline",
+      "situation": "Scheduling is better for both participants than chaotic sharing, but worse for one participant than exclusive use.",
+      "consequence": "Both-benefit relative to one baseline is not best-for-everyone over the whole feasible set."
+    },
+    {
+      "case": "No attained optimum",
+      "situation": "Feasible performance values approach 1 but every feasible value is less than 1.",
+      "consequence": "A supremum is not an attained perfect result."
+    },
+    {
+      "case": "Changed perspective or changed goal",
+      "situation": "The same consequence becomes acceptable only after the standard changes.",
+      "consequence": "That can be a defensible goal revision; it is not evidence of improved judgment under the original standard."
+    },
+    {
+      "case": "Prepared but not predicted",
+      "situation": "A low-probability contingency receives preparation because its unprepared cost is high.",
+      "consequence": "Preparation does not imply the event was judged most likely."
+    },
+    {
+      "case": "Self-fulfilled anticipation",
+      "situation": "An assistant anticipates that it will write a table and then writes it.",
+      "consequence": "Agreement records plan realization; independent predictive accuracy remains untested."
+    },
+    {
+      "case": "Meaning-preserving generalization",
+      "situation": "A general rotation operation and its implementation mechanism are given separate names.",
+      "consequence": "Removing mental need not discard the original human-internal case or merge the two targets."
+    },
+    {
+      "case": "Precisely defined technical shorthand",
+      "situation": "A paper gives a mathematical use of belief while leaving phenomenological relations open.",
+      "consequence": "Objection to the ordinary connotation alone does not refute the defined mathematical claim."
     }
   ],
   "development": [
@@ -1723,12 +2451,13 @@
       "subject": "Reasoning approach selection",
       "scope": "Choose an identifiable reasoning approach from a nonempty candidate set available at the time of choice for a specified matter; the selection rule may be implicit or explicit.",
       "case_parameters": "Use the fixed definition and its case qualifications; further parameter review is open.",
-      "importance_context": "Choosing the means for a reasoning task",
-      "importance_reason": "A poor choice can waste effort or fail to supply the required contribution.",
-      "recognition": "Established algorithm-selection work exists in a bounded domain; open-ended selection remains unassessed.",
+      "importance_context": "Choosing a useful operation for a live naming problem",
+      "importance_reason": "Literal shortening alone can leave an unresolved collision; comparison of completion conditions supplies a usable repair.",
+      "recognition": "One custom system executed on the actual shape naming case.",
       "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
       "technique_ids": [
-        "E001"
+        "E001",
+        "E016"
       ],
       "requirements": [
         "R001",
@@ -1740,7 +2469,9 @@
       "catalog_standing": "Previously defined",
       "assessment_standing": "Scoped assessment",
       "source_ids": [
-        "SATZILLA"
+        "SATZILLA",
+        "RT2_LOCAL",
+        "PERSPECTIVE_NOTE"
       ]
     },
     {
@@ -6588,8 +7319,8 @@
       "source_ids": []
     },
     {
-      "subject": "Shape orientation transformation",
-      "scope": "Determine the result of applying a specified rotation to a represented shape.",
+      "subject": "Shape representation rotation",
+      "scope": "Determine the representation produced by changing a represented shape's orientation through a specified rotation in a stated frame.",
       "case_parameters": "Shape; frame; rotation; representation.",
       "importance_context": "Importance not yet assessed against specified goals.",
       "importance_reason": "No magnitude or priority inferred from inclusion in this catalog.",
@@ -6635,8 +7366,8 @@
       "source_ids": []
     },
     {
-      "subject": "Shape representation mental rotation",
-      "scope": "Determine how an agent changes an internally represented shape's orientation in a specified task.",
+      "subject": "Shape representation rotation mechanism",
+      "scope": "Identify the operations or physical processes producing a specified rotation of a shape representation in an identified implementation.",
       "case_parameters": "Agent; represented shape; task; evidence of transformation.",
       "importance_context": "Understanding a defined spatial task",
       "importance_reason": "Separating transformation, internal process and measurement prevents an unsupported mechanism claim.",
@@ -7610,6 +8341,1041 @@
       "catalog_standing": "Added in integration review",
       "assessment_standing": "Scoped assessment",
       "source_ids": []
+    },
+    {
+      "subject": "Perspective representation construction",
+      "scope": "Construct a specified organization of a matter that exposes selected distinctions and operations.",
+      "case_parameters": "Target matter; available material; represented distinctions; permitted operations.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective representation omission",
+      "scope": "Determine which consequential distinctions of the target matter a specified perspective leaves unavailable.",
+      "case_parameters": "Perspective; target; distinctions required by the live inquiry.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective representation equivalence",
+      "scope": "Determine whether two specified perspectives preserve the same discriminations and licensed transitions on a declared case domain.",
+      "case_parameters": "Perspectives; case domain; preserved distinctions; transition rules.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R041"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective consequence accessibility",
+      "scope": "Determine which consequences an agent can derive using a specified perspective under stated resources.",
+      "case_parameters": "Agent; perspective; premises; available operations; resource limits.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective change contribution",
+      "scope": "Determine what changing a perspective adds to a specified inquiry or performance with the target and success standard fixed.",
+      "case_parameters": "Before and after perspectives; fixed task; fixed standard; actual changed contribution.",
+      "importance_context": "Determining whether a new way of looking adds capability",
+      "importance_reason": "It distinguishes a newly available inference or option from a merely changed verdict.",
+      "recognition": "Nine scoped frame applications recorded; their broad empirical benefits remain untested.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R040"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective change criterion drift",
+      "scope": "Determine whether a changed verdict follows from a changed evaluative rule rather than a changed representation of the same matter.",
+      "case_parameters": "Perspectives; represented facts; criteria; verdict dependency.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective scope applicability",
+      "scope": "Determine whether a perspective's required distinctions and assumptions can be instantiated in a specified new matter.",
+      "case_parameters": "Perspective; new matter; assumptions; instantiation map.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective scope extension",
+      "scope": "Construct a justified application of a perspective to a matter outside its previously recorded use domain.",
+      "case_parameters": "Prior domain; new matter; preserved structure; new qualifications.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R042"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective scope coverage",
+      "scope": "Determine which matters in a declared domain a perspective can address under a specified adequacy requirement.",
+      "case_parameters": "Domain inventory; perspective; adequacy requirement; uncovered cases.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R043"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective scope limitation",
+      "scope": "Identify a specified question or distinction the perspective cannot resolve under its stated assumptions.",
+      "case_parameters": "Perspective; claimed task; permitted premises; separating case.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective selection",
+      "scope": "Choose a perspective for a specified inquiry from stated candidates under a declared selection rule.",
+      "case_parameters": "Inquiry; candidates; selection rule; case constraints.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Perspective comparison admissibility",
+      "scope": "Specify which perspectives are admitted to a comparison and why each belongs to that set.",
+      "case_parameters": "Comparison purpose; inclusion rule; excluded cases; justification.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation outcome expectation",
+      "scope": "Determine what an agent expects may occur at a stated later point, including uncertainty when represented.",
+      "case_parameters": "Agent; earlier time; later target; evidence of expectation; alternatives.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R044"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation outcome correspondence",
+      "scope": "Determine how a recorded or operationally specified earlier expectation relates to the later observed outcome.",
+      "case_parameters": "Expectation record; timing; outcome; correspondence rule; influence conditions.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R045"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation action dependence",
+      "scope": "Determine how expected later consequences differ under specified alternative actions.",
+      "case_parameters": "Actions; possible states; consequence model; horizon.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation preparation selection",
+      "scope": "Choose what to prepare now in view of specified possible later conditions.",
+      "case_parameters": "Possible conditions; available preparations; resource constraints; preparedness criterion.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R046"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation response construction",
+      "scope": "Construct a prospective response contribution from the anticipated conversation conditions and unresolved matter.",
+      "case_parameters": "Current matter; anticipated prompt or reaction; proposed operation; intended contribution.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation continuation construction",
+      "scope": "Construct a possible subsequent exchange by using an anticipated response as input to a further anticipated prompt or response.",
+      "case_parameters": "Starting exchange; prospective responses; continuation rules; unresolved matter.",
+      "importance_context": "Producing a useful next contribution",
+      "importance_reason": "Anticipated output can become input to a further prompt, exposing what to resolve before writing an explanation.",
+      "recognition": "A subject and operation defined from the user context; general comparative effectiveness remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation continuation exclusion",
+      "scope": "Construct a continuation that preserves the unresolved matter while excluding a specified anticipated way of proceeding.",
+      "case_parameters": "Unresolved matter; excluded continuation; allowable alternatives.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R047"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation influence attribution",
+      "scope": "Determine how expressing or using an anticipation changes later activity or outcomes.",
+      "case_parameters": "Anticipation; exposure or use; later outcome; comparison; causal assumptions.",
+      "importance_context": "Evaluating self-generated predictions",
+      "importance_reason": "Following an announced response plan can increase agreement without supplying independent forecast accuracy.",
+      "recognition": "A separating causal case is explicit; a controlled estimate is not supplied.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R048"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation outcome expectation revision",
+      "scope": "Change what an agent expects will occur in response to an identified consequential difference.",
+      "case_parameters": "Earlier expectation; new difference; revised expectation; retained prior state.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Anticipation preparation revision",
+      "scope": "Change a specified preparation in view of an identified difference in later conditions or available means.",
+      "case_parameters": "Earlier preparation; changed condition or means; revised preparation; relevant expectations.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Prediction claim expression",
+      "scope": "Express a claim about a specified future or unknown outcome with its scope and epistemic force explicit.",
+      "case_parameters": "Claim content; speaker or system; time; target; assertion or probability status.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Model state estimation",
+      "scope": "Determine a model's estimate or distribution over an unobserved state from specified observations and assumptions.",
+      "case_parameters": "Model; observations; latent state; inference assumptions.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Uncertainty alternative specification",
+      "scope": "Specify the unresolved alternatives for a defined target relative to an information state.",
+      "case_parameters": "Target; agent or model; information state; admissible alternatives.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Uncertainty source attribution",
+      "scope": "Determine which missing observations, ambiguous representations or model assumptions sustain a specified uncertainty.",
+      "case_parameters": "Unresolved alternatives; information paths; candidate sources; discriminating evidence.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Uncertainty decision sensitivity",
+      "scope": "Determine which unresolved differences would change a specified choice under fixed decision conditions.",
+      "case_parameters": "Alternatives; decision rule; uncertain inputs; fixed objective.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R049"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Uncertainty reduction intervention selection",
+      "scope": "Choose an observation or transformation expected to distinguish specified live alternatives under stated costs.",
+      "case_parameters": "Alternatives; candidate interventions; distinguishing outcomes; costs.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Uncertainty reduction attainability",
+      "scope": "Determine whether specified uncertainty can be reduced using the admissible observations or operations.",
+      "case_parameters": "Uncertainty; permitted resources; possible observations; reduction standard.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Conflict incompatibility specification",
+      "scope": "Specify which identified demands, states or commitments cannot jointly be satisfied under stated constraints.",
+      "case_parameters": "Demands or states; participants if relevant; constraints; joint-satisfaction rule.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Conflict resolution condition",
+      "scope": "Specify what change would count as resolving an identified incompatibility.",
+      "case_parameters": "Conflict; jointly acceptable or authoritative completion rule; residual incompatibilities.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R050"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Conflict resolution method selection",
+      "scope": "Choose a method for resolving a specified incompatibility under identified constraints.",
+      "case_parameters": "Conflict; available methods; completion rule; method assumptions.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Conflict resolution method creation",
+      "scope": "Construct a method for changing the conditions producing a specified incompatibility.",
+      "case_parameters": "Conflict; causal or constraint structure; operations; completion condition.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Conflict resolution method applicability",
+      "scope": "Determine whether a proposed resolution method's operating conditions hold in a specified conflict.",
+      "case_parameters": "Method; conflict; required conditions; relevant parties.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R051"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Conflict resolution effect attribution",
+      "scope": "Determine which changes in the incompatibility are attributable to a specified resolution attempt.",
+      "case_parameters": "Attempt; before and after conditions; comparison; attribution assumptions.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Deviation reference specification",
+      "scope": "Specify the reference state, rule or pattern from which a departure is being considered.",
+      "case_parameters": "Reference; comparison domain; identity conditions; relevant dimensions.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Deviation extent determination",
+      "scope": "Determine the amount or structure of a departure under a specified difference relation.",
+      "case_parameters": "Departing item; reference; difference relation; units if applicable.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Deviation cause attribution",
+      "scope": "Determine what produced a specified departure from its reference under stated causal assumptions.",
+      "case_parameters": "Departure; reference; candidate causes; comparison; evidence.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Deviation effect comparison",
+      "scope": "Determine how a specified departure changes the relevant outcomes under a fixed comparison standard.",
+      "case_parameters": "Departure; reference; consequences; fixed standard; relevant conditions.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R052"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Deviation effect robustness",
+      "scope": "Determine whether a departure's comparative effect persists across a declared set of conditions or evaluative perspectives.",
+      "case_parameters": "Departure; baseline; admissible conditions and perspectives; comparison relation.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R053"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Deviation optimality condition derivation",
+      "scope": "Derive conditions under which a departure attains the best permitted result in a specified formal model.",
+      "case_parameters": "Feasible departures; objective or order; model assumptions; proof conditions.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R054"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Deviation optimality case determination",
+      "scope": "Determine whether a particular departure attains the specified optimum under the actual case's admitted alternatives and evidence.",
+      "case_parameters": "Case; feasible alternatives; objective; evidence; optimality criterion.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R055"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Deviation optimality attainability",
+      "scope": "Determine whether any feasible departure attains the stipulated optimum or all required criteria jointly.",
+      "case_parameters": "Feasible set; order or objectives; conditions; attainment definition.",
+      "importance_context": "Avoiding impossible perfection targets",
+      "importance_reason": "A best element can be absent or objectives can disagree, changing what improvement can coherently aim at.",
+      "recognition": "Finite example plus explicit unattained-supremum countercase; no universal optimization method.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Comparison alternative dominance",
+      "scope": "Determine whether one alternative is no worse on every specified criterion and better on at least one.",
+      "case_parameters": "Alternatives; admissible criteria; direction of preference; observed or stipulated results.",
+      "importance_context": "Finding avoidable losses without silently changing standards",
+      "importance_reason": "A candidate can improve every stated criterion relative to a baseline while remaining nonoptimal for some criteria.",
+      "recognition": "Executable finite example distinguishes dominance from universal bestness.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [
+        "E017"
+      ],
+      "requirements": [
+        "R056"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Comparison alternative robust dominance",
+      "scope": "Determine whether a dominance relation holds under every admitted scenario with its strictness rule stated.",
+      "case_parameters": "Alternatives; criteria; scenarios; strictness rule; feasibility.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R057"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Resource use avoidable cost",
+      "scope": "Determine the excess resources consumed relative to an available feasible alternative meeting the same specified result standard.",
+      "case_parameters": "Required result; available information; feasible alternatives; resource costs; exploration value.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R058"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Game payoff sum invariance",
+      "scope": "Determine whether the sum of specified participant payoffs is constant across all admitted outcomes under a fixed payoff representation.",
+      "case_parameters": "Participants; complete admitted outcomes; payoff functions; aggregation convention.",
+      "importance_context": "Distinguishing a genuine fixed-total conflict from a local tradeoff",
+      "importance_reason": "Adding a feasible joint improvement can change the structural verdict about the admitted outcome set.",
+      "recognition": "The stipulated full and restricted outcome sets give different constant-sum results.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [
+        "E017"
+      ],
+      "requirements": [
+        "R059"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Subject name scope underdetermination",
+      "scope": "Determine which consequential parts of a subject's scope its name and available definition leave unspecified.",
+      "case_parameters": "Name; available definition; intended distinctions; required resolution.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Subject name origin reconstruction",
+      "scope": "Reconstruct how a specified subject label acquired its recorded wording and referent from available historical evidence.",
+      "case_parameters": "Label; dated sources; earlier usages; evidence of transitions.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Subject name persistence cause",
+      "scope": "Determine what sustains a subject label's continued use despite identified scope defects.",
+      "case_parameters": "Label; usage history; proposed mechanisms; discriminating observations.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Subject name substitution effect",
+      "scope": "Determine how replacing a subject label changes the inferences, questions or operations people actually perform with fixed underlying content.",
+      "case_parameters": "Old and new labels; fixed content; users or operations; observed differences.",
+      "importance_context": "Determining whether literal naming changes actual work",
+      "importance_reason": "A liked name may not alter interpretation; a changed definition may explain the apparent naming benefit.",
+      "recognition": "A distinct causal target defined; no isolated human naming-effect study performed.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R060"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Expression precision requirement",
+      "scope": "Specify which distinctions an expression must preserve for a particular use to be adequate.",
+      "case_parameters": "Expression use; necessary distinctions; consequence of each possible confusion.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Explanation account operational content",
+      "scope": "Identify the specified variables, relations or transformations by which an account explains its target and the choices it leaves unspecified.",
+      "case_parameters": "Account; explanatory target; variables or operations; licensed inferences; unresolved steps.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "subject": "Memory active content interference",
+      "scope": "Determine how specified competing material changes the usability of active task content.",
+      "case_parameters": "Active content; competing material; task; usability measure; comparison.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "WM_BRANCH"
+      ]
+    },
+    {
+      "subject": "Memory active content interference control",
+      "scope": "Determine which operations preserve active task content against specified competing material and under what conditions.",
+      "case_parameters": "Content; competitors; control operation; task; preservation criterion.",
+      "importance_context": "Preserving usable task content despite competing material",
+      "importance_reason": "Active-content interference had no dedicated control subject in the prior catalog.",
+      "recognition": "Functional source branch reconciled; biological mechanisms and exclusive task validity not established.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "WM_BRANCH",
+        "WM_INTERFERENCE"
+      ]
+    },
+    {
+      "subject": "Memory active content binding",
+      "scope": "Determine how elements of active task content are associated into a usable structure under stated conditions.",
+      "case_parameters": "Elements; task relation; representation; binding criterion.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R061"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "WM_BRANCH"
+      ]
+    },
+    {
+      "subject": "Memory active content external support dependence",
+      "scope": "Determine how active-content performance changes when specified external support is available or removed.",
+      "case_parameters": "Task; internal content; external supports; performance standard; comparison.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "WM_BRANCH"
+      ]
+    },
+    {
+      "subject": "Memory active content persistence duration",
+      "scope": "Determine how long specified active content remains usable under stated interference and support conditions.",
+      "case_parameters": "Content; usability threshold; delay; interference; support conditions.",
+      "importance_context": "Importance not yet assessed against specified goals.",
+      "importance_reason": "No goal-specific importance argument recorded yet.",
+      "recognition": "Definition supplied here; external development review remains open.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the perspective extension",
+      "assessment_standing": "Open",
+      "source_ids": [
+        "WM_BRANCH"
+      ]
     }
   ],
   "techniques": [
@@ -7641,7 +9407,7 @@
     },
     {
       "id": "E003",
-      "subject": "Shape representation mental rotation",
+      "subject": "Shape representation rotation mechanism",
       "technique": "Orientation-varied matching task",
       "scope": "The original three-dimensional drawing task",
       "formal": "Response-time dependence supports a task interpretation, not unique mechanism identification.",
@@ -7808,6 +9574,33 @@
       "source_ids": [
         "PHRENOLOGY"
       ]
+    },
+    {
+      "id": "E016",
+      "subject": "Reasoning approach selection",
+      "technique": "Subject Systems approach selection v0.1",
+      "scope": "The shape representation rotation naming case; three candidate approaches",
+      "formal": "Explicit case requirements and separating results; no general selector theorem.",
+      "implementation": "Written custom method executed by the assistant on the actual catalog.",
+      "effectiveness": "The case produced two revised definitions with distinct completion conditions and preserved stable identities. Reference validation is recorded separately.",
+      "transfer": "One local execution; no controlled comparison, general effectiveness or automatic selection claim.",
+      "source_ids": [
+        "RT2_LOCAL",
+        "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "id": "E017",
+      "subject": "Comparison alternative dominance",
+      "technique": "Finite payoff comparison",
+      "scope": "Six stipulated arrangements for two participants",
+      "formal": "Exhaustive pairwise comparison under fixed componentwise preferences.",
+      "implementation": "tools/run_perspective_case.py computes dominance, nondominated outcomes and payoff-sum invariance from the authored case.",
+      "effectiveness": "Determines exact comparisons in this finite model; no measured human behavior is used.",
+      "transfer": "Actual conflict applications require evidence for feasibility, participants, objectives and payoff values.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ]
     }
   ],
   "claim_review": [
@@ -7942,6 +9735,74 @@
         "USER"
       ],
       "basis": "Constructed conceptual case"
+    },
+    {
+      "label": "Prediction necessarily means an explicit assertion",
+      "case": "The examined active-inference papers use model expectations and conditional future quantities.",
+      "status": "Refuted as a reading of these sources",
+      "action": "Use Model state estimation, Anticipation outcome expectation and Anticipation action dependence to identify the actual quantity.",
+      "limit": "This does not establish the empirical universality of the theory.",
+      "source_ids": [
+        "FRISTON_PROCESS",
+        "FRISTON_INTENT"
+      ],
+      "basis": "Primary-source terminology review"
+    },
+    {
+      "label": "Every prediction is future anticipation",
+      "case": "The Intentional Behaviour glossary distinguishes reactive prediction from anticipation of future sensory consequences.",
+      "status": "The source itself supplies a separating case",
+      "action": "Retain time target and counterfactual action depth as independent case parameters.",
+      "limit": "Its operational categories are model definitions, not settled definitions of all consciousness or intelligence.",
+      "source_ids": [
+        "FRISTON_INTENT"
+      ],
+      "basis": "Primary-source glossary review"
+    },
+    {
+      "label": "Bad name proves nonsense theory",
+      "case": "A title compresses distinctions that are explicitly separated in an account.",
+      "status": "Inference fails",
+      "action": "Assess name underdetermination and account operational content independently.",
+      "limit": "The name can still cause demonstrable interpretive costs.",
+      "source_ids": [
+        "FRISTON_INTENT",
+        "PERSPECTIVE_NOTE"
+      ],
+      "basis": "Constructed countercase supported by inspected definitions"
+    },
+    {
+      "label": "All perspectives favor a behavior",
+      "case": "Allow a perspective whose only goal is opposing that behavior.",
+      "status": "Unrestricted universal claim fails under this admitted construction",
+      "action": "Declare the perspective domain and compare the actual consequences.",
+      "limit": "Does not refute agreement under a justified restricted set.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "basis": "Constructed quantifier counterexample"
+    },
+    {
+      "label": "Unusual behavior is inefficient",
+      "case": "Exploration may create information excluded by a narrower apparent task.",
+      "status": "Inference fails without the full task standard",
+      "action": "Compare feasible alternatives under the same actual objectives and costs.",
+      "limit": "An asserted creative purpose is not proof of useful contribution either.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "basis": "Constructed comparison case"
+    },
+    {
+      "label": "Behavior and intelligence are perspectives",
+      "case": "A frame can reconstruct selected aspects without replacing every relevant property.",
+      "status": "Conditional research proposal",
+      "action": "Test the map, retained premises, newly available consequences and unresolved residuals in the nine recorded applications.",
+      "limit": "Examples establish neither identity nor universal reduction.",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "basis": "Authored structural translations"
     }
   ],
   "programs": [
@@ -8171,7 +10032,7 @@
       ],
       "scope": "Representative stated readings; not a complete domain inventory.",
       "residual": "No complete algorithm or human reasoning method inventory; open-ended selection remains untested.",
-      "next_result": "Select a versioned source subtree; reconcile every included label, preserving definitions, residuals and aliases."
+      "next_result": "Apply the custom selector to a materially different live case; compare which approach it selects and what result changes."
     },
     {
       "domain": "Brain",
@@ -8187,7 +10048,7 @@
       ],
       "scope": "Representative stated readings; not a complete domain inventory.",
       "residual": "Functional sample only. Neural biophysics, anatomy, sleep, development and full sensory/motor systems remain untranslated.",
-      "next_result": "Select a versioned source subtree; reconcile every included label, preserving definitions, residuals and aliases."
+      "next_result": "The Working memory view now reconciles one functional branch; select the next bounded branch only when it serves an actual question."
     },
     {
       "domain": "Psychology",
@@ -8376,16 +10237,112 @@
     {
       "domain": "Subject development",
       "source_ids": [
-        "USER"
+        "USER",
+        "PERSPECTIVE_NOTE",
+        "FRISTON_INTENT"
       ],
       "translation_ids": [
         "T062",
         "T063",
-        "T064"
+        "T064",
+        "T085",
+        "T086"
       ],
       "scope": "Representative stated readings; not a complete domain inventory.",
       "residual": "The admission and assessment model is developed here; no global subject enumeration or measured neglect ranking exists.",
       "next_result": "Select a versioned source subtree; reconcile every included label, preserving definitions, residuals and aliases."
+    },
+    {
+      "domain": "Working memory",
+      "source_ids": [
+        "WM_BRANCH",
+        "WM_MAINTAIN",
+        "WM_UPDATE",
+        "WM_CAPACITY",
+        "WM_INTERFERENCE"
+      ],
+      "translation_ids": [
+        "T065",
+        "T066",
+        "T067",
+        "T068",
+        "T069"
+      ],
+      "scope": "Five of five functional labels reconciled; five defining qualifications retained. No further functional child is listed on the inspected child pages.",
+      "residual": "This is not coverage of all working-memory theories, every linked study, mechanisms, task variants or the whole RDoC matrix.",
+      "next_result": "Test a concrete task contribution using the translated subject definitions."
+    },
+    {
+      "domain": "Anticipation",
+      "source_ids": [
+        "FRISTON_PROCESS",
+        "FRISTON_INTENT",
+        "PERSPECTIVE_NOTE"
+      ],
+      "translation_ids": [
+        "T070",
+        "T071",
+        "T072",
+        "T073"
+      ],
+      "scope": "Specified readings from the current note; no full discipline coverage claim.",
+      "residual": "Unexamined meanings and empirical transfer remain outside this sample.",
+      "next_result": "Test a concrete task contribution using the translated subject definitions."
+    },
+    {
+      "domain": "Perspective",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "translation_ids": [
+        "T074",
+        "T075",
+        "T076",
+        "T077"
+      ],
+      "scope": "Specified readings from the current note; no full discipline coverage claim.",
+      "residual": "Unexamined meanings and empirical transfer remain outside this sample.",
+      "next_result": "Test a concrete task contribution using the translated subject definitions."
+    },
+    {
+      "domain": "Conflict",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "translation_ids": [
+        "T078",
+        "T083"
+      ],
+      "scope": "Specified readings from the current note; no full discipline coverage claim.",
+      "residual": "Unexamined meanings and empirical transfer remain outside this sample.",
+      "next_result": "Test a concrete task contribution using the translated subject definitions."
+    },
+    {
+      "domain": "Deviation",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "translation_ids": [
+        "T079",
+        "T080",
+        "T081",
+        "T082"
+      ],
+      "scope": "Specified readings from the current note; no full discipline coverage claim.",
+      "residual": "Unexamined meanings and empirical transfer remain outside this sample.",
+      "next_result": "Test a concrete task contribution using the translated subject definitions."
+    },
+    {
+      "domain": "Uncertainty",
+      "source_ids": [
+        "PERSPECTIVE_NOTE"
+      ],
+      "translation_ids": [
+        "T084"
+      ],
+      "scope": "Specified readings from the current note; no full discipline coverage claim.",
+      "residual": "Unexamined meanings and empirical transfer remain outside this sample.",
+      "next_result": "Test a concrete task contribution using the translated subject definitions."
     }
   ],
   "outside_sample": [
@@ -8441,5 +10398,12 @@
       "change": "Nonempty candidates are required at choice time; explicit ranking, optimality and a prior retrieval step are not universal requirements.",
       "basis": "Current availability analysis and constructed countercases."
     }
-  ]
+  ],
+  "perspective_review": {
+    "basis_commit": "a87e4eb54db692e50a106f061b3ff2499a5b25ee",
+    "source_boundary": "NIMH RDoC Working Memory functional branch",
+    "functional_labels": 5,
+    "source_association_occurrences": 97,
+    "custom_execution": "subjects/understanding/reasoning/systems/approach-selection.md"
+  }
 }

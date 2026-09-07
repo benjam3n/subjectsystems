@@ -2,25 +2,25 @@
 
 Canonical names for the present working inventory. Each row defines one determination; parent headings collect their listed matters. These are partial scopes, not a certified exclusive partition of every possible subject. See the [derivation](../../research/type-relations/SUBJECT-NAMES.md) and [boundary review](../../cases/subject-names.md).
 
-384 named determinations · 132 target groups · 46 general headings.
+442 named determinations · 160 target groups · 52 general headings.
 
 | General heading | Named determinations | Defined scope |
 |---|---|---|
 | [Reasoning](#reasoning) | 36 | Methods for transforming intellectual material, with their input, intended contribution, operating conditions, or construction at issue. |
 | [Question](#question) | 19 | The distinction requested by a question, its possible resolutions, or its relation to a response. |
 | [Claim](#claim) | 21 | The content, support, or recorded acceptance of an assertion. Target facts retain their substantive subject. |
-| [Expression](#expression) | 17 | The form used to express identified content, or its interpretation by a specified recipient. |
+| [Expression](#expression) | 18 | The form used to express identified content, or its interpretation by a specified recipient. |
 | [Goal](#goal) | 12 | Intended outcomes or their achievement conditions. |
 | [Commitment](#commitment) | 7 | An agent undertaking an option or treating it as an operative instruction. |
 | [Preference](#preference) | 10 | What a specified agent favors in specified circumstances, or an account of that favoring. |
 | [Criterion](#criterion) | 9 | An explicit standard governing a specified comparison or decision. |
-| [Comparison](#comparison) | 6 | Comparison structures studied across target kinds, with the standard held fixed. Target-specific comparisons retain their qualified subjects. |
-| [Explanation](#explanation) | 9 | The relation between an explanatory account and the occurrence or contrast it purports to explain. |
-| [Prediction](#prediction) | 9 | A forecast specified before its outcome is available to the predictor. |
+| [Comparison](#comparison) | 8 | Comparison structures studied across target kinds, with the standard held fixed. Target-specific comparisons retain their qualified subjects. |
+| [Explanation](#explanation) | 10 | The relation between an explanatory account and the occurrence or contrast it purports to explain. |
+| [Prediction](#prediction) | 10 | A forecast specified before its outcome is available to the predictor. |
 | [Problem](#problem) | 8 | A specified obstruction relative to a requirement, or a remedy's adequacy to that obstruction. |
 | [Plan](#plan) | 9 | Prospective ordering of activities, prerequisites, or conditional continuations. Question-specific routes have their qualified Question entries. |
-| [Resource](#resource) | 19 | Means available for a specified use, including their capacities or feasible configurations. |
-| [Memory](#memory) | 16 | Continuity with earlier material under the identity and context needed for later use. |
+| [Resource](#resource) | 20 | Means available for a specified use, including their capacities or feasible configurations. |
+| [Memory](#memory) | 21 | Continuity with earlier material under the identity and context needed for later use. |
 | [Discovery](#discovery) | 8 | An increase in what is available to a specified inquirer relative to an explicit earlier position. |
 | [Attention](#attention) | 6 | Which available material receives operative focus under specified conditions. |
 | [Execution](#execution) | 9 | Actual control states of an adopted activity, with its substantive result kept distinct. |
@@ -33,12 +33,12 @@ Canonical names for the present working inventory. Each row defines one determin
 | [Design](#design) | 10 | Relations among requirements, candidate forms, feasibility, or use studied across artifact kinds. Particular artifacts retain their own construction subjects. |
 | [System](#system) | 11 | Specified systems as designed artifacts, including custom descendants, interfaces, or observed executions. |
 | [Improvement](#improvement) | 7 | Comparative betterment of a changed item against a baseline under a specified standard. The change process is a separate subject. |
-| [Subject](#subject) | 20 | Specified matters of consideration, their names, boundaries, or relationships. |
+| [Subject](#subject) | 24 | Specified matters of consideration, their names, boundaries, or relationships. |
 | [Perception](#perception) | 3 | Detection, discrimination, or identification from specified sensory presentations. |
 | [Action](#action) | 2 | Specified behavioral responses and conditions governing their selection or inhibition. |
 | [Reward](#reward) | 3 | Expected rewarding outcomes, assigned value, and discrepancies from their occurrence. |
 | [Shape](#shape) | 7 | Form and orientation of represented shapes, including defined human representational tasks. |
-| [Model](#model) | 8 | Specified token, attention, position, or parameter computations in computational models. |
+| [Model](#model) | 9 | Specified token, attention, position, or parameter computations in computational models. |
 | [Measurement](#measurement) | 5 | Defined quantities, instruments, observable proxies, and measurement result properties. |
 | [Integer](#integer) | 2 | Specified properties and decompositions of integers. |
 | [Graph](#graph) | 3 | Defined connectivity, path costs, and equivalence of graph structures. |
@@ -52,6 +52,12 @@ Canonical names for the present working inventory. Each row defines one determin
 | [Object](#object) | 1 | Criteria for an object's identity over specified changes. |
 | [Experience](#experience) | 1 | Discriminable qualitative aspects of specified experiences. |
 | [Narrative](#narrative) | 5 | Presentation of represented events and defined responses of specified audiences. |
+| [Perspective](#perspective) | 12 | A specified organization of a matter that makes particular distinctions, representations, inferences or criteria available. Comparisons state what is held fixed. |
+| [Anticipation](#anticipation) | 10 | Represented or inferred expectations of possible later events and their role in preparing, selecting or constructing subsequent activity. |
+| [Uncertainty](#uncertainty) | 5 | Unresolved alternatives relative to a specified agent, information state and target, including how their resolution affects work. |
+| [Conflict](#conflict) | 6 | Specified conditions that cannot jointly be met, and the means or effects of resolving that incompatibility. |
+| [Deviation](#deviation) | 8 | A specified departure from a reference, with its extent, causes, consequences and attainable quality kept distinct. |
+| [Game](#game) | 1 | Specified participant payoffs and their invariance over an admitted outcome domain. |
 
 ## Reasoning
 
@@ -262,6 +268,12 @@ The form used to express identified content, or its interpretation by a specifie
 | Expression instruction requirement | Specify what the expression directs its recipient to do under its intended interpretation. | Treating an implied unlimited permission as explicit instruction. |
 | Expression instruction interpretation | Determine what action requirement the recipient attributes to the instruction. | Establishing execution of that requirement. |
 
+### Expression precision
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Expression precision requirement | Specify which distinctions an expression must preserve for a particular use to be adequate. | Demanding maximal detail in every context or confusing brevity with imprecision. |
+
 ## Goal
 
 Intended outcomes or their achievement conditions.
@@ -400,6 +412,20 @@ Comparison structures studied across target kinds, with the standard held fixed.
 | Comparison result sensitivity | Determine which changes in stated comparison inputs would reverse the ordering. | Changing the criterion without saying so. |
 | Comparison result aggregation | Determine whether a stated aggregation rule preserves the distinctions the comparison requires. | Asserting that one score captures every relevant distinction. |
 
+### Comparison alternative
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Comparison alternative dominance | Determine whether one alternative is no worse on every specified criterion and better on at least one. | A weighted average concealing a loss or superiority under every possible criterion. |
+| Comparison alternative robust dominance | Determine whether a dominance relation holds under every admitted scenario with its strictness rule stated. | Dominance established only after averaging scenarios or changing criteria. |
+
+Explicit broader subjects from the boundary review:
+
+| Qualified subject | Containing subject |
+|---|---|
+| Comparison alternative dominance | Comparison result ordering |
+| Comparison alternative robust dominance | Comparison alternative dominance |
+
 ## Explanation
 
 The relation between an explanatory account and the occurrence or contrast it purports to explain.
@@ -422,6 +448,7 @@ The relation between an explanatory account and the occurrence or contrast it pu
 | Explanation account circularity | Determine whether the proposed explanation assumes the very dependence it claims to explain. | Treating any shared vocabulary as circularity. |
 | Explanation account revision | Change the explanation's dependence structure in response to an identified defect. | Improving only the expression of an unchanged account. |
 | Explanation account adequacy | Determine whether a proposed account resolves its specified explanatory contrast under stated adequacy conditions. | Selecting among accounts or claiming that an adequate explanation is uniquely possible. |
+| Explanation account operational content | Identify the specified variables, relations or transformations by which an account explains its target and the choices it leaves unspecified. | Treating the title of a theory as its mechanism or requiring every explanation to be a software procedure. |
 
 ## Prediction
 
@@ -443,6 +470,12 @@ A forecast specified before its outcome is available to the predictor.
 | Prediction error | Determine the difference between forecast and outcome under a fixed error definition. | Revising the error measure after seeing comparative results. |
 | Prediction calibration | Compare stated probabilities with observed frequencies over a specified admissible set of forecasts. | Inferring calibration from one successful forecast. |
 | Prediction revision | Update the forecast using identified new information while preserving its prior version. | Overwriting the old forecast as if it had always predicted the new result. |
+
+### Prediction claim
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Prediction claim expression | Express a claim about a specified future or unknown outcome with its scope and epistemic force explicit. | Having an unexpressed expectation, estimating a hidden current state, or preparing for an outcome. |
 
 ## Problem
 
@@ -503,6 +536,7 @@ Means available for a specified use, including their capacities or feasible conf
 | Resource use identification | Specify what contribution makes an item a resource for the stated activity. | Treating the item's identity as proof of usefulness. |
 | Resource use access condition | Determine the conditions under which the activity can actually use the resource. | Equating existence with access. |
 | Resource use capacity | Specify the amount or range of contribution available from the resource under stated conditions. | Assuming unlimited reuse. |
+| Resource use avoidable cost | Determine the excess resources consumed relative to an available feasible alternative meeting the same specified result standard. | Declaring creative exploration wasteful solely because a cheaper familiar answer existed. |
 
 ### Resource configuration
 
@@ -585,6 +619,17 @@ Continuity with earlier material under the identity and context needed for later
 | Memory active content maintenance | Determine how identified content remains usable over a specified delay within an active task. | Long-term record retention or replacing the active content. |
 | Memory active content update | Determine how active task content is replaced or revised following a specified input. | Maintaining unchanged content or proving the revision correct. |
 | Memory active content capacity | Determine how much specified content can remain usable under stated active-task conditions. | Capacity in all possible tasks or total stored knowledge. |
+| Memory active content interference | Determine how specified competing material changes the usability of active task content. | Interference only during retrieval of long-term records. |
+| Memory active content interference control | Determine which operations preserve active task content against specified competing material and under what conditions. | The occurrence of interference or a claim that a named circuit necessarily implements control. |
+| Memory active content binding | Determine how elements of active task content are associated into a usable structure under stated conditions. | Permanent associations in storage or a universal requirement that every active representation is bound this way. |
+| Memory active content external support dependence | Determine how active-content performance changes when specified external support is available or removed. | Assuming every working-memory task must exclude all external support. |
+| Memory active content persistence duration | Determine how long specified active content remains usable under stated interference and support conditions. | A fixed universal lifetime or proof that time alone causes loss. |
+
+Explicit broader subjects from the boundary review:
+
+| Qualified subject | Containing subject |
+|---|---|
+| Memory active content interference control | Memory active content maintenance |
 
 ## Discovery
 
@@ -938,6 +983,10 @@ Specified matters of consideration, their names, boundaries, or relationships.
 | Subject name ambiguity | Identify materially different readings permitted by the proposed subject name. | Assuming a fluent phrase has one exact meaning. |
 | Subject name equivalence | Determine whether two names are aliases for the same defined subject. | Counting aliases as newly discovered subjects. |
 | Subject name revision | Replace a subject name while recording whether the underlying scope changed. | Concealing a new definition as a cosmetic rename. |
+| Subject name scope underdetermination | Determine which consequential parts of a subject's scope its name and available definition leave unspecified. | Multiple fully specified meanings, which are recorded as ambiguity instead. |
+| Subject name origin reconstruction | Reconstruct how a specified subject label acquired its recorded wording and referent from available historical evidence. | Inventing a psychological motive for the name's author. |
+| Subject name persistence cause | Determine what sustains a subject label's continued use despite identified scope defects. | Assuming familiarity, authority or convenience is the cause without evidence. |
+| Subject name substitution effect | Determine how replacing a subject label changes the inferences, questions or operations people actually perform with fixed underlying content. | An asserted improvement based only on liking the new wording. |
 
 ### Subject hierarchy
 
@@ -1039,22 +1088,22 @@ Form and orientation of represented shapes, including defined human representati
 | Name | Matter to settle | Does not by itself settle |
 |---|---|---|
 | Shape orientation specification | Specify a shape's orientation relative to an identified reference frame. | The shape's intrinsic form or position in space. |
-| Shape orientation transformation | Determine the result of applying a specified rotation to a represented shape. | A human's mental performance of rotation or arbitrary deformation. |
 | Shape orientation equivalence | Determine whether two represented shapes coincide under an allowed rotation and translation. | Equivalence permitting reflection or scaling unless separately allowed. |
+
+### Shape representation
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Shape representation rotation | Determine the representation produced by changing a represented shape's orientation through a specified rotation in a stated frame. | Identifying the mechanism producing the transformation, timing it, or measuring its fidelity. |
+| Shape representation rotation mechanism | Identify the operations or physical processes producing a specified rotation of a shape representation in an identified implementation. | Merely calculating the rotated representation or inferring a unique mechanism from total response time alone. |
+| Shape representation rotation duration | Determine how long a specified representational rotation takes under defined task conditions. | Time attributable only to orientation change when measured response time also contains other stages. |
+| Shape representation rotation accuracy | Determine how faithfully a specified representational rotation preserves the required shape relations. | Response speed or accuracy of unrelated spatial abilities. |
 
 ### Shape mirror
 
 | Name | Matter to settle | Does not by itself settle |
 |---|---|---|
 | Shape mirror equivalence | Determine whether one represented shape coincides with a reflected version of another under specified alignment rules. | Equivalence by rotation alone. |
-
-### Shape representation
-
-| Name | Matter to settle | Does not by itself settle |
-|---|---|---|
-| Shape representation mental rotation | Determine how an agent changes an internally represented shape's orientation in a specified task. | The mathematical rotation operation alone or a claim that all matching uses this mechanism. |
-| Shape representation rotation duration | Determine how long a specified representational rotation takes under defined task conditions. | Time attributable only to orientation change when measured response time also contains other stages. |
-| Shape representation rotation accuracy | Determine how faithfully a specified representational rotation preserves the required shape relations. | Response speed or accuracy of unrelated spatial abilities. |
 
 Explicit broader subjects from the boundary review:
 
@@ -1093,6 +1142,12 @@ Specified token, attention, position, or parameter computations in computational
 | Name | Matter to settle | Does not by itself settle |
 |---|---|---|
 | Model parameter update | Determine the changed parameter values produced by a stated training step. | Experience-dependent change in every kind of learner or general intelligence gain. |
+
+### Model state
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Model state estimation | Determine a model's estimate or distribution over an unobserved state from specified observations and assumptions. | A claim about a future event or proof that a biological system implements the model. |
 
 ## Measurement
 
@@ -1328,3 +1383,187 @@ Explicit broader subjects from the boundary review:
 | Qualified subject | Containing subject |
 |---|---|
 | Narrative event ordering | Expression structure sequence |
+
+## Perspective
+
+A specified organization of a matter that makes particular distinctions, representations, inferences or criteria available. Comparisons state what is held fixed.
+
+### Perspective representation
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective representation construction | Construct a specified organization of a matter that exposes selected distinctions and operations. | Changing only terminology without a consequential representational change. |
+| Perspective representation omission | Determine which consequential distinctions of the target matter a specified perspective leaves unavailable. | Proving the perspective useless for every task. |
+| Perspective representation equivalence | Determine whether two specified perspectives preserve the same discriminations and licensed transitions on a declared case domain. | Literal wording identity or a claim of equivalent implementation cost. |
+
+### Perspective consequence
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective consequence accessibility | Determine which consequences an agent can derive using a specified perspective under stated resources. | Consequences merely true in the world or present in an inaccessible representation. |
+
+### Perspective change
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective change contribution | Determine what changing a perspective adds to a specified inquiry or performance with the target and success standard fixed. | Improvement produced only by replacing the goal or grading rule. |
+| Perspective change criterion drift | Determine whether a changed verdict follows from a changed evaluative rule rather than a changed representation of the same matter. | Judging the new criterion illegitimate simply because it changed. |
+
+### Perspective scope
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective scope applicability | Determine whether a perspective's required distinctions and assumptions can be instantiated in a specified new matter. | Proving explanatory adequacy or equivalent empirical mechanisms. |
+| Perspective scope extension | Construct a justified application of a perspective to a matter outside its previously recorded use domain. | Declaring every subject an instance by redefining the terms after the fact. |
+| Perspective scope coverage | Determine which matters in a declared domain a perspective can address under a specified adequacy requirement. | Worldwide pervasiveness inferred from a few examples. |
+| Perspective scope limitation | Identify a specified question or distinction the perspective cannot resolve under its stated assumptions. | A failure caused only by missing resources outside those assumptions. |
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective selection | Choose a perspective for a specified inquiry from stated candidates under a declared selection rule. | Constructing a missing perspective or establishing that the selected one is universally best. |
+
+### Perspective comparison
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective comparison admissibility | Specify which perspectives are admitted to a comparison and why each belongs to that set. | A conclusion quantified over every imaginable preference or goal. |
+
+## Anticipation
+
+Represented or inferred expectations of possible later events and their role in preparing, selecting or constructing subsequent activity.
+
+### Anticipation outcome
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Anticipation outcome expectation | Determine what an agent expects may occur at a stated later point, including uncertainty when represented. | A verbal forecast, a desired outcome, or readiness inferred without evidence. |
+| Anticipation outcome correspondence | Determine how a recorded or operationally specified earlier expectation relates to the later observed outcome. | Independent predictive accuracy when the expectation itself changes the outcome. |
+| Anticipation outcome expectation revision | Change what an agent expects will occur in response to an identified consequential difference. | Changing only the preparation while the expectation stays fixed, or erasing the prior expectation. |
+
+### Anticipation action
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Anticipation action dependence | Determine how expected later consequences differ under specified alternative actions. | Selecting an action or treating conditional possibilities as equally believed forecasts. |
+
+### Anticipation preparation
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Anticipation preparation selection | Choose what to prepare now in view of specified possible later conditions. | Accurately forecasting which condition will occur or asserting a future claim. |
+| Anticipation preparation revision | Change a specified preparation in view of an identified difference in later conditions or available means. | Changing only the estimated likelihood without changing the preparation. |
+
+### Anticipation response
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Anticipation response construction | Construct a prospective response contribution from the anticipated conversation conditions and unresolved matter. | Retrospectively explaining a response already produced. |
+
+### Anticipation continuation
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Anticipation continuation construction | Construct a possible subsequent exchange by using an anticipated response as input to a further anticipated prompt or response. | A single forecast with no continued interaction or fabricated observed dialogue. |
+| Anticipation continuation exclusion | Construct a continuation that preserves the unresolved matter while excluding a specified anticipated way of proceeding. | Irrelevance, random text, or banning the same operation in every later task. |
+
+### Anticipation influence
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Anticipation influence attribution | Determine how expressing or using an anticipation changes later activity or outcomes. | Treating a deliberately fulfilled anticipation as independent predictive validation. |
+
+## Uncertainty
+
+Unresolved alternatives relative to a specified agent, information state and target, including how their resolution affects work.
+
+### Uncertainty alternative
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Uncertainty alternative specification | Specify the unresolved alternatives for a defined target relative to an information state. | Assigning probabilities without a basis or confusing uncertainty with unspecified wording. |
+
+### Uncertainty source
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Uncertainty source attribution | Determine which missing observations, ambiguous representations or model assumptions sustain a specified uncertainty. | Assuming every uncertainty can be removed by collecting more data. |
+
+### Uncertainty decision
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Uncertainty decision sensitivity | Determine which unresolved differences would change a specified choice under fixed decision conditions. | Requiring every uncertainty to be resolved before acting. |
+
+### Uncertainty reduction
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Uncertainty reduction intervention selection | Choose an observation or transformation expected to distinguish specified live alternatives under stated costs. | Seeking information that cannot affect the unresolved matter. |
+| Uncertainty reduction attainability | Determine whether specified uncertainty can be reduced using the admissible observations or operations. | Worldwide unknowability inferred from failure of the current method. |
+
+## Conflict
+
+Specified conditions that cannot jointly be met, and the means or effects of resolving that incompatibility.
+
+### Conflict incompatibility
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Conflict incompatibility specification | Specify which identified demands, states or commitments cannot jointly be satisfied under stated constraints. | Treating disagreement in language as proof of incompatible outcomes. |
+
+### Conflict resolution
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Conflict resolution condition | Specify what change would count as resolving an identified incompatibility. | Merely suppressing its expression or assuming one party must lose. |
+| Conflict resolution method selection | Choose a method for resolving a specified incompatibility under identified constraints. | Creating the method or proving that its execution resolved the conflict. |
+| Conflict resolution method creation | Construct a method for changing the conditions producing a specified incompatibility. | Inventing a new method name without executable changes. |
+| Conflict resolution method applicability | Determine whether a proposed resolution method's operating conditions hold in a specified conflict. | Its desirability to every participant or its observed effectiveness. |
+| Conflict resolution effect attribution | Determine which changes in the incompatibility are attributable to a specified resolution attempt. | Success inferred only from agreement with the method's name or from silence. |
+
+## Deviation
+
+A specified departure from a reference, with its extent, causes, consequences and attainable quality kept distinct.
+
+### Deviation reference
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Deviation reference specification | Specify the reference state, rule or pattern from which a departure is being considered. | Calling the reference desirable or treating customary behavior as obligatory. |
+
+### Deviation extent
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Deviation extent determination | Determine the amount or structure of a departure under a specified difference relation. | Its beneficial effect, creativity or unusualness in a population. |
+
+### Deviation cause
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Deviation cause attribution | Determine what produced a specified departure from its reference under stated causal assumptions. | Whether the departure was beneficial or intentionally chosen. |
+
+### Deviation effect
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Deviation effect comparison | Determine how a specified departure changes the relevant outcomes under a fixed comparison standard. | The distance from the reference or its rarity. |
+| Deviation effect robustness | Determine whether a departure's comparative effect persists across a declared set of conditions or evaluative perspectives. | Benefit for an unrestricted set of all conceivable goals. |
+
+### Deviation optimality
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Deviation optimality condition derivation | Derive conditions under which a departure attains the best permitted result in a specified formal model. | Evidence that an actual agent attained that result or that the model covers reality completely. |
+| Deviation optimality case determination | Determine whether a particular departure attains the specified optimum under the actual case's admitted alternatives and evidence. | Optimality in a model whose relevant assumptions fail in the case. |
+| Deviation optimality attainability | Determine whether any feasible departure attains the stipulated optimum or all required criteria jointly. | Assuming a supremum is attained or incomparable objectives share one best item. |
+
+## Game
+
+Specified participant payoffs and their invariance over an admitted outcome domain.
+
+### Game payoff
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Game payoff sum invariance | Determine whether the sum of specified participant payoffs is constant across all admitted outcomes under a fixed payoff representation. | A single tradeoff between two choices or an invariant sum under arbitrarily changed scales. |

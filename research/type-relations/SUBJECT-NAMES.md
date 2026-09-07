@@ -2,7 +2,7 @@
 
 The current naming rule is **general subject first, then the more specific target, then the operation, property, or relation being considered**. Use only the words that add a consequential distinction. The user's examples, Reasoning approach selection, Reasoning approach creation, and Reasoning approach modification, identify different results that the older General intellectual operations label concealed.
 
-The [named inventory](../../subjects/scopes/NAMES.md) defines 384 subjects under 46 general headings, with intermediate target groups where they help. Every entry states its matter to settle and a nearby determination it does not settle. These are developed working definitions for the current vocabulary. They do not certify that the general headings are mutually exclusive roots or that every possible subject has been enumerated.
+The [named inventory](../../subjects/scopes/NAMES.md) defines 442 subjects under 52 general headings, with intermediate target groups where they help. Every entry states its matter to settle and a nearby determination it does not settle. These are developed working definitions for the current vocabulary. They do not certify that the general headings are mutually exclusive roots or that every possible subject has been enumerated.
 
 ## What makes a name precise
 
@@ -75,7 +75,7 @@ For example, Reasoningtool can contribute an exact approach specification or app
 
 ## What is established now
 
-The naming work covers every old scope label and every recorded source family. The [integration extension](INTEGRATION.md) adds representative conventional-field translations, scoped requirements and development evidence; it is not full coverage of those fields. It supplies 384 named determinations, 44 name-change records, 38 substantive boundary comparisons, eight expansion families, and 63 contribution records (62 with proposed subject bindings). Coverage of this source vocabulary is different from coverage of all possible subjects. Mechanical checks verify counts, references, duplicate names, and the no-conjunction naming rule; the case arguments support only the relations they actually examine.
+The [perspective extension](PERSPECTIVES.md) adds 58 subjects and executes the shape-rotation naming repair. The naming work covers every old scope label and every recorded source family. The [integration extension](INTEGRATION.md) adds representative conventional-field translations, scoped requirements and development evidence; it is not full coverage of those fields. It supplies 442 named determinations, 46 name-change records, 48 substantive boundary comparisons, eight expansion families, and 63 contribution records (62 with proposed subject bindings). Coverage of this source vocabulary is different from coverage of all possible subjects. Mechanical checks verify counts, references, duplicate names, and the no-conjunction naming rule; the case arguments support only the relations they actually examine.
 
 The immediate intellectual task after naming is to settle the actual remaining collisions and derive justified containment for the named matters. A larger exclusive ontology requires a declared coverage domain and exclusion arguments. It is not established by making the list longer or assigning every row a folder.
 

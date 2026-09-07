@@ -32,7 +32,7 @@ Task and measurement sample. Personality, emotion, social processes, development
 
 | Source term | Reading examined | Actual subjects | Relation | Uncovered matter or restriction | Sources |
 |---|---|---|---|---|---|
-| Mental rotation | Transforming an internal shape representation and measuring task performance. | Shape representation mental rotation; Shape representation rotation duration; Shape representation rotation accuracy | Task decomposition | Response time includes possible encoding and decision components; mechanism needs evidence. | [Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)](https://facultypsy.hope.edu/psychlabs/exp/rotate/readings/ShepardMetzler_1971.pdf) |
+| Mental rotation | Transforming an internal shape representation and measuring task performance. | Shape representation rotation mechanism; Shape representation rotation duration; Shape representation rotation accuracy | Task decomposition | Response time includes possible encoding and decision components; mechanism needs evidence. | [Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)](https://facultypsy.hope.edu/psychlabs/exp/rotate/readings/ShepardMetzler_1971.pdf) |
 | Source monitoring | Attributing an item to a perceived, imagined, inferred or supplied origin. | Memory record source attribution | Qualified reading | Attributing a source does not establish content truth; this is a proposed literal translation. | Current user direction and attached expansion note |
 | Learning | Detecting retained change and what caused it. | Learning change detection; Learning change attribution; Learning change retention | Partial decomposition | Learning mechanisms, organisms and task-specific effects are not erased. | [NIMH RDoC domain and construct definitions](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definitions-of-the-rdoc-domains-and-constructs) |
 | Preference formation | Changes in what an agent favors and the causes of those changes. | Preference change detection; Preference change cause; Preference observation context | Partial decomposition | This change-focused component does not by itself explain the initial emergence of a preference or every formation mechanism. | Current user direction and attached expansion note |
@@ -163,3 +163,67 @@ The admission and assessment model is developed here; no global subject enumerat
 | Developed science | A bounded body of defined matters, techniques, results and evidence. | Subject development assessment; Subject translation coverage; Subject requirement necessity | Program analysis | Organizational tidiness and many names do not by themselves establish truth or effectiveness. | Current user direction and attached expansion note |
 | Underrepresented subject | A subject receiving less measured effort than a stated priority rule would allocate. | Subject importance assessment; Subject attention measurement | Relational decomposition | A comparison standard and an effort corpus are needed; no global neglect score is supplied. | Current user direction and attached expansion note |
 | Nonsense subject | An ambiguous complaint requiring a target, claim, method or usefulness failure to be specified. | Subject scope specification; Claim support sufficiency; Inquiry method limitation; Measurement proxy validity | Ambiguity split | A false claim or failed method does not make its precisely defined subject unreal. | Current user direction and attached expansion note |
+| Study versus practice | Investigating an operation, performing it, and testing its contribution are distinct activities. | Reasoning approach selection; Reasoning approach execution; Reasoning approach contribution adequacy | Illustrative separation of actual matters | This example does not create a study and practice copy of every subject; add a new determination only when its completion condition differs. | User note on perspectives, deviation, anticipation and precise subjects |
+| Misleading theory names | A label leaves a consequential distinction unavailable or suggests a scope its account does not support. | Subject name scope underdetermination; Subject name origin reconstruction; Subject name persistence cause; Subject name substitution effect; Explanation account operational content | Separate naming, history, causal persistence and account content | A poor title does not prove an empty theory; a literal title does not prove a substantive theory. | User note on perspectives, deviation, anticipation and precise subjects; [Friston et al., Active Inference and Intentional Behaviour, v2](https://arxiv.org/html/2312.07547v2) |
+
+## Working memory
+
+This is not coverage of all working-memory theories, every linked study, mechanisms, task variants or the whole RDoC matrix.
+
+| Source term | Reading examined | Actual subjects | Relation | Uncovered matter or restriction | Sources |
+|---|---|---|---|---|---|
+| Working Memory | Active availability of task content through maintenance and updating, with capacity and interference qualifications. | Memory active content maintenance; Memory active content update; Memory active content capacity; Memory active content interference control | Composition of functional matters | No one atomic subject is asserted equivalent to the entire construct. Mechanisms and measurement remain separate. | [NIMH RDoC, Working Memory functional branch](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/working-memory) |
+| Active Maintenance | Keeping relevant content usable during a specified task interval. | Memory active content maintenance | Specified functional matter | Does not select a unique biological implementation or prove that a listed task isolates maintenance. | [NIMH RDoC, Active Maintenance](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/active-maintenance) |
+| Flexible Updating | Changing which content is actively maintained as task conditions change. | Memory active content update | Specified functional matter | Flexibility still needs task-dependent switching conditions; the label does not supply a mechanism. | [NIMH RDoC, Flexible Updating](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/flexible-updating) |
+| Limited Capacity | The upper usable load under identified content, task and interference conditions. | Memory active content capacity | Property under study | A measured limit is not assumed fixed across all contents, supports or tasks. | [NIMH RDoC, Limited Capacity](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/limited-capacity) |
+| Interference Control | Preserving relevant active content in the presence of specified competing material. | Memory active content interference; Memory active content interference control | Split occurrence from control | The occurrence of interference and the effectiveness of a control operation require different comparisons. | [NIMH RDoC, Interference Control](https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/interference-control) |
+
+## Anticipation
+
+Unexamined meanings and empirical transfer remain outside this sample.
+
+| Source term | Reading examined | Actual subjects | Relation | Uncovered matter or restriction | Sources |
+|---|---|---|---|---|---|
+| Prediction in active inference | Model-conditioned states or outcomes, including nonverbal expectations. | Model state estimation; Anticipation outcome expectation; Anticipation action dependence | Term used for several specified model roles | Prediction is not restricted to a consciously expressed claim. Whether a particular biological system implements the model remains empirical. | [Friston et al., Active Inference: A Process Theory](https://activeinference.github.io/papers/process_theory.pdf); [Friston et al., Active Inference and Intentional Behaviour, v2](https://arxiv.org/html/2312.07547v2) |
+| Result prediction as an expressed claim | An explicit assertion or probability statement concerning a future outcome. | Prediction claim expression | Narrow specified reading | This is one legitimate use of prediction, not a replacement definition imposed on every technical source. | User note on perspectives, deviation, anticipation and precise subjects |
+| Result anticipation | Expecting a later outcome and the ways that expectation may inform activity. | Anticipation outcome expectation; Anticipation preparation selection; Anticipation influence attribution | Split state, preparation and causal effect | Expectation need not be verbal; an action can be prepared for a possibility the agent does not judge most likely. | User note on perspectives, deviation, anticipation and precise subjects |
+| Anticipated reply | A prospective response used to construct a subsequent contribution. | Anticipation response construction; Anticipation continuation construction; Anticipation continuation exclusion | Operation decomposition | These are authored prompting operations; no general model performance gain is claimed from defining them. | User note on perspectives, deviation, anticipation and precise subjects |
+
+## Perspective
+
+Unexamined meanings and empirical transfer remain outside this sample.
+
+| Source term | Reading examined | Actual subjects | Relation | Uncovered matter or restriction | Sources |
+|---|---|---|---|---|---|
+| Behavior is a perspective | An action pattern makes selected distinctions and response possibilities available. | Perspective representation construction; Perspective consequence accessibility; Perspective scope applicability | Conditional interpretive mapping | Behavior need not be an explicit representation; demonstrate what the mapping preserves instead of equating all behavior with a perspective. | User note on perspectives, deviation, anticipation and precise subjects |
+| Intelligence is a perspective | A capability can be examined as access to consequential distinctions and continuations. | Perspective consequence accessibility; Anticipation preparation selection; Capability use access | Partial reconstruction | Capacity, learning, reliability and physical resources remain separate matters; this is not identity of intelligence with perspective. | User note on perspectives, deviation, anticipation and precise subjects |
+| Perspective pervasiveness | The range of specified matters for which a perspective supplies an adequate contribution. | Perspective scope coverage; Perspective scope limitation | Replace an unbounded impression with a declared domain | A few illuminating examples do not establish applicability to every subject. | User note on perspectives, deviation, anticipation and precise subjects |
+| Biological resource allocation | Competing feasible uses of identified biological resources under actual constraints. | Resource use capacity; Resource configuration bottleneck; Perspective scope extension | Conditional structural translation | Do not assume deliberate allocation, shared kinetics or that all biological questions reduce to resource use. | User note on perspectives, deviation, anticipation and precise subjects |
+
+## Conflict
+
+Unexamined meanings and empirical transfer remain outside this sample.
+
+| Source term | Reading examined | Actual subjects | Relation | Uncovered matter or restriction | Sources |
+|---|---|---|---|---|---|
+| People interaction conflict resolution methods | Methods for resolving a specified incompatibility involving people. | Conflict incompatibility specification; Conflict resolution condition; Conflict resolution method selection; Conflict resolution method applicability | Program decomposition with interpersonal case parameters | A methods collection is an artifact; selecting, creating and testing a method are different subjects. | User note on perspectives, deviation, anticipation and precise subjects |
+| Zero-sum behavior | The total participant payoff is fixed over the complete admitted outcome set. | Game payoff sum invariance; Comparison alternative dominance | Separate game property from a pairwise ordering | Two outcomes can trade gains while another improves both; a single tradeoff is not zero-sum structure. | User note on perspectives, deviation, anticipation and precise subjects |
+
+## Deviation
+
+Unexamined meanings and empirical transfer remain outside this sample.
+
+| Source term | Reading examined | Actual subjects | Relation | Uncovered matter or restriction | Sources |
+|---|---|---|---|---|---|
+| Anti behavior | A departure alleged to frustrate the task that the behavior is supposed to serve. | Deviation reference specification; Deviation effect comparison; Resource use avoidable cost | Replace an evaluative placeholder with testable readings | Do not infer the actual goal from conformity. Ambiguity remains if the relevant goal, reference or feasible alternative is unspecified. | User note on perspectives, deviation, anticipation and precise subjects |
+| Positive deviation | A departure judged beneficial under a specified baseline, criterion and context. | Deviation effect comparison; Deviation effect robustness | Qualified comparative result | Rarity, distance from the norm and creativity do not entail benefit. | User note on perspectives, deviation, anticipation and precise subjects |
+| Perfected deviation | A departure claimed optimal within stated feasible alternatives and criteria. | Deviation optimality condition derivation; Deviation optimality attainability; Deviation optimality case determination | Split formal conditions, existence and case attainment | A best element may not exist; different objectives may have incomparable optima; formal assumptions must hold in an applied case. | User note on perspectives, deviation, anticipation and precise subjects |
+| Good from all perspectives | A comparison quantified over an explicitly admitted perspective set. | Perspective comparison admissibility; Comparison alternative dominance; Comparison alternative robust dominance | Conditional quantified claim | Under unrestricted goals, a perspective can be defined to oppose any act. Consensus cannot be inferred by leaving the domain unstated. | User note on perspectives, deviation, anticipation and precise subjects |
+
+## Uncertainty
+
+Unexamined meanings and empirical transfer remain outside this sample.
+
+| Source term | Reading examined | Actual subjects | Relation | Uncovered matter or restriction | Sources |
+|---|---|---|---|---|---|
+| Uncertainty management | Work on unresolved alternatives insofar as they affect the live inquiry or choice. | Uncertainty alternative specification; Uncertainty source attribution; Uncertainty decision sensitivity; Uncertainty reduction intervention selection | Program decomposition | Not every uncertainty is reducible or decision-relevant; full certainty is not a universal prerequisite for action. | User note on perspectives, deviation, anticipation and precise subjects |

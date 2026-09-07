@@ -6,12 +6,13 @@ The [non-overlap correction](../decisions/0005-non-overlapping-subjects.md) pres
 
 Every project family is material for custom systems in the subjects, given the particular work being attempted. The existing map supplies starting purposes. Additional family–subject combinations must remain available; this table is not a closed assignment of projects to topics.
 
-The ten specifications below establish local designs, not prospective effectiveness. Other entries remain open development work. A source reference or generated folder does not count as a completed version.
+The eleven specifications below establish local designs. The approach selector has an executed naming case; the other ten retain their previous standing. General effectiveness remains unestablished. Other entries remain open development work. A source reference or generated folder does not count as a completed version.
 
 ## Specified local systems
 
 | Subject | Local system | Source families |
 |---|---|---|
+| [Reasoning](../subjects/understanding/reasoning/README.md) | [Approach selection](../subjects/understanding/reasoning/systems/approach-selection.md) — executed on the shape naming case | Reasoningtool2 |
 | [Goals](../subjects/direction/goals/README.md) | [Goal discovery](../subjects/direction/goals/systems/goal-discovery.md) | SDS |
 | [Preferences](../subjects/direction/preferences/README.md) | [Preference discovery](../subjects/direction/preferences/systems/preference-discovery.md) | SDS |
 | [Design](../subjects/creation/design/README.md) | [Design exploration](../subjects/creation/design/systems/design-exploration.md) | SDS |
@@ -40,7 +41,7 @@ The ten specifications below establish local designs, not prospective effectiven
 | [GOSM](../systems/gosm.md) | [Discovery progress](../subjects/inquiry/discovery/systems/discovery-progress.md) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [QuestionRoute](../systems/questionroute.md) | [Preference question route](../subjects/direction/preferences/systems/preference-question-route.md) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [LogicSystem](../systems/logicsystem.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
-| [Reasoningtool2](../systems/reasoningtool2.md) | [Contribution construction](../subjects/interaction/writing/systems/contribution-construction.md) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
+| [Reasoningtool2](../systems/reasoningtool2.md) | [Contribution construction](../subjects/interaction/writing/systems/contribution-construction.md); [Approach selection](../subjects/understanding/reasoning/systems/approach-selection.md) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [ARAW](../systems/araw.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [Resource-engineering](../systems/resource-engineering.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [Project Dashboard](../systems/project-dashboard.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |

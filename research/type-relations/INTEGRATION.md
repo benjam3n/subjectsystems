@@ -2,7 +2,7 @@
 
 Integrating existing subjects is useful when it increases the actual matters we can identify, investigate, or handle. It distracts from the purpose when importing a discipline's vocabulary becomes an end in itself. The catalog can be broad while development remains directed by a consequential next result.
 
-This expansion defines **85 additional subjects**, bringing the working inventory to **384**, and examines **64 conventional terms across 14 domain views**. It supplies 39 scoped requirement records, 16 separating cases, 15 technique evidence records, 12 claim-review cases, nine candidate gaps, and ten proposed programs. These are representative translations. They do not enumerate all established subjects or certify exclusive placement of the 46 general headings.
+The earlier integration stage defined **85 additional subjects**, bringing the working inventory to **384**, and examines **64 conventional terms across 14 domain views**. It supplies 39 scoped requirement records, 16 separating cases, 15 technique evidence records, 12 claim-review cases, nine candidate gaps, and ten proposed programs. The [subsequent perspective investigation](PERSPECTIVES.md) brings the current inventory to 442 names, 86 translated readings, 61 requirements and 17 technique records. It completes one bounded functional source branch and executes the approach-selection case. The figures above describe the earlier stage. These are representative translations. They do not enumerate all established subjects or certify exclusive placement of the 46 general headings.
 
 The attachment's proposed scope includes the brain, LLMs, psychology, philosophy, business, mathematics, engineering, entertainment, law, government, economics, retention, and the development of subjects themselves. Each has actual defined entries or qualified mappings here, with residual coverage explicitly recorded. Physics, chemistry and many other sciences remain further source material; their names have not been inserted as empty canonical subjects.
 
@@ -36,7 +36,7 @@ The [requirements review](SUBJECT-REQUIREMENTS.md) distinguishes six kinds of co
 
 Successful approach selection needs an identifiable candidate at choice time. It does not universally require retrieval, several candidates, an explicit ranking, or an optimal choice. A user can supply one candidate. A larger workflow can create one before the act of choosing. A choice can occur under an inadequate criterion; that is a quality failure, not proof that no selection happened.
 
-Alternative routes should be represented as alternatives: direct provision, access to stored material, or prior construction can each satisfy a need for candidate material in appropriate cases. Conditions required jointly should be marked jointly. The present records give scoped individual conditions and countercases; they do not claim to enumerate all sufficient combinations for all 384 subjects.
+Alternative routes should be represented as alternatives: direct provision, access to stored material, or prior construction can each satisfy a need for candidate material in appropriate cases. Conditions required jointly should be marked jointly. The present records give scoped individual conditions and countercases; they do not claim to enumerate all sufficient combinations for every catalog subject.
 
 Case specification, truth, execution, quality, and justified belief also have different requirements. A claim can be true without an assessor knowing it. A method can execute correctly without contributing the required result. A quantity can be measured repeatably without being a valid proxy for the intended property.
 
@@ -52,7 +52,7 @@ Brain-function and LLM mappings require the same discipline. The RDoC framework 
 
 ## Development, importance, attention, and success
 
-Each subject now has a development record. These are assessment records, not 384 completed literature reviews. Twenty have an explicit goal-relative importance analysis; selected others have technique evidence. Unreviewed properties remain unknown.
+Each subject now has a development record. These are assessment records, not completed literature reviews for every subject. At that stage twenty had an explicit goal-relative importance analysis; selected others have technique evidence. Unreviewed properties remain unknown.
 
 | Dimension | What would establish it |
 |---|---|
