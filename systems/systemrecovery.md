@@ -38,3 +38,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Memory record identity; Memory record context recovery | Preserve the identity and context of retrieved source material through later reuse. | Keep the exact source/version and its original standing available. | Prior contribution proposal; technique body not newly admitted |
+| Memory record provenance | Reconstruct actual links among preserved sources, claims, procedures, and results. | Produce supported relationships while retaining unresolved or missing dependencies. | Prior contribution proposal; technique body not newly admitted |
+| Memory reuse trigger; Memory reuse fidelity | Make a preserved earlier result usable at a relevant point in current work. | Restore the needed material and context so it changes a consequential continuation. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

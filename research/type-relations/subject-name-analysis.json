@@ -1026,6 +1026,34 @@
       "relation": "Unfilled scope versus rival specified readings",
       "case": "A label leaves the rotation frame unstated; another label permits two fully specified different rotation operations.",
       "consequence": "Record the actual missing parameter or rival readings. If one case poses both determinations, it is two matters in one case."
+    },
+    {
+      "a": "Reasoning approach specification",
+      "b": "Reasoning approach specification completeness",
+      "relation": "Construction versus assessment of required content",
+      "case": "One creates an approach description; the other finds an unresolved execution choice in an existing description.",
+      "consequence": "Do not treat a detailed description as its own completeness evidence."
+    },
+    {
+      "a": "Reasoning approach branch coverage",
+      "b": "Reasoning approach rule consistency",
+      "relation": "Unhandled case versus incompatible applicable rules",
+      "case": "A gate can have no matching rule for an input; another gate can have two conflicting matching rules.",
+      "consequence": "Coverage and consistency require separate findings."
+    },
+    {
+      "a": "Inquiry finding transfer condition",
+      "b": "Reasoning approach transfer condition",
+      "relation": "Conclusion reuse versus method applicability",
+      "case": "The same enumeration method is used on a different finite domain while its earlier domain count does not transfer.",
+      "consequence": "Retain the method/result distinction."
+    },
+    {
+      "a": "System composition order dependence",
+      "b": "Plan sequence",
+      "relation": "Behavioral sensitivity versus required precedence",
+      "case": "Two orders produce different arithmetic results; identifying which order a plan requires needs an intended result.",
+      "consequence": "A fact about order effects does not by itself prescribe an order."
     }
   ],
   "expansion_families": [

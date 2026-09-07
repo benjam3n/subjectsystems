@@ -6894,6 +6894,111 @@
         "WM_BRANCH"
       ],
       "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-specification-completeness",
+      "name": "Reasoning approach specification completeness",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine whether an approach specification resolves every execution-relevant choice required by its declared contract, including explicit permitted discretion.",
+      "excludes": "Requiring deterministic choice for every generative method or proving effectiveness from textual completeness.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Derived from actual source-rule gaps and the study/system relationship cases.",
+      "source_ids": [
+        "STUDY_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-branch-coverage",
+      "name": "Reasoning approach branch coverage",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine whether every admitted input or reachable state has a defined continuation or terminal outcome under the approach's rules.",
+      "excludes": "Correctness of the continuation, coverage outside the declared domain, or counting branch labels alone.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Derived from actual source-rule gaps and the study/system relationship cases.",
+      "source_ids": [
+        "STUDY_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-rule-consistency",
+      "name": "Reasoning approach rule consistency",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine whether simultaneously applicable rules can be jointly satisfied under the approach's declared precedence and scope.",
+      "excludes": "Whether the compatible rules are desirable or empirically effective.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Derived from actual source-rule gaps and the study/system relationship cases.",
+      "source_ids": [
+        "STUDY_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-finding-transfer-condition",
+      "name": "Inquiry finding transfer condition",
+      "root": "Inquiry",
+      "parent": "Inquiry finding",
+      "settles": "Determine which assumptions and case qualifications must hold for an existing finding to justify a stated conclusion in a new inquiry.",
+      "excludes": "Reusing a method without transferring its prior conclusion or copying a result without its premises.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Derived from actual source-rule gaps and the study/system relationship cases.",
+      "source_ids": [
+        "STUDY_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-finding-use-contribution",
+      "name": "Inquiry finding use contribution",
+      "root": "Inquiry",
+      "parent": "Inquiry finding",
+      "settles": "Determine how using a specified earlier finding changes the work or result of a later inquiry with its target and standard fixed.",
+      "excludes": "Truth of the reused finding alone, method transfer alone or a merely added citation.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Derived from actual source-rule gaps and the study/system relationship cases.",
+      "source_ids": [
+        "STUDY_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "system-composition-order-dependence",
+      "name": "System composition order dependence",
+      "root": "System",
+      "parent": "System composition",
+      "settles": "Determine which changes of component execution order change a specified system result when the components and input are fixed.",
+      "excludes": "Differences caused by adding components, changing their implementations or changing the input.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Derived from actual source-rule gaps and the study/system relationship cases.",
+      "source_ids": [
+        "STUDY_NOTE"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "system-composition-description-sufficiency",
+      "name": "System composition description sufficiency",
+      "root": "System",
+      "parent": "System composition",
+      "settles": "Determine whether a specified description fixes the system properties needed for an identified task, or whether two realizations satisfy it while differing on those properties.",
+      "excludes": "Assuming a set of topics specifies causal order, interfaces or stopping behavior.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Derived from actual source-rule gaps and the study/system relationship cases.",
+      "source_ids": [
+        "STUDY_NOTE"
+      ],
+      "broader_subjects": []
     }
   ],
   "integration_review": "research/type-relations/subject-integration.json",
@@ -6905,5 +7010,10 @@
       "P02"
     ],
     "data": "perspective-investigation.json"
+  },
+  "study_review": {
+    "basis_commit": "1c857b0790c5e7f78b6526f67577570d87a69722",
+    "new_subjects": 7,
+    "data": "../studies/study-systems.json"
   }
 }

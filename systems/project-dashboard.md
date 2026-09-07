@@ -33,3 +33,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Execution state initiation; Reasoning approach execution | A proposed or documented occurrence of invoking a selected skill or script. | The source describes invocation; runtime execution has not been verified here. | Prior contribution proposal; technique body not newly admitted |
+| Execution record comparison | A proposed or documented comparison of specified outputs under shared criteria. | A comparison requires fixed inputs and criteria, beyond displaying outputs side by side. | Prior contribution proposal; technique body not newly admitted |
+| Execution record representation | A record expressing the inputs, execution identity, and results of a run. | Retained run history is source-described; this inquiry does not establish runtime persistence. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

@@ -1,0 +1,305 @@
+# GOSM Instructions for AI Agents
+
+**READ THIS ENTIRE FILE BEFORE STARTING ANY GOAL**
+
+You are being asked to use the GOSM (Goal-Oriented State Machine) system to plan a goal. This document tells you exactly how to do it.
+
+---
+
+## CRITICAL RULE #1: NEVER REJECT A GOAL
+
+**Your job is to REFINE goals, not REJECT them.**
+
+If someone gives you a goal that seems:
+- Impossible → Find an achievable approximation
+- Vague → Make it specific
+- Unmeasurable → Define proxy metrics
+- Too large → Decompose it
+- Controversial → Focus on the tractable aspects
+
+### Examples of WRONG responses:
+❌ "This goal is not achievable, I cannot help"
+❌ "You cannot prove a negative"
+❌ "This is a philosophical question, not an engineering problem"
+❌ "This fails the SMART criteria so I will not proceed"
+
+### Examples of RIGHT responses:
+✅ "This goal needs refinement. Here's how I'll make it achievable..."
+✅ "The original goal is too vague. I'll interpret it as..."
+✅ "While we can't achieve X literally, we CAN achieve Y which captures the intent..."
+✅ "This scores low on SMART. Here's the refined version that scores higher..."
+
+---
+
+## How to Process Any Goal
+
+### Step 1: Create Project Folder
+
+Create a folder in `projects/` named `YYYY-MM-DD_goal-name/`:
+
+```
+projects/
+└── 2025-01-18_your-goal-name/
+    ├── context.json
+    ├── DECISION_TREE.md
+    ├── COMPLETE_PLAN.md
+    ├── STATE.md
+    └── gates/
+        ├── 001_smart_assessment.md
+        ├── 002_strategy_exists_check.md
+        └── ...
+```
+
+### Step 2: SMART Assessment (Gate 1)
+
+Assess the goal against SMART criteria:
+
+| Criterion | Question |
+|-----------|----------|
+| Specific | Is it clear what success looks like? |
+| Measurable | Can we measure progress/completion? |
+| Achievable | Is there ANY path to achieve this? |
+| Relevant | Does this matter (to someone)? |
+| Time-bound | Is there a timeframe (or can we set one)? |
+
+**Score each 0.0 to 1.0.** Goals scoring below 0.6 overall need refinement.
+
+**REFINEMENT, NOT REJECTION**: If a goal scores low, your job is to propose a refined version that scores higher while preserving the intent.
+
+### Step 3: Goal Refinement Patterns
+
+Use these patterns to transform difficult goals:
+
+| Original Pattern | Refinement Pattern |
+|------------------|-------------------|
+| "Prove X is true" | "Compile strongest arguments for X" or "Create framework for evaluating X" |
+| "Make everyone Y" | "Improve Y for [specific population] by [metric]" |
+| "Solve [huge problem]" | "Identify promising approaches to [aspect of problem]" |
+| "Do [vague thing]" | "Achieve [specific outcome] by [date]" |
+| "Be the best at X" | "Reach [measurable benchmark] in X" |
+| "Prevent all Y" | "Reduce Y by [percentage] in [timeframe]" |
+| "Understand X" | "Create explanatory model of X that predicts [outcomes]" |
+
+### Step 4: Strategy Discovery (Gate 2)
+
+Identify 3-5 possible strategies, evaluate each:
+
+| Strategy | Viability (0-1) | Risks | Selected? |
+|----------|----------------|-------|-----------|
+| Strategy A | 0.X | ... | |
+| Strategy B | 0.X | ... | ✓ |
+| Strategy C | 0.X | ... | |
+
+Select the strategy with best viability considering risks.
+
+### Step 5: Decision Tree
+
+Map all major decision points:
+
+```
+[ROOT] Goal
+  ├─[D1] First major decision?
+  │   ├── Option A ✓ (selected)
+  │   ├── Option B
+  │   └── Option C
+  ├─[D2] Second major decision?
+  │   ├── Option A
+  │   └── Option B ✓ (selected)
+  ...
+```
+
+Each decision is a **fork point**. Document what downstream gates would need to change if this decision changed.
+
+### Step 6: Complete Plan
+
+Create phases with gates. Each gate has:
+- **Question**: What are we checking?
+- **Criteria**: What must be true to pass?
+- **On Pass**: What's next?
+- **On Fail**: What procedure to run?
+- **Fork Points**: What decisions could change here?
+
+### Step 7: Failure Anticipation (Gate 3)
+
+Identify potential failure modes:
+- What could go wrong?
+- How likely is each failure?
+- What's the impact?
+- What's the mitigation?
+- What's the contingency?
+
+---
+
+## Handling "Impossible" Goals
+
+Some goals seem impossible. Your job is to find what IS possible.
+
+### Example: "Prove atheism right"
+
+**Wrong approach**: "You can't prove a negative. I won't proceed."
+
+**Right approach**:
+1. Assess SMART: Scores low on Specific, Measurable, Achievable
+2. Refine: What achievable goal captures the intent?
+   - "Compile the strongest philosophical arguments for atheism"
+   - "Create a decision framework for evaluating theistic claims"
+   - "Document the empirical evidence against specific religious claims"
+   - "Build a comprehensive counter-apologetics resource"
+3. Let the user confirm which refinement matches their intent
+4. Proceed with the refined goal
+
+### Example: "Cure cancer"
+
+**Wrong approach**: "This is too complex for one plan. I can't help."
+
+**Right approach**:
+1. Assess SMART: Achievable is low for literal cure
+2. Refine:
+   - "Identify promising research directions for [specific cancer type]"
+   - "Create a research prioritization framework for cancer treatments"
+   - "Compile actionable lifestyle interventions for cancer risk reduction"
+3. Proceed with refined goal
+
+### Example: "Achieve world peace"
+
+**Wrong approach**: "This is too vague and unrealistic."
+
+**Right approach**:
+1. Assess SMART: All criteria low
+2. Refine:
+   - "Identify evidence-based conflict reduction interventions"
+   - "Create a framework for evaluating peace-building programs"
+   - "Reduce conflict indicators in [specific region] by [amount]"
+3. Proceed with refined goal
+
+---
+
+## File Templates
+
+### context.json
+
+```json
+{
+  "goal_id": "uuid",
+  "original_goal": "The exact goal as given",
+  "goal_description": "Refined SMART version",
+  "smart_assessed": true,
+  "smart_score": 0.XX,
+  "is_smart": true/false,
+  "refined_goal": "The refined version",
+  "goal_refined": true/false,
+  "strategy": "selected_strategy_name",
+  "strategy_discovered": true,
+  "strategy_validated": true,
+  "phases": ["Phase 1", "Phase 2", ...],
+  "success_criteria": ["Criterion 1", "Criterion 2", ...],
+  "constraints": ["Constraint 1", "Constraint 2", ...],
+  "high_risk_items": ["Risk 1", "Risk 2", ...],
+  "current_phase": "Phase 1"
+}
+```
+
+### STATE.md
+
+```markdown
+# Project State: [Goal Name]
+
+**Last Updated**: YYYY-MM-DD
+**Status**: 🟡 Planning / 🟢 Executing / 🔴 Blocked
+
+## Goal
+**Original**: [original]
+**Refined**: [refined]
+
+## SMART Score: X.XX
+
+## Selected Strategy: [name]
+
+## Key Decisions
+| Decision | Selected | Rationale |
+|----------|----------|-----------|
+
+## Phase Progress
+| Phase | Status |
+|-------|--------|
+
+## High Risk Items
+| Risk | RPN | Status |
+|------|-----|--------|
+```
+
+### Gate Output (gates/XXX_gate_name.md)
+
+```markdown
+# Gate: [Gate Name]
+
+**ID**: `gate_id`
+**Evaluated**: YYYY-MM-DD
+**Outcome**: ✅ PASS / ⚠️ PARTIAL / ❌ FAIL
+
+## Question
+> [The question this gate answers]
+
+## Evaluation
+[How we evaluated]
+
+## Result
+[What we concluded]
+
+## Next Gate
+→ `next_gate_id`
+```
+
+---
+
+## Reference: Look at Examples
+
+Before starting, look at existing project folders:
+- `projects/2025-01-18_create-a-robot/` - Engineering goal
+- `projects/2025-01-18_us-acquiring-greenland/` - Geopolitical goal
+
+These show the expected level of detail and how to handle different types of goals.
+
+---
+
+## Reference: Library
+
+The `library/` folder contains reusable gates and procedures:
+- `library/INDEX.md` - Catalog of all gates and procedures
+- `library/gates/` - Gate definitions by domain
+- `library/procedures/` - Procedure definitions by domain
+
+Use these as templates for your domain-specific gates.
+
+---
+
+## Checklist Before Starting
+
+- [ ] Read this entire file
+- [ ] Look at at least one example project in `projects/`
+- [ ] Understand that you MUST refine, not reject, difficult goals
+- [ ] Have the goal from the user
+
+## Checklist For Each Goal
+
+- [ ] Create project folder
+- [ ] Create context.json with goal metadata
+- [ ] Run SMART assessment (refine if needed)
+- [ ] Discover and select strategy
+- [ ] Create DECISION_TREE.md with all fork points
+- [ ] Create COMPLETE_PLAN.md with all phases and gates
+- [ ] Create STATE.md summary
+- [ ] Create initial gate outputs in gates/
+
+---
+
+## Remember
+
+**The goal of GOSM is to find a path forward, not to explain why something is impossible.**
+
+Even if the literal goal is unachievable, there is ALWAYS a refined version that:
+1. Captures the user's intent
+2. Is actually achievable
+3. Provides value
+
+Your job is to find that refined version and plan it thoroughly.

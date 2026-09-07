@@ -47,3 +47,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Question identity | Fix what makes two question records the same question despite wording changes. | Specify referents, requested distinction, assumptions, and answer conditions. | Prior contribution proposal; technique body not newly admitted |
+| Question route specification | Specify different future continuations for materially different answers. | Produce a branching course with explicit trigger answers and consequential next work. | Prior contribution proposal; technique body not newly admitted |
+| Question route continuation selection | Choose the applicable continuation after a particular question receives an answer. | Select a live branch while preserving the question and answer that justify it. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

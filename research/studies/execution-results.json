@@ -1,0 +1,1371 @@
+{
+  "date": "2026-09-07",
+  "source_basis_commit": "1c857b0790c5e7f78b6526f67577570d87a69722",
+  "standing": "Executed finite models and explicit source-rule interpretation; no empirical success probabilities are inferred.",
+  "original_gate_gap": {
+    "required_percent": 100,
+    "optional_percent": 0,
+    "abandoned": false,
+    "matching_original_branches": []
+  },
+  "repaired_gap_result": {
+    "achievement": "achieved",
+    "failed_required": [],
+    "unknown_required": [],
+    "optional_observations": {
+      "optional_1": false
+    },
+    "activity": "not_marked_abandoned"
+  },
+  "gate_domain": {
+    "required_1": [
+      "true",
+      "false",
+      "unknown"
+    ],
+    "required_2": [
+      "true",
+      "false",
+      "unknown"
+    ],
+    "optional_1": [
+      "true",
+      "false",
+      "unknown"
+    ],
+    "abandoned": [
+      "false",
+      "true"
+    ]
+  },
+  "achievement_cases": [
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "true",
+        "optional_1": "true",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "achieved",
+        "failed_required": [],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "true",
+        "optional_1": "true",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "achieved",
+        "failed_required": [],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "true",
+        "optional_1": "false",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "achieved",
+        "failed_required": [],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "true",
+        "optional_1": "false",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "achieved",
+        "failed_required": [],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "true",
+        "optional_1": "unknown",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "achieved",
+        "failed_required": [],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "true",
+        "optional_1": "unknown",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "achieved",
+        "failed_required": [],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "false",
+        "optional_1": "true",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "false",
+        "optional_1": "true",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "false",
+        "optional_1": "false",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "false",
+        "optional_1": "false",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "false",
+        "optional_1": "unknown",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "false",
+        "optional_1": "unknown",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "unknown",
+        "optional_1": "true",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "unknown",
+        "optional_1": "true",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "unknown",
+        "optional_1": "false",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "unknown",
+        "optional_1": "false",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "unknown",
+        "optional_1": "unknown",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "true",
+        "required_2": "unknown",
+        "optional_1": "unknown",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "true",
+        "optional_1": "true",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "true",
+        "optional_1": "true",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "true",
+        "optional_1": "false",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "true",
+        "optional_1": "false",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "true",
+        "optional_1": "unknown",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "true",
+        "optional_1": "unknown",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "false",
+        "optional_1": "true",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1",
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "false",
+        "optional_1": "true",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1",
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "false",
+        "optional_1": "false",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1",
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "false",
+        "optional_1": "false",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1",
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "false",
+        "optional_1": "unknown",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1",
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "false",
+        "optional_1": "unknown",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1",
+          "required_2"
+        ],
+        "unknown_required": [],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "unknown",
+        "optional_1": "true",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "unknown",
+        "optional_1": "true",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "unknown",
+        "optional_1": "false",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "unknown",
+        "optional_1": "false",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "unknown",
+        "optional_1": "unknown",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "false",
+        "required_2": "unknown",
+        "optional_1": "unknown",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_1"
+        ],
+        "unknown_required": [
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "true",
+        "optional_1": "true",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "true",
+        "optional_1": "true",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "true",
+        "optional_1": "false",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "true",
+        "optional_1": "false",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "true",
+        "optional_1": "unknown",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "true",
+        "optional_1": "unknown",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "false",
+        "optional_1": "true",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "false",
+        "optional_1": "true",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "false",
+        "optional_1": "false",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "false",
+        "optional_1": "false",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "false",
+        "optional_1": "unknown",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "false",
+        "optional_1": "unknown",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "not_achieved",
+        "failed_required": [
+          "required_2"
+        ],
+        "unknown_required": [
+          "required_1"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "unknown",
+        "optional_1": "true",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1",
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "unknown",
+        "optional_1": "true",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1",
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": true
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "unknown",
+        "optional_1": "false",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1",
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "unknown",
+        "optional_1": "false",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1",
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": false
+        },
+        "activity": "abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "unknown",
+        "optional_1": "unknown",
+        "abandoned": "false"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1",
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "not_marked_abandoned"
+      }
+    },
+    {
+      "input": {
+        "required_1": "unknown",
+        "required_2": "unknown",
+        "optional_1": "unknown",
+        "abandoned": "true"
+      },
+      "result": {
+        "achievement": "undetermined",
+        "failed_required": [],
+        "unknown_required": [
+          "required_1",
+          "required_2"
+        ],
+        "optional_observations": {
+          "optional_1": null
+        },
+        "activity": "abandoned"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "input": {
+        "name": "A premise entails itself",
+        "atoms": [
+          "P"
+        ],
+        "premises": [
+          "P"
+        ],
+        "conclusion": "P"
+      },
+      "result": {
+        "valid": true,
+        "vacuous": false,
+        "valuations_checked": 2,
+        "premise_models": 1,
+        "counterexamples": [],
+        "scope": "Exactly the supplied classical Boolean formulas; translation from prose requires separate justification."
+      }
+    },
+    {
+      "input": {
+        "name": "Conjunction entails its first conjunct",
+        "atoms": [
+          "P",
+          "Q"
+        ],
+        "premises": [
+          [
+            "and",
+            "P",
+            "Q"
+          ]
+        ],
+        "conclusion": "P"
+      },
+      "result": {
+        "valid": true,
+        "vacuous": false,
+        "valuations_checked": 4,
+        "premise_models": 1,
+        "counterexamples": [],
+        "scope": "Exactly the supplied classical Boolean formulas; translation from prose requires separate justification."
+      }
+    },
+    {
+      "input": {
+        "name": "A premise entails a disjunction containing it",
+        "atoms": [
+          "P",
+          "Q"
+        ],
+        "premises": [
+          "P"
+        ],
+        "conclusion": [
+          "or",
+          "P",
+          "Q"
+        ]
+      },
+      "result": {
+        "valid": true,
+        "vacuous": false,
+        "valuations_checked": 4,
+        "premise_models": 2,
+        "counterexamples": [],
+        "scope": "Exactly the supplied classical Boolean formulas; translation from prose requires separate justification."
+      }
+    },
+    {
+      "input": {
+        "name": "Modus ponens",
+        "atoms": [
+          "P",
+          "Q"
+        ],
+        "premises": [
+          "P",
+          [
+            "implies",
+            "P",
+            "Q"
+          ]
+        ],
+        "conclusion": "Q"
+      },
+      "result": {
+        "valid": true,
+        "vacuous": false,
+        "valuations_checked": 4,
+        "premise_models": 1,
+        "counterexamples": [],
+        "scope": "Exactly the supplied classical Boolean formulas; translation from prose requires separate justification."
+      }
+    },
+    {
+      "input": {
+        "name": "Two material implications compose",
+        "atoms": [
+          "P",
+          "Q",
+          "R"
+        ],
+        "premises": [
+          [
+            "implies",
+            "P",
+            "Q"
+          ],
+          [
+            "implies",
+            "Q",
+            "R"
+          ]
+        ],
+        "conclusion": [
+          "implies",
+          "P",
+          "R"
+        ]
+      },
+      "result": {
+        "valid": true,
+        "vacuous": false,
+        "valuations_checked": 8,
+        "premise_models": 4,
+        "counterexamples": [],
+        "scope": "Exactly the supplied classical Boolean formulas; translation from prose requires separate justification."
+      }
+    },
+    {
+      "input": {
+        "name": "Achievement alone entails causal process contribution",
+        "atoms": [
+          "achieved",
+          "process_caused"
+        ],
+        "premises": [
+          "achieved"
+        ],
+        "conclusion": "process_caused"
+      },
+      "result": {
+        "valid": false,
+        "vacuous": false,
+        "valuations_checked": 4,
+        "premise_models": 2,
+        "counterexamples": [
+          {
+            "achieved": true,
+            "process_caused": false
+          }
+        ],
+        "scope": "Exactly the supplied classical Boolean formulas; translation from prose requires separate justification."
+      }
+    }
+  ],
+  "vacuous_case": {
+    "valid": true,
+    "vacuous": true,
+    "valuations_checked": 4,
+    "premise_models": 0,
+    "counterexamples": [],
+    "scope": "Exactly the supplied classical Boolean formulas; translation from prose requires separate justification."
+  },
+  "support_preservation": {
+    "paths": [
+      {
+        "path": 0,
+        "premises": [
+          "A"
+        ],
+        "status": "invalidated"
+      },
+      {
+        "path": 1,
+        "premises": [
+          "B"
+        ],
+        "status": "retained"
+      }
+    ],
+    "has_retained_support": true,
+    "conclusion_truth": "Not inferred from the loss of a support path."
+  },
+  "candidate_filter": [
+    {
+      "candidate": "specified_finite_method",
+      "status": "passes_required_checks",
+      "failed": [],
+      "unknown": []
+    },
+    {
+      "candidate": "undefined_domain_method",
+      "status": "unresolved",
+      "failed": [],
+      "unknown": [
+        "finite_domain"
+      ]
+    },
+    {
+      "candidate": "inapplicable_method",
+      "status": "rejected",
+      "failed": [
+        "finite_domain"
+      ],
+      "unknown": []
+    }
+  ],
+  "order_dependence": [
+    {
+      "order": [
+        "increment",
+        "double"
+      ],
+      "input": 1,
+      "output": 4,
+      "trace": [
+        {
+          "operation": "increment",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "operation": "double",
+          "before": 2,
+          "after": 4
+        }
+      ]
+    },
+    {
+      "order": [
+        "double",
+        "increment"
+      ],
+      "input": 1,
+      "output": 3,
+      "trace": [
+        {
+          "operation": "double",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "operation": "increment",
+          "before": 2,
+          "after": 3
+        }
+      ]
+    }
+  ],
+  "input_boundaries": [
+    {
+      "case": "undeclared_atom",
+      "status": "input_rejected",
+      "reason": "Undeclared atom: Q"
+    },
+    {
+      "case": "empty_required_map",
+      "status": "input_rejected",
+      "reason": "Supply a nonempty map of required checks to true, false or null."
+    },
+    {
+      "case": "oversized_enumeration",
+      "status": "input_rejected",
+      "reason": "Declared Cartesian space exceeds the execution bound."
+    }
+  ],
+  "verdict_quota_result": "All five fixed analytical examples have valid nonvacuous implications. An additional mandatory rejected or genuinely uncertain verdict is unsupported in that set; this targets the quota interpreted as a verdict requirement, not every ARAW operation.",
+  "interpretation_limits": [
+    "The formulas are explicit analytical inputs; truth-table validity does not validate every prose translation.",
+    "Goal observations are stipulated; the method does not measure whether a real-world criterion holds.",
+    "The arithmetic order example proves insufficiency of an unordered component list for its stated behavior; it is not a theory of all physical systems.",
+    "Independent support paths are assumed separately justified. The bookkeeping supplies no new causal or probabilistic evidence."
+  ],
+  "method_sha256": "7bc6e4016e8fe4ba6542a750de0495bcc093ed343f61eced82b73c52b88c61d2"
+}

@@ -37,3 +37,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Preference hypothesis creation | Represent an inferred favoring pattern separately from the observed reaction. | State the alternatives, features, agent, and conditions supporting the hypothesis. | Prior contribution proposal; technique body not newly admitted |
+| Preference hypothesis prediction | Predict a reaction to a materially different candidate under stated circumstances. | Record the predicted response before using the eventual reaction. | Prior contribution proposal; technique body not newly admitted |
+| Preference hypothesis revision | Revise a preference hypothesis after a reaction that its current form fails to explain. | Change the relevant condition or relation and identify the cases whose predictions change. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

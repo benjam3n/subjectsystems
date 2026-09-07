@@ -43,3 +43,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Reasoning contribution selection | Choose the fitting contribution from available knowledge, operations, and possible departures. | Select what can change the live inquiry rather than merely continue its presentation. | Prior contribution proposal; technique body not newly admitted |
+| Reasoning approach creation | Construct a new operation when existing prescriptions do not provide the required transformation. | Specify an actual transformation with observable input and result distinctions. | Prior contribution proposal; technique body not newly admitted |
+| Learning correction uptake | Make a retained correction alter a later consequential choice or transformation. | Show the later work using the corrected distinction at the point where it matters. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

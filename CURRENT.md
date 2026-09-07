@@ -1,6 +1,6 @@
 # Current working contract
 
-Revised 7 September 2026: precise perspective and anticipation subjects, a completed working-memory functional branch, an executed custom approach-selection case, and a finite deviation comparison. The exclusive global hierarchy remains unfinished.
+Revised 7 September 2026: literal study translations, explicit technique admission, and three executed custom compositions derived from inspected ARAW, GOSM and Reasoningtool material. The earlier perspective, working-memory and approach-selection results remain available. The exclusive global hierarchy remains unfinished.
 
 ## Established direction
 
@@ -18,7 +18,7 @@ Each source project remains material for custom systems developed for each subje
 |---|---|
 | Subject Systems and subject-specific system development | Established direction |
 | Subject as a matter of consideration; explicit, non-overlapping sibling scopes | Current conceptual basis, followed by the user's request to implement the definitions |
-| [442 named subjects](subjects/scopes/NAMES.md) | Current defined inventory under 52 general headings, with 160 target groups; broad headings are not certified exclusive peers |
+| [449 named subjects](subjects/scopes/NAMES.md) | Current defined inventory under 52 general headings, with 161 target groups; broad headings are not certified exclusive peers |
 | [First model: 28 scopes within 11 parents](subjects/scopes/FIRST-MODEL.md) | Preserved predecessor; compound short names superseded through an explicit change map |
 | General-first literal names without conjunctions | Current user direction; every added term must specify a consequential target or determination |
 | Parent–child relation | Containment of matters; parents mean the union of their defined children |
@@ -37,19 +37,29 @@ Each source project remains material for custom systems developed for each subje
 
 The [naming derivation](research/type-relations/SUBJECT-NAMES.md) replaces bundled labels with defined targets. Reasoning approach selection, creation, and modification have different completion conditions. Expression representation is a target group with explicit refinements. Claim support limits is distinct from Claim truth conditions; Truth boundaries does not specify which is intended.
 
-All 28 predecessor scope labels and 11 bundled parent labels have a change record. The current inventory defines 442 determinations, 27 naming terms, eight substantive expansion families, and 63 project-contribution records, of which 62 have proposed subject bindings. Forty-eight boundary cases identify distinctions, a merged alias, explicit narrower-scope relations, and unresolved overlaps. Intelligence and Understanding are not asserted as exclusive peers of all Capability.
+All 28 predecessor scope labels and 11 bundled parent labels have a change record. The current inventory defines 449 determinations, 27 naming terms, eight substantive expansion families, and 63 project-contribution records, of which 62 have proposed subject bindings. Fifty-two boundary cases identify distinctions, a merged alias, explicit narrower-scope relations, and unresolved overlaps. Intelligence and Understanding are not asserted as exclusive peers of all Capability.
 
 The canonical inventory is the named catalog. The previous subtype matrices remain experiments under their own explicit meanings; their results are not silently rewritten by a change of subject name. A complete exclusive global hierarchy is still a task to establish, not a conclusion inferred from this expanded list.
 
 ## Integration extension
 
-The [integration review](research/type-relations/INTEGRATION.md) and [perspective extension](research/type-relations/PERSPECTIVES.md) now supply 442 names under 52 partial headings with 160 target groups. Eighty-six readings have explicit mappings across 20 domain views. Sixty-one requirement records distinguish logical force; 25 cases examine overstrong prerequisites. Seventeen technique records separate specification, implementation, observed effectiveness and transfer. The 442 development records include 28 explicit importance analyses; most assessments remain open. No worldwide attention or neglect ranking exists.
+The [integration review](research/type-relations/INTEGRATION.md) and [perspective extension](research/type-relations/PERSPECTIVES.md) now supply 449 names under 52 partial headings with 161 target groups. Eighty-six readings have explicit mappings across 20 domain views. Sixty-eight requirement records distinguish logical force; 25 cases examine overstrong prerequisites. Twenty technique records separate specification, implementation, observed effectiveness and transfer. The 449 development records include 35 explicit importance analyses; most assessments remain open. No worldwide attention or neglect ranking exists.
 
 The perspective extension adds 58 subjects for perspectives, anticipation, uncertainty, conflict, deviation, naming and active memory. The working-memory review reconciles all five labels in the declared functional branch, five definition qualifications and 97 associated source occurrences without treating the associations as atomic subjects. The custom approach selector is executed on the actual shape naming case. A finite payoff example computes dominance and constant-sum structure under stipulated inputs.
 
 Shape representation rotation names the transformation; Shape representation rotation mechanism names how it is produced. Stable IDs and the earlier human-internal case are retained. Anticipation is not reduced to making a forecast claim. The inspected Friston sources already use nonverbal model expectations; the review separates actual quantities rather than imposing an ordinary-language definition. Broad frame applicability and theory validity remain bounded by their arguments.
 
 Reasoning approach availability is a condition subject even when no approach is available. Successful selection needs a candidate at choice time; prior retrieval, explicit ranking and optimality are not universal requirements. Existing sciences can be reconstructed as programs using actual subjects, while untranslated source content remains visible. Source families retain their current implementation standing.
+
+## Study development
+
+The [subject–study–system derivation](research/studies/SUBJECT-STUDY-SYSTEM.md) adopts subjects as the organizing unit while distinguishing study programs, conducted inquiries, reusable techniques and systems. A system needs its component relationships; a list of subject or study names does not determine its behavior.
+
+Forty-two detailed source-contribution translations and seven new inquiries give 49 study records. All 21 source-family profiles now have literal study views; only the three focal families receive the new detailed technique review. Fourteen complete source bodies are separately retained with byte counts and hashes. Seven archived Reasoningtool bodies were inspected from a 656-entry metadata catalog; the different historical 415-procedure description remains a separate snapshot.
+
+Five techniques have declared finite contracts. Three custom systems execute finite candidate generation, finite inference validity and goal achievement assessment. The GOSM outcome threshold gap is repaired explicitly; 54 finite achievement cases are classified. Evidence-derived validity is kept separate from source disagreement quotas, and loss of one support path is kept separate from loss of all support. Defined parameters are permitted; unspecified transformations and unsupported guarantees are not admitted as operative techniques.
+
+The earlier 139-artifact manifest and its five selected snapshots are unchanged. The new study source inventory is additional and does not claim a complete source-corpus audit.
 
 ## What the first scope revision established
 
@@ -67,7 +77,7 @@ The next contribution identifies [subject completion](research/type-relations/SU
 
 This is not a file-by-file semantic audit of the entire source corpus. The manifest retains 139 pinned artifacts and five selected local snapshots. Historical reviews and snapshots are unchanged.
 
-Eleven custom specifications now exist. One approach-selection case is executed; the other ten remain at their recorded written-design standing. No general effectiveness follows from either a specification or one execution. Generic alternative development, design exploration, and candidate improvement still require the construction scope of their actual target. A new interface or artifact kind may need a subject not yet defined in this atlas. No universal orchestrator or automatic semantic dependency discovery has been implemented.
+Fourteen custom specifications now exist. Approach selection and the three new finite compositions have executed cases; the other ten remain at their recorded written-design standing. No general effectiveness follows from either a specification or one execution. Generic alternative development, design exploration, and candidate improvement still require the construction scope of their actual target. A new interface or artifact kind may need a subject not yet defined in this atlas. No universal orchestrator or automatic semantic dependency discovery has been implemented.
 
 The integration extension includes separately recorded primary sources for conventional disciplines and methods. It does not refresh the heads of the predecessor project repositories. Preserve the distinction between the user’s direction, this implementation, source claims, and observed execution.
 

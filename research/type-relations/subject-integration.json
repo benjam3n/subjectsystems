@@ -219,6 +219,14 @@
       "kind": "Inspected source lineage",
       "scope": "Local approach-selection design adapts candidate comparison, operation choice and correction propagation. It is not execution of a named original skill.",
       "accessed": "2026-09-07"
+    },
+    {
+      "id": "STUDY_NOTE",
+      "title": "User direction: precise studies, admitted techniques and custom subject systems",
+      "url": "",
+      "kind": "User direction and current authored derivation",
+      "scope": "This turn tests the proposed relationship instead of adopting universal identity by wording.",
+      "accessed": "2026-09-07"
     }
   ],
   "translations": [
@@ -2317,6 +2325,83 @@
       "related_subject": "",
       "reason": "The source's possible feature is not strengthened into a universal necessity.",
       "standing": "Derived scoped condition; not a mandatory universal sequence."
+    },
+    {
+      "id": "R062",
+      "subject": "Reasoning approach specification completeness",
+      "kind": "Case specification or justification condition",
+      "condition": "Declare which choices the contract must resolve and which discretion is permitted.",
+      "timing": "At the stated completeness, consistency or transfer claim",
+      "scope": "The declared source contract and case",
+      "related_subject": "",
+      "reason": "A parameter with a defined meaning differs from a missing selection rule.",
+      "standing": "Derived from this review; not a mandatory global workflow."
+    },
+    {
+      "id": "R063",
+      "subject": "Reasoning approach branch coverage",
+      "kind": "Case specification or justification condition",
+      "condition": "Fix the admitted input or state domain before claiming complete coverage.",
+      "timing": "At the stated completeness, consistency or transfer claim",
+      "scope": "The declared source contract and case",
+      "related_subject": "",
+      "reason": "A sample of handled cases is not every reachable case.",
+      "standing": "Derived from this review; not a mandatory global workflow."
+    },
+    {
+      "id": "R064",
+      "subject": "Reasoning approach rule consistency",
+      "kind": "Case specification or justification condition",
+      "condition": "State rule scope and any precedence before checking joint satisfaction.",
+      "timing": "At the stated completeness, consistency or transfer claim",
+      "scope": "The declared source contract and case",
+      "related_subject": "",
+      "reason": "A conflict may be resolved by a real source precedence rule; do not invent one silently.",
+      "standing": "Derived from this review; not a mandatory global workflow."
+    },
+    {
+      "id": "R065",
+      "subject": "Inquiry finding transfer condition",
+      "kind": "Case specification or justification condition",
+      "condition": "Retain the assumptions needed to justify the transferred conclusion.",
+      "timing": "At the stated completeness, consistency or transfer claim",
+      "scope": "The declared source contract and case",
+      "related_subject": "",
+      "reason": "Reusing a method does not automatically carry over an earlier empirical finding.",
+      "standing": "Derived from this review; not a mandatory global workflow."
+    },
+    {
+      "id": "R066",
+      "subject": "Inquiry finding use contribution",
+      "kind": "Case specification or justification condition",
+      "condition": "Compare the later work with and without the finding under the same task standard.",
+      "timing": "At the stated completeness, consistency or transfer claim",
+      "scope": "The declared source contract and case",
+      "related_subject": "",
+      "reason": "A citation or reused sentence alone does not establish a contribution.",
+      "standing": "Derived from this review; not a mandatory global workflow."
+    },
+    {
+      "id": "R067",
+      "subject": "System composition order dependence",
+      "kind": "Case specification or justification condition",
+      "condition": "Hold component definitions and input fixed while changing their order.",
+      "timing": "At the stated completeness, consistency or transfer claim",
+      "scope": "The declared source contract and case",
+      "related_subject": "",
+      "reason": "Otherwise a changed result can come from a changed part rather than order.",
+      "standing": "Derived from this review; not a mandatory global workflow."
+    },
+    {
+      "id": "R068",
+      "subject": "System composition description sufficiency",
+      "kind": "Case specification or justification condition",
+      "condition": "Specify the property that must be recoverable from the description.",
+      "timing": "At the stated completeness, consistency or transfer claim",
+      "scope": "The declared source contract and case",
+      "related_subject": "",
+      "reason": "Different behaviors under the same description refute sufficiency for that property.",
+      "standing": "Derived from this review; not a mandatory global workflow."
     }
   ],
   "requirement_cases": [
@@ -2724,9 +2809,11 @@
       "case_parameters": "Use the fixed definition and its case qualifications; further parameter review is open.",
       "importance_context": "Importance not yet assessed against specified goals.",
       "importance_reason": "No magnitude or priority inferred from inclusion in this catalog.",
-      "recognition": "No dedicated source review completed for this subject.",
+      "recognition": "No dedicated source review completed for this subject. A custom finite method is specified and exercised in the study/system review.",
       "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
-      "technique_ids": [],
+      "technique_ids": [
+        "E020"
+      ],
       "requirements": [],
       "world_neglect": "Undetermined",
       "catalog_standing": "Previously defined",
@@ -3477,9 +3564,11 @@
       "case_parameters": "Use the fixed definition and its case qualifications; further parameter review is open.",
       "importance_context": "Importance not yet assessed against specified goals.",
       "importance_reason": "No magnitude or priority inferred from inclusion in this catalog.",
-      "recognition": "No dedicated source review completed for this subject.",
+      "recognition": "No dedicated source review completed for this subject. A custom finite method is specified and exercised in the study/system review.",
       "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
-      "technique_ids": [],
+      "technique_ids": [
+        "E018"
+      ],
       "requirements": [],
       "world_neglect": "Undetermined",
       "catalog_standing": "Previously defined",
@@ -3942,9 +4031,11 @@
       "case_parameters": "Use the fixed definition and its case qualifications; further parameter review is open.",
       "importance_context": "Importance not yet assessed against specified goals.",
       "importance_reason": "No magnitude or priority inferred from inclusion in this catalog.",
-      "recognition": "No dedicated source review completed for this subject.",
+      "recognition": "No dedicated source review completed for this subject. A custom finite method is specified and exercised in the study/system review.",
       "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
-      "technique_ids": [],
+      "technique_ids": [
+        "E019"
+      ],
       "requirements": [],
       "world_neglect": "Undetermined",
       "catalog_standing": "Previously defined",
@@ -9376,6 +9467,139 @@
       "source_ids": [
         "WM_BRANCH"
       ]
+    },
+    {
+      "subject": "Reasoning approach specification completeness",
+      "scope": "Determine whether an approach specification resolves every execution-relevant choice required by its declared contract, including explicit permitted discretion.",
+      "case_parameters": "Declared source contract, fixed target, input domain, interpretation and comparison case.",
+      "importance_context": "Admitting and composing techniques without hiding missing operations.",
+      "importance_reason": "An unresolved choice, uncovered branch or invalid transfer can change a later verdict even when the source name is familiar.",
+      "recognition": "An explicit local subject and separating case are provided in the study/system review.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R062"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the study/system review",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "STUDY_NOTE"
+      ]
+    },
+    {
+      "subject": "Reasoning approach branch coverage",
+      "scope": "Determine whether every admitted input or reachable state has a defined continuation or terminal outcome under the approach's rules.",
+      "case_parameters": "Declared source contract, fixed target, input domain, interpretation and comparison case.",
+      "importance_context": "Admitting and composing techniques without hiding missing operations.",
+      "importance_reason": "An unresolved choice, uncovered branch or invalid transfer can change a later verdict even when the source name is familiar.",
+      "recognition": "An explicit local subject and separating case are provided in the study/system review.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R063"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the study/system review",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "STUDY_NOTE"
+      ]
+    },
+    {
+      "subject": "Reasoning approach rule consistency",
+      "scope": "Determine whether simultaneously applicable rules can be jointly satisfied under the approach's declared precedence and scope.",
+      "case_parameters": "Declared source contract, fixed target, input domain, interpretation and comparison case.",
+      "importance_context": "Admitting and composing techniques without hiding missing operations.",
+      "importance_reason": "An unresolved choice, uncovered branch or invalid transfer can change a later verdict even when the source name is familiar.",
+      "recognition": "An explicit local subject and separating case are provided in the study/system review.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R064"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the study/system review",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "STUDY_NOTE"
+      ]
+    },
+    {
+      "subject": "Inquiry finding transfer condition",
+      "scope": "Determine which assumptions and case qualifications must hold for an existing finding to justify a stated conclusion in a new inquiry.",
+      "case_parameters": "Declared source contract, fixed target, input domain, interpretation and comparison case.",
+      "importance_context": "Admitting and composing techniques without hiding missing operations.",
+      "importance_reason": "An unresolved choice, uncovered branch or invalid transfer can change a later verdict even when the source name is familiar.",
+      "recognition": "An explicit local subject and separating case are provided in the study/system review.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R065"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the study/system review",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "STUDY_NOTE"
+      ]
+    },
+    {
+      "subject": "Inquiry finding use contribution",
+      "scope": "Determine how using a specified earlier finding changes the work or result of a later inquiry with its target and standard fixed.",
+      "case_parameters": "Declared source contract, fixed target, input domain, interpretation and comparison case.",
+      "importance_context": "Admitting and composing techniques without hiding missing operations.",
+      "importance_reason": "An unresolved choice, uncovered branch or invalid transfer can change a later verdict even when the source name is familiar.",
+      "recognition": "An explicit local subject and separating case are provided in the study/system review.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R066"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the study/system review",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "STUDY_NOTE"
+      ]
+    },
+    {
+      "subject": "System composition order dependence",
+      "scope": "Determine which changes of component execution order change a specified system result when the components and input are fixed.",
+      "case_parameters": "Declared source contract, fixed target, input domain, interpretation and comparison case.",
+      "importance_context": "Admitting and composing techniques without hiding missing operations.",
+      "importance_reason": "An unresolved choice, uncovered branch or invalid transfer can change a later verdict even when the source name is familiar.",
+      "recognition": "An explicit local subject and separating case are provided in the study/system review.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R067"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the study/system review",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "STUDY_NOTE"
+      ]
+    },
+    {
+      "subject": "System composition description sufficiency",
+      "scope": "Determine whether a specified description fixes the system properties needed for an identified task, or whether two realizations satisfy it while differing on those properties.",
+      "case_parameters": "Declared source contract, fixed target, input domain, interpretation and comparison case.",
+      "importance_context": "Admitting and composing techniques without hiding missing operations.",
+      "importance_reason": "An unresolved choice, uncovered branch or invalid transfer can change a later verdict even when the source name is familiar.",
+      "recognition": "An explicit local subject and separating case are provided in the study/system review.",
+      "attention": "Unmeasured: corpus, aliases, period and effort denominator not yet fixed.",
+      "technique_ids": [],
+      "requirements": [
+        "R068"
+      ],
+      "world_neglect": "Undetermined",
+      "catalog_standing": "Defined in the study/system review",
+      "assessment_standing": "Scoped assessment",
+      "source_ids": [
+        "STUDY_NOTE"
+      ]
     }
   ],
   "techniques": [
@@ -9600,6 +9824,45 @@
       "transfer": "Actual conflict applications require evidence for feasibility, participants, objectives and payoff values.",
       "source_ids": [
         "PERSPECTIVE_NOTE"
+      ]
+    },
+    {
+      "id": "E018",
+      "subject": "Claim inference validity",
+      "technique": "Finite inference validity v0.1",
+      "scope": "Five valid analytical implications plus an invalid inference from goal achievement to causal process success.",
+      "formal": "Explicit finite inputs, transformations and stopping rules; see the technique register.",
+      "implementation": "Executable functions in tools/study_methods.py with a local subject-specific specification.",
+      "effectiveness": "Executed bounded cases retain results separately in research/studies/execution-results.json.",
+      "transfer": "No general prose interpretation, empirical efficacy or unrestricted field coverage is inferred.",
+      "source_ids": [
+        "STUDY_NOTE"
+      ]
+    },
+    {
+      "id": "E019",
+      "subject": "Goal achievement status",
+      "technique": "Goal achievement assessment v0.1",
+      "scope": "The GOSM threshold gap and all 54 two-required/one-optional/abandonment-state combinations.",
+      "formal": "Explicit finite inputs, transformations and stopping rules; see the technique register.",
+      "implementation": "Executable functions in tools/study_methods.py with a local subject-specific specification.",
+      "effectiveness": "Executed bounded cases retain results separately in research/studies/execution-results.json.",
+      "transfer": "No general prose interpretation, empirical efficacy or unrestricted field coverage is inferred.",
+      "source_ids": [
+        "STUDY_NOTE"
+      ]
+    },
+    {
+      "id": "E020",
+      "subject": "Reasoning candidate generation",
+      "technique": "Finite candidate generation v0.1",
+      "scope": "Generate the 54 gate-condition cases used by the achievement study.",
+      "formal": "Explicit finite inputs, transformations and stopping rules; see the technique register.",
+      "implementation": "Executable functions in tools/study_methods.py with a local subject-specific specification.",
+      "effectiveness": "Executed bounded cases retain results separately in research/studies/execution-results.json.",
+      "transfer": "No general prose interpretation, empirical efficacy or unrestricted field coverage is inferred.",
+      "source_ids": [
+        "STUDY_NOTE"
       ]
     }
   ],
@@ -10405,5 +10668,10 @@
     "functional_labels": 5,
     "source_association_occurrences": 97,
     "custom_execution": "subjects/understanding/reasoning/systems/approach-selection.md"
+  },
+  "study_review": {
+    "basis_commit": "1c857b0790c5e7f78b6526f67577570d87a69722",
+    "study_targets": 49,
+    "admitted_bounded_techniques": 5
   }
 }

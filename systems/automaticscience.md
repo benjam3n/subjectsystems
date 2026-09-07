@@ -40,3 +40,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Plan creation | Specify a proposed course of empirical inquiry from the distributed project plans. | Make evidence-dependent continuations explicit; described plans are not executed research. | Prior contribution proposal; technique body not newly admitted |
+| Expression representation creation | Construct a book or other investigative text around a fixed research matter. | Preserve the distinction between sourced findings, proposals, and exposition. | Prior contribution proposal; technique body not newly admitted |
+| Claim support sufficiency | Assess what evidence would support or revise one proposed investigative conclusion. | Produce an evidence requirement that could change the inquiry's continuation. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

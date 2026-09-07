@@ -36,3 +36,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Reasoning contribution selection | Choose which contribution fits the actual state of an interaction. | Select a question, derivation, correction, construction, or other needed contribution. | Prior contribution proposal; technique body not newly admitted |
+| Reasoning approach retrieval; Reasoning approach execution | Retrieve and use the exact method relevant to the selected contribution. | Consult the source without silently replacing its operations with a summary. | Prior contribution proposal; technique body not newly admitted |
+| Question answer construction | Construct a response that performs the selected contribution for the current interaction. | Produce the substantive contribution with the required content and no substitute performance. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

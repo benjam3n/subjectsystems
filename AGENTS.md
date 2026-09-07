@@ -23,6 +23,14 @@ Carry out clear, authorized work. Retrieve resolvable context. Do not ask the us
 - Develop the actual subject. More directories, links, procedure names, and tests are not substitutes for a finding or capability.
 - An existing system can be studied, tested, revised, or replaced within a subject. Exact original execution requires fidelity to the original; development of a named descendant can deliberately change its design. State the changes instead of attributing them to the source. Read CUSTOMIZATION.md when developing these systems.
 
+## Study and technique contributions
+
+Use research/studies/SUBJECT-STUDY-SYSTEM.md when distinguishing subjects, study programs, conducted studies and operational systems. A system composes contributors through their relevant relations; an unordered list of studies does not determine behavior. Keep method reuse, result reuse and investigation of a method explicit where they affect the result.
+
+Admit an external technique only for a declared use with defined inputs, consequential transformations, outputs, applicability and termination. Examine specification completeness, branch coverage and rule consistency separately from effectiveness. Defined parameters are not placeholders. A source that only requests a desirable result remains development material until its missing operation is supplied. Preserve any deliberate repair as a named local adaptation. Do not fill gaps with fabricated percentages, universal coverage claims or unsupported forced verdicts.
+
+The current study register is research/studies/study-systems.json. When its executable method changes, run tools/run_study_cases.py and inspect the consequential results; run tools/build_study_systems.py to validate source identity and regenerate its views. A study target record is not automatically a conducted study.
+
 ## Choosing and performing work
 
 Choose what would change the live inquiry or accomplish the actual task. Retrieval, a new distinction, a counterexample, a representation change, candidate generation, observation, execution, criterion revision, and a newly devised operation are all available. Do not require diagnosis, goal clarification, or a fixed operation sequence before every task. Trying a departure can reveal the structure that was not yet visible.

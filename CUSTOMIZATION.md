@@ -22,6 +22,12 @@ The [current subject work](subjects/README.md) requires explicit non-overlapping
 
 These distinctions guide development. They are not a mandatory response schema or an exhaustive ontology of systems. A changed title or subject argument is insufficient where the purpose requires a different operation or criterion. Shared operations can remain shared where their suitability is established; every line of code need not be duplicated to give the local design its own authority.
 
+## Admitting a source contribution
+
+The [study derivation](research/studies/SUBJECT-STUDY-SYSTEM.md) separates the subject, its study program, a particular inquiry, a reusable operation and the system composition. A custom design states how its contributors connect; naming their subjects alone does not supply that structure.
+
+An operative technique must have the locally necessary input, transformation, output, applicability and termination conditions. The [admission review](research/studies/TECHNIQUES.md) separately examines specification, branch coverage, rule consistency and evidence of effect. A defined parameter retains useful generality; an unexplained choice or missing operation remains a development gap. If a repair is needed, state what changed instead of importing the source whole. The current review adds three executed finite systems to the earlier eleven designs.
+
 ## SDS gives different local systems
 
 | Subject | Local purpose | Consequential change |

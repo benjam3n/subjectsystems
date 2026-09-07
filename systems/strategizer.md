@@ -34,3 +34,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Reasoning approach applicability | Specify the conditions under which a strategy is eligible to be used. | Produce conditions that can rule the strategy in or out for an actual case. | Prior contribution proposal; technique body not newly admitted |
+| Prediction construction | Represent plausible counterplay before it is observed. | Identify what an opponent response would change about the proposed course. | Prior contribution proposal; technique body not newly admitted |
+| Plan modification | Revise a strategy's course when conditions or counterplay change. | Produce a new conditional course with preserved and altered dependencies explicit. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

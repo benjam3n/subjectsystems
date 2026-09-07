@@ -4,10 +4,15 @@ The [literal subject bindings](../subjects/scopes/PROJECT-BINDINGS.md) now revie
 
 The subject and particular purpose determine the local system. Source names are lineage, not alternative top-level subjects. The first ten designs remain written specifications at their recorded standing. An eleventh, approach selection, has an [executed naming case](type-relations/APPROACH-SELECTION-CASE.md); its concrete result and limits are recorded separately.
 
+Three further [executed finite compositions](studies/EXECUTIONS.md) bring the total to fourteen. Their exact named subjects and admitted operations are listed below; the earlier first-model addresses remain historical navigation.
+
 ## Existing local designs
 
 | Local design | Determinations it develops | Actual contribution and remaining boundary |
 |---|---|---|
+| [Finite inference validity](../subjects/understanding/reasoning/systems/finite-inference-validity.md) | Claim inference validity | Complete finite Boolean assignment search; countermodels and vacuity retained. Natural-language formalization remains a separate contribution. |
+| [Goal achievement assessment](../subjects/direction/goals/systems/achievement-assessment.md) | Goal achievement status | Required observations determine status; the repaired rule handles all 54 declared cases. Optional merit and causal explanation remain distinct. |
+| [Finite candidate generation](../subjects/understanding/reasoning/systems/finite-candidate-generation.md) | Reasoning candidate generation | Exhaustive product of explicit finite domains within the execution bound; does not establish that those domains represent every real possibility. |
 | [Approach selection](../subjects/understanding/reasoning/systems/approach-selection.md) | Reasoning approach selection; execution and contribution remain separate determinations | Three candidates compared for a live naming task; selected reconstruction yields the general rotation operation and its distinct mechanism question. One executed case; no general selector effectiveness claim. |
 | [Goal discovery](../subjects/direction/goals/systems/goal-discovery.md) | [P1 — Goal formulation](../subjects/scopes/purposes.md#p1-goal-formulation); [V1 — Contextual favoring](../subjects/scopes/valuation.md#v1-contextual-favoring); [V2 — Standards of worth](../subjects/scopes/valuation.md#v2-standards-of-worth) | A candidate aim and achievement conditions; contextual reasons for favoring; criteria where those must be developed. Commitment is not inferred from a proposal. |
 | [Preference discovery](../subjects/direction/preferences/systems/preference-discovery.md) | [V1 — Contextual favoring](../subjects/scopes/valuation.md#v1-contextual-favoring) | An evidence-linked contextual preference account, alternatives, and a discriminating contrast. Use A2 when the support inference itself requires examination. |

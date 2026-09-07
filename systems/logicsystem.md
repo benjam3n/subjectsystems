@@ -42,3 +42,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Reasoning approach specification | Specify one native formal tool's permitted transformations and input conditions. | Keep that tool's actual rules distinct from other tools in the collection. | Prior contribution proposal; technique body not newly admitted |
+| Reasoning approach execution | Execute a specified transformation on fixed formal material. | Return the transformed material with inspectable identity and rule application. | Prior contribution proposal; technique body not newly admitted |
+| Claim inference validity | Assess the output under the actual rules and assumptions of the chosen tool. | Distinguish a valid transformation from truth of premises or general effectiveness. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

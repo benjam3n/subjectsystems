@@ -40,3 +40,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Capability use access; Capability evidence adequacy | Represent the difference between having an ability and realizing behavior through it. | Fix the ability, occurrence conditions, initiation, persistence, and interruption distinctions. | Prior contribution proposal; technique body not newly admitted |
+| Capability use blockage | Account for what prevents a specified available capability from becoming behavior. | Identify the proposed causes and the conditions that would distinguish competing accounts. | Prior contribution proposal; technique body not newly admitted |
+| Capability use intervention requirement | Specify what a proposed intervention must change while preserving stated limits. | Produce target and constraint conditions; no health intervention is validated by this classification. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

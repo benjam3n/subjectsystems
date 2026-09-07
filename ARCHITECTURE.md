@@ -4,7 +4,7 @@ The primary hierarchy contains **scopes of consideration**. The secondary struct
 
 ## Scope containment
 
-Each entry in the [named inventory](subjects/scopes/NAMES.md) defines what an answer must determine, including a neighboring determination it does not settle. The catalog separates target-group navigation from the explicitly argued broader-subject relations; its 46 general headings are not claimed as exclusive peers. Parent scopes denote the union of their named children. Narrower investigations can be developed within a scope without pretending they exhaust it.
+Each entry in the [named inventory](subjects/scopes/NAMES.md) defines what an answer must determine, including a neighboring determination it does not settle. The catalog separates target-group navigation from the explicitly argued broader-subject relations; its 52 general headings are not claimed as exclusive peers. Parent scopes denote the union of their named children. Narrower investigations can be developed within a scope without pretending they exhaust it.
 
 Creating questions is an investigation within question specification. This asserts containment of subject matter, not that a creation event is a kind of question. A subject may study an object, process, property, relation, or possibility.
 
@@ -25,11 +25,17 @@ The former eight groups are historical navigation only. Their rejection is not r
 
 Do not use a composition or a cross-reference to disguise a collision between definitions. If a single coupling relation is missing, define its matter. If two existing scopes admit that same relation, repair or combine them.
 
+## Studies and operating composition
+
+The [study register](research/studies/STUDY-TRANSLATIONS.md) expresses contributions as specific matters and required results. A study program can develop a subject over many inquiries; a method definition or execution is not by itself evidence of a completed study. A system can coordinate studies, methods, artifacts and actions. Its interfaces, order, conditions and state determine how they contribute. Different arrangements of the same contributors can produce different results.
+
+The [technique contracts](research/studies/TECHNIQUES.md) govern the five newly admitted finite operations. The [executed cases](research/studies/EXECUTIONS.md) show the three custom compositions and their limits. Research/studies/sources/ retains additional exact source bodies without changing the earlier source manifest.
+
 ## Local systems
 
 A local system's purpose determines its objects, operations, results, standards, and continuation. A Questions version of a source operates on requested distinctions and answer conditions; a Goals version operates on intended outcomes and achievement conditions. Shared code or observations are possible without making those designs interchangeable.
 
-The [contribution map](research/SCOPE-SYSTEMS.md) places the actual results of the ten existing specifications. Some designs compose several scopes. Some remain generic and require the target's construction scope. Those gaps are recorded rather than hidden by a source-family label or a folder name.
+The [contribution map](research/SCOPE-SYSTEMS.md) places the actual results of the fourteen existing specifications. Some designs compose several scopes. Some remain generic and require the target's construction scope. Those gaps are recorded rather than hidden by a source-family label or a folder name.
 
 An ancestor's original procedure remains original. A descendant may deliberately alter operations, conditions, or criteria when its subject requires it; record the change instead of attributing it to the ancestor. See [CUSTOMIZATION.md](CUSTOMIZATION.md).
 

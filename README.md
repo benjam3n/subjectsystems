@@ -6,11 +6,16 @@ A subject is a matter of consideration. This repository organizes what an inquir
 
 The [perspective investigation](research/type-relations/PERSPECTIVES.md) adds precise anticipation, deviation, conflict and uncertainty subjects, a completed working-memory functional branch reconciliation, and an executed finite payoff comparison.
 
+The [study development](research/studies/SUBJECT-STUDY-SYSTEM.md) translates ARAW, GOSM and selected Reasoningtool procedures into precise study targets, admits five bounded techniques, and implements three custom compositions with executed cases.
+
 ## Start here
 
 | Entry | What it provides |
 |---|---|
-| [Subject names](subjects/scopes/README.md) | 442 literal general-first names, their definitions, exclusions, target groups, and scope relations |
+| [Study translations](research/studies/STUDY-TRANSLATIONS.md) | Literal subjects, particular questions, required contributions and source identity |
+| [Technique contracts](research/studies/TECHNIQUES.md) | Admitted operations, source gaps, explicit adaptations and evidence limits |
+| [Executed compositions](research/studies/EXECUTIONS.md) | Actual finite results, including the repaired GOSM gate and a causal countermodel |
+| [Subject names](subjects/scopes/README.md) | 449 literal general-first names, their definitions, exclusions, target groups, and scope relations |
 | [Discipline integration](research/type-relations/INTEGRATION.md) | 86 translated readings, scoped requirements, development evidence and proposed programs |
 | [Naming derivation](research/type-relations/SUBJECT-NAMES.md) | Why the names differ, what completes each type of work, and how the structure reveals further subjects |
 | [What a subject means](DISTINCTIONS.md) | The scope definition and the conditions for non-overlapping branches |
@@ -22,7 +27,7 @@ The [perspective investigation](research/type-relations/PERSPECTIVES.md) adds pr
 
 Question creation sits within question specification. Planning and Strategy share prospective course structure where their meanings coincide. Improvement sits within comparison under a stated standard. Broad activities such as research can coordinate several defined matters; the methods of those activities can themselves be studied.
 
-The current inventory defines 442 subjects under 52 general headings with 160 target groups. Its boundary review merges an alias, records explicit scope refinements, and retains actual overlap questions; it does not certify an exclusive global hierarchy. The predecessor 28-scope model remains available through the name-change map. Its boundaries apply to specified matters, not whole artifacts or episodes. A single matter matching two alternative definitions is a defect to repair, not an invitation to choose a preferred folder.
+The current inventory defines 449 subjects under 52 general headings with 161 target groups. Its boundary review merges an alias, records explicit scope refinements, and retains actual overlap questions; it does not certify an exclusive global hierarchy. The predecessor 28-scope model remains available through the name-change map. Its boundaries apply to specified matters, not whole artifacts or episodes. A single matter matching two alternative definitions is a defect to repair, not an invitation to choose a preferred folder.
 
 ## Develop the work
 
@@ -40,6 +45,6 @@ The current inventory defines 442 subjects under 52 general headings with 160 ta
 | [Source families](systems/README.md) | The 21 contributing families and their recorded limits |
 | [Source record](sources/README.md) | Pinned artifacts and preserved source history |
 
-Eleven local systems have written design specifications. The [approach selector](research/type-relations/APPROACH-SELECTION-CASE.md) has been executed on the shape naming case; the other ten retain their prior standing. The scope map exposes where generic designs still need target-specific construction work; it does not certify completed customization or prospective effectiveness. The earlier 39 topic records and rejected group paths remain [legacy navigation](subjects/LEGACY.md), with current interpretations linked from them.
+Fourteen local systems have written design specifications. The [approach selector](research/type-relations/APPROACH-SELECTION-CASE.md) has been executed on the shape naming case; three [finite compositions](research/studies/EXECUTIONS.md) also have executed cases. The other ten retain their prior standing. The scope map exposes where generic designs still need target-specific construction work; it does not certify completed customization or prospective effectiveness. The earlier 39 topic records and rejected group paths remain [legacy navigation](subjects/LEGACY.md), with current interpretations linked from them.
 
 Read [AGENTS.md](AGENTS.md) before changing the repository. Run `python3 tools/check.py` after edits. It checks navigation and source identity; semantic boundaries require the definitions and case analysis, and method effectiveness requires actual use.

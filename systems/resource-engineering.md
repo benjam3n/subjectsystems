@@ -46,3 +46,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Resource configuration reconstruction | Reconstruct a specified episode through resources, uses, alternatives, and constraints. | Expose the allocations and dependencies that the original description hides. | Prior contribution proposal; technique body not newly admitted |
+| Resource configuration comparison | Compare specified arrangements under fixed uses, stakes, and result criteria. | Keep the arrangements and the grounds of comparison separate. | Prior contribution proposal; technique body not newly admitted |
+| Resource configuration modification | Transform an allocation or configuration under specified admissibility conditions. | Produce a changed arrangement with its intended and observed consequences distinguished. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

@@ -37,3 +37,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Claim inference specification | Fix the exact conclusion, premises, and inferential dependence being challenged. | Produce a stable target whose wording and meaning do not drift during the challenge. | Prior contribution proposal; technique body not newly admitted |
+| Claim inference counterexample | Construct a case that satisfies the proposed premises while defeating the claimed conclusion. | Produce an actual separating case or retain that none has been found. | Prior contribution proposal; technique body not newly admitted |
+| Reasoning error location | Identify which premise or inferential step the observed failure concerns. | Produce a specific failure report that does not overstate the affected scope. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

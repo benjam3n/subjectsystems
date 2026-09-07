@@ -43,6 +43,8 @@ The subject and the particular purpose determine each local system. The source m
 
 | Local system | Purpose | Standing |
 |---|---|---|
+| [Finite inference validity](systems/finite-inference-validity.md) | Determine validity in a declared finite Boolean language; retain countermodels and vacuity. | Custom v0.1; six inferences and an inconsistent-premise case executed |
+| [Finite candidate generation](systems/finite-candidate-generation.md) | Generate all tuples of explicit finite named domains within a declared bound. | Custom v0.1; used to supply 54 achievement-study cases |
 | [Approach selection](systems/approach-selection.md) | Choose an approach for a precise naming or scope problem, then examine its actual contribution. | Specified v0.1 and executed on the shape rotation case |
 | [Inference challenge](systems/inference-challenge.md) | Locate whether an exact proposed inference fails, and preserve the difference between a defeated inference and an untested one. | Specified v0.1; prospective use unverified |
 
@@ -52,9 +54,9 @@ Each row records an origin or a candidate for custom development. Source relevan
 
 | Source family | Initial place or proposed use | Source standing | Local development |
 |---|---|---|---|
-| [Reasoningtool](../../../systems/reasoningtool.md) | operations / reusable procedures | source-backed proposed placement | To customize for the stated purpose |
+| [Reasoningtool](../../../systems/reasoningtool.md) | finite candidate enumeration | selected full procedure bodies inspected | [Finite candidate generation](systems/finite-candidate-generation.md); [Finite inference validity](systems/finite-inference-validity.md) — custom v0.1 executed |
 | [Reasoningtool2](../../../systems/reasoningtool2.md) | choosing and composing operations | inspected pinned contract | [Approach selection](systems/approach-selection.md) — custom v0.1 executed on one live case |
-| [ARAW](../../../systems/araw.md) | conditional implications | source-backed proposed placement | To customize for the stated purpose |
+| [ARAW](../../../systems/araw.md) | exact assumptions and genuine counterexamples | full archived procedure inspected | [Finite inference validity](systems/finite-inference-validity.md) — custom v0.1 executed; deliberately narrower than the source |
 | [Historical AxiomNet](../../../systems/axiomnet-historical.md) | formal support | source-backed proposed placement | To customize for the stated purpose |
 | [Resource-engineering](../../../systems/resource-engineering.md) | operations on represented material | source-backed proposed placement | To customize for the stated purpose |
 | [TruthFinder](../../../systems/truthfinder.md) | Locate whether an exact proposed inference fails, and preserve the difference between a defeated inference and an untested one. | New derivation from the pinned source | [Inference challenge](systems/inference-challenge.md) — specified v0.1 |

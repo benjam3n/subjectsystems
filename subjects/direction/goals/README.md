@@ -43,6 +43,7 @@ The subject and the particular purpose determine each local system. The source m
 
 | Local system | Purpose | Standing |
 |---|---|---|
+| [Achievement assessment](systems/achievement-assessment.md) | Determine achievement from explicit required observations; retain optional and activity information separately. | Custom v0.1; source gap repaired and 54 finite cases executed |
 | [Goal discovery](systems/goal-discovery.md) | Develop a goal and its conditions of achievement when what should be pursued is still partly unknown. | Specified v0.1; prospective use unverified |
 
 ## Source lineage and customization candidates
@@ -52,7 +53,8 @@ Each row records an origin or a candidate for custom development. Source relevan
 | Source family | Initial place or proposed use | Source standing | Local development |
 |---|---|---|---|
 | [SDS](../../../systems/sds.md) | discovering requirements from examples | source-backed proposed placement | [Goal discovery](systems/goal-discovery.md) — specified v0.1 |
-| [GOSM](../../../systems/gosm.md) | purpose and goal journeys | source-backed proposed placement | To customize for the stated purpose |
+| [GOSM](../../../systems/gosm.md) | achievement criteria and outcome gates | selected full contracts inspected | [Achievement assessment](systems/achievement-assessment.md) — custom v0.1; numeric branch gap repaired |
+| [Reasoningtool](../../../systems/reasoningtool.md) | finite case enumeration for examining achievement rules | archived finite operation inspected | [Achievement assessment](systems/achievement-assessment.md) — actual 54-case contribution |
 | [PreferenceFinder](../../../systems/preferencefinder.md) | Using conditional preference evidence when forming or revising aims | proposed relevance; particular artifact and application to verify | To customize for the stated purpose |
 | [Discovery Engine](../../../systems/discovery-engine.md) | Discovering purposes and criteria that guide further discoveries | proposed relevance; particular artifact and application to verify | To customize for the stated purpose |
 

@@ -1,0 +1,152 @@
+name: outcome_verification
+version: "1.0"
+description: |
+  Final gate for all projects to verify whether the goal was actually achieved.
+  Mandatory before marking any project as COMPLETE.
+
+when_to_use:
+  - Project reaches final phase
+  - All execution gates passed
+  - Ready to close out project
+
+purpose: |
+  Plans are excellent, but did they work? This gate closes the loop between
+  planning and outcomes, enabling learning about what actually drives success.
+
+inputs:
+  - Original goal (from context.json)
+  - Refined goal (from assessment phase)
+  - Success criteria (from planning phase)
+  - Actual results (measured)
+
+process:
+  step_1_gather_evidence:
+    description: Collect all measurable outcomes
+    actions:
+      - Pull target metrics from plan
+      - Measure actual values for each metric
+      - Gather qualitative evidence (user feedback, personal assessment)
+      - Document timeline vs plan
+
+  step_2_assess_achievement:
+    description: Determine if goal was met
+    criteria:
+      achieved:
+        definition: "All primary success criteria met"
+        threshold: "100% of must-have criteria, 70%+ of nice-to-have"
+      partial:
+        definition: "Some but not all criteria met"
+        threshold: "50-99% of must-have criteria"
+      not_achieved:
+        definition: "Primary criteria not met"
+        threshold: "<50% of must-have criteria"
+      abandoned:
+        definition: "Project stopped before completion"
+        reason_required: true
+
+  step_3_attribution:
+    description: Understand what drove the outcome
+    questions:
+      - "What percentage of outcome was due to GOSM process?"
+      - "What percentage was due to external factors?"
+      - "What percentage was luck?"
+      - "What was the single biggest factor?"
+
+  step_4_document:
+    description: Record for future learning
+    outputs:
+      - Update OUTCOMES.md in library
+      - Complete LEARNINGS.md in project
+      - Update procedure effectiveness log
+
+output_template: |
+  # Outcome Verification: [Project Name]
+
+  **Verification Date**: YYYY-MM-DD
+  **Verified By**: [name]
+
+  ## Goal Achievement
+
+  ### Primary Goal
+  **Goal**: [Refined goal statement]
+  **Target Date**: [Original target]
+  **Actual Date**: [When achieved, or current date if ongoing]
+
+  ### Success Criteria Assessment
+
+  | Criterion | Target | Actual | Met? | Notes |
+  |-----------|--------|--------|------|-------|
+  | [Criterion 1] | [target] | [actual] | ✅/❌ | [notes] |
+  | [Criterion 2] | [target] | [actual] | ✅/❌ | [notes] |
+  | [Criterion 3] | [target] | [actual] | ✅/❌ | [notes] |
+
+  ### Overall Outcome
+  **Status**: [ACHIEVED | PARTIAL | NOT_ACHIEVED | ABANDONED]
+  **Confidence**: [HIGH | MEDIUM | LOW]
+
+  ### Outcome Summary
+  [2-3 paragraphs explaining what happened]
+
+  ---
+
+  ## Attribution Analysis
+
+  ### What Drove This Outcome?
+
+  | Factor | Contribution | Evidence |
+  |--------|--------------|----------|
+  | GOSM Process | __% | [specific examples] |
+  | External Factors | __% | [market, timing, luck] |
+  | Personal Effort | __% | [skills, dedication] |
+  | Other | __% | [specify] |
+
+  ### Single Biggest Factor
+  [One sentence: The most important reason for this outcome was...]
+
+  ---
+
+  ## Gap Analysis (If Not Fully Achieved)
+
+  ### What Was the Gap?
+  [Specific description of what fell short]
+
+  ### Root Cause
+  - [ ] Goal was unrealistic
+  - [ ] Strategy was wrong
+  - [ ] Execution was flawed
+  - [ ] External factors changed
+  - [ ] Gave up too early
+  - [ ] Other: [specify]
+
+  ### What Would Have Changed the Outcome?
+  [Specific things that could have led to success]
+
+  ---
+
+  ## Verification Checklist
+
+  - [ ] All metrics measured and documented
+  - [ ] Outcome status determined
+  - [ ] Attribution analysis complete
+  - [ ] Gap analysis complete (if applicable)
+  - [ ] LEARNINGS.md started
+  - [ ] OUTCOMES.md entry prepared
+
+  ---
+
+  ## Sign-off
+
+  **Outcome Verified**: [ACHIEVED | PARTIAL | NOT_ACHIEVED | ABANDONED]
+  **Date**: YYYY-MM-DD
+  **Lessons Captured**: [Yes/No]
+
+integration_with_gosm:
+  mandatory: true
+  when: "Before changing project status to COMPLETE"
+  outputs_to:
+    - library/OUTCOMES.md
+    - project/LEARNINGS.md
+  enables:
+    - Project archival
+    - Success rate tracking
+    - Procedure effectiveness analysis

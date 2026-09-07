@@ -2,11 +2,11 @@
 
 Canonical names for the present working inventory. Each row defines one determination; parent headings collect their listed matters. These are partial scopes, not a certified exclusive partition of every possible subject. See the [derivation](../../research/type-relations/SUBJECT-NAMES.md) and [boundary review](../../cases/subject-names.md).
 
-442 named determinations · 160 target groups · 52 general headings.
+449 named determinations · 161 target groups · 52 general headings.
 
 | General heading | Named determinations | Defined scope |
 |---|---|---|
-| [Reasoning](#reasoning) | 36 | Methods for transforming intellectual material, with their input, intended contribution, operating conditions, or construction at issue. |
+| [Reasoning](#reasoning) | 39 | Methods for transforming intellectual material, with their input, intended contribution, operating conditions, or construction at issue. |
 | [Question](#question) | 19 | The distinction requested by a question, its possible resolutions, or its relation to a response. |
 | [Claim](#claim) | 21 | The content, support, or recorded acceptance of an assertion. Target facts retain their substantive subject. |
 | [Expression](#expression) | 18 | The form used to express identified content, or its interpretation by a specified recipient. |
@@ -28,10 +28,10 @@ Canonical names for the present working inventory. Each row defines one determin
 | [Intelligence](#intelligence) | 7 | Adaptive use of available abilities when the appropriate means are not fixed in advance; a capability refinement, not an exclusive peer of all Capability. |
 | [Understanding](#understanding) | 6 | Usable grasp of specified relations; a capability refinement that can overlap Intelligence rather than an exclusive alternative to it. |
 | [Learning](#learning) | 8 | Experience-dependent change in subsequent capability or conduct. |
-| [Inquiry](#inquiry) | 10 | Investigative organization studied as a method for establishing or revising findings. |
+| [Inquiry](#inquiry) | 12 | Investigative organization studied as a method for establishing or revising findings. |
 | [Relation](#relation) | 10 | Predicates or their composition studied across target kinds; local instances remain qualified by their own subjects. |
 | [Design](#design) | 10 | Relations among requirements, candidate forms, feasibility, or use studied across artifact kinds. Particular artifacts retain their own construction subjects. |
-| [System](#system) | 11 | Specified systems as designed artifacts, including custom descendants, interfaces, or observed executions. |
+| [System](#system) | 13 | Specified systems as designed artifacts, including custom descendants, interfaces, or observed executions. |
 | [Improvement](#improvement) | 7 | Comparative betterment of a changed item against a baseline under a specified standard. The change process is a separate subject. |
 | [Subject](#subject) | 24 | Specified matters of consideration, their names, boundaries, or relationships. |
 | [Perception](#perception) | 3 | Detection, discrimination, or identification from specified sensory presentations. |
@@ -93,6 +93,9 @@ Methods for transforming intellectual material, with their input, intended contr
 | Reasoning approach retirement | Remove an identified approach from the operative candidate inventory under stated reasons. | Deleting its historical source identity. |
 | Reasoning approach availability | Determine which reasoning approaches a specified agent can access in a usable representation at the time of choice. | Existence somewhere, applicability to this case, recognition by the agent, or authorization to execute. |
 | Reasoning approach repertoire coverage | Determine which specified reasoning needs have at least one represented approach in an identified repertoire. | Choosing an approach for one case or proving universal completeness of reasoning. |
+| Reasoning approach specification completeness | Determine whether an approach specification resolves every execution-relevant choice required by its declared contract, including explicit permitted discretion. | Requiring deterministic choice for every generative method or proving effectiveness from textual completeness. |
+| Reasoning approach branch coverage | Determine whether every admitted input or reachable state has a defined continuation or terminal outcome under the approach's rules. | Correctness of the continuation, coverage outside the declared domain, or counting branch labels alone. |
+| Reasoning approach rule consistency | Determine whether simultaneously applicable rules can be jointly satisfied under the approach's declared precedence and scope. | Whether the compatible rules are desirable or empirically effective. |
 
 ### Reasoning candidate
 
@@ -840,6 +843,8 @@ Investigative organization studied as a method for establishing or revising find
 |---|---|---|
 | Inquiry finding replication condition | Specify what must be preserved for a repetition to test the same finding. | Requiring every irrelevant detail to be identical. |
 | Inquiry finding revision condition | Specify which result should revise the finding rather than only its stated application conditions. | Protecting every finding by adding exceptions indefinitely. |
+| Inquiry finding transfer condition | Determine which assumptions and case qualifications must hold for an existing finding to justify a stated conclusion in a new inquiry. | Reusing a method without transferring its prior conclusion or copying a result without its premises. |
+| Inquiry finding use contribution | Determine how using a specified earlier finding changes the work or result of a later inquiry with its target and standard fixed. | Truth of the reused finding alone, method transfer alone or a merely added citation. |
 
 ## Relation
 
@@ -938,6 +943,13 @@ Specified systems as designed artifacts, including custom descendants, interface
 |---|---|---|
 | System implementation correspondence | Determine which behaviors of the specified design the implementation actually realizes. | Equating the written design with running behavior. |
 | System implementation execution evidence | Identify which observed execution supports each specified implementation claim. | Treating a README demonstration as a verified run here. |
+
+### System composition
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| System composition order dependence | Determine which changes of component execution order change a specified system result when the components and input are fixed. | Differences caused by adding components, changing their implementations or changing the input. |
+| System composition description sufficiency | Determine whether a specified description fixes the system properties needed for an identified task, or whether two realizations satisfy it while differing on those properties. | Assuming a set of topics specifies causal order, interfaces or stopping behavior. |
 
 ## Improvement
 

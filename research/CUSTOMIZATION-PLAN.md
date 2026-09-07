@@ -6,12 +6,15 @@ The [non-overlap correction](../decisions/0005-non-overlapping-subjects.md) pres
 
 Every project family is material for custom systems in the subjects, given the particular work being attempted. The existing map supplies starting purposes. Additional family–subject combinations must remain available; this table is not a closed assignment of projects to topics.
 
-The eleven specifications below establish local designs. The approach selector has an executed naming case; the other ten retain their previous standing. General effectiveness remains unestablished. Other entries remain open development work. A source reference or generated folder does not count as a completed version.
+The fourteen specifications below establish local designs. The approach selector has an executed naming case, and three finite compositions have executed cases; the other ten retain their previous standing. General effectiveness remains unestablished. Other entries remain open development work. A source reference or generated folder does not count as a completed version.
 
 ## Specified local systems
 
 | Subject | Local system | Source families |
 |---|---|---|
+| [Reasoning](../subjects/understanding/reasoning/README.md) | [Finite inference validity](../subjects/understanding/reasoning/systems/finite-inference-validity.md) — executed finite cases | ARAW, Reasoningtool |
+| [Reasoning](../subjects/understanding/reasoning/README.md) | [Finite candidate generation](../subjects/understanding/reasoning/systems/finite-candidate-generation.md) — supplies the 54-case study | Reasoningtool |
+| [Goals](../subjects/direction/goals/README.md) | [Achievement assessment](../subjects/direction/goals/systems/achievement-assessment.md) — explicit source repair executed | GOSM, Reasoningtool |
 | [Reasoning](../subjects/understanding/reasoning/README.md) | [Approach selection](../subjects/understanding/reasoning/systems/approach-selection.md) — executed on the shape naming case | Reasoningtool2 |
 | [Goals](../subjects/direction/goals/README.md) | [Goal discovery](../subjects/direction/goals/systems/goal-discovery.md) | SDS |
 | [Preferences](../subjects/direction/preferences/README.md) | [Preference discovery](../subjects/direction/preferences/systems/preference-discovery.md) | SDS |
@@ -28,7 +31,7 @@ The eleven specifications below establish local designs. The approach selector h
 
 | Source family | Specified descendants | Remaining development |
 |---|---|---|
-| [Reasoningtool](../systems/reasoningtool.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
+| [Reasoningtool](../systems/reasoningtool.md) | Finite inference validity; finite candidate generation; goal achievement assessment (linked above) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [PreferenceFinder](../systems/preferencefinder.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [Discovery Engine](../systems/discovery-engine.md) | [Discovery progress](../subjects/inquiry/discovery/systems/discovery-progress.md) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [TruthFinder](../systems/truthfinder.md) | [Inference challenge](../subjects/understanding/reasoning/systems/inference-challenge.md) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
@@ -38,11 +41,11 @@ The eleven specifications below establish local designs. The approach selector h
 | [PostAGI reasoning](../systems/postagi-reasoning.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [System Recovery](../systems/systemrecovery.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [Historical AxiomNet](../systems/axiomnet-historical.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
-| [GOSM](../systems/gosm.md) | [Discovery progress](../subjects/inquiry/discovery/systems/discovery-progress.md) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
+| [GOSM](../systems/gosm.md) | [Discovery progress](../subjects/inquiry/discovery/systems/discovery-progress.md); goal achievement assessment (linked above) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [QuestionRoute](../systems/questionroute.md) | [Preference question route](../subjects/direction/preferences/systems/preference-question-route.md) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [LogicSystem](../systems/logicsystem.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [Reasoningtool2](../systems/reasoningtool2.md) | [Contribution construction](../subjects/interaction/writing/systems/contribution-construction.md); [Approach selection](../subjects/understanding/reasoning/systems/approach-selection.md) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
-| [ARAW](../systems/araw.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
+| [ARAW](../systems/araw.md) | Finite inference validity (linked above) | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [Resource-engineering](../systems/resource-engineering.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [Project Dashboard](../systems/project-dashboard.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |
 | [Autophilosophy](../systems/autophilosophy.md) | None specified yet | Derive the versions required by each subject and purpose, starting from the linked relevance map and extending it where the work requires. |

@@ -35,9 +35,11 @@ These entries are source lineage and starting points for customization. They are
 
 ## Subject-specific descendants
 
-No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+Finite candidate generation, finite inference validity and goal achievement assessment now have custom specifications and executed finite cases, linked in the current study contributions below. The inspected source operations, local adaptations and execution limits retain separate identities.
 
 This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
+
+The new [Goals](../subjects/direction/goals/README.md) descendant uses finite enumeration to examine a particular achievement rule; this does not attribute the entire rule to Reasoningtool.
 
 ## Sources
 
@@ -47,3 +49,37 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Reasoning approach availability | Which procedures are actually available in a usable representation? | A retrievable body and identity; metadata alone does not establish operative content. | No complete technique admitted for this study target |
+| Reasoning approach retrieval | Which stored procedure matches the identified contribution need? | The exact procedure source with its dependencies, rather than only its acronym. | No complete technique admitted for this study target |
+| Reasoning approach repertoire coverage | Which specified intellectual needs have a represented approach in this repertoire? | Coverage over a declared need inventory; a skill count alone supplies no such verdict. | No complete technique admitted for this study target |
+| Reasoning approach selection | Which available procedure should be used for this particular inquiry? | A selected method under a stated rule with consequential alternatives retained. | No complete technique admitted for this study target |
+| Reasoning candidate space specification | Which dimensions and values define the currently represented possibilities? | Explicit axes and values with the source examples and remaining domain questions. | No complete technique admitted for this study target |
+| Reasoning candidate space expansion | What new dimension or region is needed to represent a separating case? | A consequential extension of the earlier candidate space, not an invented extra category to meet a quota. | No complete technique admitted for this study target |
+| Reasoning candidate generation | Which candidate tuples are produced within the specified finite space? | A finite enumeration or explicitly declared sample whose coverage mode is retained. | M01 |
+| Reasoning approach requirement | What contribution must a candidate method supply in this task? | Identifiable success conditions that can distinguish methods. | No complete technique admitted for this study target |
+| Reasoning approach applicability | Which candidate methods have satisfied, failed or unknown prerequisites? | A per-method prerequisite assessment with unknown separated from false. | M03 |
+| Reasoning approach creation | What executable method can supply a missing contribution? | A constructed approach with its operations and consequential conditions; a demand to invent one is not the result. | No complete technique admitted for this study target |
+| Comparison basis alignment | Which requirements and comparison conditions stay fixed across the options? | An explicit common comparison basis with hard constraints separated from preferences. | No complete technique admitted for this study target |
+| Comparison result ordering | How do surviving options compare under the stated criteria? | A scoped ordering or a retained unresolved comparison, without manufactured numerical precision. | No complete technique admitted for this study target |
+| Comparison result incomparability | Which tradeoffs remain unsettled under the supplied criteria? | The exact missing priority or relation that prevents a justified overall winner. | No complete technique admitted for this study target |
+| Anticipation action dependence | How do candidate actions alter possible later outcomes? | Conditional consequence alternatives with the scenario assumptions retained. | No complete technique admitted for this study target |
+| Anticipation preparation selection | Which present preparations address the stated possible futures? | Preparations assessed within the admitted scenario set; sample agreement is not calibrated probability. | No complete technique admitted for this study target |
+
+The full translation is in the [study register](../research/studies/STUDY-TRANSLATIONS.md). Source-level defects and incomplete dependencies are recorded separately; the family is not admitted wholesale.
+
+### Executed local descendants added by this review
+
+| Custom system | Subject | Contribution |
+|---|---|---|
+| [Finite inference validity](../subjects/understanding/reasoning/systems/finite-inference-validity.md) | Claim inference validity | Five valid analytical implications plus an invalid inference from goal achievement to causal process success. |
+| [Goal achievement assessment](../subjects/direction/goals/systems/achievement-assessment.md) | Goal achievement status | The GOSM threshold gap and all 54 two-required/one-optional/abandonment-state combinations. |
+| [Finite candidate generation](../subjects/understanding/reasoning/systems/finite-candidate-generation.md) | Reasoning candidate generation | Generate the 54 gate-condition cases used by the achievement study. |
+<!-- study-view:end -->

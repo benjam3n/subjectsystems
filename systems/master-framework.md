@@ -33,3 +33,15 @@ No exact defining source is attached. See [open questions](../research/OPEN-QUES
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| System identity specification | Resolve which exact artifact and version the name refers to. | Find the defining source or retain a precise unresolved identity; source presently unresolved. | Prior contribution proposal; technique body not newly admitted |
+| Relation predicate definition | Specify a candidate account of how subjects, systems, operations, and results relate. | Produce a local proposal clearly separated from the unidentified source. | Prior contribution proposal; technique body not newly admitted |
+| Subject scope overlap | Test a proposed relationship grammar against a matter assigned conflicting kinds. | Give a separating case or show that the proposed categories overlap; this is a proposed investigation. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->

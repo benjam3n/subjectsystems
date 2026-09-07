@@ -44,3 +44,15 @@ This requirement applies to this family as it does to all other projects. Furthe
 Hashes and source scope are recorded in the [source manifest](../sources/manifest.json). Source summaries and candidate uses remain corrigible.
 
 [All systems](README.md) · [All subjects](../subjects/README.md)
+
+<!-- study-view:start -->
+## Current study contributions
+
+These are specified investigative targets or proposed study contributions. A source procedure, stored artifact, study specification and conducted study retain different standing. The [study/system derivation](../research/studies/SUBJECT-STUDY-SYSTEM.md) and [technique contracts](../research/studies/TECHNIQUES.md) determine how the material can enter a custom composition.
+
+| Literal subject | Particular matter | Required result | Technique standing |
+|---|---|---|---|
+| Preference hypothesis creation | Infer which selected aspects explain a preference across materially different candidates. | Produce a preference hypothesis and a contrasting candidate that could refute it. | Prior contribution proposal; technique body not newly admitted |
+| Design candidate construction | Construct new candidate forms that retain selected aspects while changing other dimensions. | Produce a candidate with explicit preserved aspects and actual new differences. | Prior contribution proposal; technique body not newly admitted |
+| Resource configuration feasibility | Determine whether one specified candidate can satisfy its requirements under actual constraints. | Give a feasibility verdict whose limiting conditions can change the next iteration. | Prior contribution proposal; technique body not newly admitted |
+<!-- study-view:end -->
