@@ -1,9 +1,9 @@
 {
-  "version": 1,
+  "version": 2,
   "title": "Literal subject names",
   "basis_commit": "9f62b2ac895cc7925652cfe0f988351207fe5c79",
   "rule": "General subject first; then target; then the operation, property, or relation being considered. Each row states one determination. No conjunction joins two subjects.",
-  "scope": "A defined expansion of the present project vocabulary, not an enumeration of every possible subject. Broad headings are not certified mutually exclusive classes.",
+  "scope": "Working literal subject catalog expanded with representative domain translations. General headings remain partial navigation scopes; no exhaustive or globally exclusive ontology is certified.",
   "roots": [
     {
       "name": "Reasoning",
@@ -238,6 +238,114 @@
         "G1"
       ],
       "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Perception",
+      "scope": "Detection, discrimination, or identification from specified sensory presentations.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Action",
+      "scope": "Specified behavioral responses and conditions governing their selection or inhibition.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Reward",
+      "scope": "Expected rewarding outcomes, assigned value, and discrepancies from their occurrence.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Shape",
+      "scope": "Form and orientation of represented shapes, including defined human representational tasks.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Model",
+      "scope": "Specified token, attention, position, or parameter computations in computational models.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Measurement",
+      "scope": "Defined quantities, instruments, observable proxies, and measurement result properties.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Integer",
+      "scope": "Specified properties and decompositions of integers.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Graph",
+      "scope": "Defined connectivity, path costs, and equivalence of graph structures.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Equation",
+      "scope": "Existence or uniqueness of admissible solutions to specified equation systems.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Price",
+      "scope": "Demand response to specified price variation.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Exchange",
+      "scope": "Feasibility or incentive properties of specified exchange allocations.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Production",
+      "scope": "Input requirements and costs of specified output production.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Business",
+      "scope": "Customer demand and cash requirements within specified commercial activity.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Rule",
+      "scope": "Authority, scope, interpretation, compliance, revision, or effects of specified rules.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Norm",
+      "scope": "Justificatory grounds for specified normative conclusions.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Object",
+      "scope": "Criteria for an object's identity over specified changes.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Experience",
+      "scope": "Discriminable qualitative aspects of specified experiences.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
+    },
+    {
+      "name": "Narrative",
+      "scope": "Presentation of represented events and defined responses of specified audiences.",
+      "predecessor_scopes": [],
+      "standing": "Defined working scope; coverage partial. Not certified exclusive."
     }
   ],
   "subjects": [
@@ -246,8 +354,8 @@
       "name": "Reasoning approach selection",
       "root": "Reasoning",
       "parent": "Reasoning approach",
-      "settles": "Choose an existing reasoning approach for a specified matter from a stated candidate set.",
-      "excludes": "Creating an approach or changing the selection criterion.",
+      "settles": "Choose an identifiable reasoning approach from a nonempty candidate set available at the time of choice for a specified matter; the selection rule may be implicit or explicit.",
+      "excludes": "Creating an approach as part of a larger workflow, proving the choice optimal, or executing it.",
       "predecessor_scopes": [
         "G2",
         "A2"
@@ -4583,6 +4691,1296 @@
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
       "broader_subjects": []
+    },
+    {
+      "id": "criterion-application-result",
+      "name": "Criterion application result",
+      "root": "Criterion",
+      "parent": "Criterion application",
+      "settles": "Determine the result of applying a specified criterion to identified material under fixed application conditions.",
+      "excludes": "Justifying the criterion or checking consistency across several applications.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-account-adequacy",
+      "name": "Explanation account adequacy",
+      "root": "Explanation",
+      "parent": "Explanation account",
+      "settles": "Determine whether a proposed account resolves its specified explanatory contrast under stated adequacy conditions.",
+      "excludes": "Selecting among accounts or claiming that an adequate explanation is uniquely possible.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-availability",
+      "name": "Reasoning approach availability",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine which reasoning approaches a specified agent can access in a usable representation at the time of choice.",
+      "excludes": "Existence somewhere, applicability to this case, recognition by the agent, or authorization to execute.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-repertoire-coverage",
+      "name": "Reasoning approach repertoire coverage",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine which specified reasoning needs have at least one represented approach in an identified repertoire.",
+      "excludes": "Choosing an approach for one case or proving universal completeness of reasoning.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-pattern-extraction",
+      "name": "Relation pattern extraction",
+      "root": "Relation",
+      "parent": "Relation pattern",
+      "settles": "Identify a stated relational structure shared by specified cases while omitting designated incidental features.",
+      "excludes": "Mapping that structure to a further case or claiming that every abstraction is relational.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-pattern-case-mapping",
+      "name": "Relation pattern case mapping",
+      "root": "Relation",
+      "parent": "Relation pattern",
+      "settles": "Determine which elements of a target case can occupy the roles of a specified relational pattern.",
+      "excludes": "Creating the pattern or establishing that mapped objects share every property.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-availability",
+      "name": "Memory record availability",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Determine which identified records are accessible to an agent through specified routes at a stated time.",
+      "excludes": "A record existing elsewhere or being successfully retrieved in a particular attempt.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-source-attribution",
+      "name": "Memory record source attribution",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Determine which origin produced a remembered or stored item, including perceived, imagined, inferred, or externally supplied origins.",
+      "excludes": "Determining whether its content is true; an accurately attributed report can be false.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-retrieval-interference",
+      "name": "Memory record retrieval interference",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Determine how competing records change retrieval of a specified target under fixed cues.",
+      "excludes": "Total storage capacity or loss of the target record itself.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-active-content-maintenance",
+      "name": "Memory active content maintenance",
+      "root": "Memory",
+      "parent": "Memory active content",
+      "settles": "Determine how identified content remains usable over a specified delay within an active task.",
+      "excludes": "Long-term record retention or replacing the active content.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-active-content-update",
+      "name": "Memory active content update",
+      "root": "Memory",
+      "parent": "Memory active content",
+      "settles": "Determine how active task content is replaced or revised following a specified input.",
+      "excludes": "Maintaining unchanged content or proving the revision correct.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-active-content-capacity",
+      "name": "Memory active content capacity",
+      "root": "Memory",
+      "parent": "Memory active content",
+      "settles": "Determine how much specified content can remain usable under stated active-task conditions.",
+      "excludes": "Capacity in all possible tasks or total stored knowledge.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-representation-maintenance",
+      "name": "Goal representation maintenance",
+      "root": "Goal",
+      "parent": "Goal representation",
+      "settles": "Determine how a represented intended outcome remains available to govern activity over a stated interval.",
+      "excludes": "Choosing the outcome or establishing its achievement.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perception-signal-discrimination",
+      "name": "Perception signal discrimination",
+      "root": "Perception",
+      "parent": "Perception signal",
+      "settles": "Determine whether specified sensory inputs can be distinguished by an agent under stated conditions.",
+      "excludes": "Correctly identifying the external cause of each input.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perception-signal-detection",
+      "name": "Perception signal detection",
+      "root": "Perception",
+      "parent": "Perception signal",
+      "settles": "Determine whether an agent detects a specified signal against a stated background.",
+      "excludes": "Distinguishing two detected signals or identifying their cause.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perception-object-identification",
+      "name": "Perception object identification",
+      "root": "Perception",
+      "parent": "Perception object",
+      "settles": "Determine which candidate object a specified sensory presentation represents.",
+      "excludes": "Establishing the object's persistence across time or its real existence from presentation alone.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "action-response-selection",
+      "name": "Action response selection",
+      "root": "Action",
+      "parent": "Action response",
+      "settles": "Determine which candidate behavioral response is selected under specified task conditions.",
+      "excludes": "General reasoning approach choice or whether the chosen response is executed.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "action-response-inhibition",
+      "name": "Action response inhibition",
+      "root": "Action",
+      "parent": "Action response",
+      "settles": "Determine whether a specified response is withheld or stopped following a stated condition.",
+      "excludes": "Selecting another response or permanently removing the capacity to respond.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "reward-outcome-anticipation",
+      "name": "Reward outcome anticipation",
+      "root": "Reward",
+      "parent": "Reward outcome",
+      "settles": "Determine what rewarding outcome an agent expects before the relevant event.",
+      "excludes": "The outcome actually received or the pleasure it produces.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "reward-outcome-valuation",
+      "name": "Reward outcome valuation",
+      "root": "Reward",
+      "parent": "Reward outcome",
+      "settles": "Determine the value an agent assigns to a specified rewarding outcome under stated conditions.",
+      "excludes": "Its objective benefit under an external goal or its delivery probability alone.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "reward-prediction-error",
+      "name": "Reward prediction error",
+      "root": "Reward",
+      "parent": "Reward prediction",
+      "settles": "Determine the discrepancy between an expected rewarding outcome and its observed occurrence under a fixed coding rule.",
+      "excludes": "The rule by which that discrepancy changes later behavior.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIMH RDoC domain and construct definitions",
+      "source_ids": [
+        "RDOC"
+      ],
+      "broader_subjects": [
+        "Prediction error"
+      ]
+    },
+    {
+      "id": "shape-orientation-specification",
+      "name": "Shape orientation specification",
+      "root": "Shape",
+      "parent": "Shape orientation",
+      "settles": "Specify a shape's orientation relative to an identified reference frame.",
+      "excludes": "The shape's intrinsic form or position in space.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)",
+      "source_ids": [
+        "ROTATION"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "shape-orientation-transformation",
+      "name": "Shape orientation transformation",
+      "root": "Shape",
+      "parent": "Shape orientation",
+      "settles": "Determine the result of applying a specified rotation to a represented shape.",
+      "excludes": "A human's mental performance of rotation or arbitrary deformation.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)",
+      "source_ids": [
+        "ROTATION"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "shape-orientation-equivalence",
+      "name": "Shape orientation equivalence",
+      "root": "Shape",
+      "parent": "Shape orientation",
+      "settles": "Determine whether two represented shapes coincide under an allowed rotation and translation.",
+      "excludes": "Equivalence permitting reflection or scaling unless separately allowed.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)",
+      "source_ids": [
+        "ROTATION"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "shape-mirror-equivalence",
+      "name": "Shape mirror equivalence",
+      "root": "Shape",
+      "parent": "Shape mirror",
+      "settles": "Determine whether one represented shape coincides with a reflected version of another under specified alignment rules.",
+      "excludes": "Equivalence by rotation alone.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "shape-representation-mental-rotation",
+      "name": "Shape representation mental rotation",
+      "root": "Shape",
+      "parent": "Shape representation",
+      "settles": "Determine how an agent changes an internally represented shape's orientation in a specified task.",
+      "excludes": "The mathematical rotation operation alone or a claim that all matching uses this mechanism.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)",
+      "source_ids": [
+        "ROTATION"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "shape-representation-rotation-duration",
+      "name": "Shape representation rotation duration",
+      "root": "Shape",
+      "parent": "Shape representation",
+      "settles": "Determine how long a specified representational rotation takes under defined task conditions.",
+      "excludes": "Time attributable only to orientation change when measured response time also contains other stages.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)",
+      "source_ids": [
+        "ROTATION"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "shape-representation-rotation-accuracy",
+      "name": "Shape representation rotation accuracy",
+      "root": "Shape",
+      "parent": "Shape representation",
+      "settles": "Determine how faithfully a specified representational rotation preserves the required shape relations.",
+      "excludes": "Response speed or accuracy of unrelated spatial abilities.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Shepard and Metzler, Mental Rotation of Three-Dimensional Objects (1971)",
+      "source_ids": [
+        "ROTATION"
+      ],
+      "broader_subjects": [
+        "Expression representation fidelity"
+      ]
+    },
+    {
+      "id": "model-token-sequence-representation",
+      "name": "Model token sequence representation",
+      "root": "Model",
+      "parent": "Model token",
+      "settles": "Specify how a model's input symbols are represented as an ordered token sequence under a fixed vocabulary.",
+      "excludes": "Assigning meanings to every token or proving that token boundaries are semantic boundaries.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Vaswani et al., Attention Is All You Need (2017)",
+      "source_ids": [
+        "TRANSFORMER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "model-token-vector-representation",
+      "name": "Model token vector representation",
+      "root": "Model",
+      "parent": "Model token",
+      "settles": "Specify the vector assigned to a token at a stated model location and version.",
+      "excludes": "Treating a vector as a uniquely identified human concept.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Vaswani et al., Attention Is All You Need (2017)",
+      "source_ids": [
+        "TRANSFORMER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "model-token-probability-estimation",
+      "name": "Model token probability estimation",
+      "root": "Model",
+      "parent": "Model token",
+      "settles": "Determine the model's probability assignments to candidate output tokens under specified context and parameters.",
+      "excludes": "Choosing a token or verifying the truth of the resulting text.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Vaswani et al., Attention Is All You Need (2017)",
+      "source_ids": [
+        "TRANSFORMER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "model-token-output-selection",
+      "name": "Model token output selection",
+      "root": "Model",
+      "parent": "Model token",
+      "settles": "Choose an output token from a specified model distribution under a stated decoding rule.",
+      "excludes": "Estimating the distribution or establishing response quality.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Vaswani et al., Attention Is All You Need (2017)",
+      "source_ids": [
+        "TRANSFORMER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "model-attention-weight-computation",
+      "name": "Model attention weight computation",
+      "root": "Model",
+      "parent": "Model attention",
+      "settles": "Determine numerical weights from specified query and key representations under a fixed attention rule.",
+      "excludes": "Human attention allocation or explanatory importance of a token.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Vaswani et al., Attention Is All You Need (2017)",
+      "source_ids": [
+        "TRANSFORMER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "model-attention-value-aggregation",
+      "name": "Model attention value aggregation",
+      "root": "Model",
+      "parent": "Model attention",
+      "settles": "Determine the representation obtained by combining value vectors with specified attention weights.",
+      "excludes": "How the weights were chosen or whether the output is a faithful explanation.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Vaswani et al., Attention Is All You Need (2017)",
+      "source_ids": [
+        "TRANSFORMER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "model-sequence-position-representation",
+      "name": "Model sequence position representation",
+      "root": "Model",
+      "parent": "Model sequence",
+      "settles": "Specify how sequence position is represented for a stated model computation.",
+      "excludes": "Temporal order in the represented world or semantic chronology.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Vaswani et al., Attention Is All You Need (2017)",
+      "source_ids": [
+        "TRANSFORMER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "model-parameter-update",
+      "name": "Model parameter update",
+      "root": "Model",
+      "parent": "Model parameter",
+      "settles": "Determine the changed parameter values produced by a stated training step.",
+      "excludes": "Experience-dependent change in every kind of learner or general intelligence gain.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "measurement-target-specification",
+      "name": "Measurement target specification",
+      "root": "Measurement",
+      "parent": "Measurement target",
+      "settles": "Specify the quantity intended to be measured, including its object and conditions.",
+      "excludes": "Choosing an instrument or establishing that a proxy measures that quantity.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIST/SEMATECH, Measurement Process Characterization",
+      "source_ids": [
+        "NIST"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "measurement-instrument-calibration",
+      "name": "Measurement instrument calibration",
+      "root": "Measurement",
+      "parent": "Measurement instrument",
+      "settles": "Determine the relation between instrument indications and reference values under specified conditions.",
+      "excludes": "Removing every source of error or validating the intended construct.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIST/SEMATECH, Measurement Process Characterization",
+      "source_ids": [
+        "NIST"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "measurement-result-uncertainty",
+      "name": "Measurement result uncertainty",
+      "root": "Measurement",
+      "parent": "Measurement result",
+      "settles": "Characterize the range or distribution of values attributable to a stated measurement result under explicit assumptions.",
+      "excludes": "The actual unknown error or the truth of every claim based on that result.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIST/SEMATECH, Uncertainty analysis",
+      "source_ids": [
+        "UNCERTAINTY"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "measurement-result-repeatability",
+      "name": "Measurement result repeatability",
+      "root": "Measurement",
+      "parent": "Measurement result",
+      "settles": "Determine variation across repeated measurements under stated stable conditions.",
+      "excludes": "Agreement across changed instruments, operators, or laboratories.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; NIST/SEMATECH, Uncertainty analysis",
+      "source_ids": [
+        "UNCERTAINTY"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "measurement-proxy-validity",
+      "name": "Measurement proxy validity",
+      "root": "Measurement",
+      "parent": "Measurement proxy",
+      "settles": "Determine whether a specified observable supports the intended inference about a target property in a bounded setting.",
+      "excludes": "Reliable measurement of the observable itself or general validity for every purpose.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "integer-factor-decomposition",
+      "name": "Integer factor decomposition",
+      "root": "Integer",
+      "parent": "Integer factor",
+      "settles": "Determine prime factors and multiplicities whose product equals a specified integer greater than one.",
+      "excludes": "The runtime of every factorization method or the primality of an unrelated integer.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AMS / zbMATH, MSC2020",
+      "source_ids": [
+        "MSC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "integer-primality-determination",
+      "name": "Integer primality determination",
+      "root": "Integer",
+      "parent": "Integer primality",
+      "settles": "Determine whether an integer greater than one has a positive divisor other than one and itself.",
+      "excludes": "Producing all factors of every composite input.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AMS / zbMATH, MSC2020",
+      "source_ids": [
+        "MSC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "graph-path-existence",
+      "name": "Graph path existence",
+      "root": "Graph",
+      "parent": "Graph path",
+      "settles": "Determine whether a path connects specified vertices under a graph's permitted edge directions.",
+      "excludes": "The shortest such path or whether a Hamiltonian cycle exists.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AMS / zbMATH, MSC2020",
+      "source_ids": [
+        "MSC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "graph-path-minimum-cost",
+      "name": "Graph path minimum cost",
+      "root": "Graph",
+      "parent": "Graph path",
+      "settles": "Determine a connecting path with minimum total cost under specified edge costs and admissibility conditions.",
+      "excludes": "Existence of a finite minimum when negative cycles or other conditions prevent one.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AMS / zbMATH, MSC2020",
+      "source_ids": [
+        "MSC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "graph-structure-equivalence",
+      "name": "Graph structure equivalence",
+      "root": "Graph",
+      "parent": "Graph structure",
+      "settles": "Determine whether a bijection between vertex sets preserves the specified adjacency relation.",
+      "excludes": "Visual similarity of graph drawings or equality of node labels.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AMS / zbMATH, MSC2020",
+      "source_ids": [
+        "MSC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "equation-solution-existence",
+      "name": "Equation solution existence",
+      "root": "Equation",
+      "parent": "Equation solution",
+      "settles": "Determine whether any admissible assignment satisfies a specified equation system.",
+      "excludes": "Finding a solution or proving its uniqueness.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AMS / zbMATH, MSC2020",
+      "source_ids": [
+        "MSC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "equation-solution-uniqueness",
+      "name": "Equation solution uniqueness",
+      "root": "Equation",
+      "parent": "Equation solution",
+      "settles": "Determine whether a specified equation system has exactly one admissible solution.",
+      "excludes": "Existence alone or stability under perturbed coefficients.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AMS / zbMATH, MSC2020",
+      "source_ids": [
+        "MSC"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "price-demand-response",
+      "name": "Price demand response",
+      "root": "Price",
+      "parent": "Price demand",
+      "settles": "Determine how demand for a specified good changes with its price under stated conditions.",
+      "excludes": "Effects of simultaneous income or quality changes left uncontrolled.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AEA, JEL Classification System",
+      "source_ids": [
+        "JEL"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "exchange-allocation-feasibility",
+      "name": "Exchange allocation feasibility",
+      "root": "Exchange",
+      "parent": "Exchange allocation",
+      "settles": "Determine whether a proposed allocation meets specified resource and exchange constraints.",
+      "excludes": "Whether participants prefer it or have incentives to implement it.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AEA, JEL Classification System",
+      "source_ids": [
+        "JEL"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "exchange-allocation-incentive-compatibility",
+      "name": "Exchange allocation incentive compatibility",
+      "root": "Exchange",
+      "parent": "Exchange allocation",
+      "settles": "Determine whether participants achieve the stated preference objective by prescribed behavior under specified information and rules.",
+      "excludes": "Fairness, feasibility, or effectiveness without those assumptions.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AEA, JEL Classification System",
+      "source_ids": [
+        "JEL"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "production-input-requirement",
+      "name": "Production input requirement",
+      "root": "Production",
+      "parent": "Production input",
+      "settles": "Determine the inputs required to produce a specified output by a stated technology.",
+      "excludes": "The monetary cost of those inputs or every possible production technology.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AEA, JEL Classification System",
+      "source_ids": [
+        "JEL"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "production-cost-estimation",
+      "name": "Production cost estimation",
+      "root": "Production",
+      "parent": "Production cost",
+      "settles": "Estimate costs of producing a specified output under stated technology and input prices.",
+      "excludes": "Demand for the output or whether the producer should produce it.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; AEA, JEL Classification System",
+      "source_ids": [
+        "JEL"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "business-customer-demand-estimation",
+      "name": "Business customer demand estimation",
+      "root": "Business",
+      "parent": "Business customer",
+      "settles": "Estimate demand from a specified customer population for an identified offering under stated conditions.",
+      "excludes": "A recommendation to enter the market or general customer satisfaction.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; US Small Business Administration, Plan your business",
+      "source_ids": [
+        "SBA"
+      ],
+      "broader_subjects": [
+        "Prediction construction"
+      ]
+    },
+    {
+      "id": "business-cash-requirement",
+      "name": "Business cash requirement",
+      "root": "Business",
+      "parent": "Business cash",
+      "settles": "Determine the cash needed across a specified operating or startup interval under explicit payment assumptions.",
+      "excludes": "Accounting profit or obtaining funding.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; US Small Business Administration, Plan your business",
+      "source_ids": [
+        "SBA"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "rule-authority-basis",
+      "name": "Rule authority basis",
+      "root": "Rule",
+      "parent": "Rule authority",
+      "settles": "Determine which specified source authorizes an institution to issue or apply an identified rule in a stated jurisdiction.",
+      "excludes": "Whether the rule is desirable or achieves its intended outcome.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Office of the Federal Register, Guide to the Rulemaking Process",
+      "source_ids": [
+        "RULES"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "rule-scope-applicability",
+      "name": "Rule scope applicability",
+      "root": "Rule",
+      "parent": "Rule scope",
+      "settles": "Determine whether identified facts fall within a rule's stated application conditions.",
+      "excludes": "The rule's legal validity or justified moral authority.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Office of the Federal Register, Guide to the Rulemaking Process",
+      "source_ids": [
+        "RULES"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "rule-content-interpretation",
+      "name": "Rule content interpretation",
+      "root": "Rule",
+      "parent": "Rule content",
+      "settles": "Determine what an identified rule prescribes under a stated interpretive framework.",
+      "excludes": "Whether anyone complied with it or whether it should have that content.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Office of the Federal Register, Guide to the Rulemaking Process",
+      "source_ids": [
+        "RULES"
+      ],
+      "broader_subjects": [
+        "Expression instruction interpretation"
+      ]
+    },
+    {
+      "id": "rule-content-revision",
+      "name": "Rule content revision",
+      "root": "Rule",
+      "parent": "Rule content",
+      "settles": "Specify a changed rule while preserving the prior version and the scope of the change.",
+      "excludes": "Authorization or successful implementation of that revision.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Office of the Federal Register, Guide to the Rulemaking Process",
+      "source_ids": [
+        "RULES"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "rule-compliance-determination",
+      "name": "Rule compliance determination",
+      "root": "Rule",
+      "parent": "Rule compliance",
+      "settles": "Determine whether specified conduct satisfies an applicable rule under an identified interpretation.",
+      "excludes": "The justice of the rule or factual truth of unexamined testimony.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Office of the Federal Register, Guide to the Rulemaking Process",
+      "source_ids": [
+        "RULES"
+      ],
+      "broader_subjects": [
+        "Criterion application result"
+      ]
+    },
+    {
+      "id": "rule-effect-attribution",
+      "name": "Rule effect attribution",
+      "root": "Rule",
+      "parent": "Rule effect",
+      "settles": "Determine what difference a rule's introduction or enforcement caused in a specified outcome relative to a defensible comparison.",
+      "excludes": "Whether the rule was validly enacted or correlation alone.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "rule-proposal-comment-relevance",
+      "name": "Rule proposal comment relevance",
+      "root": "Rule",
+      "parent": "Rule proposal",
+      "settles": "Determine which submitted information bears on a specified proposed rule or its supporting rationale.",
+      "excludes": "Counting supportive comments or treating popularity as dispositive legal authority.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Office of the Federal Register, Guide to the Rulemaking Process",
+      "source_ids": [
+        "RULES"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "norm-justification-sufficiency",
+      "name": "Norm justification sufficiency",
+      "root": "Norm",
+      "parent": "Norm justification",
+      "settles": "Determine whether stated reasons warrant a specified normative conclusion under an explicit justificatory framework.",
+      "excludes": "A descriptive claim about popularity or a jurisdiction's enactment procedure.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; PhilPapers categorization project",
+      "source_ids": [
+        "PHIL"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "object-identity-persistence",
+      "name": "Object identity persistence",
+      "root": "Object",
+      "parent": "Object identity",
+      "settles": "Determine which stated criteria make an object at one time count as the same object at another.",
+      "excludes": "Mere qualitative similarity or an identity criterion for every kind of object.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; PhilPapers categorization project",
+      "source_ids": [
+        "PHIL"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "experience-quality-discrimination",
+      "name": "Experience quality discrimination",
+      "root": "Experience",
+      "parent": "Experience quality",
+      "settles": "Determine which qualitative differences a subject reports or discriminates between specified experiences.",
+      "excludes": "An inference that a particular computational operation produces consciousness.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; PhilPapers categorization project",
+      "source_ids": [
+        "PHIL"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "narrative-event-ordering",
+      "name": "Narrative event ordering",
+      "root": "Narrative",
+      "parent": "Narrative event",
+      "settles": "Determine the order in which specified events are presented in a narrative.",
+      "excludes": "The chronological order of the represented events or their causal dependence.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Aristotle, Poetics, translated by S. H. Butcher",
+      "source_ids": [
+        "POETICS"
+      ],
+      "broader_subjects": [
+        "Expression structure sequence"
+      ]
+    },
+    {
+      "id": "narrative-event-causal-coherence",
+      "name": "Narrative event causal coherence",
+      "root": "Narrative",
+      "parent": "Narrative event",
+      "settles": "Determine whether proposed causal links between represented events fit the narrative's stated world conditions.",
+      "excludes": "Historical truth of fictional events or merely chronological ordering.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Aristotle, Poetics, translated by S. H. Butcher",
+      "source_ids": [
+        "POETICS"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "narrative-audience-expectation",
+      "name": "Narrative audience expectation",
+      "root": "Narrative",
+      "parent": "Narrative audience",
+      "settles": "Determine what a specified audience anticipates at a given point in a narrative.",
+      "excludes": "What actually happens next or what every audience must expect.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "narrative-audience-information-access",
+      "name": "Narrative audience information access",
+      "root": "Narrative",
+      "parent": "Narrative audience",
+      "settles": "Determine which story facts are available to a specified audience at each presentation point.",
+      "excludes": "What characters know or which available facts the audience noticed.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "narrative-audience-enjoyment",
+      "name": "Narrative audience enjoyment",
+      "root": "Narrative",
+      "parent": "Narrative audience",
+      "settles": "Determine the enjoyment a specified audience experiences from a defined narrative exposure under stated conditions.",
+      "excludes": "Universal artistic merit or enjoyment from every entertainment form.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-retention-selection",
+      "name": "Resource retention selection",
+      "root": "Resource",
+      "parent": "Resource retention",
+      "settles": "Choose which identified resources to retain for specified possible future uses under stated constraints.",
+      "excludes": "Acquiring resources or assuming retention is always beneficial.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-retention-duration",
+      "name": "Resource retention duration",
+      "root": "Resource",
+      "parent": "Resource retention",
+      "settles": "Determine how long an identified resource should be retained under specified use and loss conditions.",
+      "excludes": "How much storage it occupies or a universal retention schedule.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-retention-cost",
+      "name": "Resource retention cost",
+      "root": "Resource",
+      "parent": "Resource retention",
+      "settles": "Determine the costs attributable to retaining specified resources over a stated interval.",
+      "excludes": "The costs of reacquisition after disposal or total historical acquisition cost.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-disposal-consequence",
+      "name": "Resource disposal consequence",
+      "root": "Resource",
+      "parent": "Resource disposal",
+      "settles": "Determine which future possibilities are lost or changed by disposing of an identified resource under stated alternatives.",
+      "excludes": "Whether disposal should occur under every objective.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-disposal-reversibility",
+      "name": "Resource disposal reversibility",
+      "root": "Resource",
+      "parent": "Resource disposal",
+      "settles": "Determine whether a disposed resource or its required function can be recovered under stated conditions.",
+      "excludes": "Whether it is worthwhile to recover it or whether any similar resource exists.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-future-use-likelihood",
+      "name": "Resource future use likelihood",
+      "root": "Resource",
+      "parent": "Resource future use",
+      "settles": "Estimate the chance that a specified resource will be needed for a defined use within a stated horizon.",
+      "excludes": "How valuable that use would be or whether the resource will remain accessible.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": [
+        "Prediction construction"
+      ]
+    },
+    {
+      "id": "resource-future-use-value",
+      "name": "Resource future use value",
+      "root": "Resource",
+      "parent": "Resource future use",
+      "settles": "Determine the value of a possible later use of an identified resource under a stated objective.",
+      "excludes": "Probability of that use or the costs of storage.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-retrieval-cost",
+      "name": "Resource retrieval cost",
+      "root": "Resource",
+      "parent": "Resource retrieval",
+      "settles": "Determine the cost of locating and accessing an identified retained resource in a specified storage arrangement.",
+      "excludes": "Retention cost before retrieval or whether the resource is useful.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-requirement-necessity",
+      "name": "Subject requirement necessity",
+      "root": "Subject",
+      "parent": "Subject requirement",
+      "settles": "Determine whether a stated condition is necessary for a specified subject operation or justified result under explicit scope.",
+      "excludes": "A useful method-specific condition being universally necessary.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-requirement-alternatives",
+      "name": "Subject requirement alternatives",
+      "root": "Subject",
+      "parent": "Subject requirement",
+      "settles": "Determine which alternative condition sets can support the same specified result.",
+      "excludes": "A claim that every listed condition must hold together.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-translation-coverage",
+      "name": "Subject translation coverage",
+      "root": "Subject",
+      "parent": "Subject translation",
+      "settles": "Determine which defined matters in a specified source term are preserved by a proposed translation into named subjects.",
+      "excludes": "Whether the source term is popular or all its claims are true.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-translation-equivalence",
+      "name": "Subject translation equivalence",
+      "root": "Subject",
+      "parent": "Subject translation",
+      "settles": "Determine whether two fixed subject descriptions pick out the same specified matter under stated conditions.",
+      "excludes": "Sharing a general operation or being relevant to the same goal.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-development-assessment",
+      "name": "Subject development assessment",
+      "root": "Subject",
+      "parent": "Subject development",
+      "settles": "Determine what specified results, techniques, evidence, and remaining limitations have been established within a subject's bounded scope.",
+      "excludes": "The subject's popularity or a universal scalar maturity score.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-importance-assessment",
+      "name": "Subject importance assessment",
+      "root": "Subject",
+      "parent": "Subject importance",
+      "settles": "Determine how resolving a specified matter affects stated goals, costs, risks, or further work relative to alternatives.",
+      "excludes": "Intrinsic importance independent of beneficiaries or objectives.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-attention-measurement",
+      "name": "Subject attention measurement",
+      "root": "Subject",
+      "parent": "Subject attention",
+      "settles": "Determine how much documented research or practical effort a subject receives within a declared corpus, period, and counting rule.",
+      "excludes": "Neglect in the world inferred from an unfamiliar name or this workbook's row count.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "Authored subject definition; Current user direction and attached expansion note",
+      "source_ids": [
+        "USER"
+      ],
+      "broader_subjects": []
     }
-  ]
+  ],
+  "integration_review": "research/type-relations/subject-integration.json"
 }

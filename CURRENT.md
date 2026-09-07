@@ -1,6 +1,6 @@
 # Current working contract
 
-Revised 7 September 2026: literal general-first subject names, an expanded defined inventory, and explicit limits on the unfinished exclusive hierarchy.
+Revised 7 September 2026: representative discipline translations, condition subjects, scoped requirements and development evidence; the exclusive global hierarchy remains unfinished.
 
 ## Established direction
 
@@ -18,7 +18,7 @@ Each source project remains material for custom systems developed for each subje
 |---|---|
 | Subject Systems and subject-specific system development | Established direction |
 | Subject as a matter of consideration; explicit, non-overlapping sibling scopes | Current conceptual basis, followed by the user's request to implement the definitions |
-| [299 named subjects](subjects/scopes/NAMES.md) | Current defined inventory under 28 general headings, with 82 target groups; broad headings are not certified exclusive peers |
+| [384 named subjects](subjects/scopes/NAMES.md) | Current defined inventory under 46 general headings, with 132 target groups; broad headings are not certified exclusive peers |
 | [First model: 28 scopes within 11 parents](subjects/scopes/FIRST-MODEL.md) | Preserved predecessor; compound short names superseded through an explicit change map |
 | General-first literal names without conjunctions | Current user direction; every added term must specify a consequential target or determination |
 | Parent–child relation | Containment of matters; parents mean the union of their defined children |
@@ -37,9 +37,15 @@ Each source project remains material for custom systems developed for each subje
 
 The [naming derivation](research/type-relations/SUBJECT-NAMES.md) replaces bundled labels with defined targets. Reasoning approach selection, creation, and modification have different completion conditions. Expression representation is a target group with explicit refinements. Claim support limits is distinct from Claim truth conditions; Truth boundaries does not specify which is intended.
 
-All 28 predecessor scope labels and 11 bundled parent labels have a change record. The expansion defines 299 determinations, 27 naming terms, eight substantive expansion families, and 63 project-contribution records, of which 62 have proposed subject bindings. Thirty boundary cases identify distinctions, a merged alias, five explicit narrower-scope relations, and unresolved overlaps. Intelligence and Understanding are not asserted as exclusive peers of all Capability.
+All 28 predecessor scope labels and 11 bundled parent labels have a change record. The expansion defines 384 determinations, 27 naming terms, eight substantive expansion families, and 63 project-contribution records, of which 62 have proposed subject bindings. Thirty-eight boundary cases identify distinctions, a merged alias, explicit narrower-scope relations, and unresolved overlaps. Intelligence and Understanding are not asserted as exclusive peers of all Capability.
 
 The canonical inventory is the named catalog. The previous subtype matrices remain experiments under their own explicit meanings; their results are not silently rewritten by a change of subject name. A complete exclusive global hierarchy is still a task to establish, not a conclusion inferred from this expanded list.
+
+## Integration extension
+
+The [integration review](research/type-relations/INTEGRATION.md) adds 85 defined subjects, for 384 current names under 46 partial headings with 132 target groups. Sixty-four conventional terms have stated readings and residual-aware mappings across 14 domain views. Thirty-nine requirement records distinguish logical force; 16 cases examine exceptions to overstrong prerequisites. Fifteen technique records separate specification, implementation, observed effectiveness and transfer. The 384 development records include 20 explicit importance analyses; most assessments remain open. No worldwide attention or neglect ranking exists.
+
+Reasoning approach availability is a condition subject even when no approach is available. Successful selection needs a candidate at choice time; prior retrieval, explicit ranking and optimality are not universal requirements. Existing sciences can be reconstructed as programs using actual subjects, while untranslated source content remains visible. Source families retain their current implementation standing.
 
 ## What the first scope revision established
 
@@ -59,6 +65,6 @@ This is not a file-by-file semantic audit of the entire source corpus. The manif
 
 The ten custom specifications are written designs, not general effectiveness results. Generic alternative development, design exploration, and candidate improvement still require the construction scope of their actual target. A new interface or artifact kind may need a subject not yet defined in this atlas. No universal orchestrator or automatic semantic dependency discovery has been implemented.
 
-This revision uses the already recorded predecessor sources and does not claim to refresh their heads. Preserve the distinction between the user’s direction, this implementation, source claims, and observed execution.
+The integration extension includes separately recorded primary sources for conventional disciplines and methods. It does not refresh the heads of the predecessor project repositories. Preserve the distinction between the user’s direction, this implementation, source claims, and observed execution.
 
 [Decision 0006](decisions/0006-subjects-as-scopes.md) · [Scope hierarchy](subjects/scopes/README.md) · [Next work](NEXT.md)

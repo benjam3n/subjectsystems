@@ -4,7 +4,7 @@ The primary hierarchy contains **scopes of consideration**. The secondary struct
 
 ## Scope containment
 
-Each entry in the [named inventory](subjects/scopes/NAMES.md) defines what an answer must determine, including a neighboring determination it does not settle. The catalog separates target-group navigation from the explicitly argued broader-subject relations; its 28 general headings are not claimed as exclusive peers. Parent scopes denote the union of their named children. Narrower investigations can be developed within a scope without pretending they exhaust it.
+Each entry in the [named inventory](subjects/scopes/NAMES.md) defines what an answer must determine, including a neighboring determination it does not settle. The catalog separates target-group navigation from the explicitly argued broader-subject relations; its 46 general headings are not claimed as exclusive peers. Parent scopes denote the union of their named children. Narrower investigations can be developed within a scope without pretending they exhaust it.
 
 Creating questions is an investigation within question specification. This asserts containment of subject matter, not that a creation event is a kind of question. A subject may study an object, process, property, relation, or possibility.
 
@@ -55,3 +55,7 @@ Physical relocation can follow a demonstrated retrieval need. Another mass move 
 A changed boundary must reach its affected definitions, label mappings, custom system contributions, and guidance. Preserve independent findings, source identity, and historical evidence.
 
 Navigation checks establish that material is reachable. Boundary arguments address exclusion. Actual use tests a local system's behavior. None certifies the other two. The named inventory and its predecessor scope arguments are usable and revisable; unrepresented matter remains a reason to develop it, not to invent an all-purpose category.
+
+## Discipline entry points
+
+The [integration model](research/type-relations/INTEGRATION.md) treats conventional disciplines as entry points and possible programs. Explicit mappings link their stated readings to actual subjects; aliases, qualifications and partial decompositions have different force. Requirements are scoped propositions rather than compulsory workflow steps. Development records separate importance, measured attention, methods, evidence and transfer.

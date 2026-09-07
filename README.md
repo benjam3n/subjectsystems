@@ -8,7 +8,8 @@ A subject is a matter of consideration. This repository organizes what an inquir
 
 | Entry | What it provides |
 |---|---|
-| [Subject names](subjects/scopes/README.md) | 299 literal general-first names, their definitions, exclusions, target groups, and scope relations |
+| [Subject names](subjects/scopes/README.md) | 384 literal general-first names, their definitions, exclusions, target groups, and scope relations |
+| [Discipline integration](research/type-relations/INTEGRATION.md) | 64 source-term translations, scoped requirements, development evidence and proposed programs |
 | [Naming derivation](research/type-relations/SUBJECT-NAMES.md) | Why the names differ, what completes each type of work, and how the structure reveals further subjects |
 | [What a subject means](DISTINCTIONS.md) | The scope definition and the conditions for non-overlapping branches |
 | [Earlier labels mapped](research/SCOPE-MAP.md) | Every original label narrowed, split, merged, qualified, or withdrawn |
@@ -19,7 +20,7 @@ A subject is a matter of consideration. This repository organizes what an inquir
 
 Question creation sits within question specification. Planning and Strategy share prospective course structure where their meanings coincide. Improvement sits within comparison under a stated standard. Broad activities such as research can coordinate several defined matters; the methods of those activities can themselves be studied.
 
-The current inventory defines 299 subjects under 28 general headings with 82 target groups. Its boundary review merges an alias, records five scope refinements, and retains actual overlap questions; it does not certify an exclusive global hierarchy. The predecessor 28-scope model remains available through the name-change map. Its boundaries apply to specified matters, not whole artifacts or episodes. A single matter matching two alternative definitions is a defect to repair, not an invitation to choose a preferred folder.
+The current inventory defines 384 subjects under 46 general headings with 132 target groups. Its boundary review merges an alias, records explicit scope refinements, and retains actual overlap questions; it does not certify an exclusive global hierarchy. The predecessor 28-scope model remains available through the name-change map. Its boundaries apply to specified matters, not whole artifacts or episodes. A single matter matching two alternative definitions is a defect to repair, not an invitation to choose a preferred folder.
 
 ## Develop the work
 

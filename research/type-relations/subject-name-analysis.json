@@ -3,9 +3,9 @@
   "operations": [
     {
       "term": "selection",
-      "completion": "An existing candidate is chosen under stated criteria.",
-      "required_context": "Candidate set; identity conditions; selection criterion.",
-      "distinction": "Creation supplies a candidate that the initial set lacked."
+      "completion": "An identifiable candidate is chosen from a nonempty set available at choice time.",
+      "required_context": "Candidate identity; choice time; selection rule may be implicit. A quality claim additionally needs its criterion.",
+      "distinction": "Creation supplies a candidate the initial inventory lacked. Search, explicit ranking and optimality are not universal selection requirements."
     },
     {
       "term": "creation",
@@ -882,6 +882,62 @@
       "relation": "Different universal claims",
       "case": "A class can fail to include another while still sharing instances with it.",
       "consequence": "Not-a-subtype does not entail disjointness."
+    },
+    {
+      "a": "Reasoning approach availability",
+      "b": "Reasoning approach selection",
+      "relation": "Condition versus operation",
+      "case": "No candidate is available: availability can be determined negatively while successful selection is impossible.",
+      "consequence": "Do not require a positive availability result merely to investigate availability."
+    },
+    {
+      "a": "Reasoning approach selection",
+      "b": "Reasoning approach retrieval",
+      "relation": "Method-specific dependency, not universal prerequisite",
+      "case": "A user supplies the candidate directly; the selector can choose it without a separate retrieval step.",
+      "consequence": "Retrieval is one route to satisfying availability; selection need not contain it."
+    },
+    {
+      "a": "Model attention weight computation",
+      "b": "Attention allocation selection",
+      "relation": "Distinct defined target; mechanism equivalence unsupported",
+      "case": "A matrix weight calculation and a person choosing what to attend to can each be examined without the other.",
+      "consequence": "Shared wording does not establish subject or mechanism identity."
+    },
+    {
+      "a": "Shape orientation transformation",
+      "b": "Shape representation mental rotation",
+      "relation": "Mathematical operation versus agent process",
+      "case": "Compute a rotation exactly without observing any person; measure a matching response without uniquely identifying the internal process.",
+      "consequence": "Keep mathematical specification, cognitive explanation and measurement distinct."
+    },
+    {
+      "a": "System interface compatibility",
+      "b": "Expression interpretation alignment",
+      "relation": "Shared semantic cases; additional nonsemantic conditions",
+      "case": "Producer and consumer agree on units and meanings, but a missed timing deadline prevents a specified interface exchange.",
+      "consequence": "Interpretation alignment alone is insufficient for general interface compatibility."
+    },
+    {
+      "a": "Resource retention selection",
+      "b": "Memory record retention",
+      "relation": "Different determination and qualified resource context",
+      "case": "Choose records to retain without yet retaining them; a mechanism can retain a record without deciding whether it is worth keeping.",
+      "consequence": "Retention choice and the occurrence of retention require different results."
+    },
+    {
+      "a": "Rule authority basis",
+      "b": "Rule effect attribution",
+      "relation": "Independently answerable matters",
+      "case": "An authorized rule can have no intended effect; an unauthorized action can still change outcomes.",
+      "consequence": "Authority and causal success must be judged separately."
+    },
+    {
+      "a": "Subject attention measurement",
+      "b": "Subject importance assessment",
+      "relation": "Measured effort versus goal-relative consequence",
+      "case": "An urgent matter can receive little effort while a low-consequence matter receives much.",
+      "consequence": "Underrepresentation needs both a measured effort allocation and a justified comparison standard."
     }
   ],
   "expansion_families": [
