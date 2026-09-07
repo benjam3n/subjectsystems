@@ -1,0 +1,1031 @@
+{
+  "recorded_at": "2026-09-07",
+  "scope": "139 source artifacts preserved by the inspected System Recovery commit, plus selected local snapshots. Presence and hashes are not a close-reading or effectiveness claim.",
+  "recovery_repository": "benjam3n/systemrecovery",
+  "recovery_commit": "d71a8430452fb8563d722c5df3b904bb7109197e",
+  "artifacts": [
+    {
+      "original_path": "ARAW/README.md",
+      "snapshot_path": "structure/sources/ARAW/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ARAW/README.md",
+      "sha256": "8330d0bbd9fa9512d589799f8c3af2e940734c5a62f249573a80d30465e7f646",
+      "bytes": 15250
+    },
+    {
+      "original_path": "AxiomNet/README.md",
+      "snapshot_path": "structure/sources/AxiomNet/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/AxiomNet/README.md",
+      "sha256": "9f35596bb8c1a83fcef388527d514d6a1eb6cb6ab7615eb64b26f4805bba3ab8",
+      "bytes": 1292
+    },
+    {
+      "original_path": "GOSM/library/gates/outcome_verification.yaml",
+      "snapshot_path": "structure/sources/GOSM/library/gates/outcome_verification.yaml",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/GOSM/library/gates/outcome_verification.yaml",
+      "sha256": "7f837ad1a093723cd85a2856086aafe6fadf1db11d6a40a3fff7e936bdfc25a0",
+      "bytes": 4282
+    },
+    {
+      "original_path": "GOSM/library/procedures/core/PROCEDURE_HIERARCHY.yaml",
+      "snapshot_path": "structure/sources/GOSM/library/procedures/core/PROCEDURE_HIERARCHY.yaml",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/GOSM/library/procedures/core/PROCEDURE_HIERARCHY.yaml",
+      "sha256": "d33127e81289460e38dfd1a45c43a09417cebbc48e5ffc332e06026e2d194079",
+      "bytes": 4546
+    },
+    {
+      "original_path": "GOSM/library/procedures/core/araw_to_gosm_bridge.yaml",
+      "snapshot_path": "structure/sources/GOSM/library/procedures/core/araw_to_gosm_bridge.yaml",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/GOSM/library/procedures/core/araw_to_gosm_bridge.yaml",
+      "sha256": "de3475155310c46a920f1165a03a7fb419c9c621db03bfb99b1bf0f851d21a2f",
+      "bytes": 6158
+    },
+    {
+      "original_path": "GOSM/library/procedures/core/araw_universalization_matrix.yaml",
+      "snapshot_path": "structure/sources/GOSM/library/procedures/core/araw_universalization_matrix.yaml",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/GOSM/library/procedures/core/araw_universalization_matrix.yaml",
+      "sha256": "ecb1d2aad11ebb296be81ebd8a595f412da8cf7a554d4d0f1cd581f985823e9b",
+      "bytes": 5309
+    },
+    {
+      "original_path": "LogicSystem/backend/app/models/claim_models.py",
+      "snapshot_path": "structure/sources/LogicSystem/backend/app/models/claim_models.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/LogicSystem/backend/app/models/claim_models.py",
+      "sha256": "561fcf3c00e87cc1b40daac82537d9966ae9919e96e5a4f747ef7aea5550fa7d",
+      "bytes": 20917
+    },
+    {
+      "original_path": "LogicSystem/backend/app/routers/epistemic.py",
+      "snapshot_path": "structure/sources/LogicSystem/backend/app/routers/epistemic.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/LogicSystem/backend/app/routers/epistemic.py",
+      "sha256": "791dcbec0cdc97325678136a521404954b3ff71c555b9929d8ae8c349735bc56",
+      "bytes": 17949
+    },
+    {
+      "original_path": "LogicSystem/backend/app/services/analysis_service.py",
+      "snapshot_path": "structure/sources/LogicSystem/backend/app/services/analysis_service.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/LogicSystem/backend/app/services/analysis_service.py",
+      "sha256": "52e63adbc34ec8e3b09c2ff228290ebe2db1b238fcf58d52f954c08833842b25",
+      "bytes": 37621
+    },
+    {
+      "original_path": "LogicSystem/backend/app/services/bridge_service.py",
+      "snapshot_path": "structure/sources/LogicSystem/backend/app/services/bridge_service.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/LogicSystem/backend/app/services/bridge_service.py",
+      "sha256": "a9568c2a03eee4ca47c2cf781ef854743e6e19b5e68f7a5af569c92c6a6fb710",
+      "bytes": 8189
+    },
+    {
+      "original_path": "LogicSystem/backend/app/services/calibration_service.py",
+      "snapshot_path": "structure/sources/LogicSystem/backend/app/services/calibration_service.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/LogicSystem/backend/app/services/calibration_service.py",
+      "sha256": "5ed95e410da0f66529cca5f81b07b7926ace73b78683c983f3c8db695c8f8ae8",
+      "bytes": 5739
+    },
+    {
+      "original_path": "LogicSystem/backend/app/services/claim_store.py",
+      "snapshot_path": "structure/sources/LogicSystem/backend/app/services/claim_store.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/LogicSystem/backend/app/services/claim_store.py",
+      "sha256": "b91e4a01607c223a794a20411c76a51309357dd657173e69a5783593e938a9d2",
+      "bytes": 42135
+    },
+    {
+      "original_path": "LogicSystem/backend/app/services/deconstruction_service.py",
+      "snapshot_path": "structure/sources/LogicSystem/backend/app/services/deconstruction_service.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/LogicSystem/backend/app/services/deconstruction_service.py",
+      "sha256": "33bd76eb73e5199e3d8534287277de040fedd66976914d8229fd424a3f2e8b93",
+      "bytes": 9212
+    },
+    {
+      "original_path": "PreferenceFinder/preference_finder/cognitive_model.py",
+      "snapshot_path": "structure/sources/PreferenceFinder/preference_finder/cognitive_model.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/PreferenceFinder/preference_finder/cognitive_model.py",
+      "sha256": "c3e80bcf0025282c6f0f71536c3888baee0ce8f9eb5ec459c21ae6ca306e52fa",
+      "bytes": 15144
+    },
+    {
+      "original_path": "PreferenceFinder/preference_finder/models.py",
+      "snapshot_path": "structure/sources/PreferenceFinder/preference_finder/models.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/PreferenceFinder/preference_finder/models.py",
+      "sha256": "5207f862a00d27f6a728c67dc48c8429eb28468063a7012dc58bc6d343c30908",
+      "bytes": 7193
+    },
+    {
+      "original_path": "ProjectVersions/AxiomNet-jan13_3pm_b4opuschanges/README.md",
+      "snapshot_path": "structure/sources/ProjectVersions/AxiomNet-jan13_3pm_b4opuschanges/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/AxiomNet-jan13_3pm_b4opuschanges/README.md",
+      "sha256": "3f3f3e761931950a2bb907816dfab5fb64493a6c00507adc5ed7576e4c663f03",
+      "bytes": 2985
+    },
+    {
+      "original_path": "ProjectVersions/AxiomNet-jan13_3pm_b4opuschanges/axiomnet/canonical.py",
+      "snapshot_path": "structure/sources/ProjectVersions/AxiomNet-jan13_3pm_b4opuschanges/axiomnet/canonical.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/AxiomNet-jan13_3pm_b4opuschanges/axiomnet/canonical.py",
+      "sha256": "791f9f1947981494567d0ee6d8da22664e91761d083d1c4892b0a64a9b5e4816",
+      "bytes": 5348
+    },
+    {
+      "original_path": "ProjectVersions/GOSM_V1_jan18_excellentalready/AGENT_INSTRUCTIONS.md",
+      "snapshot_path": "structure/sources/ProjectVersions/GOSM_V1_jan18_excellentalready/AGENT_INSTRUCTIONS.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/GOSM_V1_jan18_excellentalready/AGENT_INSTRUCTIONS.md",
+      "sha256": "a3ea9bf59bc6d149aa7bac0f6e397c4a7a863ba40ae889bd85541703a3332a5e",
+      "bytes": 8631
+    },
+    {
+      "original_path": "ProjectVersions/GOSM_V1_jan18_excellentalready/projects/2025-01-18_create-a-robot/DECISION_TREE.md",
+      "snapshot_path": "structure/sources/ProjectVersions/GOSM_V1_jan18_excellentalready/projects/2025-01-18_create-a-robot/DECISION_TREE.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/GOSM_V1_jan18_excellentalready/projects/2025-01-18_create-a-robot/DECISION_TREE.md",
+      "sha256": "ca1ccf9b85cf20eb9d2db40ce98cd7be0d04a037fe8977205298de0cc0267b80",
+      "bytes": 4460
+    },
+    {
+      "original_path": "ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/conversational_regress/INDEX.md",
+      "snapshot_path": "structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/conversational_regress/INDEX.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/conversational_regress/INDEX.md",
+      "sha256": "d25ae65621baabe952b8d027608bd16e082434b11c45402825ca3de1bd9aca46",
+      "bytes": 52136
+    },
+    {
+      "original_path": "ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/conversational_regress/core/conv_regress_trust.md",
+      "snapshot_path": "structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/conversational_regress/core/conv_regress_trust.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/conversational_regress/core/conv_regress_trust.md",
+      "sha256": "cd4b7758885e40ca545ceea26ded4b9344b6e4d01a52d5cb4fc82d36de2d26ca",
+      "bytes": 309418
+    },
+    {
+      "original_path": "ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/cross_concept/PLAN.md",
+      "snapshot_path": "structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/cross_concept/PLAN.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/cross_concept/PLAN.md",
+      "sha256": "e8ae3cd56d2c7ae6130bdd12e6465833d745f54ce119b79301c7a0b576671760",
+      "bytes": 8754
+    },
+    {
+      "original_path": "ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/depth_maps/identity_without_role.md",
+      "snapshot_path": "structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/depth_maps/identity_without_role.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/depth_maps/identity_without_role.md",
+      "sha256": "ce16548fbbca64ce447167bc247ab8e74721728cc458dfc9a537de81d2fcf1d5",
+      "bytes": 11395
+    },
+    {
+      "original_path": "ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/depth_maps/post_labor_revised.md",
+      "snapshot_path": "structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/depth_maps/post_labor_revised.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/depth_maps/post_labor_revised.md",
+      "sha256": "bbe425656de537b1f0c9f4212534848c0b3368e069779015459e9f54bf325000",
+      "bytes": 4856
+    },
+    {
+      "original_path": "ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification.md",
+      "snapshot_path": "structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/postagi-reasoning_april6_12pm_presorted/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification.md",
+      "sha256": "4640a1302259846d84fb5745f534d97b1b11dbd300c8cfc68456ded21a42f6f7",
+      "bytes": 121643
+    },
+    {
+      "original_path": "Strategizer/SPEC.md",
+      "snapshot_path": "structure/sources/Strategizer/SPEC.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/Strategizer/SPEC.md",
+      "sha256": "c67e2f7d994aaad0747a8f11ce89e00f4cb284141d0164034a7ce1a91b7f018b",
+      "bytes": 12251
+    },
+    {
+      "original_path": "TruthFinder/README.md",
+      "snapshot_path": "structure/sources/TruthFinder/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/TruthFinder/README.md",
+      "sha256": "01ec925be9661334115b4a9cabda2d4d799359c5caf9f678683149371d4eb6a4",
+      "bytes": 1560
+    },
+    {
+      "original_path": "TruthFinder/src/truth_finder/models/domain.py",
+      "snapshot_path": "structure/sources/TruthFinder/src/truth_finder/models/domain.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/TruthFinder/src/truth_finder/models/domain.py",
+      "sha256": "f12c4dfb344c72653cbe2b8c6947e136fd0a8115c007e8a78f421593f80d2a09",
+      "bytes": 3854
+    },
+    {
+      "original_path": "automaticscience/CLAUDE.md",
+      "snapshot_path": "structure/sources/automaticscience/CLAUDE.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/automaticscience/CLAUDE.md",
+      "sha256": "bf44f70a3ea11f9c7c7a1d0f9bc47c0c56e5d293a4bdba5a50c976a6c5eb62e9",
+      "bytes": 1290
+    },
+    {
+      "original_path": "automaticscience/GOALS.md",
+      "snapshot_path": "structure/sources/automaticscience/GOALS.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/automaticscience/GOALS.md",
+      "sha256": "ab0c2a8294e1cb64c462b462f0cd84ec3f8d5b38e50edaa0585fec061d984c36",
+      "bytes": 2247
+    },
+    {
+      "original_path": "automaticscience/PHILOSOPHY.md",
+      "snapshot_path": "structure/sources/automaticscience/PHILOSOPHY.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/automaticscience/PHILOSOPHY.md",
+      "sha256": "25c54775ba165afe4f627c4f59737931d285c19d8bfac54552c11ac7b1ccdc1b",
+      "bytes": 3044
+    },
+    {
+      "original_path": "automaticscience/QUESTIONS.md",
+      "snapshot_path": "structure/sources/automaticscience/QUESTIONS.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/automaticscience/QUESTIONS.md",
+      "sha256": "b2a6e54cb6b8ffba77c6fc5a81478c7d8c0b9214889a9c58db7634929315818b",
+      "bytes": 2287
+    },
+    {
+      "original_path": "automaticscience/README.md",
+      "snapshot_path": "structure/sources/automaticscience/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/automaticscience/README.md",
+      "sha256": "4a043d1b66c3b5ddab211e2d7100ef54e8323ca8af58cc3fbd7729712db34cb7",
+      "bytes": 1509
+    },
+    {
+      "original_path": "automaticscience/VISION.md",
+      "snapshot_path": "structure/sources/automaticscience/VISION.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/automaticscience/VISION.md",
+      "sha256": "caf4b90bb1d8e3cda371d48dbf472904b906e8414526b3950378a0d3192435f8",
+      "bytes": 2378
+    },
+    {
+      "original_path": "automaticscience/docs/sessions/plansuite_2026-03-19_automaticscience-and-self-reflection-books.md",
+      "snapshot_path": "structure/sources/automaticscience/docs/sessions/plansuite_2026-03-19_automaticscience-and-self-reflection-books.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/automaticscience/docs/sessions/plansuite_2026-03-19_automaticscience-and-self-reflection-books.md",
+      "sha256": "d5e09a290355e3c0169fe671c981f43e2147e8727346a267abbbe702d5822ce5",
+      "bytes": 26812
+    },
+    {
+      "original_path": "autophilosophy/CLAUDE.md",
+      "snapshot_path": "structure/sources/autophilosophy/CLAUDE.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/CLAUDE.md",
+      "sha256": "32b3cbb08e23b359f2b6d3310b189798ba5d761895d56120c833265cfb94bc70",
+      "bytes": 2069
+    },
+    {
+      "original_path": "autophilosophy/FORMAT.md",
+      "snapshot_path": "structure/sources/autophilosophy/FORMAT.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/FORMAT.md",
+      "sha256": "ff09468ce113cc87d7b81cdc55660507820ac1a5f526b3755bc26e3f6b5e5cb7",
+      "bytes": 2583
+    },
+    {
+      "original_path": "autophilosophy/README.md",
+      "snapshot_path": "structure/sources/autophilosophy/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/README.md",
+      "sha256": "64e14ffd8c520466938a2d32bfe3ce5c29b994f9633b980f2a1dc3449fe0dd7f",
+      "bytes": 3242
+    },
+    {
+      "original_path": "autophilosophy/answers/FORMAT.md",
+      "snapshot_path": "structure/sources/autophilosophy/answers/FORMAT.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/answers/FORMAT.md",
+      "sha256": "636650c1777c36c5701d8844a6b2355b0937d0080004c9c9ee4925db1a6c44a5",
+      "bytes": 3098
+    },
+    {
+      "original_path": "autophilosophy/answers/PIPELINE.md",
+      "snapshot_path": "structure/sources/autophilosophy/answers/PIPELINE.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/answers/PIPELINE.md",
+      "sha256": "ad7fab3ecd6c30211153708e1295239679e730510c73db8cfaf3b3ba013b76b9",
+      "bytes": 1297
+    },
+    {
+      "original_path": "autophilosophy/answers/epistemic_phenomena/truth-adversarial.md",
+      "snapshot_path": "structure/sources/autophilosophy/answers/epistemic_phenomena/truth-adversarial.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/answers/epistemic_phenomena/truth-adversarial.md",
+      "sha256": "7230e50e888d6e6d39a91fc75413aee94cd56d028ff2fb5c9879e4374a646286",
+      "bytes": 22598
+    },
+    {
+      "original_path": "autophilosophy/answers/epistemic_phenomena/truth-final.md",
+      "snapshot_path": "structure/sources/autophilosophy/answers/epistemic_phenomena/truth-final.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/answers/epistemic_phenomena/truth-final.md",
+      "sha256": "2eb49b82831eb83cdea71a31206fc6dd517093932f01af1697e3ffb9a20f0056",
+      "bytes": 16311
+    },
+    {
+      "original_path": "autophilosophy/answers/epistemic_phenomena/truth-initial-guess.md",
+      "snapshot_path": "structure/sources/autophilosophy/answers/epistemic_phenomena/truth-initial-guess.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/answers/epistemic_phenomena/truth-initial-guess.md",
+      "sha256": "109e94c98ab0000102896b9c6cc6b7adba6bc4b05e90251a8a3034105fc3947b",
+      "bytes": 14552
+    },
+    {
+      "original_path": "autophilosophy/answers/unresolved_concepts/causation-adversarial.md",
+      "snapshot_path": "structure/sources/autophilosophy/answers/unresolved_concepts/causation-adversarial.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/answers/unresolved_concepts/causation-adversarial.md",
+      "sha256": "ac06eff36cc858639dbf661771bea6df04d9027e9c4c139a2feda03d8c439a37",
+      "bytes": 13426
+    },
+    {
+      "original_path": "autophilosophy/answers/unresolved_concepts/causation-final.md",
+      "snapshot_path": "structure/sources/autophilosophy/answers/unresolved_concepts/causation-final.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/answers/unresolved_concepts/causation-final.md",
+      "sha256": "b274060eeee12df9021a1f005b39d4b407b69521877481ad32745bfb506a1e38",
+      "bytes": 25730
+    },
+    {
+      "original_path": "autophilosophy/answers/unresolved_concepts/causation-initial-guess.md",
+      "snapshot_path": "structure/sources/autophilosophy/answers/unresolved_concepts/causation-initial-guess.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/answers/unresolved_concepts/causation-initial-guess.md",
+      "sha256": "98220da02ec7cb39fbb9b500d0435475c1c536240bbc134818a98ce27e14527d",
+      "bytes": 25722
+    },
+    {
+      "original_path": "autophilosophy/catalog.json",
+      "snapshot_path": "structure/sources/autophilosophy/catalog.json",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/catalog.json",
+      "sha256": "86200bf8bfb857e52903c7711243e2aa27d01a80b782e762e4f6bba293fe7c41",
+      "bytes": 142495
+    },
+    {
+      "original_path": "autophilosophy/corpus/aesthetic_creative/beauty.md",
+      "snapshot_path": "structure/sources/autophilosophy/corpus/aesthetic_creative/beauty.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/corpus/aesthetic_creative/beauty.md",
+      "sha256": "64e9491dcf643e970089adafd852d703a40cde57476024368e45a3d09e836e40",
+      "bytes": 73393
+    },
+    {
+      "original_path": "autophilosophy/corpus/epistemic_phenomena/truth.md",
+      "snapshot_path": "structure/sources/autophilosophy/corpus/epistemic_phenomena/truth.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/corpus/epistemic_phenomena/truth.md",
+      "sha256": "f3f2edaa9f6fb94420b06a633b2fa50d05bc69d98c8b8df6e91dd2325cc5308d",
+      "bytes": 373461
+    },
+    {
+      "original_path": "autophilosophy/corpus/existential_conditions/mortality.md",
+      "snapshot_path": "structure/sources/autophilosophy/corpus/existential_conditions/mortality.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/corpus/existential_conditions/mortality.md",
+      "sha256": "e2210b043552e0f6f97a6da354b82026df20603fd0c59f7f8cea1016bcbfc856",
+      "bytes": 127958
+    },
+    {
+      "original_path": "autophilosophy/corpus/ontological_structural/structure.md",
+      "snapshot_path": "structure/sources/autophilosophy/corpus/ontological_structural/structure.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/corpus/ontological_structural/structure.md",
+      "sha256": "7f7424801cd278655c290fe33b2a7ea8c52fd4691bd6b224ecbaca6507b5d765",
+      "bytes": 105475
+    },
+    {
+      "original_path": "autophilosophy/corpus/relational_intersubjective/trust.md",
+      "snapshot_path": "structure/sources/autophilosophy/corpus/relational_intersubjective/trust.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/corpus/relational_intersubjective/trust.md",
+      "sha256": "be7f8152a6cd239807e3bb0df701eb18929f8e00d1ce3be5f8c05932eb9ec7d0",
+      "bytes": 468033
+    },
+    {
+      "original_path": "autophilosophy/corpus/social_political/hierarchy.md",
+      "snapshot_path": "structure/sources/autophilosophy/corpus/social_political/hierarchy.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/corpus/social_political/hierarchy.md",
+      "sha256": "2c2ae2be867eeffd9706261bc537b585b453f2dc2ec21f8fd5e5278f28a4db4c",
+      "bytes": 118804
+    },
+    {
+      "original_path": "autophilosophy/corpus/temporal_process/duration.md",
+      "snapshot_path": "structure/sources/autophilosophy/corpus/temporal_process/duration.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/corpus/temporal_process/duration.md",
+      "sha256": "305c31ae90186cb9959101b27f6b46bdd60f6b73d42597c3b216cb67f2ae0390",
+      "bytes": 87934
+    },
+    {
+      "original_path": "autophilosophy/corpus/unresolved_concepts/causation.md",
+      "snapshot_path": "structure/sources/autophilosophy/corpus/unresolved_concepts/causation.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/corpus/unresolved_concepts/causation.md",
+      "sha256": "f9d3a18f0c1a6bc23ce80920273d0d0d02e85ad9f9539163ce669f087c66c2c4",
+      "bytes": 107072
+    },
+    {
+      "original_path": "autophilosophy/docs/sessions/se_dd_2026-03-17_universal-foundational-concepts.md",
+      "snapshot_path": "structure/sources/autophilosophy/docs/sessions/se_dd_2026-03-17_universal-foundational-concepts.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/docs/sessions/se_dd_2026-03-17_universal-foundational-concepts.md",
+      "sha256": "aeec15ee63b034052894e1b372b18b376047516bcb62acf865fac97c3b9262ff",
+      "bytes": 6365
+    },
+    {
+      "original_path": "autophilosophy/plans/planv1_2026-03-17_answer-pipeline-design.md",
+      "snapshot_path": "structure/sources/autophilosophy/plans/planv1_2026-03-17_answer-pipeline-design.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/plans/planv1_2026-03-17_answer-pipeline-design.md",
+      "sha256": "8e1843c279d6109a9b3bcf017b81e59024c6f531cd5c28f810a239a31c788735",
+      "bytes": 17365
+    },
+    {
+      "original_path": "autophilosophy/scripts/generate_catalog.py",
+      "snapshot_path": "structure/sources/autophilosophy/scripts/generate_catalog.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/scripts/generate_catalog.py",
+      "sha256": "908bc98383f3006593c8f83de08df8256a6222d0478d7614a0135e2ab70618b8",
+      "bytes": 2326
+    },
+    {
+      "original_path": "autophilosophy/scripts/migrate.py",
+      "snapshot_path": "structure/sources/autophilosophy/scripts/migrate.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/autophilosophy/scripts/migrate.py",
+      "sha256": "a5c1bb93cd858ed5ded4ed2cdbc130a5210c8ddb444efd1658a291a2b48085c9",
+      "bytes": 6410
+    },
+    {
+      "original_path": "bod/docs/decisions/0002-capability-realization-bounded-context.md",
+      "snapshot_path": "structure/sources/bod/docs/decisions/0002-capability-realization-bounded-context.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/bod/docs/decisions/0002-capability-realization-bounded-context.md",
+      "sha256": "8dd156a2aaa932946b57314fa314ddf9b7627cd1dee9b8eb5bf9df0feb87705a",
+      "bytes": 2239
+    },
+    {
+      "original_path": "bod/docs/domain-model.md",
+      "snapshot_path": "structure/sources/bod/docs/domain-model.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/bod/docs/domain-model.md",
+      "sha256": "f4615ce92186d5d07c59f430bb251d63bbcdef540aa24be7cf2babd57d719476",
+      "bytes": 8087
+    },
+    {
+      "original_path": "bod/docs/semantic-crosswalk.md",
+      "snapshot_path": "structure/sources/bod/docs/semantic-crosswalk.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/bod/docs/semantic-crosswalk.md",
+      "sha256": "27a4de4ba07b924f4bde0e3af851a14b4e23b4b100e518fc570cb2c465b57e76",
+      "bytes": 8083
+    },
+    {
+      "original_path": "discoveryengine/AGENTS.md",
+      "snapshot_path": "structure/sources/discoveryengine/AGENTS.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/discoveryengine/AGENTS.md",
+      "sha256": "e174b5798ca78c267c83747571e7ba63d715e558da90a0caea5e83299308f743",
+      "bytes": 5998
+    },
+    {
+      "original_path": "discoveryengine/README.md",
+      "snapshot_path": "structure/sources/discoveryengine/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/discoveryengine/README.md",
+      "sha256": "d05fe4c2fb11a057faf25df06e10fe9a96e5821bc6c4c7516cf53e98d1b0022f",
+      "bytes": 6650
+    },
+    {
+      "original_path": "postagi-reasoning/MANIFEST.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/MANIFEST.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/MANIFEST.md",
+      "sha256": "1b7726e47e090978039ed877099d9f2e9c0b97cc6f8238a9f4649dc8182843ab",
+      "bytes": 5481
+    },
+    {
+      "original_path": "postagi-reasoning/README.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/README.md",
+      "sha256": "a283f2cd7d5259666262875e8f715b9b361edf6a645b97a744235c7ea2d1cf5c",
+      "bytes": 3786
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/README.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/README.md",
+      "sha256": "b22dc3c9486685ee6fd69ce959063663ba070e91c690cc995a3d7e7dad4b0d93",
+      "bytes": 1747
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/axioms.yaml",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/axioms.yaml",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/axioms.yaml",
+      "sha256": "5161dd8af2b7031967548c80dad545ccd30c95c9c9a532b7bdc72e70fe0ac273",
+      "bytes": 3730
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/cohere.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/cohere.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/cohere.py",
+      "sha256": "8b9a998d2f15626ac6a58f0cb54c9cee777f63bfc7281f7d7664f94cd2fb4383",
+      "bytes": 347
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/data/01_interrogated.jsonl",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/data/01_interrogated.jsonl",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/data/01_interrogated.jsonl",
+      "sha256": "c487a7ae7e571f184eabf1ea53336b3c5e2473dec3624fbadc0b059bb3ab5ae4",
+      "bytes": 47925
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/data/jobs/01_attacks.jsonl",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/data/jobs/01_attacks.jsonl",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/data/jobs/01_attacks.jsonl",
+      "sha256": "51bb8a4d912480a7e1499a9d6477fdbc4428bc1417c212858d59369d4c40ba89",
+      "bytes": 172368
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/data/outputs/01_attacks/A1__counterexample.txt",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/data/outputs/01_attacks/A1__counterexample.txt",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/data/outputs/01_attacks/A1__counterexample.txt",
+      "sha256": "9c39f9f434e8b830f8757a40f3c40aaec5b03bd4753e564ec1ee09ec2df332b8",
+      "bytes": 831
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/data/outputs/01_attacks/A1__redundancy.txt",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/data/outputs/01_attacks/A1__redundancy.txt",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/data/outputs/01_attacks/A1__redundancy.txt",
+      "sha256": "ef5e578985bc8fdf6619861ef287b8b02ab96ad2b7c1626b5f0eb994942281cd",
+      "bytes": 434
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/data/outputs/01_attacks/A1__scope.txt",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/data/outputs/01_attacks/A1__scope.txt",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/data/outputs/01_attacks/A1__scope.txt",
+      "sha256": "dddeb54fb0504f83b70c35dc6483ca7da169772ad3f7e153184a327fcedf1824",
+      "bytes": 712
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/data/outputs/01_attacks/A3__counterexample.txt",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/data/outputs/01_attacks/A3__counterexample.txt",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/data/outputs/01_attacks/A3__counterexample.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/data/outputs/01_results.jsonl",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/data/outputs/01_results.jsonl",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/data/outputs/01_results.jsonl",
+      "sha256": "aac44ad4cf95229ceefc7c1d2addbc2df51454844fa9619efe6c2b66aba7c201",
+      "bytes": 16676
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/derive.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/derive.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/derive.py",
+      "sha256": "e59f1859aa64093e50a772a1ab9c00e56427f97bf39d65174da5c04d8ccafb15",
+      "bytes": 311
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/interrogate_axioms.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/interrogate_axioms.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/interrogate_axioms.py",
+      "sha256": "51e523e92f4d43e9925af8296a1324df1a6397376fd11b3712fee64f07df6e5b",
+      "bytes": 8137
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/library.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/library.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/library.py",
+      "sha256": "ee3f93ee3fc531ac967dfe4f19320059d471e18501bd6d7170e8a850954cd52d",
+      "bytes": 316
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/map_space.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/map_space.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/map_space.py",
+      "sha256": "0d7ec0e3c659565a29dccb98736079f567c8d449a89ecb86b22599968e7239a9",
+      "bytes": 169
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/orchestrate.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/orchestrate.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/orchestrate.py",
+      "sha256": "64a96ffdb7248427eb5a3b26530442394cc2f6c195af3d5eb85777816521a618",
+      "bytes": 125
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/prompts/attacks.yaml",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/prompts/attacks.yaml",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/prompts/attacks.yaml",
+      "sha256": "43a78495cf318edb30978e5f3fea2e49d85aeeefabfddd97974b21204bbd1c5d",
+      "bytes": 1570
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/prompts/interrogate.txt",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/prompts/interrogate.txt",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/prompts/interrogate.txt",
+      "sha256": "ec692e9e5d45fef3d243d148c959bdb9e93197e884d07b78c3b7dea96c7ede63",
+      "bytes": 1118
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/score_decision.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/score_decision.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/score_decision.py",
+      "sha256": "eff91ed98f8dc2029d1ffa1598fb443922607e19f73908ad075567b9362926e0",
+      "bytes": 379
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/tests/smoke_test.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/tests/smoke_test.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/tests/smoke_test.py",
+      "sha256": "5d71cc3116b39a2b4c220f5ea15443e59316f4496776042477da7de5c88f2d7d",
+      "bytes": 138
+    },
+    {
+      "original_path": "postagi-reasoning/aphorisms/validate.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/aphorisms/validate.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/aphorisms/validate.py",
+      "sha256": "e5ba72bf8ef557363228d6481914bb9a5c96048ded7d2cae21ae289199eb3fdb",
+      "bytes": 307
+    },
+    {
+      "original_path": "postagi-reasoning/concepts/post_labor.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/concepts/post_labor.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/concepts/post_labor.md",
+      "sha256": "e96a4ee0aff22a6f242686373730d5b5aec7ff5d5c09acb492b9fbbf0978cb55",
+      "bytes": 3198
+    },
+    {
+      "original_path": "postagi-reasoning/docs/CLAUDE_INTEGRATION.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/docs/CLAUDE_INTEGRATION.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/docs/CLAUDE_INTEGRATION.md",
+      "sha256": "014ab8c1b93254c3954a6fd2cb41ed318c2b65a2190e15443ac378dd8ad06695",
+      "bytes": 4111
+    },
+    {
+      "original_path": "postagi-reasoning/docs/project_design_revised.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/docs/project_design_revised.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/docs/project_design_revised.md",
+      "sha256": "4e57ba24c46bf187578b9d833eba411a0b5ad9fadd5680a3ceb0fcbf93ee5f6c",
+      "bytes": 12863
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/conversational_regress/INDEX.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/conversational_regress/INDEX.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/conversational_regress/INDEX.md",
+      "sha256": "d25ae65621baabe952b8d027608bd16e082434b11c45402825ca3de1bd9aca46",
+      "bytes": 52136
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/conversational_regress/core/conv_regress_trust.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/conversational_regress/core/conv_regress_trust.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/conversational_regress/core/conv_regress_trust.md",
+      "sha256": "cd4b7758885e40ca545ceea26ded4b9344b6e4d01a52d5cb4fc82d36de2d26ca",
+      "bytes": 309418
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/conversational_regress/shared_common_failures.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/conversational_regress/shared_common_failures.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/conversational_regress/shared_common_failures.md",
+      "sha256": "bfc8e657fe5a3032459adf69dfb9156ba09184230a2d27e17ee81d60fb9bdf6e",
+      "bytes": 7404
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/conversational_regress/shared_user_types.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/conversational_regress/shared_user_types.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/conversational_regress/shared_user_types.md",
+      "sha256": "d60a097da08225a50c9ee483bf52a1d0c2f67c0624f02d50ccd45c73a21df3a5",
+      "bytes": 7706
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/cross_concept/PLAN.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/cross_concept/PLAN.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/cross_concept/PLAN.md",
+      "sha256": "e8ae3cd56d2c7ae6130bdd12e6465833d745f54ce119b79301c7a0b576671760",
+      "bytes": 8754
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/depth_maps/identity_without_role.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/depth_maps/identity_without_role.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/depth_maps/identity_without_role.md",
+      "sha256": "ce16548fbbca64ce447167bc247ab8e74721728cc458dfc9a537de81d2fcf1d5",
+      "bytes": 11395
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/depth_maps/post_labor_revised.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/depth_maps/post_labor_revised.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/depth_maps/post_labor_revised.md",
+      "sha256": "bbe425656de537b1f0c9f4212534848c0b3368e069779015459e9f54bf325000",
+      "bytes": 4856
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_consistent/README.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_consistent/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_consistent/README.md",
+      "sha256": "5c0eed41d4c54aaee8a730d593100b69abb908cff4886352d5f06530024711c4",
+      "bytes": 1461
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_consistent/TEMPLATE.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_consistent/TEMPLATE.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_consistent/TEMPLATE.md",
+      "sha256": "9a65b852727171e50184b332fe7aecec0cdf4d3623b3f7f8bd11baa07c946042",
+      "bytes": 826
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_consistent/pure_regress_verification.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_consistent/pure_regress_verification.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_consistent/pure_regress_verification.md",
+      "sha256": "9d3c201992c80f1798cdc0a84bd15851750847f6dc033843248ce780fd3a9489",
+      "bytes": 23679
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_consistent/topics.example.jsonl",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_consistent/topics.example.jsonl",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_consistent/topics.example.jsonl",
+      "sha256": "b7f0c4c538fd6f0979a39d05fd8f30fa739423b9d8cdf6e7e1f6f15590e4184a",
+      "bytes": 333
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_postagi/TEMPLATE.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_postagi/TEMPLATE.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_postagi/TEMPLATE.md",
+      "sha256": "917ec6702c3c5615c6285c6212671cac803c5d53e0c1cb6a1b24d290ae99780b",
+      "bytes": 8335
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_postagi/UNIVERSAL_QUESTIONS.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_postagi/UNIVERSAL_QUESTIONS.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_postagi/UNIVERSAL_QUESTIONS.md",
+      "sha256": "27b970ea7012e51c720a70fc953248a01f8f5331c896f6b7b241614da47ff1aa",
+      "bytes": 8354
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification.md",
+      "sha256": "2125292c12516f71774a26b92a65ca3a6e8b8e22d969ca28256d5289d0b8723c",
+      "bytes": 83471
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification_inconsistent.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification_inconsistent.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification_inconsistent.md",
+      "sha256": "5218f1ac1d639e4327ef9939e4373b5321b8fefd45e4b4e4043caf345e07e74d",
+      "bytes": 13345
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification_old.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification_old.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_postagi/epistemic_cognitive/pure_regress_verification_old.md",
+      "sha256": "7caa3777ee6555f72e2e759e8085da6568a2551877bca6c228e2e0fb79408058",
+      "bytes": 117311
+    },
+    {
+      "original_path": "postagi-reasoning/foundation/pure_regress_postagi/intelligence_agi/pure_regress_cognitive_sovereignty_old.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/foundation/pure_regress_postagi/intelligence_agi/pure_regress_cognitive_sovereignty_old.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/foundation/pure_regress_postagi/intelligence_agi/pure_regress_cognitive_sovereignty_old.md",
+      "sha256": "c22787b58579297d33529ba5b42409fde89382329cdd539e176f5575c2350521",
+      "bytes": 207711
+    },
+    {
+      "original_path": "postagi-reasoning/outputs/groq_jobs/consistent_wave_001.output.jsonl",
+      "snapshot_path": "structure/sources/postagi-reasoning/outputs/groq_jobs/consistent_wave_001.output.jsonl",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/outputs/groq_jobs/consistent_wave_001.output.jsonl",
+      "sha256": "0415cfba41731b97d8edcb1a3893c61962539a7166861696067f789d7f3e5b10",
+      "bytes": 31425
+    },
+    {
+      "original_path": "postagi-reasoning/outputs/groq_jobs/jobs/consistent_wave_001.jsonl",
+      "snapshot_path": "structure/sources/postagi-reasoning/outputs/groq_jobs/jobs/consistent_wave_001.jsonl",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/outputs/groq_jobs/jobs/consistent_wave_001.jsonl",
+      "sha256": "49f3aee3431dae18589acb8201af88040d1f6a95693f98ebfaf3afcceec35d76",
+      "bytes": 1650
+    },
+    {
+      "original_path": "postagi-reasoning/outputs/groq_jobs/raw/consistent_wave_001/consistent__verification.txt",
+      "snapshot_path": "structure/sources/postagi-reasoning/outputs/groq_jobs/raw/consistent_wave_001/consistent__verification.txt",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/outputs/groq_jobs/raw/consistent_wave_001/consistent__verification.txt",
+      "sha256": "9b30106475c2845a1cd4b1d4a545cc0acced52e5be53aaf9157e792c11b8ec41",
+      "bytes": 24309
+    },
+    {
+      "original_path": "postagi-reasoning/outputs/groq_jobs/raw/verification_underfilled_001/pure_regress_verification__core_concept__s001__u001.txt",
+      "snapshot_path": "structure/sources/postagi-reasoning/outputs/groq_jobs/raw/verification_underfilled_001/pure_regress_verification__core_concept__s001__u001.txt",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/outputs/groq_jobs/raw/verification_underfilled_001/pure_regress_verification__core_concept__s001__u001.txt",
+      "sha256": "e66aab75f015c8c40405ccf0dea66f83fa6f3a490ccc46c5fd9dd8d8d3010fc9",
+      "bytes": 861
+    },
+    {
+      "original_path": "postagi-reasoning/outputs/groq_jobs/results_consistent_wave_001.jsonl",
+      "snapshot_path": "structure/sources/postagi-reasoning/outputs/groq_jobs/results_consistent_wave_001.jsonl",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/outputs/groq_jobs/results_consistent_wave_001.jsonl",
+      "sha256": "a20117a2cfeb18980ae625b400411bbe63c514df215a306b2d24c1f4d9671442",
+      "bytes": 285
+    },
+    {
+      "original_path": "postagi-reasoning/scripts/build_consistent_groq_jobs.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/scripts/build_consistent_groq_jobs.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/scripts/build_consistent_groq_jobs.py",
+      "sha256": "ae99403f51b3f345260e820a9e44c619616365abbba233722a79d6ba1d5bebc8",
+      "bytes": 4231
+    },
+    {
+      "original_path": "postagi-reasoning/scripts/build_groq_jobs.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/scripts/build_groq_jobs.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/scripts/build_groq_jobs.py",
+      "sha256": "f660185ad147ddc02d4dc20bca4b61a1f380d917fffc74268f3a1e16e342672a",
+      "bytes": 6566
+    },
+    {
+      "original_path": "postagi-reasoning/scripts/clean_groq_questions.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/scripts/clean_groq_questions.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/scripts/clean_groq_questions.py",
+      "sha256": "f546dc8c7a85460bbbe1ff2ef72425900bf805804e5df24f00672d40d27161b3",
+      "bytes": 6069
+    },
+    {
+      "original_path": "postagi-reasoning/scripts/groq_parallel_expand.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/scripts/groq_parallel_expand.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/scripts/groq_parallel_expand.py",
+      "sha256": "2ee3dc1445f2d4391eee15706fa83b25a2ad82728a6e3a684064d75387868e19",
+      "bytes": 19852
+    },
+    {
+      "original_path": "postagi-reasoning/scripts/import_consistent_docs.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/scripts/import_consistent_docs.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/scripts/import_consistent_docs.py",
+      "sha256": "5d908b32222ba8a6bd13d376753996c27af6a67411884ea914d2f4ace186bcbd",
+      "bytes": 2980
+    },
+    {
+      "original_path": "postagi-reasoning/scripts/import_groq_questions.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/scripts/import_groq_questions.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/scripts/import_groq_questions.py",
+      "sha256": "8622d87b60e9fe8b4f4082aaed0653fb204f7edd907a876adc6f5d7e454d9987",
+      "bytes": 6034
+    },
+    {
+      "original_path": "postagi-reasoning/scripts/repair_pure_regress_sections.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/scripts/repair_pure_regress_sections.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/scripts/repair_pure_regress_sections.py",
+      "sha256": "052327c2a4a269ae6e486969393c1096200cc3f4d825dc0cd9eac03acadf4186",
+      "bytes": 8346
+    },
+    {
+      "original_path": "postagi-reasoning/scripts/run_consistent_wave.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/scripts/run_consistent_wave.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/scripts/run_consistent_wave.py",
+      "sha256": "eee4e62b5a13fa09b00cf0bddc5245332026074fadc9f6923b4c6905fb31c9d9",
+      "bytes": 4264
+    },
+    {
+      "original_path": "postagi-reasoning/scripts/split_yesno_questions.py",
+      "snapshot_path": "structure/sources/postagi-reasoning/scripts/split_yesno_questions.py",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/scripts/split_yesno_questions.py",
+      "sha256": "de5987f96bc041834aa39686be7544d06f1cfb25867ddc59f1574da0d031f39c",
+      "bytes": 6965
+    },
+    {
+      "original_path": "postagi-reasoning/templates/depth_map.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/templates/depth_map.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/templates/depth_map.md",
+      "sha256": "708b0f134eb99278756c4949cb41c1fea943f9c0f639653a946e05a5784f591b",
+      "bytes": 1496
+    },
+    {
+      "original_path": "postagi-reasoning/templates/question_route.json",
+      "snapshot_path": "structure/sources/postagi-reasoning/templates/question_route.json",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/templates/question_route.json",
+      "sha256": "cfbdca22f1e7ca0fe0068d99ccb45e0690754cc11fd5f8a6ea8368d499a93aa2",
+      "bytes": 472
+    },
+    {
+      "original_path": "postagi-reasoning/templates/scenario.md",
+      "snapshot_path": "structure/sources/postagi-reasoning/templates/scenario.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/postagi-reasoning/templates/scenario.md",
+      "sha256": "677160efc3f28bfa663e6d876b9a2fa79daa34e2d4912763bb4532c4e6caeff1",
+      "bytes": 2473
+    },
+    {
+      "original_path": "questionroute/THE-PRISON-SELF-REFLECTION-BOOK.md",
+      "snapshot_path": "structure/sources/questionroute/THE-PRISON-SELF-REFLECTION-BOOK.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/questionroute/THE-PRISON-SELF-REFLECTION-BOOK.md",
+      "sha256": "0cbe94b7b3c4a72e5692cebfb2235d6140d7869b44b03c722c772503f1c4d8c7",
+      "bytes": 85488
+    },
+    {
+      "original_path": "questionroute/THE-PROJECT-CREATION-SELF-REFLECTION-BOOK.md",
+      "snapshot_path": "structure/sources/questionroute/THE-PROJECT-CREATION-SELF-REFLECTION-BOOK.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/questionroute/THE-PROJECT-CREATION-SELF-REFLECTION-BOOK.md",
+      "sha256": "45594f183ff47658c9dfb3e0f02c1bd2bc6ca5d254979af87d0c18d55fefe47e",
+      "bytes": 98445
+    },
+    {
+      "original_path": "questionroute/THE-PROJECT-MIDDLE-SELF-REFLECTION-BOOK.md",
+      "snapshot_path": "structure/sources/questionroute/THE-PROJECT-MIDDLE-SELF-REFLECTION-BOOK.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/questionroute/THE-PROJECT-MIDDLE-SELF-REFLECTION-BOOK.md",
+      "sha256": "4c2d8a2b6e22655bd2dfefd760f1b803e6f0fccf542c480d6a0f327707f6552b",
+      "bytes": 78143
+    },
+    {
+      "original_path": "questionroute/THE-PSYCH-WARD-SELF-REFLECTION-BOOK.md",
+      "snapshot_path": "structure/sources/questionroute/THE-PSYCH-WARD-SELF-REFLECTION-BOOK.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/questionroute/THE-PSYCH-WARD-SELF-REFLECTION-BOOK.md",
+      "sha256": "bb5624b5a20615a00cf61501c2ebaf6c0f6d967ac4e8c8cb9870af3a2be5a00f",
+      "bytes": 67254
+    },
+    {
+      "original_path": "questionroute/src/lib/data.ts",
+      "snapshot_path": "structure/sources/questionroute/src/lib/data.ts",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/questionroute/src/lib/data.ts",
+      "sha256": "555adc4ceede32ad9c4ad698e504b0a38e793f18d9a6a1613ef516885dcc773c",
+      "bytes": 8021
+    },
+    {
+      "original_path": "questionroute/src/lib/types.ts",
+      "snapshot_path": "structure/sources/questionroute/src/lib/types.ts",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/questionroute/src/lib/types.ts",
+      "sha256": "521a09655a6cdbac6e6e0a0a8eef26b375ddf6069bb47476b44af7aa65fd53e2",
+      "bytes": 8451
+    },
+    {
+      "original_path": "reasoningtool/AGENTS.md",
+      "snapshot_path": "structure/sources/reasoningtool/AGENTS.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/reasoningtool/AGENTS.md",
+      "sha256": "4d0aebbf589765abe3b5a4e1bedfa74e6ef6a3b83656cc7c135fd826fe29be8e",
+      "bytes": 1588
+    },
+    {
+      "original_path": "reasoningtool/docs/previous-approaches/pure-regress/v1/pure_regress_v4.md",
+      "snapshot_path": "structure/sources/reasoningtool/docs/previous-approaches/pure-regress/v1/pure_regress_v4.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/reasoningtool/docs/previous-approaches/pure-regress/v1/pure_regress_v4.md",
+      "sha256": "d24906f8640328114f1046a6e0d374f119f2f461e877f452a527e7580c6892d5",
+      "bytes": 58759
+    },
+    {
+      "original_path": "resource-engineering/resourceengineering/context/verdict-ledger.md",
+      "snapshot_path": "structure/sources/resource-engineering/resourceengineering/context/verdict-ledger.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/resource-engineering/resourceengineering/context/verdict-ledger.md",
+      "sha256": "b54931272f14126223306184b8668a5e64e68c6bf6a9a0da7eae913d7f0716bb",
+      "bytes": 9318
+    },
+    {
+      "original_path": "resource-engineering/resourceengineering/docs/maps-v0.1-the-shuffle-test.md",
+      "snapshot_path": "structure/sources/resource-engineering/resourceengineering/docs/maps-v0.1-the-shuffle-test.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/resource-engineering/resourceengineering/docs/maps-v0.1-the-shuffle-test.md",
+      "sha256": "0cdd415706f308a66386b7b8c5e42891c6270c01943ff66705e04fdd41027f16",
+      "bytes": 12717
+    },
+    {
+      "original_path": "resource-engineering/resourceengineering/docs/maps-v0.2-the-three-fits.md",
+      "snapshot_path": "structure/sources/resource-engineering/resourceengineering/docs/maps-v0.2-the-three-fits.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/resource-engineering/resourceengineering/docs/maps-v0.2-the-three-fits.md",
+      "sha256": "f7e0bcc2bf9b0b78ce3910da06aa54d5521d64777262a82791515709f081b15d",
+      "bytes": 15362
+    },
+    {
+      "original_path": "resource-engineering/resourceengineering/docs/plan-v0.1-the-consumption-schedule.md",
+      "snapshot_path": "structure/sources/resource-engineering/resourceengineering/docs/plan-v0.1-the-consumption-schedule.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/resource-engineering/resourceengineering/docs/plan-v0.1-the-consumption-schedule.md",
+      "sha256": "8559271ad79719e549aa679e75256db2056c2f8cc0b224ffd6e2568a89cb0f94",
+      "bytes": 6202
+    },
+    {
+      "original_path": "resource-engineering/resourceengineering/docs/second-level-v0.1-the-typed-table.md",
+      "snapshot_path": "structure/sources/resource-engineering/resourceengineering/docs/second-level-v0.1-the-typed-table.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/resource-engineering/resourceengineering/docs/second-level-v0.1-the-typed-table.md",
+      "sha256": "07824b83aa1aaf96c62aed9cae51cab74309223f68170d04290b29db41f0c8ed",
+      "bytes": 7093
+    },
+    {
+      "original_path": "resource-engineering/resourceengineering/for-reasoningtool2/integration-notes.md",
+      "snapshot_path": "structure/sources/resource-engineering/resourceengineering/for-reasoningtool2/integration-notes.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/resource-engineering/resourceengineering/for-reasoningtool2/integration-notes.md",
+      "sha256": "8b3088c003436037460f428bf16cccf7b4e034aca81621a4da841d2b3adace47",
+      "bytes": 15065
+    },
+    {
+      "original_path": "sds/README.md",
+      "snapshot_path": "structure/sources/sds/README.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/sds/README.md",
+      "sha256": "0bae025cecbb0d679ddc4c69be3dd5d873754dcb15a6c3e659d1fec1a1a173a3",
+      "bytes": 1588
+    },
+    {
+      "original_path": "superintelbot/CLAUDE.md",
+      "snapshot_path": "structure/sources/superintelbot/CLAUDE.md",
+      "snapshot_url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/superintelbot/CLAUDE.md",
+      "sha256": "a57dc8fbba3d0cfa988f83c8da7885f1443d10055e24ea56378572df234f4ea0",
+      "bytes": 31477
+    }
+  ],
+  "local_snapshots": [
+    {
+      "local_path": "sources/snapshots/project-dashboard-README.txt",
+      "repository": "benjam3n/project-dashboard",
+      "path": "README.md",
+      "commit": "057ddd08ed49b37bde8df4a5bb869e819473ddcb",
+      "blob_sha": "45ecd63b18536cf91299289ecf636baaebcdb837",
+      "sha256": "6a3814f8c441fe28ebc0d6b08b213cffb57427b35f46bf001613836306e0d4d4",
+      "url": "https://github.com/benjam3n/project-dashboard/blob/057ddd08ed49b37bde8df4a5bb869e819473ddcb/README.md",
+      "basis": "Read at the pinned commit during setup."
+    },
+    {
+      "local_path": "sources/snapshots/sds-README.txt",
+      "repository": "benjam3n/sds",
+      "path": "README.md",
+      "commit": "9a1e05a55cdefba8d17fd76dc184f757f92f21ea",
+      "blob_sha": "38e4d7b8017d0b8aedb0a3757ed8ee9e89b00788",
+      "sha256": "0bae025cecbb0d679ddc4c69be3dd5d873754dcb15a6c3e659d1fec1a1a173a3",
+      "url": "https://github.com/benjam3n/sds/blob/9a1e05a55cdefba8d17fd76dc184f757f92f21ea/README.md",
+      "basis": "Read at the pinned commit during setup."
+    },
+    {
+      "local_path": "sources/snapshots/discoveryengine-README.txt",
+      "repository": "benjam3n/discoveryengine",
+      "path": "README.md",
+      "commit": "fe62d75cf82634bd864817a3f82e6f9768f85945",
+      "blob_sha": "4fe49a3c721dde124eefc5b2779edccf7b1bdf42",
+      "sha256": "85fb06385763f852edbc25499bdc25ab601f0bc1f7d39f0907c5b4648ea6bdb3",
+      "url": "https://github.com/benjam3n/discoveryengine/blob/fe62d75cf82634bd864817a3f82e6f9768f85945/README.md",
+      "basis": "Read at the pinned commit during setup."
+    },
+    {
+      "local_path": "sources/snapshots/reasoningtool2-CURRENT.txt",
+      "repository": "benjam3n/reasoningtool2",
+      "path": "CURRENT.md",
+      "commit": "ae2435b0004ac44de9bb09c2f045805722038dbb",
+      "sha256": "09e5d688918ed6a61e45182211cac81fd40fde46f333178710ade628285f91e8",
+      "url": "https://github.com/benjam3n/reasoningtool2/blob/ae2435b0004ac44de9bb09c2f045805722038dbb/CURRENT.md",
+      "basis": "Preserved inspected snapshot; default-branch head rechecked unchanged during setup."
+    },
+    {
+      "local_path": "sources/snapshots/reasoningtool2-METHODS.txt",
+      "repository": "benjam3n/reasoningtool2",
+      "path": "METHODS.md",
+      "commit": "ae2435b0004ac44de9bb09c2f045805722038dbb",
+      "sha256": "5f72a99b596cb25654701b77093fda6d9f7c6e5294a59701de722fbc038428ef",
+      "url": "https://github.com/benjam3n/reasoningtool2/blob/ae2435b0004ac44de9bb09c2f045805722038dbb/METHODS.md",
+      "basis": "Preserved inspected snapshot; default-branch head rechecked unchanged during setup."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Conditional method examples
+
+Status: candidate applications, not a complete taxonomy or a routing table.
+Basis: `sources/2026-09-04-obstacles.md`, especially the distinctions, discovery chain and candidate loop.
+Read the original skill when invoking a named predecessor skill; these examples do not replace it.
+
+| Situation / possible obstacle | Work that may change it | Result to look for | Near-miss or limit |
+|---|---|---|---|
+| Material probably exists but has not been located | Retrieve the actual source and inspect the relevant context | The needed statement, record or artifact becomes available, with scope | More retrieval cannot supply an observation that was never made; search failure alone does not prove absence |
+| Retrieved material seems irrelevant or incompatible | Compare referents, assumptions, units, boundaries and representations; translate without erasing distinctions | A supported correspondence or a specific incompatibility | Similar wording alone does not establish equivalence |
+| Several pieces exist but their joint consequence is unknown | Derive what their combination implies, including conditions and counterexamples | A consequence linked to premises and to the question it addresses | Juxtaposing quotations or renaming them "configuration" is not a derivation |
+| A claim or framing restricts the possibilities considered | ARAW: assume right and develop consequences; assume wrong and develop genuine alternatives; recurse on consequential findings | New implications, objections, alternatives, questions or constraints | Factual retrieval may settle a simple source claim directly; ARAW is not a generic mandatory evaluator |
+| Candidates vary in a way the current description cannot distinguish | Compare cases and derive the missing dimension; use the original DD skill when invoked | A distinction that separates cases and changes subsequent work | Adding arbitrary dimensions only enlarges the list |
+| Alternatives genuinely are missing | Generate candidates under the current constraints, varying relevant assumptions where justified | New candidates with meaningful differences | Generating more candidates does not repair a missing selection criterion |
+| Candidates exist but cannot be selected coherently | Examine the criterion, conflicts, tradeoffs and the evidence it requires | A justified comparison, conditional choice or explicit incomparability | A numerical score does not establish a criterion's validity |
+| Consequential explanations remain observationally indistinguishable | Obtain an authorized discriminating observation or perform an available test | Evidence that changes their relative support | A hypothetical test is not an executed one; avoid experiments irrelevant to conceptual work |
+| A usable solution exists but an execution path or resource is missing | Locate the specific resource, access, coordination or implementation step; execute when authorized | A changed artifact or observed state, not just another plan | A conceptual solution is not a demonstrated implementation |
+| A result exists but affected work still uses old premises | Identify supported dependencies, propagate review and redo the affected work | Updated decisions, questions or methods; retained history | Archiving a finding is not reusing it; contextual mention alone is not dependence |
+| The question excludes promising possibilities or bundles different problems | Derive an alternative formulation and compare what it makes available and what it loses | A revised or split question with an explicit connection to the actual request | Do not replace the user's task with an imagined grander goal |
+| No listed situation fits, or several explanations fit | Keep the diagnosis unresolved; explore or devise an operation that could distinguish the explanations | A better diagnosis or a new useful operation | An unmatched case must not be discarded for failing the catalogue |
+
+These are many-to-many relationships. One operation can reveal a different obstacle, and one obstacle
+can have multiple useful operations. No one-method-per-verb or one-input-type restriction applies.
+The order used on a task is conditional on its actual dependencies, not on table order.
+
+## A reusable case
+
+A useful retained case identifies the situation, the initially suspected obstacle, the actual operation,
+the observed consequence, the change to later work and the conditions under which reuse is justified.
+Record a failed or inconclusive operation as such. This is a content guide, not a mandatory output form.
+Do not promote "worked here" to "works in all domains." Search for counterexamples when generalizing.
+
+## Open questions
+
+Does obstacle-based indexing outperform other ways of finding useful methods on real work?
+What distinctions about a state are sufficient to choose an operation, and when is no small set sufficient?
+When does combining existing material suffice, and when is a genuinely new resource or observation needed?
+Which changes improve future searches rather than only making the current answer longer?
