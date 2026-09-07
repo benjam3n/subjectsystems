@@ -1,8 +1,12 @@
 # Improvement
 
-[Subject groups](../../README.md) / [Learning and improvement](../README.md)
+The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
-Standing: Proposed subject. Scope and branches below are starting proposals, not an exhaustive theory.
+[Earlier topic navigation](../../LEGACY.md) / [Learning and improvement](../README.md)
+
+Standing: Legacy topic entry; exclusive category boundaries remain under review.
+
+Earlier standing: Proposed subject. Scope and branches below are starting proposals, not an exhaustive theory.
 
 What becomes better, how that is established, and which interventions or transfers produce it.
 

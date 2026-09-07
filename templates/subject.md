@@ -2,7 +2,9 @@
 
 Standing: established direction, working proposal, disputed interpretation, or unresolved scope as appropriate.
 
-Link to the parent functional group and explain the shared work that justifies this home. Keep contributions to other groups visible with links. If the meaning or placement is unresolved, use the explicit holding area without inventing a scope. The group does not determine a universal procedure for the subject.
+Specify the classified thing, its defining conditions, and the relation to a proposed parent. For alternative siblings, explain which membership condition excludes the others and examine a case that might satisfy more than one. State whether coverage is complete or partial. A useful main home or a shared contribution does not establish a category. Do not inherit the rejected functional grouping.
+
+Distinguish the object from its expression, the operations concerning it, properties, uses, and containing work. Preserve an unresolved boundary explicitly without inventing a conventional meaning. These diagnostic distinctions are not themselves an approved universal partition.
 
 Describe the actual subject and the distinction this branch introduces. Develop the narrower investigations that matter here.
 

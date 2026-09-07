@@ -1,6 +1,6 @@
 # Working in Subject Systems
 
-Read CURRENT.md and the actual request before changing the repository. Use the functional group index to find the relevant subjects, or enter directly at a known subject. Consult PURPOSE.md, ARCHITECTURE.md, NEXT.md, and original sources when they affect the task; rereading every file is not a prerequisite for useful work.
+Read CURRENT.md and the actual request before changing the repository. Use the subject work entry point and label audit to find retained material. The former group folders are legacy navigation, not the current classification. Consult DISTINCTIONS.md when deriving boundaries, and PURPOSE.md, ARCHITECTURE.md, NEXT.md, and original sources when they affect the task; rereading every file is not a prerequisite for useful work.
 
 ## Authority
 
@@ -10,10 +10,12 @@ Carry out clear, authorized work. Retrieve resolvable context. Do not ask the us
 
 ## Organizing and developing subjects
 
-- Functional groups organize subjects by the kind of work they contribute. Subjects and their purposes govern custom system design. Source relevance is a starting point for development, not a finished local system.
-- Give each subject one main home and preserve useful connections across groups. A grouping is neither exclusive relevance nor a compulsory work sequence. Group names and boundaries are working choices. Keep genuinely unresolved placements visible in subjects/unplaced/.
-- The 37 retained entries and two proposed additions are an open starting arrangement, not a closed taxonomy. Preserve each entry's actual standing.
-- Membership in a functional group, a hierarchy of narrower inquiries, a logical prerequisite, and a proposed contribution are different relations. State the relation that matters.
+- Subjects require explicit, non-overlapping boundaries. A main home chosen by relevance, useful contribution, or primary purpose does not establish an exclusive category.
+- Declare what is being classified and what each hierarchy relation means. Alternative siblings must distinguish the same kind of unit by membership conditions that exclude each other. Parent-child containment and exhaustive coverage require their own grounds.
+- An object, its expression, an operation on it, its properties, its uses, and a containing workflow must remain distinguishable where they determine membership. Do not turn those diagnostic words into another untested universal taxonomy.
+- The original roster is an audit inventory, not a fixed set of peer subjects. Split, narrow, combine, relocate, or withdraw labels when the distinctions require it. Promoting is withdrawn; do not invent a marketing definition or silently substitute Prompting.
+- Is a kind of, is a part of, acts on, creates, represents, and contributes to have different consequences. A documentation nesting does not establish all of them. Cross-references preserve dependencies; they do not repair overlapping sibling definitions.
+- Subjects and their particular purposes still govern custom system design. Source relevance is a starting point for development, not a finished local system.
 - Preserve the original source identity and evidence. Give custom descendants separate identities and purpose-specific objects, operations, results, and criteria. They may diverge, combine families, or add new operations. Do not mistake a renamed source invocation for a custom design.
 - Keep the subject, an account of it, a method for investigating it, an implementation, an example, and evidence distinguishable.
 - Develop the actual subject. More directories, links, procedure names, and tests are not substitutes for a finding or capability.
@@ -41,7 +43,9 @@ Keep persistence proportional to the work. No mandatory per-turn form, transcrip
 
 ## Repository maintenance
 
-Subject pages and prose records are the working content. Put subjects under `subjects/<group>/<subject>/` and local systems under that subject's systems/ directory. Link the subject from its group, explain why it belongs, and link back to the group. Add a new group to subjects/README.md and the main README when needed. Preserve proposed or unresolved subject standing when moving it; group membership does not establish that status.
+The existing group and topic paths preserve earlier work. Do not use them as authority for a new classification or add new topics by closest fit. Keep legacy navigation and the label audit consistent when updating those records. Develop and test substantive definitions before publishing a replacement subject tree as established. A partial derivation can remain partial without an invented catch-all category.
+
+Existing custom designs retain their local systems/ directories and source links. A later relocation must preserve their actual objects, operations, standing, and provenance. The repository does not require a new general orchestrator or an empty folder for every possible pairing.
 
 Link local systems from their subjects and source-family profiles. Record purpose, source lineage, and actual standing. A family with no specified local version remains pending development, not silently treated as ready. sources/manifest.json is an evidence inventory, not a universal subject ontology. Keep subject-to-system links and system-to-subject links consistent. Use relative local links and pinned external sources for claims about a version.
 

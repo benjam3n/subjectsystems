@@ -1,10 +1,16 @@
 # Questions
 
-[Subject groups](../../README.md) / [Inquiry and discovery](../README.md)
+The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
-Standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
+[Earlier topic navigation](../../LEGACY.md) / [Inquiry and discovery](../README.md)
+
+Standing: Legacy topic entry; exclusive category boundaries remain under review.
+
+Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 
 What can be asked, the assumptions and answer spaces involved, and how inquiries connect and change.
+
+The [question-identity derivation](../../../DISTINCTIONS.md#what-question-identity-must-preserve) separates a question from its wording, an act of asking, an inquirer's uncertainty, and its becoming available. Its constructed cases constrain a future subject definition without claiming a complete one.
 
 ## Starting hierarchy
 

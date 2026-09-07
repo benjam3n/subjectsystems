@@ -1,8 +1,8 @@
 # Reasoning and understanding
 
-[Subject groups](../README.md)
+[Subject work](../README.md) · [Earlier topic navigation](../LEGACY.md)
 
-Standing: Working functional group. The grouping layer is user-directed; this particular name, boundary, and membership are revisable implementation choices.
+Standing: Rejected functional grouping; retained only as navigation to earlier topic material.
 
 Develop implications, accounts, and expectations; distinguish what holds from what remains unresolved.
 
@@ -21,7 +21,7 @@ Develop implications, accounts, and expectations; distinguish what holds from wh
 
 The shared concern is what can be derived, understood, explained, anticipated, or established. Producing an account does not establish its truth. Reasoning retains exploratory and generative operations; its placement here does not restrict it to deduction or require every useful move to conclude a claim.
 
-Each subject has one main home for navigation and can contribute across groups. The shared function is not a claim that every member performs every part of it, a reduction of each subject to that function, or a compulsory work sequence.
+The previous placement used a main home and contributions across groups. The user rejected that basis because it does not establish mutually exclusive categories. Membership below is preserved as history, not defended as the current hierarchy.
 
 | Subject elsewhere | Connection that matters |
 |---|---|
@@ -34,4 +34,4 @@ Each subject has one main home for navigation and can contribute across groups. 
 - Which changes of representation create a new inference, and which merely make an existing inference easier to notice?
 - When can an explanation support a prediction, and what missing conditions prevent that transfer?
 
-The subject and particular purpose still determine each custom system. Group membership does not impose one procedure on its members. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).
+The local systems remain available for their specified purposes. The former group membership does not establish their subject boundaries. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).

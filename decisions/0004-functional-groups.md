@@ -1,6 +1,6 @@
 # 0004 — Functional groups above subjects
 
-Standing: The intermediate grouping layer was requested by the user on 7 September 2026. The eight group names, boundaries, and individual placements are the current working implementation.
+Standing: Rejected as the subject classification by the user's subsequent correction. Superseded by [0005 — Non-overlapping subjects](0005-non-overlapping-subjects.md). The account below records the earlier implementation; its instructions no longer govern new placement.
 
 ## Change and criterion
 

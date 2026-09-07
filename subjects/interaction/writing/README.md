@@ -1,8 +1,12 @@
 # Writing
 
-[Subject groups](../../README.md) / [Expression and interaction](../README.md)
+The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
-Standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
+[Earlier topic navigation](../../LEGACY.md) / [Expression and interaction](../README.md)
+
+Standing: Legacy topic entry; exclusive category boundaries remain under review.
+
+Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 
 The intellectual work performed through text and how its arrangement changes a reader’s understanding.
 

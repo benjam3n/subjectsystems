@@ -1,6 +1,6 @@
 # Perfection within subjects
 
-The following is a program for developing and testing strong claims. It is not a report that the claims have already been established. Connections and Improvement retain their proposed status as subjects within the functional groups.
+The following is a program for developing and testing strong claims. It is not a report that the claims have already been established. The functional grouping is rejected; Connections and Improvement remain earlier proposals whose exact boundaries are under review.
 
 Perfection concerns an exact activity, property, or account. Perfection of a theory of goals, perfection of goal formation, and perfect achievement of a chosen goal are three different claims.
 

@@ -27,7 +27,7 @@ def relative_links(path):
             continue
         yield destination, (path.parent / unquote(parsed.path)).resolve()
 
-for name in ['README.md','AGENTS.md','CURRENT.md','PURPOSE.md','ARCHITECTURE.md','PERFECTION.md','GOAL-JOURNEY.md','NEXT.md','sources/manifest.json']:
+for name in ['README.md','AGENTS.md','CURRENT.md','PURPOSE.md','ARCHITECTURE.md','DISTINCTIONS.md','subjects/README.md','subjects/LEGACY.md','research/SUBJECT-AUDIT.md','PERFECTION.md','GOAL-JOURNEY.md','NEXT.md','sources/manifest.json']:
     require((ROOT/name).is_file(), f'Missing entry point: {name}')
 
 markdown = list(ROOT.rglob('*.md'))
@@ -53,16 +53,23 @@ for path in markdown:
                 require(all(len(row) == len(cells[0]) for row in cells),
                         f'{path.relative_to(ROOT)}: inconsistent table columns')
 
-group_pages = sorted((ROOT/'subjects').glob('*/README.md'))
-subject_pages = sorted((ROOT/'subjects').glob('*/*/README.md'))
-subject_index = ROOT/'subjects/README.md'
+subject_index = ROOT/'subjects/LEGACY.md'
+targets = {path: {target for _, target in relative_links(path)} for path in markdown}
+# The rejected groups are a preserved inventory, not the replacement ontology.
+# Derive their paths from the legacy index so new subject work is not forced
+# into this superseded physical pattern.
+group_pages = sorted(p for p in targets.get(subject_index, set())
+                     if p.name == 'README.md' and p.parent.parent == ROOT/'subjects')
+subject_pages = sorted(p for group in group_pages
+                       for p in group.parent.glob('*/README.md'))
 system_pages = sorted(p for p in (ROOT/'systems').glob('*.md') if p.name != 'README.md')
 system_index = ROOT/'systems/README.md'
-targets = {path: {target for _, target in relative_links(path)} for path in markdown}
 
-require(subject_index.is_file(), 'Missing subject group index')
-require(bool(group_pages), 'No subject groups found')
-require(bool(subject_pages), 'No subject pages found inside groups')
+require(subject_index.is_file(), 'Missing legacy topic navigation')
+require(subject_index in targets.get(ROOT/'subjects/README.md', set()),
+        'Current subject entry point has no route to retained topic material')
+require(bool(group_pages), 'No retained group pages found')
+require(bool(subject_pages), 'No retained topic pages found')
 subject_names = [path.parent.name for path in subject_pages]
 require(len(subject_names) == len(set(subject_names)),
         'A subject has duplicate homes; retain one canonical page and cross-link it')
@@ -73,14 +80,13 @@ for path in group_pages:
             f'Group lacks link to group index: {path.parent.name}')
     members = [p for p in subject_pages if p.parent.parent == path.parent]
     require(bool(members), f'Group has no subject pages: {path.parent.name}')
-    if path.parent.name != 'unplaced':
-        require(path in targets.get(ROOT/'README.md', set()),
-                f'Group absent from main README: {path.parent.name}')
     for member in members:
         require(member in targets[path],
                 f'Subject absent from group: {member.relative_to(ROOT)}')
 
 for path in subject_pages:
+    require(path in targets.get(ROOT/'research/SUBJECT-AUDIT.md', set()),
+            f'Legacy topic absent from label audit: {path.parent.name}')
     group = path.parent.parent/'README.md'
     require(group in group_pages,
             f'Subject has no group page: {path.relative_to(ROOT)}')
@@ -141,10 +147,10 @@ if errors:
     sys.exit(1)
 functional_groups = [p for p in group_pages if p.parent.name != 'unplaced']
 unplaced = [p for p in subject_pages if p.parent.parent.name == 'unplaced']
-print(f'PASS: {len(functional_groups)} functional groups, '
-      f'{len(subject_pages)} subjects ({len(unplaced)} awaiting placement), '
+print(f'PASS: {len(functional_groups)} legacy group pages, '
+      f'{len(subject_pages)} audited legacy topic entries ({len(unplaced)} in the former holding area), '
       f'{len(system_pages)} system profiles, '
       f'{len(local_systems)} local systems, '
       f'{links_checked} local links, {len(manifest["artifacts"])} pinned source records, '
       f'{len(manifest["local_snapshots"])} unchanged local snapshots.')
-print('This checks structure and recorded identity, not intellectual completeness or method effectiveness.')
+print('This checks retained navigation and recorded identity, not semantic non-overlap, intellectual completeness, or method effectiveness.')

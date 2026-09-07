@@ -1,8 +1,12 @@
 # Strategy
 
-[Subject groups](../../README.md) / [Planning and execution](../README.md)
+The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
-Standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
+[Earlier topic navigation](../../LEGACY.md) / [Planning and execution](../README.md)
+
+Standing: Legacy topic entry; exclusive category boundaries remain under review.
+
+Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 
 Approaches within contexts involving objectives, responses, constraints, and adaptation.
 

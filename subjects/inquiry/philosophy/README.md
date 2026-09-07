@@ -1,8 +1,12 @@
 # Philosophy
 
-[Subject groups](../../README.md) / [Inquiry and discovery](../README.md)
+The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
-Standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
+[Earlier topic navigation](../../LEGACY.md) / [Inquiry and discovery](../README.md)
+
+Standing: Legacy topic entry; exclusive category boundaries remain under review.
+
+Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 
 Concepts, assumptions, reasons, implications, and competing accounts of foundational or systematic questions.
 

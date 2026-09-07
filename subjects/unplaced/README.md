@@ -1,11 +1,7 @@
-# Awaiting placement
+# Withdrawn label record
 
-[Subject groups](../README.md)
+[Subject work](../README.md) · [Earlier topic navigation](../LEGACY.md)
 
-This is a holding area, not a functional group. An unresolved subject remains visible while its meaning or best placement is being established.
+This directory preserves [Promoting](promoting/README.md) as a withdrawn label. It is not an active subject or an obligatory unresolved branch. Its earlier adoption-oriented interpretation was unsupported as a definition of the user's intended subject.
 
-| Subject | Why placement is unresolved | What would resolve it |
-|---|---|---|
-| [Promoting](promoting/README.md) | The original label is retained, but its intended meaning is unresolved | Recover the intended use or a distinguishing example; then identify its actual contribution and choose a group |
-
-Promoting is not silently treated as marketing, influence, or a misspelling of Prompting. Its unplaced status is not a finding that it lacks relevance. The [boundary decision](../../decisions/0002-subject-boundaries.md) records the original uncertainty.
+See the [correction](../../decisions/0005-non-overlapping-subjects.md). No replacement marketing or influence category is introduced.

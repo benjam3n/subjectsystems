@@ -1,8 +1,8 @@
 # Direction and choice
 
-[Subject groups](../README.md)
+[Subject work](../README.md) · [Earlier topic navigation](../LEGACY.md)
 
-Standing: Working functional group. The grouping layer is user-directed; this particular name, boundary, and membership are revisable implementation choices.
+Standing: Rejected functional grouping; retained only as navigation to earlier topic material.
 
 Form purposes, establish what matters, judge alternatives, and make commitments.
 
@@ -20,7 +20,7 @@ Form purposes, establish what matters, judge alternatives, and make commitments.
 
 This group concerns purposes, standards, and commitments. A preference, a judgment, a decision, and an achieved goal remain different objects. Its placement of Judgment includes factual and aesthetic judgments as well as choices about action.
 
-Each subject has one main home for navigation and can contribute across groups. The shared function is not a claim that every member performs every part of it, a reduction of each subject to that function, or a compulsory work sequence.
+The previous placement used a main home and contributions across groups. The user rejected that basis because it does not establish mutually exclusive categories. Membership below is preserved as history, not defended as the current hierarchy.
 
 | Subject elsewhere | Connection that matters |
 |---|---|
@@ -33,4 +33,4 @@ Each subject has one main home for navigation and can contribute across groups. 
 - When does a concrete preference supply a reason to adopt a goal, and what additional operation is needed when it does not?
 - Which revisions to a criterion require reopening a verdict, a commitment, or the goal itself?
 
-The subject and particular purpose still determine each custom system. Group membership does not impose one procedure on its members. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).
+The local systems remain available for their specified purposes. The former group membership does not establish their subject boundaries. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).

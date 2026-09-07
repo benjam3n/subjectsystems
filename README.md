@@ -1,29 +1,23 @@
 # Subject Systems
 
-Systems organized around subjects.
+Systems organized around distinguishable subjects.
 
-Subjects are grouped by the kind of work they do. Within each group, subjects determine the concepts, accounts, questions, methods, tools, and evidence to develop. Existing projects provide material for custom systems built for each subject and purpose, including approaches none of the existing systems contains.
+The subjects must have explicit boundaries that exclude alternative sibling categories. The earlier grouping by shared work did not satisfy that requirement. Choosing a main folder for an overlapping topic did not make the topic exclusive.
 
-The ambition is to develop these subjects deeply enough to understand and improve what occurs within them, and to investigate what perfection would require. The name describes the organization; it does not certify completeness, effectiveness, or readiness.
+The original labels are now material for derivation: some may become precise subjects, some may split into different senses, and some may identify operations, properties, roles, or larger combinations. Their former list does not determine the final hierarchy.
 
-## Start with the kind of work
+## Current work
 
-The hierarchy is **group → subject → particular inquiry or purpose → custom system**.
-
-| Group | What its subjects do |
+| Entry | What is established there |
 |---|---|
-| [Direction and choice](subjects/direction/README.md) | Develop purposes, standards, preferences, and commitments |
-| [Inquiry and discovery](subjects/inquiry/README.md) | Open questions and pursue findings |
-| [Reasoning and understanding](subjects/understanding/README.md) | Develop implications, accounts, expectations, and their grounds |
-| [Organization and retention](subjects/organization/README.md) | Make material interpretable, connected, and available for later use |
-| [Creation and problem solving](subjects/creation/README.md) | Generate and develop forms, alternatives, and interventions |
-| [Planning and execution](subjects/execution/README.md) | Direct resources, arrange work, and carry it out |
-| [Expression and interaction](subjects/interaction/README.md) | Construct contributions that change understanding or subsequent activity |
-| [Learning and improvement](subjects/development/README.md) | Develop capability and the quality of work and its results |
+| [Subject distinctions](DISTINCTIONS.md) | The non-overlap requirement, the Questions/creation distinction, and a bounded example of exclusive conditions |
+| [Complete label audit](research/SUBJECT-AUDIT.md) | The ambiguity or overlap in every earlier topic entry and its consequence |
+| [Subject work](subjects/README.md) | The current direction and access to retained subject material |
+| [Correction decision](decisions/0005-non-overlapping-subjects.md) | The user's rejection of the functional grouping and the resulting changes |
 
-The [group index](subjects/README.md) opens the subject lists and placement reasons. These eight groups contain 38 subjects; [Promoting](subjects/unplaced/promoting/README.md) remains visibly unplaced while its meaning is unresolved. Together they preserve the 37 retained subjects and two proposed additions. A group is a useful main home, with connections across groups where the work requires them.
+A complete exclusive subject hierarchy has not yet been derived. The eight former groups are [legacy navigation](subjects/LEGACY.md), with their rejection explicit. Promoting is withdrawn from the candidate subject roster; its earlier record remains only for provenance.
 
-For example, the SDS source leads to distinct systems for [Goal discovery](subjects/direction/goals/systems/goal-discovery.md), [Preference discovery](subjects/direction/preferences/systems/preference-discovery.md), and [Design exploration](subjects/creation/design/systems/design-exploration.md). They generate different objects, select for different reasons, and produce different results. The same customization principle applies to every project family. See [how custom systems are developed](CUSTOMIZATION.md).
+The existing ten custom system specifications remain available. Their particular purposes, operations, outputs, and source lineage survive the rejected grouping. The [customization requirement](CUSTOMIZATION.md) remains: each subject and purpose determines the system developed for it.
 
 ## Understand the project
 
@@ -31,7 +25,7 @@ For example, the SDS source leads to distinct systems for [Goal discovery](subje
 |---|---|
 | [Current contract](CURRENT.md) | Current decisions, authority, scope, and remaining uncertainty |
 | [Purpose](PURPOSE.md) | Goals that remain meaningful as the project changes |
-| [Architecture](ARCHITECTURE.md) | Functional groups, subjects, local systems, source lineage, and relationships |
+| [Architecture](ARCHITECTURE.md) | Classification requirements, local systems, and preserved source identity |
 | [Customization](CUSTOMIZATION.md) | How each subject and purpose determines its own systems |
 | [Customization plan](research/CUSTOMIZATION-PLAN.md) | Specified versions and remaining work across all source families |
 | [Perfection](PERFECTION.md) | Strong targets and the distinctions required to establish them |
@@ -44,18 +38,18 @@ For example, the SDS source leads to distinct systems for [Goal discovery](subje
 
 ## Current state
 
-The repository contains eight functional group pages, the retained subject work, and ten local design specifications, alongside starting branches, questions, source profiles, worked distinctions, and a development plan. Other family–subject versions remain to be developed. A specification is not a prospective effectiveness result. The arrangement is not an exhaustive file migration or an implemented universal orchestrator.
+The repository retains 39 earlier topic records, including the withdrawn Promoting label, 21 source-family profiles, ten local design specifications, worked cases, and pinned source material. The audit covers all 39 records; it does not certify 39 non-overlapping subjects. No complete semantic audit or general effectiveness result is claimed.
 
-Education and Collaboration remain excluded as standalone subjects. Connections and Improvement remain proposed additions. The treatment of Integration, Evaluation, Automation, and Self-improvement remains revisable. Promoting is an unresolved label. The [boundary decision](decisions/0002-subject-boundaries.md) and [grouping decision](decisions/0004-functional-groups.md) preserve these distinctions.
+The ambition remains to develop the actual subjects deeply and examine what perfection requires. The name does not certify that the hierarchy or systems are already perfected. Education and Collaboration remain excluded as standalone subjects. Earlier proposals for Connections, Improvement, Integration, Evaluation, Automation, and Self-improvement remain subject to precise boundary work.
 
 ## Work here
 
-Agents begin with [AGENTS.md](AGENTS.md) and the actual request. Human readers can go directly to a subject. Read an original procedure before claiming to execute it, develop the relevant work, and preserve findings where their next use can find them.
+Read [AGENTS.md](AGENTS.md) and the actual request. Define the classified thing and the parent relation before asserting a new category. Preserve substantive findings and systems independently of their former folder placement.
 
-Run the local structural check after edits:
+Run the structural check after edits:
 
 ```bash
 python3 tools/check.py
 ```
 
-The check covers repository structure, local references, and preserved snapshot hashes. Intellectual correctness and source-method effectiveness require their own evidence.
+It checks retained navigation and source identity. It does not establish semantic non-overlap, intellectual completeness, or method effectiveness.

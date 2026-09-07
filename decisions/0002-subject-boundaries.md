@@ -2,7 +2,7 @@
 
 Standing: mixed; see the distinctions below. Recorded 7 September 2026.
 
-Subsequent refinement: [0004 — Functional groups](0004-functional-groups.md) places subjects within an intermediate grouping level. References to roots below describe the earlier flat arrangement. Connections and Improvement now retain their proposed status as subjects within groups; the placement change does not resolve the original boundary questions.
+Subsequent correction: [0005 — Non-overlapping subjects](0005-non-overlapping-subjects.md) rejects the functional grouping introduced by 0004 and withdraws Promoting. References to retained roots and unresolved Promoting below record the earlier state. Connections and Improvement remain proposals requiring precise boundaries; neither earlier placement settles their admission.
 
 ## Established direction
 

@@ -1,8 +1,8 @@
 # Inquiry and discovery
 
-[Subject groups](../README.md)
+[Subject work](../README.md) · [Earlier topic navigation](../LEGACY.md)
 
-Standing: Working functional group. The grouping layer is user-directed; this particular name, boundary, and membership are revisable implementation choices.
+Standing: Rejected functional grouping; retained only as navigation to earlier topic material.
 
 Open questions, locate material, and conduct investigations that make findings available.
 
@@ -23,7 +23,7 @@ Open questions, locate material, and conduct investigations that make findings a
 
 The common work is opening and pursuing things to find out. These subjects operate at different scales: a question, a search, and a scientific research program are not interchangeable procedures. Science and Philosophy retain their full subject scopes. Inquiry can be valuable before its practical use is established, and discovery can change the inquiry rather than merely answer it.
 
-Each subject has one main home for navigation and can contribute across groups. The shared function is not a claim that every member performs every part of it, a reduction of each subject to that function, or a compulsory work sequence.
+The previous placement used a main home and contributions across groups. The user rejected that basis because it does not establish mutually exclusive categories. Membership below is preserved as history, not defended as the current hierarchy.
 
 | Subject elsewhere | Connection that matters |
 |---|---|
@@ -36,4 +36,4 @@ Each subject has one main home for navigation and can contribute across groups. 
 - When does a failed search expose a missing item, and when does it expose an inadequate question or search space?
 - What changes a collection of observations into a finding that another investigation can use?
 
-The subject and particular purpose still determine each custom system. Group membership does not impose one procedure on its members. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).
+The local systems remain available for their specified purposes. The former group membership does not establish their subject boundaries. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).

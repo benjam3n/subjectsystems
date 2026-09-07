@@ -1,8 +1,8 @@
 # Planning and execution
 
-[Subject groups](../README.md)
+[Subject work](../README.md) · [Earlier topic navigation](../LEGACY.md)
 
-Standing: Working functional group. The grouping layer is user-directed; this particular name, boundary, and membership are revisable implementation choices.
+Standing: Rejected functional grouping; retained only as navigation to earlier topic material.
 
 Determine relevant work, allocate means, arrange actions, and carry them through.
 
@@ -21,7 +21,7 @@ Determine relevant work, allocate means, arrange actions, and carry them through
 
 The common concern is how possible work becomes appropriately directed activity. Relevance includes contributions to open inquiry, not just a fixed goal. Attention is not equated with action, Resources is not limited to money or time, and a plan does not establish that execution has occurred.
 
-Each subject has one main home for navigation and can contribute across groups. The shared function is not a claim that every member performs every part of it, a reduction of each subject to that function, or a compulsory work sequence.
+The previous placement used a main home and contributions across groups. The user rejected that basis because it does not establish mutually exclusive categories. Membership below is preserved as history, not defended as the current hierarchy.
 
 | Subject elsewhere | Connection that matters |
 |---|---|
@@ -34,4 +34,4 @@ Each subject has one main home for navigation and can contribute across groups. 
 - Where can available and relevant ability fail to become activity, and which operation addresses each distinct failure?
 - What event warrants continuing, changing direction, interrupting, or ending work when its original plan remains technically executable?
 
-The subject and particular purpose still determine each custom system. Group membership does not impose one procedure on its members. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).
+The local systems remain available for their specified purposes. The former group membership does not establish their subject boundaries. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).

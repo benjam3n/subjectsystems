@@ -1,6 +1,6 @@
 # 0003 — Custom systems for subjects and purposes
 
-Standing: current direction expressed by the user after the initial setup, 7 September 2026.
+Standing: Custom development remains current direction expressed by the user after the initial setup, 7 September 2026. The later [non-overlap correction](0005-non-overlapping-subjects.md) requires re-examining subject boundaries and rejects the functional grouping while preserving these designs.
 
 ## Change
 

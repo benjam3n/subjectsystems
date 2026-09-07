@@ -1,8 +1,8 @@
 # Learning and improvement
 
-[Subject groups](../README.md)
+[Subject work](../README.md) · [Earlier topic navigation](../LEGACY.md)
 
-Standing: Working functional group. The grouping layer is user-directed; this particular name, boundary, and membership are revisable implementation choices.
+Standing: Rejected functional grouping; retained only as navigation to earlier topic material.
 
 Understand and change the ability to perform useful work and the quality of what it produces.
 
@@ -18,7 +18,7 @@ Understand and change the ability to perform useful work and the quality of what
 
 These subjects meet at changes in competence and quality. Learning can worsen a result; an improvement can occur without learning; intelligence includes effective use of current ability. Improvement also covers artifacts and arrangements beyond an agent. Its proposed status remains open, and this group does not reinstate Self-improvement as a required top-level subject.
 
-Each subject has one main home for navigation and can contribute across groups. The shared function is not a claim that every member performs every part of it, a reduction of each subject to that function, or a compulsory work sequence.
+The previous placement used a main home and contributions across groups. The user rejected that basis because it does not establish mutually exclusive categories. Membership below is preserved as history, not defended as the current hierarchy.
 
 | Subject elsewhere | Connection that matters |
 |---|---|
@@ -31,4 +31,4 @@ Each subject has one main home for navigation and can contribute across groups. 
 - Which change makes a previously available method usable in a situation where it was repeatedly missed?
 - When does a successful local change transfer to another case, and what must remain the same for that transfer to be justified?
 
-The subject and particular purpose still determine each custom system. Group membership does not impose one procedure on its members. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).
+The local systems remain available for their specified purposes. The former group membership does not establish their subject boundaries. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).

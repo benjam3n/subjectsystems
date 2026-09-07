@@ -1,80 +1,64 @@
-# Subject-centered organization
+# Architecture of distinguishable subjects
 
-## Primary organization
+## Classification requirement
 
-The primary navigation opens functional groups, then subjects. Groups gather subjects by the kind of contribution they make. Within a subject are narrower questions, activities, and investigations, with systems developed specifically for their purposes. Source projects supply ancestors, mechanisms, examples, and evidence for those local systems.
+The intellectual hierarchy must distinguish its subjects through explicit definitions. At a division into alternative child classes, the same classified item cannot satisfy two sibling definitions in the same respect and context. Each child must satisfy its parent's definition. Exhaustive coverage is a separate claim that requires every in-scope case to be accounted for.
 
-```mermaid
-flowchart TD
-    DC["Direction and choice"] --> G["Goals"]
-    DC --> P["Preferences"]
-    CP["Creation and problem solving"] --> D["Design"]
-    G --> GS["Goal discovery"]
-    P --> PS["Preference discovery"]
-    D --> DS["Design exploration"]
-    GS -.->|derived from| S["SDS source"]
-    PS -.->|derived from| S
-    DS -.->|derived from| S
-```
+The eight shared-work groups do not meet that requirement. They allowed the same topic to contribute to several groups and then selected a main home. Those groups now serve only as legacy navigation to retained content. They are not the current subject classification.
 
-The example shows two of the [eight working groups](subjects/README.md). Their subjects retain distinct local systems, with different objects, operations, outputs, and criteria. Their common source is lineage. A subject may need more than one local system from the same family, and a local system may combine several families. See [customization](CUSTOMIZATION.md).
+The original list also mixed an object, an operation, a property, a contextual role, and an activity containing other activities. These distinctions expose failures in that list; they are not themselves declared a finished partition of everything. See [DISTINCTIONS.md](DISTINCTIONS.md) and the [complete label audit](research/SUBJECT-AUDIT.md).
 
-## Functional grouping
+## The relation represented by a level
 
-A group states a common kind of work and explains each subject's contribution to it. Each subject has one main home, while explicit connections preserve its contributions elsewhere. This is an organizing relation; it does not mean that the subject is wholly reducible to its group's function or that the group must be completed before another can be entered.
-
-Groups have different sizes because shared function determines membership. Their names and boundaries remain working choices. Promoting stays in an explicit holding area until its meaning supports placement. Connections and Improvement retain their proposed status. The [grouping decision](decisions/0004-functional-groups.md) records the criterion, difficult boundaries, and reasons to revise the arrangement.
-
-## Distinctions the organization preserves
-
-| Item | Example | Why it matters |
+| Relation | What it licenses | What it does not establish |
 |---|---|---|
-| Functional group | Direction and choice | A common kind of work that makes related subjects easier to find and develop |
-| Subject | Preferences | What is being investigated |
-| Account | A proposed conditional preference pattern | A claim about the subject |
-| Method | Generating contrasting designs and obtaining selections | A way to investigate or work with it |
-| Implementation | A program that executes part of a method | A particular realization with its own limits |
-| Observation | The user selected System Kit from a batch | What occurred in a specified context |
-| Inference | The user may favor a lower commitment about readiness | An interpretation requiring the appropriate status |
-| Requirement | The new repository name should remain general and claim less | A condition for the current design task |
-| Evidence of benefit | A retained comparison showing an improved result | A separate claim from the existence of the method |
+| Is a kind of | Child membership implies parent membership | That every other useful contribution belongs under this parent |
+| Is a part of | A component belongs to the specified whole | That the component is the same logical kind as the whole |
+| Acts on or creates | An operation concerns or produces a specified target | That the operation is itself that target or a subtype of it |
+| Represents | A form carries specified content | That form and content are one classified item |
+| Supports or contributes to | A stated relation between work and a receiving inquiry | An exclusive taxonomic parent |
+| Has a property or fills a role | A qualified statement about a bearer in context | A mutually exclusive intrinsic kind of that bearer |
 
-These are useful distinctions, not an exhaustive schema into which every future object must fit.
+A hierarchy cannot silently alternate these meanings while treating all edges as the same relation. A question-creation system can be developed within Questions without claiming that creation is a kind of question or that all creation belongs there.
 
-## Relationships
+A whole task that produces a question, a goal, and a plan has several constituents. Its classification cannot be rescued by declaring one output primary. The target units and the containing workflow must first be distinguished. Dependencies and references can connect genuinely distinct units; they cannot repair two sibling definitions that admit the same unit.
 
-Membership in a functional group, narrower subject, useful contribution, necessary prerequisite, sufficient condition, alternative route, support, contradiction, example, implementation, reference, and translation have different consequences. A shared word does not establish a relationship. A useful relation need not be a strict parent-child relation.
+## Subjects and their custom systems
 
-The previous placement map now records source relevance and pending custom development. Distinguish a subject owning a local design from that design deriving from a source, or consuming an observation shared with another design. A reference does not replace a local specification.
+The design unit remains subject plus particular purpose plus a locally specified system. Give the system explicit objects, operations, results, standards, and source lineage. Their subject boundaries must be examined rather than inherited from the former group names.
 
-A connection can fail through mismatched meaning, scope, certainty, source status, or required inputs. Preserve a meaningful incompatibility instead of forcing every native object into a common representation.
+Question creation and goal creation can require different operations and results. A prompt used to create a question is a means used by that local system. The prompt's use does not make the question simultaneously a member of a sibling intrinsic kind called Prompting. If a system creates several kinds of output, retain its distinct components and composition; do not hide them through a main-purpose label.
 
-## Native structures
+The ten existing specifications remain at their actual standing: written local designs, not a demonstrated exclusive taxonomy or a general effectiveness result. The [customization rule](CUSTOMIZATION.md) continues to govern their development.
 
-The original sources retain their native identities and meanings. A local descendant can redesign QuestionRoute routes, GOSM gates, TruthFinder challenge procedures, or other native objects when its subject requires it. Record which distinctions are retained and which are deliberately changed. A source counterexample still targets its original claim, and an original observation does not acquire a new meaning merely because a descendant consumes it.
+## Preserved source identity
 
-A local system can consume a native object, state what it uses, and preserve the conditions necessary to interpret that evidence. It must not equate a discovery's done status with universal truth, a predicted rating with a measured preference, or a source mention with a logical dependency.
+Original sources retain their own identities, versions, and meanings. A local descendant may deliberately change a QuestionRoute route, GOSM gate, TruthFinder challenge, or other native structure when its purpose requires it. Record the change as the descendant's design rather than attributing it to its ancestor.
 
-## Physical layout
+A source observation keeps its original context. Approval, truth, completion, implementation, and demonstrated benefit remain different claims. A source result can be consumed by later work only with the conditions needed to interpret it correctly.
 
-| Location | Role |
+## Present file layout
+
+| Location | Current role |
 |---|---|
-| subjects/README.md | Main index of functional groups |
-| `subjects/<group>/README.md` | Shared function, member subjects, placement reasons, and connections |
-| `subjects/<group>/<subject>/` | Subject development and its narrower inquiries |
-| `subjects/<group>/<subject>/systems/` | Locally defined systems for particular purposes |
-| subjects/unplaced/ | Visible holding area for unresolved placement; not a functional group |
-| systems/ | Source-family profiles, initial relevance, and links to distinct descendants |
-| cases/ | Consequential worked transitions serving several subjects |
-| research/ | Cross-subject investigations and unresolved questions |
-| decisions/ | Established direction and explicitly provisional choices |
-| sources/ | Source identity, selected snapshots, and historical reviews |
-| tools/ | Small checks supporting the documents |
+| subjects/README.md | Entry to the corrected subject work |
+| DISTINCTIONS.md | Membership requirement and worked boundary analysis |
+| research/SUBJECT-AUDIT.md | All earlier labels and their concrete classification issues |
+| subjects/LEGACY.md | Access to the rejected grouping as historical navigation |
+| `subjects/<former-group>/<topic>/` | Legacy addresses of retained substantive material; no endorsed parent classification |
+| `subjects/<former-group>/<topic>/systems/` | Existing local design specifications preserved at their current addresses |
+| subjects/unplaced/promoting/ | Record of the withdrawn label |
+| systems/ | Source-family profiles and links to their local descendants |
+| cases/ | Worked episodes whose observations and interpretations remain distinguishable |
+| research/ | Boundary derivations and other investigations |
+| decisions/ | Established direction, rejected arrangements, and open interpretations |
+| sources/ | Pinned source identities, selected snapshots, and historical reviews |
+| tools/ | Structural navigation and identity checks |
 
-The folders support the intellectual structure. They do not imply that all content has one exclusive location or that a new software platform is required. [Templates](templates/README.md) are optional starting aids. A concrete inquiry can justify a different representation.
+The replacement subject tree has not yet been derived. The physical legacy addresses preserve retrievability while that intellectual work proceeds. They do not constitute an exception to the non-overlap requirement or a reason to retain a bad category.
 
 ## Change and continuation
 
-When a finding changes a source interpretation, criterion, relation, or method, revisit the uses that depend on it. Preserve independent support and prior context. Byte changes and semantic changes are different; the local checker handles the former for preserved snapshots and does not discover the latter.
+A boundary change must reach the affected claims and placements. Preserve independent evidence and useful local work. Rename, split, combine, move, or withdraw a label when the resulting distinction requires it. Neither the original number of topics nor the former group count constrains the answer.
 
-The groups, subjects, branch labels, and relationship names remain revisable. The architecture earns its place when it exposes a useful question, preserves a distinction, improves retrieval or continuation, or enables work that was previously missed.
+Structural checks can establish that retained files and links are present. Definitions, exclusion cases, and reasoning about scope establish whether a proposed division is non-overlapping. These are different kinds of verification.

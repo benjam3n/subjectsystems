@@ -1,8 +1,12 @@
 # Design
 
-[Subject groups](../../README.md) / [Creation and problem solving](../README.md)
+The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
-Standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
+[Earlier topic navigation](../../LEGACY.md) / [Creation and problem solving](../README.md)
+
+Standing: Legacy topic entry; exclusive category boundaries remain under review.
+
+Earlier standing: Retained subject; initial development. Scope and branches below are starting proposals, not an exhaustive theory.
 
 Developing candidate forms and discovering requirements through their construction, comparison, and use.
 

@@ -1,41 +1,9 @@
-# Promoting
+# Promoting — withdrawn label
 
-[Subject groups](../../README.md) / [Awaiting placement](../README.md)
+Standing: Withdrawn from the candidate subject roster following the user's rejection of the undefined entry. Retained only to explain the earlier record.
 
-Standing: Retained label; meaning unresolved. Scope and branches below are starting proposals, not an exhaustive theory.
+The historical proposal interpreted Promoting through attention, encounter, adoption, and continued use. No established definition justified making it a subject here. The word appears in an earlier user relevance example, but that occurrence does not establish the adoption-oriented interpretation or prove that Prompting was intended.
 
-The original label is retained, but its intended meaning is unresolved.
+No system or custom design was specified for this entry. The project has no obligation to invent a scope for it or retain a permanent unresolved category. No marketing or influence subject replaces it.
 
-## Starting hierarchy
-
-- Meaning of the label.
-- Distinctness from Prompting.
-- Examples that establish scope.
-
-## Systems developed for this subject
-
-The subject and the particular purpose determine each local system. The source map below supplies origins and development candidates; it does not provide a finished custom system. See [customization](../../../CUSTOMIZATION.md).
-
-Custom versions have not yet been specified here. Derive them from the actual purpose of the subject, using the source candidates below and considering other families when they can contribute.
-
-The subject label must be resolved before a definite local purpose can be attributed to it.
-
-## Source lineage and customization candidates
-
-No system placement is asserted until this label’s intended meaning is resolved. Earlier marketing-oriented branch suggestions are not adopted.
-
-## Frontier
-
-What subject was intended by the original word “promoting,” and does it warrant a separate entry?
-
-Does promoting name a distinct subject here, or was prompting intended? If distinct, what examples fix its meaning and distinguish it from the neighboring subjects?
-
-## Next substantive work
-
-Resolve the label from the original context or a consequential use. Do not assume marketing, status promotion, or prompting.
-
-## Development standard
-
-Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A local system can retain, revise, combine, or replace source methods according to this subject’s purpose. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../../PERFECTION.md) and [the current contract](../../../CURRENT.md).
-
-[All subjects](../../README.md) · [Source basis](../../../sources/README.md)
+[Correction](../../../decisions/0005-non-overlapping-subjects.md) · [Historical proposal](../../../sources/reviews/subject-sciences-proposal-2026-09-06.md) · [Earlier topic navigation](../../LEGACY.md) · [Withdrawn label records](../README.md)

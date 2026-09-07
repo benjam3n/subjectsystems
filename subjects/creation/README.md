@@ -1,8 +1,8 @@
 # Creation and problem solving
 
-[Subject groups](../README.md)
+[Subject work](../README.md) · [Earlier topic navigation](../LEGACY.md)
 
-Standing: Working functional group. The grouping layer is user-directed; this particular name, boundary, and membership are revisable implementation choices.
+Standing: Rejected functional grouping; retained only as navigation to earlier topic material.
 
 Generate and develop possible forms or interventions, and realize ones that address the task.
 
@@ -18,7 +18,7 @@ Generate and develop possible forms or interventions, and realize ones that addr
 
 The shared work is making possibilities, forms, or interventions available and developing them into useful results. Creativity need not begin with a problem. Problem solving includes execution and feedback, so its home here does not end the inquiry at candidate generation. A new construction need not improve every previous alternative.
 
-Each subject has one main home for navigation and can contribute across groups. The shared function is not a claim that every member performs every part of it, a reduction of each subject to that function, or a compulsory work sequence.
+The previous placement used a main home and contributions across groups. The user rejected that basis because it does not establish mutually exclusive categories. Membership below is preserved as history, not defended as the current hierarchy.
 
 | Subject elsewhere | Connection that matters |
 |---|---|
@@ -31,4 +31,4 @@ Each subject has one main home for navigation and can contribute across groups. 
 - Which constraints define the task and which should become variables when producing a useful alternative?
 - What does a selected design establish about its essential features, and what remains undecided until its parts are varied?
 
-The subject and particular purpose still determine each custom system. Group membership does not impose one procedure on its members. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).
+The local systems remain available for their specified purposes. The former group membership does not establish their subject boundaries. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).

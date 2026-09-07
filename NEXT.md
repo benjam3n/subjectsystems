@@ -1,10 +1,13 @@
 # Next work
 
-The current priority is developing custom systems for each subject and particular purpose across all project families. Ten local specifications are present; the remaining source placements need development. The [customization plan](research/CUSTOMIZATION-PLAN.md) records their standing. Exercise and refine these designs through consequential subject work while resolving source and boundary gaps that affect it. These tasks can branch or be replaced by a better contribution to the actual request.
+The immediate architectural work is deriving explicit, non-overlapping subject boundaries from the [label audit](research/SUBJECT-AUDIT.md) and [boundary analysis](DISTINCTIONS.md). The original topic roster and eight rejected groups do not constrain the result. The Questions/creation example exposes the distinction between the thing concerned and an operation concerning it; the substantive identity of a question remains to be derived.
+
+Custom systems still need development for each subject and particular purpose across the project families. Ten specifications remain available; their standing is recorded in the [customization plan](research/CUSTOMIZATION-PLAN.md). Useful work can continue while boundaries are derived. These tasks can branch or be replaced by a better contribution to the actual request.
 
 | Work | Concrete result | What it resolves or enables |
 |---|---|---|
-| Use the functional groups on a consequential task | Enter through the shared work, find the relevant subjects and custom systems, and follow a useful connection across groups | Exposes placements that hide work, group boundaries that need revision, or a missing shared investigation |
+| Derive a subject boundary and its alternatives | A defined classified unit, membership conditions, an exclusion argument, and a difficult case that those conditions decide or leave explicitly unresolved | Establishes actual category separation rather than one convenient main home |
+| Derive question identity | Cases where a wording change preserves a question and where changed scope, presuppositions, or answer conditions replace it | Grounds creation versus revision at the level of questions themselves, beyond stable record identifiers |
 | Develop the subject-specific project versions | Local objects, operations, results, criteria, and continuation derived from the actual purpose; source changes identified | Makes the subject determine the system rather than only its placement |
 | Exercise the new specifications | Actual outputs and failure cases at the local purpose, beginning with a needed current task | Distinguishes a written custom design from its demonstrated use |
 | Extend a real selection episode across subjects | Continue the naming and placement case with a later design choice; distinguish observed selection, selected aspect, inferred preference, and requirement | Develops Goals, Preferences, Design, and Judgment beyond a directory arrangement |
@@ -13,7 +16,6 @@ The current priority is developing custom systems for each subject and particula
 | Compare frames through a consequential difference | Reconstruct the same material under two frames and retain the new question, inference, or intervention exposed | Develops Representation, Understanding, and Discovery |
 | Resolve Master Framework identity | An exact artifact, repository/path/version, native claims, and justified subject placements | Replaces a named placeholder with evidence or a precise remaining retrieval gap |
 | Reconsider the four disputed categories | Contrasting cases for Integration, Evaluation, Automation, and Self-improvement, including alternative placements | Decides whether Connections and Improvement are useful subjects and whether any previous distinction was merely verbal |
-| Resolve Promoting | Original context or examples that fix its meaning and distinctness from Prompting | Prevents an invented subject scope from becoming established through repetition |
 | Connect one source result to a receiving inquiry | The actual native result, conditions required by the receiver, any translation, and what the receiver changes | Demonstrates a substantive cross-subject use |
 | Revisit an actual correction at recurrence | A later applicable case showing whether the earlier correction changes selection or behavior | Separates recorded lessons from learning in use |
 | Continue the long goal journeys | Branching future work derived from a gained capability and its new possibilities, with exact source recovery for the remembered additional artifact | Keeps the program's ambition larger than recovery and infrastructure |

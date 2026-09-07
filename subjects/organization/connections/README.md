@@ -1,8 +1,12 @@
 # Connections
 
-[Subject groups](../../README.md) / [Organization and retention](../README.md)
+The former group placement is rejected as a classification. The [label audit](../../../research/SUBJECT-AUDIT.md) records the specific boundary problem; substantive work below is retained.
 
-Standing: Proposed subject. Scope and branches below are starting proposals, not an exhaustive theory.
+[Earlier topic navigation](../../LEGACY.md) / [Organization and retention](../README.md)
+
+Standing: Legacy topic entry; exclusive category boundaries remain under review.
+
+Earlier standing: Proposed subject. Scope and branches below are starting proposals, not an exhaustive theory.
 
 Relations and their consequences, including composition, support, contradiction, reference, and dependency.
 

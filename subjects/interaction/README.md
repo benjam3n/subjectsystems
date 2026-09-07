@@ -1,8 +1,8 @@
 # Expression and interaction
 
-[Subject groups](../README.md)
+[Subject work](../README.md) · [Earlier topic navigation](../LEGACY.md)
 
-Standing: Working functional group. The grouping layer is user-directed; this particular name, boundary, and membership are revisable implementation choices.
+Standing: Rejected functional grouping; retained only as navigation to earlier topic material.
 
 Form contributions that change understanding or subsequent activity within an interaction.
 
@@ -18,7 +18,7 @@ Form contributions that change understanding or subsequent activity within an in
 
 The shared work is determining and making a contribution in an interaction. Writing can perform a derivation that does not exist before the text is constructed. Prompting can change operations and starting conditions. Neither is reduced to packaging already completed content.
 
-Each subject has one main home for navigation and can contribute across groups. The shared function is not a claim that every member performs every part of it, a reduction of each subject to that function, or a compulsory work sequence.
+The previous placement used a main home and contributions across groups. The user rejected that basis because it does not establish mutually exclusive categories. Membership below is preserved as history, not defended as the current hierarchy.
 
 | Subject elsewhere | Connection that matters |
 |---|---|
@@ -31,4 +31,4 @@ Each subject has one main home for navigation and can contribute across groups. 
 - What must a contribution change in this situation, and which operations actually produce that change?
 - Which details of an instruction determine subsequent work, and which leave a consequential decision implicit?
 
-The subject and particular purpose still determine each custom system. Group membership does not impose one procedure on its members. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).
+The local systems remain available for their specified purposes. The former group membership does not establish their subject boundaries. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).

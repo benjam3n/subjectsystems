@@ -1,30 +1,23 @@
-# Subject groups
+# Subject work
 
-Enter through the kind of work that matters now: **group → subject → narrower inquiry or purpose → custom system**. A group brings together subjects that contribute a similar kind of work. The subject and particular purpose still determine the system developed there.
+The current requirement is distinguishable subjects with non-overlapping sibling categories. The previous eight groups were based on shared contribution and are rejected as the subject classification.
 
-## Functional groups
+## Current derivation
 
-| Group | Shared work | Subjects |
-|---|---|---|
-| [Direction and choice](direction/README.md) | Form purposes, establish what matters, judge alternatives, and make commitments. | 5 |
-| [Inquiry and discovery](inquiry/README.md) | Open questions, locate material, and conduct investigations that make findings available. | 8 |
-| [Reasoning and understanding](understanding/README.md) | Develop implications, accounts, and expectations; distinguish what holds from what remains unresolved. | 6 |
-| [Organization and retention](organization/README.md) | Give material a usable form, connect it, and retain the context needed for later use. | 4 |
-| [Creation and problem solving](creation/README.md) | Generate and develop possible forms or interventions, and realize ones that address the task. | 3 |
-| [Planning and execution](execution/README.md) | Determine relevant work, allocate means, arrange actions, and carry them through. | 6 |
-| [Expression and interaction](interaction/README.md) | Form contributions that change understanding or subsequent activity within an interaction. | 3 |
-| [Learning and improvement](development/README.md) | Understand and change the ability to perform useful work and the quality of what it produces. | 3 |
+| Work | Result |
+|---|---|
+| [Distinguishing subjects](../DISTINCTIONS.md) | Defines the membership requirement and separates the classified object from operations, properties, roles, and containing work |
+| [Auditing the earlier labels](../research/SUBJECT-AUDIT.md) | Examines every legacy entry instead of preserving the original list as a fixed set of peers |
+| [Recording the correction](../decisions/0005-non-overlapping-subjects.md) | Replaces the shared-work rule and withdraws the undefined Promoting entry |
 
-Each group page lists its subjects, explains their placements, preserves their starting investigations, and identifies useful connections to other groups. This replaces the single list of all subjects as the main entry point.
+Questions is a candidate subject matter; question creation is a particular operation concerning it. General creation is not contained wholly within Questions. A question, its written expression, an act of asking it, and a workflow that creates it must not be silently treated as the same classified unit. The boundary analysis develops this example and a limited exclusive partition of changes to question records.
 
-## Standing and open placement
+These results establish a requirement and clarify concrete distinctions. They do not yet supply a complete exclusive taxonomy. No new set of broad umbrella names is adopted in its place.
 
-The current arrangement has eight working groups containing 38 subjects. [Awaiting placement](unplaced/README.md) contains [Promoting](unplaced/promoting/README.md), whose meaning remains unresolved. Together these preserve the 37 retained entries and two proposed additions. Connections and Improvement retain their proposed status in their group pages.
+## Retained material
 
-The user requested an intermediate grouping level. These particular group names and boundaries are a working arrangement, not a settled taxonomy. Group membership describes a useful organizing role; it does not restrict a subject's full scope or remove its contributions elsewhere. The list remains open to new groups, subjects, and revised placements. See the [grouping decision](../decisions/0004-functional-groups.md) and [subject boundary decision](../decisions/0002-subject-boundaries.md).
+The [earlier topic navigation](LEGACY.md) preserves access to all existing pages and custom systems. Those folders are legacy addresses, not an endorsed hierarchy. Every entry is also linked in the complete audit, with its specific boundary issue.
 
-## How to use the hierarchy
+[Questions](inquiry/questions/README.md), [Goals](direction/goals/README.md), and the other topic pages retain their substantive inquiries. Their old placement does not decide their eventual parent, scope, or rank. The existing custom systems keep their local design identities and source lineage while their subject boundaries are reconsidered.
 
-Choose a group by the contribution needed, then a subject and its particular inquiry. For instance, developing an aim enters through **Direction and choice → Goals → Goal discovery**. Constructing alternatives enters through **Creation and problem solving → Design → Design exploration**. Both local systems derive from SDS, while their operations and results remain distinct.
-
-A live task can move between groups or enter directly at a subject. The ordering above does not prescribe stages. A discovery can change a goal, a design can expose a question, and a correction can change the material retained for future work.
+Promoting is withdrawn, not an obligatory unresolved category to invent a meaning for. Its [record](unplaced/promoting/README.md) explains the earlier unsupported interpretation.

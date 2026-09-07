@@ -1,8 +1,8 @@
 # Organization and retention
 
-[Subject groups](../README.md)
+[Subject work](../README.md) · [Earlier topic navigation](../LEGACY.md)
 
-Standing: Working functional group. The grouping layer is user-directed; this particular name, boundary, and membership are revisable implementation choices.
+Standing: Rejected functional grouping; retained only as navigation to earlier topic material.
 
 Give material a usable form, connect it, and retain the context needed for later use.
 
@@ -19,7 +19,7 @@ Give material a usable form, connect it, and retain the context needed for later
 
 The common problem is keeping accumulated material interpretable and available for further work. Knowledge also concerns support, and Connections also concerns relations that have nothing to do with storage. Those broader inquiries remain inside their subject pages. This group does not establish the previously proposed Connections subject as an accepted category.
 
-Each subject has one main home for navigation and can contribute across groups. The shared function is not a claim that every member performs every part of it, a reduction of each subject to that function, or a compulsory work sequence.
+The previous placement used a main home and contributions across groups. The user rejected that basis because it does not establish mutually exclusive categories. Membership below is preserved as history, not defended as the current hierarchy.
 
 | Subject elsewhere | Connection that matters |
 |---|---|
@@ -32,4 +32,4 @@ Each subject has one main home for navigation and can contribute across groups. 
 - What must accompany a result so that later use preserves its meaning after its original context has changed?
 - Which relation lets a correction reach the uses that depend on it while leaving independently supported work intact?
 
-The subject and particular purpose still determine each custom system. Group membership does not impose one procedure on its members. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).
+The local systems remain available for their specified purposes. The former group membership does not establish their subject boundaries. See [customization](../../CUSTOMIZATION.md) and the [grouping decision](../../decisions/0004-functional-groups.md).
