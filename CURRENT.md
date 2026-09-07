@@ -41,6 +41,8 @@ The new intellectual hierarchy is in `subjects/scopes/`. Earlier topic and syste
 
 ## Limits and source state
 
+The user's subsequent direction reopens type relationships in both directions, including explicit negatives, common parents, and comparisons of the projects. The [type-relation investigation](research/type-relations/README.md) records a 70-concept, 21-project comparison model and deeper alternative interpretations. It tests different meanings and classified items without assuming the current scope hierarchy is the only possible frame. Its fixed-sense assessments and proposed reconstructions retain separate standing.
+
 This is not a file-by-file semantic audit of the entire source corpus. The manifest retains 139 pinned artifacts and five selected local snapshots. Historical reviews and snapshots are unchanged.
 
 The ten custom specifications are written designs, not general effectiveness results. Generic alternative development, design exploration, and candidate improvement still require the construction scope of their actual target. A new interface or artifact kind may need a subject not yet defined in this atlas. No universal orchestrator or automatic semantic dependency discovery has been implemented.

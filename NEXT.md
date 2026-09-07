@@ -2,6 +2,8 @@
 
 The first scope definitions and hierarchy are now in place. The next work should develop a substantive result within them and use actual cases to expose missing or overlapping boundaries.
 
+The subsequent [type-relation exploration](research/type-relations/README.md) also reopens the meanings and orientations themselves. It supplies directed comparisons, explicit grounds for negatives, common parents, and proposed reversals. A useful next result can therefore change the frame rather than only refine the previous hierarchy: resolve a consequential open comparison, construct a separating case, or derive a more informative shared parent and its consequences.
+
 | Work | Concrete result | Why it is next |
 |---|---|---|
 | Develop question identity and construction in Q1 | A question-forming local design with cases for wording, referent, presupposition, requested examples, and answer conditions; an actual constructed question and explanation of what is new | This is the user's decisive hierarchy example and a substantive gap beyond record identity |
