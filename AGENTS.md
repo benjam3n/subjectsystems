@@ -33,6 +33,10 @@ The current study register is research/studies/study-systems.json. When its exec
 
 ## Choosing and performing work
 
+The current perspective process is developed in research/perspectives/FOUNDATION.md. Consciousness, verbal representation, articulated goals and deliberate selection are not requirements for every perspective bearer. Keep response, response rule, current state, environment and change locus distinct where their difference affects the claim. The user's generalization is a research direction; do not either dismiss nonconscious bearers by definition or present the general biological identity as established.
+
+The precise new determinations are recorded in research/perspectives/development.json and the canonical subject catalog. After editing those study definitions, run tools/build_perspective_process.py. Preserve conditional relevance and result meanings; unknown conditions are not false. Exclusions must state their reason and scope. Historical profiles are not automatically admitted methods. These instructions do not impose a universal workflow or prohibit useful departures.
+
 Choose what would change the live inquiry or accomplish the actual task. Retrieval, a new distinction, a counterexample, a representation change, candidate generation, observation, execution, criterion revision, and a newly devised operation are all available. Do not require diagnosis, goal clarification, or a fixed operation sequence before every task. Trying a departure can reveal the structure that was not yet visible.
 
 When invoking an existing Reasoningtool, GOSM, Superintelbot, ARAW, or other named procedure, retrieve and read its exact source and preserve the requested operations. Profiles here are not the procedures. For original execution, preserve the original procedure. For a custom descendant, read its local specification and cited origins, then follow the local design. Label the adaptation and retain what changed; the ancestor does not silently override its descendant. Do not manufacture agreement percentages, wrongness quotas, certainty, or depth through repetition.

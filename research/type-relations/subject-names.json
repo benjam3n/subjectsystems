@@ -349,7 +349,7 @@
     },
     {
       "name": "Perspective",
-      "scope": "A specified organization of a matter that makes particular distinctions, representations, inferences or criteria available. Comparisons state what is held fixed.",
+      "scope": "Configurations through which specified differences become consequential for an entity or interaction, including interpretive organizations and their formation, use, comparison or revision. Consciousness and deliberate selection are not required; bearer and mechanism are case-specific matters.",
       "predecessor_scopes": [],
       "standing": "Defined partial scope; exclusive global placement unestablished."
     },
@@ -6999,6 +6999,340 @@
         "STUDY_NOTE"
       ],
       "broader_subjects": []
+    },
+    {
+      "id": "perspective-bearer-attribution",
+      "name": "Perspective bearer attribution",
+      "root": "Perspective",
+      "parent": "Perspective bearer",
+      "settles": "Determine which specified entity, component or interaction bears the configuration responsible for a declared response distinction.",
+      "excludes": "Assigning consciousness, goals or all downstream effects to the named component.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-response-sensitivity",
+      "name": "Perspective response sensitivity",
+      "root": "Perspective",
+      "parent": "Perspective response",
+      "settles": "Determine which specified input or context changes alter an identified bearer response under declared comparison conditions.",
+      "excludes": "The bearer consciously noticing the difference or its response being beneficial.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-response-equivalence",
+      "name": "Perspective response equivalence",
+      "root": "Perspective",
+      "parent": "Perspective response",
+      "settles": "Determine whether two response configurations yield the same specified observable response on every case of a declared domain.",
+      "excludes": "Identity of mechanisms, experience, cost or behavior outside the domain.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-change-locus",
+      "name": "Perspective change locus",
+      "root": "Perspective",
+      "parent": "Perspective change",
+      "settles": "Determine which specified part of a bearer-context arrangement changed between two response episodes.",
+      "excludes": "Attributing improvement, causal sufficiency or intentional revision from the changed result alone.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-problem-recognition-contribution",
+      "name": "Perspective problem recognition contribution",
+      "root": "Perspective",
+      "parent": "Perspective problem",
+      "settles": "Determine how changing a perspective changes which problems are recognized in a fixed presented situation under a fixed relevance standard.",
+      "excludes": "The choice to act on a recognized problem or a difference caused solely by new presented evidence.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": [
+        "Perspective change contribution"
+      ]
+    },
+    {
+      "id": "perspective-subject-relevance-determination",
+      "name": "Perspective subject relevance determination",
+      "root": "Perspective",
+      "parent": "Perspective subject",
+      "settles": "Determine what result from a specified subject would contribute to the current matter under an identified perspective and conditions.",
+      "excludes": "Technique selection, truth of the result or relevance inferred only from topic similarity.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-study-configuration-construction",
+      "name": "Perspective study configuration construction",
+      "root": "Perspective",
+      "parent": "Perspective study",
+      "settles": "Construct a system arrangement of specified studies whose results supply identified subsequent contributions under an adopted perspective.",
+      "excludes": "An unordered subject list, automatic truth of outputs or proof of overall effectiveness.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": [
+        "System design composition"
+      ]
+    },
+    {
+      "id": "perspective-result-interpretation-rule",
+      "name": "Perspective result interpretation rule",
+      "root": "Perspective",
+      "parent": "Perspective result",
+      "settles": "Specify how materially different results of an identified study change a perspective, its commitment or its next contribution.",
+      "excludes": "Producing the study result or establishing the interpretation rule's truth.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-transition-construction",
+      "name": "Perspective transition construction",
+      "root": "Perspective",
+      "parent": "Perspective transition",
+      "settles": "Construct an operation intended to make a specified change of perspective available from declared starting conditions.",
+      "excludes": "Merely naming the destination or assuming the operation necessarily succeeds.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-transition-applicability",
+      "name": "Perspective transition applicability",
+      "root": "Perspective",
+      "parent": "Perspective transition",
+      "settles": "Determine whether the declared requirements of a specified perspective-transition operation hold in identified starting conditions.",
+      "excludes": "Actual transition success, retention or suitability of the destination.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-transition-reachability",
+      "name": "Perspective transition reachability",
+      "root": "Perspective",
+      "parent": "Perspective transition",
+      "settles": "Determine which specified perspectives can be reached through identified transition operations under declared starting conditions and path constraints.",
+      "excludes": "Reachability through unknown operations, successful real execution or a universally optimal route.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-improvement-retention",
+      "name": "Perspective improvement retention",
+      "root": "Perspective",
+      "parent": "Perspective improvement",
+      "settles": "Determine whether a previously established beneficial perspective change remains available for relevant use after a specified interval or transition.",
+      "excludes": "Establishing the original benefit, immediate repetition alone or assuming a saved note is used.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-formation-condition",
+      "name": "Perspective formation condition",
+      "root": "Perspective",
+      "parent": "Perspective formation",
+      "settles": "Determine which specified conditions make a perspective newly available to an identified bearer or arrangement.",
+      "excludes": "Later activation of an available perspective or universal necessity of one origin.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-activation-trigger",
+      "name": "Perspective activation trigger",
+      "root": "Perspective",
+      "parent": "Perspective activation",
+      "settles": "Identify which event or condition brings an available perspective into operative use in a declared context.",
+      "excludes": "Its construction, conscious choice or suitability for the context.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-adoption-commitment",
+      "name": "Perspective adoption commitment",
+      "root": "Perspective",
+      "parent": "Perspective adoption",
+      "settles": "Specify the scope and degree of reliance assigned to an interpretation in a particular inquiry or action.",
+      "excludes": "Evidence-warranted confidence or commitment attributed to every physical bearer.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-adoption-correspondence",
+      "name": "Perspective adoption correspondence",
+      "root": "Perspective",
+      "parent": "Perspective adoption",
+      "settles": "Determine whether observed distinctions and operations correspond to an agent's declared perspective in an identified context.",
+      "excludes": "A diagnosis, a hidden true self, complete introspective access or truth of the declared account.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-candidate-dimension-construction",
+      "name": "Perspective candidate dimension construction",
+      "root": "Perspective",
+      "parent": "Perspective candidate",
+      "settles": "Construct a consequential distinction for organizing perspectives absent from the stated initial construction scheme.",
+      "excludes": "Renaming an existing dimension or adding a label without a separating case.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-candidate-space-specification",
+      "name": "Perspective candidate space specification",
+      "root": "Perspective",
+      "parent": "Perspective candidate",
+      "settles": "Specify the perspectives constructible from declared dimensions, values and compatibility rules under a fixed identity convention.",
+      "excludes": "All possible perspectives being captured or every combination being semantically adequate.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-candidate-space-coverage",
+      "name": "Perspective candidate space coverage",
+      "root": "Perspective",
+      "parent": "Perspective candidate",
+      "settles": "Determine whether a specified perspective inventory supplies required distinctions or contributions across every case of a declared domain.",
+      "excludes": "Universal perspective completeness or coverage by one individual perspective.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-exploration-exclusion-justification",
+      "name": "Perspective exploration exclusion justification",
+      "root": "Perspective",
+      "parent": "Perspective exploration",
+      "settles": "Determine whether an identified reason justifies excluding a candidate perspective from a specified exploration purpose and stage.",
+      "excludes": "Permanent rejection, falsity of every candidate claim or final perspective selection.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-composition-interference",
+      "name": "Perspective composition interference",
+      "root": "Perspective",
+      "parent": "Perspective composition",
+      "settles": "Determine how combining perspectives impairs an identified contribution relative to their separately specified uses.",
+      "excludes": "Mere component count, independent component failure or automatic incompatibility of different viewpoints.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
+    },
+    {
+      "id": "perspective-improvement-transfer",
+      "name": "Perspective improvement transfer",
+      "root": "Perspective",
+      "parent": "Perspective improvement",
+      "settles": "Determine which conditions permit a previously established beneficial perspective change to contribute in a new setting.",
+      "excludes": "Shared wording, retention only in the original setting or benefit in every related case.",
+      "predecessor_scopes": [],
+      "standing": "Defined proposal",
+      "source": "User clarification and current perspective development, 7 September 2026.",
+      "source_ids": [
+        "PERSPECTIVE_PROCESS_002"
+      ],
+      "broader_subjects": []
     }
   ],
   "integration_review": "research/type-relations/subject-integration.json",
@@ -7015,5 +7349,36 @@
     "basis_commit": "1c857b0790c5e7f78b6526f67577570d87a69722",
     "new_subjects": 7,
     "data": "../studies/study-systems.json"
+  },
+  "perspective_process_review": {
+    "date": "2026-09-07",
+    "basis_commit": "03ce996207d21bd8702994980f536545a1092cb2",
+    "added_subjects": [
+      "Perspective bearer attribution",
+      "Perspective response sensitivity",
+      "Perspective response equivalence",
+      "Perspective change locus",
+      "Perspective problem recognition contribution",
+      "Perspective subject relevance determination",
+      "Perspective study configuration construction",
+      "Perspective result interpretation rule",
+      "Perspective transition construction",
+      "Perspective transition applicability",
+      "Perspective transition reachability",
+      "Perspective improvement retention",
+      "Perspective formation condition",
+      "Perspective activation trigger",
+      "Perspective adoption commitment",
+      "Perspective adoption correspondence",
+      "Perspective candidate dimension construction",
+      "Perspective candidate space specification",
+      "Perspective candidate space coverage",
+      "Perspective exploration exclusion justification",
+      "Perspective composition interference",
+      "Perspective improvement transfer"
+    ],
+    "earlier_perspective_scope": "A specified organization of a matter that makes particular distinctions, representations, inferences or criteria available. Comparisons state what is held fixed.",
+    "scope_change": "Generalize the partial heading to nonconscious configurations while retaining the specific requirements of existing subject definitions.",
+    "standing": "Definitions and constructed distinctions, not a complete ontology or empirical identity theory."
   }
 }

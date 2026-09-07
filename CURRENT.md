@@ -1,6 +1,16 @@
 # Current working contract
 
-Revised 7 September 2026: literal study translations, explicit technique admission, and three executed custom compositions derived from inspected ARAW, GOSM and Reasoningtool material. The earlier perspective, working-memory and approach-selection results remain available. The exclusive global hierarchy remains unfinished.
+Revised 7 September 2026: nonconscious perspective development, 22 additional precise subjects, conditional subject relevance and an expanding perspective construction program. The earlier study translations, technique contracts, working-memory findings and finite compositions remain available at their recorded standing. The exclusive global hierarchy remains unfinished.
+
+## Perspective process development
+
+The user explicitly removes consciousness as a prerequisite for having a perspective and includes hormones, genes and cells as candidate bearers. The [general working proposal](research/perspectives/FOUNDATION.md) concerns configurations through which specified differences become consequential for an entity or interaction. Interpretive perspectives remain a specialization. A response, its governing relation, a perspective state and a changed environment are distinct matters; the perspective attribution does not confer belief or intention on a molecule.
+
+The catalog now contains 471 subjects under 52 headings with 175 target groups. The [22 new subjects](research/perspectives/SUBJECT-DEVELOPMENT.md) specify bearer attribution, response distinctions, recognition, relevance, configuration, result interpretation, transitions, construction and retained improvement. Each has a target, exclusion, neighboring subject, operation and constructed separating case. The [eight findings](research/perspectives/PROCESS-FINDINGS.md) develop actual consequences, including a correction: subject relevance can concern obtaining a required justification even when its expected content is fixed.
+
+The user's proposed problem-detection/perspective-revision loop is developed as a major form of regulation. Its necessity for all thought, writing, action, perception or consciousness remains a hypothesis; activation, maintenance, exploration and external changes remain available cases. No hemispheric assignment or clinical identity is established. The [original note](research/perspectives/user-note.txt) preserves the broader proposals.
+
+Subject Systems remains mostly theoretical; [Perspective Optimizer](https://github.com/benjam3n/perspectiveoptimizer) is mostly applied. These roles permit applied findings to revise theoretical subjects. The construction program distinguishes an inventory, a finite assignment space, declared-case coverage and the unestablished general space. Historical accounts retain their source counts and wording. No external technique is newly admitted merely because the accepted account contains twelve candidate profiles.
 
 ## Established direction
 
@@ -18,7 +28,7 @@ Each source project remains material for custom systems developed for each subje
 |---|---|
 | Subject Systems and subject-specific system development | Established direction |
 | Subject as a matter of consideration; explicit, non-overlapping sibling scopes | Current conceptual basis, followed by the user's request to implement the definitions |
-| [449 named subjects](subjects/scopes/NAMES.md) | Current defined inventory under 52 general headings, with 161 target groups; broad headings are not certified exclusive peers |
+| [471 named subjects](subjects/scopes/NAMES.md) | Current defined inventory under 52 general headings, with 175 target groups; broad headings are not certified exclusive peers |
 | [First model: 28 scopes within 11 parents](subjects/scopes/FIRST-MODEL.md) | Preserved predecessor; compound short names superseded through an explicit change map |
 | General-first literal names without conjunctions | Current user direction; every added term must specify a consequential target or determination |
 | Parent–child relation | Containment of matters; parents mean the union of their defined children |
@@ -37,13 +47,13 @@ Each source project remains material for custom systems developed for each subje
 
 The [naming derivation](research/type-relations/SUBJECT-NAMES.md) replaces bundled labels with defined targets. Reasoning approach selection, creation, and modification have different completion conditions. Expression representation is a target group with explicit refinements. Claim support limits is distinct from Claim truth conditions; Truth boundaries does not specify which is intended.
 
-All 28 predecessor scope labels and 11 bundled parent labels have a change record. The current inventory defines 449 determinations, 27 naming terms, eight substantive expansion families, and 63 project-contribution records, of which 62 have proposed subject bindings. Fifty-two boundary cases identify distinctions, a merged alias, explicit narrower-scope relations, and unresolved overlaps. Intelligence and Understanding are not asserted as exclusive peers of all Capability.
+All 28 predecessor scope labels and 11 bundled parent labels have a change record. The current inventory defines 471 determinations, 27 naming terms, nine substantive expansion families, and 63 project-contribution records, of which 62 have proposed subject bindings. Seventy-four boundary cases identify distinctions, a merged alias, explicit narrower-scope relations, and unresolved overlaps. Intelligence and Understanding are not asserted as exclusive peers of all Capability.
 
 The canonical inventory is the named catalog. The previous subtype matrices remain experiments under their own explicit meanings; their results are not silently rewritten by a change of subject name. A complete exclusive global hierarchy is still a task to establish, not a conclusion inferred from this expanded list.
 
 ## Integration extension
 
-The [integration review](research/type-relations/INTEGRATION.md) and [perspective extension](research/type-relations/PERSPECTIVES.md) now supply 449 names under 52 partial headings with 161 target groups. Eighty-six readings have explicit mappings across 20 domain views. Sixty-eight requirement records distinguish logical force; 25 cases examine overstrong prerequisites. Twenty technique records separate specification, implementation, observed effectiveness and transfer. The 449 development records include 35 explicit importance analyses; most assessments remain open. No worldwide attention or neglect ranking exists.
+The [integration review](research/type-relations/INTEGRATION.md) and [perspective extension](research/type-relations/PERSPECTIVES.md) now supply 471 names under 52 partial headings with 175 target groups. Eighty-six readings have explicit mappings across 20 domain views. Sixty-eight requirement records distinguish logical force; 25 cases examine overstrong prerequisites. Twenty technique records separate specification, implementation, observed effectiveness and transfer. The 471 development records include 57 explicit importance analyses; most assessments remain open. No worldwide attention or neglect ranking exists.
 
 The perspective extension adds 58 subjects for perspectives, anticipation, uncertainty, conflict, deviation, naming and active memory. The working-memory review reconciles all five labels in the declared functional branch, five definition qualifications and 97 associated source occurrences without treating the associations as atomic subjects. The custom approach selector is executed on the actual shape naming case. A finite payoff example computes dominance and constant-sum structure under stipulated inputs.
 

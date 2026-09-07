@@ -1054,6 +1054,160 @@
       "relation": "Behavioral sensitivity versus required precedence",
       "case": "Two orders produce different arithmetic results; identifying which order a plan requires needs an intended result.",
       "consequence": "A fact about order effects does not by itself prescribe an order."
+    },
+    {
+      "a": "Perspective bearer attribution",
+      "b": "System identity specification",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Holding hormone identity fixed while varying the receiving configuration separates ligand identity from the whole response arrangement.",
+      "consequence": "One causal episode can support different bearer attributions for different explanatory targets. Assigning consciousness, goals or all downstream effects to the named component."
+    },
+    {
+      "a": "Perspective response sensitivity",
+      "b": "Perception signal discrimination",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "A fixed threshold rule produces different heater states above and below the threshold without acquiring a new rule.",
+      "consequence": "Response variation can occur under an unchanged governing configuration. The bearer consciously noticing the difference or its response being beneficial."
+    },
+    {
+      "a": "Perspective response equivalence",
+      "b": "Perspective representation equivalence",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Two lookup tables agree on familiar cases but disagree on an altered wording case.",
+      "consequence": "Agreement on the present answer can coexist with different later activation or transfer behavior. Identity of mechanisms, experience, cost or behavior outside the domain."
+    },
+    {
+      "a": "Perspective change locus",
+      "b": "Perspective change contribution",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "A new input changes an unchanged rule's output; a revised threshold changes the rule; a sensor repair changes access.",
+      "consequence": "Input, state, access and rule changes have different implications. Attributing improvement, causal sufficiency or intentional revision from the changed result alone."
+    },
+    {
+      "a": "Perspective problem recognition contribution",
+      "b": "Problem formulation creation",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "The same failed transfer appears as missing content or missing application-condition recognition.",
+      "consequence": "Problem recognition is part of perspective development rather than an invariably correct supplied input. The choice to act on a recognized problem or a difference caused solely by new presented evidence."
+    },
+    {
+      "a": "Perspective subject relevance determination",
+      "b": "Reasoning approach selection",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Success after a minimal cue directs inquiry toward recognition; failure reopens missing content or operation.",
+      "consequence": "Relevance is a contribution relation whose conditions can change as results arrive. Technique selection, truth of the result or relevance inferred only from topic similarity."
+    },
+    {
+      "a": "Perspective study configuration construction",
+      "b": "System design composition",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "A cue observation precedes interpretation of transfer failure and selection of a case contrast or missing-operation study.",
+      "consequence": "Selecting subjects does not determine how their contributions are composed. An unordered subject list, automatic truth of outputs or proof of overall effectiveness."
+    },
+    {
+      "a": "Perspective result interpretation rule",
+      "b": "Question route specification",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Cue success supports recognition inquiry; cue failure reopens content or operation; an unperformed test leaves both open.",
+      "consequence": "Unknown must have its own continuation and must not silently become success or failure. Producing the study result or establishing the interpretation rule's truth."
+    },
+    {
+      "a": "Perspective transition construction",
+      "b": "Perspective representation construction",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "A matched positive and negative case exposes when an already executable method applies.",
+      "consequence": "A transition can first create the conditions needed for a useful perspective. Merely naming the destination or assuming the operation necessarily succeeds."
+    },
+    {
+      "a": "Perspective transition applicability",
+      "b": "Reasoning approach applicability",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "A contrasting-case operation needs accessible cases; knowing its name does not supply them.",
+      "consequence": "Creating a prerequisite can change transition applicability. Actual transition success, retention or suitability of the destination."
+    },
+    {
+      "a": "Perspective transition reachability",
+      "b": "Perspective consequence accessibility",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Transfer failure leads through a cue observation and case contrast to an application-condition perspective.",
+      "consequence": "A perspective can contribute through its accessible continuations before it supplies the final result. Reachability through unknown operations, successful real execution or a universally optimal route."
+    },
+    {
+      "a": "Perspective improvement retention",
+      "b": "Memory record retention",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "A saved instruction survives while a later task still receives the irrelevant operation it was intended to replace.",
+      "consequence": "Record persistence and retention of a usable improvement are different determinations. Establishing the original benefit, immediate repetition alone or assuming a saved note is used."
+    },
+    {
+      "a": "Perspective formation condition",
+      "b": "Learning change attribution",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "A new diagram makes a dependency distinction available before anyone chooses to use it.",
+      "consequence": "Formation can depend on conditions external to the eventual bearer. Later activation of an available perspective or universal necessity of one origin."
+    },
+    {
+      "a": "Perspective activation trigger",
+      "b": "Memory reuse trigger",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Familiar wording activates a method while different wording conceals the same governing relation.",
+      "consequence": "An activation cue can be narrower than the perspective's application domain. Its construction, conscious choice or suitability for the context."
+    },
+    {
+      "a": "Perspective adoption commitment",
+      "b": "Claim acceptance confidence",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "A retrieval interpretation directs a cue test without licensing a final diagnosis.",
+      "consequence": "Productive trial use does not require settled truth or final adoption. Evidence-warranted confidence or commitment attributed to every physical bearer."
+    },
+    {
+      "a": "Perspective adoption correspondence",
+      "b": "System implementation correspondence",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "An agent promises an application-condition comparison but produces another general explanation.",
+      "consequence": "Declared, enacted and attributed perspectives can differ without establishing deception or pathology. A diagnosis, a hidden true self, complete introspective access or truth of the declared account."
+    },
+    {
+      "a": "Perspective candidate dimension construction",
+      "b": "Discovery contribution novelty",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Identical current method choices differ in whether recognition survives a wording change.",
+      "consequence": "Content and activation conditions vary independently in the constructed case. Renaming an existing dimension or adding a label without a separating case."
+    },
+    {
+      "a": "Perspective candidate space specification",
+      "b": "Reasoning candidate space specification",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Three interpretations, two representations and two commitments produce twelve assignments before exclusions.",
+      "consequence": "A construction space exposes omissions relative to its rules while leaving missing dimensions open. All possible perspectives being captured or every combination being semantically adequate."
+    },
+    {
+      "a": "Perspective candidate space coverage",
+      "b": "Perspective scope coverage",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Content, retrieval and representation interpretations omit application-condition recognition in an altered case.",
+      "consequence": "Complete enumeration of current combinations can coexist with a substantive coverage gap. Universal perspective completeness or coverage by one individual perspective."
+    },
+    {
+      "a": "Perspective exploration exclusion justification",
+      "b": "Perspective comparison admissibility",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "An interpretation unsuitable for final reliance can still expose a useful missing condition when tried temporarily.",
+      "consequence": "Exclusion from action and exclusion from exploration can require different grounds. Permanent rejection, falsity of every candidate claim or final perspective selection."
+    },
+    {
+      "a": "Perspective composition interference",
+      "b": "System interface compatibility",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "An exploratory assumption enters execution as established, losing its conditional standing.",
+      "consequence": "Composition must preserve contribution roles and status. Mere component count, independent component failure or automatic incompatibility of different viewpoints."
+    },
+    {
+      "a": "Perspective improvement transfer",
+      "b": "Learning change transfer",
+      "relation": "Specified target distinction; see perspective development for the scope of any shared case.",
+      "case": "Application-condition work transfers to another topic only if the relation governing appropriate use is preserved.",
+      "consequence": "A reusable transition can transfer while the earlier task answer does not. Shared wording, retention only in the original setting or benefit in every related case."
     }
   ],
   "expansion_families": [
@@ -1160,6 +1314,35 @@
       ],
       "reason": "A subject admits specified matters; these create explicit positive and negative membership questions.",
       "limit": "Unique IDs or a large name count do not prove an exclusive complete hierarchy."
+    },
+    {
+      "target": "Perspective",
+      "names": [
+        "Perspective bearer attribution",
+        "Perspective response sensitivity",
+        "Perspective response equivalence",
+        "Perspective change locus",
+        "Perspective problem recognition contribution",
+        "Perspective subject relevance determination",
+        "Perspective study configuration construction",
+        "Perspective result interpretation rule",
+        "Perspective transition construction",
+        "Perspective transition applicability",
+        "Perspective transition reachability",
+        "Perspective improvement retention",
+        "Perspective formation condition",
+        "Perspective activation trigger",
+        "Perspective adoption commitment",
+        "Perspective adoption correspondence",
+        "Perspective candidate dimension construction",
+        "Perspective candidate space specification",
+        "Perspective candidate space coverage",
+        "Perspective exploration exclusion justification",
+        "Perspective composition interference",
+        "Perspective improvement transfer"
+      ],
+      "reason": "Develop bearer attribution, relevance, transition and construction matters beyond the prior perspective scope.",
+      "limit": "Distinct determinations are not disjoint kinds of whole entities; the general account remains a proposal."
     }
   ],
   "project_bindings": [

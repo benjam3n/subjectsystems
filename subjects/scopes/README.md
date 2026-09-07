@@ -2,7 +2,7 @@
 
 A subject is **a specified matter of consideration**. The current names put the general subject first, followed by the target and the particular operation, property, or relation: **Reasoning approach selection**, **Reasoning approach creation**, **Reasoning approach modification**.
 
-The [named inventory](NAMES.md) now defines **442 subjects**, with **160 target groups** under **52 general headings**. Every entry states what it settles and a nearby determination it does not settle. These numbers include the [representative discipline extension](../../research/type-relations/INTEGRATION.md); the [perspective extension](../../research/type-relations/PERSPECTIVES.md) adds further defined matters and worked results. They do not enumerate all possible subjects.
+The [named inventory](NAMES.md) now defines **471 subjects**, with **175 target groups** under **52 general headings**. Every entry states what it settles and a nearby determination it does not settle. These numbers include the [representative discipline extension](../../research/type-relations/INTEGRATION.md); the [perspective extension](../../research/type-relations/PERSPECTIVES.md) adds further defined matters and worked results. They do not enumerate all possible subjects.
 
 | General heading | Named determinations | Intermediate target groups |
 |---|---|---|
@@ -69,7 +69,7 @@ For example, Question answer completeness refines the coverage aspect of Questio
 
 | Entry | What it supplies |
 |---|---|
-| [Named inventory](NAMES.md) | The 442 literal names, definitions, exclusions, and explicit broader-subject links |
+| [Named inventory](NAMES.md) | The 471 literal names, definitions, exclusions, and explicit broader-subject links |
 | [Name changes](NAME-CHANGES.md) | Every predecessor scope name, bundled parent, alias, and disputed wording mapped to the new vocabulary |
 | [Naming derivation](../../research/type-relations/SUBJECT-NAMES.md) | Completion conditions, general-first naming, scope versus entity type, and substantive expansion logic |
 | [Boundary review](../../cases/subject-names.md) | Thirty-eight examined distinctions, specializations, or unresolved overlaps |

@@ -2,7 +2,7 @@
 
 Canonical names for the present working inventory. Each row defines one determination; parent headings collect their listed matters. These are partial scopes, not a certified exclusive partition of every possible subject. See the [derivation](../../research/type-relations/SUBJECT-NAMES.md) and [boundary review](../../cases/subject-names.md).
 
-449 named determinations · 161 target groups · 52 general headings.
+471 named determinations · 175 target groups · 52 general headings.
 
 | General heading | Named determinations | Defined scope |
 |---|---|---|
@@ -52,7 +52,7 @@ Canonical names for the present working inventory. Each row defines one determin
 | [Object](#object) | 1 | Criteria for an object's identity over specified changes. |
 | [Experience](#experience) | 1 | Discriminable qualitative aspects of specified experiences. |
 | [Narrative](#narrative) | 5 | Presentation of represented events and defined responses of specified audiences. |
-| [Perspective](#perspective) | 12 | A specified organization of a matter that makes particular distinctions, representations, inferences or criteria available. Comparisons state what is held fixed. |
+| [Perspective](#perspective) | 34 | Configurations through which specified differences become consequential for an entity or interaction, including interpretive organizations and their formation, use, comparison or revision. Consciousness and deliberate selection are not required; bearer and mechanism are case-specific matters. |
 | [Anticipation](#anticipation) | 10 | Represented or inferred expectations of possible later events and their role in preparing, selecting or constructing subsequent activity. |
 | [Uncertainty](#uncertainty) | 5 | Unresolved alternatives relative to a specified agent, information state and target, including how their resolution affects work. |
 | [Conflict](#conflict) | 6 | Specified conditions that cannot jointly be met, and the means or effects of resolving that incompatibility. |
@@ -1398,7 +1398,7 @@ Explicit broader subjects from the boundary review:
 
 ## Perspective
 
-A specified organization of a matter that makes particular distinctions, representations, inferences or criteria available. Comparisons state what is held fixed.
+Configurations through which specified differences become consequential for an entity or interaction, including interpretive organizations and their formation, use, comparison or revision. Consciousness and deliberate selection are not required; bearer and mechanism are case-specific matters.
 
 ### Perspective representation
 
@@ -1420,6 +1420,7 @@ A specified organization of a matter that makes particular distinctions, represe
 |---|---|---|
 | Perspective change contribution | Determine what changing a perspective adds to a specified inquiry or performance with the target and success standard fixed. | Improvement produced only by replacing the goal or grading rule. |
 | Perspective change criterion drift | Determine whether a changed verdict follows from a changed evaluative rule rather than a changed representation of the same matter. | Judging the new criterion illegitimate simply because it changed. |
+| Perspective change locus | Determine which specified part of a bearer-context arrangement changed between two response episodes. | Attributing improvement, causal sufficiency or intentional revision from the changed result alone. |
 
 ### Perspective scope
 
@@ -1439,6 +1440,104 @@ A specified organization of a matter that makes particular distinctions, represe
 | Name | Matter to settle | Does not by itself settle |
 |---|---|---|
 | Perspective comparison admissibility | Specify which perspectives are admitted to a comparison and why each belongs to that set. | A conclusion quantified over every imaginable preference or goal. |
+
+### Perspective bearer
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective bearer attribution | Determine which specified entity, component or interaction bears the configuration responsible for a declared response distinction. | Assigning consciousness, goals or all downstream effects to the named component. |
+
+### Perspective response
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective response sensitivity | Determine which specified input or context changes alter an identified bearer response under declared comparison conditions. | The bearer consciously noticing the difference or its response being beneficial. |
+| Perspective response equivalence | Determine whether two response configurations yield the same specified observable response on every case of a declared domain. | Identity of mechanisms, experience, cost or behavior outside the domain. |
+
+### Perspective problem
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective problem recognition contribution | Determine how changing a perspective changes which problems are recognized in a fixed presented situation under a fixed relevance standard. | The choice to act on a recognized problem or a difference caused solely by new presented evidence. |
+
+### Perspective subject
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective subject relevance determination | Determine what result from a specified subject would contribute to the current matter under an identified perspective and conditions. | Technique selection, truth of the result or relevance inferred only from topic similarity. |
+
+### Perspective study
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective study configuration construction | Construct a system arrangement of specified studies whose results supply identified subsequent contributions under an adopted perspective. | An unordered subject list, automatic truth of outputs or proof of overall effectiveness. |
+
+### Perspective result
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective result interpretation rule | Specify how materially different results of an identified study change a perspective, its commitment or its next contribution. | Producing the study result or establishing the interpretation rule's truth. |
+
+### Perspective transition
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective transition construction | Construct an operation intended to make a specified change of perspective available from declared starting conditions. | Merely naming the destination or assuming the operation necessarily succeeds. |
+| Perspective transition applicability | Determine whether the declared requirements of a specified perspective-transition operation hold in identified starting conditions. | Actual transition success, retention or suitability of the destination. |
+| Perspective transition reachability | Determine which specified perspectives can be reached through identified transition operations under declared starting conditions and path constraints. | Reachability through unknown operations, successful real execution or a universally optimal route. |
+
+### Perspective improvement
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective improvement retention | Determine whether a previously established beneficial perspective change remains available for relevant use after a specified interval or transition. | Establishing the original benefit, immediate repetition alone or assuming a saved note is used. |
+| Perspective improvement transfer | Determine which conditions permit a previously established beneficial perspective change to contribute in a new setting. | Shared wording, retention only in the original setting or benefit in every related case. |
+
+### Perspective formation
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective formation condition | Determine which specified conditions make a perspective newly available to an identified bearer or arrangement. | Later activation of an available perspective or universal necessity of one origin. |
+
+### Perspective activation
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective activation trigger | Identify which event or condition brings an available perspective into operative use in a declared context. | Its construction, conscious choice or suitability for the context. |
+
+### Perspective adoption
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective adoption commitment | Specify the scope and degree of reliance assigned to an interpretation in a particular inquiry or action. | Evidence-warranted confidence or commitment attributed to every physical bearer. |
+| Perspective adoption correspondence | Determine whether observed distinctions and operations correspond to an agent's declared perspective in an identified context. | A diagnosis, a hidden true self, complete introspective access or truth of the declared account. |
+
+### Perspective candidate
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective candidate dimension construction | Construct a consequential distinction for organizing perspectives absent from the stated initial construction scheme. | Renaming an existing dimension or adding a label without a separating case. |
+| Perspective candidate space specification | Specify the perspectives constructible from declared dimensions, values and compatibility rules under a fixed identity convention. | All possible perspectives being captured or every combination being semantically adequate. |
+| Perspective candidate space coverage | Determine whether a specified perspective inventory supplies required distinctions or contributions across every case of a declared domain. | Universal perspective completeness or coverage by one individual perspective. |
+
+### Perspective exploration
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective exploration exclusion justification | Determine whether an identified reason justifies excluding a candidate perspective from a specified exploration purpose and stage. | Permanent rejection, falsity of every candidate claim or final perspective selection. |
+
+### Perspective composition
+
+| Name | Matter to settle | Does not by itself settle |
+|---|---|---|
+| Perspective composition interference | Determine how combining perspectives impairs an identified contribution relative to their separately specified uses. | Mere component count, independent component failure or automatic incompatibility of different viewpoints. |
+
+Explicit broader subjects from the boundary review:
+
+| Qualified subject | Containing subject |
+|---|---|
+| Perspective problem recognition contribution | Perspective change contribution |
+| Perspective study configuration construction | System design composition |
 
 ## Anticipation
 

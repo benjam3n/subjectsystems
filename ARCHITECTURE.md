@@ -27,6 +27,10 @@ Do not use a composition or a cross-reference to disguise a collision between de
 
 ## Studies and operating composition
 
+The [perspective process](research/perspectives/FOUNDATION.md) adds a conditional relevance relation: a perspective makes a specified subject result useful for a particular contribution, and that result can change the perspective or next study. This relation does not replace scope containment as the subject hierarchy. It also does not require consciousness or deliberate selection. A perspective's bearer, response configuration and interpretive capacities are separate determinations.
+
+[Perspective Optimizer](https://github.com/benjam3n/perspectiveoptimizer) consumes pinned subject bindings and develops their use in actual or explicitly constructed situations. Subject Systems remains the canonical theoretical inventory. The [construction program](research/perspectives/CONSTRUCTION.md) permits new values, dimensions, operations and relations when a consequential gap requires them; a complete finite assignment space is not a complete ontology.
+
 The [study register](research/studies/STUDY-TRANSLATIONS.md) expresses contributions as specific matters and required results. A study program can develop a subject over many inquiries; a method definition or execution is not by itself evidence of a completed study. A system can coordinate studies, methods, artifacts and actions. Its interfaces, order, conditions and state determine how they contribute. Different arrangements of the same contributors can produce different results.
 
 The [technique contracts](research/studies/TECHNIQUES.md) govern the five newly admitted finite operations. The [executed cases](research/studies/EXECUTIONS.md) show the three custom compositions and their limits. Research/studies/sources/ retains additional exact source bodies without changing the earlier source manifest.
