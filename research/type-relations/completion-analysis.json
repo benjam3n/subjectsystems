@@ -1,0 +1,502 @@
+{
+  "orders": [
+    [
+      "intelligence improvement",
+      "improvement intelligence",
+      "Improvement[target=intelligent capability]",
+      "Intelligence[required for=an improvement task]",
+      "Improvement",
+      "Intelligence",
+      "Role and unit change",
+      "A fixed repair can improve an intelligent system without the repair itself having intelligence."
+    ],
+    [
+      "intelligence maintenance",
+      "maintenance intelligence",
+      "Maintenance[target=intelligent capability]",
+      "Intelligence[used for=maintenance work]",
+      "Process",
+      "Intelligence",
+      "Role and unit change",
+      "Preserving a person's capability and diagnosing a machine fault concern different targets."
+    ],
+    [
+      "intelligence learning",
+      "learning intelligence",
+      "Learning[target=intelligent capability]",
+      "Intelligence[required for=learning a specified task]",
+      "Learning",
+      "Intelligence",
+      "Role and unit change",
+      "A retained ability can exist without a learning event taking place now."
+    ],
+    [
+      "development improvement",
+      "improvement development",
+      "Development[also satisfies=improvement under criterion C]",
+      "Development[target=an improvement method]",
+      "Development + Improvement",
+      "Development",
+      "A modifier can qualify membership or change the target",
+      "Elaborating an improvement method may make the method worse; improving development requires a different success argument."
+    ],
+    [
+      "art writing",
+      "writing art",
+      "Writing[topic=art]",
+      "Artwork[topic=writing]",
+      "Writing",
+      "Artifact",
+      "Target and produced kind change",
+      "An art review is text about art; a sculpture of handwritten marks is an artwork about writing."
+    ],
+    [
+      "technical writing",
+      "writing technical",
+      "Writing[domain=technical]",
+      "Writing[domain=technical]",
+      "Writing",
+      "Writing",
+      "Same denotation under the stated qualifier convention",
+      "The same engineering manual satisfies both labels; the reordered label changes indexing, not membership."
+    ],
+    [
+      "writing technique",
+      "technical writing",
+      "Method[for=writing]",
+      "Writing[domain=technical]",
+      "Method",
+      "Writing",
+      "Different words and roles, not a pure permutation",
+      "A poetry revision method is a writing technique while the poem need not have a technical subject."
+    ],
+    [
+      "goal question",
+      "question goal",
+      "Question[about=a goal]",
+      "Goal[of=a question]",
+      "Questions",
+      "Goals",
+      "Question and intended result change places",
+      "The question 'Which destination?' differs from its goal of resolving a destination."
+    ],
+    [
+      "search space",
+      "space search",
+      "Space[candidates for=a search]",
+      "Search[target=a specified space]",
+      "Specified candidate collection",
+      "Search",
+      "Candidate domain versus activity",
+      "A stored candidate set persists while no search is being executed."
+    ],
+    [
+      "search method",
+      "method search",
+      "Method[for=search]",
+      "Search[target=a method]",
+      "Method",
+      "Search",
+      "Means versus target",
+      "A binary-search prescription differs from looking for a suitable search procedure."
+    ],
+    [
+      "guessing quality",
+      "quality guessing",
+      "Quality[of=guesses, under=C]",
+      "Guessing[target=the quality of X]",
+      "Evaluated property",
+      "Reasoning",
+      "Property versus inquiry",
+      "Assessing forecast accuracy differs from guessing a fabric's quality."
+    ],
+    [
+      "subject type",
+      "type subject",
+      "Type[assigned to=a specified subject]",
+      "Subject[referent=a specified type]",
+      "Type assignment",
+      "Subject",
+      "Classification versus the matter considered",
+      "A class can itself be studied without settling where an unrelated subject belongs."
+    ],
+    [
+      "truth assessment",
+      "assessment truth",
+      "Assessment[target=truth of claim P]",
+      "Truth[target=the assertion made by assessment A]",
+      "Judgment",
+      "Truth",
+      "Verdict versus whether the verdict holds",
+      "A false assessment remains an assessment; its truth is absent."
+    ],
+    [
+      "explanation creation",
+      "creation explanation",
+      "Creation[product=an explanatory account]",
+      "Explanation[target=a creation process]",
+      "Creation",
+      "Explanation",
+      "Production versus account",
+      "Writing an explanation is an event; the account can persist after writing ends."
+    ],
+    [
+      "evaluation automation",
+      "automation evaluation",
+      "Automation[target=evaluation work]",
+      "Evaluation[target=an automation configuration]",
+      "Automation",
+      "Evaluation",
+      "Configured work versus assessment",
+      "An automatic grader can be evaluated manually."
+    ],
+    [
+      "improvement maintenance",
+      "maintenance improvement",
+      "Maintenance[target=an achieved improvement]",
+      "Improvement[target=a maintenance process]",
+      "Process",
+      "Improvement",
+      "Preserving a gain versus improving its preservation",
+      "Holding an achieved performance level steady is not itself an increase over that level."
+    ],
+    [
+      "intelligence maintenance improvement",
+      "intelligence improvement maintenance",
+      "Improvement[target=Maintenance[target=intelligence]]",
+      "Maintenance[target=Improvement[target=intelligence]]",
+      "Improvement",
+      "Process",
+      "Nested scope: improve preservation versus preserve gains",
+      "Improving a retention regimen differs from continuing a regimen that preserves a previous gain."
+    ],
+    [
+      "maintenance intelligence improvement",
+      "maintenance improvement intelligence",
+      "Improvement[target=Intelligence[used for=maintenance]]",
+      "Intelligence[required for=Improvement[target=maintenance]]",
+      "Improvement",
+      "Intelligence",
+      "Nested scope: change a capability versus specify a needed capability",
+      "Training better fault diagnosis differs from possessing the reasoning required to redesign maintenance."
+    ],
+    [
+      "improvement intelligence maintenance",
+      "improvement maintenance intelligence",
+      "Maintenance[target=Intelligence[used for=improvement]]",
+      "Intelligence[required for=Maintenance[target=improvement]]",
+      "Process",
+      "Intelligence",
+      "Nested scope: preserve a capability versus specify a needed capability",
+      "Keeping an optimizer capable differs from the capability needed to keep a past gain from eroding."
+    ],
+    [
+      "intelligence maintenance improvement",
+      "intelligence maintenance improvement",
+      "Improvement[target=Maintenance[target=intelligence]]",
+      "Improvement[target=Maintenance[performed using=intelligence]]",
+      "Improvement",
+      "Improvement",
+      "Same word order, different hidden relation",
+      "Improving preservation of a cognitive capability differs from improving smart maintenance of a bridge."
+    ],
+    [
+      "not intelligence improvement",
+      "intelligence not improvement",
+      "NOT(Improvement[target=intelligence]) within a declared universe",
+      "Intelligence[whose measured level is not improving]",
+      "Complement of a qualified change class",
+      "Intelligence",
+      "Negation scope changes the class",
+      "A change to a chair is not an intelligence improvement; it is not thereby non-improving intelligence."
+    ],
+    [
+      "art writing for children",
+      "writing about children's art",
+      "Writing[topic=art,audience=children]",
+      "Writing[topic=art produced by children]",
+      "Writing",
+      "Writing",
+      "Attachment of one qualifier changes whose property it is",
+      "An adult art-history essay about children's drawings satisfies the second but need not suit child readers."
+    ],
+    [
+      "intelligence improvement goal",
+      "intelligence improvement achieved",
+      "Goal[target=Improvement[target=intelligence]]",
+      "Improvement[target=intelligence,standing=achieved]",
+      "Goals",
+      "Improvement",
+      "Intended result versus realized change",
+      "A failed training project can retain a coherent improvement goal without achieving the change."
+    ]
+  ],
+  "qualification_tests": [
+    [
+      "Q01",
+      "Complete the relation as well as the words",
+      "Intelligence improvement",
+      "Improvement[target=intelligent capability,criterion=C,baseline=B]",
+      "The phrase selects a change in capability as the item being classified.",
+      "Adding the topic Intelligence does not make the change an instance of the capability."
+    ],
+    [
+      "Q02",
+      "A narrow inclusion can hold despite a broad refutation",
+      "Development is not universally Improvement",
+      "Development[also improves intelligence under C] ⊆ Development and Improvement",
+      "A worsening development refutes the broad universal but says nothing against the beneficial subclass.",
+      "Never inherit a broad separating counterexample into a subclass unless the counterexample satisfies the qualifier."
+    ],
+    [
+      "Q03",
+      "Universal inclusion passes to a subclass",
+      "Every Improvement is Change",
+      "Improvement[target=intelligence] ⊆ Change",
+      "All instances of the qualified class retain the defining improvement conditions.",
+      "A qualification must retain the same head meaning for this inheritance to apply."
+    ],
+    [
+      "Q04",
+      "Disjointness passes to a subclass",
+      "Capability and Change are disjoint in the fixed senses",
+      "Improvement[target=intelligence] is disjoint from Capability in those senses",
+      "Every instance is a change; the inherited disjointness applies to that item.",
+      "This uses an explicit sense rule, not the weaker claim that some changes are not capabilities."
+    ],
+    [
+      "Q05",
+      "Topic does not become genus automatically",
+      "Writing[topic=art]",
+      "The writing belongs under Writing; the topic remains Art.",
+      "An art review and a nontextual artwork have different produced forms.",
+      "A subject index can group both under Art without proving that they are the same kind."
+    ],
+    [
+      "Q06",
+      "A whole family needs a declared union",
+      "Intelligence: improvement and maintenance",
+      "The two activities can be gathered as a family of work concerning intelligence.",
+      "The family contains specified activities concerning the capability.",
+      "This does not establish that every instance of intelligence is an improving or maintaining activity."
+    ],
+    [
+      "Q07",
+      "Modifier restrictions need not partition a parent",
+      "Writing[technical topic] and Writing[art topic]",
+      "The two can overlap in a conservation-engineering manual.",
+      "A single text can satisfy both topic predicates.",
+      "Additional words do not guarantee exclusive sibling categories; define a separating criterion or retain overlapping views."
+    ],
+    [
+      "Q08",
+      "More detail can make an empty type",
+      "Capability ∩ Change under the fixed disjointness rule",
+      "No item satisfies both primary senses in this model.",
+      "The conjunction conflicts with an admitted exclusion.",
+      "A nonempty example or a revised sense is needed before this can serve as a substantive category."
+    ],
+    [
+      "Q09",
+      "Reordering can be an alias",
+      "Technical writing and Writing technical",
+      "Both denote Writing[domain=technical] when this reading is fixed.",
+      "One membership test decides both labels.",
+      "Use one expression identity with two display orders; do not create duplicate subjects."
+    ],
+    [
+      "Q10",
+      "Same order can hide different relations",
+      "Intelligence maintenance improvement",
+      "Improvement of maintenance OF intelligence or maintenance USING intelligence.",
+      "Identical token order can denote different targets.",
+      "Relations such as target, means, product, audience, and standard must be recorded."
+    ],
+    [
+      "Q11",
+      "Negation must retain its scope",
+      "Not an improvement of intelligence",
+      "It can be a change outside that class, an unsuccessful attempt, or a separate denial depending on the chosen universe.",
+      "A complement of a qualified class is not simply a negated target.",
+      "State the universe and whether the negation applies to the operation, target, success condition, or whole claim."
+    ],
+    [
+      "Q12",
+      "Success is a membership condition when named",
+      "Improvement attempt versus achieved improvement",
+      "An attempt is a process seeking benefit; achieved improvement requires an actual beneficial change.",
+      "A failed attempt supplies the separation.",
+      "A project that aims to improve intelligence has not thereby become an achieved improvement."
+    ],
+    [
+      "Q13",
+      "Completion is relative to the question being settled",
+      "Artifact versus Intelligence improvement under C",
+      "A short term can already have adequate membership conditions; a long expression can remain ambiguous.",
+      "Length is not the measure of completeness.",
+      "Stop adding qualifiers when remaining alternatives do not change the live type claim or required action."
+    ],
+    [
+      "Q14",
+      "Changing the question can change the classified unit",
+      "Art: what exists? Art: how is it made? Art: why does it matter?",
+      "An artwork, creation process, and evaluation are distinct referents in the same topic family.",
+      "A family index is broader than the denotation of any one row.",
+      "Keep the referent and the matter to settle alongside the short subject name."
+    ],
+    [
+      "Q15",
+      "Subtype and usefulness are independent",
+      "A method for intelligence improvement",
+      "It is a Method by its prescription form; whether it improves a specified capability is a further claim.",
+      "A formally complete method can fail in use.",
+      "Project classifications must preserve their intended task and evidence of effects separately."
+    ],
+    [
+      "Q16",
+      "Qualification exposes new missing subjects",
+      "Improve the way intelligence improvement is measured",
+      "Improvement[target=Evaluation[target=intelligence]]",
+      "The improvement target is the assessment process, not necessarily intelligence itself.",
+      "An apparent higher score can come from changing assessment; that does not establish an improved capability."
+    ]
+  ],
+  "wording_changes": [
+    [
+      "Jan 29 → Jan 31",
+      "Universalization operates on N-valued type theory; asks what this is an instance of.",
+      "Universalization asks what this is an instance of and explores the possibility space.",
+      "The type-enumeration programme predates the compressed essay. The explicit type-theory label and associated rationale were removed; the instance-of operation survived.",
+      "Type framework wording removed; operation partly retained",
+      "15720e5f4c8f3fba5f11584e8505171cfbf1c012",
+      "fbc95cb200b289ed4a0336f371647b0896c0b4c6"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Super-intelligence, form? System super-intelligent, mean? How answer? Define intelligence. Define learning.",
+      "An introductory promise to demonstrate better definitions.",
+      "The earlier form exposes separate unresolved questions and definition operations; the rewrite turns them into an introduction.",
+      "Question/operation form becomes explanatory framing",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Learning is perception and action. Improving is perception and action.",
+      "Learning is about perception and action; improving is also about them.",
+      "The relation changes from an identity-like assertion to aboutness. The second does not preserve the first claim's consequences.",
+      "Relationship changed, not only wording",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "How evaluate claim hard? Some claim hard. Other claim not.",
+      "How evaluate claim hard? Some claims are hard, and other claims are not.",
+      "The initial head-first phrase remains. The prose expands the same contrast in ordinary word order.",
+      "Contrast largely preserved; compressed form partly retained",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Hard claim many presupposition. Non hard claim little presupposition.",
+      "Hard claims contain many presuppositions, while less hard claims contain fewer.",
+      "The old contrast uses adjacent slots for claim, difficulty, and presupposition count. The new version supplies the containment relation explicitly.",
+      "Useful structural repetition expanded with an explicit relation",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Reason = guess method. Analogy = guess method. Expection = guess method.",
+      "Reason = guess method. Analogy = guess method. Expectation = guess method.",
+      "A shared parent expression is kept visible for several candidate members. Both versions preserve the repeated classification form.",
+      "Type pattern preserved; spelling corrected",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Guessing quality improve any way improve action, reasoning, writing, planning, prediction, decisions.",
+      "Improving guessing quality improves action, reasoning, writing, planning, prediction, and decision-making.",
+      "The target-quality-change sequence becomes ordinary verbal prose. Its structural roles can be recovered without claiming the cross-domain improvement is established.",
+      "Order changes; broad causal claim remains an authored claim",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Reasonable inference = consciousness = guessing.",
+      "Reasonable inference is a form of guessing; consciousness can be thought of through continuous guessing and its improvement.",
+      "An identity chain is replaced by classification and a proposed interpretation. These have different logical consequences.",
+      "Identity weakened and split into different relationships",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Search can = Exploration, can = Testing, cannot = anything else.",
+      "In this framing, search is either exploration or testing.",
+      "The exhaustive division is explicitly bounded to a framing in the later wording.",
+      "Scope made conditional",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Search space optimization quality = intelligence level.",
+      "Search space optimization quality tracks intelligence level.",
+      "Identity and association allow different inferences. This is an example where making a sentence smoother also changes its proposition.",
+      "Identity changed to association",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Question direction vector, answer scalar.",
+      "Question direction vector, answer scalar.",
+      "The relational shorthand remains in the current text. Its presence documents the approach; it does not supply a formal vector-space account.",
+      "Compressed form retained",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "Question no presuppositions explicit, non hidden, obvious.",
+      "Questions make those presuppositions more explicit, less hidden, and more obvious.",
+      "The earlier string admits competing parses. The later wording selects a comparative-explicitness interpretation; it is not proof of the original intended parse.",
+      "An ambiguous expression receives a selected interpretation",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 → Mar 7",
+      "After defining categories and relationships, the author switches to standard communication.",
+      "After defining categories and relationships, the author says standard communication can preserve meaning.",
+      "Both versions explicitly distinguish structural preparation from ordinary presentation. This supports the user's account of deliberate form selection.",
+      "Stated rationale retained",
+      "cecbd9cb69f11b5f99ccde7e73c22d495effe40e",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359"
+    ],
+    [
+      "Feb 1 addition",
+      "Intelligence is this cycle done well.",
+      "Learning is this cycle getting better over time.",
+      "The same explore/find/test/act cycle is qualified by current performance and by change over time. It is an earlier explicit example of classifying different aspects of a shared process.",
+      "Earlier qualification pattern; not a later wording change",
+      "50da25630488ac0abca5628ad1b8ef86ce42e8bc",
+      "50da25630488ac0abca5628ad1b8ef86ce42e8bc"
+    ],
+    [
+      "Mar 7 → Mar 9",
+      "A rigorous setup creating universally working structures and greater certainty.",
+      "A system making assumptions, alternatives, tests, uncertainty, and next actions harder to skip.",
+      "The later revision narrows the stated ambition and changes the proposed success conditions. It is a substantive edit separate from typography or grammar.",
+      "Project aim and commitment changed",
+      "1249cd873868d491773d882b8eaf2a2bb4c6d359",
+      "bb2882933321c7eda45d5518067b9aaff81a3879"
+    ]
+  ],
+  "source_note": "Excerpts are brief; some before/after cells paraphrase whole passages. Analytical consequences are current interpretations, not claims that the historical essay proves its substantive theses. Exact source URLs identify both revisions."
+}

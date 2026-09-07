@@ -8,6 +8,10 @@ if(!repo) throw new Error('Set SUBJECTSYSTEMS_REPO to the repository being exami
 const out=process.env.SUBJECT_RELATIONS_OUTPUT || path.join(repo,'outputs','subject-type-relations');
 const model=JSON.parse(await fs.readFile(path.join(repo,'research/type-relations/model.json'),'utf8'));
 const exploration=JSON.parse(await fs.readFile(path.join(repo,'research/type-relations/explorations.json'),'utf8'));
+const completion=JSON.parse(await fs.readFile(path.join(repo,'research/type-relations/completions.json'),'utf8'));
+const completionAnalysis=JSON.parse(await fs.readFile(path.join(repo,'research/type-relations/completion-analysis.json'),'utf8'));
+const projectSubjects=JSON.parse(await fs.readFile(path.join(repo,'research/type-relations/project-subjects.json'),'utf8'));
+const aboutHistory=JSON.parse(await fs.readFile(path.join(repo,'research/type-relations/about-history.json'),'utf8'));
 await fs.mkdir(out,{recursive:true});
 const terms=model.terms.map((r,i)=>({id:`C${String(i+1).padStart(2,'0')}`,name:r[0],sense:r[1],parents:r[2],example:r[3],not:r[4],alternative:r[5]}));
 const names=terms.map(t=>t.name); const byName=new Map(terms.map(t=>[t.name,t]));
@@ -69,13 +73,42 @@ function projectKind(p,b){
  return{code:'?',basis:'Kind not established by inspected profile',reason:p.targets.includes(b)?`The source uses, studies, or supports ${b}; that relation does not establish kind membership. ${p.core}`:`The inspected profile does not establish this kind assignment. ${p.core}`};
 }
 const projectDecisions=projectInfo.map(p=>names.map(b=>projectKind(p,b)));
-const compiled={term_count:n,project_count:pn,concept_comparisons:n*n,project_kind_comparisons:pn*n,project_pair_comparisons:pn*pn,stats,cases:cases.map(({pos,neg,...c})=>c)};
+const completed=[];
+for(const [root,entries] of completion.groups)for(const [label,head,role,sense] of entries)completed.push({id:`E${String(completed.length+1).padStart(3,'0')}`,root,label,heads:head?head.split('+'):[],role,sense,standing:head?'Working completed expression; the reading and parent assumptions are explicit.':'Meaning unresolved; no completed type supplied.',source:'User attachment and current analysis; not a dictionary definition.',family:'Concept'});
+for(const [root,entries] of projectSubjects.groups){
+ const p=projectInfo.find(p=>p.name===root);assert(p,`Unknown project ${root}`);
+ for(const [label,head,matter,result] of entries)completed.push({id:`E${String(completed.length+1).padStart(3,'0')}`,root,label,heads:head.split('+'),role:'Specified work or contribution',sense:matter,result,standing:projectSubjects.standing,source:p.profile,family:'Project'});
+}
+for(const e of completed){for(const h of e.heads)assert(byName.has(h),`Unknown expression head ${h}`);for(const a of e.heads)for(const b of e.heads)assert(!separation(a,b),`Inconsistent expression ${e.id}: ${a} / ${b}`);e.equivalent=completion.equivalent_readings[e.label]||null;if(e.equivalent){assert(e.heads.length===1&&e.heads[0]===e.equivalent,`Invalid equivalence declaration ${e.label}`);e.standing=`Explicitly the same fixed sense as ${e.equivalent} in Concepts. This wording spells out that reading; it does not add a narrowing condition.`;}}
+for(const name of names)assert(completion.groups.some(g=>g[0]===name),`No subject-completion entry for ${name}`);
+for(const p of projectInfo)assert(projectSubjects.groups.some(g=>g[0]===p.name),`No project subjects for ${p.name}`);
+function completedKind(e,b){
+ if(b==='Subject')return{code:'Y',basis:'Potential-subject convention',reason:'The specified item or unresolved label can be considered.'};
+ if(!e.heads.length||!byName.get(b).sense)return{code:'?',basis:'Unresolved meaning',reason:'No meaning or parent assumption is invented for an unresolved label.'};
+ if(e.equivalent){const d=decide(e.equivalent,b);return{...d,code:d.code==='S'?'Y':d.code,basis:`Explicit equivalent reading; ${d.basis}`,reason:`This expression is explicitly the same fixed sense as ${e.equivalent}, so the same cases apply. ${d.reason}`};}
+ const head=e.heads.find(h=>ancestors(h).has(b));
+ if(head)return{code:'Y',basis:'Qualified definition plus universal inclusion',reason:`${e.label} is defined to satisfy ${head}. ${chain(head,b).join(' → ')}. The declared relation to its topic does not automatically add a genus.`};
+ const sep=e.heads.map(h=>separation(h,b)).find(Boolean);
+ if(sep)return{code:'N',basis:`Inherited explicit disjointness: ${sep.id}`,reason:`The completed expression retains the stated head meaning. ${sep.reason}`};
+ return{code:'?',basis:'No qualification-specific proof or countercase',reason:'A broad head-class counterexample does not refute this narrower class. Only an applicable inclusion, explicit disjointness, or a case satisfying this expression would settle this comparison.'};
+}
+const completedDecisions=completed.map(e=>names.map(b=>completedKind(e,b)));
+const refinedDevelopment=completed.find(e=>e.label==='development improvement');
+assert.equal(completedKind(refinedDevelopment,'Improvement').code,'Y');
+assert.equal(decide('Development','Improvement').code,'O');
+assert.equal(completedKind({label:'Qualified development',heads:['Development']},'Improvement').code,'?','A broad separating case must not be inherited by an unspecified subclass.');
+assert.equal(completedKind(completed.find(e=>e.label==='development process'),'Improvement').code,'O','An explicitly equivalent reading retains the actual separating and overlapping cases.');
+assert.equal(completedKind(completed.find(e=>e.label==='intelligence improvement'),'Change').code,'Y');
+assert.equal(completedKind(completed.find(e=>e.label==='intelligence improvement'),'Capability').code,'N');
+assert.equal(aboutHistory.records.length,58);assert.equal(aboutHistory.records.filter(r=>r.status==='deleted').length,1);
+const en=completed.length;const epEnd=5+en*n;
+const compiled={term_count:n,project_count:pn,concept_comparisons:n*n,project_kind_comparisons:pn*n,project_pair_comparisons:pn*pn,expression_rows:en,resolved_expressions:completed.filter(e=>e.heads.length).length,expression_comparisons:en*n,order_trials:completionAnalysis.orders.length,history_revisions:aboutHistory.records.length,stats,cases:cases.map(({pos,neg,...c})=>c)};
 await fs.writeFile(path.join(out,'analysis-check.json'),JSON.stringify(compiled,null,2));
 console.log(JSON.stringify({stage:'analysis',...compiled,cases:compiled.cases.length}));
 if(process.argv.includes('--analyze-only'))process.exit(0);
 
 const wb=Workbook.create();
-const sheetNames=['Read Me','Concepts','Type Lists','Type Matrix','Concept Pairs','Reversals','Common Parents','Project Notes','Project Lists','Project Kinds','Project Pairs','Cases','Rules','Sources'];
+const sheetNames=['Read Me','Subject Completions','Completed Types','Expression Pairs','Order Trials','Qualification Tests','Project Subjects','About History','Wording Changes','Concepts','Type Lists','Type Matrix','Concept Pairs','Reversals','Common Parents','Project Notes','Project Lists','Project Kinds','Project Pairs','Cases','Rules','Sources'];
 const sh=Object.fromEntries(sheetNames.map(name=>[name,wb.worksheets.add(name)]));
 const ink='#172B3A',teal='#176B68',light='#E7F2EF',muted='#526474',white='#FFFFFF',paper='#F7F9FB';
 function col(i){let s='';for(i++;i;i=Math.floor((i-1)/26))s=String.fromCharCode(65+(i-1)%26)+s;return s;}
@@ -96,8 +129,28 @@ function statusFormat(s,range){
  const r=s.getRange(range); const first=range.split(':')[0];
  for(const [v,bg,fg] of [['Y','#DBEEE6','#15533C'],['N','#F8E1E0','#932F32'],['O','#FFF0CF','#805700'],['?','#E8EDF2','#556678'],['S','#DDE9F2','#244C70']])r.conditionalFormats.addCustom(`${first}="${v}"`,{fill:bg,font:{color:fg,bold:true}});
 }
+setup('Subject Completions','Specify what the subject name leaves implicit','A short phrase receives one explicit reading. Parent kinds follow that reading. The last columns offer two index orders for the same expression ID; they are not new type claims.', ['ID','Broad label / project','Completed expression','Declared parent kinds','Role of the broad label','Exact reading / matter considered','Standing','Source','Topic-first index','Kind-first index'],completed.map(e=>[e.id,e.root,e.label,e.heads.join('; ')||'Unresolved',e.role,e.sense,e.standing,e.source,null,null]),[9,26,49,34,34,95,81,95,71,71],{height:132});
+for(let i=0;i<en;i++){const r=i+6;sh['Subject Completions'].getRange(`I${r}:J${r}`).formulas=[[`="Topic: "&B${r}&" | Kind: "&D${r}&" | "&A${r}`,`="Kind: "&D${r}&" | Topic: "&B${r}&" | "&A${r}`]];}
+const expressionPairRows=[];for(let i=0;i<en;i++)for(let j=0;j<n;j++){const d=completedDecisions[i][j];expressionPairRows.push([completed[i].id,completed[i].label,names[j],d.code,d.basis,d.reason]);}
+setup('Expression Pairs','Each completed expression × every base kind','Definitions and explicit disjointness are applied to the narrower expression. A counterexample to a broad head-class universal is never silently inherited.', ['Expression ID','Completed expression','Candidate kind','Result','Ground','Reason'],expressionPairRows,[14,55,24,10,48,115],{height:116});
+statusFormat(sh['Expression Pairs'],`D6:D${epEnd}`);sh['Expression Pairs'].getRange(`D6:D${epEnd}`).dataValidation={rule:{type:'list',values:['Y','N','O','?','S']}};
+setup('Completed Types','The type lists after completing the subject','Lists reference Expression Pairs. Explicitly equivalent readings retain their cases; narrower expressions need applicable disjointness or a case satisfying their actual qualifier. Missing grounds stay open.', ['Broad label / project','Completed expression','Is a type of — admitted','Is not a type of — supported','Still open','Expression ID'],completed.map(e=>[e.root,e.label,null,null,null,e.id]),[27,49,67,85,92,14],{height:245});
+for(let i=0;i<en;i++){const start=6+i*n,end=start+n-1,r=i+6;const c=`'Expression Pairs'!$C$${start}:$C$${end}`,d=`'Expression Pairs'!$D$${start}:$D$${end}`;sh['Completed Types'].getRange(`C${r}:E${r}`).formulas=[[
+ `=TEXTJOIN(", ",TRUE,FILTER(${c},${d}="Y","—"))`,
+ `=TEXTJOIN(", ",TRUE,FILTER(${c},((${d}="N")+(${d}="O"))>0,"—"))`,
+ `=TEXTJOIN(", ",TRUE,FILTER(${c},${d}="?","—"))`
+ ]];const texts=['Y','N','?'].map(code=>names.filter((_,j)=>code==='N'?['N','O'].includes(completedDecisions[i][j].code):completedDecisions[i][j].code===code).join(', '));const lines=Math.max(...texts.map((t,k)=>Math.ceil(t.length/([67,85,92][k]*0.83))));sh['Completed Types'].getRange(`A${r}:F${r}`).format.rowHeight=Math.min(245,Math.max(70,lines*14+12));}
+setup('Order Trials','Change the order, attachment, relation, and scope','These are explicitly selected readings to compare. Six permutations of intelligence / maintenance / improvement are included. An identical order can still hide different relations.', ['Form A','Form B','Explicit reading A','Explicit reading B','Kind A','Kind B','What changes','Separating or equivalence case'],completionAnalysis.orders,[32,32,64,64,27,27,78,98],{height:146});
+setup('Qualification Tests','What may and may not follow from a completion','A change in the classified unit differs from narrowing the same class. Shared wording, extra modifiers, and a convenient index do not establish semantic containment or exclusive branches.', ['ID','Test','Starting expression or claim','Completed comparison','Consequence','What the test prevents'],completionAnalysis.qualification_tests,[10,44,62,88,87,100],{height:155});
+const projectSubjectRows=completed.filter(e=>e.family==='Project').map(e=>[e.id,e.root,e.label,e.heads.join('; '),e.sense,e.result,e.standing,e.source]);
+setup('Project Subjects','Specify the work within each project family','Three purpose-specific subjects are defined for each source family. These describe kinds of work or contributions, with native source grounding; they do not certify implementation or effects.', ['Expression ID','Project','Completed project subject','Declared parent kinds','Exact matter','Proposed concrete contribution','Standing','Pinned source profile'],projectSubjectRows,[14,26,56,31,93,96,95,95],{height:155});
+const excelDate=s=>(Date.parse(s)-Date.UTC(1899,11,30))/86400000;
+setup('About History','All 58 revisions of the specified About page on main',aboutHistory.coverage, ['Date (UTC)','Commit','Commit description','File status','Changed text groups','Assessment for this inquiry','Revision link','Raw SHA-256'],aboutHistory.records.map(r=>[excelDate(r.date),r.sha,r.message,r.status,r.changed_groups,r.assessment,r.url,r.raw_sha256]),[24,43,79,14,18,122,115,68],{height:155});
+sh['About History'].getRange(`A6:A${5+aboutHistory.records.length}`).setNumberFormat('yyyy-mm-dd hh:mm');sh['About History'].getRange(`E6:E${5+aboutHistory.records.length}`).setNumberFormat('0');
+const aboutURL=sha=>`https://github.com/benjam3n/reasoningtool/blob/${sha}/website/src/pages/about.astro`;
+setup('Wording Changes','What the earlier form preserved and what later edits changed','Earlier/later cells contain short excerpts or paraphrases; interpretation is current analysis. The source history documents the approach, not the truth of every claim made in the essay.', ['Period','Earlier wording / précis','Later wording / précis','Consequence for typing','Change classification','Earlier source','Later source'],completionAnalysis.wording_changes.map(r=>[...r.slice(0,5),aboutURL(r[5]),aboutURL(r[6])]),[25,78,85,107,77,115,115],{height:173});
 const conceptRows=terms.map(t=>[t.id,t.name,t.sense||'UNRESOLVED — no adopted meaning',t.alternative,t.parents.join('; ')||'Subject only',t.name==='Promoting'?'Undefined / withdrawn label':'Working sense for this exploration, not a universal lexical claim']);
-setup('Concepts','The meanings being compared','A changed meaning creates a new comparison. Primary senses deliberately distinguish capacities, occurrences, artifacts, relations, and roles.', ['ID','Term','Primary working sense','Alternative reading to explore','Direct parent assumptions','Standing'],conceptRows,[9,24,67,67,30,40],{height:105});
+setup('Concepts','The primary meanings in the first comparison','One selected sense per broad word. Subject Completions now expands what each label can refer to; these older primary senses do not settle all qualified expressions.', ['ID','Term','Primary working sense','Alternative reading to explore','Direct parent assumptions','Standing'],conceptRows,[9,24,67,67,30,40],{height:105});
 
 const pairRows=[];
 for(let i=0;i<n;i++)for(let j=0;j<n;j++){const d=decisions[i][j];pairRows.push([`${terms[i].id}>${terms[j].id}`,names[i],names[j],d.code,null,d.basis,d.witness,d.reason,d.overlap,d.other||'No additional relation asserted by this comparison.']);}
@@ -155,25 +208,25 @@ setup('Rules','Visible assumptions and inference rules','All automatic results c
 setup('Sources','Sources and analytical standing','Concept definitions, cases, and reinterpretations were developed for this request. Project claims are limited to the source profiles inspected at the pinned revision; original runtime behavior was not re-tested.', ['Source','What it supports','Pinned profile or current analysis','Additional original-source links','Limit'],projectInfo.map(p=>[p.name,p.core,p.profile,p.sources.join('\n')||'No defining source attached',p.limit]),[28,90,110,130,82],{height:142});
 
 const intro=sh['Read Me'];intro.showGridLines=false;intro.getRange('A1:F37').format.font={name:'Aptos',size:11,color:ink};
-intro.getRange('A1:F2').merge();intro.getRange('A1').values=[['Subject and Project Type Relations']];intro.getRange('A1:F2').format={fill:ink,font:{name:'Aptos Display',size:25,bold:true,color:white},rowHeight:25,verticalAlignment:'center'};
-intro.getRange('A3:F3').merge();intro.getRange('A3').values=[['Reverse the claim. Negate it. Find common parents. Preserve what each interpretation changes.']];intro.getRange('A3:F3').format={font:{size:13,color:teal},rowHeight:34,wrapText:true};
-intro.getRange('A5:B10').values=[['Coverage','Count'],['Concepts',null],['Concept comparisons, including self',null],['Projects',null],['Project × concept comparisons',null],['Project × project comparisons',null]];
-intro.getRange('B6:B10').formulas=[[`=COUNTA('Concepts'!$B$6:$B$${5+n})`],[`=COUNTA('Concept Pairs'!$A$6:$A$${pairEnd})`],[`=COUNTA('Project Notes'!$B$6:$B$${5+pn})`],[`=COUNTA('Project Kinds'!$A$6:$A$${pkEnd})`],[`=COUNTA('Project Pairs'!$A$6:$A$${5+pn*pn})`]];
+intro.getRange('A1:F2').merge();intro.getRange('A1').values=[['Subject Completion and Type Relations']];intro.getRange('A1:F2').format={fill:ink,font:{name:'Aptos Display',size:25,bold:true,color:white},rowHeight:25,verticalAlignment:'center'};
+intro.getRange('A3:F3').merge();intro.getRange('A3').values=[['Complete the expression. Change its order and relations. Then test its types and exclusions.']];intro.getRange('A3:F3').format={font:{size:13,color:teal},rowHeight:34,wrapText:true};
+intro.getRange('A5:B10').values=[['Coverage','Count'],['Base kinds compared',null],['Expression rows',null],['Expression × kind comparisons',null],['Source project families',null],['About page revisions',null]];
+intro.getRange('B6:B10').formulas=[[`=COUNTA('Concepts'!$B$6:$B$${5+n})`],[`=COUNTA('Subject Completions'!$A$6:$A$${5+en})`],[`=COUNTA('Expression Pairs'!$A$6:$A$${epEnd})`],[`=COUNTA('Project Notes'!$B$6:$B$${5+pn})`],[`=COUNTA('About History'!$B$6:$B$${5+aboutHistory.records.length})`]];
 intro.getRange('D5:F10').values=[['Code','Meaning','Reading'],['Y','Admitted inclusion','All A are B under the stated assumptions.'],['N','Universal inclusion refuted','Do not infer that no A can also be B.'],['O','Overlap plus counterexample','Some overlap is demonstrated; not all A are B.'],['?','Open','Insufficient grounds; not a disguised No.'],['S','Identity','Self-comparison only.']];
 for(const range of ['A5:B5','D5:F5'])intro.getRange(range).format={fill:teal,font:{bold:true,color:white},rowHeight:28};
 intro.getRange('A6:F10').format={wrapText:true,rowHeight:43,verticalAlignment:'center'};intro.getRange('B6:B10').setNumberFormat('#,##0');intro.getRange('B6:B10').format.font={size:19,bold:true,color:teal};
 const notes=[
- ['Start with Reversals','The useful result is often the change in what is being considered. Intelligence as a capacity and improvement as a change are not interchangeable; the activity-of-improving reading is a separate proposal.'],
- ['Then use the lists','Type Lists answers “what is each thing a type of, not a type of, or still open?” Project Lists does the same for explicitly source-described project views.'],
- ['Every direction is present','Concept Pairs contains all ordered comparisons, including the reverse. The results are rule- and witness-based assessments under visible assumptions, not claims of exhaustive knowledge.'],
- ['Common parents are plural','Common Parents records all admitted parents and the most specific among them. “Subject” is often true but uninformative. A shared parent does not make its children disjoint.'],
- ['A productive reversal can change the definition','Reversals says exactly what must be broadened, narrowed, converted from capacity to activity, or treated as a functional reconstruction. Those proposals are not silently inserted into the literal matrix.'],
- ['The earlier hierarchy is a hypothesis to examine','This workbook reopens broad labels and alternative orientations. It does not treat the last repository arrangement as the only possible classification.'],
- ['Project kind is not subtype','Project Kinds classifies the described artifact, method, or organization in Project Notes. Project Pairs separately tests containment between named system families; current profiles do not establish those universal claims.'],
- ['Inspect negative evidence','N may come from a fixed-sense exclusion or one separating case. O additionally records a shared case. Missing evidence always stays open. Promoting and the Master Framework source gap are not filled by invention.'],
- ['Editing','Result cells in Concept Pairs and Project Kinds drive the lists and matrix. Changing a definition, implication, or case requires rerunning the analysis; spreadsheet formulas do not reason about changed prose. Common Parents and the primary-result summaries in Reversals are snapshots of the admitted model.'],
- ['Scope','The vocabulary covers the earlier labels, reconsidered labels, structural terms, and the 21 source families. It is a bounded comparison inventory, not a list of every possible type or subject.'],
- ['Next operation','Use a disputed cell to construct an actual separating case or a stronger definition. A newly informative parent must explain a shared property; selecting a common folder is not enough.']
+ ['Start with Subject Completions','The classified item is explicit. Intelligence improvement is a beneficial change in a capability; intelligence maintenance is work preserving it. An omitted relation or qualifier can change the answer.'],
+ ['Then use Completed Types','Lists show admitted types, supported negatives, and open comparisons for each specified expression. Expression Pairs contains the grounds. One Promoting row remains meaning-unresolved.'],
+ ['Broad negatives do not pass to narrower types','Development need not improve anything. Development that improves intelligence nevertheless belongs to both Development and Improvement. Qualification Tests records this and the other inheritance conditions.'],
+ ['Order and relation are separate','Order Trials compares word order, modifier attachment, nested scope, and negation. Technical writing and Writing technical can name the same specified kind; Art writing and Writing art can concern different items.'],
+ ['One expression, multiple indexes','Subject Completions offers topic-first and kind-first indexes tied to one expression ID. Changing the index order does not change the type; changing a target, means, product, or qualifier may change it.'],
+ ['The project subjects are particular','Project Subjects specifies three distinct kinds of work or contribution for every source family. These are proposed purpose-specific subjects, not proof that the project implements or succeeds at each contribution.'],
+ ['The history is inspected','About History covers all 58 main-history revisions of the specified Reasoningtool page. Wording Changes separates preserved type patterns, grammar changes, altered relationships, and changed commitments.'],
+ ['The first matrix now has a clearer scope','Concepts, Type Lists, and Type Matrix retain one explicit primary sense per broad word. They do not decide all completed expressions. Reversals still supplies alternative accounts and common-parent proposals.'],
+ ['Editing and dependent results','Editable result cells in Expression Pairs, Concept Pairs, and Project Kinds drive their lists. Definitions, parent assumptions, and completed readings require renewed analysis when changed; formulas do not infer revised prose.'],
+ ['Boundaries and standing','A specified topic and a specified kind are different relations. Extra words do not guarantee exclusive siblings. Missing evidence remains open; Promoting and the Master Framework source identity remain unresolved.'],
+ ['What the completion reveals','A subject may need a target, operation, result, condition, standard, or relation before a consequential type question becomes answerable. Completeness is relative to that question, not to phrase length.']
 ];
 for(let i=0;i<notes.length;i++){const row=13+i*2;intro.getRange(`A${row}:B${row+1}`).merge();intro.getRange(`C${row}:F${row+1}`).merge();intro.getRange(`A${row}`).values=[[notes[i][0]]];intro.getRange(`C${row}`).values=[[notes[i][1]]];intro.getRange(`A${row}:F${row+1}`).format={wrapText:true,rowHeight:31,verticalAlignment:'center'};intro.getRange(`A${row}:B${row+1}`).format={fill:i%2?paper:light,font:{bold:true,color:teal}};}
 for(const [c,w]of [['A',23],['B',18],['C',22],['D',11],['E',32],['F',52]])intro.getRange(`${c}1:${c}37`).format.columnWidth=w;
@@ -181,12 +234,13 @@ intro.freezePanes.freezeRows(3);
 
 const key=await wb.inspect({kind:'table',range:"'Read Me'!A5:F10",include:'values,formulas',tableMaxRows:6,tableMaxCols:6,maxChars:3500});console.log(key.ndjson);
 const listCheck=await wb.inspect({kind:'table',range:"'Type Lists'!A6:D9",include:'values,formulas',tableMaxRows:4,tableMaxCols:4,tableMaxCellChars:100,maxChars:3500});console.log(listCheck.ndjson);
+const completionCheck=await wb.inspect({kind:'table',range:"'Completed Types'!A8:E11",include:'values,formulas',tableMaxRows:4,tableMaxCols:5,tableMaxCellChars:90,maxChars:2500});console.log(completionCheck.ndjson);
 const errors=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#SPILL!|#CALC!',options:{useRegex:true,maxResults:30},summary:'Formula error scan',maxChars:2000});console.log(errors.ndjson); assert(!errors.ndjson.includes("\"kind\":\"match\""), "Formula errors remain");
 await fs.writeFile(path.join(out,'formula-check.txt'),errors.ndjson);
 
 const renderRanges={
- 'Read Me':'A1:F37','Concepts':'A1:D9','Type Lists':'A1:D7','Type Matrix':'A1:K16','Concept Pairs':'A1:H8','Reversals':'A1:F7','Common Parents':'A1:E8','Project Notes':'A1:F7','Project Lists':'A1:D7','Project Kinds':'A1:F8','Project Pairs':'A1:F7','Cases':'A1:D8','Rules':'A1:E8','Sources':'A1:E7'
+ 'Read Me':'A1:F37','Subject Completions':'A1:F8','Completed Types':'A1:E7','Expression Pairs':'A1:F8','Order Trials':'A1:F8','Qualification Tests':'A1:F8','Project Subjects':'A1:F8','About History':'A1:F8','Wording Changes':'A1:E7','Concepts':'A1:D9','Type Lists':'A1:D7','Type Matrix':'A1:K16','Concept Pairs':'A1:H8','Reversals':'A1:F7','Common Parents':'A1:E8','Project Notes':'A1:F7','Project Lists':'A1:D7','Project Kinds':'A1:F8','Project Pairs':'A1:F7','Cases':'A1:D8','Rules':'A1:E8','Sources':'A1:E7'
 };
 for(const name of sheetNames){const blob=await wb.render({sheetName:name,range:renderRanges[name],scale:1,format:'png'});await fs.writeFile(path.join(out,`preview-${name.replaceAll(' ','-')}.png`),new Uint8Array(await blob.arrayBuffer()));console.log(`Rendered ${name}`);}
 const file=await SpreadsheetFile.exportXlsx(wb);await file.save(path.join(out,'Subject_Type_Relations.xlsx'));
-console.log(JSON.stringify({stage:'exported',file:path.join(out,'Subject_Type_Relations.xlsx'),sheets:sheetNames.length,concepts:n,projects:pn,cases:cases.length,reversals:exploration.reversals.length}));
+console.log(JSON.stringify({stage:'exported',file:path.join(out,'Subject_Type_Relations.xlsx'),sheets:sheetNames.length,concepts:n,projects:pn,expressions:en,resolvedExpressions:completed.filter(e=>e.heads.length).length,expressionComparisons:en*n,historyRevisions:aboutHistory.records.length,cases:cases.length,reversals:exploration.reversals.length}));

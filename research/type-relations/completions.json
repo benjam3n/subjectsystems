@@ -1,0 +1,1257 @@
+{
+  "version": 2,
+  "equivalent_readings": {"improvement achievement":"Improvement","development process":"Development","reasoning execution":"Reasoning","discovery occurrence":"Discovery","understanding capability":"Understanding","creativity capability":"Creativity","goal specification":"Goals","preference relation":"Preferences","value standard":"Values","judgment occurrence":"Judgment","decision commitment":"Decisions","question specification":"Questions","search execution":"Search","curiosity disposition":"Curiosity","research investigation":"Research","science field":"Science","philosophy field":"Philosophy","problem finding execution":"Problem finding","problem solving attempt":"Problem solving","explanation account":"Explanation","prediction statement":"Prediction","uncertainty position":"Uncertainty","knowledge state":"Knowledge","memory availability relation":"Memory","connection relation":"Connections","relevance relation":"Relevance","planning result":"Planning","action execution":"Action","communication occurrence":"Communication","writing process":"Writing","prompting execution":"Prompting","design process":"Design","system arrangement":"System","project undertaking":"Project","method prescription":"Method","framework specification":"Framework","tool artifact":"Tool","process occurrence":"Process","operation occurrence":"Operation","capability possession":"Capability","relation predicate":"Relation","change occurrence":"Change","artifact item":"Artifact","model representation":"Model","field domain":"Field","type class":"Type","evaluation occurrence":"Evaluation","integration process":"Integration","automation configuration":"Automation","self-improvement occurrence":"Self-improvement","education activity":"Education","collaboration process":"Collaboration","allocation act":"Allocation","configuration arrangement":"Configuration","selection occurrence":"Selection","constraint condition":"Constraint","feedback relation":"Feedback","transformation occurrence":"Transformation"},
+  "scope": "Working completed expressions. Every row fixes a reading; these are not unique dictionary meanings or an exhaustive subject grammar.",
+  "comparison_note": "The older concept matrix tests one primary sense per word. It is not a verdict on every completed expression. Universal inclusions and explicit disjointness can pass to subclasses; a refuted broad inclusion cannot.",
+  "groups": [
+    [
+      "Improvement",
+      [
+        [
+          "improvement achievement",
+          "Improvement",
+          "occurrence",
+          "A realized change that is better under a fixed baseline and standard."
+        ],
+        [
+          "improvement method",
+          "Method",
+          "means",
+          "A prescribed way of seeking betterment; success is not part of membership."
+        ]
+      ]
+    ],
+    [
+      "Development",
+      [
+        [
+          "development process",
+          "Development",
+          "occurrence",
+          "Formation or elaboration of a structure or capacity, including worsening cases."
+        ],
+        [
+          "development improvement",
+          "Development+Improvement",
+          "qualified occurrence",
+          "Development whose resulting change is better under the same stated standard."
+        ]
+      ]
+    ],
+    [
+      "Intelligence",
+      [
+        [
+          "intelligence improvement",
+          "Improvement",
+          "target",
+          "A realized increase in a specified intelligent capability under fixed tasks, conditions, baseline, and standard."
+        ],
+        [
+          "intelligence maintenance",
+          "Process",
+          "target",
+          "An occurrence of preserving an intelligent capability within a specified tolerance over an interval; increased capability is not required."
+        ],
+        [
+          "intelligence measurement",
+          "Evaluation",
+          "target",
+          "Assessment of a specified intelligent capability through stated observations and inference rules."
+        ],
+        [
+          "intelligence requirement",
+          "Constraint",
+          "required means",
+          "A condition specifying the intelligent capability an activity requires under stated supports and circumstances."
+        ],
+        [
+          "intelligence learning",
+          "Learning",
+          "target",
+          "An experience-dependent lasting change in an intelligent capability; the change is not assumed beneficial."
+        ],
+        [
+          "intelligence improvement through learning",
+          "Learning+Improvement",
+          "target and means",
+          "An experience-dependent lasting change that improves the specified intelligent capability under an unchanged standard."
+        ]
+      ]
+    ],
+    [
+      "Creation",
+      [
+        [
+          "creation capability",
+          "Capability",
+          "capacity",
+          "An ability to bring a specified class of new items into existence under stated conditions."
+        ],
+        [
+          "creation result",
+          "Result+Artifact",
+          "product",
+          "An intentionally produced new item considered as the result of a creation process."
+        ]
+      ]
+    ],
+    [
+      "Learning",
+      [
+        [
+          "learning process",
+          "Learning+Process",
+          "occurrence",
+          "A lasting experience-dependent change considered as the temporal process in which it occurs."
+        ],
+        [
+          "learning improvement",
+          "Improvement",
+          "target",
+          "A realized improvement in a learning process or capacity, with the target and criterion fixed."
+        ]
+      ]
+    ],
+    [
+      "Reasoning",
+      [
+        [
+          "reasoning execution",
+          "Reasoning",
+          "occurrence",
+          "An actual transition among specified claims, questions, assumptions, or possibilities."
+        ],
+        [
+          "reasoning method",
+          "Method",
+          "prescription",
+          "A repeatable prescription for making specified intellectual transitions."
+        ]
+      ]
+    ],
+    [
+      "Discovery",
+      [
+        [
+          "discovery occurrence",
+          "Discovery",
+          "occurrence",
+          "A change that makes something available to a specified inquirer relative to a fixed earlier position."
+        ],
+        [
+          "discovery assessment",
+          "Evaluation",
+          "target",
+          "An assessment of what is newly available, to whom, relative to which baseline."
+        ]
+      ]
+    ],
+    [
+      "Understanding",
+      [
+        [
+          "understanding capability",
+          "Understanding",
+          "capacity",
+          "An ability to use the relevant relations to distinguish, explain, or handle specified cases."
+        ],
+        [
+          "understanding development",
+          "Development",
+          "target",
+          "A process that forms or elaborates that capability, with the domain and conditions fixed."
+        ]
+      ]
+    ],
+    [
+      "Creativity",
+      [
+        [
+          "creativity capability",
+          "Creativity",
+          "capacity",
+          "The ability to generate materially different possibilities under stated conditions."
+        ],
+        [
+          "creativity assessment",
+          "Evaluation",
+          "target",
+          "Assessment of that generative ability from specified tasks and evidence."
+        ]
+      ]
+    ],
+    [
+      "Subject",
+      [
+        [
+          "subject specification",
+          "Representation",
+          "specification",
+          "An authored expression fixing what is being considered, its referents, and relevant boundaries."
+        ],
+        [
+          "subject classification",
+          "Judgment",
+          "target",
+          "A verdict about which explicitly defined scopes or classes a specified matter satisfies."
+        ]
+      ]
+    ],
+    [
+      "Goals",
+      [
+        [
+          "goal specification",
+          "Goals",
+          "specified object",
+          "A specification of an intended outcome and its achievement conditions."
+        ],
+        [
+          "goal selection",
+          "Selection+Decisions",
+          "target",
+          "An operative choice of which specified goal to adopt, defer, reject, or reopen."
+        ]
+      ]
+    ],
+    [
+      "Preferences",
+      [
+        [
+          "preference relation",
+          "Preferences",
+          "relation",
+          "An agent's contextual favoring of alternatives or features."
+        ],
+        [
+          "preference discovery",
+          "Discovery",
+          "target",
+          "A change that makes a preference pattern available to an inquiry; the hypothesis may still need testing."
+        ]
+      ]
+    ],
+    [
+      "Values",
+      [
+        [
+          "value standard",
+          "Values",
+          "standard",
+          "A stated ground of worth by which alternatives deserve consideration."
+        ],
+        [
+          "value conflict assessment",
+          "Evaluation",
+          "relation among targets",
+          "Assessment of what happens when specified grounds of worth favor incompatible alternatives."
+        ]
+      ]
+    ],
+    [
+      "Judgment",
+      [
+        [
+          "judgment occurrence",
+          "Judgment",
+          "occurrence",
+          "A particular assessment that reaches or revises a verdict under stated grounds."
+        ],
+        [
+          "judgment improvement",
+          "Improvement",
+          "target",
+          "A realized improvement in a judgment process or its verdict quality under a fixed standard."
+        ]
+      ]
+    ],
+    [
+      "Decisions",
+      [
+        [
+          "decision commitment",
+          "Decisions",
+          "occurrence",
+          "An act that adopts, rejects, defers, withdraws, or reopens an operative option."
+        ],
+        [
+          "decision justification",
+          "Explanation",
+          "grounds",
+          "An account of the reasons and conditions on which a specified decision depends."
+        ]
+      ]
+    ],
+    [
+      "Questions",
+      [
+        [
+          "question specification",
+          "Questions",
+          "specified object",
+          "A specification of the distinction requested, relevant referents, assumptions, and resolution conditions."
+        ],
+        [
+          "question creation",
+          "Creation",
+          "product",
+          "The process of constructing a new question specification, with question identity fixed."
+        ]
+      ]
+    ],
+    [
+      "Search",
+      [
+        [
+          "search execution",
+          "Search",
+          "occurrence",
+          "An actual exploration of candidate locations or possibilities for a stated target."
+        ],
+        [
+          "search strategy",
+          "Strategy",
+          "control specification",
+          "A proposed policy determining where, how, and when a later search proceeds."
+        ]
+      ]
+    ],
+    [
+      "Curiosity",
+      [
+        [
+          "curiosity disposition",
+          "Curiosity",
+          "disposition",
+          "A disposition to find out about a specified matter, independent of whether it is pursued."
+        ],
+        [
+          "curiosity pursuit",
+          "Action",
+          "expression in action",
+          "An occurrence of acting on curiosity about a specified matter."
+        ]
+      ]
+    ],
+    [
+      "Research",
+      [
+        [
+          "research investigation",
+          "Research",
+          "occurrence",
+          "A sustained inquiry organized around specified matters and revisable findings."
+        ],
+        [
+          "research agenda",
+          "Planning",
+          "proposed course",
+          "A proposed arrangement of research questions, dependencies, and possible continuations."
+        ]
+      ]
+    ],
+    [
+      "Science",
+      [
+        [
+          "science field",
+          "Science",
+          "field",
+          "A field of practices investigating empirically examinable accounts."
+        ],
+        [
+          "science investigation",
+          "Research",
+          "instance of work",
+          "A particular sustained empirical inquiry within such a field."
+        ]
+      ]
+    ],
+    [
+      "Philosophy",
+      [
+        [
+          "philosophy field",
+          "Philosophy",
+          "field",
+          "A field investigating concepts, grounds, implications, and fundamental questions."
+        ],
+        [
+          "philosophy investigation",
+          "Research",
+          "instance of work",
+          "A particular sustained investigation of a specified conceptual or foundational matter."
+        ]
+      ]
+    ],
+    [
+      "Problem finding",
+      [
+        [
+          "problem finding execution",
+          "Problem finding",
+          "occurrence",
+          "An operation that identifies or formulates a particular obstruction or unmet requirement."
+        ],
+        [
+          "problem finding method",
+          "Method",
+          "prescription",
+          "A repeatable prescription for identifying or formulating obstructions and unmet requirements."
+        ]
+      ]
+    ],
+    [
+      "Problem solving",
+      [
+        [
+          "problem solving attempt",
+          "Problem solving",
+          "occurrence",
+          "An activity directed toward removing a specified difficulty, regardless of success."
+        ],
+        [
+          "problem solving improvement",
+          "Improvement",
+          "target",
+          "A realized improvement in the means or results of solving the specified class of problems."
+        ]
+      ]
+    ],
+    [
+      "Explanation",
+      [
+        [
+          "explanation account",
+          "Explanation",
+          "account",
+          "An account of how a specified occurrence depends on stated conditions or factors."
+        ],
+        [
+          "explanation creation",
+          "Creation+Writing",
+          "product",
+          "The process of constructing a new textual explanatory account."
+        ]
+      ]
+    ],
+    [
+      "Prediction",
+      [
+        [
+          "prediction statement",
+          "Prediction",
+          "representation",
+          "A representation of an outcome made before that outcome is available to the predictor."
+        ],
+        [
+          "prediction assessment",
+          "Evaluation",
+          "target",
+          "Assessment of a prediction against its stated outcome, horizon, and scoring criterion."
+        ]
+      ]
+    ],
+    [
+      "Truth",
+      [
+        [
+          "truth condition specification",
+          "Representation",
+          "conditions",
+          "An expression specifying what must hold for a particular assertion to be true."
+        ],
+        [
+          "truth assessment",
+          "Judgment",
+          "target",
+          "A verdict about whether what an assertion says holds under its fixed interpretation."
+        ]
+      ]
+    ],
+    [
+      "Uncertainty",
+      [
+        [
+          "uncertainty position",
+          "Uncertainty",
+          "epistemic position",
+          "A position in which specified alternatives remain unresolved for an agent or inquiry."
+        ],
+        [
+          "uncertainty reduction",
+          "Change",
+          "target",
+          "A transition in which fewer specified alternatives remain unresolved; warrantedness is separately assessed."
+        ]
+      ]
+    ],
+    [
+      "Knowledge",
+      [
+        [
+          "knowledge state",
+          "Knowledge",
+          "state",
+          "Possession of true content with adequate grounds under a declared account of knowing."
+        ],
+        [
+          "knowledge representation",
+          "Representation",
+          "content represented",
+          "An expression presenting attributed knowledge, which need not itself establish knowledge."
+        ]
+      ]
+    ],
+    [
+      "Memory",
+      [
+        [
+          "memory availability relation",
+          "Memory",
+          "relation",
+          "The relation through which specified earlier material is available to later work."
+        ],
+        [
+          "memory retrieval",
+          "Operation",
+          "use",
+          "An operation that makes retained material operative in a current task."
+        ]
+      ]
+    ],
+    [
+      "Representation",
+      [
+        [
+          "representation artifact",
+          "Representation+Artifact",
+          "authored expression",
+          "An intentionally produced expression that stands for specified content or distinctions."
+        ],
+        [
+          "representation interpretation",
+          "Reasoning",
+          "use",
+          "An intellectual process that determines the content or distinctions an expression represents."
+        ]
+      ]
+    ],
+    [
+      "Connections",
+      [
+        [
+          "connection relation",
+          "Connections",
+          "relation",
+          "A specified relation linking terms or positions."
+        ],
+        [
+          "connection discovery",
+          "Discovery",
+          "target",
+          "A change that makes a previously unavailable relation available to a specified inquiry."
+        ]
+      ]
+    ],
+    [
+      "Relevance",
+      [
+        [
+          "relevance relation",
+          "Relevance",
+          "relation",
+          "A contribution relation between material and a specified concern under stated circumstances."
+        ],
+        [
+          "relevance assessment",
+          "Evaluation",
+          "target",
+          "Assessment of whether and how material contributes to a specified concern."
+        ]
+      ]
+    ],
+    [
+      "Attention",
+      [
+        [
+          "attention allocation",
+          "Attention+Allocation",
+          "occurrence",
+          "An allocation of operative focus among available contents or activities."
+        ],
+        [
+          "attention requirement",
+          "Constraint",
+          "required means",
+          "A condition specifying the operative focus required for a particular task under stated supports."
+        ]
+      ]
+    ],
+    [
+      "Resources",
+      [
+        [
+          "resource availability",
+          "Relation",
+          "availability",
+          "A relation between a specified means and the uses for which it is available under conditions."
+        ],
+        [
+          "resource allocation",
+          "Allocation",
+          "target",
+          "An assignment of specified means, capacity, or access to uses."
+        ]
+      ]
+    ],
+    [
+      "Planning",
+      [
+        [
+          "planning activity",
+          "Process",
+          "occurrence",
+          "The activity of arranging prospective actions, dependencies, and contingencies."
+        ],
+        [
+          "planning result",
+          "Planning",
+          "product",
+          "A proposed arrangement of prospective actions, dependencies, and contingencies."
+        ]
+      ]
+    ],
+    [
+      "Strategy",
+      [
+        [
+          "strategy specification",
+          "Strategy",
+          "specified object",
+          "An authored proposed policy governing later action under conditions."
+        ],
+        [
+          "strategy selection",
+          "Selection+Decisions",
+          "target",
+          "An operative choice among specified candidate policies."
+        ]
+      ]
+    ],
+    [
+      "Action",
+      [
+        [
+          "action execution",
+          "Action",
+          "occurrence",
+          "An occurrence of doing under an agent's direction or control."
+        ],
+        [
+          "action plan",
+          "Planning",
+          "proposed course",
+          "A proposed arrangement for what actions to take and under which conditions."
+        ]
+      ]
+    ],
+    [
+      "Communication",
+      [
+        [
+          "communication occurrence",
+          "Communication",
+          "occurrence",
+          "A process of addressing contributions for interpretation in a specified interaction."
+        ],
+        [
+          "communication clarity assessment",
+          "Evaluation",
+          "property of target",
+          "Assessment of how well intended distinctions survive interpretation in that interaction."
+        ]
+      ]
+    ],
+    [
+      "Writing",
+      [
+        [
+          "writing process",
+          "Writing",
+          "occurrence",
+          "The process of constructing or revising text."
+        ],
+        [
+          "writing artifact",
+          "Artifact+Representation",
+          "product",
+          "An authored text considered as an expression rather than its production process."
+        ],
+        [
+          "writing technical",
+          "Writing",
+          "domain qualifier",
+          "Writing whose subject matter is a specified technical domain."
+        ],
+        [
+          "writing technique",
+          "Method",
+          "means",
+          "A repeatable method for constructing or revising text; its topic can be nontechnical."
+        ]
+      ]
+    ],
+    [
+      "Prompting",
+      [
+        [
+          "prompting execution",
+          "Prompting",
+          "occurrence",
+          "An act of addressing a model with instructions or context to influence its work."
+        ],
+        [
+          "prompt specification",
+          "Artifact+Representation",
+          "instruction object",
+          "An authored instruction or contextual expression prepared for a model."
+        ]
+      ]
+    ],
+    [
+      "Promoting",
+      [
+        [
+          "promoting — meaning unresolved",
+          "",
+          "unresolved",
+          "The label has no adopted meaning; no completion or marketing interpretation is supplied."
+        ]
+      ]
+    ],
+    [
+      "Design",
+      [
+        [
+          "design process",
+          "Design",
+          "occurrence",
+          "Developing or assessing candidate form and requirements against intended use and feasibility."
+        ],
+        [
+          "design specification",
+          "Artifact+Representation",
+          "product",
+          "An authored expression specifying a proposed form, its requirements, and relevant conditions."
+        ]
+      ]
+    ],
+    [
+      "System",
+      [
+        [
+          "system arrangement",
+          "System",
+          "arrangement",
+          "An organization of interacting components considered through joint behavior or function."
+        ],
+        [
+          "system integration",
+          "Integration",
+          "target",
+          "The process of arranging interactions or compatibility among specified components."
+        ]
+      ]
+    ],
+    [
+      "Project",
+      [
+        [
+          "project undertaking",
+          "Project",
+          "undertaking",
+          "A bounded purposeful undertaking with coordinated work and intended results."
+        ],
+        [
+          "project repository",
+          "Artifact",
+          "documentation container",
+          "An authored collection of files recording or implementing some of the undertaking."
+        ]
+      ]
+    ],
+    [
+      "Method",
+      [
+        [
+          "method prescription",
+          "Method",
+          "prescription",
+          "A specified repeatable way of performing work."
+        ],
+        [
+          "method execution",
+          "Process",
+          "occurrence",
+          "A particular occurrence of work that follows the specified method."
+        ]
+      ]
+    ],
+    [
+      "Framework",
+      [
+        [
+          "framework specification",
+          "Framework",
+          "organization",
+          "An authored organization of concepts, distinctions, and relations for further work."
+        ],
+        [
+          "framework application",
+          "Process",
+          "use",
+          "An occurrence of using that organization to address a specified matter."
+        ]
+      ]
+    ],
+    [
+      "Instrument",
+      [
+        [
+          "instrument use",
+          "Action",
+          "use",
+          "An agent-directed occurrence of employing specified means for a result."
+        ],
+        [
+          "instrument calibration",
+          "Evaluation",
+          "target",
+          "An assessment of instrument indications against stated reference conditions."
+        ]
+      ]
+    ],
+    [
+      "Tool",
+      [
+        [
+          "tool artifact",
+          "Tool",
+          "authored means",
+          "An authored artifact supplied or used for a specified operation."
+        ],
+        [
+          "tool development",
+          "Development",
+          "target",
+          "A process that forms or elaborates the tool's structure or capabilities."
+        ]
+      ]
+    ],
+    [
+      "Process",
+      [
+        [
+          "process occurrence",
+          "Process",
+          "occurrence",
+          "An occurrence unfolding through an ordered course over time."
+        ],
+        [
+          "process representation",
+          "Representation",
+          "account",
+          "An expression representing the stages, events, or dependencies of a process."
+        ]
+      ]
+    ],
+    [
+      "Operation",
+      [
+        [
+          "operation occurrence",
+          "Operation",
+          "occurrence",
+          "An identifiable process transforming or selecting material under stated conditions."
+        ],
+        [
+          "operation specification",
+          "Method",
+          "prescription",
+          "A repeatable prescription fixing inputs, transformation, and occurrence conditions."
+        ]
+      ]
+    ],
+    [
+      "Capability",
+      [
+        [
+          "capability possession",
+          "Capability",
+          "disposition",
+          "The retained ability to perform specified work under specified conditions."
+        ],
+        [
+          "capability exercise",
+          "Process",
+          "occurrence",
+          "An occurrence in which that ability is exercised."
+        ]
+      ]
+    ],
+    [
+      "Relation",
+      [
+        [
+          "relation predicate",
+          "Relation",
+          "relation",
+          "The specified way in which terms or positions stand to one another."
+        ],
+        [
+          "relation expression",
+          "Representation",
+          "representation",
+          "An expression representing a relation and its argument positions."
+        ]
+      ]
+    ],
+    [
+      "Change",
+      [
+        [
+          "change occurrence",
+          "Change",
+          "difference",
+          "A difference between fixed earlier and later states or positions."
+        ],
+        [
+          "change detection",
+          "Operation",
+          "target",
+          "An operation identifying a difference between specified positions or states."
+        ]
+      ]
+    ],
+    [
+      "Result",
+      [
+        [
+          "result artifact",
+          "Result+Artifact",
+          "produced item",
+          "An intentionally produced item considered as the result of specified work."
+        ],
+        [
+          "result assessment",
+          "Evaluation",
+          "target",
+          "Assessment of a specified result against fixed criteria and context."
+        ]
+      ]
+    ],
+    [
+      "Artifact",
+      [
+        [
+          "artifact item",
+          "Artifact",
+          "authored item",
+          "An intentionally produced item or expression."
+        ],
+        [
+          "artifact preservation",
+          "Process",
+          "target",
+          "A process maintaining the identity and relevant properties of an artifact over time."
+        ]
+      ]
+    ],
+    [
+      "Model",
+      [
+        [
+          "model representation",
+          "Model",
+          "representation",
+          "A representation used to examine or derive consequences about a specified target."
+        ],
+        [
+          "model execution",
+          "Process",
+          "use",
+          "An occurrence of operating a specified executable model with stated inputs."
+        ]
+      ]
+    ],
+    [
+      "Field",
+      [
+        [
+          "field domain",
+          "Field",
+          "domain",
+          "An organized domain of investigative concerns and practices."
+        ],
+        [
+          "field investigation",
+          "Research",
+          "instance of work",
+          "A sustained inquiry into a specified matter within such a domain."
+        ]
+      ]
+    ],
+    [
+      "Type",
+      [
+        [
+          "type class",
+          "Type",
+          "class",
+          "A class whose members satisfy stated membership conditions."
+        ],
+        [
+          "type assignment",
+          "Judgment",
+          "relation assessment",
+          "A verdict that a specified item or class satisfies stated membership or containment conditions."
+        ]
+      ]
+    ],
+    [
+      "Evaluation",
+      [
+        [
+          "evaluation occurrence",
+          "Evaluation",
+          "occurrence",
+          "An assessing operation determining status or comparative merit under stated criteria."
+        ],
+        [
+          "evaluation criterion",
+          "Values",
+          "standard",
+          "A stated ground of merit used in a specified assessment."
+        ]
+      ]
+    ],
+    [
+      "Integration",
+      [
+        [
+          "integration process",
+          "Integration",
+          "occurrence",
+          "Arranging interactions or compatibility so specified components can function together."
+        ],
+        [
+          "integration requirement",
+          "Constraint",
+          "condition",
+          "A condition that the intended joint functioning of components must satisfy."
+        ]
+      ]
+    ],
+    [
+      "Automation",
+      [
+        [
+          "automation configuration",
+          "Automation",
+          "arrangement",
+          "A configuration in which specified work runs without repeated local human selection."
+        ],
+        [
+          "automation development",
+          "Development",
+          "target",
+          "A process forming or elaborating such a configuration."
+        ]
+      ]
+    ],
+    [
+      "Self-improvement",
+      [
+        [
+          "self-improvement occurrence",
+          "Self-improvement",
+          "occurrence",
+          "Improvement where the system producing or governing the change is also the target that improves."
+        ],
+        [
+          "self-improvement method",
+          "Method",
+          "prescription",
+          "A prescribed way for a system to seek its own improvement; success is not implied."
+        ]
+      ]
+    ],
+    [
+      "Education",
+      [
+        [
+          "education activity",
+          "Education",
+          "occurrence",
+          "Organized activity intended to develop another agent's understanding or capabilities."
+        ],
+        [
+          "education effect assessment",
+          "Evaluation",
+          "effect",
+          "Assessment of what changed in a learner and whether the educational activity warrants attribution."
+        ]
+      ]
+    ],
+    [
+      "Collaboration",
+      [
+        [
+          "collaboration process",
+          "Collaboration",
+          "occurrence",
+          "Multiple agents coordinating contributions to shared work."
+        ],
+        [
+          "collaboration agreement",
+          "Artifact+Representation",
+          "commitment expression",
+          "An authored expression of the participants' roles, commitments, and coordination conditions."
+        ]
+      ]
+    ],
+    [
+      "Allocation",
+      [
+        [
+          "allocation act",
+          "Allocation",
+          "occurrence",
+          "An assignment of specified means or access to uses under conditions."
+        ],
+        [
+          "allocation plan",
+          "Planning",
+          "proposed course",
+          "A proposed arrangement of later assignments of means or access to uses."
+        ]
+      ]
+    ],
+    [
+      "Configuration",
+      [
+        [
+          "configuration arrangement",
+          "Configuration",
+          "arrangement",
+          "A specified arrangement of elements and relations."
+        ],
+        [
+          "configuration transformation",
+          "Transformation",
+          "target",
+          "A specified alteration from one arrangement into another."
+        ]
+      ]
+    ],
+    [
+      "Selection",
+      [
+        [
+          "selection occurrence",
+          "Selection",
+          "occurrence",
+          "An operation resolving which alternative or subset is used, retained, or adopted."
+        ],
+        [
+          "selection rule",
+          "Method",
+          "prescription",
+          "A repeatable prescription governing how alternatives are selected under conditions."
+        ]
+      ]
+    ],
+    [
+      "Constraint",
+      [
+        [
+          "constraint condition",
+          "Constraint",
+          "condition",
+          "A condition restricting admissible actions, configurations, or results."
+        ],
+        [
+          "constraint satisfaction assessment",
+          "Evaluation",
+          "target",
+          "Assessment of whether a specified candidate satisfies the exact constraint."
+        ]
+      ]
+    ],
+    [
+      "Feedback",
+      [
+        [
+          "feedback relation",
+          "Feedback",
+          "relation",
+          "A relation through which a result becomes available to influence subsequent work."
+        ],
+        [
+          "feedback use",
+          "Operation",
+          "use",
+          "An operation that uses an available prior result to select or transform current work."
+        ]
+      ]
+    ],
+    [
+      "Transformation",
+      [
+        [
+          "transformation occurrence",
+          "Transformation",
+          "change",
+          "A change specified through how a target is altered into another state or arrangement."
+        ],
+        [
+          "transformation prescription",
+          "Method",
+          "prescription",
+          "A repeatable specification of how to produce such an alteration."
+        ]
+      ]
+    ],
+    [
+      "Art",
+      [
+        [
+          "art writing",
+          "Writing",
+          "topic",
+          "Writing whose represented subject matter is art; the writing need not itself qualify as art."
+        ],
+        [
+          "art creation through writing",
+          "Creation+Writing",
+          "medium",
+          "Producing a new artwork through the construction of text."
+        ],
+        [
+          "writing art",
+          "Artifact+Representation",
+          "topic and product",
+          "An artwork that represents or investigates writing; it may use a nontextual medium."
+        ],
+        [
+          "writing artistry assessment",
+          "Evaluation",
+          "property",
+          "Assessment of the artistry of a specified text or writing practice under stated criteria."
+        ]
+      ]
+    ]
+  ]
+}

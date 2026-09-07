@@ -14,6 +14,7 @@ A subject is a matter of consideration. This repository organizes what an inquir
 | [Boundary cases](cases/subject-boundaries.md) | Concrete separation arguments, a repaired collision, and a coverage gap |
 | [Systems within scopes](research/SCOPE-SYSTEMS.md) | Contributions of existing local designs and development directions for the source families |
 | [Type relations and reversals](research/type-relations/README.md) | The later exploration of alternative type directions, explicit negatives, shared parents, and project classifications |
+| [Subject completion and order](research/type-relations/SUBJECT-COMPLETION.md) | Specified expressions, qualification inheritance, word-order trials, project subjects, and the complete main-history review of the Reasoningtool About page |
 
 Question creation sits within question specification. Planning and Strategy share prospective course structure where their meanings coincide. Improvement sits within comparison under a stated standard. Broad activities such as research can coordinate several defined matters; the methods of those activities can themselves be studied.
 
