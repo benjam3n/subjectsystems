@@ -1,61 +1,64 @@
-# Subject scopes
+# Subject names
 
-A subject is **a specified matter of consideration**. This hierarchy organizes what an inquiry must settle. It does not classify whole people, documents, conversations, or projects into exclusive boxes.
+A subject is **a specified matter of consideration**. The current names put the general subject first, followed by the target and the particular operation, property, or relation: **Reasoning approach selection**, **Reasoning approach creation**, **Reasoning approach modification**.
 
-Standing: First working scope model derived from the user's subject-as-scope clarification. The requirement for distinguishable, non-overlapping siblings is established; these particular names and boundaries are an implementation to examine, not a user-approved final ontology.
+The [named inventory](NAMES.md) now defines **299 subjects**, with **82 target groups** under **28 general headings**. Every entry states what it settles and a nearby determination it does not settle. These numbers describe the current expansion of the source vocabulary, not all possible subjects.
 
-## Reading the hierarchy
-
-Each row below is a parent scope defined by the union of its named children. A child narrows the matter considered. The parent and child therefore share scope by containment; alternative branches must exclude the same fully specified matter.
-
-The short parent names are navigation labels for the definitions. “Questions” here covers question specification and answer fit. It does not mean everything concerning anything that happens to be a question. Creating a question can be investigated within question specification; assessing its comparative worth belongs to valuation. Neither operation is classified by whatever source system performs it.
-
-The 28 scopes give concrete boundaries for the present material. They do not exhaust all subjects or all meanings of the earlier words. The [complete mapping](../../research/SCOPE-MAP.md) records each narrowed, split, merged, and withdrawn label. New matter is not routed by closest fit.
-
-| Parent scope | Defined child scopes |
-|---|---|
-| [Questions](questions.md) | [Q1 — Question specification](questions.md#q1-question-specification); [Q2 — Answer fit](questions.md#q2-answer-fit) |
-| [Aims and commitments](purposes.md) | [P1 — Goal formulation](purposes.md#p1-goal-formulation); [P2 — Commitments](purposes.md#p2-commitments) |
-| [Valuation](valuation.md) | [V1 — Contextual favoring](valuation.md#v1-contextual-favoring); [V2 — Standards of worth](valuation.md#v2-standards-of-worth); [V3 — Assessment under a standard](valuation.md#v3-assessment-under-a-standard) |
-| [Claims and accounts](accounts.md) | [A1 — Claim content and truth conditions](accounts.md#a1-claim-content-and-truth-conditions); [A2 — Grounds and consequence](accounts.md#a2-grounds-and-consequence); [A3 — Explanatory relations](accounts.md#a3-explanatory-relations); [A4 — Predictive relations](accounts.md#a4-predictive-relations); [A5 — Epistemic position](accounts.md#a5-epistemic-position) |
-| [Problems and courses](arrangements.md) | [R1 — Problem formulation](arrangements.md#r1-problem-formulation); [R2 — Remedy adequacy](arrangements.md#r2-remedy-adequacy); [R3 — Courses and contingencies](arrangements.md#r3-courses-and-contingencies); [R4 — Resource feasibility](arrangements.md#r4-resource-feasibility) |
-| [Availability of material](availability.md) | [M1 — Retention and recovery](availability.md#m1-retention-and-recovery); [M2 — Discovery increment](availability.md#m2-discovery-increment) |
-| [Expression and uptake](expression.md) | [E1 — Encoding and textual arrangement](expression.md#e1-encoding-and-textual-arrangement); [E2 — Communicative uptake](expression.md#e2-communicative-uptake) |
-| [Regulation of activity](activity.md) | [T1 — Focus allocation](activity.md#t1-focus-allocation); [T2 — Execution control](activity.md#t2-execution-control) |
-| [Capability and change](capability.md) | [B1 — Usable capability](capability.md#b1-usable-capability); [B2 — Experience-dependent change](capability.md#b2-experience-dependent-change) |
-| [Inquiry methods](inquiry.md) | [N1 — Investigative practice](inquiry.md#n1-investigative-practice) |
-| [General relations and construction](general.md) | [G1 — General relation structures](general.md#g1-general-relation-structures); [G2 — General intellectual operations](general.md#g2-general-intellectual-operations); [G3 — General design relations](general.md#g3-general-design-relations) |
-
-## Narrower investigations already located
-
-| Investigation | Containing scope | Why it is contained |
+| General heading | Named determinations | Intermediate target groups |
 |---|---|---|
-| Creation of questions | [Q1 — Question specification](../../subjects/scopes/questions.md#q1-question-specification) | Its result is a question specification; it concerns how such a specification is formed. |
-| Forming goals | [P1 — Goal formulation](../../subjects/scopes/purposes.md#p1-goal-formulation) | Its result determines an intended outcome and achievement conditions. |
-| Curiosity as inquiry interest | [V1 — Contextual favoring](../../subjects/scopes/valuation.md#v1-contextual-favoring) | Its matter is an agent's attraction toward finding out, not the content or course of the inquiry. |
-| Improvement under a fixed standard | [V3 — Assessment under a standard](../../subjects/scopes/valuation.md#v3-assessment-under-a-standard) | It is the comparison of a changed item with a baseline. |
-| Inferential validity | [A2 — Grounds and consequence](../../subjects/scopes/accounts.md#a2-grounds-and-consequence) | It asks what the identified premises license under a specified interpretation. |
-| Answer-dependent question routes | [R3 — Courses and contingencies](../../subjects/scopes/arrangements.md#r3-courses-and-contingencies) | They concern contingency relations among inquiries; the content of each question has a separate scope. |
-| Writing as arrangement of contributions | [E1 — Encoding and textual arrangement](../../subjects/scopes/expression.md#e1-encoding-and-textual-arrangement) | It concerns textual expression; substantive reasoning performed through writing keeps its own matter. |
-| Prompting as instruction interpretation | [E2 — Communicative uptake](../../subjects/scopes/expression.md#e2-communicative-uptake) | It concerns the interpretation attributed to an addressee; fit and execution retain their own scopes. |
-| Relevance as a general contribution relation | [G1 — General relation structures](../../subjects/scopes/general.md#g1-general-relation-structures) | It examines a relation and its conditions, not an exclusive type of the contributing object. |
+| [Reasoning](NAMES.md#reasoning) | 34 | Reasoning approach; Reasoning candidate; Reasoning assumption; Reasoning error; Reasoning contribution |
+| [Question](NAMES.md#question) | 19 | Question candidate; Question answer; Question route |
+| [Claim](NAMES.md#claim) | 21 | Claim content; Claim truth; Claim support; Claim inference; Claim acceptance |
+| [Expression](NAMES.md#expression) | 17 | Expression representation; Expression structure; Expression wording; Expression interpretation; Expression instruction |
+| [Goal](NAMES.md#goal) | 11 | Goal achievement; Goal relation; Goal means |
+| [Commitment](NAMES.md#commitment) | 7 | Commitment scope |
+| [Preference](NAMES.md#preference) | 10 | Preference observation; Preference hypothesis; Preference change; Preference interest |
+| [Criterion](NAMES.md#criterion) | 8 | Criterion application; Criterion conflict |
+| [Comparison](NAMES.md#comparison) | 6 | Comparison basis; Comparison result |
+| [Explanation](NAMES.md#explanation) | 8 | Explanation target; Explanation account |
+| [Prediction](NAMES.md#prediction) | 9 | Prediction target |
+| [Problem](NAMES.md#problem) | 8 | Problem formulation; Problem remedy |
+| [Plan](NAMES.md#plan) | 9 | Plan commitment; Plan horizon |
+| [Resource](NAMES.md#resource) | 11 | Resource use; Resource configuration |
+| [Memory](NAMES.md#memory) | 10 | Memory record; Memory reuse |
+| [Discovery](NAMES.md#discovery) | 8 | Discovery baseline; Discovery contribution; Discovery continuation |
+| [Attention](NAMES.md#attention) | 6 | Attention allocation; Attention influence |
+| [Execution](NAMES.md#execution) | 9 | Execution state; Execution record |
+| [Capability](NAMES.md#capability) | 8 | Capability scope; Capability use; Capability evidence |
+| [Intelligence](NAMES.md#intelligence) | 7 | Intelligence adaptation |
+| [Understanding](NAMES.md#understanding) | 6 | Understanding content; Understanding use; Understanding error |
+| [Learning](NAMES.md#learning) | 8 | Learning change; Learning correction |
+| [Inquiry](NAMES.md#inquiry) | 10 | Inquiry method; Inquiry test; Inquiry finding |
+| [Relation](NAMES.md#relation) | 8 | Relation predicate; Relation composition |
+| [Design](NAMES.md#design) | 10 | Design requirement; Design candidate; Design realization |
+| [System](NAMES.md#system) | 11 | System identity; System purpose; System design; System interface; System implementation |
+| [Improvement](NAMES.md#improvement) | 7 | Improvement comparison; Improvement effect |
+| [Subject](NAMES.md#subject) | 13 | Subject scope; Subject name; Subject hierarchy |
 
-These are partial refinements, not exhaustive partitions of their parents. Understanding and Intelligence remain aspects of usable capability; Planning and Strategy share course structure; Science and Philosophy remain broad programmes whose particular methodological matters can be studied in investigative practice. The original words are not preserved as forced sibling classes.
+## Reading the names
 
-## How a matter receives a scope
+Use **Expression representation** as a target group, then specify selection, creation, modification, fidelity, conversion, ambiguity, or compression. Use **Claim support limits** when considering what the available grounds do not warrant. **Claim truth conditions** concerns what would make the proposition true; these are different subjects.
 
-State what the answer must determine, with the target and consequential context fixed. Compare that determination with the definitions and exclusions. A noun appearing in the request is not a membership test. Nor is the kind of tool used to answer it.
+No canonical name joins subjects with “and.” The full name should identify the matter literally. Its definition supplies consequential conditions that do not need to be repeated in every title. A single relation, such as System interface compatibility, can concern two components without becoming two subjects.
 
-“Does this wording preserve the same question?” concerns Q1. “Does this answer address that question?” concerns Q2. “Is the inference in that answer warranted?” concerns A2. “Did the recipient interpret the answer as intended?” concerns E2. These can concern one message without being one determination.
+## Containment still requires an argument
 
-Several determinations can be combined when they genuinely vary independently. Do not call a single unresolved relation “a composite” just to evade a collision. If exactly the same specified matter satisfies two sibling definitions, repair those definitions or combine the scopes. If neither admits it, define the missing scope before asserting membership.
+Target groups collect their listed determinations. They are partial scopes. A name prefix does not by itself establish an entity subtype, and different names do not establish mutually exclusive subjects. The [boundary review](../../cases/subject-names.md) identifies a duplicate that was merged, five explicit scope refinements, and remaining overlap questions. The 28 broad headings are not presented as a perfected exclusive partition.
 
-The [reviewed boundary cases](../../cases/subject-boundaries.md) show where splitting, merging, qualification, and an explicit coverage gap are warranted. This is substantive boundary reasoning, not a claim that unique identifiers prove non-overlap.
+For example, Question answer completeness refines the coverage aspect of Question answer fit. Understanding use transfer narrows Capability use transfer. Intelligence and Understanding can still overlap as capability aspects; declaring them exclusive siblings would hide a real problem. Use the explicit definitions and recorded relations, not a preferred home chosen by relevance.
 
-## Systems within scopes
+## Current working material
 
-A local system develops a specified result within a scope or explicitly composes distinct results. A scope is larger than its current methods. The [system contribution map](../../research/SCOPE-SYSTEMS.md) places the actual contributions of all ten existing local designs and identifies development possibilities for all 21 source families.
+| Entry | What it supplies |
+|---|---|
+| [Named inventory](NAMES.md) | The 299 literal names, definitions, exclusions, and explicit broader-subject links |
+| [Name changes](NAME-CHANGES.md) | Every predecessor scope name, bundled parent, alias, and disputed wording mapped to the new vocabulary |
+| [Naming derivation](../../research/type-relations/SUBJECT-NAMES.md) | Completion conditions, general-first naming, scope versus entity type, and substantive expansion logic |
+| [Boundary review](../../cases/subject-names.md) | Thirty examined distinctions, specializations, or unresolved overlaps |
+| [Project bindings](PROJECT-BINDINGS.md) | The 63 contribution records from 21 source families, with 62 proposed subject bindings and one exact target still open |
+| [First scope model](FIRST-MODEL.md) | The predecessor 28-scope model, preserved for provenance and earlier boundary arguments |
+| [Earlier label disposition](../../research/SCOPE-MAP.md) | The historical narrowing, splits, merges, and withdrawals of the original 39 labels |
 
-Legacy paths preserve the written designs and their source lineage. A mapping does not implement a new system. The current intellectual hierarchy is this scope model; the [earlier folders](../LEGACY.md) remain historical addresses.
+The linked predecessor scope files preserve their earlier definitions and examples. Their compound labels are superseded as current names; the change map records where a scope was split rather than merely renamed. Existing local system specifications remain at their recorded addresses and evidence standing.
 
-[Definition and boundary rule](../../DISTINCTIONS.md) · [Subject work](../README.md)
+[Subject work](../README.md) · [Current contract](../../CURRENT.md) · [Source contributions](../../research/SCOPE-SYSTEMS.md)

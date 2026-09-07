@@ -1,5 +1,7 @@
 # Type relations, reversals, and exclusions
 
+Begin with [Literal subject names](SUBJECT-NAMES.md) and the workbook's Subject Names sheet for the current 299 defined targets. Naming Terms, Name Changes, Scope Relations, Expansion Families, and Named Project Work document how those names were derived. The earlier expression and type sheets below remain investigations under their stated meanings.
+
 The user's subsequent contribution adds [subject completion and order](SUBJECT-COMPLETION.md): distinguish intelligence improvement from intelligence maintenance, art writing from writing art, and word-order changes from changes in the relation being expressed. The workbook now includes 211 specified expressions and one explicitly unresolved label, 14,840 expression-to-kind comparisons, 23 order/scope trials, and all 58 revisions of the specified Reasoningtool About page. The earlier single-word matrix remains an experiment under one primary sense per word; it does not settle every completed expression.
 
 The key correction is that a refuted broad inclusion cannot automatically be inherited by a narrower class. Development need not be improvement, but development that improves intelligence belongs to both. The extension propagates universal inclusions and explicit disjointness, while leaving other qualification-specific claims open.

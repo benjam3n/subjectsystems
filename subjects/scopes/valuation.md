@@ -1,5 +1,7 @@
 # Valuation
 
+Predecessor scope definition: current literal names and any splits are in the [name-change map](NAME-CHANGES.md). The [named inventory](NAMES.md) supersedes these short labels; the earlier definitions and cases are retained below.
+
 Standing: Working scope definitions, derived for the present repository; revisable through counterexamples.
 
 Favoring, standards of worth, and assessments under those standards. These are not a universal home for every statement called a judgment.

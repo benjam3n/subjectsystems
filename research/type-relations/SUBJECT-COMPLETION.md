@@ -1,5 +1,7 @@
 # Completing subjects before comparing their types
 
+The subsequent [literal naming contribution](SUBJECT-NAMES.md) establishes general-first names as the preferred display order and develops 299 defined subjects. Alternative index orders below remain analytical comparisons, not competing canonical naming conventions.
+
 The user's next contribution identifies an operation missing from the first matrix: expand a broad subject into more specified expressions, then examine their types, orders, attachments, and negatives. Intelligence improvement and intelligence maintenance are more determinate subjects than an unqualified Intelligence row. Art writing and writing art may expose different matters. Technical writing and writing technical may preserve one matter while changing the order in which it is indexed.
 
 The extension contains 149 concept-expression rows, including one unresolved Promoting label, and 63 project-specific subjects. It compares those 212 rows against the 70 base kinds. The 211 specified expressions have explicit readings and parent assumptions. It also includes 23 order and scope comparisons, 16 qualification tests, all 58 revisions in the specified About page's main history, and 15 comparisons of historical wording. These counts describe a bounded experiment, not an exhausted language of subjects.

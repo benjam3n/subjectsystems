@@ -1,5 +1,7 @@
 # Capability and change
 
+Predecessor scope definition: current literal names and any splits are in the [name-change map](NAME-CHANGES.md). The [named inventory](NAMES.md) supersedes these short labels; the earlier definitions and cases are retained below.
+
 Standing: Working scope definitions, derived for the present repository; revisable through counterexamples.
 
 What an agent can usefully do under specified conditions and which changes in that ability are attributable to experience.

@@ -1,5 +1,7 @@
 # Claims and accounts
 
+Predecessor scope definition: current literal names and any splits are in the [name-change map](NAME-CHANGES.md). The [named inventory](NAMES.md) supersedes these short labels; the earlier definitions and cases are retained below.
+
 Standing: Working scope definitions, derived for the present repository; revisable through counterexamples.
 
 The meaning, support, explanatory or predictive relations, and represented epistemic position of assertions. This family does not acquire every subject merely because it can be described in a sentence.

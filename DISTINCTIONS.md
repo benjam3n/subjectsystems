@@ -4,6 +4,8 @@ A subject is **what is being considered**: a matter of attention, inquiry, or wo
 
 The previous analysis was useful about the need for boundaries but too quick to treat mixed entity types as the root problem. Calling creation an operation does not disqualify creation as a subject. The question is which matter “Creation” includes and whether another alternative subject includes exactly that same matter.
 
+The latest direction also makes the names literal: general subject first, then the target and determination, without joining distinct subjects by “and.” The [named inventory](subjects/scopes/NAMES.md) is current; the [name-change map](subjects/scopes/NAME-CHANGES.md) retains the earlier labels. A lexical prefix is not a proof of entity subtype or non-overlap.
+
 The user asked to make that scope explicit. The [working definitions](subjects/scopes/README.md) now state what each included scope settles, what it excludes, a boundary case, and a substantive next result. The [label mapping](research/SCOPE-MAP.md) records the consequences for every earlier word.
 
 ## What the hierarchy classifies

@@ -1,5 +1,7 @@
 # General relations and construction
 
+Predecessor scope definition: current literal names and any splits are in the [name-change map](NAME-CHANGES.md). The [named inventory](NAMES.md) supersedes these short labels; the earlier definitions and cases are retained below.
+
 Standing: Working scope definitions, derived for the present repository; revisable through counterexamples.
 
 Specified relations and construction principles studied across target kinds. Generality is part of the scope of the answer, not a miscellaneous destination for unclear work.

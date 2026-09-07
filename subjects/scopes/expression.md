@@ -1,5 +1,7 @@
 # Expression and uptake
 
+Predecessor scope definition: current literal names and any splits are in the [name-change map](NAME-CHANGES.md). The [named inventory](NAMES.md) supersedes these short labels; the earlier definitions and cases are retained below.
+
 Standing: Working scope definitions, derived for the present repository; revisable through counterexamples.
 
 How identified content is expressed and how contributions are taken up in an interaction. The substantive matters expressed retain their own scopes.

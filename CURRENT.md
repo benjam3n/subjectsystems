@@ -1,6 +1,6 @@
 # Current working contract
 
-Revised 7 September 2026: subjects defined as scopes of consideration, with an implemented first scope model.
+Revised 7 September 2026: literal general-first subject names, an expanded defined inventory, and explicit limits on the unfinished exclusive hierarchy.
 
 ## Established direction
 
@@ -18,7 +18,9 @@ Each source project remains material for custom systems developed for each subje
 |---|---|
 | Subject Systems and subject-specific system development | Established direction |
 | Subject as a matter of consideration; explicit, non-overlapping sibling scopes | Current conceptual basis, followed by the user's request to implement the definitions |
-| [28 scopes within 11 parent scopes](subjects/scopes/README.md) | First working implementation derived from that direction; not a final or universal ontology |
+| [299 named subjects](subjects/scopes/NAMES.md) | Current defined inventory under 28 general headings, with 82 target groups; broad headings are not certified exclusive peers |
+| [First model: 28 scopes within 11 parents](subjects/scopes/FIRST-MODEL.md) | Preserved predecessor; compound short names superseded through an explicit change map |
+| General-first literal names without conjunctions | Current user direction; every added term must specify a consequential target or determination |
 | Parent–child relation | Containment of matters; parents mean the union of their defined children |
 | Earlier eight shared-work groups | Rejected classification; legacy navigation only |
 | Original 39 labels | Each has an explicit [disposition and scope mapping](research/SCOPE-MAP.md); not 39 fixed peers |
@@ -31,13 +33,21 @@ Each source project remains material for custom systems developed for each subje
 | Master Framework | Exact defining artifact unresolved |
 | Project Dashboard | README-described runner, comparison, and history functions; runtime unverified here |
 
-## What this revision establishes
+## Current naming contribution
+
+The [naming derivation](research/type-relations/SUBJECT-NAMES.md) replaces bundled labels with defined targets. Reasoning approach selection, creation, and modification have different completion conditions. Expression representation is a target group with explicit refinements. Claim support limits is distinct from Claim truth conditions; Truth boundaries does not specify which is intended.
+
+All 28 predecessor scope labels and 11 bundled parent labels have a change record. The expansion defines 299 determinations, 27 naming terms, eight substantive expansion families, and 63 project-contribution records, of which 62 have proposed subject bindings. Thirty boundary cases identify distinctions, a merged alias, five explicit narrower-scope relations, and unresolved overlaps. Intelligence and Understanding are not asserted as exclusive peers of all Capability.
+
+The canonical inventory is the named catalog. The previous subtype matrices remain experiments under their own explicit meanings; their results are not silently rewritten by a change of subject name. A complete exclusive global hierarchy is still a task to establish, not a conclusion inferred from this expanded list.
+
+## What the first scope revision established
 
 Every included scope states the matter to settle, its inclusions, exclusions, boundary case, and a substantive next result. All earlier labels are mapped through narrowed meanings, splits, merges, programmes, or withdrawal. The ten local design specifications have their specific contributions mapped, including the target-specific gaps in generic designs. All 21 source families have development directions at their existing evidence standing.
 
 The [boundary review](cases/subject-boundaries.md) separates fit from truth, goals from commitments, recovery from discovery increment, and other difficult cases. It also records an actual collision repaired by narrowing R2 to remedy adequacy. These arguments support the stated boundaries; they do not establish exclusion for every possible interpretation or complete coverage of all subjects.
 
-The new intellectual hierarchy is in `subjects/scopes/`. Earlier topic and system files remain at legacy addresses to preserve their substantive contents and provenance. Their physical paths are not the current classification.
+The current named inventory and explicit scope refinements are in `subjects/scopes/`; its linked first model preserves the predecessor hierarchy. Earlier topic and system files remain at legacy addresses to preserve their substantive contents and provenance. Their physical paths are not the current classification.
 
 ## Limits and source state
 

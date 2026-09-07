@@ -1,6 +1,8 @@
 # Next work
 
-The first scope definitions and hierarchy are now in place. The next work should develop a substantive result within them and use actual cases to expose missing or overlapping boundaries.
+The [literal naming inventory](subjects/scopes/NAMES.md) now supplies 299 defined subjects. Start with a consequential named matter, then develop its result. The [boundary review](cases/subject-names.md) is explicit about which pairs differ, which names were aliases, and where an exclusive hierarchy remains unresolved.
+
+The next naming result should settle the System interface compatibility / Expression interpretation alignment case using one actual producer-consumer contract. The next hierarchy result should determine a defensible placement for Intelligence and Understanding without pretending their capability aspects are mutually exclusive. The next custom-system result can develop Reasoning approach selection with an explicit candidate set, criterion, chosen approach, and observed contribution. A source reference or another list of labels does not establish that system.
 
 The subsequent [type-relation exploration](research/type-relations/README.md) also reopens the meanings and orientations themselves. It supplies directed comparisons, explicit grounds for negatives, common parents, and proposed reversals. A useful next result can therefore change the frame rather than only refine the previous hierarchy: resolve a consequential open comparison, construct a separating case, or derive a more informative shared parent and its consequences.
 

@@ -1,0 +1,1706 @@
+{
+  "version": 1,
+  "operations": [
+    {
+      "term": "selection",
+      "completion": "An existing candidate is chosen under stated criteria.",
+      "required_context": "Candidate set; identity conditions; selection criterion.",
+      "distinction": "Creation supplies a candidate that the initial set lacked."
+    },
+    {
+      "term": "creation",
+      "completion": "A new instance is constructed relative to an explicit initial inventory.",
+      "required_context": "What counts as a new instance; required result.",
+      "distinction": "Retrieval locates an earlier instance; renaming creates no new instance of the named target."
+    },
+    {
+      "term": "modification",
+      "completion": "An identified instance receives a changed version.",
+      "required_context": "Earlier instance; changed feature; version identity.",
+      "distinction": "Comparison determines differences but does not produce the revision."
+    },
+    {
+      "term": "specification",
+      "completion": "The target's content or requirements are made explicit.",
+      "required_context": "Target; interpretation; required resolution.",
+      "distinction": "Specification can describe an existing target; it does not necessarily create that target."
+    },
+    {
+      "term": "identification",
+      "completion": "A description or observation is matched to the target it denotes.",
+      "required_context": "Candidate referents; identity conditions.",
+      "distinction": "Selection chooses what to use, not what the description refers to."
+    },
+    {
+      "term": "identity",
+      "completion": "Conditions for being the same specified target are established or applied.",
+      "required_context": "Compared targets; interpretation; equivalence conditions.",
+      "distinction": "Similar contribution does not establish identity."
+    },
+    {
+      "term": "applicability",
+      "completion": "An approach's operating conditions are checked against a case.",
+      "required_context": "Approach assumptions; case conditions.",
+      "distinction": "An applicable approach need not be the preferred one."
+    },
+    {
+      "term": "comparison",
+      "completion": "Differences or ordering are established under fixed comparison conditions.",
+      "required_context": "Items; criteria; context; comparison rule.",
+      "distinction": "Choosing or changing an item requires a further determination."
+    },
+    {
+      "term": "justification",
+      "completion": "Grounds are established for the stated criterion or commitment.",
+      "required_context": "Claimed standard; purpose; reasons; alternatives.",
+      "distinction": "Observed endorsement is not sufficient justification."
+    },
+    {
+      "term": "representation",
+      "completion": "An identified target is expressed through a specified form or correspondence.",
+      "required_context": "Represented target; representational conventions.",
+      "distinction": "The expression is not automatically the thing it represents."
+    },
+    {
+      "term": "conversion",
+      "completion": "A representation changes form under an explicit content correspondence.",
+      "required_context": "Source form; destination form; fidelity requirement.",
+      "distinction": "Modification need not preserve the represented content."
+    },
+    {
+      "term": "retrieval",
+      "completion": "An already retained target is located.",
+      "required_context": "Retrieval target; retained corpus; matching conditions.",
+      "distinction": "A failure to retrieve is not proof that the target never existed."
+    },
+    {
+      "term": "reconstruction",
+      "completion": "An earlier target is rebuilt from surviving traces.",
+      "required_context": "Earlier target; surviving evidence; inferred portions.",
+      "distinction": "Reconstruction need not be verbatim recovery."
+    },
+    {
+      "term": "retention",
+      "completion": "An identified target remains available across an interval or transition.",
+      "required_context": "Preserved content; relevant identity; interval.",
+      "distinction": "Availability does not demonstrate subsequent use."
+    },
+    {
+      "term": "execution",
+      "completion": "Specified operations are actually performed on supplied material.",
+      "required_context": "Operation specification; inputs; observed transitions.",
+      "distinction": "A procedure description is not an execution."
+    },
+    {
+      "term": "fidelity",
+      "completion": "A representation or performance preserves its specified reference.",
+      "required_context": "Reference version; consequential distinctions.",
+      "distinction": "Faithful execution does not by itself establish usefulness."
+    },
+    {
+      "term": "adequacy",
+      "completion": "A proposed contribution meets an identified requirement.",
+      "required_context": "Contribution; fixed requirement; relevant conditions.",
+      "distinction": "Approval or novelty is insufficient evidence of adequacy."
+    },
+    {
+      "term": "validity",
+      "completion": "A specified consequence relation holds under fixed inference rules.",
+      "required_context": "Premises; conclusion; interpretation; rules.",
+      "distinction": "Valid inference does not establish that its premises are true."
+    },
+    {
+      "term": "counterexample",
+      "completion": "An admissible case refutes the stated universal claim.",
+      "required_context": "Exact universal; domain; true antecedent; false consequent.",
+      "distinction": "A caution compatible with the universal is not a counterexample."
+    },
+    {
+      "term": "diagnosis",
+      "completion": "A specified defect or cause of failure is located.",
+      "required_context": "Observed failure; expected result; competing accounts.",
+      "distinction": "Calling an outcome bad does not locate its cause."
+    },
+    {
+      "term": "correction",
+      "completion": "An identified defect is addressed by a specified replacement.",
+      "required_context": "Defect; replacement; conditions of correctness.",
+      "distinction": "A correction can be proposed without proving later uptake."
+    },
+    {
+      "term": "improvement",
+      "completion": "A changed item is better under a fixed baseline and standard.",
+      "required_context": "Baseline; changed item; criterion; comparison conditions.",
+      "distinction": "Modification is a process; improvement here is a comparative relation."
+    },
+    {
+      "term": "maintenance",
+      "completion": "A specified condition or ability is preserved through an interval or disturbance.",
+      "required_context": "Preserved property; interval; disturbance; acceptable variation.",
+      "distinction": "Preservation can succeed without creating a new ability."
+    },
+    {
+      "term": "transfer",
+      "completion": "A stated result or ability continues to hold in a specified changed setting.",
+      "required_context": "Source context; target context; preserved relation.",
+      "distinction": "Repeated wording is not evidence of transfer."
+    },
+    {
+      "term": "termination condition",
+      "completion": "A rule determines when further performance should end.",
+      "required_context": "Purpose; possible states; stopping condition.",
+      "distinction": "Termination need not mean successful completion."
+    },
+    {
+      "term": "scope",
+      "completion": "The cases or interpretations covered by a specified assertion or subject are fixed.",
+      "required_context": "Target; quantified domain; consequential qualifiers.",
+      "distinction": "A broad noun does not specify its intended extension by itself."
+    },
+    {
+      "term": "limits",
+      "completion": "What a stated resource, warrant, or capacity fails to establish is identified.",
+      "required_context": "Fixed target; applicable conditions; limiting relation.",
+      "distinction": "A support limit is not a truth condition."
+    }
+  ],
+  "name_changes": [
+    {
+      "code": "Q1",
+      "old": "Question specification",
+      "names": [
+        "Question specification",
+        "Question identity",
+        "Question presupposition",
+        "Question candidate creation",
+        "Question candidate modification"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Split specification, identity, presupposition, creation, revision into named determinations."
+    },
+    {
+      "code": "Q2",
+      "old": "Answer fit",
+      "names": [
+        "Question answer fit",
+        "Question answer completeness",
+        "Question answer presupposition correction"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Put Question first; distinguish fit from completeness or repair of a presupposition."
+    },
+    {
+      "code": "P1",
+      "old": "Goal formulation",
+      "names": [
+        "Goal creation",
+        "Goal modification",
+        "Goal identity",
+        "Goal achievement condition specification"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Formulation concealed several targets with different results."
+    },
+    {
+      "code": "P2",
+      "old": "Commitments",
+      "names": [
+        "Commitment adoption",
+        "Commitment deferral",
+        "Commitment withdrawal",
+        "Commitment reopening",
+        "Commitment scope specification"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "A commitment's distinct transitions have literal names."
+    },
+    {
+      "code": "V1",
+      "old": "Contextual favoring",
+      "names": [
+        "Preference observation identification",
+        "Preference hypothesis creation",
+        "Preference hypothesis discrimination",
+        "Preference interest identification"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "The descriptive target is preference; interest is explicitly qualified."
+    },
+    {
+      "code": "V2",
+      "old": "Standards of worth",
+      "names": [
+        "Criterion creation",
+        "Criterion justification",
+        "Criterion scope",
+        "Criterion conflict resolution"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Separate what the criterion is, why it counts, where it applies, how a conflict is resolved."
+    },
+    {
+      "code": "V3",
+      "old": "Assessment under a standard",
+      "names": [
+        "Comparison result ordering",
+        "Improvement comparison result",
+        "Resource configuration comparison",
+        "Reasoning approach comparison"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "General comparison structure and specific target comparisons are distinct scopes, not a universal Evaluation root."
+    },
+    {
+      "code": "A1",
+      "old": "Claim content and truth conditions",
+      "names": [
+        "Claim content specification",
+        "Claim content reference",
+        "Claim content quantifier scope",
+        "Claim truth conditions"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Content identification and truth conditions can be studied separately; neither establishes the domain facts."
+    },
+    {
+      "code": "A2",
+      "old": "Grounds and consequence",
+      "names": [
+        "Claim support identification",
+        "Claim support sufficiency",
+        "Claim support limits",
+        "Claim inference validity",
+        "Reasoning assumption consequence derivation"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "No one-for-one rename: support identification, sufficiency, limits, validity, derivation are separate matters."
+    },
+    {
+      "code": "A3",
+      "old": "Explanatory relations",
+      "names": [
+        "Explanation target specification",
+        "Explanation target contrast",
+        "Explanation account creation",
+        "Explanation account discrimination"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Name the target, contrast, account, or discriminating observation actually being developed."
+    },
+    {
+      "code": "A4",
+      "old": "Predictive relations",
+      "names": [
+        "Prediction target specification",
+        "Prediction information boundary",
+        "Prediction construction",
+        "Prediction error",
+        "Prediction calibration"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Separate forecast formation, prior information, error, repeated probability assessment."
+    },
+    {
+      "code": "A5",
+      "old": "Epistemic position",
+      "names": [
+        "Claim acceptance status",
+        "Claim acceptance confidence",
+        "Claim acceptance alternatives",
+        "Claim acceptance revision"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Name what the record represents; warrant remains a separate claim support subject."
+    },
+    {
+      "code": "R1",
+      "old": "Problem formulation",
+      "names": [
+        "Problem formulation creation",
+        "Problem formulation modification",
+        "Problem formulation cause"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "A specified obstruction, its revision, and its causal account require distinct results."
+    },
+    {
+      "code": "R2",
+      "old": "Remedy adequacy",
+      "names": [
+        "Problem remedy adequacy",
+        "Problem remedy incompleteness",
+        "Problem remedy displacement"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Put the general Problem type first; distinguish the remedy effect's sufficiency from residual or introduced obstructions."
+    },
+    {
+      "code": "R3",
+      "old": "Courses and contingencies",
+      "names": [
+        "Plan creation",
+        "Plan prerequisite",
+        "Plan contingency",
+        "Question route specification",
+        "Question route continuation selection"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Prospective arrangement and individual branch selection differ; question routes retain their qualified names."
+    },
+    {
+      "code": "R4",
+      "old": "Resource feasibility",
+      "names": [
+        "Resource use access condition",
+        "Resource use capacity",
+        "Resource configuration feasibility",
+        "Resource configuration substitution"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "The limiting object or relation is explicit."
+    },
+    {
+      "code": "M1",
+      "old": "Retention and recovery",
+      "names": [
+        "Memory record retention",
+        "Memory record retrieval",
+        "Memory record reconstruction",
+        "Memory record status recovery",
+        "Memory reuse fidelity"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Retention, locating, rebuilding, restoring status, using faithfully are different results."
+    },
+    {
+      "code": "M2",
+      "old": "Discovery increment",
+      "names": [
+        "Discovery baseline specification",
+        "Discovery contribution novelty",
+        "Discovery contribution identity",
+        "Discovery continuation opportunity"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Novelty has a reference position; consequences of discovery are separate determinations."
+    },
+    {
+      "code": "E1",
+      "old": "Encoding and textual arrangement",
+      "names": [
+        "Expression representation",
+        "Expression structure",
+        "Expression wording"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Replace the compound label with literal target groups; the child rows define the separate determinations."
+    },
+    {
+      "code": "E2",
+      "old": "Communicative uptake",
+      "names": [
+        "Expression interpretation attribution",
+        "Expression interpretation alignment",
+        "Expression interpretation repair",
+        "Expression instruction interpretation"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Identify whose interpretation, its match to intent, or the repair being considered."
+    },
+    {
+      "code": "T1",
+      "old": "Focus allocation",
+      "names": [
+        "Attention allocation selection",
+        "Attention allocation switching condition",
+        "Attention influence detection"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Separate intended focus regulation from evidence that available material affected the work."
+    },
+    {
+      "code": "T2",
+      "old": "Execution control",
+      "names": [
+        "Execution state initiation",
+        "Execution state progress",
+        "Execution state resumption",
+        "Execution state completion",
+        "Execution record correspondence"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Each state or record relation can be settled separately."
+    },
+    {
+      "code": "B1",
+      "old": "Usable capability",
+      "names": [
+        "Capability scope specification",
+        "Capability evidence adequacy",
+        "Intelligence adaptation strategy selection",
+        "Understanding use transfer"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Capability has narrower aspects; Intelligence and Understanding are not asserted to be exclusive sibling types."
+    },
+    {
+      "code": "B2",
+      "old": "Experience-dependent change",
+      "names": [
+        "Learning change detection",
+        "Learning change attribution",
+        "Learning correction uptake",
+        "Learning correction overgeneralization"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Detecting a change, attributing it to experience, and using a correction are different targets."
+    },
+    {
+      "code": "N1",
+      "old": "Investigative practice",
+      "names": [
+        "Inquiry method selection",
+        "Inquiry method creation",
+        "Inquiry test design",
+        "Inquiry finding revision condition"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Make the method or evidential decision explicit without putting all scientific contents under one activity label."
+    },
+    {
+      "code": "G1",
+      "old": "General relation structures",
+      "names": [
+        "Relation predicate definition",
+        "Relation predicate direction",
+        "Relation predicate negation",
+        "Relation composition validity",
+        "Subject scope inclusion"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "General relation predicates and the qualified subject-containment relation retain different scopes."
+    },
+    {
+      "code": "G2",
+      "old": "General intellectual operations",
+      "names": [
+        "Reasoning approach selection",
+        "Reasoning approach creation",
+        "Reasoning approach modification",
+        "Reasoning candidate space expansion"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "Name the intellectual transformation or approach operation, with target-specific construction retained in its subject."
+    },
+    {
+      "code": "G3",
+      "old": "General design relations",
+      "names": [
+        "Design requirement elicitation",
+        "Design candidate contrast construction",
+        "Design realization requirement trace",
+        "System design creation"
+      ],
+      "relation": "Refinement or split; not blanket equivalence",
+      "reason": "General design relations remain distinguishable from construction of one specified system artifact."
+    },
+    {
+      "code": "Parent",
+      "old": "Questions",
+      "names": [
+        "Question"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "Aims and commitments",
+      "names": [
+        "Goal",
+        "Commitment"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "Valuation",
+      "names": [
+        "Preference",
+        "Criterion",
+        "Comparison",
+        "Improvement"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "Claims and accounts",
+      "names": [
+        "Claim",
+        "Explanation",
+        "Prediction"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "Problems and courses",
+      "names": [
+        "Problem",
+        "Plan",
+        "Resource"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "Availability of material",
+      "names": [
+        "Memory",
+        "Discovery"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "Expression and uptake",
+      "names": [
+        "Expression"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "Regulation of activity",
+      "names": [
+        "Attention",
+        "Execution"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "Capability and change",
+      "names": [
+        "Capability",
+        "Intelligence",
+        "Understanding",
+        "Learning"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "Inquiry methods",
+      "names": [
+        "Inquiry"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Parent",
+      "old": "General relations and construction",
+      "names": [
+        "Reasoning",
+        "Relation",
+        "Design",
+        "Subject",
+        "System"
+      ],
+      "relation": "Retire bundled navigation label",
+      "reason": "The new general-first headings identify their literal targets. Their global relations still require the stated containment or overlap analysis."
+    },
+    {
+      "code": "Tentative",
+      "old": "Truth boundaries",
+      "names": [
+        "Claim truth conditions",
+        "Claim support limits",
+        "Claim content qualification"
+      ],
+      "relation": "Ambiguous proposal; split by intended relation",
+      "reason": "Truth-making situations, warrant limits, and claim application conditions answer different questions. The old A2 definition primarily concerns warrant; it does not define a truth boundary."
+    },
+    {
+      "code": "Alias",
+      "old": "Claim inference consequence",
+      "names": [
+        "Reasoning assumption consequence derivation"
+      ],
+      "relation": "Same specified determination; one canonical row",
+      "reason": "Both draft definitions derived a consequence from identified premises under fixed inference rules. A different prefix was not a new subject."
+    },
+    {
+      "code": "Tentative",
+      "old": "Expression representation",
+      "names": [
+        "Expression representation"
+      ],
+      "relation": "Adopt as target group",
+      "reason": "The phrase literally identifies the representation aspect of expression. Selection, creation, modification, fidelity, conversion, ambiguity, compression supply narrower exact determinations."
+    },
+    {
+      "code": "Tentative",
+      "old": "Reasoning approach evaluation",
+      "names": [
+        "Reasoning approach applicability",
+        "Reasoning approach execution fidelity",
+        "Reasoning approach contribution adequacy",
+        "Reasoning approach comparison"
+      ],
+      "relation": "Too broad for an atomic entry",
+      "reason": "Evaluation conceals what verdict is needed. These alternatives can vary independently."
+    },
+    {
+      "code": "Tentative",
+      "old": "Reasoning approach optimization",
+      "names": [
+        "Reasoning approach modification",
+        "Reasoning approach comparison"
+      ],
+      "relation": "No single exact optimum established",
+      "reason": "Optimization requires an objective, admissible changes, and constraints. Revision and comparative result must be distinguished; a globally best approach is not assumed."
+    }
+  ],
+  "boundary_cases": [
+    {
+      "a": "Reasoning approach selection",
+      "b": "Reasoning approach creation",
+      "relation": "Distinct determinations",
+      "case": "Choosing A from an existing set leaves the set unchanged; inventing C enlarges it without choosing C.",
+      "consequence": "Specify the initial candidate set and identity rule; a workflow can do both."
+    },
+    {
+      "a": "Reasoning approach creation",
+      "b": "Reasoning approach modification",
+      "relation": "Context-dependent distinction",
+      "case": "Changing A into A2 is modification; A2 can also count as newly created if version identity is the classified target.",
+      "consequence": "Do not declare process classes disjoint. Fix whether the subject asks for a new approach identity or a revised version; otherwise mark the request composite or unresolved."
+    },
+    {
+      "a": "Reasoning approach modification",
+      "b": "Reasoning approach comparison",
+      "relation": "Distinct determinations",
+      "case": "A revision can be made without showing any benefit; the unchanged pair can be compared without revising either.",
+      "consequence": "Keep production of the version separate from the verdict about it."
+    },
+    {
+      "a": "Reasoning approach selection",
+      "b": "Reasoning approach selection criterion",
+      "relation": "Distinct determinations",
+      "case": "The criterion can change while the chosen approach remains A; the choice can change under one unchanged criterion.",
+      "consequence": "The shared name prefix is not sufficient proof that choosing is a genus of criterion formation."
+    },
+    {
+      "a": "Reasoning approach execution fidelity",
+      "b": "Reasoning approach contribution adequacy",
+      "relation": "Distinct determinations",
+      "case": "A faithful execution can produce an irrelevant contribution; a departure can supply the required contribution.",
+      "consequence": "Record what was followed separately from what was accomplished."
+    },
+    {
+      "a": "Reasoning approach applicability",
+      "b": "Reasoning approach selection",
+      "relation": "Distinct determinations",
+      "case": "Two approaches satisfy their assumptions while only one is selected under cost constraints.",
+      "consequence": "Applicability removes an objection; it does not uniquely select a method."
+    },
+    {
+      "a": "Reasoning contribution selection",
+      "b": "Reasoning approach selection",
+      "relation": "Distinct determinations",
+      "case": "Choose to construct a counterexample, then choose which approach will construct it.",
+      "consequence": "The contribution kind is held fixed only in approach selection."
+    },
+    {
+      "a": "Claim truth conditions",
+      "b": "Claim support limits",
+      "relation": "Distinct determinations",
+      "case": "A proposition retains its truth conditions when a supporting source is withdrawn; its warrant changes.",
+      "consequence": "Do not rename support limits as truth boundaries."
+    },
+    {
+      "a": "Claim content specification",
+      "b": "Expression representation fidelity",
+      "relation": "Distinct determinations",
+      "case": "Fix what an assertion says, then determine whether a summary preserves it.",
+      "consequence": "Interpretation of the source is input to the fidelity comparison."
+    },
+    {
+      "a": "Claim support sufficiency",
+      "b": "Claim acceptance confidence",
+      "relation": "Distinct determinations",
+      "case": "A record expresses high confidence even though its stated grounds do not meet the acceptance threshold.",
+      "consequence": "Reported confidence and warrant require separate evidence."
+    },
+    {
+      "a": "Claim inference validity",
+      "b": "Claim inference counterexample",
+      "relation": "Investigation target versus constructive contribution",
+      "case": "A counterexample establishes invalidity, but validity can be assessed without constructing such a case.",
+      "consequence": "Link the contribution to the assessment; do not infer that all validity investigations are counterexample construction."
+    },
+    {
+      "a": "Reasoning assumption consequence derivation",
+      "b": "Claim inference consequence",
+      "relation": "Alias",
+      "case": "Both draft definitions produce a consequence from the same premises under the same rules.",
+      "consequence": "Remove the duplicate canonical entry; preserve the alternate name in Name Changes."
+    },
+    {
+      "a": "Question identity",
+      "b": "Question answer fit",
+      "relation": "Distinct determinations",
+      "case": "Two wordings can ask the same question while a supplied response answers a different one.",
+      "consequence": "Question identity is fixed before judging that response's fit."
+    },
+    {
+      "a": "Question answer fit",
+      "b": "Question answer completeness",
+      "relation": "Narrower aspect, not exclusive alternatives",
+      "case": "A partially responsive answer has some fit while leaving one required distinction unresolved.",
+      "consequence": "Completeness refines the coverage aspect of fit. These must not be claimed as disjoint siblings."
+    },
+    {
+      "a": "Question route specification",
+      "b": "Plan contingency",
+      "relation": "Overlapping general and qualified scopes",
+      "case": "An answer-dependent next-step rule is both a question-route rule and a plan contingency.",
+      "consequence": "The qualified route view is not a second independent matter. Record the target specialization; do not choose a home merely by project name."
+    },
+    {
+      "a": "Goal selection",
+      "b": "Commitment adoption",
+      "relation": "Distinct determinations",
+      "case": "An agent selects a preferred candidate goal while postponing undertaking it.",
+      "consequence": "Choosing the candidate and establishing the undertaking have different state changes."
+    },
+    {
+      "a": "Goal achievement status",
+      "b": "Execution state completion",
+      "relation": "Distinct determinations",
+      "case": "A repository update completes while the goal that corrected understanding affects later work remains unachieved.",
+      "consequence": "Use the specified goal conditions and activity completion conditions separately."
+    },
+    {
+      "a": "Preference hypothesis creation",
+      "b": "Criterion justification",
+      "relation": "Distinct determinations",
+      "case": "Observed dislike of a name supports a preference account without proving that everyone should reject that name.",
+      "consequence": "Descriptive favoring is not normative justification."
+    },
+    {
+      "a": "Memory record retrieval",
+      "b": "Memory record reconstruction",
+      "relation": "Different acquisition mechanisms; possible composite",
+      "case": "An intact file is located; a missing paragraph is separately reconstructed from surviving versions.",
+      "consequence": "Identify whether the requested result is an existing record or an inferred reconstruction."
+    },
+    {
+      "a": "Memory record status recovery",
+      "b": "Memory reuse fidelity",
+      "relation": "Distinct determinations",
+      "case": "A rejected decision is retrieved with its status, then incorrectly used as current.",
+      "consequence": "Recovered status does not establish faithful later use."
+    },
+    {
+      "a": "Discovery contribution novelty",
+      "b": "Memory record retrieval",
+      "relation": "Distinct relations on one episode",
+      "case": "Retrieving an old question is new to the current inquiry but preserves an older item's identity.",
+      "consequence": "Novelty and historical recovery are different assertions about the episode, not disjoint event classes."
+    },
+    {
+      "a": "Expression representation creation",
+      "b": "Execution record representation",
+      "relation": "General versus qualified target",
+      "case": "Constructing a run record is a form of creating an expression of the run.",
+      "consequence": "Treat the execution-record target as a specialization; do not assert unrelated exclusive branches."
+    },
+    {
+      "a": "Capability use transfer",
+      "b": "Understanding use transfer",
+      "relation": "General versus qualified target",
+      "case": "Using a previously grasped relation in a new format is one kind of capability transfer.",
+      "consequence": "The qualified understanding target narrows the capability matter; it does not become an exclusive peer of all capability."
+    },
+    {
+      "a": "Intelligence adaptation transfer",
+      "b": "Understanding use transfer",
+      "relation": "Overlap remains possible",
+      "case": "An agent adapts by using a grasped relation in a new task; one performance bears on both scopes.",
+      "consequence": "No exclusive Intelligence/Understanding partition has been established. These are overlapping aspects under Capability until definitions or units change."
+    },
+    {
+      "a": "Learning correction uptake",
+      "b": "Memory record retention",
+      "relation": "Distinct determinations",
+      "case": "A stored correction can fail to affect the next applicable action.",
+      "consequence": "Inspect later use rather than certifying learning from storage."
+    },
+    {
+      "a": "Improvement comparison result",
+      "b": "Learning change attribution",
+      "relation": "Distinct determinations",
+      "case": "A learned habit can worsen performance; an artifact repair can improve without experiential learning.",
+      "consequence": "Betterment and experience-dependent origin are different relations."
+    },
+    {
+      "a": "System interface compatibility",
+      "b": "Resource configuration feasibility",
+      "relation": "Distinct determinations",
+      "case": "A producer and consumer agree on meaning but lack capacity to run jointly; capacity can also be ample while meanings conflict.",
+      "consequence": "Semantic contract compatibility and allocation feasibility vary independently."
+    },
+    {
+      "a": "System interface compatibility",
+      "b": "Expression interpretation alignment",
+      "relation": "Potential specialization; case still required",
+      "case": "When a consumer interprets an instruction, interface meaning and recipient interpretation can describe the same mismatch.",
+      "consequence": "Do not certify exclusion for this pair. Derive whether a particular contract mismatch is the same attributed-interpretation matter or a different formal contract relation."
+    },
+    {
+      "a": "Reasoning approach failure diagnosis",
+      "b": "Reasoning error location",
+      "relation": "Distinct determinations with possible dependence",
+      "case": "One row locates the invalid step; the other explains which approach feature caused the failure.",
+      "consequence": "A location report is not a causal explanation of that failure."
+    },
+    {
+      "a": "Subject scope exclusion",
+      "b": "Subject scope inclusion",
+      "relation": "Different universal claims",
+      "case": "A class can fail to include another while still sharing instances with it.",
+      "consequence": "Not-a-subtype does not entail disjointness."
+    }
+  ],
+  "expansion_families": [
+    {
+      "target": "Reasoning approach",
+      "names": [
+        "Reasoning approach selection",
+        "Reasoning approach creation",
+        "Reasoning approach modification",
+        "Reasoning approach specification",
+        "Reasoning approach execution",
+        "Reasoning approach applicability",
+        "Reasoning approach execution fidelity",
+        "Reasoning approach contribution adequacy",
+        "Reasoning approach retirement"
+      ],
+      "reason": "An approach has identity, operating conditions, executions, outputs, and an operative inventory.",
+      "limit": "Improvement needs a baseline and criterion; a universal best approach is not assumed."
+    },
+    {
+      "target": "Question answer",
+      "names": [
+        "Question answer construction",
+        "Question answer revision",
+        "Question answer fit",
+        "Question answer completeness",
+        "Question answer equivalence",
+        "Question answer presupposition correction"
+      ],
+      "reason": "A response can address different portions of a requested distinction or resolve a faulty presupposition.",
+      "limit": "Answer creation is not truth creation. Truth still requires the substantive claim's determination."
+    },
+    {
+      "target": "Claim support",
+      "names": [
+        "Claim support identification",
+        "Claim support sufficiency",
+        "Claim support limits",
+        "Claim support dependence",
+        "Claim support defeater",
+        "Claim support preservation"
+      ],
+      "reason": "Grounds can support a claim in different ways, share a dependency, or survive one corrected premise.",
+      "limit": "Truth is not inferred from acceptance; confidence is not manufactured as a probability."
+    },
+    {
+      "target": "Expression representation",
+      "names": [
+        "Expression representation selection",
+        "Expression representation creation",
+        "Expression representation modification",
+        "Expression representation conversion",
+        "Expression representation fidelity",
+        "Expression representation ambiguity",
+        "Expression representation compression"
+      ],
+      "reason": "A represented content and form can vary separately; changing form exposes preservation questions.",
+      "limit": "No literal truth modification: changing the expression is not changing the represented fact."
+    },
+    {
+      "target": "Memory record",
+      "names": [
+        "Memory record retention",
+        "Memory record retrieval",
+        "Memory record reconstruction",
+        "Memory record identity",
+        "Memory record provenance",
+        "Memory record context recovery",
+        "Memory record status recovery",
+        "Memory record version distinction"
+      ],
+      "reason": "A record has an earlier source and consequential context that retrieval alone may fail to preserve.",
+      "limit": "No retrieval of a never-created item; construct it instead if the task permits."
+    },
+    {
+      "target": "System interface",
+      "names": [
+        "System interface contract",
+        "System interface compatibility",
+        "System interface failure propagation"
+      ],
+      "reason": "Components exchange results with meanings, required conditions, and dependent consumers.",
+      "limit": "Matching names is insufficient; automatic integration of every pair is not a defined capability."
+    },
+    {
+      "target": "Intelligence",
+      "names": [
+        "Intelligence improvement",
+        "Intelligence maintenance",
+        "Intelligence regression"
+      ],
+      "reason": "Adaptive ability can increase, persist, or decline under comparable conditions.",
+      "limit": "Maintaining intelligence need not involve learning or creation."
+    },
+    {
+      "target": "Subject scope",
+      "names": [
+        "Subject scope specification",
+        "Subject scope identity",
+        "Subject scope inclusion",
+        "Subject scope overlap",
+        "Subject scope exclusion",
+        "Subject scope gap"
+      ],
+      "reason": "A subject admits specified matters; these create explicit positive and negative membership questions.",
+      "limit": "Unique IDs or a large name count do not prove an exclusive complete hierarchy."
+    }
+  ],
+  "project_bindings": [
+    {
+      "family": "SDS",
+      "earlier_name": "SDS preference inference from contrasts",
+      "names": [
+        "Preference hypothesis creation"
+      ],
+      "particular_matter": "Infer which selected aspects explain a preference across materially different candidates.",
+      "proposed_result": "Produce a preference hypothesis and a contrasting candidate that could refute it.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "SDS",
+      "earlier_name": "SDS candidate construction",
+      "names": [
+        "Design candidate construction"
+      ],
+      "particular_matter": "Construct new candidate forms that retain selected aspects while changing other dimensions.",
+      "proposed_result": "Produce a candidate with explicit preserved aspects and actual new differences.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "SDS",
+      "earlier_name": "SDS feasibility judgment",
+      "names": [
+        "Resource configuration feasibility"
+      ],
+      "particular_matter": "Determine whether one specified candidate can satisfy its requirements under actual constraints.",
+      "proposed_result": "Give a feasibility verdict whose limiting conditions can change the next iteration.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "QuestionRoute",
+      "earlier_name": "QuestionRoute question identity specification",
+      "names": [
+        "Question identity"
+      ],
+      "particular_matter": "Fix what makes two question records the same question despite wording changes.",
+      "proposed_result": "Specify referents, requested distinction, assumptions, and answer conditions.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "QuestionRoute",
+      "earlier_name": "QuestionRoute answer-dependent course specification",
+      "names": [
+        "Question route specification"
+      ],
+      "particular_matter": "Specify different future continuations for materially different answers.",
+      "proposed_result": "Produce a branching course with explicit trigger answers and consequential next work.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "QuestionRoute",
+      "earlier_name": "QuestionRoute continuation selection",
+      "names": [
+        "Question route continuation selection"
+      ],
+      "particular_matter": "Choose the applicable continuation after a particular question receives an answer.",
+      "proposed_result": "Select a live branch while preserving the question and answer that justify it.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Discovery Engine",
+      "earlier_name": "Discovery Engine novelty assessment",
+      "names": [
+        "Discovery contribution novelty"
+      ],
+      "particular_matter": "Determine what is newly available to a specified inquiry against a fixed earlier state.",
+      "proposed_result": "Separate a new contribution, a rediscovery, and a changed interpretation.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Discovery Engine",
+      "earlier_name": "Discovery Engine contribution relation",
+      "names": [
+        "Discovery contribution implication"
+      ],
+      "particular_matter": "Specify how a particular finding changes what another inquiry can use or pursue.",
+      "proposed_result": "Record the target inquiry and the exact contribution relation.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Discovery Engine",
+      "earlier_name": "Discovery Engine next-question construction",
+      "names": [
+        "Question candidate creation"
+      ],
+      "particular_matter": "Construct a new question made consequential by a specified discovery.",
+      "proposed_result": "Produce an actual question whose resolution could change continuing work.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "GOSM",
+      "earlier_name": "GOSM achievement-condition specification",
+      "names": [
+        "Goal achievement condition specification"
+      ],
+      "particular_matter": "Specify what would count as achieving a particular intended condition.",
+      "proposed_result": "Produce outcome conditions that distinguish completion from useful intermediate work.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "GOSM",
+      "earlier_name": "GOSM goal journey reconstruction",
+      "names": [
+        "Goal means dependence"
+      ],
+      "particular_matter": "Reconstruct how a present action connects to intended conditions through actual dependencies.",
+      "proposed_result": "Expose the intervening assumptions whose failure changes the proposed journey.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "GOSM",
+      "earlier_name": "GOSM conditional course specification",
+      "names": [
+        "Plan contingency",
+        "Plan prerequisite"
+      ],
+      "particular_matter": "Arrange future work around prerequisites, decisions, and possible result states.",
+      "proposed_result": "Produce a course with meaningful alternative continuations rather than a single forecast.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Reasoningtool",
+      "earlier_name": "Reasoningtool procedure specification",
+      "names": [
+        "Reasoning approach specification"
+      ],
+      "particular_matter": "Specify the exact intellectual transformations a particular procedure prescribes.",
+      "proposed_result": "Retain the procedure's inputs, operations, conditions, and source identity.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Reasoningtool",
+      "earlier_name": "Reasoningtool procedure selection",
+      "names": [
+        "Reasoning approach selection"
+      ],
+      "particular_matter": "Choose which available procedure fits a specific unfinished intellectual task.",
+      "proposed_result": "Select a procedure because of its required contribution, with its actual source read.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Reasoningtool",
+      "earlier_name": "Reasoningtool subject-expression construction",
+      "names": [
+        "Subject name construction",
+        "Subject scope inclusion"
+      ],
+      "particular_matter": "Construct explicit subject expressions from broad labels and test their type relations.",
+      "proposed_result": "Produce a completed expression whose relation and classified unit are inspectable.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Reasoningtool2",
+      "earlier_name": "Reasoningtool2 contribution selection",
+      "names": [
+        "Reasoning contribution selection"
+      ],
+      "particular_matter": "Choose the fitting contribution from available knowledge, operations, and possible departures.",
+      "proposed_result": "Select what can change the live inquiry rather than merely continue its presentation.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Reasoningtool2",
+      "earlier_name": "Reasoningtool2 operation construction",
+      "names": [
+        "Reasoning approach creation"
+      ],
+      "particular_matter": "Construct a new operation when existing prescriptions do not provide the required transformation.",
+      "proposed_result": "Specify an actual transformation with observable input and result distinctions.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Reasoningtool2",
+      "earlier_name": "Reasoningtool2 correction use",
+      "names": [
+        "Learning correction uptake"
+      ],
+      "particular_matter": "Make a retained correction alter a later consequential choice or transformation.",
+      "proposed_result": "Show the later work using the corrected distinction at the point where it matters.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Master Framework",
+      "earlier_name": "Master Framework source identification",
+      "names": [
+        "System identity specification"
+      ],
+      "particular_matter": "Resolve which exact artifact and version the name refers to.",
+      "proposed_result": "Find the defining source or retain a precise unresolved identity; source presently unresolved.",
+      "standing": "Source identity unresolved; mappings are explicit proposals.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Master Framework",
+      "earlier_name": "Master Framework relationship specification proposal",
+      "names": [
+        "Relation predicate definition"
+      ],
+      "particular_matter": "Specify a candidate account of how subjects, systems, operations, and results relate.",
+      "proposed_result": "Produce a local proposal clearly separated from the unidentified source.",
+      "standing": "Source identity unresolved; mappings are explicit proposals.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Master Framework",
+      "earlier_name": "Master Framework scope test proposal",
+      "names": [
+        "Subject scope overlap"
+      ],
+      "particular_matter": "Test a proposed relationship grammar against a matter assigned conflicting kinds.",
+      "proposed_result": "Give a separating case or show that the proposed categories overlap; this is a proposed investigation.",
+      "standing": "Source identity unresolved; mappings are explicit proposals.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "ARAW",
+      "earlier_name": "ARAW right-assumption consequence construction",
+      "names": [
+        "Reasoning assumption consequence derivation"
+      ],
+      "particular_matter": "Derive constructive consequences when a specified claim is taken as right.",
+      "proposed_result": "Produce consequences and available continuations that genuinely depend on that assumption.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "ARAW",
+      "earlier_name": "ARAW wrong-assumption alternative construction",
+      "names": [
+        "Reasoning assumption alternative construction"
+      ],
+      "particular_matter": "Construct alternatives, implications, and further questions when a specified claim is taken as wrong.",
+      "proposed_result": "Produce a materially different possibility rather than a caution compatible with the claim.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "ARAW",
+      "earlier_name": "ARAW claim-status judgment",
+      "names": [
+        "Claim support sufficiency",
+        "Claim support limits"
+      ],
+      "particular_matter": "Assess what the two branches establish about a fixed claim and its dependencies.",
+      "proposed_result": "Give a scoped verdict with the surviving grounds and unresolved alternatives.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "TruthFinder",
+      "earlier_name": "TruthFinder argument-target specification",
+      "names": [
+        "Claim inference specification"
+      ],
+      "particular_matter": "Fix the exact conclusion, premises, and inferential dependence being challenged.",
+      "proposed_result": "Produce a stable target whose wording and meaning do not drift during the challenge.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "TruthFinder",
+      "earlier_name": "TruthFinder counterexample construction",
+      "names": [
+        "Claim inference counterexample"
+      ],
+      "particular_matter": "Construct a case that satisfies the proposed premises while defeating the claimed conclusion.",
+      "proposed_result": "Produce an actual separating case or retain that none has been found.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "TruthFinder",
+      "earlier_name": "TruthFinder failure-location judgment",
+      "names": [
+        "Reasoning error location"
+      ],
+      "particular_matter": "Identify which premise or inferential step the observed failure concerns.",
+      "proposed_result": "Produce a specific failure report that does not overstate the affected scope.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "PreferenceFinder",
+      "earlier_name": "PreferenceFinder preference hypothesis",
+      "names": [
+        "Preference hypothesis creation"
+      ],
+      "particular_matter": "Represent an inferred favoring pattern separately from the observed reaction.",
+      "proposed_result": "State the alternatives, features, agent, and conditions supporting the hypothesis.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "PreferenceFinder",
+      "earlier_name": "PreferenceFinder reaction prediction",
+      "names": [
+        "Preference hypothesis prediction"
+      ],
+      "particular_matter": "Predict a reaction to a materially different candidate under stated circumstances.",
+      "proposed_result": "Record the predicted response before using the eventual reaction.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "PreferenceFinder",
+      "earlier_name": "PreferenceFinder exception-driven revision",
+      "names": [
+        "Preference hypothesis revision"
+      ],
+      "particular_matter": "Revise a preference hypothesis after a reaction that its current form fails to explain.",
+      "proposed_result": "Change the relevant condition or relation and identify the cases whose predictions change.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Historical AxiomNet",
+      "earlier_name": "AxiomNet claim identity specification",
+      "names": [
+        "Claim content equivalence"
+      ],
+      "particular_matter": "Specify canonical claim identity under the historical formula and assumption rules.",
+      "proposed_result": "Preserve which changes are mere re-expression and which create another claim.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Historical AxiomNet",
+      "earlier_name": "AxiomNet derivation execution",
+      "names": [
+        "Reasoning assumption consequence derivation"
+      ],
+      "particular_matter": "Perform a derivation using fixed premises and explicitly justified transitions.",
+      "proposed_result": "Retain a trace that identifies each premise and transformation.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Historical AxiomNet",
+      "earlier_name": "AxiomNet dependency revision",
+      "names": [
+        "Claim support preservation"
+      ],
+      "particular_matter": "Revise dependent formal material when a specified assumption or identity changes.",
+      "proposed_result": "Identify the affected derivations without discarding independently supported claims.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "LogicSystem",
+      "earlier_name": "LogicSystem formal operation specification",
+      "names": [
+        "Reasoning approach specification"
+      ],
+      "particular_matter": "Specify one native formal tool's permitted transformations and input conditions.",
+      "proposed_result": "Keep that tool's actual rules distinct from other tools in the collection.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "LogicSystem",
+      "earlier_name": "LogicSystem formal operation execution",
+      "names": [
+        "Reasoning approach execution"
+      ],
+      "particular_matter": "Execute a specified transformation on fixed formal material.",
+      "proposed_result": "Return the transformed material with inspectable identity and rule application.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "LogicSystem",
+      "earlier_name": "LogicSystem output-validity judgment",
+      "names": [
+        "Claim inference validity"
+      ],
+      "particular_matter": "Assess the output under the actual rules and assumptions of the chosen tool.",
+      "proposed_result": "Distinguish a valid transformation from truth of premises or general effectiveness.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Strategizer",
+      "earlier_name": "Strategizer entry-condition specification",
+      "names": [
+        "Reasoning approach applicability"
+      ],
+      "particular_matter": "Specify the conditions under which a strategy is eligible to be used.",
+      "proposed_result": "Produce conditions that can rule the strategy in or out for an actual case.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Strategizer",
+      "earlier_name": "Strategizer counterstrategy prediction",
+      "names": [
+        "Prediction construction"
+      ],
+      "particular_matter": "Represent plausible counterplay before it is observed.",
+      "proposed_result": "Identify what an opponent response would change about the proposed course.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Strategizer",
+      "earlier_name": "Strategizer course revision",
+      "names": [
+        "Plan modification"
+      ],
+      "particular_matter": "Revise a strategy's course when conditions or counterplay change.",
+      "proposed_result": "Produce a new conditional course with preserved and altered dependencies explicit.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Superintelbot",
+      "earlier_name": "Superintelbot conversational contribution selection",
+      "names": [
+        "Reasoning contribution selection"
+      ],
+      "particular_matter": "Choose which contribution fits the actual state of an interaction.",
+      "proposed_result": "Select a question, derivation, correction, construction, or other needed contribution.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Superintelbot",
+      "earlier_name": "Superintelbot source consultation",
+      "names": [
+        "Reasoning approach retrieval",
+        "Reasoning approach execution"
+      ],
+      "particular_matter": "Retrieve and use the exact method relevant to the selected contribution.",
+      "proposed_result": "Consult the source without silently replacing its operations with a summary.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Superintelbot",
+      "earlier_name": "Superintelbot response construction",
+      "names": [
+        "Question answer construction"
+      ],
+      "particular_matter": "Construct a response that performs the selected contribution for the current interaction.",
+      "proposed_result": "Produce the substantive contribution with the required content and no substitute performance.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "PostAGI reasoning",
+      "earlier_name": "PostAGI representation selection",
+      "names": [
+        "Expression representation selection"
+      ],
+      "particular_matter": "Select which representation exposes a consequential distinction in the current material.",
+      "proposed_result": "Choose from actual concept, dependency, depth, conversation, or regress forms.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "PostAGI reasoning",
+      "earlier_name": "PostAGI representation transformation",
+      "names": [
+        "Expression representation conversion"
+      ],
+      "particular_matter": "Transform intellectual material into a different specified representational form.",
+      "proposed_result": "Preserve the relevant content while exposing a new accessible continuation.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "PostAGI reasoning",
+      "earlier_name": "PostAGI unresolved-question construction",
+      "names": [
+        "Question candidate creation"
+      ],
+      "particular_matter": "Construct further questions whose answers are not already supplied by the retained material.",
+      "proposed_result": "Produce a new uncertainty with consequences for continuing inquiry.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Autophilosophy",
+      "earlier_name": "Autophilosophy conceptual investigation",
+      "names": [],
+      "particular_matter": "Investigate a specified conceptual matter with revisable answers and objections.",
+      "proposed_result": "Produce a finding that alters the live conceptual question.",
+      "standing": "Project contribution retained; exact subject binding awaits specification of the conceptual target.",
+      "scope_fit": "Target unresolved: the specific conceptual matter is not supplied. Selecting or revising an inquiry method would be a different subject."
+    },
+    {
+      "family": "Autophilosophy",
+      "earlier_name": "Autophilosophy answer attack",
+      "names": [
+        "Claim inference counterexample",
+        "Reasoning assumption alternative construction"
+      ],
+      "particular_matter": "Test a particular answer by constructing an incompatibility or alternative account.",
+      "proposed_result": "Identify what the answer fails to distinguish or explain.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Autophilosophy",
+      "earlier_name": "Autophilosophy answer revision",
+      "names": [
+        "Question answer revision",
+        "Claim inference revision"
+      ],
+      "particular_matter": "Revise an answer in response to an identified conceptual failure.",
+      "proposed_result": "Write a changed answer whose new content addresses the actual failure.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "AutomaticScience",
+      "earlier_name": "AutomaticScience investigation-course specification",
+      "names": [
+        "Plan creation"
+      ],
+      "particular_matter": "Specify a proposed course of empirical inquiry from the distributed project plans.",
+      "proposed_result": "Make evidence-dependent continuations explicit; described plans are not executed research.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "AutomaticScience",
+      "earlier_name": "AutomaticScience investigative text construction",
+      "names": [
+        "Expression representation creation"
+      ],
+      "particular_matter": "Construct a book or other investigative text around a fixed research matter.",
+      "proposed_result": "Preserve the distinction between sourced findings, proposals, and exposition.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "AutomaticScience",
+      "earlier_name": "AutomaticScience evidence adequacy assessment",
+      "names": [
+        "Claim support sufficiency"
+      ],
+      "particular_matter": "Assess what evidence would support or revise one proposed investigative conclusion.",
+      "proposed_result": "Produce an evidence requirement that could change the inquiry's continuation.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Resource-engineering",
+      "earlier_name": "Resource-engineering allocation reconstruction",
+      "names": [
+        "Resource configuration reconstruction"
+      ],
+      "particular_matter": "Reconstruct a specified episode through resources, uses, alternatives, and constraints.",
+      "proposed_result": "Expose the allocations and dependencies that the original description hides.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Resource-engineering",
+      "earlier_name": "Resource-engineering configuration comparison",
+      "names": [
+        "Resource configuration comparison"
+      ],
+      "particular_matter": "Compare specified arrangements under fixed uses, stakes, and result criteria.",
+      "proposed_result": "Keep the arrangements and the grounds of comparison separate.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Resource-engineering",
+      "earlier_name": "Resource-engineering allocation transformation",
+      "names": [
+        "Resource configuration modification"
+      ],
+      "particular_matter": "Transform an allocation or configuration under specified admissibility conditions.",
+      "proposed_result": "Produce a changed arrangement with its intended and observed consequences distinguished.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "BOD",
+      "earlier_name": "BOD capability-expression distinction",
+      "names": [
+        "Capability use access",
+        "Capability evidence adequacy"
+      ],
+      "particular_matter": "Represent the difference between having an ability and realizing behavior through it.",
+      "proposed_result": "Fix the ability, occurrence conditions, initiation, persistence, and interruption distinctions.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "BOD",
+      "earlier_name": "BOD blockage explanation",
+      "names": [
+        "Capability use blockage"
+      ],
+      "particular_matter": "Account for what prevents a specified available capability from becoming behavior.",
+      "proposed_result": "Identify the proposed causes and the conditions that would distinguish competing accounts.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "BOD",
+      "earlier_name": "BOD intervention requirement",
+      "names": [
+        "Capability use intervention requirement"
+      ],
+      "particular_matter": "Specify what a proposed intervention must change while preserving stated limits.",
+      "proposed_result": "Produce target and constraint conditions; no health intervention is validated by this classification.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "System Recovery",
+      "earlier_name": "System Recovery source identity preservation",
+      "names": [
+        "Memory record identity",
+        "Memory record context recovery"
+      ],
+      "particular_matter": "Preserve the identity and context of retrieved source material through later reuse.",
+      "proposed_result": "Keep the exact source/version and its original standing available.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "System Recovery",
+      "earlier_name": "System Recovery relationship reconstruction",
+      "names": [
+        "Memory record provenance"
+      ],
+      "particular_matter": "Reconstruct actual links among preserved sources, claims, procedures, and results.",
+      "proposed_result": "Produce supported relationships while retaining unresolved or missing dependencies.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "System Recovery",
+      "earlier_name": "System Recovery later-use restoration",
+      "names": [
+        "Memory reuse trigger",
+        "Memory reuse fidelity"
+      ],
+      "particular_matter": "Make a preserved earlier result usable at a relevant point in current work.",
+      "proposed_result": "Restore the needed material and context so it changes a consequential continuation.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Project Dashboard",
+      "earlier_name": "Project Dashboard operation invocation",
+      "names": [
+        "Execution state initiation",
+        "Reasoning approach execution"
+      ],
+      "particular_matter": "A proposed or documented occurrence of invoking a selected skill or script.",
+      "proposed_result": "The source describes invocation; runtime execution has not been verified here.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Project Dashboard",
+      "earlier_name": "Project Dashboard result comparison",
+      "names": [
+        "Execution record comparison"
+      ],
+      "particular_matter": "A proposed or documented comparison of specified outputs under shared criteria.",
+      "proposed_result": "A comparison requires fixed inputs and criteria, beyond displaying outputs side by side.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    },
+    {
+      "family": "Project Dashboard",
+      "earlier_name": "Project Dashboard run-history representation",
+      "names": [
+        "Execution record representation"
+      ],
+      "particular_matter": "A record expressing the inputs, execution identity, and results of a run.",
+      "proposed_result": "Retained run history is source-described; this inquiry does not establish runtime persistence.",
+      "standing": "Proposed contribution using the inspected profile; no claim of implemented subject-specific system.",
+      "scope_fit": "Proposed specialization or component; not equivalence with every reading of the earlier project expression."
+    }
+  ],
+  "hierarchy_standing": "The canonical named inventory is expanded. Target groups are partial scope unions; lexical nesting is not a proof of subtype or exclusion. The case review finds aliases, specializations, and unresolved overlaps, so the 28 headings are not presented as a perfected set of exclusive roots.",
+  "closed_domain": "The 28 predecessor scopes, the 21 recorded source-family profiles, the current naming request, and the explicitly defined extensions in Subject Names.",
+  "unresolved": [
+    "Promoting has no established meaning.",
+    "The exact Master Framework source remains unresolved.",
+    "Intelligence and Understanding can overlap as capability aspects.",
+    "System interface compatibility versus recipient interpretation needs the specified interface case.",
+    "A complete ontology of every possible subject is not a finite enumeration established by this inventory.",
+    "Autophilosophy conceptual investigation does not identify its particular conceptual target; one of the 63 contribution records therefore has no asserted exact subject binding."
+  ]
+}

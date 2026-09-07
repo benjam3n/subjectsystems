@@ -1,5 +1,7 @@
 # Problems and courses
 
+Predecessor scope definition: current literal names and any splits are in the [name-change map](NAME-CHANGES.md). The [named inventory](NAMES.md) supersedes these short labels; the earlier definitions and cases are retained below.
+
 Standing: Working scope definitions, derived for the present repository; revisable through counterexamples.
 
 Specified obstacles, problem–remedy relations, prospective courses, and feasibility constraints. The contents of a goal or the merits of an option are supplied by their own scopes.

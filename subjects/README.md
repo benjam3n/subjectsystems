@@ -1,5 +1,7 @@
 # Subject work
 
+Current names use the general subject first, then the target and particular determination. Begin with the [named inventory](scopes/NAMES.md), [name changes](scopes/NAME-CHANGES.md), and [boundary review](../cases/subject-names.md). The earlier scope files are retained as the first model.
+
 A subject is a specified matter of consideration. Begin with the [scope hierarchy and definitions](scopes/README.md): each scope states what its answer must settle, what belongs elsewhere, a difficult case, and the next substantive result.
 
 | Entry | Use |

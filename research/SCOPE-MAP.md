@@ -1,5 +1,7 @@
 # From labels to defined matters
 
+Current names and splits are in the [subject name-change map](../subjects/scopes/NAME-CHANGES.md). The table below retains the first scope model's disposition of the original labels; its compound headings are predecessor names, not the current naming rule.
+
 Standing: Working disposition of all 39 legacy labels. The earlier [audit](SUBJECT-AUDIT.md) identified collisions; this mapping supplies the resulting scopes. Definitions are in the [scope hierarchy](../subjects/scopes/README.md).
 
 A row can map to several scopes because the earlier word had several senses or named a containing activity. That is not permission to put one fully specified determination in several sibling categories. The “what changed” column specifies the distinction.

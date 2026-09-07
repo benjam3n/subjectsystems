@@ -1,5 +1,7 @@
 # Aims and commitments
 
+Predecessor scope definition: current literal names and any splits are in the [name-change map](NAME-CHANGES.md). The [named inventory](NAMES.md) supersedes these short labels; the earlier definitions and cases are retained below.
+
 Standing: Working scope definitions, derived for the present repository; revisable through counterexamples.
 
 What outcome is intended and what course or stance has been adopted. The content of an aim and the act of adopting it remain separate matters.

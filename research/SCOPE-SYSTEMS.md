@@ -1,5 +1,7 @@
 # Systems and their scoped contributions
 
+The [literal subject bindings](../subjects/scopes/PROJECT-BINDINGS.md) now review the 63 previously developed project contributions: 62 have proposed specializations or components in the current names, while one exact conceptual target remains open. The map below retains the existing local designs and their first-model scope references; those written designs have not been reclassified as executed systems.
+
 The subject and particular purpose determine the local system. Source names are lineage, not alternative top-level subjects. The ten existing designs remain written specifications at their recorded standing; this map neither executes them nor manufactures new local versions.
 
 ## Existing local designs

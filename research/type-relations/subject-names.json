@@ -1,0 +1,4588 @@
+{
+  "version": 1,
+  "title": "Literal subject names",
+  "basis_commit": "9f62b2ac895cc7925652cfe0f988351207fe5c79",
+  "rule": "General subject first; then target; then the operation, property, or relation being considered. Each row states one determination. No conjunction joins two subjects.",
+  "scope": "A defined expansion of the present project vocabulary, not an enumeration of every possible subject. Broad headings are not certified mutually exclusive classes.",
+  "roots": [
+    {
+      "name": "Reasoning",
+      "scope": "Methods for transforming intellectual material, with their input, intended contribution, operating conditions, or construction at issue.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Question",
+      "scope": "The distinction requested by a question, its possible resolutions, or its relation to a response.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Claim",
+      "scope": "The content, support, or recorded acceptance of an assertion. Target facts retain their substantive subject.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Expression",
+      "scope": "The form used to express identified content, or its interpretation by a specified recipient.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Goal",
+      "scope": "Intended outcomes or their achievement conditions.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Commitment",
+      "scope": "An agent undertaking an option or treating it as an operative instruction.",
+      "predecessor_scopes": [
+        "P2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Preference",
+      "scope": "What a specified agent favors in specified circumstances, or an account of that favoring.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Criterion",
+      "scope": "An explicit standard governing a specified comparison or decision.",
+      "predecessor_scopes": [
+        "V2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Comparison",
+      "scope": "Comparison structures studied across target kinds, with the standard held fixed. Target-specific comparisons retain their qualified subjects.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Explanation",
+      "scope": "The relation between an explanatory account and the occurrence or contrast it purports to explain.",
+      "predecessor_scopes": [
+        "A3"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Prediction",
+      "scope": "A forecast specified before its outcome is available to the predictor.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Problem",
+      "scope": "A specified obstruction relative to a requirement, or a remedy's adequacy to that obstruction.",
+      "predecessor_scopes": [
+        "R1",
+        "R2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Plan",
+      "scope": "Prospective ordering of activities, prerequisites, or conditional continuations. Question-specific routes have their qualified Question entries.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Resource",
+      "scope": "Means available for a specified use, including their capacities or feasible configurations.",
+      "predecessor_scopes": [
+        "R4"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Memory",
+      "scope": "Continuity with earlier material under the identity and context needed for later use.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Discovery",
+      "scope": "An increase in what is available to a specified inquirer relative to an explicit earlier position.",
+      "predecessor_scopes": [
+        "M2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Attention",
+      "scope": "Which available material receives operative focus under specified conditions.",
+      "predecessor_scopes": [
+        "T1"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Execution",
+      "scope": "Actual control states of an adopted activity, with its substantive result kept distinct.",
+      "predecessor_scopes": [
+        "T2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Capability",
+      "scope": "Usable ability under specified conditions; includes the qualified Intelligence and Understanding refinements below.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Intelligence",
+      "scope": "Adaptive use of available abilities when the appropriate means are not fixed in advance; a capability refinement, not an exclusive peer of all Capability.",
+      "predecessor_scopes": [
+        "B1",
+        "B2",
+        "V3"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Understanding",
+      "scope": "Usable grasp of specified relations; a capability refinement that can overlap Intelligence rather than an exclusive alternative to it.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Learning",
+      "scope": "Experience-dependent change in subsequent capability or conduct.",
+      "predecessor_scopes": [
+        "B2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Inquiry",
+      "scope": "Investigative organization studied as a method for establishing or revising findings.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Relation",
+      "scope": "Predicates or their composition studied across target kinds; local instances remain qualified by their own subjects.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Design",
+      "scope": "Relations among requirements, candidate forms, feasibility, or use studied across artifact kinds. Particular artifacts retain their own construction subjects.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "System",
+      "scope": "Specified systems as designed artifacts, including custom descendants, interfaces, or observed executions.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Improvement",
+      "scope": "Comparative betterment of a changed item against a baseline under a specified standard. The change process is a separate subject.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    },
+    {
+      "name": "Subject",
+      "scope": "Specified matters of consideration, their names, boundaries, or relationships.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined working scope; coverage is partial."
+    }
+  ],
+  "subjects": [
+    {
+      "id": "reasoning-approach-selection",
+      "name": "Reasoning approach selection",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Choose an existing reasoning approach for a specified matter from a stated candidate set.",
+      "excludes": "Creating an approach or changing the selection criterion.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-creation",
+      "name": "Reasoning approach creation",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Construct a reasoning approach absent from the stated initial inventory, with executable intellectual operations.",
+      "excludes": "Retrieving an existing approach under a new name.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-modification",
+      "name": "Reasoning approach modification",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Produce a changed version of an identified reasoning approach with the changed operations explicit.",
+      "excludes": "Claiming the revision is better without a comparison.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-identification",
+      "name": "Reasoning approach identification",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Identify which approach a description or performance instantiates under stated identity conditions.",
+      "excludes": "Choosing whether to use it.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-applicability",
+      "name": "Reasoning approach applicability",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine whether an approach's operating assumptions hold for the specified case.",
+      "excludes": "Ranking several applicable approaches.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-comparison",
+      "name": "Reasoning approach comparison",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine the differences between candidate approaches under fixed comparison criteria.",
+      "excludes": "Adopting the preferred candidate.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-selection-criterion",
+      "name": "Reasoning approach selection criterion",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Specify what should govern choosing among reasoning approaches for the stated class of matters.",
+      "excludes": "Making a particular choice under an already fixed criterion.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-requirement",
+      "name": "Reasoning approach requirement",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Specify what a proposed reasoning approach must accomplish under stated conditions.",
+      "excludes": "Prescribing its internal steps.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-input-specification",
+      "name": "Reasoning approach input specification",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Specify the intellectual material an approach accepts, including required distinctions.",
+      "excludes": "Establishing that the supplied premises are true.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-output-specification",
+      "name": "Reasoning approach output specification",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Specify the contribution whose production counts as executing the approach.",
+      "excludes": "Proving the contribution is correct.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-assumption-identification",
+      "name": "Reasoning approach assumption identification",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Identify the assumptions on which the approach's operations rely.",
+      "excludes": "Establishing whether those assumptions hold in a particular case.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-composition",
+      "name": "Reasoning approach composition",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Construct an arrangement of approaches with explicit intermediate contributions.",
+      "excludes": "Merely listing compatible approach names.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-substitution",
+      "name": "Reasoning approach substitution",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine whether one approach can replace another while preserving the specified required contribution.",
+      "excludes": "General similarity of their descriptions.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-termination-condition",
+      "name": "Reasoning approach termination condition",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Specify when further execution of the approach should stop for the stated purpose.",
+      "excludes": "Reporting that a particular execution stopped.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-failure-diagnosis",
+      "name": "Reasoning approach failure diagnosis",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Locate the approach feature responsible for a specified failure under an explicit failure account.",
+      "excludes": "Treating every unsuccessful result as evidence of an approach defect.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-transfer-condition",
+      "name": "Reasoning approach transfer condition",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine which changes of target preserve the applicability of the approach's transformation.",
+      "excludes": "Inferring transfer from reuse of the same vocabulary.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-candidate-space-specification",
+      "name": "Reasoning candidate space specification",
+      "root": "Reasoning",
+      "parent": "Reasoning candidate",
+      "settles": "Specify which possibilities the reasoning process can currently consider.",
+      "excludes": "Enumerating only the candidates already generated.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-candidate-generation",
+      "name": "Reasoning candidate generation",
+      "root": "Reasoning",
+      "parent": "Reasoning candidate",
+      "settles": "Produce possibilities within a specified reasoning candidate space.",
+      "excludes": "Claiming that the space includes every relevant possibility.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-candidate-exclusion",
+      "name": "Reasoning candidate exclusion",
+      "root": "Reasoning",
+      "parent": "Reasoning candidate",
+      "settles": "Establish why an identified possibility can be removed under a stated exclusion condition.",
+      "excludes": "Removing a possibility merely because it is inconvenient.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-candidate-space-expansion",
+      "name": "Reasoning candidate space expansion",
+      "root": "Reasoning",
+      "parent": "Reasoning candidate",
+      "settles": "Add a distinct candidate dimension or admissible region absent from the earlier space.",
+      "excludes": "Producing more candidates within the unchanged space.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-assumption-consequence-derivation",
+      "name": "Reasoning assumption consequence derivation",
+      "root": "Reasoning",
+      "parent": "Reasoning assumption",
+      "settles": "Derive what follows if an identified assumption is accepted under stated inference rules.",
+      "excludes": "Establishing that the assumption actually holds.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-assumption-alternative-construction",
+      "name": "Reasoning assumption alternative construction",
+      "root": "Reasoning",
+      "parent": "Reasoning assumption",
+      "settles": "Construct a specified alternative to an assumption that changes a consequential implication.",
+      "excludes": "A caution compatible with the original assumption.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-error-location",
+      "name": "Reasoning error location",
+      "root": "Reasoning",
+      "parent": "Reasoning error",
+      "settles": "Identify the particular intellectual step that fails a stated correctness condition.",
+      "excludes": "Locating the implementation defect that caused the step to be made.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-error-correction",
+      "name": "Reasoning error correction",
+      "root": "Reasoning",
+      "parent": "Reasoning error",
+      "settles": "Replace the identified faulty intellectual step with a defensible contribution.",
+      "excludes": "Merely recording that an error was noticed.",
+      "predecessor_scopes": [
+        "G2",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-specification",
+      "name": "Reasoning approach specification",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Specify the operations and their composition that constitute an identified approach.",
+      "excludes": "Claiming a newly written specification describes a newly invented approach.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-execution",
+      "name": "Reasoning approach execution",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Perform the specified intellectual transformations on the supplied material.",
+      "excludes": "Merely naming or describing the selected approach.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-retrieval",
+      "name": "Reasoning approach retrieval",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Locate an existing approach matching an identified intellectual transformation need.",
+      "excludes": "Selecting it as best among available candidates.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-representation",
+      "name": "Reasoning approach representation",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Express an identified approach so its prescribed transformations can be recovered.",
+      "excludes": "Constructing different transformations while claiming only a clearer description.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-execution-fidelity",
+      "name": "Reasoning approach execution fidelity",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine whether a particular performance followed the specified approach.",
+      "excludes": "Establishing that faithful execution helped the task.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-contribution-adequacy",
+      "name": "Reasoning approach contribution adequacy",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Determine whether the approach's actual output supplies the fixed required intellectual contribution.",
+      "excludes": "Inferring usefulness solely from procedure compliance.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-cost-estimation",
+      "name": "Reasoning approach cost estimation",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Estimate the stated time or resource demand of using an approach in the specified case.",
+      "excludes": "Ranking approaches without fixing their required contribution.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-approach-retirement",
+      "name": "Reasoning approach retirement",
+      "root": "Reasoning",
+      "parent": "Reasoning approach",
+      "settles": "Remove an identified approach from the operative candidate inventory under stated reasons.",
+      "excludes": "Deleting its historical source identity.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-contribution-requirement",
+      "name": "Reasoning contribution requirement",
+      "root": "Reasoning",
+      "parent": "Reasoning contribution",
+      "settles": "Specify which kind of intellectual contribution would change the current unresolved matter.",
+      "excludes": "Prescribing one existing procedure before identifying the contribution needed.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "reasoning-contribution-selection",
+      "name": "Reasoning contribution selection",
+      "root": "Reasoning",
+      "parent": "Reasoning contribution",
+      "settles": "Choose the next kind of contribution from the specified available alternatives.",
+      "excludes": "Choosing among approaches that produce an already fixed contribution kind.",
+      "predecessor_scopes": [
+        "G2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-specification",
+      "name": "Question specification",
+      "root": "Question",
+      "parent": "Question",
+      "settles": "Specify what a question asks about, including its requested distinction.",
+      "excludes": "Choosing whether asking it is worthwhile.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-identity",
+      "name": "Question identity",
+      "root": "Question",
+      "parent": "Question",
+      "settles": "Determine whether two formulations request the same distinction under fixed interpretation.",
+      "excludes": "Matching their wording.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-presupposition",
+      "name": "Question presupposition",
+      "root": "Question",
+      "parent": "Question",
+      "settles": "Identify what must be taken for granted for the question's requested distinction to apply.",
+      "excludes": "Accepting that presupposition as true.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-scope",
+      "name": "Question scope",
+      "root": "Question",
+      "parent": "Question",
+      "settles": "Determine the referents, cases, or time range covered by what is asked.",
+      "excludes": "Selecting the audience for the wording.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-candidate-creation",
+      "name": "Question candidate creation",
+      "root": "Question",
+      "parent": "Question candidate",
+      "settles": "Construct a question specification introducing a stated unresolved distinction.",
+      "excludes": "Producing another wording of an already identical question.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-candidate-modification",
+      "name": "Question candidate modification",
+      "root": "Question",
+      "parent": "Question candidate",
+      "settles": "Revise an identified question's requested distinction or conditions.",
+      "excludes": "Changing only its typography.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-candidate-selection",
+      "name": "Question candidate selection",
+      "root": "Question",
+      "parent": "Question candidate",
+      "settles": "Choose which already specified question to pursue under fixed criteria.",
+      "excludes": "Constructing an answer-dependent route through several questions.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-answer-space-specification",
+      "name": "Question answer space specification",
+      "root": "Question",
+      "parent": "Question answer",
+      "settles": "Specify what differences among possible answers the question permits.",
+      "excludes": "Treating the currently listed answers as exhaustive without grounds.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-answer-fit",
+      "name": "Question answer fit",
+      "root": "Question",
+      "parent": "Question answer",
+      "settles": "Determine whether a response addresses the question's requested distinction with its interpretation fixed.",
+      "excludes": "Determining whether the response is true.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-answer-completeness",
+      "name": "Question answer completeness",
+      "root": "Question",
+      "parent": "Question answer",
+      "settles": "Identify which parts of the requested resolution a response supplies or leaves unsettled.",
+      "excludes": "Asking whether the answer is exhaustive outside the question's scope.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": [
+        "Question answer fit"
+      ]
+    },
+    {
+      "id": "question-answer-presupposition-correction",
+      "name": "Question answer presupposition correction",
+      "root": "Question",
+      "parent": "Question answer",
+      "settles": "Determine how rejecting a false presupposition resolves the original request.",
+      "excludes": "Silently answering an unrelated question.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-answer-equivalence",
+      "name": "Question answer equivalence",
+      "root": "Question",
+      "parent": "Question answer",
+      "settles": "Determine whether two responses settle the same requested distinctions.",
+      "excludes": "Requiring identical sentences.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-route-specification",
+      "name": "Question route specification",
+      "root": "Question",
+      "parent": "Question route",
+      "settles": "Specify which next question follows from each relevant answer condition.",
+      "excludes": "Changing the identity of an individual question.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": [
+        "Plan contingency"
+      ]
+    },
+    {
+      "id": "question-route-branch-distinction",
+      "name": "Question route branch distinction",
+      "root": "Question",
+      "parent": "Question route",
+      "settles": "Determine which answer differences require different continuations.",
+      "excludes": "Branching on wording that changes no next investigation.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-route-gap-detection",
+      "name": "Question route gap detection",
+      "root": "Question",
+      "parent": "Question route",
+      "settles": "Find an admissible answer for which the stated route lacks an appropriate continuation.",
+      "excludes": "A missing answer to an unrelated question.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-route-termination-condition",
+      "name": "Question route termination condition",
+      "root": "Question",
+      "parent": "Question route",
+      "settles": "Specify which resolved distinctions make further traversal unnecessary for the stated purpose.",
+      "excludes": "Exhausting an arbitrary number of turns.",
+      "predecessor_scopes": [
+        "Q1",
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-answer-construction",
+      "name": "Question answer construction",
+      "root": "Question",
+      "parent": "Question answer",
+      "settles": "Construct a response that supplies the requested distinction with any unresolved truth claims explicit.",
+      "excludes": "Assuming structural responsiveness establishes correctness.",
+      "predecessor_scopes": [
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-answer-revision",
+      "name": "Question answer revision",
+      "root": "Question",
+      "parent": "Question answer",
+      "settles": "Change a specified response to repair an identified failure to address the fixed question.",
+      "excludes": "Revising a claim solely because it is false when answer fit was already satisfied.",
+      "predecessor_scopes": [
+        "Q2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "question-route-continuation-selection",
+      "name": "Question route continuation selection",
+      "root": "Question",
+      "parent": "Question route",
+      "settles": "Choose the applicable continuation after a specified answer is available.",
+      "excludes": "Designing the route's branch rules.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-content-specification",
+      "name": "Claim content specification",
+      "root": "Claim",
+      "parent": "Claim content",
+      "settles": "Specify what an assertion says under an explicit interpretation.",
+      "excludes": "Establishing whether its assertion is true.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-content-reference",
+      "name": "Claim content reference",
+      "root": "Claim",
+      "parent": "Claim content",
+      "settles": "Identify what the assertion's expressions refer to in the stated context.",
+      "excludes": "Checking whether evidence supports the assertion.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-content-quantifier-scope",
+      "name": "Claim content quantifier scope",
+      "root": "Claim",
+      "parent": "Claim content",
+      "settles": "Determine which cases an assertion ranges over and where its quantifiers apply.",
+      "excludes": "Replacing an all-case claim with a typical-case claim.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-content-qualification",
+      "name": "Claim content qualification",
+      "root": "Claim",
+      "parent": "Claim content",
+      "settles": "Specify the conditions restricting the assertion's applicability.",
+      "excludes": "Quietly adding a condition after a counterexample.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-content-equivalence",
+      "name": "Claim content equivalence",
+      "root": "Claim",
+      "parent": "Claim content",
+      "settles": "Determine whether two assertions have the same stated content under a fixed interpretation.",
+      "excludes": "Treating association or implication in one direction as identity.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-truth-conditions",
+      "name": "Claim truth conditions",
+      "root": "Claim",
+      "parent": "Claim truth",
+      "settles": "Specify which situations make the identified proposition true under its interpretation.",
+      "excludes": "Determining what the available evidence warrants.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-truth-condition-satisfaction",
+      "name": "Claim truth condition satisfaction",
+      "root": "Claim",
+      "parent": "Claim truth",
+      "settles": "Determine whether the specified situation satisfies a formalized proposition's truth conditions, with its domain facts supplied.",
+      "excludes": "Absorbing collection of every substantive fact into a universal Truth subject.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-support-identification",
+      "name": "Claim support identification",
+      "root": "Claim",
+      "parent": "Claim support",
+      "settles": "Identify which reasons or observations bear on the specified claim and through what stated support relation.",
+      "excludes": "Treating every cited source as support.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-support-sufficiency",
+      "name": "Claim support sufficiency",
+      "root": "Claim",
+      "parent": "Claim support",
+      "settles": "Determine whether the supplied grounds meet a stated acceptance threshold for this claim.",
+      "excludes": "Describing the agent's actual confidence.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-support-limits",
+      "name": "Claim support limits",
+      "root": "Claim",
+      "parent": "Claim support",
+      "settles": "Specify which conclusions remain unwarranted by the supplied grounds under the stated support rule.",
+      "excludes": "Claiming that an unsupported conclusion is false.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-support-dependence",
+      "name": "Claim support dependence",
+      "root": "Claim",
+      "parent": "Claim support",
+      "settles": "Determine which support paths rely on the same premise or source rather than providing independent grounds.",
+      "excludes": "Counting repeated restatements as independent evidence.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-support-defeater",
+      "name": "Claim support defeater",
+      "root": "Claim",
+      "parent": "Claim support",
+      "settles": "Identify a condition that undermines the specified support relation.",
+      "excludes": "A generic warning compatible with that support remaining adequate.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-support-preservation",
+      "name": "Claim support preservation",
+      "root": "Claim",
+      "parent": "Claim support",
+      "settles": "Determine which grounds still support the claim after a specified premise or source correction.",
+      "excludes": "Discarding all support because one path failed.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-inference-validity",
+      "name": "Claim inference validity",
+      "root": "Claim",
+      "parent": "Claim inference",
+      "settles": "Determine whether the identified conclusion follows from the supplied premises under stated rules.",
+      "excludes": "Establishing the truth of the premises.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-inference-counterexample",
+      "name": "Claim inference counterexample",
+      "root": "Claim",
+      "parent": "Claim inference",
+      "settles": "Construct an admissible case with true premises and a false conclusion for the specified inference.",
+      "excludes": "A case with a false premise.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-acceptance-status",
+      "name": "Claim acceptance status",
+      "root": "Claim",
+      "parent": "Claim acceptance",
+      "settles": "Determine whether an identified record treats the claim as accepted, rejected, conditional, or unresolved.",
+      "excludes": "Establishing that this treatment is justified.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-acceptance-confidence",
+      "name": "Claim acceptance confidence",
+      "root": "Claim",
+      "parent": "Claim acceptance",
+      "settles": "Identify the degree or form of confidence actually represented for the claim.",
+      "excludes": "Inventing a probability where none is given.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-acceptance-alternatives",
+      "name": "Claim acceptance alternatives",
+      "root": "Claim",
+      "parent": "Claim acceptance",
+      "settles": "Specify which competing possibilities the record continues to leave open.",
+      "excludes": "Treating an unmentioned possibility as ruled out.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-acceptance-revision",
+      "name": "Claim acceptance revision",
+      "root": "Claim",
+      "parent": "Claim acceptance",
+      "settles": "Determine which recorded claim status changes in response to a stated correction.",
+      "excludes": "Claiming that the corrected record was subsequently used.",
+      "predecessor_scopes": [
+        "A1",
+        "A2",
+        "A5"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-inference-specification",
+      "name": "Claim inference specification",
+      "root": "Claim",
+      "parent": "Claim inference",
+      "settles": "Fix the premises, conclusion, and alleged consequence relation of the argument to be assessed.",
+      "excludes": "Assessing an unspecified impression that the argument is convincing.",
+      "predecessor_scopes": [
+        "A1",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "claim-inference-revision",
+      "name": "Claim inference revision",
+      "root": "Claim",
+      "parent": "Claim inference",
+      "settles": "Change the identified premises or inference step to address a demonstrated defect.",
+      "excludes": "Claiming the unchanged conclusion must be false because its old argument failed.",
+      "predecessor_scopes": [
+        "A1",
+        "A2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-representation-selection",
+      "name": "Expression representation selection",
+      "root": "Expression",
+      "parent": "Expression representation",
+      "settles": "Choose a form for expressing fixed content under stated requirements.",
+      "excludes": "Changing the content to make a chosen form convenient.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-representation-creation",
+      "name": "Expression representation creation",
+      "root": "Expression",
+      "parent": "Expression representation",
+      "settles": "Construct an expression that represents the specified content.",
+      "excludes": "Establishing the truth of the content.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-representation-modification",
+      "name": "Expression representation modification",
+      "root": "Expression",
+      "parent": "Expression representation",
+      "settles": "Revise an existing expression with the intended content change or preservation explicit.",
+      "excludes": "Assuming every edit preserves meaning.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-representation-fidelity",
+      "name": "Expression representation fidelity",
+      "root": "Expression",
+      "parent": "Expression representation",
+      "settles": "Determine which consequential content distinctions the representation preserves or loses.",
+      "excludes": "Assuming readability proves fidelity.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-representation-conversion",
+      "name": "Expression representation conversion",
+      "root": "Expression",
+      "parent": "Expression representation",
+      "settles": "Translate identified content into another representational form under an explicit correspondence.",
+      "excludes": "Merely relabeling the existing form.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-representation-ambiguity",
+      "name": "Expression representation ambiguity",
+      "root": "Expression",
+      "parent": "Expression representation",
+      "settles": "Identify distinct interpretations permitted by the representation under stated conventions.",
+      "excludes": "Treating every unfamiliar expression as ambiguous.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-representation-compression",
+      "name": "Expression representation compression",
+      "root": "Expression",
+      "parent": "Expression representation",
+      "settles": "Reduce representational extent while specifying what information is retained or lost.",
+      "excludes": "Claiming that shorter text necessarily contains the same distinctions.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-structure-sequence",
+      "name": "Expression structure sequence",
+      "root": "Expression",
+      "parent": "Expression structure",
+      "settles": "Specify the order in which the expression presents identified contributions.",
+      "excludes": "Changing the logical dependence among the contributions themselves.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-structure-dependency-visibility",
+      "name": "Expression structure dependency visibility",
+      "root": "Expression",
+      "parent": "Expression structure",
+      "settles": "Determine whether the expression makes a specified dependency inspectable.",
+      "excludes": "Establishing that the alleged dependency holds.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-structure-grouping",
+      "name": "Expression structure grouping",
+      "root": "Expression",
+      "parent": "Expression structure",
+      "settles": "Determine which expressed contributions are grouped together under a stated representational distinction.",
+      "excludes": "Inferring a subject taxonomy from page layout alone.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-wording-selection",
+      "name": "Expression wording selection",
+      "root": "Expression",
+      "parent": "Expression wording",
+      "settles": "Choose words for an identified content distinction under stated expression criteria.",
+      "excludes": "Choosing what proposition to assert.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-wording-modification",
+      "name": "Expression wording modification",
+      "root": "Expression",
+      "parent": "Expression wording",
+      "settles": "Revise the verbal form of identified content with semantic differences recorded.",
+      "excludes": "Calling an identity-to-correlation change a grammatical edit.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-interpretation-attribution",
+      "name": "Expression interpretation attribution",
+      "root": "Expression",
+      "parent": "Expression interpretation",
+      "settles": "Determine what a specified recipient takes an expression to mean.",
+      "excludes": "Inferring interpretation solely from a compliant-looking response.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-interpretation-alignment",
+      "name": "Expression interpretation alignment",
+      "root": "Expression",
+      "parent": "Expression interpretation",
+      "settles": "Determine whether the attributed interpretation matches the specified intended content.",
+      "excludes": "Establishing that the recipient acted on it.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-interpretation-repair",
+      "name": "Expression interpretation repair",
+      "root": "Expression",
+      "parent": "Expression interpretation",
+      "settles": "Produce a communicative change directed at a specified interpretation mismatch.",
+      "excludes": "Repeating the original wording without addressing the mismatch.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-instruction-requirement",
+      "name": "Expression instruction requirement",
+      "root": "Expression",
+      "parent": "Expression instruction",
+      "settles": "Specify what the expression directs its recipient to do under its intended interpretation.",
+      "excludes": "Treating an implied unlimited permission as explicit instruction.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "expression-instruction-interpretation",
+      "name": "Expression instruction interpretation",
+      "root": "Expression",
+      "parent": "Expression instruction",
+      "settles": "Determine what action requirement the recipient attributes to the instruction.",
+      "excludes": "Establishing execution of that requirement.",
+      "predecessor_scopes": [
+        "E1",
+        "E2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-creation",
+      "name": "Goal creation",
+      "root": "Goal",
+      "parent": "Goal",
+      "settles": "Construct a candidate intended outcome absent from the stated initial goal inventory.",
+      "excludes": "Constructing a means to a fixed outcome.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-modification",
+      "name": "Goal modification",
+      "root": "Goal",
+      "parent": "Goal",
+      "settles": "Revise the intended outcome or its scope while identifying what changed.",
+      "excludes": "Changing only the route used to pursue it.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-identity",
+      "name": "Goal identity",
+      "root": "Goal",
+      "parent": "Goal",
+      "settles": "Determine whether two formulations specify the same intended outcome.",
+      "excludes": "Equating goals because they share a method.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-selection",
+      "name": "Goal selection",
+      "root": "Goal",
+      "parent": "Goal",
+      "settles": "Choose an intended outcome from specified candidates under fixed criteria.",
+      "excludes": "Committing to pursue the chosen outcome.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-achievement-condition-specification",
+      "name": "Goal achievement condition specification",
+      "root": "Goal",
+      "parent": "Goal achievement",
+      "settles": "Specify what must be true for the goal to count as achieved.",
+      "excludes": "Choosing a convenient indicator without establishing its relation to success.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-achievement-indicator-adequacy",
+      "name": "Goal achievement indicator adequacy",
+      "root": "Goal",
+      "parent": "Goal achievement",
+      "settles": "Determine how faithfully an indicator distinguishes goal achievement from non-achievement.",
+      "excludes": "Observing the indicator in one instance.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-achievement-status",
+      "name": "Goal achievement status",
+      "root": "Goal",
+      "parent": "Goal achievement",
+      "settles": "Determine whether the stated achievement conditions hold in the specified situation.",
+      "excludes": "Reporting that the planned work was completed.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-relation-compatibility",
+      "name": "Goal relation compatibility",
+      "root": "Goal",
+      "parent": "Goal relation",
+      "settles": "Determine whether the specified goals can be jointly achieved under fixed conditions.",
+      "excludes": "Comparing which goal is more desirable.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-relation-priority",
+      "name": "Goal relation priority",
+      "root": "Goal",
+      "parent": "Goal relation",
+      "settles": "Determine precedence among specified goals under an explicit conflict rule.",
+      "excludes": "Inferring precedence from the order of their names.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-relation-dependency",
+      "name": "Goal relation dependency",
+      "root": "Goal",
+      "parent": "Goal relation",
+      "settles": "Determine which goal achievement is required for another specified goal.",
+      "excludes": "Treating one useful route as a necessary goal.",
+      "predecessor_scopes": [
+        "P1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "goal-means-dependence",
+      "name": "Goal means dependence",
+      "root": "Goal",
+      "parent": "Goal means",
+      "settles": "Specify how a proposed activity contributes to an intended outcome under explicit dependency claims.",
+      "excludes": "Treating every preceding action as a necessary means.",
+      "predecessor_scopes": [
+        "P1",
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "commitment-adoption",
+      "name": "Commitment adoption",
+      "root": "Commitment",
+      "parent": "Commitment",
+      "settles": "Establish which specified undertaking an agent has adopted within its authority.",
+      "excludes": "Preferring the option without undertaking it.",
+      "predecessor_scopes": [
+        "P2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "commitment-deferral",
+      "name": "Commitment deferral",
+      "root": "Commitment",
+      "parent": "Commitment",
+      "settles": "Establish that an undertaking remains undecided until a specified condition.",
+      "excludes": "Rejecting it permanently.",
+      "predecessor_scopes": [
+        "P2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "commitment-withdrawal",
+      "name": "Commitment withdrawal",
+      "root": "Commitment",
+      "parent": "Commitment",
+      "settles": "Establish that an earlier undertaking is no longer in force.",
+      "excludes": "Erasing that it was previously authorized.",
+      "predecessor_scopes": [
+        "P2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "commitment-reopening",
+      "name": "Commitment reopening",
+      "root": "Commitment",
+      "parent": "Commitment",
+      "settles": "Identify which changed condition makes a prior undertaking subject to renewed decision.",
+      "excludes": "Reopening unaffected decisions automatically.",
+      "predecessor_scopes": [
+        "P2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "commitment-scope-specification",
+      "name": "Commitment scope specification",
+      "root": "Commitment",
+      "parent": "Commitment scope",
+      "settles": "Specify the actions, conditions, or duration covered by an undertaking.",
+      "excludes": "Inferring unlimited authority from a related earlier action.",
+      "predecessor_scopes": [
+        "P2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "commitment-scope-authority",
+      "name": "Commitment scope authority",
+      "root": "Commitment",
+      "parent": "Commitment scope",
+      "settles": "Determine who can establish or alter the specified undertaking.",
+      "excludes": "Determining who happens to prefer it.",
+      "predecessor_scopes": [
+        "P2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "commitment-scope-persistence",
+      "name": "Commitment scope persistence",
+      "root": "Commitment",
+      "parent": "Commitment scope",
+      "settles": "Determine which commitments remain in force across an interruption or changed premise.",
+      "excludes": "Preserving every commitment regardless of its conditions.",
+      "predecessor_scopes": [
+        "P2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-observation-identification",
+      "name": "Preference observation identification",
+      "root": "Preference",
+      "parent": "Preference observation",
+      "settles": "Identify what a recorded choice or rejection actually reveals about the offered contrast.",
+      "excludes": "Inferring a universal preference from one choice.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-observation-context",
+      "name": "Preference observation context",
+      "root": "Preference",
+      "parent": "Preference observation",
+      "settles": "Specify the circumstances that constrain interpretation of a preference observation.",
+      "excludes": "Explaining the agent's entire personal history.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-hypothesis-creation",
+      "name": "Preference hypothesis creation",
+      "root": "Preference",
+      "parent": "Preference hypothesis",
+      "settles": "Construct an account of favoring that explains identified contrasts without absorbing every candidate feature.",
+      "excludes": "Restating the selected example as the whole preference.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-hypothesis-discrimination",
+      "name": "Preference hypothesis discrimination",
+      "root": "Preference",
+      "parent": "Preference hypothesis",
+      "settles": "Identify a contrast whose possible outcomes separate competing preference accounts.",
+      "excludes": "Offering alternatives all accounts rank identically.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-hypothesis-exception",
+      "name": "Preference hypothesis exception",
+      "root": "Preference",
+      "parent": "Preference hypothesis",
+      "settles": "Locate a case that falls outside the stated preference account despite meeting its conditions.",
+      "excludes": "A context change already excluded by the account.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-hypothesis-revision",
+      "name": "Preference hypothesis revision",
+      "root": "Preference",
+      "parent": "Preference hypothesis",
+      "settles": "Modify a preference account in response to a consequential observation.",
+      "excludes": "Recording the observation without changing dependent predictions.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-hypothesis-prediction",
+      "name": "Preference hypothesis prediction",
+      "root": "Preference",
+      "parent": "Preference hypothesis",
+      "settles": "State the choice a preference account anticipates before the choice is observed.",
+      "excludes": "Explaining a choice only after learning its result.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-change-detection",
+      "name": "Preference change detection",
+      "root": "Preference",
+      "parent": "Preference change",
+      "settles": "Determine whether favoring changed with comparable choice conditions held fixed.",
+      "excludes": "A different choice forced by different available options.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-change-cause",
+      "name": "Preference change cause",
+      "root": "Preference",
+      "parent": "Preference change",
+      "settles": "Determine what explains the identified change in favoring.",
+      "excludes": "Treating temporal succession alone as a causal account.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "preference-interest-identification",
+      "name": "Preference interest identification",
+      "root": "Preference",
+      "parent": "Preference interest",
+      "settles": "Determine which unresolved matters attract the agent's interest in finding out.",
+      "excludes": "Assuming interest entails commitment to investigate.",
+      "predecessor_scopes": [
+        "V1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "criterion-creation",
+      "name": "Criterion creation",
+      "root": "Criterion",
+      "parent": "Criterion",
+      "settles": "Formulate a criterion that distinguishes a consequential difference for a stated purpose.",
+      "excludes": "Scoring an item under an already fixed criterion.",
+      "predecessor_scopes": [
+        "V2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "criterion-modification",
+      "name": "Criterion modification",
+      "root": "Criterion",
+      "parent": "Criterion",
+      "settles": "Revise what the criterion counts or how it applies, with the difference explicit.",
+      "excludes": "Claiming an unchanged item improved because the standard changed.",
+      "predecessor_scopes": [
+        "V2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "criterion-justification",
+      "name": "Criterion justification",
+      "root": "Criterion",
+      "parent": "Criterion",
+      "settles": "Establish why the specified distinction should count for the stated purpose.",
+      "excludes": "Citing endorsement as sufficient justification.",
+      "predecessor_scopes": [
+        "V2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "criterion-scope",
+      "name": "Criterion scope",
+      "root": "Criterion",
+      "parent": "Criterion",
+      "settles": "Identify the cases in which the criterion's justification applies.",
+      "excludes": "Assuming a criterion useful for one case applies everywhere.",
+      "predecessor_scopes": [
+        "V2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "criterion-application-condition",
+      "name": "Criterion application condition",
+      "root": "Criterion",
+      "parent": "Criterion application",
+      "settles": "Specify what information is needed to apply the criterion to an item.",
+      "excludes": "Concluding that missing information means failure.",
+      "predecessor_scopes": [
+        "V2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "criterion-application-consistency",
+      "name": "Criterion application consistency",
+      "root": "Criterion",
+      "parent": "Criterion application",
+      "settles": "Determine whether the same stated criterion yields compatible judgments in relevantly equivalent cases.",
+      "excludes": "Demanding identical judgments when consequential conditions differ.",
+      "predecessor_scopes": [
+        "V2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "criterion-conflict-identification",
+      "name": "Criterion conflict identification",
+      "root": "Criterion",
+      "parent": "Criterion conflict",
+      "settles": "Identify a case where satisfying one criterion obstructs another specified criterion.",
+      "excludes": "Treating merely different criteria as conflicting.",
+      "predecessor_scopes": [
+        "V2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "criterion-conflict-resolution",
+      "name": "Criterion conflict resolution",
+      "root": "Criterion",
+      "parent": "Criterion conflict",
+      "settles": "Specify how the identified criterion conflict is decided under stated reasons.",
+      "excludes": "Hiding the conflict in an unexplained aggregate score.",
+      "predecessor_scopes": [
+        "V2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "comparison-basis-alignment",
+      "name": "Comparison basis alignment",
+      "root": "Comparison",
+      "parent": "Comparison basis",
+      "settles": "Determine which features or conditions must be made comparable before applying a fixed standard.",
+      "excludes": "Altering the standard's justification.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "comparison-basis-baseline",
+      "name": "Comparison basis baseline",
+      "root": "Comparison",
+      "parent": "Comparison basis",
+      "settles": "Identify the reference item or state used by the comparison.",
+      "excludes": "Choosing a convenient baseline after seeing the result.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "comparison-result-ordering",
+      "name": "Comparison result ordering",
+      "root": "Comparison",
+      "parent": "Comparison result",
+      "settles": "Determine the ordering induced by the stated values under a fixed comparison rule.",
+      "excludes": "Adopting the highest ranked item.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "comparison-result-incomparability",
+      "name": "Comparison result incomparability",
+      "root": "Comparison",
+      "parent": "Comparison result",
+      "settles": "Determine why the supplied comparison rule leaves a pair unordered.",
+      "excludes": "Treating absent information as demonstrated equality.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "comparison-result-sensitivity",
+      "name": "Comparison result sensitivity",
+      "root": "Comparison",
+      "parent": "Comparison result",
+      "settles": "Determine which changes in stated comparison inputs would reverse the ordering.",
+      "excludes": "Changing the criterion without saying so.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "comparison-result-aggregation",
+      "name": "Comparison result aggregation",
+      "root": "Comparison",
+      "parent": "Comparison result",
+      "settles": "Determine whether a stated aggregation rule preserves the distinctions the comparison requires.",
+      "excludes": "Asserting that one score captures every relevant distinction.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-target-specification",
+      "name": "Explanation target specification",
+      "root": "Explanation",
+      "parent": "Explanation target",
+      "settles": "Specify the occurrence, pattern, or dependence the account must explain.",
+      "excludes": "Merely naming the broad topic.",
+      "predecessor_scopes": [
+        "A3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-target-contrast",
+      "name": "Explanation target contrast",
+      "root": "Explanation",
+      "parent": "Explanation target",
+      "settles": "Specify why this outcome rather than which alternative is being explained.",
+      "excludes": "Explaining a different contrast using related vocabulary.",
+      "predecessor_scopes": [
+        "A3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-account-creation",
+      "name": "Explanation account creation",
+      "root": "Explanation",
+      "parent": "Explanation account",
+      "settles": "Construct an account of the specified target's dependence or mechanism.",
+      "excludes": "Merely redescribing the target.",
+      "predecessor_scopes": [
+        "A3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-account-comparison",
+      "name": "Explanation account comparison",
+      "root": "Explanation",
+      "parent": "Explanation account",
+      "settles": "Identify how competing accounts differ in their explanation of a fixed target.",
+      "excludes": "Choosing an account solely because its prose is clearer.",
+      "predecessor_scopes": [
+        "A3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-account-discrimination",
+      "name": "Explanation account discrimination",
+      "root": "Explanation",
+      "parent": "Explanation account",
+      "settles": "Identify an observation that would separate the specified explanatory accounts.",
+      "excludes": "An observation both accounts already accommodate identically.",
+      "predecessor_scopes": [
+        "A3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-account-scope",
+      "name": "Explanation account scope",
+      "root": "Explanation",
+      "parent": "Explanation account",
+      "settles": "Specify the conditions within which the proposed explanation applies.",
+      "excludes": "Claiming unrestricted explanatory coverage.",
+      "predecessor_scopes": [
+        "A3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-account-circularity",
+      "name": "Explanation account circularity",
+      "root": "Explanation",
+      "parent": "Explanation account",
+      "settles": "Determine whether the proposed explanation assumes the very dependence it claims to explain.",
+      "excludes": "Treating any shared vocabulary as circularity.",
+      "predecessor_scopes": [
+        "A3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "explanation-account-revision",
+      "name": "Explanation account revision",
+      "root": "Explanation",
+      "parent": "Explanation account",
+      "settles": "Change the explanation's dependence structure in response to an identified defect.",
+      "excludes": "Improving only the expression of an unchanged account.",
+      "predecessor_scopes": [
+        "A3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-target-specification",
+      "name": "Prediction target specification",
+      "root": "Prediction",
+      "parent": "Prediction target",
+      "settles": "Specify the outcome variable whose future or unknown value is forecast.",
+      "excludes": "Explaining an already known outcome.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-target-horizon",
+      "name": "Prediction target horizon",
+      "root": "Prediction",
+      "parent": "Prediction target",
+      "settles": "Specify the time or event boundary at which the prediction is to be resolved.",
+      "excludes": "Choosing a convenient horizon after the observation.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-construction",
+      "name": "Prediction construction",
+      "root": "Prediction",
+      "parent": "Prediction",
+      "settles": "Produce a forecast for the specified target from the information available at prediction time.",
+      "excludes": "Retrofitting a forecast after seeing the outcome.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-information-boundary",
+      "name": "Prediction information boundary",
+      "root": "Prediction",
+      "parent": "Prediction",
+      "settles": "Identify the information legitimately available to the predictor when the forecast was made.",
+      "excludes": "Including later observations in the original evidence base.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-uncertainty-representation",
+      "name": "Prediction uncertainty representation",
+      "root": "Prediction",
+      "parent": "Prediction",
+      "settles": "Specify which possible outcomes or probability assignments the forecast expresses.",
+      "excludes": "Treating omitted alternatives as impossible.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-resolution",
+      "name": "Prediction resolution",
+      "root": "Prediction",
+      "parent": "Prediction",
+      "settles": "Determine the observed outcome under the previously specified resolution rule.",
+      "excludes": "Changing the target to match the forecast.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-error",
+      "name": "Prediction error",
+      "root": "Prediction",
+      "parent": "Prediction",
+      "settles": "Determine the difference between forecast and outcome under a fixed error definition.",
+      "excludes": "Revising the error measure after seeing comparative results.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-calibration",
+      "name": "Prediction calibration",
+      "root": "Prediction",
+      "parent": "Prediction",
+      "settles": "Compare stated probabilities with observed frequencies over a specified admissible set of forecasts.",
+      "excludes": "Inferring calibration from one successful forecast.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "prediction-revision",
+      "name": "Prediction revision",
+      "root": "Prediction",
+      "parent": "Prediction",
+      "settles": "Update the forecast using identified new information while preserving its prior version.",
+      "excludes": "Overwriting the old forecast as if it had always predicted the new result.",
+      "predecessor_scopes": [
+        "A4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "problem-formulation-creation",
+      "name": "Problem formulation creation",
+      "root": "Problem",
+      "parent": "Problem formulation",
+      "settles": "Specify an obstruction relative to an explicit requirement and situation.",
+      "excludes": "Assuming a requested artifact is the underlying problem.",
+      "predecessor_scopes": [
+        "R1",
+        "R2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "problem-formulation-modification",
+      "name": "Problem formulation modification",
+      "root": "Problem",
+      "parent": "Problem formulation",
+      "settles": "Revise which obstruction is alleged while retaining the reason for the revision.",
+      "excludes": "Relabeling the same obstruction.",
+      "predecessor_scopes": [
+        "R1",
+        "R2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "problem-formulation-cause",
+      "name": "Problem formulation cause",
+      "root": "Problem",
+      "parent": "Problem formulation",
+      "settles": "Determine what produces the specified obstruction under an explicit causal account.",
+      "excludes": "Merely describing its symptoms.",
+      "predecessor_scopes": [
+        "R1",
+        "R2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "problem-remedy-creation",
+      "name": "Problem remedy creation",
+      "root": "Problem",
+      "parent": "Problem remedy",
+      "settles": "Construct a proposed change whose stated effect addresses the specified obstruction.",
+      "excludes": "Assuming that the proposed intervention will produce its stated effect.",
+      "predecessor_scopes": [
+        "R1",
+        "R2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "problem-remedy-adequacy",
+      "name": "Problem remedy adequacy",
+      "root": "Problem",
+      "parent": "Problem remedy",
+      "settles": "Determine whether a specified effect, if obtained, would remove or reduce the stated obstruction.",
+      "excludes": "Establishing that the intervention actually causes that effect.",
+      "predecessor_scopes": [
+        "R1",
+        "R2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "problem-remedy-incompleteness",
+      "name": "Problem remedy incompleteness",
+      "root": "Problem",
+      "parent": "Problem remedy",
+      "settles": "Identify which necessary problem condition a proposed effect leaves unsatisfied.",
+      "excludes": "Rejecting a useful partial remedy merely because it is partial.",
+      "predecessor_scopes": [
+        "R1",
+        "R2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "problem-remedy-displacement",
+      "name": "Problem remedy displacement",
+      "root": "Problem",
+      "parent": "Problem remedy",
+      "settles": "Identify a new obstruction introduced by the proposed remedy under fixed requirements.",
+      "excludes": "Calling every cost a new problem without a requirement.",
+      "predecessor_scopes": [
+        "R1",
+        "R2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "problem-remedy-selection",
+      "name": "Problem remedy selection",
+      "root": "Problem",
+      "parent": "Problem remedy",
+      "settles": "Choose an already specified remedy under fixed adequacy facts and decision criteria.",
+      "excludes": "Developing a new remedy.",
+      "predecessor_scopes": [
+        "R1",
+        "R2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "plan-creation",
+      "name": "Plan creation",
+      "root": "Plan",
+      "parent": "Plan",
+      "settles": "Construct a prospective arrangement of activities for a stated aim.",
+      "excludes": "Adopting or executing the arrangement.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "plan-modification",
+      "name": "Plan modification",
+      "root": "Plan",
+      "parent": "Plan",
+      "settles": "Revise the prospective arrangement in response to a changed condition.",
+      "excludes": "Merely updating which steps have already occurred.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "plan-prerequisite",
+      "name": "Plan prerequisite",
+      "root": "Plan",
+      "parent": "Plan",
+      "settles": "Identify what must hold before a specified planned activity can proceed.",
+      "excludes": "Treating one helpful precursor as necessary.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "plan-sequence",
+      "name": "Plan sequence",
+      "root": "Plan",
+      "parent": "Plan",
+      "settles": "Determine the precedence relations among specified activities.",
+      "excludes": "Inferring actual execution order from the plan.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "plan-contingency",
+      "name": "Plan contingency",
+      "root": "Plan",
+      "parent": "Plan",
+      "settles": "Specify which activity follows when a stated condition obtains.",
+      "excludes": "Branching on a condition that changes no continuation.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "plan-gap",
+      "name": "Plan gap",
+      "root": "Plan",
+      "parent": "Plan",
+      "settles": "Identify a reachable condition for which the plan supplies no adequate continuation.",
+      "excludes": "Demanding branches for states excluded by the plan's scope.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "plan-fallback",
+      "name": "Plan fallback",
+      "root": "Plan",
+      "parent": "Plan",
+      "settles": "Specify the continuation used when an identified primary route becomes unavailable.",
+      "excludes": "Repeating the unavailable route with different wording.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "plan-commitment-reversibility",
+      "name": "Plan commitment reversibility",
+      "root": "Plan",
+      "parent": "Plan commitment",
+      "settles": "Determine which planned choices preserve or remove later options under stated constraints.",
+      "excludes": "Assuming that postponing every choice is beneficial.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "plan-horizon-specification",
+      "name": "Plan horizon specification",
+      "root": "Plan",
+      "parent": "Plan horizon",
+      "settles": "Specify the extent of the future for which the arrangement makes commitments.",
+      "excludes": "Claiming that unspecified later steps are resolved.",
+      "predecessor_scopes": [
+        "R3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-use-identification",
+      "name": "Resource use identification",
+      "root": "Resource",
+      "parent": "Resource use",
+      "settles": "Specify what contribution makes an item a resource for the stated activity.",
+      "excludes": "Treating the item's identity as proof of usefulness.",
+      "predecessor_scopes": [
+        "R4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-use-access-condition",
+      "name": "Resource use access condition",
+      "root": "Resource",
+      "parent": "Resource use",
+      "settles": "Determine the conditions under which the activity can actually use the resource.",
+      "excludes": "Equating existence with access.",
+      "predecessor_scopes": [
+        "R4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-use-capacity",
+      "name": "Resource use capacity",
+      "root": "Resource",
+      "parent": "Resource use",
+      "settles": "Specify the amount or range of contribution available from the resource under stated conditions.",
+      "excludes": "Assuming unlimited reuse.",
+      "predecessor_scopes": [
+        "R4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-configuration-construction",
+      "name": "Resource configuration construction",
+      "root": "Resource",
+      "parent": "Resource configuration",
+      "settles": "Construct an allocation of specified means to uses under explicit constraints.",
+      "excludes": "Claiming feasibility merely because the allocation can be described.",
+      "predecessor_scopes": [
+        "R4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-configuration-feasibility",
+      "name": "Resource configuration feasibility",
+      "root": "Resource",
+      "parent": "Resource configuration",
+      "settles": "Determine whether the proposed allocation satisfies joint capacity and access constraints.",
+      "excludes": "Ranking feasible allocations by desirability.",
+      "predecessor_scopes": [
+        "R4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-configuration-bottleneck",
+      "name": "Resource configuration bottleneck",
+      "root": "Resource",
+      "parent": "Resource configuration",
+      "settles": "Identify which binding resource constraint limits the specified configuration.",
+      "excludes": "Naming the scarcest resource without establishing its effect.",
+      "predecessor_scopes": [
+        "R4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-configuration-substitution",
+      "name": "Resource configuration substitution",
+      "root": "Resource",
+      "parent": "Resource configuration",
+      "settles": "Determine whether a replacement resource preserves the specified configuration's required contribution.",
+      "excludes": "Comparing substitutes without fixing the intended use.",
+      "predecessor_scopes": [
+        "R4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-configuration-opportunity-cost",
+      "name": "Resource configuration opportunity cost",
+      "root": "Resource",
+      "parent": "Resource configuration",
+      "settles": "Identify the best specified forgone use imposed by the proposed allocation under fixed comparison conditions.",
+      "excludes": "Counting every imaginable benefit as a cost.",
+      "predecessor_scopes": [
+        "R4"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-configuration-comparison",
+      "name": "Resource configuration comparison",
+      "root": "Resource",
+      "parent": "Resource configuration",
+      "settles": "Compare specified resource configurations under fixed uses and criteria.",
+      "excludes": "Changing the goal to favor a configuration.",
+      "predecessor_scopes": [
+        "R4",
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-configuration-modification",
+      "name": "Resource configuration modification",
+      "root": "Resource",
+      "parent": "Resource configuration",
+      "settles": "Produce a revised allocation with changed use or capacity assignments explicit.",
+      "excludes": "Assuming that every change increases feasibility.",
+      "predecessor_scopes": [
+        "R4",
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "resource-configuration-reconstruction",
+      "name": "Resource configuration reconstruction",
+      "root": "Resource",
+      "parent": "Resource configuration",
+      "settles": "Reconstruct an earlier allocation episode through its resource assignments, uses, alternatives, and constraints.",
+      "excludes": "Treating the reconstructed allocation account as a verbatim recovered record.",
+      "predecessor_scopes": [
+        "R4",
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current naming derivation; source contribution exposes this missing target.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-retention",
+      "name": "Memory record retention",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Preserve an identified item across a specified interval or transition.",
+      "excludes": "Demonstrating that its content is true.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-retrieval",
+      "name": "Memory record retrieval",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Locate an existing retained item that matches the specified retrieval target.",
+      "excludes": "Reconstructing content that the retained record no longer supplies.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-reconstruction",
+      "name": "Memory record reconstruction",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Rebuild an earlier item from surviving evidence with inferred parts identified.",
+      "excludes": "Presenting reconstruction as a verbatim recovered source.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-identity",
+      "name": "Memory record identity",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Determine which earlier item or version a recovered record represents.",
+      "excludes": "Matching a title while ignoring changed contents.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-provenance",
+      "name": "Memory record provenance",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Recover the source path through which the recorded material was obtained or derived.",
+      "excludes": "Treating a source citation as proof of the content.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-context-recovery",
+      "name": "Memory record context recovery",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Restore the conditions needed to interpret a retained item as it was intended.",
+      "excludes": "Recovering isolated text without its governing conditions.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-status-recovery",
+      "name": "Memory record status recovery",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Restore whether the earlier item was current, proposed, rejected, superseded, or unresolved.",
+      "excludes": "Reintroducing a rejected proposal as the current decision.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-record-version-distinction",
+      "name": "Memory record version distinction",
+      "root": "Memory",
+      "parent": "Memory record",
+      "settles": "Identify the substantive differences among retained versions of the same item.",
+      "excludes": "Treating every file change as a meaning change.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-reuse-fidelity",
+      "name": "Memory reuse fidelity",
+      "root": "Memory",
+      "parent": "Memory reuse",
+      "settles": "Determine whether a later use preserves the recovered item's consequential content and status.",
+      "excludes": "Treating successful retrieval as proof of faithful use.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "memory-reuse-trigger",
+      "name": "Memory reuse trigger",
+      "root": "Memory",
+      "parent": "Memory reuse",
+      "settles": "Specify which later conditions make a retained result relevant to the current work.",
+      "excludes": "Requiring every stored item to be reread on every task.",
+      "predecessor_scopes": [
+        "M1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "discovery-baseline-specification",
+      "name": "Discovery baseline specification",
+      "root": "Discovery",
+      "parent": "Discovery baseline",
+      "settles": "Specify the earlier position against which a contribution is claimed to be new.",
+      "excludes": "Claiming novelty without an inquirer or comparison boundary.",
+      "predecessor_scopes": [
+        "M2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "discovery-baseline-inventory",
+      "name": "Discovery baseline inventory",
+      "root": "Discovery",
+      "parent": "Discovery baseline",
+      "settles": "Identify what distinctions or possibilities were already available within that baseline.",
+      "excludes": "Assuming unrecorded material was absent.",
+      "predecessor_scopes": [
+        "M2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "discovery-contribution-novelty",
+      "name": "Discovery contribution novelty",
+      "root": "Discovery",
+      "parent": "Discovery contribution",
+      "settles": "Determine what the proposed contribution adds relative to the specified baseline.",
+      "excludes": "Inferring truth from novelty.",
+      "predecessor_scopes": [
+        "M2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "discovery-contribution-identity",
+      "name": "Discovery contribution identity",
+      "root": "Discovery",
+      "parent": "Discovery contribution",
+      "settles": "Determine whether two contributions add the same distinction despite different wording.",
+      "excludes": "Counting paraphrases as independent discoveries.",
+      "predecessor_scopes": [
+        "M2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "discovery-contribution-implication",
+      "name": "Discovery contribution implication",
+      "root": "Discovery",
+      "parent": "Discovery contribution",
+      "settles": "Identify which previously unavailable possibilities become accessible through the contribution.",
+      "excludes": "Counting a longer description as a new possibility.",
+      "predecessor_scopes": [
+        "M2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "discovery-contribution-dependence",
+      "name": "Discovery contribution dependence",
+      "root": "Discovery",
+      "parent": "Discovery contribution",
+      "settles": "Identify which earlier contributions are necessary for this specified discovery increment.",
+      "excludes": "Treating chronological proximity as dependence.",
+      "predecessor_scopes": [
+        "M2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "discovery-contribution-recovery-distinction",
+      "name": "Discovery contribution recovery distinction",
+      "root": "Discovery",
+      "parent": "Discovery contribution",
+      "settles": "Determine whether the increment comes from recovering earlier material or constructing something absent from that material.",
+      "excludes": "Equating new-to-this-inquirer with newly created.",
+      "predecessor_scopes": [
+        "M2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "discovery-continuation-opportunity",
+      "name": "Discovery continuation opportunity",
+      "root": "Discovery",
+      "parent": "Discovery continuation",
+      "settles": "Identify a concrete unresolved matter made investigable by the new contribution.",
+      "excludes": "Planning a whole route without identifying what the discovery opened.",
+      "predecessor_scopes": [
+        "M2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "attention-allocation-selection",
+      "name": "Attention allocation selection",
+      "root": "Attention",
+      "parent": "Attention allocation",
+      "settles": "Specify which available matter should receive the next interval of operative focus.",
+      "excludes": "Selecting an entire long-term plan.",
+      "predecessor_scopes": [
+        "T1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "attention-allocation-duration",
+      "name": "Attention allocation duration",
+      "root": "Attention",
+      "parent": "Attention allocation",
+      "settles": "Specify how long focus should persist before the next reassessment.",
+      "excludes": "Confusing persistence with indefinite repetition.",
+      "predecessor_scopes": [
+        "T1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "attention-allocation-switching-condition",
+      "name": "Attention allocation switching condition",
+      "root": "Attention",
+      "parent": "Attention allocation",
+      "settles": "Specify which event should redirect focus from the current matter.",
+      "excludes": "Describing a switch that already occurred.",
+      "predecessor_scopes": [
+        "T1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "attention-allocation-interruption",
+      "name": "Attention allocation interruption",
+      "root": "Attention",
+      "parent": "Attention allocation",
+      "settles": "Identify what displaced focus from the specified live matter.",
+      "excludes": "Assuming mere availability caused attention.",
+      "predecessor_scopes": [
+        "T1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "attention-allocation-restoration",
+      "name": "Attention allocation restoration",
+      "root": "Attention",
+      "parent": "Attention allocation",
+      "settles": "Restore the live matter after displacement with consequential context intact.",
+      "excludes": "Restarting from the earliest topic regardless of progress.",
+      "predecessor_scopes": [
+        "T1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "attention-influence-detection",
+      "name": "Attention influence detection",
+      "root": "Attention",
+      "parent": "Attention influence",
+      "settles": "Determine whether identified available material affected the next intellectual contribution.",
+      "excludes": "Equating retrieval or quotation with influence.",
+      "predecessor_scopes": [
+        "T1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "execution-state-initiation",
+      "name": "Execution state initiation",
+      "root": "Execution",
+      "parent": "Execution state",
+      "settles": "Establish that the specified authorized activity actually began.",
+      "excludes": "Reporting intention to begin.",
+      "predecessor_scopes": [
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "execution-state-progress",
+      "name": "Execution state progress",
+      "root": "Execution",
+      "parent": "Execution state",
+      "settles": "Determine which specified activity conditions have been completed so far.",
+      "excludes": "Inferring completion from elapsed time.",
+      "predecessor_scopes": [
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "execution-state-interruption",
+      "name": "Execution state interruption",
+      "root": "Execution",
+      "parent": "Execution state",
+      "settles": "Identify the point and conditions at which ongoing activity ceased temporarily.",
+      "excludes": "Treating interruption as withdrawal of authorization.",
+      "predecessor_scopes": [
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "execution-state-resumption",
+      "name": "Execution state resumption",
+      "root": "Execution",
+      "parent": "Execution state",
+      "settles": "Reestablish the interrupted activity from its consequential current state.",
+      "excludes": "Repeating completed work by default.",
+      "predecessor_scopes": [
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "execution-state-completion",
+      "name": "Execution state completion",
+      "root": "Execution",
+      "parent": "Execution state",
+      "settles": "Determine whether the specified activity's completion conditions were met.",
+      "excludes": "Claiming the larger goal was achieved merely because the activity ended.",
+      "predecessor_scopes": [
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "execution-state-termination",
+      "name": "Execution state termination",
+      "root": "Execution",
+      "parent": "Execution state",
+      "settles": "Establish that further execution has ended under its stated stopping condition.",
+      "excludes": "Conflating termination with successful completion.",
+      "predecessor_scopes": [
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "execution-record-correspondence",
+      "name": "Execution record correspondence",
+      "root": "Execution",
+      "parent": "Execution record",
+      "settles": "Determine whether the execution record matches the operations actually performed.",
+      "excludes": "Treating a written procedure as a run record.",
+      "predecessor_scopes": [
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "execution-record-comparison",
+      "name": "Execution record comparison",
+      "root": "Execution",
+      "parent": "Execution record",
+      "settles": "Compare specified executions under fixed input and outcome definitions.",
+      "excludes": "Claiming causal superiority from uncontrolled differences.",
+      "predecessor_scopes": [
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "execution-record-representation",
+      "name": "Execution record representation",
+      "root": "Execution",
+      "parent": "Execution record",
+      "settles": "Represent the actual run identity, inputs, performed operations, and results.",
+      "excludes": "Implying that a well formed record verifies its own factual accuracy.",
+      "predecessor_scopes": [
+        "T2",
+        "E1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": [
+        "Expression representation creation"
+      ]
+    },
+    {
+      "id": "capability-scope-specification",
+      "name": "Capability scope specification",
+      "root": "Capability",
+      "parent": "Capability scope",
+      "settles": "Specify the class of tasks and conditions covered by a capability claim.",
+      "excludes": "Inferring unlimited ability from one performance.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "capability-scope-limit",
+      "name": "Capability scope limit",
+      "root": "Capability",
+      "parent": "Capability scope",
+      "settles": "Identify a condition under which the claimed ability is unavailable.",
+      "excludes": "Equating an unattempted case with demonstrated inability.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "capability-use-access",
+      "name": "Capability use access",
+      "root": "Capability",
+      "parent": "Capability use",
+      "settles": "Determine whether the agent can bring an available means into use when the specified case requires it.",
+      "excludes": "Reproducing its description without selecting it.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "capability-use-blockage",
+      "name": "Capability use blockage",
+      "root": "Capability",
+      "parent": "Capability use",
+      "settles": "Identify a condition preventing the agent from exercising an otherwise available ability.",
+      "excludes": "Assuming every failure demonstrates absence of the ability.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "capability-use-transfer",
+      "name": "Capability use transfer",
+      "root": "Capability",
+      "parent": "Capability use",
+      "settles": "Determine whether the ability can be exercised in a specified changed context.",
+      "excludes": "Repeating an identical training example.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "capability-evidence-adequacy",
+      "name": "Capability evidence adequacy",
+      "root": "Capability",
+      "parent": "Capability evidence",
+      "settles": "Determine which capability claim the observed performances warrant under stated sampling conditions.",
+      "excludes": "Generalizing a single successful performance to all conditions.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "capability-evidence-discrimination",
+      "name": "Capability evidence discrimination",
+      "root": "Capability",
+      "parent": "Capability evidence",
+      "settles": "Construct a case that separates usable capability from memorized reproduction.",
+      "excludes": "Asking for the same wording already supplied.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "capability-use-intervention-requirement",
+      "name": "Capability use intervention requirement",
+      "root": "Capability",
+      "parent": "Capability use",
+      "settles": "Specify what an intervention must change to remove the identified capability-use blockage while preserving stated limits.",
+      "excludes": "Specifying a system artifact when the intervention need not be a system.",
+      "predecessor_scopes": [
+        "B1",
+        "R2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current naming derivation; source contribution exposes this missing target.",
+      "broader_subjects": []
+    },
+    {
+      "id": "intelligence-adaptation-requirement",
+      "name": "Intelligence adaptation requirement",
+      "root": "Intelligence",
+      "parent": "Intelligence adaptation",
+      "settles": "Specify the changes of task or environment that an intelligence claim requires the agent to handle.",
+      "excludes": "Defining intelligence by a flattering unbounded adjective.",
+      "predecessor_scopes": [
+        "B1",
+        "B2",
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "intelligence-adaptation-strategy-selection",
+      "name": "Intelligence adaptation strategy selection",
+      "root": "Intelligence",
+      "parent": "Intelligence adaptation",
+      "settles": "Determine whether the agent can select a fitting means under the specified changed conditions.",
+      "excludes": "Merely listing candidate strategies.",
+      "predecessor_scopes": [
+        "B1",
+        "B2",
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "intelligence-adaptation-strategy-construction",
+      "name": "Intelligence adaptation strategy construction",
+      "root": "Intelligence",
+      "parent": "Intelligence adaptation",
+      "settles": "Determine whether the agent can construct a fitting means when the stated available means are inadequate.",
+      "excludes": "Calling any generated text an adequate adaptation.",
+      "predecessor_scopes": [
+        "B1",
+        "B2",
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "intelligence-adaptation-transfer",
+      "name": "Intelligence adaptation transfer",
+      "root": "Intelligence",
+      "parent": "Intelligence adaptation",
+      "settles": "Determine whether the adaptive ability persists across the specified change of task family.",
+      "excludes": "Assuming that one task's success establishes generality.",
+      "predecessor_scopes": [
+        "B1",
+        "B2",
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": [
+        "Capability use transfer"
+      ]
+    },
+    {
+      "id": "intelligence-improvement",
+      "name": "Intelligence improvement",
+      "root": "Intelligence",
+      "parent": "Intelligence",
+      "settles": "Determine whether a specified change improves adaptive ability against a fixed baseline and criterion.",
+      "excludes": "Treating every capability modification as improvement.",
+      "predecessor_scopes": [
+        "B1",
+        "B2",
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "intelligence-maintenance",
+      "name": "Intelligence maintenance",
+      "root": "Intelligence",
+      "parent": "Intelligence",
+      "settles": "Determine what preserves the specified adaptive ability across an identified disturbance or interval.",
+      "excludes": "Requiring new capability creation when preservation is the target.",
+      "predecessor_scopes": [
+        "B1",
+        "B2",
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "intelligence-regression",
+      "name": "Intelligence regression",
+      "root": "Intelligence",
+      "parent": "Intelligence",
+      "settles": "Identify a loss of previously demonstrated adaptive ability under comparable conditions.",
+      "excludes": "Calling a harder new task evidence of regression without comparison.",
+      "predecessor_scopes": [
+        "B1",
+        "B2",
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "understanding-content-specification",
+      "name": "Understanding content specification",
+      "root": "Understanding",
+      "parent": "Understanding content",
+      "settles": "Specify which relations an agent must be able to use for the stated understanding claim.",
+      "excludes": "Equating stored prose with usable grasp.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "understanding-content-dependence",
+      "name": "Understanding content dependence",
+      "root": "Understanding",
+      "parent": "Understanding content",
+      "settles": "Identify which grasped relations are required for the specified further understanding.",
+      "excludes": "Treating every prerequisite document as a prerequisite understanding.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "understanding-use-application",
+      "name": "Understanding use application",
+      "root": "Understanding",
+      "parent": "Understanding use",
+      "settles": "Determine whether the agent can use the identified relation to handle the specified case.",
+      "excludes": "Repeating its definition without using it.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "understanding-use-explanation",
+      "name": "Understanding use explanation",
+      "root": "Understanding",
+      "parent": "Understanding use",
+      "settles": "Determine whether the agent can reconstruct the identified relation for a stated explanatory task.",
+      "excludes": "Judging an explanatory account's structure independently of the agent's ability.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "understanding-use-transfer",
+      "name": "Understanding use transfer",
+      "root": "Understanding",
+      "parent": "Understanding use",
+      "settles": "Determine whether the agent can use the relation in a changed representation or setting.",
+      "excludes": "Recognizing identical surface wording.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": [
+        "Capability use transfer"
+      ]
+    },
+    {
+      "id": "understanding-error-diagnosis",
+      "name": "Understanding error diagnosis",
+      "root": "Understanding",
+      "parent": "Understanding error",
+      "settles": "Identify which relation the agent misconstrues or fails to use in the specified case.",
+      "excludes": "Merely labeling the whole response unintelligent.",
+      "predecessor_scopes": [
+        "B1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "learning-change-detection",
+      "name": "Learning change detection",
+      "root": "Learning",
+      "parent": "Learning change",
+      "settles": "Determine which relevant ability or disposition changed after the specified experience.",
+      "excludes": "Counting a changed stored note as sufficient behavioral evidence.",
+      "predecessor_scopes": [
+        "B2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "learning-change-attribution",
+      "name": "Learning change attribution",
+      "root": "Learning",
+      "parent": "Learning change",
+      "settles": "Determine whether the identified change is attributable to the specified experience.",
+      "excludes": "Inferring causation solely from before-after order.",
+      "predecessor_scopes": [
+        "B2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "learning-change-retention",
+      "name": "Learning change retention",
+      "root": "Learning",
+      "parent": "Learning change",
+      "settles": "Determine whether the experiential change persists across a specified interval.",
+      "excludes": "Rechecking immediately under unchanged conditions alone.",
+      "predecessor_scopes": [
+        "B2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "learning-change-transfer",
+      "name": "Learning change transfer",
+      "root": "Learning",
+      "parent": "Learning change",
+      "settles": "Determine whether the experiential change affects a specified new applicable case.",
+      "excludes": "Assuming that a corrected example establishes transfer.",
+      "predecessor_scopes": [
+        "B2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "learning-change-interference",
+      "name": "Learning change interference",
+      "root": "Learning",
+      "parent": "Learning change",
+      "settles": "Identify how later experience alters an earlier learned ability under comparable conditions.",
+      "excludes": "Calling every later failure forgetting without isolating the earlier ability.",
+      "predecessor_scopes": [
+        "B2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "learning-correction-uptake",
+      "name": "Learning correction uptake",
+      "root": "Learning",
+      "parent": "Learning correction",
+      "settles": "Determine whether a supplied correction changes the next applicable conduct.",
+      "excludes": "Merely acknowledging or storing the correction.",
+      "predecessor_scopes": [
+        "B2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "learning-correction-generalization",
+      "name": "Learning correction generalization",
+      "root": "Learning",
+      "parent": "Learning correction",
+      "settles": "Specify which further cases the correction legitimately governs.",
+      "excludes": "Applying a local correction to every superficially related case.",
+      "predecessor_scopes": [
+        "B2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "learning-correction-overgeneralization",
+      "name": "Learning correction overgeneralization",
+      "root": "Learning",
+      "parent": "Learning correction",
+      "settles": "Identify a later use that extends the correction beyond its justified conditions.",
+      "excludes": "Treating every broader application as an error.",
+      "predecessor_scopes": [
+        "B2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-method-selection",
+      "name": "Inquiry method selection",
+      "root": "Inquiry",
+      "parent": "Inquiry method",
+      "settles": "Choose an investigative method for a specified subject and evidential purpose.",
+      "excludes": "Selecting a single intellectual operation with no investigative organization at issue.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-method-creation",
+      "name": "Inquiry method creation",
+      "root": "Inquiry",
+      "parent": "Inquiry method",
+      "settles": "Construct an investigative organization with explicit ways its results can alter the inquiry.",
+      "excludes": "Relabeling a generic workflow as a subject-specific science.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-method-modification",
+      "name": "Inquiry method modification",
+      "root": "Inquiry",
+      "parent": "Inquiry method",
+      "settles": "Revise a specified investigative organization in response to a concrete limitation.",
+      "excludes": "Changing only the method's title.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-method-assumption",
+      "name": "Inquiry method assumption",
+      "root": "Inquiry",
+      "parent": "Inquiry method",
+      "settles": "Identify the assumptions required by the method's route from observations to findings.",
+      "excludes": "Establishing a particular factual claim's support.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-method-limitation",
+      "name": "Inquiry method limitation",
+      "root": "Inquiry",
+      "parent": "Inquiry method",
+      "settles": "Identify a class of finding the specified investigative organization cannot establish under its conditions.",
+      "excludes": "Claiming universal failure from one poorly executed use.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-test-design",
+      "name": "Inquiry test design",
+      "root": "Inquiry",
+      "parent": "Inquiry test",
+      "settles": "Construct a test whose possible results distinguish the specified live alternatives.",
+      "excludes": "Collecting observations that cannot separate those alternatives.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-test-interpretation-rule",
+      "name": "Inquiry test interpretation rule",
+      "root": "Inquiry",
+      "parent": "Inquiry test",
+      "settles": "Specify how each possible test outcome changes the status of the alternatives.",
+      "excludes": "Writing the interpretation only after observing the result.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-test-confound",
+      "name": "Inquiry test confound",
+      "root": "Inquiry",
+      "parent": "Inquiry test",
+      "settles": "Identify an alternative factor that prevents the planned observation from discriminating its target.",
+      "excludes": "Listing unrelated possible problems.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-finding-replication-condition",
+      "name": "Inquiry finding replication condition",
+      "root": "Inquiry",
+      "parent": "Inquiry finding",
+      "settles": "Specify what must be preserved for a repetition to test the same finding.",
+      "excludes": "Requiring every irrelevant detail to be identical.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "inquiry-finding-revision-condition",
+      "name": "Inquiry finding revision condition",
+      "root": "Inquiry",
+      "parent": "Inquiry finding",
+      "settles": "Specify which result should revise the finding rather than only its stated application conditions.",
+      "excludes": "Protecting every finding by adding exceptions indefinitely.",
+      "predecessor_scopes": [
+        "N1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-predicate-definition",
+      "name": "Relation predicate definition",
+      "root": "Relation",
+      "parent": "Relation predicate",
+      "settles": "Specify what must hold between identified arguments for the stated relation predicate to apply.",
+      "excludes": "Naming an association without its conditions.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-predicate-direction",
+      "name": "Relation predicate direction",
+      "root": "Relation",
+      "parent": "Relation predicate",
+      "settles": "Determine what changes when the argument order of the relation is reversed.",
+      "excludes": "Assuming every relation is symmetric.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-predicate-inverse",
+      "name": "Relation predicate inverse",
+      "root": "Relation",
+      "parent": "Relation predicate",
+      "settles": "Define the relation obtained by reversing a specified predicate's argument roles.",
+      "excludes": "Treating inverse as logical negation.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-predicate-negation",
+      "name": "Relation predicate negation",
+      "root": "Relation",
+      "parent": "Relation predicate",
+      "settles": "Specify what denial of the stated relation rules out under its domain and quantifiers.",
+      "excludes": "Treating not-a-subtype as disjointness.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-predicate-necessity",
+      "name": "Relation predicate necessity",
+      "root": "Relation",
+      "parent": "Relation predicate",
+      "settles": "Determine whether the relation expresses a necessary condition for its stated consequent.",
+      "excludes": "Inferring necessity from one successful route.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-predicate-sufficiency",
+      "name": "Relation predicate sufficiency",
+      "root": "Relation",
+      "parent": "Relation predicate",
+      "settles": "Determine whether the relation establishes a sufficient condition under its stated scope.",
+      "excludes": "Treating a helpful contribution as sufficient.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-composition-validity",
+      "name": "Relation composition validity",
+      "root": "Relation",
+      "parent": "Relation composition",
+      "settles": "Determine which relation follows from a specified chain under explicit relation rules.",
+      "excludes": "Treating every connected path as a valid implication.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "relation-composition-domain",
+      "name": "Relation composition domain",
+      "root": "Relation",
+      "parent": "Relation composition",
+      "settles": "Identify which argument domains make the proposed relation composition well formed.",
+      "excludes": "Composing predicates whose intermediate arguments have different meanings.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-requirement-elicitation",
+      "name": "Design requirement elicitation",
+      "root": "Design",
+      "parent": "Design requirement",
+      "settles": "Derive a candidate requirement from identified contrasts among designs.",
+      "excludes": "Retaining every feature of a favored example.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-requirement-justification",
+      "name": "Design requirement justification",
+      "root": "Design",
+      "parent": "Design requirement",
+      "settles": "Establish why the proposed requirement follows from the stated purpose or constraints.",
+      "excludes": "Treating an observed preference as automatically mandatory.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-requirement-revision",
+      "name": "Design requirement revision",
+      "root": "Design",
+      "parent": "Design requirement",
+      "settles": "Change an identified requirement when a concrete alternative exposes a missing distinction.",
+      "excludes": "Changing only how the requirement is worded.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-requirement-compatibility",
+      "name": "Design requirement compatibility",
+      "root": "Design",
+      "parent": "Design requirement",
+      "settles": "Determine whether the specified requirements admit at least one joint realization under fixed conditions.",
+      "excludes": "Assuming separately satisfiable requirements are jointly satisfiable.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-candidate-space-specification",
+      "name": "Design candidate space specification",
+      "root": "Design",
+      "parent": "Design candidate",
+      "settles": "Specify the design dimensions and admissible values within the current design investigation.",
+      "excludes": "Assuming the initial dimensions exhaust possible designs.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-candidate-contrast-construction",
+      "name": "Design candidate contrast construction",
+      "root": "Design",
+      "parent": "Design candidate",
+      "settles": "Construct alternatives that isolate a consequential design difference.",
+      "excludes": "Comparing alternatives that differ on every feature without interpretation.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-candidate-feature-attribution",
+      "name": "Design candidate feature attribution",
+      "root": "Design",
+      "parent": "Design candidate",
+      "settles": "Determine which feature supports a specified contribution attributed to the design.",
+      "excludes": "Assuming every feature caused the favorable judgment.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-realization-feasibility",
+      "name": "Design realization feasibility",
+      "root": "Design",
+      "parent": "Design realization",
+      "settles": "Determine whether the specified candidate can satisfy the stated cross-artifact realization constraints.",
+      "excludes": "Resolving a target-specific implementation question by generic assertion.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-realization-requirement-trace",
+      "name": "Design realization requirement trace",
+      "root": "Design",
+      "parent": "Design realization",
+      "settles": "Identify where each specified requirement is realized or left unfulfilled in the candidate.",
+      "excludes": "Counting a requirement's mention as its realization.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "design-candidate-construction",
+      "name": "Design candidate construction",
+      "root": "Design",
+      "parent": "Design candidate",
+      "settles": "Construct a design candidate that realizes specified selected aspects while making its other design choices explicit.",
+      "excludes": "Assuming all features of a selected example are requirements.",
+      "predecessor_scopes": [
+        "G3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current naming derivation; source contribution exposes this missing target.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-identity-specification",
+      "name": "System identity specification",
+      "root": "System",
+      "parent": "System identity",
+      "settles": "Specify which artifact or version constitutes the named system.",
+      "excludes": "Inferring a source identity from a similar project name.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-identity-lineage",
+      "name": "System identity lineage",
+      "root": "System",
+      "parent": "System identity",
+      "settles": "Establish the sources and deliberate departures that define a custom descendant.",
+      "excludes": "Attributing the descendant's new operations to the original source.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-purpose-specification",
+      "name": "System purpose specification",
+      "root": "System",
+      "parent": "System purpose",
+      "settles": "Specify the subject and result for which this particular system is being developed.",
+      "excludes": "Treating relevance to a broad topic as a complete local design.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-design-creation",
+      "name": "System design creation",
+      "root": "System",
+      "parent": "System design",
+      "settles": "Construct a purpose-specific system specification with actual objects, operations, and results.",
+      "excludes": "Creating an empty directory or renamed source reference.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-design-modification",
+      "name": "System design modification",
+      "root": "System",
+      "parent": "System design",
+      "settles": "Revise an identified system design with the changed behavior explicit.",
+      "excludes": "Claiming the revision was implemented or effective without evidence.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-design-composition",
+      "name": "System design composition",
+      "root": "System",
+      "parent": "System design",
+      "settles": "Construct a system arrangement whose intermediate results have explicit consumers.",
+      "excludes": "Linking several project READMEs without a functioning design relation.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-interface-contract",
+      "name": "System interface contract",
+      "root": "System",
+      "parent": "System interface",
+      "settles": "Specify the content, conditions, and failure meanings exchanged by identified system components.",
+      "excludes": "Inferring compatibility from matching field names.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-interface-compatibility",
+      "name": "System interface compatibility",
+      "root": "System",
+      "parent": "System interface",
+      "settles": "Determine whether a producer's specified output satisfies a consumer's specified input contract.",
+      "excludes": "Declaring every interface question a collection of unrelated subjects.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-interface-failure-propagation",
+      "name": "System interface failure propagation",
+      "root": "System",
+      "parent": "System interface",
+      "settles": "Determine which dependent results are affected by a specified interface failure.",
+      "excludes": "Invalidating independent results without a dependency.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-implementation-correspondence",
+      "name": "System implementation correspondence",
+      "root": "System",
+      "parent": "System implementation",
+      "settles": "Determine which behaviors of the specified design the implementation actually realizes.",
+      "excludes": "Equating the written design with running behavior.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "system-implementation-execution-evidence",
+      "name": "System implementation execution evidence",
+      "root": "System",
+      "parent": "System implementation",
+      "settles": "Identify which observed execution supports each specified implementation claim.",
+      "excludes": "Treating a README demonstration as a verified run here.",
+      "predecessor_scopes": [
+        "G3",
+        "R4",
+        "T2"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "improvement-comparison-baseline",
+      "name": "Improvement comparison baseline",
+      "root": "Improvement",
+      "parent": "Improvement comparison",
+      "settles": "Specify the earlier item or state against which improvement is claimed.",
+      "excludes": "Selecting the baseline to hide an earlier better state.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "improvement-comparison-criterion",
+      "name": "Improvement comparison criterion",
+      "root": "Improvement",
+      "parent": "Improvement comparison",
+      "settles": "Specify the fixed standard under which the changed item is judged better.",
+      "excludes": "Inferring improvement from change alone.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "improvement-comparison-result",
+      "name": "Improvement comparison result",
+      "root": "Improvement",
+      "parent": "Improvement comparison",
+      "settles": "Determine which stated respects are better, unchanged, or worse against the baseline.",
+      "excludes": "Reporting only the favorable differences.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "improvement-comparison-criterion-drift",
+      "name": "Improvement comparison criterion drift",
+      "root": "Improvement",
+      "parent": "Improvement comparison",
+      "settles": "Determine whether an apparent improvement depends on changing the evaluative standard.",
+      "excludes": "Treating a changed criterion as an improved artifact.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "improvement-effect-persistence",
+      "name": "Improvement effect persistence",
+      "root": "Improvement",
+      "parent": "Improvement effect",
+      "settles": "Determine how long the demonstrated betterment survives under specified conditions.",
+      "excludes": "Assuming an immediate gain persists indefinitely.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "improvement-effect-transfer",
+      "name": "Improvement effect transfer",
+      "root": "Improvement",
+      "parent": "Improvement effect",
+      "settles": "Determine whether the betterment also holds in a specified changed context under a comparable standard.",
+      "excludes": "Generalizing from one favorable example.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "improvement-effect-attribution",
+      "name": "Improvement effect attribution",
+      "root": "Improvement",
+      "parent": "Improvement effect",
+      "settles": "Determine what explains the identified comparative betterment.",
+      "excludes": "Assuming the latest intervention caused it.",
+      "predecessor_scopes": [
+        "V3"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-scope-specification",
+      "name": "Subject scope specification",
+      "root": "Subject",
+      "parent": "Subject scope",
+      "settles": "Specify what determination belongs to the subject with consequential context explicit.",
+      "excludes": "Naming a topic without stating what is to be considered.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-scope-identity",
+      "name": "Subject scope identity",
+      "root": "Subject",
+      "parent": "Subject scope",
+      "settles": "Determine whether two descriptions specify the same matter under a fixed interpretation.",
+      "excludes": "Treating different names as proof of distinct subjects.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-scope-inclusion",
+      "name": "Subject scope inclusion",
+      "root": "Subject",
+      "parent": "Subject scope",
+      "settles": "Establish that every matter admitted by a proposed child definition is admitted by its parent.",
+      "excludes": "Inferring inclusion from useful contribution or word order.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-scope-overlap",
+      "name": "Subject scope overlap",
+      "root": "Subject",
+      "parent": "Subject scope",
+      "settles": "Construct a single specified matter admitted by both proposed alternative definitions.",
+      "excludes": "A document that merely contains two different matters.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-scope-exclusion",
+      "name": "Subject scope exclusion",
+      "root": "Subject",
+      "parent": "Subject scope",
+      "settles": "Establish why no specified matter can satisfy both fixed alternative definitions.",
+      "excludes": "Treating a failed inclusion test as disjointness.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-scope-gap",
+      "name": "Subject scope gap",
+      "root": "Subject",
+      "parent": "Subject scope",
+      "settles": "Identify a specified matter covered by none of the candidate scopes within the declared coverage domain.",
+      "excludes": "Claiming universal completeness because every current row has a home.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-name-construction",
+      "name": "Subject name construction",
+      "root": "Subject",
+      "parent": "Subject name",
+      "settles": "Construct a literal general-first name for a specified subject without joining distinct targets.",
+      "excludes": "Generating a label before identifying its matter.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-name-ambiguity",
+      "name": "Subject name ambiguity",
+      "root": "Subject",
+      "parent": "Subject name",
+      "settles": "Identify materially different readings permitted by the proposed subject name.",
+      "excludes": "Assuming a fluent phrase has one exact meaning.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-name-equivalence",
+      "name": "Subject name equivalence",
+      "root": "Subject",
+      "parent": "Subject name",
+      "settles": "Determine whether two names are aliases for the same defined subject.",
+      "excludes": "Counting aliases as newly discovered subjects.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-name-revision",
+      "name": "Subject name revision",
+      "root": "Subject",
+      "parent": "Subject name",
+      "settles": "Replace a subject name while recording whether the underlying scope changed.",
+      "excludes": "Concealing a new definition as a cosmetic rename.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-hierarchy-construction",
+      "name": "Subject hierarchy construction",
+      "root": "Subject",
+      "parent": "Subject hierarchy",
+      "settles": "Construct containment relations among already defined subjects within a stated coverage domain.",
+      "excludes": "Imposing a tree whose sibling scopes still overlap.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-hierarchy-collision-repair",
+      "name": "Subject hierarchy collision repair",
+      "root": "Subject",
+      "parent": "Subject hierarchy",
+      "settles": "Revise or merge definitions after a single specified matter fits two proposed siblings.",
+      "excludes": "Choosing a preferred home while retaining the collision.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    },
+    {
+      "id": "subject-hierarchy-coverage",
+      "name": "Subject hierarchy coverage",
+      "root": "Subject",
+      "parent": "Subject hierarchy",
+      "settles": "Determine whether every matter in a specified finite test domain is admitted by the hierarchy.",
+      "excludes": "Inferring coverage of all possible subjects from the finite test.",
+      "predecessor_scopes": [
+        "G1"
+      ],
+      "standing": "Defined proposal",
+      "source": "Current user naming direction; derivation from the recorded scope definitions.",
+      "broader_subjects": []
+    }
+  ]
+}
