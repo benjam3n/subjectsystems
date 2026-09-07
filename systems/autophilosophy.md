@@ -16,11 +16,11 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Philosophy](../subjects/philosophy/README.md) | systematic investigations | source-backed proposed placement |
-| [Research](../subjects/research/README.md) | examining and attacking accounts | source-backed proposed placement |
-| [Knowledge](../subjects/knowledge/README.md) | retaining philosophical work | source-backed proposed placement |
-| [Values](../subjects/values/README.md) | Examining standards of worth through conceptual investigations | proposed relevance; particular artifact and application to verify |
-| [Understanding](../subjects/understanding/README.md) | Developing competing accounts through answer–attack–revision work | proposed relevance; particular artifact and application to verify |
+| [Philosophy](../subjects/inquiry/philosophy/README.md) | systematic investigations | source-backed proposed placement |
+| [Research](../subjects/inquiry/research/README.md) | examining and attacking accounts | source-backed proposed placement |
+| [Knowledge](../subjects/organization/knowledge/README.md) | retaining philosophical work | source-backed proposed placement |
+| [Values](../subjects/direction/values/README.md) | Examining standards of worth through conceptual investigations | proposed relevance; particular artifact and application to verify |
+| [Understanding](../subjects/understanding/understanding/README.md) | Developing competing accounts through answer–attack–revision work | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

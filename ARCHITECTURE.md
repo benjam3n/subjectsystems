@@ -2,24 +2,34 @@
 
 ## Primary organization
 
-The primary entry point is a subject. Below it are narrower questions, activities, and investigations, with systems developed specifically for their purposes. Source projects supply ancestors, mechanisms, examples, and evidence for those local systems.
+The primary navigation opens functional groups, then subjects. Groups gather subjects by the kind of contribution they make. Within a subject are narrower questions, activities, and investigations, with systems developed specifically for their purposes. Source projects supply ancestors, mechanisms, examples, and evidence for those local systems.
 
 ```mermaid
 flowchart TD
-    G["Goals"] --> GS["Goal discovery"]
-    P["Preferences"] --> PS["Preference discovery"]
-    D["Design"] --> DS["Design exploration"]
+    DC["Direction and choice"] --> G["Goals"]
+    DC --> P["Preferences"]
+    CP["Creation and problem solving"] --> D["Design"]
+    G --> GS["Goal discovery"]
+    P --> PS["Preference discovery"]
+    D --> DS["Design exploration"]
     GS -.->|derived from| S["SDS source"]
     PS -.->|derived from| S
     DS -.->|derived from| S
 ```
 
-The three local systems have different objects, operations, outputs, and criteria. Their common source is lineage. A subject may need more than one local system from the same family, and a local system may combine several families. See [customization](CUSTOMIZATION.md).
+The example shows two of the [eight working groups](subjects/README.md). Their subjects retain distinct local systems, with different objects, operations, outputs, and criteria. Their common source is lineage. A subject may need more than one local system from the same family, and a local system may combine several families. See [customization](CUSTOMIZATION.md).
+
+## Functional grouping
+
+A group states a common kind of work and explains each subject's contribution to it. Each subject has one main home, while explicit connections preserve its contributions elsewhere. This is an organizing relation; it does not mean that the subject is wholly reducible to its group's function or that the group must be completed before another can be entered.
+
+Groups have different sizes because shared function determines membership. Their names and boundaries remain working choices. Promoting stays in an explicit holding area until its meaning supports placement. Connections and Improvement retain their proposed status. The [grouping decision](decisions/0004-functional-groups.md) records the criterion, difficult boundaries, and reasons to revise the arrangement.
 
 ## Distinctions the organization preserves
 
 | Item | Example | Why it matters |
 |---|---|---|
+| Functional group | Direction and choice | A common kind of work that makes related subjects easier to find and develop |
 | Subject | Preferences | What is being investigated |
 | Account | A proposed conditional preference pattern | A claim about the subject |
 | Method | Generating contrasting designs and obtaining selections | A way to investigate or work with it |
@@ -33,7 +43,7 @@ These are useful distinctions, not an exhaustive schema into which every future 
 
 ## Relationships
 
-Narrower subject, useful contribution, necessary prerequisite, sufficient condition, alternative route, support, contradiction, example, implementation, reference, and translation have different consequences. A shared word does not establish a relationship. A useful relation need not be a strict parent-child relation.
+Membership in a functional group, narrower subject, useful contribution, necessary prerequisite, sufficient condition, alternative route, support, contradiction, example, implementation, reference, and translation have different consequences. A shared word does not establish a relationship. A useful relation need not be a strict parent-child relation.
 
 The previous placement map now records source relevance and pending custom development. Distinguish a subject owning a local design from that design deriving from a source, or consuming an observation shared with another design. A reference does not replace a local specification.
 
@@ -49,8 +59,11 @@ A local system can consume a native object, state what it uses, and preserve the
 
 | Location | Role |
 |---|---|
-| subjects/ | Primary working hierarchies and subject-specific research |
-| `subjects/<subject>/systems/` | Locally defined systems for particular purposes |
+| subjects/README.md | Main index of functional groups |
+| `subjects/<group>/README.md` | Shared function, member subjects, placement reasons, and connections |
+| `subjects/<group>/<subject>/` | Subject development and its narrower inquiries |
+| `subjects/<group>/<subject>/systems/` | Locally defined systems for particular purposes |
+| subjects/unplaced/ | Visible holding area for unresolved placement; not a functional group |
 | systems/ | Source-family profiles, initial relevance, and links to distinct descendants |
 | cases/ | Consequential worked transitions serving several subjects |
 | research/ | Cross-subject investigations and unresolved questions |
@@ -64,4 +77,4 @@ The folders support the intellectual structure. They do not imply that all conte
 
 When a finding changes a source interpretation, criterion, relation, or method, revisit the uses that depend on it. Preserve independent support and prior context. Byte changes and semantic changes are different; the local checker handles the former for preserved snapshots and does not discover the latter.
 
-The list of roots, branch labels, and relationship names remains revisable. The architecture earns its place when it exposes a useful question, preserves a distinction, improves retrieval or continuation, or enables work that was previously missed.
+The groups, subjects, branch labels, and relationship names remain revisable. The architecture earns its place when it exposes a useful question, preserves a distinction, improves retrieval or continuation, or enables work that was previously missed.

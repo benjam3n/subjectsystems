@@ -16,9 +16,9 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Strategy](../subjects/strategy/README.md) | approaches and counterplay | source-backed proposed placement |
-| [Decisions](../subjects/decisions/README.md) | context-sensitive selection | source-backed proposed placement |
-| [Planning](../subjects/planning/README.md) | testing entry conditions | source-backed proposed placement |
+| [Strategy](../subjects/execution/strategy/README.md) | approaches and counterplay | source-backed proposed placement |
+| [Decisions](../subjects/direction/decisions/README.md) | context-sensitive selection | source-backed proposed placement |
+| [Planning](../subjects/execution/planning/README.md) | testing entry conditions | source-backed proposed placement |
 
 ## Subject-specific descendants
 

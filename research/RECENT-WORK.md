@@ -31,7 +31,7 @@ The following material comes from the conversation program. These are proposed p
 
 ## Operations and experiments
 
-See [reasoning operations](../subjects/reasoning/operations.md) and [prompting experiments](../subjects/prompting/experiments.md). These preserve concrete transformations and unresolved questions without presenting reconstructed experimental prompts as the original Reasoningtool skills.
+See [reasoning operations](../subjects/understanding/reasoning/operations.md) and [prompting experiments](../subjects/interaction/prompting/experiments.md). These preserve concrete transformations and unresolved questions without presenting reconstructed experimental prompts as the original Reasoningtool skills.
 
 ## Evidence standing
 

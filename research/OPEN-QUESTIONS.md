@@ -6,7 +6,7 @@ These are live research and source questions. The list is open; the next importa
 
 1. Which exact artifact defines the Master Framework, and which version is intended?
 2. What did Promoting mean in the original relevance request, and is it distinct from Prompting?
-3. Do Connections and Improvement deserve roots, and what actual cases decide that question?
+3. Do Connections and Improvement deserve distinct subject status, and what actual cases decide that question? Their new group placements do not settle it.
 4. Which evaluation questions are clarified by distributing them, and which become harder to find?
 5. Which source contributions remain invisible when the collection is approached through these subject entries?
 6. What relation permits a single item to occupy several places without making those places redundant?

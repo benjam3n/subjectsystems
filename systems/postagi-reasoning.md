@@ -16,12 +16,12 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Representation](../subjects/representation/README.md) | alternative forms of intellectual work | source-backed proposed placement |
-| [Questions](../subjects/questions/README.md) | depth and regress | source-backed proposed placement |
-| [Understanding](../subjects/understanding/README.md) | interacting concepts | source-backed proposed placement |
-| [Communication](../subjects/communication/README.md) | concepts in conversation | source-backed proposed placement |
-| [Intelligence](../subjects/intelligence/README.md) | Investigating how different representations make work available | proposed relevance; particular artifact and application to verify |
-| [Philosophy](../subjects/philosophy/README.md) | Developing conceptual investigations through depth and regress structures | proposed relevance; particular artifact and application to verify |
+| [Representation](../subjects/organization/representation/README.md) | alternative forms of intellectual work | source-backed proposed placement |
+| [Questions](../subjects/inquiry/questions/README.md) | depth and regress | source-backed proposed placement |
+| [Understanding](../subjects/understanding/understanding/README.md) | interacting concepts | source-backed proposed placement |
+| [Communication](../subjects/interaction/communication/README.md) | concepts in conversation | source-backed proposed placement |
+| [Intelligence](../subjects/development/intelligence/README.md) | Investigating how different representations make work available | proposed relevance; particular artifact and application to verify |
+| [Philosophy](../subjects/inquiry/philosophy/README.md) | Developing conceptual investigations through depth and regress structures | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

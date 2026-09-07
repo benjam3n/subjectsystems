@@ -16,22 +16,22 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Reasoning](../subjects/reasoning/README.md) | operations / reusable procedures | source-backed proposed placement |
-| [Questions](../subjects/questions/README.md) | formation / question-generating procedures | source-backed proposed placement |
-| [Writing](../subjects/writing/README.md) | construction / writing procedures | source-backed proposed placement |
-| [Prompting](../subjects/prompting/README.md) | Specifying intellectual work through source skill prompts | proposed relevance; particular artifact and application to verify |
-| [Values](../subjects/values/README.md) | Retrieving relevant philosophy and regress procedures for examining standards | proposed relevance; particular artifact and application to verify |
-| [Discovery](../subjects/discovery/README.md) | Retrieving generation, exploration, and assumption-testing procedures | proposed relevance; particular artifact and application to verify |
-| [Curiosity](../subjects/curiosity/README.md) | Using question generation and regress to expose further uncertainty | proposed relevance; particular artifact and application to verify |
-| [Search](../subjects/search/README.md) | Selecting and executing an appropriate search procedure | proposed relevance; particular artifact and application to verify |
-| [Uncertainty](../subjects/uncertainty/README.md) | Retrieving procedures for distinguishing and handling unresolved alternatives | proposed relevance; particular artifact and application to verify |
-| [Prediction](../subjects/prediction/README.md) | Developing conditional scenarios through relevant source procedures | proposed relevance; particular artifact and application to verify |
-| [Creativity](../subjects/creativity/README.md) | Generating materially different candidates with explicit procedures | proposed relevance; particular artifact and application to verify |
-| [Problem solving](../subjects/problem-solving/README.md) | Retrieving and applying procedures suited to the actual obstacle | proposed relevance; particular artifact and application to verify |
-| [Decisions](../subjects/decisions/README.md) | Comparing alternatives through appropriate decision procedures | proposed relevance; particular artifact and application to verify |
-| [Science](../subjects/science/README.md) | Using inquiry procedures where their operations bear on the scientific question | proposed relevance; particular artifact and application to verify |
-| [Philosophy](../subjects/philosophy/README.md) | Using philosophical investigation and regress procedures | proposed relevance; particular artifact and application to verify |
-| [Communication](../subjects/communication/README.md) | Choosing procedures for a particular communicative contribution | proposed relevance; particular artifact and application to verify |
+| [Reasoning](../subjects/understanding/reasoning/README.md) | operations / reusable procedures | source-backed proposed placement |
+| [Questions](../subjects/inquiry/questions/README.md) | formation / question-generating procedures | source-backed proposed placement |
+| [Writing](../subjects/interaction/writing/README.md) | construction / writing procedures | source-backed proposed placement |
+| [Prompting](../subjects/interaction/prompting/README.md) | Specifying intellectual work through source skill prompts | proposed relevance; particular artifact and application to verify |
+| [Values](../subjects/direction/values/README.md) | Retrieving relevant philosophy and regress procedures for examining standards | proposed relevance; particular artifact and application to verify |
+| [Discovery](../subjects/inquiry/discovery/README.md) | Retrieving generation, exploration, and assumption-testing procedures | proposed relevance; particular artifact and application to verify |
+| [Curiosity](../subjects/inquiry/curiosity/README.md) | Using question generation and regress to expose further uncertainty | proposed relevance; particular artifact and application to verify |
+| [Search](../subjects/inquiry/search/README.md) | Selecting and executing an appropriate search procedure | proposed relevance; particular artifact and application to verify |
+| [Uncertainty](../subjects/understanding/uncertainty/README.md) | Retrieving procedures for distinguishing and handling unresolved alternatives | proposed relevance; particular artifact and application to verify |
+| [Prediction](../subjects/understanding/prediction/README.md) | Developing conditional scenarios through relevant source procedures | proposed relevance; particular artifact and application to verify |
+| [Creativity](../subjects/creation/creativity/README.md) | Generating materially different candidates with explicit procedures | proposed relevance; particular artifact and application to verify |
+| [Problem solving](../subjects/creation/problem-solving/README.md) | Retrieving and applying procedures suited to the actual obstacle | proposed relevance; particular artifact and application to verify |
+| [Decisions](../subjects/direction/decisions/README.md) | Comparing alternatives through appropriate decision procedures | proposed relevance; particular artifact and application to verify |
+| [Science](../subjects/inquiry/science/README.md) | Using inquiry procedures where their operations bear on the scientific question | proposed relevance; particular artifact and application to verify |
+| [Philosophy](../subjects/inquiry/philosophy/README.md) | Using philosophical investigation and regress procedures | proposed relevance; particular artifact and application to verify |
+| [Communication](../subjects/interaction/communication/README.md) | Choosing procedures for a particular communicative contribution | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

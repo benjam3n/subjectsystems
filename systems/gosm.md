@@ -16,27 +16,27 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Goals](../subjects/goals/README.md) | purpose and goal journeys | source-backed proposed placement |
-| [Planning](../subjects/planning/README.md) | prerequisites and decision forks | source-backed proposed placement |
-| [Action](../subjects/action/README.md) | state-dependent work | source-backed proposed placement |
-| [Improvement](../subjects/improvement/README.md) | outcome feedback | source-backed proposed placement |
-| [Values](../subjects/values/README.md) | Examining higher purposes through goal journeys | proposed relevance; particular artifact and application to verify |
-| [Learning](../subjects/learning/README.md) | Using outcome feedback to revise later work | proposed relevance; particular artifact and application to verify |
-| [Memory](../subjects/memory/README.md) | Recovering project state, decisions, artifacts, and failures | proposed relevance; particular artifact and application to verify |
-| [Attention](../subjects/attention/README.md) | Selecting current work from project conditions and open dependencies | proposed relevance; particular artifact and application to verify |
-| [Design](../subjects/design/README.md) | Carrying candidate designs through requirements, feasibility, and artifact production | proposed relevance; particular artifact and application to verify |
-| [Problem finding](../subjects/problem-finding/README.md) | Reconsidering the goal or obstacle through project assessment | proposed relevance; particular artifact and application to verify |
-| [Problem solving](../subjects/problem-solving/README.md) | Carrying an intervention through prerequisites, execution, and feedback | proposed relevance; particular artifact and application to verify |
-| [Judgment](../subjects/judgment/README.md) | Applying and revising gates tied to artifact or outcome conditions | proposed relevance; particular artifact and application to verify |
-| [Decisions](../subjects/decisions/README.md) | Branching decisions while retaining reusable unaffected work | proposed relevance; particular artifact and application to verify |
-| [Strategy](../subjects/strategy/README.md) | Developing approaches through goal relationships and future consequences | proposed relevance; particular artifact and application to verify |
-| [Resources](../subjects/resources/README.md) | Assessing the means and feasibility conditions required by a goal | proposed relevance; particular artifact and application to verify |
+| [Goals](../subjects/direction/goals/README.md) | purpose and goal journeys | source-backed proposed placement |
+| [Planning](../subjects/execution/planning/README.md) | prerequisites and decision forks | source-backed proposed placement |
+| [Action](../subjects/execution/action/README.md) | state-dependent work | source-backed proposed placement |
+| [Improvement](../subjects/development/improvement/README.md) | outcome feedback | source-backed proposed placement |
+| [Values](../subjects/direction/values/README.md) | Examining higher purposes through goal journeys | proposed relevance; particular artifact and application to verify |
+| [Learning](../subjects/development/learning/README.md) | Using outcome feedback to revise later work | proposed relevance; particular artifact and application to verify |
+| [Memory](../subjects/organization/memory/README.md) | Recovering project state, decisions, artifacts, and failures | proposed relevance; particular artifact and application to verify |
+| [Attention](../subjects/execution/attention/README.md) | Selecting current work from project conditions and open dependencies | proposed relevance; particular artifact and application to verify |
+| [Design](../subjects/creation/design/README.md) | Carrying candidate designs through requirements, feasibility, and artifact production | proposed relevance; particular artifact and application to verify |
+| [Problem finding](../subjects/inquiry/problem-finding/README.md) | Reconsidering the goal or obstacle through project assessment | proposed relevance; particular artifact and application to verify |
+| [Problem solving](../subjects/creation/problem-solving/README.md) | Carrying an intervention through prerequisites, execution, and feedback | proposed relevance; particular artifact and application to verify |
+| [Judgment](../subjects/direction/judgment/README.md) | Applying and revising gates tied to artifact or outcome conditions | proposed relevance; particular artifact and application to verify |
+| [Decisions](../subjects/direction/decisions/README.md) | Branching decisions while retaining reusable unaffected work | proposed relevance; particular artifact and application to verify |
+| [Strategy](../subjects/execution/strategy/README.md) | Developing approaches through goal relationships and future consequences | proposed relevance; particular artifact and application to verify |
+| [Resources](../subjects/execution/resources/README.md) | Assessing the means and feasibility conditions required by a goal | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 
 | Local system | Subject | Standing |
 |---|---|---|
-| [Discovery progress](../subjects/discovery/systems/discovery-progress.md) | [Discovery](../subjects/discovery/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Discovery progress](../subjects/inquiry/discovery/systems/discovery-progress.md) | [Discovery](../subjects/inquiry/discovery/README.md) | Specified v0.1; prospective effectiveness unestablished |
 
 This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 

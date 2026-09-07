@@ -16,14 +16,14 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Action](../subjects/action/README.md) | capability realization | source-backed proposed placement |
-| [Resources](../subjects/resources/README.md) | capability conditions | source-backed proposed placement |
-| [Explanation](../subjects/explanation/README.md) | causal hypotheses | source-backed proposed placement |
-| [Problem finding](../subjects/problem-finding/README.md) | gaps between possible and realized capability | source-backed proposed placement |
-| [Intelligence](../subjects/intelligence/README.md) | Separating described capability from capability realized in context | proposed relevance; particular artifact and application to verify |
-| [Attention](../subjects/attention/README.md) | Investigating conditions affecting the use of available capability | proposed relevance; particular artifact and application to verify |
-| [Design](../subjects/design/README.md) | Assessing realization conditions for candidate configurations | proposed relevance; particular artifact and application to verify |
-| [Problem solving](../subjects/problem-solving/README.md) | Developing and comparing capability-realization hypotheses | proposed relevance; particular artifact and application to verify |
+| [Action](../subjects/execution/action/README.md) | capability realization | source-backed proposed placement |
+| [Resources](../subjects/execution/resources/README.md) | capability conditions | source-backed proposed placement |
+| [Explanation](../subjects/understanding/explanation/README.md) | causal hypotheses | source-backed proposed placement |
+| [Problem finding](../subjects/inquiry/problem-finding/README.md) | gaps between possible and realized capability | source-backed proposed placement |
+| [Intelligence](../subjects/development/intelligence/README.md) | Separating described capability from capability realized in context | proposed relevance; particular artifact and application to verify |
+| [Attention](../subjects/execution/attention/README.md) | Investigating conditions affecting the use of available capability | proposed relevance; particular artifact and application to verify |
+| [Design](../subjects/creation/design/README.md) | Assessing realization conditions for candidate configurations | proposed relevance; particular artifact and application to verify |
+| [Problem solving](../subjects/creation/problem-solving/README.md) | Developing and comparing capability-realization hypotheses | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

@@ -16,7 +16,7 @@ Exact original sources and their evidence remain preserved. The earlier rule aga
 
 ## Current implementation
 
-Local designs live under `subjects/<subject>/systems/`. The revision specifies all six SDS destinations in the existing map, plus designs derived from GOSM, Discovery Engine, QuestionRoute, Reasoningtool2, and TruthFinder. Subject pages distinguish these specifications from pending custom development. Source-family profiles link back to the distinct descendants.
+Local designs now live under `subjects/<group>/<subject>/systems/`, following the later [grouping decision](0004-functional-groups.md). The customization revision specified all six SDS destinations in the existing map, plus designs derived from GOSM, Discovery Engine, QuestionRoute, Reasoningtool2, and TruthFinder. Subject pages distinguish these specifications from pending custom development. Source-family profiles link back to the distinct descendants.
 
 The remaining versions across the portfolio are open development work. Ten specifications are not a claim that all combinations have been completed or their effectiveness established.
 

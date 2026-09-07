@@ -1,6 +1,6 @@
 # Working in Subject Systems
 
-Read CURRENT.md and the actual request before changing the repository. Enter substantive work through the relevant subject pages. Consult PURPOSE.md, ARCHITECTURE.md, NEXT.md, and original sources when they affect the task; rereading every file is not a prerequisite for useful work.
+Read CURRENT.md and the actual request before changing the repository. Use the functional group index to find the relevant subjects, or enter directly at a known subject. Consult PURPOSE.md, ARCHITECTURE.md, NEXT.md, and original sources when they affect the task; rereading every file is not a prerequisite for useful work.
 
 ## Authority
 
@@ -10,9 +10,10 @@ Carry out clear, authorized work. Retrieve resolvable context. Do not ask the us
 
 ## Organizing and developing subjects
 
-- Subjects are primary. Develop custom systems from every project family according to each subject and its particular purpose. Source relevance is a starting point for development, not a finished local system.
+- Functional groups organize subjects by the kind of work they contribute. Subjects and their purposes govern custom system design. Source relevance is a starting point for development, not a finished local system.
+- Give each subject one main home and preserve useful connections across groups. A grouping is neither exclusive relevance nor a compulsory work sequence. Group names and boundaries are working choices. Keep genuinely unresolved placements visible in subjects/unplaced/.
 - The 37 retained entries and two proposed additions are an open starting arrangement, not a closed taxonomy. Preserve each entry's actual standing.
-- A hierarchy of narrower inquiries, a logical prerequisite, and a proposed contribution are different relations. State the relation that matters.
+- Membership in a functional group, a hierarchy of narrower inquiries, a logical prerequisite, and a proposed contribution are different relations. State the relation that matters.
 - Preserve the original source identity and evidence. Give custom descendants separate identities and purpose-specific objects, operations, results, and criteria. They may diverge, combine families, or add new operations. Do not mistake a renamed source invocation for a custom design.
 - Keep the subject, an account of it, a method for investigating it, an implementation, an example, and evidence distinguishable.
 - Develop the actual subject. More directories, links, procedure names, and tests are not substitutes for a finding or capability.
@@ -40,6 +41,8 @@ Keep persistence proportional to the work. No mandatory per-turn form, transcrip
 
 ## Repository maintenance
 
-Subject pages and prose records are the working content. Put local systems under `subjects/<subject>/systems/` and link them from the subject and their source-family profiles. Record purpose, source lineage, and actual standing. A family with no specified local version remains pending development, not silently treated as ready. sources/manifest.json is an evidence inventory, not a universal subject ontology. Add a subject to subjects/README.md when creating its page, and keep subject-to-system links and system-to-subject links consistent. Use relative local links and pinned external sources for claims about a version.
+Subject pages and prose records are the working content. Put subjects under `subjects/<group>/<subject>/` and local systems under that subject's systems/ directory. Link the subject from its group, explain why it belongs, and link back to the group. Add a new group to subjects/README.md and the main README when needed. Preserve proposed or unresolved subject standing when moving it; group membership does not establish that status.
+
+Link local systems from their subjects and source-family profiles. Record purpose, source lineage, and actual standing. A family with no specified local version remains pending development, not silently treated as ready. sources/manifest.json is an evidence inventory, not a universal subject ontology. Keep subject-to-system links and system-to-subject links consistent. Use relative local links and pinned external sources for claims about a version.
 
 Run `python3 tools/check.py` and inspect the actual diff before publishing changes. A structural pass does not certify intellectual completeness. Historical review and snapshot files retain their original wording; record corrections in current documents rather than silently rewriting their history.

@@ -16,21 +16,21 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Reasoning](../subjects/reasoning/README.md) | choosing and composing operations | source-backed proposed placement |
-| [Intelligence](../subjects/intelligence/README.md) | making available capability usable | source-backed proposed placement |
-| [Improvement](../subjects/improvement/README.md) | correcting methods | source-backed proposed placement |
-| [Prompting](../subjects/prompting/README.md) | specifying intellectual work | source-backed proposed placement |
-| [Learning](../subjects/learning/README.md) | Propagating a correction into later applicable work | proposed relevance; particular artifact and application to verify |
-| [Attention](../subjects/attention/README.md) | Selecting the next operation among available consequential alternatives | proposed relevance; particular artifact and application to verify |
-| [Relevance](../subjects/relevance/README.md) | Distinguishing available material from material recognized and used as relevant | proposed relevance; particular artifact and application to verify |
-| [Problem finding](../subjects/problem-finding/README.md) | Distinguishing different locations where a result fails to become available | proposed relevance; particular artifact and application to verify |
-| [Writing](../subjects/writing/README.md) | Investigating the operations performed by the parts and ordering of prose | proposed relevance; particular artifact and application to verify |
+| [Reasoning](../subjects/understanding/reasoning/README.md) | choosing and composing operations | source-backed proposed placement |
+| [Intelligence](../subjects/development/intelligence/README.md) | making available capability usable | source-backed proposed placement |
+| [Improvement](../subjects/development/improvement/README.md) | correcting methods | source-backed proposed placement |
+| [Prompting](../subjects/interaction/prompting/README.md) | specifying intellectual work | source-backed proposed placement |
+| [Learning](../subjects/development/learning/README.md) | Propagating a correction into later applicable work | proposed relevance; particular artifact and application to verify |
+| [Attention](../subjects/execution/attention/README.md) | Selecting the next operation among available consequential alternatives | proposed relevance; particular artifact and application to verify |
+| [Relevance](../subjects/execution/relevance/README.md) | Distinguishing available material from material recognized and used as relevant | proposed relevance; particular artifact and application to verify |
+| [Problem finding](../subjects/inquiry/problem-finding/README.md) | Distinguishing different locations where a result fails to become available | proposed relevance; particular artifact and application to verify |
+| [Writing](../subjects/interaction/writing/README.md) | Investigating the operations performed by the parts and ordering of prose | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 
 | Local system | Subject | Standing |
 |---|---|---|
-| [Contribution construction](../subjects/writing/systems/contribution-construction.md) | [Writing](../subjects/writing/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Contribution construction](../subjects/interaction/writing/systems/contribution-construction.md) | [Writing](../subjects/interaction/writing/README.md) | Specified v0.1; prospective effectiveness unestablished |
 
 This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 

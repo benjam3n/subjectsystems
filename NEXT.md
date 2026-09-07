@@ -4,6 +4,7 @@ The current priority is developing custom systems for each subject and particula
 
 | Work | Concrete result | What it resolves or enables |
 |---|---|---|
+| Use the functional groups on a consequential task | Enter through the shared work, find the relevant subjects and custom systems, and follow a useful connection across groups | Exposes placements that hide work, group boundaries that need revision, or a missing shared investigation |
 | Develop the subject-specific project versions | Local objects, operations, results, criteria, and continuation derived from the actual purpose; source changes identified | Makes the subject determine the system rather than only its placement |
 | Exercise the new specifications | Actual outputs and failure cases at the local purpose, beginning with a needed current task | Distinguishes a written custom design from its demonstrated use |
 | Extend a real selection episode across subjects | Continue the naming and placement case with a later design choice; distinguish observed selection, selected aspect, inferred preference, and requirement | Develops Goals, Preferences, Design, and Judgment beyond a directory arrangement |
@@ -11,7 +12,7 @@ The current priority is developing custom systems for each subject and particula
 | Develop an answer-dependent inquiry | A live question with materially different continuations for different answers, including an initially unlisted question if it changes the route | Develops Questions and Discovery without reducing them to static lists |
 | Compare frames through a consequential difference | Reconstruct the same material under two frames and retain the new question, inference, or intervention exposed | Develops Representation, Understanding, and Discovery |
 | Resolve Master Framework identity | An exact artifact, repository/path/version, native claims, and justified subject placements | Replaces a named placeholder with evidence or a precise remaining retrieval gap |
-| Reconsider the four disputed categories | Contrasting cases for Integration, Evaluation, Automation, and Self-improvement, including alternative placements | Decides whether Connections and Improvement are useful roots and whether any previous distinction was merely verbal |
+| Reconsider the four disputed categories | Contrasting cases for Integration, Evaluation, Automation, and Self-improvement, including alternative placements | Decides whether Connections and Improvement are useful subjects and whether any previous distinction was merely verbal |
 | Resolve Promoting | Original context or examples that fix its meaning and distinctness from Prompting | Prevents an invented subject scope from becoming established through repetition |
 | Connect one source result to a receiving inquiry | The actual native result, conditions required by the receiver, any translation, and what the receiver changes | Demonstrates a substantive cross-subject use |
 | Revisit an actual correction at recurrence | A later applicable case showing whether the earlier correction changes selection or behavior | Separates recorded lessons from learning in use |

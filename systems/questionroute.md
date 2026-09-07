@@ -16,22 +16,22 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Questions](../subjects/questions/README.md) | typed navigation | source-backed proposed placement |
-| [Questions](../subjects/questions/README.md) | composed inquiries | source-backed proposed placement |
-| [Research](../subjects/research/README.md) | inquiry sequences | source-backed proposed placement |
-| [Prediction](../subjects/prediction/README.md) | predicted answers and follow-ups | source-backed proposed placement |
-| [Discovery](../subjects/discovery/README.md) | Producing and connecting further inquiries through typed routes | proposed relevance; particular artifact and application to verify |
-| [Curiosity](../subjects/curiosity/README.md) | Continuing inquiry through questions whose later use is still open | proposed relevance; particular artifact and application to verify |
-| [Uncertainty](../subjects/uncertainty/README.md) | Distinguishing predicted answer alternatives and their follow-ups | proposed relevance; particular artifact and application to verify |
-| [Representation](../subjects/representation/README.md) | Preserving the different meanings of routes, sequences, chains, and regress | proposed relevance; particular artifact and application to verify |
-| [Planning](../subjects/planning/README.md) | Arranging answer-dependent sequences of later inquiry | proposed relevance; particular artifact and application to verify |
-| [Connections](../subjects/connections/README.md) | Representing specific relations between questions rather than undifferentiated relatedness | proposed relevance; particular artifact and application to verify |
+| [Questions](../subjects/inquiry/questions/README.md) | typed navigation | source-backed proposed placement |
+| [Questions](../subjects/inquiry/questions/README.md) | composed inquiries | source-backed proposed placement |
+| [Research](../subjects/inquiry/research/README.md) | inquiry sequences | source-backed proposed placement |
+| [Prediction](../subjects/understanding/prediction/README.md) | predicted answers and follow-ups | source-backed proposed placement |
+| [Discovery](../subjects/inquiry/discovery/README.md) | Producing and connecting further inquiries through typed routes | proposed relevance; particular artifact and application to verify |
+| [Curiosity](../subjects/inquiry/curiosity/README.md) | Continuing inquiry through questions whose later use is still open | proposed relevance; particular artifact and application to verify |
+| [Uncertainty](../subjects/understanding/uncertainty/README.md) | Distinguishing predicted answer alternatives and their follow-ups | proposed relevance; particular artifact and application to verify |
+| [Representation](../subjects/organization/representation/README.md) | Preserving the different meanings of routes, sequences, chains, and regress | proposed relevance; particular artifact and application to verify |
+| [Planning](../subjects/execution/planning/README.md) | Arranging answer-dependent sequences of later inquiry | proposed relevance; particular artifact and application to verify |
+| [Connections](../subjects/organization/connections/README.md) | Representing specific relations between questions rather than undifferentiated relatedness | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 
 | Local system | Subject | Standing |
 |---|---|---|
-| [Preference question route](../subjects/preferences/systems/preference-question-route.md) | [Preferences](../subjects/preferences/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Preference question route](../subjects/direction/preferences/systems/preference-question-route.md) | [Preferences](../subjects/direction/preferences/README.md) | Specified v0.1; prospective effectiveness unestablished |
 
 This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 

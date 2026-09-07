@@ -16,16 +16,16 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Truth](../subjects/truth/README.md) | targeted error discovery | source-backed proposed placement |
-| [Judgment](../subjects/judgment/README.md) | belief and decision assessments | source-backed proposed placement |
-| [Improvement](../subjects/improvement/README.md) | learning from specific failures | source-backed proposed placement |
-| [Knowledge](../subjects/knowledge/README.md) | Attaching a targeted challenge or failure to the exact supported claim | proposed relevance; particular artifact and application to verify |
+| [Truth](../subjects/understanding/truth/README.md) | targeted error discovery | source-backed proposed placement |
+| [Judgment](../subjects/direction/judgment/README.md) | belief and decision assessments | source-backed proposed placement |
+| [Improvement](../subjects/development/improvement/README.md) | learning from specific failures | source-backed proposed placement |
+| [Knowledge](../subjects/organization/knowledge/README.md) | Attaching a targeted challenge or failure to the exact supported claim | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 
 | Local system | Subject | Standing |
 |---|---|---|
-| [Inference challenge](../subjects/reasoning/systems/inference-challenge.md) | [Reasoning](../subjects/reasoning/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Inference challenge](../subjects/understanding/reasoning/systems/inference-challenge.md) | [Reasoning](../subjects/understanding/reasoning/README.md) | Specified v0.1; prospective effectiveness unestablished |
 
 This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 

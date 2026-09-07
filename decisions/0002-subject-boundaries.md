@@ -2,6 +2,8 @@
 
 Standing: mixed; see the distinctions below. Recorded 7 September 2026.
 
+Subsequent refinement: [0004 — Functional groups](0004-functional-groups.md) places subjects within an intermediate grouping level. References to roots below describe the earlier flat arrangement. Connections and Improvement now retain their proposed status as subjects within groups; the placement change does not resolve the original boundary questions.
+
 ## Established direction
 
 The starting relevance map is retained with Education and Collaboration removed as top-level entries. Their useful contents are not discarded. The user also requested reconsideration of Integration, Evaluation, Automation, and Self-improvement.

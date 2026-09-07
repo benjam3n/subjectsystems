@@ -4,6 +4,8 @@ The current direction is to develop custom versions of the projects for each sub
 
 The design unit is **subject + particular purpose + local system**. A subject can need several versions from the same source for different purposes. A local system can combine several source families or introduce operations absent from all of them.
 
+[Functional groups](subjects/README.md) now organize the subjects above this design unit. Shared group membership does not require a shared procedure. Direction and choice contains both Goals and Preferences, whose custom SDS descendants still generate different objects and use different selection rules. Local systems live under `subjects/<group>/<subject>/systems/`.
+
 ## What makes a version custom
 
 | Part | What is determined locally |

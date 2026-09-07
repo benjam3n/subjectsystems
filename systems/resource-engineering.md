@@ -16,17 +16,17 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Resources](../subjects/resources/README.md) | allocation and configurations | source-backed proposed placement |
-| [Connections](../subjects/connections/README.md) | typed relationships | source-backed proposed placement |
-| [Representation](../subjects/representation/README.md) | perspectives and transformations | source-backed proposed placement |
-| [Reasoning](../subjects/reasoning/README.md) | operations on represented material | source-backed proposed placement |
-| [Preferences](../subjects/preferences/README.md) | Retaining contextual verdicts and contrasting judgments | proposed relevance; particular artifact and application to verify |
-| [Intelligence](../subjects/intelligence/README.md) | Relating resource availability, configuration, and actual use | proposed relevance; particular artifact and application to verify |
-| [Attention](../subjects/attention/README.md) | Examining allocation among competing uses and timescales | proposed relevance; particular artifact and application to verify |
-| [Relevance](../subjects/relevance/README.md) | Using maps whose arrangement answers a particular inquiry | proposed relevance; particular artifact and application to verify |
-| [Design](../subjects/design/README.md) | Comparing candidate configurations and their constraints | proposed relevance; particular artifact and application to verify |
-| [Judgment](../subjects/judgment/README.md) | Preserving criteria, verdict history, and contrasting cases | proposed relevance; particular artifact and application to verify |
-| [Action](../subjects/action/README.md) | Connecting available inputs to typed operations and named consumers | proposed relevance; particular artifact and application to verify |
+| [Resources](../subjects/execution/resources/README.md) | allocation and configurations | source-backed proposed placement |
+| [Connections](../subjects/organization/connections/README.md) | typed relationships | source-backed proposed placement |
+| [Representation](../subjects/organization/representation/README.md) | perspectives and transformations | source-backed proposed placement |
+| [Reasoning](../subjects/understanding/reasoning/README.md) | operations on represented material | source-backed proposed placement |
+| [Preferences](../subjects/direction/preferences/README.md) | Retaining contextual verdicts and contrasting judgments | proposed relevance; particular artifact and application to verify |
+| [Intelligence](../subjects/development/intelligence/README.md) | Relating resource availability, configuration, and actual use | proposed relevance; particular artifact and application to verify |
+| [Attention](../subjects/execution/attention/README.md) | Examining allocation among competing uses and timescales | proposed relevance; particular artifact and application to verify |
+| [Relevance](../subjects/execution/relevance/README.md) | Using maps whose arrangement answers a particular inquiry | proposed relevance; particular artifact and application to verify |
+| [Design](../subjects/creation/design/README.md) | Comparing candidate configurations and their constraints | proposed relevance; particular artifact and application to verify |
+| [Judgment](../subjects/direction/judgment/README.md) | Preserving criteria, verdict history, and contrasting cases | proposed relevance; particular artifact and application to verify |
+| [Action](../subjects/execution/action/README.md) | Connecting available inputs to typed operations and named consumers | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

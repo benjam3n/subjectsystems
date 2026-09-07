@@ -53,42 +53,66 @@ for path in markdown:
                 require(all(len(row) == len(cells[0]) for row in cells),
                         f'{path.relative_to(ROOT)}: inconsistent table columns')
 
-subject_pages = sorted((ROOT/'subjects').glob('*/README.md'))
-subject_index = (ROOT/'subjects/README.md').read_text()
+group_pages = sorted((ROOT/'subjects').glob('*/README.md'))
+subject_pages = sorted((ROOT/'subjects').glob('*/*/README.md'))
+subject_index = ROOT/'subjects/README.md'
 system_pages = sorted(p for p in (ROOT/'systems').glob('*.md') if p.name != 'README.md')
-system_index = (ROOT/'systems/README.md').read_text()
-for path in subject_pages:
-    require(f']({path.parent.name}/README.md)' in subject_index,
-            f'Subject absent from index: {path.parent.name}')
-    text = path.read_text()
-    for system in re.findall(r'\]\(../../systems/([^/)]+)\.md\)', text):
-        counterpart = ROOT/'systems'/f'{system}.md'
-        if counterpart.exists():
-            require(f'](../subjects/{path.parent.name}/README.md)' in counterpart.read_text(),
-                    f'Missing reverse placement: {system} -> {path.parent.name}')
-for path in system_pages:
-    require(f']({path.name})' in system_index, f'System absent from index: {path.name}')
-    for subject in re.findall(r'\]\(../subjects/([^/)]+)/README\.md\)', path.read_text()):
-        counterpart = ROOT/'subjects'/subject/'README.md'
-        if counterpart.exists():
-            require(f'](../../systems/{path.name})' in counterpart.read_text(),
-                    f'Missing subject placement: {subject} -> {path.stem}')
+system_index = ROOT/'systems/README.md'
+targets = {path: {target for _, target in relative_links(path)} for path in markdown}
 
-local_systems = sorted(p for p in (ROOT/'subjects').glob('*/systems/*.md') if p.name != 'README.md')
+require(subject_index.is_file(), 'Missing subject group index')
+require(bool(group_pages), 'No subject groups found')
+require(bool(subject_pages), 'No subject pages found inside groups')
+subject_names = [path.parent.name for path in subject_pages]
+require(len(subject_names) == len(set(subject_names)),
+        'A subject has duplicate homes; retain one canonical page and cross-link it')
+for path in group_pages:
+    require(path in targets.get(subject_index, set()),
+            f'Group absent from index: {path.parent.name}')
+    require(subject_index in targets[path],
+            f'Group lacks link to group index: {path.parent.name}')
+    members = [p for p in subject_pages if p.parent.parent == path.parent]
+    require(bool(members), f'Group has no subject pages: {path.parent.name}')
+    if path.parent.name != 'unplaced':
+        require(path in targets.get(ROOT/'README.md', set()),
+                f'Group absent from main README: {path.parent.name}')
+    for member in members:
+        require(member in targets[path],
+                f'Subject absent from group: {member.relative_to(ROOT)}')
+
+for path in subject_pages:
+    group = path.parent.parent/'README.md'
+    require(group in group_pages,
+            f'Subject has no group page: {path.relative_to(ROOT)}')
+    require(group in targets[path],
+            f'Subject lacks link to its group: {path.relative_to(ROOT)}')
+    for profile in targets[path].intersection(system_pages):
+        require(path in targets[profile],
+                f'Missing reverse placement: {profile.stem} -> {path.parent.name}')
+for path in system_pages:
+    require(path in targets.get(system_index, set()),
+            f'System absent from index: {path.name}')
+    for subject in targets[path].intersection(subject_pages):
+        require(path in targets[subject],
+                f'Missing subject placement: {subject.parent.name} -> {path.stem}')
+
+local_systems = sorted(p for subject in subject_pages
+                       for p in (subject.parent/'systems').glob('*.md')
+                       if p.name != 'README.md')
 for path in local_systems:
-    subject = path.parent.parent
+    subject = path.parent.parent/'README.md'
     text = path.read_text()
-    require(f'](systems/{path.name})' in (subject/'README.md').read_text(),
+    require(path in targets[subject],
             f'Local system missing from its subject: {path.relative_to(ROOT)}')
+    require(subject in targets[path],
+            f'Local system lacks link to its subject: {path.relative_to(ROOT)}')
     require(bool(re.search(r'^Standing: \S', text, flags=re.M)),
             f'Local system has no declared standing: {path.relative_to(ROOT)}')
-    source_families = re.findall(r'\]\(../../../systems/([^/]+)\.md\)', text)
+    source_families = targets[path].intersection(system_pages)
     require(bool(source_families), f'Local system has no source lineage: {path.relative_to(ROOT)}')
-    for family in source_families:
-        profile = ROOT/'systems'/f'{family}.md'
-        if profile.is_file():
-            require(f'](../subjects/{subject.name}/systems/{path.name})' in profile.read_text(),
-                    f'Source profile lacks descendant: {family} -> {path.relative_to(ROOT)}')
+    for profile in source_families:
+        require(path in targets[profile],
+                f'Source profile lacks descendant: {profile.stem} -> {path.relative_to(ROOT)}')
 
 manifest = json.loads((ROOT/'sources/manifest.json').read_text())
 seen = set()
@@ -115,7 +139,11 @@ for snapshot in manifest['local_snapshots']:
 if errors:
     print('\n'.join(errors))
     sys.exit(1)
-print(f'PASS: {len(subject_pages)} subjects, {len(system_pages)} system profiles, '
+functional_groups = [p for p in group_pages if p.parent.name != 'unplaced']
+unplaced = [p for p in subject_pages if p.parent.parent.name == 'unplaced']
+print(f'PASS: {len(functional_groups)} functional groups, '
+      f'{len(subject_pages)} subjects ({len(unplaced)} awaiting placement), '
+      f'{len(system_pages)} system profiles, '
       f'{len(local_systems)} local systems, '
       f'{links_checked} local links, {len(manifest["artifacts"])} pinned source records, '
       f'{len(manifest["local_snapshots"])} unchanged local snapshots.')

@@ -16,10 +16,10 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Science](../subjects/science/README.md) | methods and organization of inquiry | source-backed proposed placement |
-| [Questions](../subjects/questions/README.md) | structured self-investigation | source-backed proposed placement |
-| [Writing](../subjects/writing/README.md) | construction of inquiry books | source-backed proposed placement |
-| [Research](../subjects/research/README.md) | Organizing investigations through its plans and distributed book structures | proposed relevance; particular artifact and application to verify |
+| [Science](../subjects/inquiry/science/README.md) | methods and organization of inquiry | source-backed proposed placement |
+| [Questions](../subjects/inquiry/questions/README.md) | structured self-investigation | source-backed proposed placement |
+| [Writing](../subjects/interaction/writing/README.md) | construction of inquiry books | source-backed proposed placement |
+| [Research](../subjects/inquiry/research/README.md) | Organizing investigations through its plans and distributed book structures | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

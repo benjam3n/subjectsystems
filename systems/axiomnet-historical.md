@@ -16,12 +16,12 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Reasoning](../subjects/reasoning/README.md) | formal support | source-backed proposed placement |
-| [Knowledge](../subjects/knowledge/README.md) | context and justification | source-backed proposed placement |
-| [Connections](../subjects/connections/README.md) | support and conflict | source-backed proposed placement |
-| [Truth](../subjects/truth/README.md) | Preserving the exact claim and assumption context of a formal justification | proposed relevance; particular artifact and application to verify |
-| [Memory](../subjects/memory/README.md) | Retaining claim identity and justification for later recovery | proposed relevance; particular artifact and application to verify |
-| [Representation](../subjects/representation/README.md) | Expressing formulas and contexts without collapsing their distinctions | proposed relevance; particular artifact and application to verify |
+| [Reasoning](../subjects/understanding/reasoning/README.md) | formal support | source-backed proposed placement |
+| [Knowledge](../subjects/organization/knowledge/README.md) | context and justification | source-backed proposed placement |
+| [Connections](../subjects/organization/connections/README.md) | support and conflict | source-backed proposed placement |
+| [Truth](../subjects/understanding/truth/README.md) | Preserving the exact claim and assumption context of a formal justification | proposed relevance; particular artifact and application to verify |
+| [Memory](../subjects/organization/memory/README.md) | Retaining claim identity and justification for later recovery | proposed relevance; particular artifact and application to verify |
+| [Representation](../subjects/organization/representation/README.md) | Expressing formulas and contexts without collapsing their distinctions | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

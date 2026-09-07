@@ -16,12 +16,12 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Communication](../subjects/communication/README.md) | choosing a contribution | source-backed proposed placement |
-| [Intelligence](../subjects/intelligence/README.md) | selecting appropriate work | source-backed proposed placement |
-| [Prompting](../subjects/prompting/README.md) | instructions governing interaction | source-backed proposed placement |
-| [Explanation](../subjects/explanation/README.md) | Selecting an explanatory contribution appropriate to the interaction | proposed relevance; particular artifact and application to verify |
-| [Action](../subjects/action/README.md) | Selecting when the conversation calls for execution or an artifact | proposed relevance; particular artifact and application to verify |
-| [Writing](../subjects/writing/README.md) | Choosing and arranging the contribution the text should make | proposed relevance; particular artifact and application to verify |
+| [Communication](../subjects/interaction/communication/README.md) | choosing a contribution | source-backed proposed placement |
+| [Intelligence](../subjects/development/intelligence/README.md) | selecting appropriate work | source-backed proposed placement |
+| [Prompting](../subjects/interaction/prompting/README.md) | instructions governing interaction | source-backed proposed placement |
+| [Explanation](../subjects/understanding/explanation/README.md) | Selecting an explanatory contribution appropriate to the interaction | proposed relevance; particular artifact and application to verify |
+| [Action](../subjects/execution/action/README.md) | Selecting when the conversation calls for execution or an artifact | proposed relevance; particular artifact and application to verify |
+| [Writing](../subjects/interaction/writing/README.md) | Choosing and arranging the contribution the text should make | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

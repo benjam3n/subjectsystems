@@ -16,12 +16,12 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Memory](../subjects/memory/README.md) | recovering earlier work | source-backed proposed placement |
-| [Knowledge](../subjects/knowledge/README.md) | preserving source and history | source-backed proposed placement |
-| [Relevance](../subjects/relevance/README.md) | recognizing useful material | source-backed proposed placement |
-| [Connections](../subjects/connections/README.md) | cross-system composition | source-backed proposed placement |
-| [Search](../subjects/search/README.md) | Retrieving earlier material through task and source indexes | proposed relevance; particular artifact and application to verify |
-| [Improvement](../subjects/improvement/README.md) | Making lost corrections and methods available to a later use | proposed relevance; particular artifact and application to verify |
+| [Memory](../subjects/organization/memory/README.md) | recovering earlier work | source-backed proposed placement |
+| [Knowledge](../subjects/organization/knowledge/README.md) | preserving source and history | source-backed proposed placement |
+| [Relevance](../subjects/execution/relevance/README.md) | recognizing useful material | source-backed proposed placement |
+| [Connections](../subjects/organization/connections/README.md) | cross-system composition | source-backed proposed placement |
+| [Search](../subjects/inquiry/search/README.md) | Retrieving earlier material through task and source indexes | proposed relevance; particular artifact and application to verify |
+| [Improvement](../subjects/development/improvement/README.md) | Making lost corrections and methods available to a later use | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

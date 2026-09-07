@@ -16,12 +16,12 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Preferences](../subjects/preferences/README.md) | conditional patterns | source-backed proposed placement |
-| [Prediction](../subjects/prediction/README.md) | anticipated reactions | source-backed proposed placement |
-| [Learning](../subjects/learning/README.md) | updating a preference model | source-backed proposed placement |
-| [Goals](../subjects/goals/README.md) | Using conditional preference evidence when forming or revising aims | proposed relevance; particular artifact and application to verify |
-| [Uncertainty](../subjects/uncertainty/README.md) | Keeping competing preference hypotheses and exceptions visible | proposed relevance; particular artifact and application to verify |
-| [Decisions](../subjects/decisions/README.md) | Supplying contextual preference evidence for a choice | proposed relevance; particular artifact and application to verify |
+| [Preferences](../subjects/direction/preferences/README.md) | conditional patterns | source-backed proposed placement |
+| [Prediction](../subjects/understanding/prediction/README.md) | anticipated reactions | source-backed proposed placement |
+| [Learning](../subjects/development/learning/README.md) | updating a preference model | source-backed proposed placement |
+| [Goals](../subjects/direction/goals/README.md) | Using conditional preference evidence when forming or revising aims | proposed relevance; particular artifact and application to verify |
+| [Uncertainty](../subjects/understanding/uncertainty/README.md) | Keeping competing preference hypotheses and exceptions visible | proposed relevance; particular artifact and application to verify |
+| [Decisions](../subjects/direction/decisions/README.md) | Supplying contextual preference evidence for a choice | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

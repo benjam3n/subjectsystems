@@ -16,20 +16,20 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Discovery](../subjects/discovery/README.md) | organizing and pursuing discoveries | source-backed proposed placement |
-| [Questions](../subjects/questions/README.md) | relationships among inquiries | source-backed proposed placement |
-| [Relevance](../subjects/relevance/README.md) | contribution to further discovery | source-backed proposed placement |
-| [Goals](../subjects/goals/README.md) | Discovering purposes and criteria that guide further discoveries | proposed relevance; particular artifact and application to verify |
-| [Curiosity](../subjects/curiosity/README.md) | Keeping unresolved discoveries and exploratory continuations available | proposed relevance; particular artifact and application to verify |
-| [Search](../subjects/search/README.md) | Navigating the existing discovery hierarchy and its frontier | proposed relevance; particular artifact and application to verify |
-| [Research](../subjects/research/README.md) | Connecting unresolved inquiries and results through contribution relations | proposed relevance; particular artifact and application to verify |
-| [Science](../subjects/science/README.md) | Developing discoveries about scientific concepts, methods, and evidence | proposed relevance; particular artifact and application to verify |
+| [Discovery](../subjects/inquiry/discovery/README.md) | organizing and pursuing discoveries | source-backed proposed placement |
+| [Questions](../subjects/inquiry/questions/README.md) | relationships among inquiries | source-backed proposed placement |
+| [Relevance](../subjects/execution/relevance/README.md) | contribution to further discovery | source-backed proposed placement |
+| [Goals](../subjects/direction/goals/README.md) | Discovering purposes and criteria that guide further discoveries | proposed relevance; particular artifact and application to verify |
+| [Curiosity](../subjects/inquiry/curiosity/README.md) | Keeping unresolved discoveries and exploratory continuations available | proposed relevance; particular artifact and application to verify |
+| [Search](../subjects/inquiry/search/README.md) | Navigating the existing discovery hierarchy and its frontier | proposed relevance; particular artifact and application to verify |
+| [Research](../subjects/inquiry/research/README.md) | Connecting unresolved inquiries and results through contribution relations | proposed relevance; particular artifact and application to verify |
+| [Science](../subjects/inquiry/science/README.md) | Developing discoveries about scientific concepts, methods, and evidence | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 
 | Local system | Subject | Standing |
 |---|---|---|
-| [Discovery progress](../subjects/discovery/systems/discovery-progress.md) | [Discovery](../subjects/discovery/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Discovery progress](../subjects/inquiry/discovery/systems/discovery-progress.md) | [Discovery](../subjects/inquiry/discovery/README.md) | Specified v0.1; prospective effectiveness unestablished |
 
 This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 

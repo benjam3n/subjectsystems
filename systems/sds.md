@@ -16,23 +16,23 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Design](../subjects/design/README.md) | exploring and refining alternatives | source-backed proposed placement |
-| [Preferences](../subjects/preferences/README.md) | discovery through selection | source-backed proposed placement |
-| [Goals](../subjects/goals/README.md) | discovering requirements from examples | source-backed proposed placement |
-| [Creativity](../subjects/creativity/README.md) | Generating diverse alternatives before convergence | proposed relevance; particular artifact and application to verify |
-| [Judgment](../subjects/judgment/README.md) | Separating example selection from the criteria and requirements inferred | proposed relevance; particular artifact and application to verify |
-| [Improvement](../subjects/improvement/README.md) | Refining a candidate through successive contextual selections | proposed relevance; particular artifact and application to verify |
+| [Design](../subjects/creation/design/README.md) | exploring and refining alternatives | source-backed proposed placement |
+| [Preferences](../subjects/direction/preferences/README.md) | discovery through selection | source-backed proposed placement |
+| [Goals](../subjects/direction/goals/README.md) | discovering requirements from examples | source-backed proposed placement |
+| [Creativity](../subjects/creation/creativity/README.md) | Generating diverse alternatives before convergence | proposed relevance; particular artifact and application to verify |
+| [Judgment](../subjects/direction/judgment/README.md) | Separating example selection from the criteria and requirements inferred | proposed relevance; particular artifact and application to verify |
+| [Improvement](../subjects/development/improvement/README.md) | Refining a candidate through successive contextual selections | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 
 | Local system | Subject | Standing |
 |---|---|---|
-| [Goal discovery](../subjects/goals/systems/goal-discovery.md) | [Goals](../subjects/goals/README.md) | Specified v0.1; prospective effectiveness unestablished |
-| [Preference discovery](../subjects/preferences/systems/preference-discovery.md) | [Preferences](../subjects/preferences/README.md) | Specified v0.1; prospective effectiveness unestablished |
-| [Design exploration](../subjects/design/systems/design-exploration.md) | [Design](../subjects/design/README.md) | Specified v0.1; prospective effectiveness unestablished |
-| [Alternative development](../subjects/creativity/systems/alternative-development.md) | [Creativity](../subjects/creativity/README.md) | Specified v0.1; prospective effectiveness unestablished |
-| [Criterion discovery](../subjects/judgment/systems/criterion-discovery.md) | [Judgment](../subjects/judgment/README.md) | Specified v0.1; prospective effectiveness unestablished |
-| [Candidate improvement](../subjects/improvement/systems/candidate-improvement.md) | [Improvement](../subjects/improvement/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Goal discovery](../subjects/direction/goals/systems/goal-discovery.md) | [Goals](../subjects/direction/goals/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Preference discovery](../subjects/direction/preferences/systems/preference-discovery.md) | [Preferences](../subjects/direction/preferences/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Design exploration](../subjects/creation/design/systems/design-exploration.md) | [Design](../subjects/creation/design/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Alternative development](../subjects/creation/creativity/systems/alternative-development.md) | [Creativity](../subjects/creation/creativity/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Criterion discovery](../subjects/direction/judgment/systems/criterion-discovery.md) | [Judgment](../subjects/direction/judgment/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Candidate improvement](../subjects/development/improvement/systems/candidate-improvement.md) | [Improvement](../subjects/development/improvement/README.md) | Specified v0.1; prospective effectiveness unestablished |
 
 This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 

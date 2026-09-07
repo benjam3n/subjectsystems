@@ -16,9 +16,9 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Action](../subjects/action/README.md) | invoking tools | source-backed proposed placement |
-| [Judgment](../subjects/judgment/README.md) | comparing tool outputs | source-backed proposed placement |
-| [Memory](../subjects/memory/README.md) | recovering run history | source-backed proposed placement |
+| [Action](../subjects/execution/action/README.md) | invoking tools | source-backed proposed placement |
+| [Judgment](../subjects/direction/judgment/README.md) | comparing tool outputs | source-backed proposed placement |
+| [Memory](../subjects/organization/memory/README.md) | recovering run history | source-backed proposed placement |
 
 ## Subject-specific descendants
 

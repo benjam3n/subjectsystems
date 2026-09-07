@@ -16,9 +16,9 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Understanding](../subjects/understanding/README.md) | common structure across subjects | unresolved source; tentative placement |
-| [Connections](../subjects/connections/README.md) | relationships among activities | unresolved source; tentative placement |
-| [Representation](../subjects/representation/README.md) | organizing a body of understanding | unresolved source; tentative placement |
+| [Understanding](../subjects/understanding/understanding/README.md) | common structure across subjects | unresolved source; tentative placement |
+| [Connections](../subjects/organization/connections/README.md) | relationships among activities | unresolved source; tentative placement |
+| [Representation](../subjects/organization/representation/README.md) | organizing a body of understanding | unresolved source; tentative placement |
 
 ## Subject-specific descendants
 

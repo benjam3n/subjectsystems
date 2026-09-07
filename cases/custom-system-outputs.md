@@ -28,7 +28,7 @@ The result is a distinction between the purposes and their conditions of achieve
 
 The name chosen for the repository is Subject Systems. The repository arrangement is a second design object that can change while that name stays fixed. The later user request changes this arrangement toward custom systems within each subject.
 
-The concrete revised design uses local files under `subjects/<subject>/systems/`, with separate purposes and operations and a reference to the original family. Preferences receives a diagnostic selection procedure; Goals receives candidate aims and criterion development; Design receives artifact exploration and feasibility work.
+The concrete revised design uses local files under `subjects/<group>/<subject>/systems/`, with separate purposes and operations and a reference to the original family. Preferences receives a diagnostic selection procedure; Goals receives candidate aims and criterion development; Design receives artifact exploration and feasibility work.
 
 The result is a concrete arrangement that has been specified in this revision. Prospective effectiveness of the local procedures is unestablished.
 
@@ -45,6 +45,6 @@ Giving all three systems the same instruction to generate more attractive exampl
 ## References
 
 - [Original naming case](naming-and-placement.md).
-- [Preference discovery](../subjects/preferences/systems/preference-discovery.md).
-- [Goal discovery](../subjects/goals/systems/goal-discovery.md).
-- [Design exploration](../subjects/design/systems/design-exploration.md).
+- [Preference discovery](../subjects/direction/preferences/systems/preference-discovery.md).
+- [Goal discovery](../subjects/direction/goals/systems/goal-discovery.md).
+- [Design exploration](../subjects/creation/design/systems/design-exploration.md).

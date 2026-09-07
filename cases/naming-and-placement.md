@@ -41,7 +41,7 @@ The SDS README describes generating alternatives, selection, refinement, and req
 
 ## Concrete consequence in this setup
 
-The current README uses a structural description. Subject pages are the primary entry points; source systems appear as contributors. The decision record retains the distinction between a modest name and ambitious development. System Kit remains part of the history and does not regain the status of chosen name.
+The current README uses a structural description. Functional group pages lead into subjects; source systems appear as contributors. The decision record retains the distinction between a modest name and ambitious development. System Kit remains part of the history and does not regain the status of chosen name.
 
 This is a documented change from a selection episode into repository organization and wording. It is not evidence for a universal naming theory or for runtime effectiveness of the source systems.
 
@@ -54,4 +54,4 @@ Which properties of Subject Systems would remain desirable in a different presen
 - The visible conversation from repository review through the setup instruction. No independently addressable transcript export is attached.
 - [SDS profile and pinned README](../systems/sds.md).
 - [Name and organization decision](../decisions/0001-name-and-organization.md).
-- [Goals](../subjects/goals/README.md), [Preferences](../subjects/preferences/README.md), [Design](../subjects/design/README.md), [Judgment](../subjects/judgment/README.md), [Representation](../subjects/representation/README.md), and [Relevance](../subjects/relevance/README.md).
+- [Goals](../subjects/direction/goals/README.md), [Preferences](../subjects/direction/preferences/README.md), [Design](../subjects/creation/design/README.md), [Judgment](../subjects/direction/judgment/README.md), [Representation](../subjects/organization/representation/README.md), and [Relevance](../subjects/execution/relevance/README.md).

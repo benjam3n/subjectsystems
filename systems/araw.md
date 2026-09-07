@@ -16,17 +16,17 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Reasoning](../subjects/reasoning/README.md) | conditional implications | source-backed proposed placement |
-| [Truth](../subjects/truth/README.md) | testing assumptions | source-backed proposed placement |
-| [Discovery](../subjects/discovery/README.md) | generating alternative accounts | source-backed proposed placement |
-| [Strategy](../subjects/strategy/README.md) | consequences of possible approaches | source-backed proposed placement |
-| [Uncertainty](../subjects/uncertainty/README.md) | Developing live alternatives and conditional consequences | proposed relevance; particular artifact and application to verify |
-| [Explanation](../subjects/explanation/README.md) | Constructing and challenging competing explanations | proposed relevance; particular artifact and application to verify |
-| [Creativity](../subjects/creativity/README.md) | Generating alternatives when an assumption is varied | proposed relevance; particular artifact and application to verify |
-| [Problem solving](../subjects/problem-solving/README.md) | Exploring interventions and the assumptions their success requires | proposed relevance; particular artifact and application to verify |
-| [Research](../subjects/research/README.md) | Developing implications and discriminating questions from competing accounts | proposed relevance; particular artifact and application to verify |
-| [Science](../subjects/science/README.md) | Challenging an exact hypothesis and deriving what would follow under alternatives | proposed relevance; particular artifact and application to verify |
-| [Philosophy](../subjects/philosophy/README.md) | Examining assumptions, implications, and competing conceptual accounts | proposed relevance; particular artifact and application to verify |
+| [Reasoning](../subjects/understanding/reasoning/README.md) | conditional implications | source-backed proposed placement |
+| [Truth](../subjects/understanding/truth/README.md) | testing assumptions | source-backed proposed placement |
+| [Discovery](../subjects/inquiry/discovery/README.md) | generating alternative accounts | source-backed proposed placement |
+| [Strategy](../subjects/execution/strategy/README.md) | consequences of possible approaches | source-backed proposed placement |
+| [Uncertainty](../subjects/understanding/uncertainty/README.md) | Developing live alternatives and conditional consequences | proposed relevance; particular artifact and application to verify |
+| [Explanation](../subjects/understanding/explanation/README.md) | Constructing and challenging competing explanations | proposed relevance; particular artifact and application to verify |
+| [Creativity](../subjects/creation/creativity/README.md) | Generating alternatives when an assumption is varied | proposed relevance; particular artifact and application to verify |
+| [Problem solving](../subjects/creation/problem-solving/README.md) | Exploring interventions and the assumptions their success requires | proposed relevance; particular artifact and application to verify |
+| [Research](../subjects/inquiry/research/README.md) | Developing implications and discriminating questions from competing accounts | proposed relevance; particular artifact and application to verify |
+| [Science](../subjects/inquiry/science/README.md) | Challenging an exact hypothesis and deriving what would follow under alternatives | proposed relevance; particular artifact and application to verify |
+| [Philosophy](../subjects/inquiry/philosophy/README.md) | Examining assumptions, implications, and competing conceptual accounts | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 

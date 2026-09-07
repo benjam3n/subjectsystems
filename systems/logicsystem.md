@@ -16,12 +16,12 @@ These entries are source lineage and starting points for customization. They are
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
-| [Understanding](../subjects/understanding/README.md) | functional and causal decomposition | source-backed proposed placement |
-| [Truth](../subjects/truth/README.md) | scope and modal claims | source-backed proposed placement |
-| [Knowledge](../subjects/knowledge/README.md) | claim relationships | source-backed proposed placement |
-| [Judgment](../subjects/judgment/README.md) | distinct assessments | source-backed proposed placement |
-| [Explanation](../subjects/explanation/README.md) | Reconstructing functions and candidate mechanisms | proposed relevance; particular artifact and application to verify |
-| [Philosophy](../subjects/philosophy/README.md) | Examining concepts, modal claims, and argument relationships | proposed relevance; particular artifact and application to verify |
+| [Understanding](../subjects/understanding/understanding/README.md) | functional and causal decomposition | source-backed proposed placement |
+| [Truth](../subjects/understanding/truth/README.md) | scope and modal claims | source-backed proposed placement |
+| [Knowledge](../subjects/organization/knowledge/README.md) | claim relationships | source-backed proposed placement |
+| [Judgment](../subjects/direction/judgment/README.md) | distinct assessments | source-backed proposed placement |
+| [Explanation](../subjects/understanding/explanation/README.md) | Reconstructing functions and candidate mechanisms | proposed relevance; particular artifact and application to verify |
+| [Philosophy](../subjects/inquiry/philosophy/README.md) | Examining concepts, modal claims, and argument relationships | proposed relevance; particular artifact and application to verify |
 
 ## Subject-specific descendants
 
