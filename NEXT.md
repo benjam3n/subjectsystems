@@ -1,9 +1,11 @@
 # Next work
 
-Initial organization is present. The next work should populate the subjects with consequential findings and uses while resolving source and boundary gaps that affect those investigations. These tasks can branch or be replaced by a better contribution to the actual request.
+The current priority is developing custom systems for each subject and particular purpose across all project families. Ten local specifications are present; the remaining source placements need development. The [customization plan](research/CUSTOMIZATION-PLAN.md) records their standing. Exercise and refine these designs through consequential subject work while resolving source and boundary gaps that affect it. These tasks can branch or be replaced by a better contribution to the actual request.
 
 | Work | Concrete result | What it resolves or enables |
 |---|---|---|
+| Develop the subject-specific project versions | Local objects, operations, results, criteria, and continuation derived from the actual purpose; source changes identified | Makes the subject determine the system rather than only its placement |
+| Exercise the new specifications | Actual outputs and failure cases at the local purpose, beginning with a needed current task | Distinguishes a written custom design from its demonstrated use |
 | Extend a real selection episode across subjects | Continue the naming and placement case with a later design choice; distinguish observed selection, selected aspect, inferred preference, and requirement | Develops Goals, Preferences, Design, and Judgment beyond a directory arrangement |
 | Investigate contribution selection | A worked case where available ability failed or succeeded in becoming the fitting next contribution, with the operative transition identified | Develops Intelligence, Reasoning, Communication, and Prompting |
 | Develop an answer-dependent inquiry | A live question with materially different continuations for different answers, including an initially unlisted question if it changes the route | Develops Questions and Discovery without reducing them to static lists |

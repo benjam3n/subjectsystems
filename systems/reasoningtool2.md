@@ -10,7 +10,9 @@ Current open-operation contract, distinctions among failures of availability and
 
 CURRENT.md is the inspected operating contract. The September 6 corpus-sweep hierarchy and dispatcher are proposals; their appearance in a newer run does not make them the contract.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -23,6 +25,14 @@ CURRENT.md is the inspected operating contract. The September 6 corpus-sweep hie
 | [Relevance](../subjects/relevance/README.md) | Distinguishing available material from material recognized and used as relevant | proposed relevance; particular artifact and application to verify |
 | [Problem finding](../subjects/problem-finding/README.md) | Distinguishing different locations where a result fails to become available | proposed relevance; particular artifact and application to verify |
 | [Writing](../subjects/writing/README.md) | Investigating the operations performed by the parts and ordering of prose | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+| Local system | Subject | Standing |
+|---|---|---|
+| [Contribution construction](../subjects/writing/systems/contribution-construction.md) | [Writing](../subjects/writing/README.md) | Specified v0.1; prospective effectiveness unestablished |
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

@@ -10,13 +10,21 @@ Game contexts, strategy families, variants, preconditions, counterstrategies, an
 
 The current AxiomNet naming transition and the separate Strategizer sources require version context. A generated strategy is not evidence that its entry conditions or counterplay have been tested.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
 | [Strategy](../subjects/strategy/README.md) | approaches and counterplay | source-backed proposed placement |
 | [Decisions](../subjects/decisions/README.md) | context-sensitive selection | source-backed proposed placement |
 | [Planning](../subjects/planning/README.md) | testing entry conditions | source-backed proposed placement |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

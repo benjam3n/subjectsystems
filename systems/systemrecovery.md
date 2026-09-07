@@ -10,7 +10,9 @@ Recovered sources, native structures, source-linked relationships, checks, and w
 
 The 139-entry preserved source pack and its wider catalog support recovery. Hash checks establish byte identity, not semantic completeness; semantic invalidation and some portable-case dependencies remain unfinished.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -20,6 +22,12 @@ The 139-entry preserved source pack and its wider catalog support recovery. Hash
 | [Connections](../subjects/connections/README.md) | cross-system composition | source-backed proposed placement |
 | [Search](../subjects/search/README.md) | Retrieving earlier material through task and source indexes | proposed relevance; particular artifact and application to verify |
 | [Improvement](../subjects/improvement/README.md) | Making lost corrections and methods available to a later use | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

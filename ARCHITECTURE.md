@@ -2,19 +2,19 @@
 
 ## Primary organization
 
-The primary entry point is a subject. Below it are narrower questions, activities, distinctions, and investigations. A source system attaches where its contribution becomes definite. A subject can contain several competing accounts and several ways of doing the work.
+The primary entry point is a subject. Below it are narrower questions, activities, and investigations, with systems developed specifically for their purposes. Source projects supply ancestors, mechanisms, examples, and evidence for those local systems.
 
 ```mermaid
 flowchart TD
-    G["Goals"] --> GR["Discovering requirements"]
-    P["Preferences"] --> PS["Learning from selections"]
-    D["Design"] --> DA["Exploring alternatives"]
-    GR -->|uses| S["SDS"]
-    PS -->|uses| S
-    DA -->|uses| S
+    G["Goals"] --> GS["Goal discovery"]
+    P["Preferences"] --> PS["Preference discovery"]
+    D["Design"] --> DS["Design exploration"]
+    GS -.->|derived from| S["SDS source"]
+    PS -.->|derived from| S
+    DS -.->|derived from| S
 ```
 
-These paths reference one SDS source. They supply different reasons for using it. A new method can enter any of these branches without becoming part of SDS.
+The three local systems have different objects, operations, outputs, and criteria. Their common source is lineage. A subject may need more than one local system from the same family, and a local system may combine several families. See [customization](CUSTOMIZATION.md).
 
 ## Distinctions the organization preserves
 
@@ -35,22 +35,23 @@ These are useful distinctions, not an exhaustive schema into which every future 
 
 Narrower subject, useful contribution, necessary prerequisite, sufficient condition, alternative route, support, contradiction, example, implementation, reference, and translation have different consequences. A shared word does not establish a relationship. A useful relation need not be a strict parent-child relation.
 
-Each proposed system placement records a specific branch where available. Broader candidate uses remain marked for branch development. Several parent views may refer to the same artifact. Keep canonical source identity and state what changes in the receiving inquiry when the contribution is used.
+The previous placement map now records source relevance and pending custom development. Distinguish a subject owning a local design from that design deriving from a source, or consuming an observation shared with another design. A reference does not replace a local specification.
 
 A connection can fail through mismatched meaning, scope, certainty, source status, or required inputs. Preserve a meaningful incompatibility instead of forcing every native object into a common representation.
 
 ## Native structures
 
-QuestionRoute routes and chains remain routes and chains. GOSM goal journeys and decision forks retain their conditions and branches. TruthFinder counterexamples retain the exact claims they challenge. Historical AxiomNet formulas retain their assumption contexts. Discovery Engine references retain the identity and scope of the canonical discovery. Resource-engineering configurations and verdict histories retain their distinct roles.
+The original sources retain their native identities and meanings. A local descendant can redesign QuestionRoute routes, GOSM gates, TruthFinder challenge procedures, or other native objects when its subject requires it. Record which distinctions are retained and which are deliberately changed. A source counterexample still targets its original claim, and an original observation does not acquire a new meaning merely because a descendant consumes it.
 
-An adapter can reference a native object, state what it consumes, and preserve necessary conditions. It must not equate a discovery's done status with universal truth, a predicted rating with a measured preference, or a source mention with a logical dependency.
+A local system can consume a native object, state what it uses, and preserve the conditions necessary to interpret that evidence. It must not equate a discovery's done status with universal truth, a predicted rating with a measured preference, or a source mention with a logical dependency.
 
 ## Physical layout
 
 | Location | Role |
 |---|---|
 | subjects/ | Primary working hierarchies and subject-specific research |
-| systems/ | Secondary profiles and reverse lookup of contributors |
+| `subjects/<subject>/systems/` | Locally defined systems for particular purposes |
+| systems/ | Source-family profiles, initial relevance, and links to distinct descendants |
 | cases/ | Consequential worked transitions serving several subjects |
 | research/ | Cross-subject investigations and unresolved questions |
 | decisions/ | Established direction and explicitly provisional choices |

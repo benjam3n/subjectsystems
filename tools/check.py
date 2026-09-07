@@ -39,6 +39,20 @@ for path in markdown:
         require(target.exists(), f'{path.relative_to(ROOT)}: missing link target: {destination}')
         links_checked += 1
 
+    # Current tables must retain their columns when development state is added.
+    # Preserved historical sources keep their original formatting.
+    if 'sources/reviews/' not in path.relative_to(ROOT).as_posix():
+        text = re.sub(r'```.*?```', '', path.read_text(), flags=re.S)
+        blocks = re.findall(r'(?:^\|[^\n]*\n?)+', text, flags=re.M)
+        for block in blocks:
+            rows = block.strip().splitlines()
+            cells = [re.split(r'(?<!\\)\|', row.strip().strip('|')) for row in rows]
+            separator = len(cells) > 1 and all(re.fullmatch(r'\s*:?-+:?\s*', c) for c in cells[1])
+            require(separator, f'{path.relative_to(ROOT)}: table block lacks its header separator')
+            if separator:
+                require(all(len(row) == len(cells[0]) for row in cells),
+                        f'{path.relative_to(ROOT)}: inconsistent table columns')
+
 subject_pages = sorted((ROOT/'subjects').glob('*/README.md'))
 subject_index = (ROOT/'subjects/README.md').read_text()
 system_pages = sorted(p for p in (ROOT/'systems').glob('*.md') if p.name != 'README.md')
@@ -59,6 +73,22 @@ for path in system_pages:
         if counterpart.exists():
             require(f'](../../systems/{path.name})' in counterpart.read_text(),
                     f'Missing subject placement: {subject} -> {path.stem}')
+
+local_systems = sorted(p for p in (ROOT/'subjects').glob('*/systems/*.md') if p.name != 'README.md')
+for path in local_systems:
+    subject = path.parent.parent
+    text = path.read_text()
+    require(f'](systems/{path.name})' in (subject/'README.md').read_text(),
+            f'Local system missing from its subject: {path.relative_to(ROOT)}')
+    require(bool(re.search(r'^Standing: \S', text, flags=re.M)),
+            f'Local system has no declared standing: {path.relative_to(ROOT)}')
+    source_families = re.findall(r'\]\(../../../systems/([^/]+)\.md\)', text)
+    require(bool(source_families), f'Local system has no source lineage: {path.relative_to(ROOT)}')
+    for family in source_families:
+        profile = ROOT/'systems'/f'{family}.md'
+        if profile.is_file():
+            require(f'](../subjects/{subject.name}/systems/{path.name})' in profile.read_text(),
+                    f'Source profile lacks descendant: {family} -> {path.relative_to(ROOT)}')
 
 manifest = json.loads((ROOT/'sources/manifest.json').read_text())
 seen = set()
@@ -86,6 +116,7 @@ if errors:
     print('\n'.join(errors))
     sys.exit(1)
 print(f'PASS: {len(subject_pages)} subjects, {len(system_pages)} system profiles, '
+      f'{len(local_systems)} local systems, '
       f'{links_checked} local links, {len(manifest["artifacts"])} pinned source records, '
       f'{len(manifest["local_snapshots"])} unchanged local snapshots.')
 print('This checks structure and recorded identity, not intellectual completeness or method effectiveness.')

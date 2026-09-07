@@ -10,7 +10,9 @@ The actual procedures, invocation relationships, and examples. Individual proced
 
 A large procedure collection does not establish correct selection or execution. Retrieve the exact skill when using it; this profile is not a substitute for the original.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -30,6 +32,12 @@ A large procedure collection does not establish correct selection or execution. 
 | [Science](../subjects/science/README.md) | Using inquiry procedures where their operations bear on the scientific question | proposed relevance; particular artifact and application to verify |
 | [Philosophy](../subjects/philosophy/README.md) | Using philosophical investigation and regress procedures | proposed relevance; particular artifact and application to verify |
 | [Communication](../subjects/communication/README.md) | Choosing procedures for a particular communicative contribution | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

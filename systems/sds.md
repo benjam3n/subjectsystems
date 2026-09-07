@@ -10,7 +10,9 @@ Diverse designs, selected examples and aspects, iterations, derived requirements
 
 The README specifies a design methodology. Selecting an entire example does not establish which individual feature was essential. This setup does not establish comparative performance.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -20,6 +22,19 @@ The README specifies a design methodology. Selecting an entire example does not 
 | [Creativity](../subjects/creativity/README.md) | Generating diverse alternatives before convergence | proposed relevance; particular artifact and application to verify |
 | [Judgment](../subjects/judgment/README.md) | Separating example selection from the criteria and requirements inferred | proposed relevance; particular artifact and application to verify |
 | [Improvement](../subjects/improvement/README.md) | Refining a candidate through successive contextual selections | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+| Local system | Subject | Standing |
+|---|---|---|
+| [Goal discovery](../subjects/goals/systems/goal-discovery.md) | [Goals](../subjects/goals/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Preference discovery](../subjects/preferences/systems/preference-discovery.md) | [Preferences](../subjects/preferences/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Design exploration](../subjects/design/systems/design-exploration.md) | [Design](../subjects/design/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Alternative development](../subjects/creativity/systems/alternative-development.md) | [Creativity](../subjects/creativity/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Criterion discovery](../subjects/judgment/systems/criterion-discovery.md) | [Judgment](../subjects/judgment/README.md) | Specified v0.1; prospective effectiveness unestablished |
+| [Candidate improvement](../subjects/improvement/systems/candidate-improvement.md) | [Improvement](../subjects/improvement/README.md) | Specified v0.1; prospective effectiveness unestablished |
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

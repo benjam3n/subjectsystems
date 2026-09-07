@@ -4,6 +4,8 @@ The two reports in this folder are preserved originals from 6 September 2026. Th
 
 ## Current differences
 
+- After setup, the user directed development of custom systems for each subject and purpose. The initial shared-source placement model is now a provenance and development map, not the complete architecture of working systems.
+
 - Subject Systems has now been selected and the new repository setup authorized. Earlier candidate names in the subject proposal are not current recommendations.
 - Education and Collaboration are excluded as roots. Connections and Improvement are proposed additions, not independently settled choices.
 - Promoting remains an unresolved label; the earlier marketing interpretation has not been adopted.

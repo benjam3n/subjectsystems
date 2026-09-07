@@ -2,7 +2,7 @@
 
 Systems organized around subjects.
 
-Reasoning, goals, discovery, questions, preferences, design, and the other subjects determine the organization. Existing systems contribute wherever they are relevant. Each subject can develop its own concepts, accounts, questions, methods, tools, and evidence, including approaches none of the existing systems contains.
+Reasoning, goals, discovery, questions, preferences, design, and the other subjects determine the organization. Existing projects provide material for custom systems developed for each subject and purpose. Each subject can develop its own concepts, accounts, questions, methods, tools, and evidence, including approaches none of the existing systems contains.
 
 The ambition is to develop these subjects deeply enough to understand and improve what occurs within them, and to investigate what perfection would require. The name describes the organization; it does not certify completeness, effectiveness, or readiness.
 
@@ -10,7 +10,7 @@ The ambition is to develop these subjects deeply enough to understand and improv
 
 The [subject index](subjects/README.md) contains 37 retained entries and two proposed additions. Start with [Goals](subjects/goals/README.md), [Discovery](subjects/discovery/README.md), [Reasoning](subjects/reasoning/README.md), [Questions](subjects/questions/README.md), or whichever subject bears on the actual work.
 
-For example, SDS contributes to [Design](subjects/design/README.md) through alternatives, to [Preferences](subjects/preferences/README.md) through selections, and to [Goals](subjects/goals/README.md) through requirements discovered from examples. These are different uses of the same source. The subject extends beyond that source.
+For example, the SDS source leads to distinct systems for [Goal discovery](subjects/goals/systems/goal-discovery.md), [Preference discovery](subjects/preferences/systems/preference-discovery.md), and [Design exploration](subjects/design/systems/design-exploration.md). They generate different objects, select for different reasons, and produce different results. The same customization principle applies to every project family. See [how custom systems are developed](CUSTOMIZATION.md).
 
 ## Understand the project
 
@@ -18,7 +18,9 @@ For example, SDS contributes to [Design](subjects/design/README.md) through alte
 |---|---|
 | [Current contract](CURRENT.md) | Current decisions, authority, scope, and remaining uncertainty |
 | [Purpose](PURPOSE.md) | Goals that remain meaningful as the project changes |
-| [Architecture](ARCHITECTURE.md) | Subjects, branches, contributors, relationships, and native source objects |
+| [Architecture](ARCHITECTURE.md) | Subjects, local systems, source lineage, and relationships |
+| [Customization](CUSTOMIZATION.md) | How each subject and purpose determines its own systems |
+| [Customization plan](research/CUSTOMIZATION-PLAN.md) | Specified versions and remaining work across all source families |
 | [Perfection](PERFECTION.md) | Strong targets and the distinctions required to establish them |
 | [Goal journey](GOAL-JOURNEY.md) | What present capabilities enable and the larger fronts of development |
 | [Next work](NEXT.md) | Concrete investigations and changes warranted by the current state |
@@ -29,7 +31,7 @@ For example, SDS contributes to [Design](subjects/design/README.md) through alte
 
 ## Current state
 
-This is the initial subject-centered organization. It includes substantive starting branches, questions, source profiles, a reconstructed conversation case, and a development plan. It is not an exhaustive file migration or an implemented universal orchestrator.
+The repository contains the subject-centered organization and an initial revision toward custom systems: ten local design specifications, substantive starting branches, questions, source profiles, worked distinctions, and a development plan. Other family–subject versions remain to be developed. A specification is not a prospective effectiveness result. It is not an exhaustive file migration or an implemented universal orchestrator.
 
 Education and Collaboration are excluded as roots. Connections and Improvement remain proposed additions. The treatment of Integration, Evaluation, Automation, and Self-improvement remains revisable. Promoting is an unresolved label. These distinctions are recorded in the [boundary decision](decisions/0002-subject-boundaries.md).
 

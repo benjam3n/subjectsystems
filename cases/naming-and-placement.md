@@ -8,6 +8,8 @@ The user sought a name broad enough for the project, literal and simple, naming 
 
 The user then requested that names remain general but claim less. System Kit received a positive judgment. The user subsequently asked for a lower claim than kit. After considering alternatives, the user proposed subjectsystems, accepted the interpretation, and authorized setup of the already-created repository.
 
+The later [custom-system decision](../decisions/0003-custom-systems.md) changes the repository architecture beyond this initial relevance map. The episode remains evidence; separate local systems can develop different results from it, as the [custom-output demonstration](custom-system-outputs.md) shows.
+
 ## What the episode establishes
 
 | Item | Standing |

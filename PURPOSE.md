@@ -2,7 +2,7 @@
 
 Develop subjects into bodies of understanding and practice whose distinctions, methods, and relationships have been thought through. The project should help discover what is true, possible, consequential, worth pursuing, and capable of being done, including through means not yet available.
 
-Subjects remain larger than their present systems. Reasoningtool is a contribution to reasoning; Discovery Engine is a contribution to discovery; neither exhausts the activity or its possible science. Successful recovery should make earlier work available for a more ambitious continuation.
+Each subject determines the custom systems it needs from the project families, including new operations, combinations, and redesigns. Subjects remain larger than their present systems. Reasoningtool is a contribution to reasoning; Discovery Engine is a contribution to discovery; neither exhausts the activity or its possible science. Successful recovery should make earlier work available for a more ambitious continuation.
 
 ## Enduring goals
 

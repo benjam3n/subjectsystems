@@ -1,6 +1,6 @@
 # Subjects
 
-Subjects are the primary entry points. A subject can develop accounts, questions, methods, implementations, evidence, and further branches. Source systems contribute to that work wherever relevant.
+Subjects are the primary entry points. A subject can develop accounts, questions, methods, implementations, evidence, and further branches. Source projects supply material for local systems designed around the subject and the particular work being pursued. Source placements are lineage and customization candidates, not a substitute for those local designs.
 
 The starting set contains 37 retained entries and two proposed additions. Promoting is retained as an unresolved label. No list here is claimed to exhaust the subjects or their branches. See [boundary decisions](../decisions/0002-subject-boundaries.md).
 

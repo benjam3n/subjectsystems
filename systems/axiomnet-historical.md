@@ -10,7 +10,9 @@ Formula structure, assumptions, canonical identity rules, justifications, and de
 
 This is the historical formal-claim system preserved in ProjectVersions. The inspected later AxiomNet README uses the Strategizer identity; do not silently merge their objects or capabilities.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -20,6 +22,12 @@ This is the historical formal-claim system preserved in ProjectVersions. The ins
 | [Truth](../subjects/truth/README.md) | Preserving the exact claim and assumption context of a formal justification | proposed relevance; particular artifact and application to verify |
 | [Memory](../subjects/memory/README.md) | Retaining claim identity and justification for later recovery | proposed relevance; particular artifact and application to verify |
 | [Representation](../subjects/representation/README.md) | Expressing formulas and contexts without collapsing their distinctions | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

@@ -10,7 +10,9 @@ Its distinct representation families and corpora. Concept hubs, dependency maps,
 
 Concept hubs, depth maps, dependency forms, continuous regress, and conversational moves remain separate representation families. Corpus size and generated text do not establish insight or novelty.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -20,6 +22,12 @@ Concept hubs, depth maps, dependency forms, continuous regress, and conversation
 | [Communication](../subjects/communication/README.md) | concepts in conversation | source-backed proposed placement |
 | [Intelligence](../subjects/intelligence/README.md) | Investigating how different representations make work available | proposed relevance; particular artifact and application to verify |
 | [Philosophy](../subjects/philosophy/README.md) | Developing conceptual investigations through depth and regress structures | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

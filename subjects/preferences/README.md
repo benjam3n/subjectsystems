@@ -14,15 +14,25 @@ Patterns of favoring alternatives, the contexts in which those patterns hold, an
 - Change.
 - Predictive use.
 
-## Contributing systems
+## Systems developed for this subject
 
-Each row is a proposed use. A link establishes where to inspect the contribution; it does not establish effectiveness. The source profile retains the native mechanism and its limits.
+The subject and the particular purpose determine each local system. The source map below supplies origins and development candidates; it does not provide a finished custom system. See [customization](../../CUSTOMIZATION.md).
 
-| System | Place or proposed use | Basis |
+| Local system | Purpose | Standing |
 |---|---|---|
-| [SDS](../../systems/sds.md) | discovery through selection | source-backed proposed placement |
-| [PreferenceFinder](../../systems/preferencefinder.md) | conditional patterns | source-backed proposed placement |
-| [Resource-engineering](../../systems/resource-engineering.md) | Retaining contextual verdicts and contrasting judgments | proposed relevance; particular artifact and application to verify |
+| [Preference discovery](systems/preference-discovery.md) | Distinguish what someone favors in a stated context without inferring a general preference from liking one whole example. | Specified v0.1; prospective use unverified |
+| [Preference question route](systems/preference-question-route.md) | Choose and continue a preference inquiry according to what its possible answers would distinguish. | Specified v0.1; prospective use unverified |
+
+## Source lineage and customization candidates
+
+Each row records an origin or a candidate for custom development. Source relevance and source evidence are retained separately from the standing of the local design.
+
+| Source family | Initial place or proposed use | Source standing | Local development |
+|---|---|---|---|
+| [SDS](../../systems/sds.md) | discovery through selection | source-backed proposed placement | [Preference discovery](systems/preference-discovery.md) — specified v0.1 |
+| [PreferenceFinder](../../systems/preferencefinder.md) | conditional patterns | source-backed proposed placement | To customize for the stated purpose |
+| [Resource-engineering](../../systems/resource-engineering.md) | Retaining contextual verdicts and contrasting judgments | proposed relevance; particular artifact and application to verify | To customize for the stated purpose |
+| [QuestionRoute](../../systems/questionroute.md) | Choose and continue a preference inquiry according to what its possible answers would distinguish. | New derivation from the pinned source | [Preference question route](systems/preference-question-route.md) — specified v0.1 |
 
 ## Frontier
 
@@ -36,7 +46,7 @@ Use the recorded naming choices to separate explicit preferences from inferred p
 
 ## Development standard
 
-Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A source method is one possible contribution. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
+Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A local system can retain, revise, combine, or replace source methods according to this subject’s purpose. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
 
 The [naming and placement case](../../cases/naming-and-placement.md) supplies an actual conversation episode that can be examined from these subjects.
 

@@ -10,7 +10,9 @@ Project plans and the distributed book family. The name’s ambition is kept sep
 
 The project family is distributed: plans live in AutomaticScience and some books live in QuestionRoute. Plans and generated books do not establish autonomous experimental discovery.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -18,6 +20,12 @@ The project family is distributed: plans live in AutomaticScience and some books
 | [Questions](../subjects/questions/README.md) | structured self-investigation | source-backed proposed placement |
 | [Writing](../subjects/writing/README.md) | construction of inquiry books | source-backed proposed placement |
 | [Research](../subjects/research/README.md) | Organizing investigations through its plans and distributed book structures | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

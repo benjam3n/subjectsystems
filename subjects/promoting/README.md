@@ -10,7 +10,15 @@ The original label is retained, but its intended meaning is unresolved.
 - Distinctness from Prompting.
 - Examples that establish scope.
 
-## Contributing systems
+## Systems developed for this subject
+
+The subject and the particular purpose determine each local system. The source map below supplies origins and development candidates; it does not provide a finished custom system. See [customization](../../CUSTOMIZATION.md).
+
+Custom versions have not yet been specified here. Derive them from the actual purpose of the subject, using the source candidates below and considering other families when they can contribute.
+
+The subject label must be resolved before a definite local purpose can be attributed to it.
+
+## Source lineage and customization candidates
 
 No system placement is asserted until this label’s intended meaning is resolved. Earlier marketing-oriented branch suggestions are not adopted.
 
@@ -26,6 +34,6 @@ Resolve the label from the original context or a consequential use. Do not assum
 
 ## Development standard
 
-Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A source method is one possible contribution. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
+Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A local system can retain, revise, combine, or replace source methods according to this subject’s purpose. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
 
 [All subjects](../README.md) · [Source basis](../../sources/README.md)

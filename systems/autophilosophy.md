@@ -10,7 +10,9 @@ The actual concept investigations, proposed procedures, and worked answer–atta
 
 The repository contains investigations, procedures, and answer–attack–revision artifacts. Their existence does not establish a completed theory or successful automation of all philosophy.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -19,6 +21,12 @@ The repository contains investigations, procedures, and answer–attack–revisi
 | [Knowledge](../subjects/knowledge/README.md) | retaining philosophical work | source-backed proposed placement |
 | [Values](../subjects/values/README.md) | Examining standards of worth through conceptual investigations | proposed relevance; particular artifact and application to verify |
 | [Understanding](../subjects/understanding/README.md) | Developing competing accounts through answer–attack–revision work | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

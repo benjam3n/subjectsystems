@@ -6,7 +6,7 @@ Describe the actual subject and the distinction this branch introduces. Develop 
 
 Identify a concrete question whose answer is not yet available. Preserve competing accounts where they remain live.
 
-Attach a source or system at the point of its contribution. State its role, exact source/version, relevant conditions, and what this branch would use from it.
+Develop the local system required by this branch's purpose. Identify its source families and exact material, then specify the objects, operations, results, and criteria that the purpose requires. A source placement is a starting point for customization, not the finished system. Preserve its lineage and distinguish its standing from that of its sources.
 
 Record substantive findings, their grounds, and their effects on later work. A branch's existence is not evidence of a developed science.
 

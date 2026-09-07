@@ -47,4 +47,6 @@ Read the [review status](reviews/README.md) before using the original [repositor
 
 ## Using a source
 
+Original sources and local descendants have separate identities. Preserve the original evidence and its conditions; a custom system can deliberately change the inherited design according to its subject and purpose. Record those changes as local decisions. See [customization](../CUSTOMIZATION.md).
+
 Choose the exact artifact relevant to the operation. Retrieve its full contents and version, preserve consequential conditions and native objects, and distinguish original execution from adaptation. Record an actual receiving use when a finding crosses subjects. Broaden source intake when an inquiry exposes a need; neither an index entry nor a repository count establishes completeness.

@@ -10,13 +10,21 @@ A documented desktop interface for skill runs, script runs, side-by-side compari
 
 The README explicitly calls this scaffolding. Its stated skill/script/compare/history features are documented capabilities, not runtime results from this setup. The earlier proposal had only a name-based placement; that limitation has now been partly resolved.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
 | [Action](../subjects/action/README.md) | invoking tools | source-backed proposed placement |
 | [Judgment](../subjects/judgment/README.md) | comparing tool outputs | source-backed proposed placement |
 | [Memory](../subjects/memory/README.md) | recovering run history | source-backed proposed placement |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

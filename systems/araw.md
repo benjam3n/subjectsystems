@@ -10,7 +10,9 @@ Exact claims, conditional contexts, constructive consequences, wrongness cases, 
 
 Assume-right includes constructive consequences. Assume-wrong concerns cases in which the claim is false, with alternatives and consequences. Do not reduce it to a critique checklist or replace the source procedure with this summary.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -25,6 +27,12 @@ Assume-right includes constructive consequences. Assume-wrong concerns cases in 
 | [Research](../subjects/research/README.md) | Developing implications and discriminating questions from competing accounts | proposed relevance; particular artifact and application to verify |
 | [Science](../subjects/science/README.md) | Challenging an exact hypothesis and deriving what would follow under alternatives | proposed relevance; particular artifact and application to verify |
 | [Philosophy](../subjects/philosophy/README.md) | Examining assumptions, implications, and competing conceptual accounts | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

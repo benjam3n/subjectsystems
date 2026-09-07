@@ -2,6 +2,8 @@
 
 Standing: established by the conversation and the instruction to set up the already-created repository. Recorded 7 September 2026.
 
+Subsequent refinement: [0003](0003-custom-systems.md) develops the subject-first direction into custom systems for each subject and purpose. This record preserves the initial decision; a shared source placement alone is no longer the complete working architecture.
+
 ## Name
 
 Visible name: **Subject Systems**. Repository: **subjectsystems**. Description: **Systems organized around subjects**.

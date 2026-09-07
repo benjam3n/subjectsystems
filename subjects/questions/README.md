@@ -29,18 +29,24 @@ What can be asked, the assumptions and answer spaces involved, and how inquiries
 
 Open frontier: a question can be useful through the possibilities it creates even when no immediate decision depends on its answer. An exclusively decision-based selection rule would omit this case.
 
-## Contributing systems
+## Systems developed for this subject
 
-Each row is a proposed use. A link establishes where to inspect the contribution; it does not establish effectiveness. The source profile retains the native mechanism and its limits.
+The subject and the particular purpose determine each local system. The source map below supplies origins and development candidates; it does not provide a finished custom system. See [customization](../../CUSTOMIZATION.md).
 
-| System | Place or proposed use | Basis |
-|---|---|---|
-| [Reasoningtool](../../systems/reasoningtool.md) | formation / question-generating procedures | source-backed proposed placement |
-| [Discovery Engine](../../systems/discovery-engine.md) | relationships among inquiries | source-backed proposed placement |
-| [QuestionRoute](../../systems/questionroute.md) | typed navigation | source-backed proposed placement |
-| [QuestionRoute](../../systems/questionroute.md) | composed inquiries | source-backed proposed placement |
-| [PostAGI reasoning](../../systems/postagi-reasoning.md) | depth and regress | source-backed proposed placement |
-| [AutomaticScience](../../systems/automaticscience.md) | structured self-investigation | source-backed proposed placement |
+Custom versions have not yet been specified here. Derive them from the actual purpose of the subject, using the source candidates below and considering other families when they can contribute.
+
+## Source lineage and customization candidates
+
+Each row records an origin or a candidate for custom development. Source relevance and source evidence are retained separately from the standing of the local design.
+
+| Source family | Initial place or proposed use | Source standing | Local development |
+|---|---|---|---|
+| [Reasoningtool](../../systems/reasoningtool.md) | formation / question-generating procedures | source-backed proposed placement | To customize for the stated purpose |
+| [Discovery Engine](../../systems/discovery-engine.md) | relationships among inquiries | source-backed proposed placement | To customize for the stated purpose |
+| [QuestionRoute](../../systems/questionroute.md) | typed navigation | source-backed proposed placement | To customize for the stated purpose |
+| [QuestionRoute](../../systems/questionroute.md) | composed inquiries | source-backed proposed placement | To customize for the stated purpose |
+| [PostAGI reasoning](../../systems/postagi-reasoning.md) | depth and regress | source-backed proposed placement | To customize for the stated purpose |
+| [AutomaticScience](../../systems/automaticscience.md) | structured self-investigation | source-backed proposed placement | To customize for the stated purpose |
 
 ## Frontier
 
@@ -54,6 +60,6 @@ Build an answer-dependent continuation for a live question and preserve the case
 
 ## Development standard
 
-Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A source method is one possible contribution. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
+Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A local system can retain, revise, combine, or replace source methods according to this subject’s purpose. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
 
 [All subjects](../README.md) · [Source basis](../../sources/README.md)

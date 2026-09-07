@@ -10,7 +10,9 @@ Context, components, capability distinctions, competing causal accounts, and rea
 
 Capability, observation, cause, constraint, target, intervention, and value judgment must retain their native distinctions. Candidate mechanisms are not established causal explanations.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -22,6 +24,12 @@ Capability, observation, cause, constraint, target, intervention, and value judg
 | [Attention](../subjects/attention/README.md) | Investigating conditions affecting the use of available capability | proposed relevance; particular artifact and application to verify |
 | [Design](../subjects/design/README.md) | Assessing realization conditions for candidate configurations | proposed relevance; particular artifact and application to verify |
 | [Problem solving](../subjects/problem-solving/README.md) | Developing and comparing capability-realization hypotheses | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

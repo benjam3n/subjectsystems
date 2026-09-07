@@ -10,7 +10,9 @@ Its separate native tools and claim structures, including their known unfinished
 
 Separate native tools have differing maturity, including unfinished or inconsistent code. Conceptual vocabulary does not establish working persistence or causal validity.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -20,6 +22,12 @@ Separate native tools have differing maturity, including unfinished or inconsist
 | [Judgment](../subjects/judgment/README.md) | distinct assessments | source-backed proposed placement |
 | [Explanation](../subjects/explanation/README.md) | Reconstructing functions and candidate mechanisms | proposed relevance; particular artifact and application to verify |
 | [Philosophy](../subjects/philosophy/README.md) | Examining concepts, modal claims, and argument relationships | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+No local version has yet been specified from this family. The relevance map supplies starting purposes; each needs a custom design rather than a renamed source invocation.
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

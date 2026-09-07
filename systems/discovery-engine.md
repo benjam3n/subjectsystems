@@ -10,7 +10,9 @@ The native discovery hierarchy, scope-relative status, contribution placements, 
 
 The current hierarchy and its scope-relative status differ from older recovered prerequisite-graph descriptions. Preserve the version and do not translate a checked discovery into a universally true claim.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -22,6 +24,14 @@ The current hierarchy and its scope-relative status differ from older recovered 
 | [Search](../subjects/search/README.md) | Navigating the existing discovery hierarchy and its frontier | proposed relevance; particular artifact and application to verify |
 | [Research](../subjects/research/README.md) | Connecting unresolved inquiries and results through contribution relations | proposed relevance; particular artifact and application to verify |
 | [Science](../subjects/science/README.md) | Developing discoveries about scientific concepts, methods, and evidence | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+| Local system | Subject | Standing |
+|---|---|---|
+| [Discovery progress](../subjects/discovery/systems/discovery-progress.md) | [Discovery](../subjects/discovery/README.md) | Specified v0.1; prospective effectiveness unestablished |
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

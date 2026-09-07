@@ -1,8 +1,8 @@
-# Contributing systems
+# Source system families
 
-This is a secondary source index. Begin substantive work from [subjects](../subjects/README.md). One source may contribute to several subjects, and a subject may require work outside all these systems.
+This is a secondary source index. Begin substantive work from [subjects](../subjects/README.md). Each family is material for custom versions developed under subjects according to the local purpose. The original relevance map is a starting set; it does not limit which family–subject combinations can be developed.
 
-Profiles distinguish described mechanisms, tentative uses, historical versions, and observed execution. These profiles are navigation and interpretation, not replacements for original procedures.
+Profiles distinguish source mechanisms and versions from their local descendants. Neither a profile nor a placement is a completed custom system. See the [customization rule](../CUSTOMIZATION.md) and [family development plan](../research/CUSTOMIZATION-PLAN.md).
 
 | Source family | Contribution | Source standing |
 |---|---|---|

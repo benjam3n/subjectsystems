@@ -14,15 +14,23 @@ Generating and developing materially different possibilities, including through 
 - Development.
 - Selection.
 
-## Contributing systems
+## Systems developed for this subject
 
-Each row is a proposed use. A link establishes where to inspect the contribution; it does not establish effectiveness. The source profile retains the native mechanism and its limits.
+The subject and the particular purpose determine each local system. The source map below supplies origins and development candidates; it does not provide a finished custom system. See [customization](../../CUSTOMIZATION.md).
 
-| System | Place or proposed use | Basis |
+| Local system | Purpose | Standing |
 |---|---|---|
-| [SDS](../../systems/sds.md) | Generating diverse alternatives before convergence | proposed relevance; particular artifact and application to verify |
-| [ARAW](../../systems/araw.md) | Generating alternatives when an assumption is varied | proposed relevance; particular artifact and application to verify |
-| [Reasoningtool](../../systems/reasoningtool.md) | Generating materially different candidates with explicit procedures | proposed relevance; particular artifact and application to verify |
+| [Alternative development](systems/alternative-development.md) | Develop possibilities that differ in what they make available, especially when early convergence would eliminate useful directions. | Specified v0.1; prospective use unverified |
+
+## Source lineage and customization candidates
+
+Each row records an origin or a candidate for custom development. Source relevance and source evidence are retained separately from the standing of the local design.
+
+| Source family | Initial place or proposed use | Source standing | Local development |
+|---|---|---|---|
+| [SDS](../../systems/sds.md) | Generating diverse alternatives before convergence | proposed relevance; particular artifact and application to verify | [Alternative development](systems/alternative-development.md) — specified v0.1 |
+| [ARAW](../../systems/araw.md) | Generating alternatives when an assumption is varied | proposed relevance; particular artifact and application to verify | To customize for the stated purpose |
+| [Reasoningtool](../../systems/reasoningtool.md) | Generating materially different candidates with explicit procedures | proposed relevance; particular artifact and application to verify | To customize for the stated purpose |
 
 ## Frontier
 
@@ -36,6 +44,6 @@ Generate alternatives under two different constraints and identify which variati
 
 ## Development standard
 
-Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A source method is one possible contribution. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
+Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A local system can retain, revise, combine, or replace source methods according to this subject’s purpose. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
 
 [All subjects](../README.md) · [Source basis](../../sources/README.md)

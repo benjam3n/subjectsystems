@@ -10,7 +10,9 @@ Goal relationships, gates, repair procedures, project artifacts, decisions, stat
 
 A produced plan, passed gate, executed activity, and achieved outcome are distinct. Historical and current versions may use different contracts; retrieve the version relevant to the case.
 
-## Subject placements
+## Initial relevance map
+
+These entries are source lineage and starting points for customization. They are not a claim that one unchanged instance serves all these purposes. The map is not a limit on future subject-specific versions.
 
 | Subject | Branch or use | Placement standing |
 |---|---|---|
@@ -29,6 +31,14 @@ A produced plan, passed gate, executed activity, and achieved outcome are distin
 | [Decisions](../subjects/decisions/README.md) | Branching decisions while retaining reusable unaffected work | proposed relevance; particular artifact and application to verify |
 | [Strategy](../subjects/strategy/README.md) | Developing approaches through goal relationships and future consequences | proposed relevance; particular artifact and application to verify |
 | [Resources](../subjects/resources/README.md) | Assessing the means and feasibility conditions required by a goal | proposed relevance; particular artifact and application to verify |
+
+## Subject-specific descendants
+
+| Local system | Subject | Standing |
+|---|---|---|
+| [Discovery progress](../subjects/discovery/systems/discovery-progress.md) | [Discovery](../subjects/discovery/README.md) | Specified v0.1; prospective effectiveness unestablished |
+
+This requirement applies to this family as it does to all other projects. Further versions may belong to subjects not in the initial map. See the [development plan](../research/CUSTOMIZATION-PLAN.md).
 
 ## Sources
 

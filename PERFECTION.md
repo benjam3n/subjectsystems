@@ -30,3 +30,11 @@ Three further branches follow from the current program:
 - **The organization can be improved.** A subject hierarchy that hides a useful connection contains a defect in representation. Representation and Connections can study and correct that defect.
 
 Source: the [September 6 subject proposal](sources/reviews/subject-sciences-proposal-2026-09-06.md).
+
+## Perfection of a local system
+
+The local purpose determines the claim being investigated. A Preferences system that infers contextual preferences, a Design system that produces a usable artifact, and a Judgment system that develops criteria have different success conditions even when all descend from SDS.
+
+Preserve inherited evidence at its original scope. A successful ancestor does not establish the descendant's effectiveness after its objects or operations change. A failed descendant can identify either a local design problem or an inherited assumption requiring revision. Compare exact cases rather than transferring a family-level verdict to every version.
+
+See the [customization rule](CUSTOMIZATION.md) and [local specifications](research/CUSTOMIZATION-PLAN.md).

@@ -1,12 +1,12 @@
 # Current working contract
 
-Initial setup, 7 September 2026.
+Revised 7 September 2026: custom systems for subjects and purposes.
 
 ## Established direction
 
 The selected name is **Subject Systems**, with repository name `subjectsystems`. Its plain description is **Systems organized around subjects**. The user authorized setting up the already-created repository with the necessary information from the preceding work.
 
-Subjects organize the intellectual work. The existing repositories and their systems contribute within the subjects they serve; the same source can contribute to several subjects. Each subject is open to development into a deeply thought-through science. Its future is not limited to the mechanisms currently recovered.
+Subjects organize the intellectual work. Each project family is material for custom systems developed for each subject and its particular purpose. Distinct descendants can share an origin while changing what they operate on, what they do, and what counts as success. Each subject can develop into a deeply thought-through science, beyond the mechanisms currently recovered.
 
 The name makes a modest structural claim. The ambition of the work can remain large without asserting that the contents are complete, perfect, generally intelligent, or ready as a kit.
 
@@ -14,7 +14,8 @@ The name makes a modest structural claim. The ambition of the work can remain la
 
 | Item | Standing |
 |---|---|
-| Subject-first organization; multiple placements of a source | Established direction |
+| Subject-first organization; systems customized for each subject and purpose | Established direction, revised by the user after initial setup |
+| One unchanged source referenced under several subjects | Retained as provenance; insufficient as the local system architecture |
 | 37 retained subject entries | Starting set retained from the relevance discussion; branches remain revisable |
 | Education and Collaboration | Excluded as roots; relevant work remains available within other subjects |
 | Integration, Evaluation, Automation, Self-improvement | Requested for reconsideration; proposed treatments are recorded, not final taxonomic truths |
@@ -24,17 +25,17 @@ The name makes a modest structural claim. The ambition of the work can remain la
 | Master Framework | Exact defining artifact unresolved; its proposed placements remain tentative |
 | Project Dashboard | README now inspected; documented runner/comparison/history roles replace the earlier name-only guess; runtime unverified here |
 
-See the [decision records](decisions/README.md). Earlier suggested repository names in preserved reports are historical.
+See the [custom-system decision](decisions/0003-custom-systems.md), [customization rule](CUSTOMIZATION.md), and [decision records](decisions/README.md). Earlier suggested repository names in preserved reports are historical.
 
 ## What is present
 
-Subject pages contain starting investigations and frontier questions. System profiles preserve native distinctions and explain source status. The source manifest points to 139 preserved artifacts in the pinned System Recovery commit and records selected local snapshots. Earlier reviews remain available with their historical status explicit.
+Subject pages contain starting investigations, frontier questions, and the standing of local custom development. Ten local systems have version 0.1 specifications; six derive from SDS for its six initial subject destinations. Other designs draw from GOSM, Discovery Engine, QuestionRoute, Reasoningtool2, and TruthFinder. Remaining source placements are explicitly pending customization. System profiles preserve source identity and link to distinct descendants. The source manifest points to 139 preserved artifacts in the pinned System Recovery commit and records selected local snapshots. Earlier reviews remain available with their historical status explicit.
 
 The naming and placement case reconstructs the actual conversation and shows how one episode contributes to several subjects. It is not a controlled comparison of models or proof of SDS effectiveness.
 
 ## What is not established
 
-The corpus has not been semantically audited file by file. An entry in the source manifest means a preserved artifact exists, not that every claim or method in it has been validated. No automatic semantic dependency discovery or universal execution engine is implemented by this setup. Source-specific runtimes and prerequisites remain in their native projects.
+The corpus has not been semantically audited file by file. An entry in the source manifest means a preserved artifact exists, not that every claim or method in it has been validated. The ten local specifications are not prospective effectiveness results or a completed customization of every project for every subject. No automatic semantic dependency discovery or universal execution engine is implemented by this setup. Source-specific runtimes and prerequisites remain in their native projects.
 
 The current heads of System Recovery and Reasoningtool2 were rechecked and match the inspected September 6 versions. Other historical sources retain their pinned recovery context; the source record does not imply that they are the newest versions of every predecessor.
 

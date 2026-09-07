@@ -29,17 +29,26 @@ The transitions through which claims, questions, possibilities, and other materi
 
 Open frontier: an operation’s written form leaves some choices to its executor. The science needs to determine which choices are specified, which remain, and which remaining choices require an additional operation or newly acquired understanding.
 
-## Contributing systems
+## Systems developed for this subject
 
-Each row is a proposed use. A link establishes where to inspect the contribution; it does not establish effectiveness. The source profile retains the native mechanism and its limits.
+The subject and the particular purpose determine each local system. The source map below supplies origins and development candidates; it does not provide a finished custom system. See [customization](../../CUSTOMIZATION.md).
 
-| System | Place or proposed use | Basis |
+| Local system | Purpose | Standing |
 |---|---|---|
-| [Reasoningtool](../../systems/reasoningtool.md) | operations / reusable procedures | source-backed proposed placement |
-| [Reasoningtool2](../../systems/reasoningtool2.md) | choosing and composing operations | source-backed proposed placement |
-| [ARAW](../../systems/araw.md) | conditional implications | source-backed proposed placement |
-| [Historical AxiomNet](../../systems/axiomnet-historical.md) | formal support | source-backed proposed placement |
-| [Resource-engineering](../../systems/resource-engineering.md) | operations on represented material | source-backed proposed placement |
+| [Inference challenge](systems/inference-challenge.md) | Locate whether an exact proposed inference fails, and preserve the difference between a defeated inference and an untested one. | Specified v0.1; prospective use unverified |
+
+## Source lineage and customization candidates
+
+Each row records an origin or a candidate for custom development. Source relevance and source evidence are retained separately from the standing of the local design.
+
+| Source family | Initial place or proposed use | Source standing | Local development |
+|---|---|---|---|
+| [Reasoningtool](../../systems/reasoningtool.md) | operations / reusable procedures | source-backed proposed placement | To customize for the stated purpose |
+| [Reasoningtool2](../../systems/reasoningtool2.md) | choosing and composing operations | source-backed proposed placement | To customize for the stated purpose |
+| [ARAW](../../systems/araw.md) | conditional implications | source-backed proposed placement | To customize for the stated purpose |
+| [Historical AxiomNet](../../systems/axiomnet-historical.md) | formal support | source-backed proposed placement | To customize for the stated purpose |
+| [Resource-engineering](../../systems/resource-engineering.md) | operations on represented material | source-backed proposed placement | To customize for the stated purpose |
+| [TruthFinder](../../systems/truthfinder.md) | Locate whether an exact proposed inference fails, and preserve the difference between a defeated inference and an untested one. | New derivation from the pinned source | [Inference challenge](systems/inference-challenge.md) — specified v0.1 |
 
 ## Frontier
 
@@ -53,7 +62,7 @@ Use a live inquiry to compare two operation orders whose intermediate results di
 
 ## Development standard
 
-Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A source method is one possible contribution. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
+Develop the subject’s distinctions, accounts, methods, and evidence at the branch where they matter. A local system can retain, revise, combine, or replace source methods according to this subject’s purpose. A theory of the activity, competent performance of it, and attainment of an associated outcome have separate standards. See [perfection](../../PERFECTION.md) and [the current contract](../../CURRENT.md).
 
 The [recent work register](../../research/RECENT-WORK.md) locates the relevant operations, perspective, and anticipation investigations.
 
