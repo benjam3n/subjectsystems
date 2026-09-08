@@ -1,0 +1,14 @@
+| Work | Subject relation | Question |
+|---|---|---|
+| Anticipating a response before producing it | Prediction / anticipated continuation; Communication / choosing a contribution; Reasoning / selecting the next move. | Which change comes from forecasting an exchange, which from choosing an intended contribution, and which from their interaction? |
+| Outcome framing | Communication / intended change in understanding; Goals / purpose of a contribution; Writing / arranging intellectual work. | How does a contribution’s intended effect determine what belongs in it? |
+| Theory of operations | Reasoning / transformations; Prompting / specifying operations; Writing / operations performed by prose. | What must be transformed for this particular result to become available? |
+| Theory of perspectives | Representation / changing frames; Understanding / what a frame exposes; Discovery / discovering through another frame. | Which new operation, question, or relation becomes available after the frame changes? |
+| Changing one’s mind | Judgment / revising a position; Decisions / reopening a commitment; Learning / changing future behavior. | What exactly changes: conclusion, interpretation, standard, goal, method, or confidence? |
+| Pure regress | Questions / recursive questioning; Philosophy / foundations; Discovery / exposing unanswered dependencies. | At which transition does a new question introduce uncertainty that the previous question did not contain? |
+| Lists | Creativity / preserving alternatives; Reasoning / maintaining several live possibilities; Decisions / candidate sets. | What becomes possible when alternatives coexist before one is selected? |
+| “Let’s say” | Reasoning / temporary assumptions; Creativity / possibility construction; Planning / conditional futures. | What follows when an ordinarily distant possibility becomes a starting condition? |
+| “Exclude its own continuation” | Prompting / exclusion constraints; Creativity / forcing a different candidate; Reasoning / changing the available next moves. | What distinguishes a substantive departure from a superficial change that preserves the same continuation? |
+| Try without committing; follow something incidental | Discovery / exploratory departures; Curiosity / following interest; Strategy / reversible probes. | Which discoveries become available without first establishing that the current direction is defective? |
+| Locations where results fail to become available | Intelligence / usable capability; Discovery / unavailable findings; Problem solving / competing diagnoses. | Which distinction selects a different useful operation in an actual case? |
+| Long goal journeys and future extrapolation | Goals / purposes across time; Planning / reverse and forward construction; Prediction / conditional trajectories. | Which commitments survive across several plausible futures, and which depend on one particular forecast? |

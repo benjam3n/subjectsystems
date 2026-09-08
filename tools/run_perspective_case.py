@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
-DATA = REPO / 'research/type-relations'
+DATA = REPO / 'studies/subject'
 
 
 def evaluate(case):

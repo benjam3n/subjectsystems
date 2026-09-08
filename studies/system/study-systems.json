@@ -1,0 +1,1936 @@
+{
+  "version": 1,
+  "date": "2026-09-07",
+  "basis_commit": "1c857b0790c5e7f78b6526f67577570d87a69722",
+  "scope": "Selected source cores translated into study specifications; all 21 profiles receive precise contribution views. No complete audit of every source procedure is claimed.",
+  "sources": [
+    {
+      "id": "ARAW_README",
+      "title": "ARAW recovered README",
+      "local_path": "sources/studies/araw_readme.txt",
+      "url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ARAW/README.md",
+      "identity": "System Recovery snapshot d71a8430452fb8563d722c5df3b904bb7109197e; original source identity retained.",
+      "sha256": "8330d0bbd9fa9512d589799f8c3af2e940734c5a62f249573a80d30465e7f646",
+      "bytes": 15250,
+      "scope": "Full supplied source read; descriptions of other files and reported effectiveness are not verification of those dependencies."
+    },
+    {
+      "id": "GOSM_OUTCOME",
+      "title": "GOSM outcome verification v1.0",
+      "local_path": "sources/studies/gosm_outcome.txt",
+      "url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/GOSM/library/gates/outcome_verification.yaml",
+      "identity": "System Recovery snapshot d71a8430452fb8563d722c5df3b904bb7109197e; original source identity retained.",
+      "sha256": "7f837ad1a093723cd85a2856086aafe6fadf1db11d6a40a3fff7e936bdfc25a0",
+      "bytes": 4282,
+      "scope": "Full supplied source read; descriptions of other files and reported effectiveness are not verification of those dependencies."
+    },
+    {
+      "id": "GOSM_HIERARCHY",
+      "title": "GOSM procedure hierarchy v0.1.0",
+      "local_path": "sources/studies/gosm_hierarchy.txt",
+      "url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/GOSM/library/procedures/core/PROCEDURE_HIERARCHY.yaml",
+      "identity": "System Recovery snapshot d71a8430452fb8563d722c5df3b904bb7109197e; original source identity retained.",
+      "sha256": "d33127e81289460e38dfd1a45c43a09417cebbc48e5ffc332e06026e2d194079",
+      "bytes": 4546,
+      "scope": "Full supplied source read; descriptions of other files and reported effectiveness are not verification of those dependencies."
+    },
+    {
+      "id": "GOSM_BRIDGE",
+      "title": "ARAW to GOSM bridge v1.0.0",
+      "local_path": "sources/studies/gosm_bridge.txt",
+      "url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/GOSM/library/procedures/core/araw_to_gosm_bridge.yaml",
+      "identity": "System Recovery snapshot d71a8430452fb8563d722c5df3b904bb7109197e; original source identity retained.",
+      "sha256": "de3475155310c46a920f1165a03a7fb419c9c621db03bfb99b1bf0f851d21a2f",
+      "bytes": 6158,
+      "scope": "Full supplied source read; descriptions of other files and reported effectiveness are not verification of those dependencies."
+    },
+    {
+      "id": "GOSM_MATRIX",
+      "title": "ARAW universalization matrix v1.0.0",
+      "local_path": "sources/studies/gosm_matrix.txt",
+      "url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/GOSM/library/procedures/core/araw_universalization_matrix.yaml",
+      "identity": "System Recovery snapshot d71a8430452fb8563d722c5df3b904bb7109197e; original source identity retained.",
+      "sha256": "ecb1d2aad11ebb296be81ebd8a595f412da8cf7a554d4d0f1cd581f985823e9b",
+      "bytes": 5309,
+      "scope": "Full supplied source read; descriptions of other files and reported effectiveness are not verification of those dependencies."
+    },
+    {
+      "id": "GOSM_HISTORY",
+      "title": "GOSM historical agent instructions, January 18 version",
+      "local_path": "sources/studies/gosm_history.txt",
+      "url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/ProjectVersions/GOSM_V1_jan18_excellentalready/AGENT_INSTRUCTIONS.md",
+      "identity": "System Recovery snapshot d71a8430452fb8563d722c5df3b904bb7109197e; original source identity retained.",
+      "sha256": "a3ea9bf59bc6d149aa7bac0f6e397c4a7a863ba40ae889bd85541703a3332a5e",
+      "bytes": 8631,
+      "scope": "Full supplied source read; descriptions of other files and reported effectiveness are not verification of those dependencies."
+    },
+    {
+      "id": "RT_AGENTS",
+      "title": "Reasoningtool recovered agent instructions",
+      "local_path": "sources/studies/rt_agents.txt",
+      "url": "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/reasoningtool/AGENTS.md",
+      "identity": "System Recovery snapshot d71a8430452fb8563d722c5df3b904bb7109197e; original source identity retained.",
+      "sha256": "4d0aebbf589765abe3b5a4e1bedfa74e6ef6a3b83656cc7c135fd826fe29be8e",
+      "bytes": 1588,
+      "scope": "Full supplied source read; descriptions of other files and reported effectiveness are not verification of those dependencies."
+    },
+    {
+      "id": "RT_ARAW",
+      "title": "Reasoningtool archived /araw",
+      "local_path": "sources/studies/rt_araw.txt",
+      "url": "",
+      "identity": "RSI original-source archive; exact emitted bytes identified by SHA-256. No source commit is invented.",
+      "sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+      "bytes": 24492,
+      "scope": "Full original skill body read as material for translation. This review is not a claim to execute the original skill or its uninspected dependencies."
+    },
+    {
+      "id": "RT_GOSM",
+      "title": "Reasoningtool archived /gosm",
+      "local_path": "sources/studies/rt_gosm.txt",
+      "url": "",
+      "identity": "RSI original-source archive; exact emitted bytes identified by SHA-256. No source commit is invented.",
+      "sha256": "4224530e1b14958cd0e2921a173c4772406f7673fa561ee8c27dac548e362f4b",
+      "bytes": 5097,
+      "scope": "Full original skill body read as material for translation. This review is not a claim to execute the original skill or its uninspected dependencies."
+    },
+    {
+      "id": "RT_DD",
+      "title": "Reasoningtool archived /dd",
+      "local_path": "sources/studies/rt_dd.txt",
+      "url": "",
+      "identity": "RSI original-source archive; exact emitted bytes identified by SHA-256. No source commit is invented.",
+      "sha256": "bd543239bf98d469796132de756dacf0f85b44939127e83eeb940c8895ad7b22",
+      "bytes": 7260,
+      "scope": "Full original skill body read as material for translation. This review is not a claim to execute the original skill or its uninspected dependencies."
+    },
+    {
+      "id": "RT_SE",
+      "title": "Reasoningtool archived /se",
+      "local_path": "sources/studies/rt_se.txt",
+      "url": "",
+      "identity": "RSI original-source archive; exact emitted bytes identified by SHA-256. No source commit is invented.",
+      "sha256": "694b7142dc2c9d38ad5ef8c9a2af07edc29aca5c2326d6700e6ddef72132cbbd",
+      "bytes": 8041,
+      "scope": "Full original skill body read as material for translation. This review is not a claim to execute the original skill or its uninspected dependencies."
+    },
+    {
+      "id": "RT_FOHT",
+      "title": "Reasoningtool archived /foht",
+      "local_path": "sources/studies/rt_foht.txt",
+      "url": "",
+      "identity": "RSI original-source archive; exact emitted bytes identified by SHA-256. No source commit is invented.",
+      "sha256": "55ad28caf754e272795d983dc5b1e41f6153b8f418827d50336c2e983e1e1ea5",
+      "bytes": 9416,
+      "scope": "Full original skill body read as material for translation. This review is not a claim to execute the original skill or its uninspected dependencies."
+    },
+    {
+      "id": "RT_CMP",
+      "title": "Reasoningtool archived /cmp",
+      "local_path": "sources/studies/rt_cmp.txt",
+      "url": "",
+      "identity": "RSI original-source archive; exact emitted bytes identified by SHA-256. No source commit is invented.",
+      "sha256": "2ac629f7654fe692dc3b9e40519e443cc99821384cd6af5d30c8effb768bd405",
+      "bytes": 5597,
+      "scope": "Full original skill body read as material for translation. This review is not a claim to execute the original skill or its uninspected dependencies."
+    },
+    {
+      "id": "RT_FUT",
+      "title": "Reasoningtool archived /fut",
+      "local_path": "sources/studies/rt_fut.txt",
+      "url": "",
+      "identity": "RSI original-source archive; exact emitted bytes identified by SHA-256. No source commit is invented.",
+      "sha256": "ba2043704b2da54c771f19c00ed58a7c0da5c0c043347f4cded617f2d72c4889",
+      "bytes": 2950,
+      "scope": "Full original skill body read as material for translation. This review is not a claim to execute the original skill or its uninspected dependencies."
+    },
+    {
+      "id": "PY_PRODUCT",
+      "title": "Python itertools.product",
+      "local_path": "",
+      "url": "https://docs.python.org/3/library/itertools.html#itertools.product",
+      "identity": "Official documentation accessed 2026-09-07.",
+      "sha256": "",
+      "bytes": null,
+      "scope": "Finite Cartesian product semantics; not proof that a discovered domain is complete."
+    }
+  ],
+  "studies": [
+    {
+      "id": "S001",
+      "family": "ARAW",
+      "subject": "Claim content specification",
+      "question": "What exactly is the proposition under examination, separated from neighboring assertions?",
+      "contribution": "A fixed proposition whose consequences and failure cases concern the same content.",
+      "source_ids": [
+        "RT_ARAW",
+        "ARAW_README"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S002",
+      "family": "ARAW",
+      "subject": "Claim content quantifier scope",
+      "question": "Which cases and quantifier placements does this proposition cover?",
+      "contribution": "A declared domain and quantifier interpretation that do not change between branches.",
+      "source_ids": [
+        "RT_ARAW",
+        "ARAW_README"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S003",
+      "family": "ARAW",
+      "subject": "Claim inference specification",
+      "question": "Which premises are being used to derive which conclusion?",
+      "contribution": "An explicit premise-conclusion relation, including added assumptions.",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S004",
+      "family": "ARAW",
+      "subject": "Reasoning assumption consequence derivation",
+      "question": "What further propositions follow when the exact assumption is accepted?",
+      "contribution": "Conditional consequences with the parent assumption and inference grounds retained.",
+      "source_ids": [
+        "RT_ARAW",
+        "ARAW_README"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S005",
+      "family": "ARAW",
+      "subject": "Claim inference counterexample",
+      "question": "Which admitted case has true premises and a false conclusion?",
+      "contribution": "A counterexample to the exact proposed inference, or an explicitly limited unsuccessful search.",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": [
+        "M02"
+      ]
+    },
+    {
+      "id": "S006",
+      "family": "ARAW",
+      "subject": "Reasoning assumption alternative construction",
+      "question": "Which replacement assumption follows from the identified way the original fails?",
+      "contribution": "A concrete alternative with its wrongness parent, consequences and further countercases.",
+      "source_ids": [
+        "RT_ARAW",
+        "ARAW_README"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S007",
+      "family": "ARAW",
+      "subject": "Claim support sufficiency",
+      "question": "What do the available grounds justify accepting under the specified rule?",
+      "contribution": "A scoped support assessment; a favorable branch alone does not establish truth.",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S008",
+      "family": "ARAW",
+      "subject": "Claim support limits",
+      "question": "Which conclusions remain unwarranted after the exploration performed?",
+      "contribution": "Explicit limits on domain, evidential support and unexamined alternatives.",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S009",
+      "family": "ARAW",
+      "subject": "Reasoning approach termination condition",
+      "question": "What exactly permits a branch to stop with a justified status?",
+      "contribution": "A test, derivation, observation or unresolved dependency with distinct stopping force.",
+      "source_ids": [
+        "RT_ARAW",
+        "ARAW_README"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S010",
+      "family": "ARAW",
+      "subject": "Inquiry test design",
+      "question": "Which observable outcome would distinguish the live alternative accounts?",
+      "contribution": "A test with discriminating possible results, subject to access and method conditions.",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S011",
+      "family": "ARAW",
+      "subject": "Claim acceptance revision",
+      "question": "Which earlier verdict must change when a consequential premise changes?",
+      "contribution": "A revised status whose dependency on the new finding is inspectable.",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S012",
+      "family": "ARAW",
+      "subject": "Claim inference validity",
+      "question": "Do the recorded premise-to-finding transitions actually license their conclusions?",
+      "contribution": "An inference assessment that can revise the registry and its later use.",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": [
+        "M02"
+      ]
+    },
+    {
+      "id": "S013",
+      "family": "GOSM",
+      "subject": "Goal identity",
+      "question": "Does a proposed refinement retain the intended outcome or substitute another one?",
+      "contribution": "The retained intention and the exact changed achievement conditions are distinguishable.",
+      "source_ids": [
+        "GOSM_HISTORY"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S014",
+      "family": "GOSM",
+      "subject": "Goal modification",
+      "question": "Which intended outcome or qualification changes during refinement?",
+      "contribution": "A deliberate revised goal with the earlier goal preserved as different where warranted.",
+      "source_ids": [
+        "GOSM_HISTORY"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S015",
+      "family": "GOSM",
+      "subject": "Goal achievement condition specification",
+      "question": "What must hold for this goal to count as achieved?",
+      "contribution": "Required conditions separated from optional merit and proposed proxies.",
+      "source_ids": [
+        "GOSM_HISTORY",
+        "GOSM_OUTCOME"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S016",
+      "family": "GOSM",
+      "subject": "Goal achievement status",
+      "question": "Do the specified achievement conditions hold in the observed case?",
+      "contribution": "An achievement status with failed and unresolved conditions retained.",
+      "source_ids": [
+        "GOSM_OUTCOME"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": [
+        "M04"
+      ]
+    },
+    {
+      "id": "S017",
+      "family": "GOSM",
+      "subject": "Goal means dependence",
+      "question": "Which activities contribute to which intended outcomes under what assumptions?",
+      "contribution": "A goal-to-means relation that can be questioned when the claimed contribution fails.",
+      "source_ids": [
+        "RT_GOSM",
+        "GOSM_HISTORY"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S018",
+      "family": "GOSM",
+      "subject": "Plan prerequisite",
+      "question": "Which conditions must hold before this planned activity can proceed?",
+      "contribution": "Explicit prerequisite conditions, distinguishing necessity from a preferred sequence.",
+      "source_ids": [
+        "GOSM_HISTORY",
+        "GOSM_BRIDGE"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S019",
+      "family": "GOSM",
+      "subject": "Plan sequence",
+      "question": "Which activities must precede which others for the stated plan?",
+      "contribution": "Precedence relations with the dependency that warrants each ordering.",
+      "source_ids": [
+        "GOSM_HISTORY"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S020",
+      "family": "GOSM",
+      "subject": "Plan contingency",
+      "question": "Which continuation follows from each relevant observed condition?",
+      "contribution": "A stated branch for pass, failure or unresolved evidence in the local plan.",
+      "source_ids": [
+        "GOSM_HISTORY",
+        "GOSM_BRIDGE"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S021",
+      "family": "GOSM",
+      "subject": "Plan modification",
+      "question": "Which part of the plan changes after a decision or observation changes?",
+      "contribution": "A changed plan with unaffected portions retained where their support survives.",
+      "source_ids": [
+        "GOSM_HISTORY",
+        "GOSM_BRIDGE"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S022",
+      "family": "GOSM",
+      "subject": "Reasoning approach selection",
+      "question": "Which analysis variant or method fits the actual situation?",
+      "contribution": "A selected candidate and its context conditions, rather than automatic use of the entire repertoire.",
+      "source_ids": [
+        "RT_GOSM",
+        "GOSM_HIERARCHY"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S023",
+      "family": "GOSM",
+      "subject": "Reasoning approach applicability",
+      "question": "Do the candidate method's assumptions and required resources hold here?",
+      "contribution": "An applicability result that can differ from availability and desirability.",
+      "source_ids": [
+        "GOSM_HIERARCHY"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": [
+        "M03"
+      ]
+    },
+    {
+      "id": "S024",
+      "family": "GOSM",
+      "subject": "Memory record status recovery",
+      "question": "Which recorded decisions, results and project status govern the resumed work?",
+      "contribution": "Recovered state with the identity and status of its source records preserved.",
+      "source_ids": [
+        "GOSM_HISTORY"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S025",
+      "family": "GOSM",
+      "subject": "Inquiry test interpretation rule",
+      "question": "How should each verification outcome change the live alternatives or subsequent plan?",
+      "contribution": "Explicit outcome-to-status rules, including inconclusive and not-tested outcomes.",
+      "source_ids": [
+        "GOSM_OUTCOME",
+        "GOSM_BRIDGE"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S026",
+      "family": "GOSM",
+      "subject": "Claim support preservation",
+      "question": "Which support remains after an assumption is corrected?",
+      "contribution": "Affected support paths separated from independently supported conclusions.",
+      "source_ids": [
+        "GOSM_BRIDGE"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": [
+        "M05"
+      ]
+    },
+    {
+      "id": "S027",
+      "family": "GOSM",
+      "subject": "System interface contract",
+      "question": "What ARAW finding content and status can a planning component consume?",
+      "contribution": "A finding-to-task exchange that retains the original claim, evidence need and failure consequence.",
+      "source_ids": [
+        "GOSM_BRIDGE"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S028",
+      "family": "Reasoningtool",
+      "subject": "Reasoning approach availability",
+      "question": "Which procedures are actually available in a usable representation?",
+      "contribution": "A retrievable body and identity; metadata alone does not establish operative content.",
+      "source_ids": [
+        "RT_AGENTS"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S029",
+      "family": "Reasoningtool",
+      "subject": "Reasoning approach retrieval",
+      "question": "Which stored procedure matches the identified contribution need?",
+      "contribution": "The exact procedure source with its dependencies, rather than only its acronym.",
+      "source_ids": [
+        "RT_AGENTS"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S030",
+      "family": "Reasoningtool",
+      "subject": "Reasoning approach repertoire coverage",
+      "question": "Which specified intellectual needs have a represented approach in this repertoire?",
+      "contribution": "Coverage over a declared need inventory; a skill count alone supplies no such verdict.",
+      "source_ids": [
+        "RT_AGENTS"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S031",
+      "family": "Reasoningtool",
+      "subject": "Reasoning approach selection",
+      "question": "Which available procedure should be used for this particular inquiry?",
+      "contribution": "A selected method under a stated rule with consequential alternatives retained.",
+      "source_ids": [
+        "RT_AGENTS",
+        "RT_GOSM"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S032",
+      "family": "Reasoningtool",
+      "subject": "Reasoning candidate space specification",
+      "question": "Which dimensions and values define the currently represented possibilities?",
+      "contribution": "Explicit axes and values with the source examples and remaining domain questions.",
+      "source_ids": [
+        "RT_DD",
+        "RT_SE"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S033",
+      "family": "Reasoningtool",
+      "subject": "Reasoning candidate space expansion",
+      "question": "What new dimension or region is needed to represent a separating case?",
+      "contribution": "A consequential extension of the earlier candidate space, not an invented extra category to meet a quota.",
+      "source_ids": [
+        "RT_DD"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S034",
+      "family": "Reasoningtool",
+      "subject": "Reasoning candidate generation",
+      "question": "Which candidate tuples are produced within the specified finite space?",
+      "contribution": "A finite enumeration or explicitly declared sample whose coverage mode is retained.",
+      "source_ids": [
+        "RT_SE"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": [
+        "M01"
+      ]
+    },
+    {
+      "id": "S035",
+      "family": "Reasoningtool",
+      "subject": "Reasoning approach requirement",
+      "question": "What contribution must a candidate method supply in this task?",
+      "contribution": "Identifiable success conditions that can distinguish methods.",
+      "source_ids": [
+        "RT_FOHT"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S036",
+      "family": "Reasoningtool",
+      "subject": "Reasoning approach applicability",
+      "question": "Which candidate methods have satisfied, failed or unknown prerequisites?",
+      "contribution": "A per-method prerequisite assessment with unknown separated from false.",
+      "source_ids": [
+        "RT_FOHT"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": [
+        "M03"
+      ]
+    },
+    {
+      "id": "S037",
+      "family": "Reasoningtool",
+      "subject": "Reasoning approach creation",
+      "question": "What executable method can supply a missing contribution?",
+      "contribution": "A constructed approach with its operations and consequential conditions; a demand to invent one is not the result.",
+      "source_ids": [
+        "RT_FOHT"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S038",
+      "family": "Reasoningtool",
+      "subject": "Comparison basis alignment",
+      "question": "Which requirements and comparison conditions stay fixed across the options?",
+      "contribution": "An explicit common comparison basis with hard constraints separated from preferences.",
+      "source_ids": [
+        "RT_CMP"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S039",
+      "family": "Reasoningtool",
+      "subject": "Comparison result ordering",
+      "question": "How do surviving options compare under the stated criteria?",
+      "contribution": "A scoped ordering or a retained unresolved comparison, without manufactured numerical precision.",
+      "source_ids": [
+        "RT_CMP"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S040",
+      "family": "Reasoningtool",
+      "subject": "Comparison result incomparability",
+      "question": "Which tradeoffs remain unsettled under the supplied criteria?",
+      "contribution": "The exact missing priority or relation that prevents a justified overall winner.",
+      "source_ids": [
+        "RT_CMP"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S041",
+      "family": "Reasoningtool",
+      "subject": "Anticipation action dependence",
+      "question": "How do candidate actions alter possible later outcomes?",
+      "contribution": "Conditional consequence alternatives with the scenario assumptions retained.",
+      "source_ids": [
+        "RT_FUT"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S042",
+      "family": "Reasoningtool",
+      "subject": "Anticipation preparation selection",
+      "question": "Which present preparations address the stated possible futures?",
+      "contribution": "Preparations assessed within the admitted scenario set; sample agreement is not calibrated probability.",
+      "source_ids": [
+        "RT_FUT"
+      ],
+      "origin": "Source contribution reconstructed as a study target",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S043",
+      "family": "Subject Systems",
+      "subject": "Reasoning approach branch coverage",
+      "question": "Does the GOSM gate define an outcome for every admitted condition combination?",
+      "contribution": "The all-required-pass / optional-shortfall case has no matching original threshold; the local replacement covers it.",
+      "source_ids": [
+        "GOSM_OUTCOME",
+        "RT_SE"
+      ],
+      "origin": "New study performed on or using the existing approaches; not attributed to their authors.",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": [
+        "M01"
+      ]
+    },
+    {
+      "id": "S044",
+      "family": "Subject Systems",
+      "subject": "Reasoning approach rule consistency",
+      "question": "Can source verdict quotas always coexist with verdicts derived from the actual evidence?",
+      "contribution": "Five analytically valid inputs separate evidence-derived acceptance from a forced rejection proportion.",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "origin": "New study performed on or using the existing approaches; not attributed to their authors.",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S045",
+      "family": "Subject Systems",
+      "subject": "Reasoning approach specification completeness",
+      "question": "Which decisions required to execute the selected source contracts remain undefined?",
+      "contribution": "A register separates retained exact operations, specified adaptations and unadmitted choices.",
+      "source_ids": [
+        "GOSM_OUTCOME",
+        "GOSM_HIERARCHY",
+        "RT_FOHT"
+      ],
+      "origin": "New study performed on or using the existing approaches; not attributed to their authors.",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S046",
+      "family": "Subject Systems",
+      "subject": "Inquiry finding transfer condition",
+      "question": "Which part of finite enumeration can justify a conclusion in a different study?",
+      "contribution": "Finite-domain coverage transfers; a claim of all-world coverage does not.",
+      "source_ids": [
+        "RT_SE"
+      ],
+      "origin": "New study performed on or using the existing approaches; not attributed to their authors.",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S047",
+      "family": "Subject Systems",
+      "subject": "Inquiry finding use contribution",
+      "question": "What changes when the enumeration finding is used to inspect an outcome gate?",
+      "contribution": "A previously unhandled gate state becomes visible and changes the replacement rule.",
+      "source_ids": [
+        "GOSM_OUTCOME",
+        "RT_SE"
+      ],
+      "origin": "New study performed on or using the existing approaches; not attributed to their authors.",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S048",
+      "family": "Subject Systems",
+      "subject": "System composition order dependence",
+      "question": "Can the same components and input produce different results under different orders?",
+      "contribution": "Increment then double maps 1 to 4; double then increment maps 1 to 3.",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "origin": "New study performed on or using the existing approaches; not attributed to their authors.",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    },
+    {
+      "id": "S049",
+      "family": "Subject Systems",
+      "subject": "System composition description sufficiency",
+      "question": "Does a list of component studies determine the resulting system behavior?",
+      "contribution": "Two arrangements share that list but differ in order and output, refuting sufficiency of the list.",
+      "source_ids": [
+        "GOSM_HISTORY",
+        "RT_ARAW"
+      ],
+      "origin": "New study performed on or using the existing approaches; not attributed to their authors.",
+      "standing": "Specified investigative target; named source material is not an already conducted study.",
+      "technique_ids": []
+    }
+  ],
+  "techniques": [
+    {
+      "id": "M01",
+      "name": "Finite Cartesian enumeration",
+      "subjects": [
+        "Reasoning candidate generation",
+        "Reasoning approach branch coverage"
+      ],
+      "source_ids": [
+        "RT_SE",
+        "PY_PRODUCT"
+      ],
+      "derivation": "Retained source operation with explicit local input and execution bounds",
+      "inputs": "Ordered named finite lists of distinct string values.",
+      "operation": "Visit each tuple in the Cartesian product once, retaining its named coordinates.",
+      "output": "Every tuple in the declared domains; empty factor yields no tuples; zero factors yields one empty tuple.",
+      "conditions": "At most 4096 tuples in this implementation; all lists supplied explicitly.",
+      "termination": "After the last tuple; reject an input exceeding the bound.",
+      "remaining_discretion": "Choice and completeness of the domain model are supplied by the investigator, not solved by enumeration.",
+      "verification": "Tuple count equals the product of supplied domain sizes; all coordinates belong to their domain; no tuple is repeated.",
+      "implementation": "tools/study_methods.py:finite_candidates",
+      "transfer_limit": "Completeness applies to supplied domains only; feasibility of combinations and adequacy of dimensions require separate findings.",
+      "admission": "Admitted only under the stated finite contract."
+    },
+    {
+      "id": "M02",
+      "name": "Finite propositional counterexample search",
+      "subjects": [
+        "Claim inference validity",
+        "Claim inference counterexample"
+      ],
+      "source_ids": [
+        "RT_ARAW",
+        "RT_SE"
+      ],
+      "derivation": "Locally composed finite truth-table method from conditional counterexample search and complete enumeration; no claim of historical novelty.",
+      "inputs": "Distinct Boolean atoms, premises and a conclusion expressed with not, and, or, implies or iff.",
+      "operation": "Enumerate every Boolean assignment; retain assignments satisfying every premise; return those falsifying the conclusion.",
+      "output": "Valid-in-model or counterexamples, plus whether the premises are unsatisfiable.",
+      "conditions": "At most 12 atoms and formula nesting at most 64; classical two-valued semantics.",
+      "termination": "After all 2^n assignments; invalid syntax or undeclared atoms are input failures.",
+      "remaining_discretion": "Translating a prose proposition into the formulas is an independent intellectual operation.",
+      "verification": "A returned counterexample has true premises and false conclusion; no-counterexample entails validity only in the declared complete Boolean model.",
+      "implementation": "tools/study_methods.py:check_inference",
+      "transfer_limit": "Not a parser, empirical truth test, unrestricted proof search or execution of the entire original ARAW.",
+      "admission": "Admitted only under the stated finite contract."
+    },
+    {
+      "id": "M03",
+      "name": "Required-condition candidate filtering",
+      "subjects": [
+        "Reasoning approach applicability",
+        "Reasoning candidate exclusion"
+      ],
+      "source_ids": [
+        "RT_CMP",
+        "RT_FOHT"
+      ],
+      "derivation": "Source filtering operation revised to retain unknown prerequisite states",
+      "inputs": "Candidate identities with a nonempty map of required checks to true, false or unknown.",
+      "operation": "Reject if any required check is false; otherwise retain unresolved if any is unknown; otherwise record that required checks pass.",
+      "output": "Status plus the exact failed and unknown conditions for each candidate.",
+      "conditions": "The supplied checks are the declared requirements; observations retain their evidence scope.",
+      "termination": "After each supplied candidate and requirement has been examined once.",
+      "remaining_discretion": "Investigators must justify the requirements and observation values; passing does not establish optimality.",
+      "verification": "Unknown-only candidates remain unresolved; one known failure is enough for rejection under a conjunctive contract.",
+      "implementation": "tools/study_methods.py:requirement_filter",
+      "transfer_limit": "Does not infer absent requirements or measure the truth of supplied observations.",
+      "admission": "Admitted only under the stated finite contract."
+    },
+    {
+      "id": "M04",
+      "name": "Required-condition achievement assessment",
+      "subjects": [
+        "Goal achievement status"
+      ],
+      "source_ids": [
+        "GOSM_OUTCOME"
+      ],
+      "derivation": "Deliberate repair of the incomplete source gate; optional merit separated",
+      "inputs": "Nonempty required-condition observations, optional observations and an independent abandonment flag.",
+      "operation": "Apply the required-condition status rule; return achieved, not achieved or undetermined. Retain optional observations and activity status separately.",
+      "output": "Achievement status, failed requirements, unknown requirements, optional observations and activity status.",
+      "conditions": "Achievement means satisfaction of all declared required conditions; input observations are true, false or unknown.",
+      "termination": "After the finite required map is examined; empty or malformed required maps are specification failures.",
+      "remaining_discretion": "The goal-specific required conditions and evidence must be supplied; no universal 70 percent optional threshold is imported.",
+      "verification": "Every valid input has one achievement status; unknown is not coerced to false; optional shortfalls do not negate satisfaction of all declared requirements.",
+      "implementation": "tools/study_methods.py:achievement_status",
+      "transfer_limit": "A passing assessment proves neither causal effectiveness of the process nor fulfillment of an incorrectly specified goal.",
+      "admission": "Admitted only under the stated finite contract."
+    },
+    {
+      "id": "M05",
+      "name": "Alternative support-path preservation",
+      "subjects": [
+        "Claim support preservation"
+      ],
+      "source_ids": [
+        "GOSM_BRIDGE",
+        "RT_ARAW"
+      ],
+      "derivation": "Deliberate refinement of downstream pruning into support-path inspection",
+      "inputs": "Finite justified alternative premise sets and a supplied true, false or unknown status for each premise.",
+      "operation": "Within each path, mark invalidated if a premise is false, unresolved if none is false and some are unknown, otherwise retained. Preserve every unaffected path.",
+      "output": "Per-path status and whether at least one declared support path remains.",
+      "conditions": "Each path is separately justified as sufficient support; all named premise statuses supplied.",
+      "termination": "After every finite path has been inspected once.",
+      "remaining_discretion": "Justifying the inference from a premise set to its conclusion is separate; cyclic self-support is not established by this bookkeeping.",
+      "verification": "Changing one premise invalidates only paths containing it; an independent retained path survives.",
+      "implementation": "tools/study_methods.py:support_preservation",
+      "transfer_limit": "Losing all recorded support does not imply the conclusion false or that no other support exists.",
+      "admission": "Admitted only under the stated finite contract."
+    }
+  ],
+  "admission_decisions": [
+    {
+      "label": "ARAW universalization guarantees all possibilities",
+      "source_ids": [
+        "ARAW_README"
+      ],
+      "status": "Not admitted as a completeness guarantee",
+      "case": "Deriving a broad form supplies no enumerator or closure proof for every possible instance.",
+      "repair": "A finite declared-domain product is retained as M01; discovering the adequate domain remains study work."
+    },
+    {
+      "label": "ARAW prescribed rejection or disagreement proportions",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "status": "Not imported as a verdict rule",
+      "case": "A fixed set of valid analytical claims can all be proven; an additional forced false or genuinely uncertain verdict cannot be derived from those proofs.",
+      "repair": "Evidence-derived verdicts remain. Counts can describe exploration, but cannot determine which propositions are true."
+    },
+    {
+      "label": "ARAW conclusion implies acceptance after useful consequences",
+      "source_ids": [
+        "RT_ARAW"
+      ],
+      "status": "No such implication admitted",
+      "case": "Consequences conditional on an assumption do not prove the assumption. The original also requires derived verdicts.",
+      "repair": "M02 keeps truth of premises, validity of implication and acceptance of the actual premise separate."
+    },
+    {
+      "label": "GOSM outcome percentage thresholds",
+      "source_ids": [
+        "GOSM_OUTCOME"
+      ],
+      "status": "Rejected as a complete outcome partition; repaired locally",
+      "case": "All required conditions satisfied with fewer than 70 percent optional conditions satisfied matches none of the non-abandoned numeric branches.",
+      "repair": "M04 returns achievement from required conditions and reports optional merit separately."
+    },
+    {
+      "label": "GOSM causal contribution percentages",
+      "source_ids": [
+        "GOSM_OUTCOME"
+      ],
+      "status": "Not admitted as an identified causal estimator",
+      "case": "A template requesting percentages does not supply a causal model, comparison design or identification argument.",
+      "repair": "Attribution remains a separate investigative target; no percentages are fabricated."
+    },
+    {
+      "label": "GOSM immediate pruning of downstream conclusions",
+      "source_ids": [
+        "GOSM_BRIDGE"
+      ],
+      "status": "Qualified and revised",
+      "case": "A rejected premise can invalidate one support path while another independently supports the conclusion. The source later calls for per-dependent review.",
+      "repair": "M05 inspects support paths and preserves independent grounds."
+    },
+    {
+      "label": "GOSM every tension is a prerequisite",
+      "source_ids": [
+        "GOSM_BRIDGE"
+      ],
+      "status": "Not imported universally",
+      "case": "Two alternatives can disagree about a fact that cannot change the selected action or its required conditions.",
+      "repair": "A tension becomes a prerequisite only when a case-specific dependency establishes it."
+    },
+    {
+      "label": "GOSM one uniform system under the name",
+      "source_ids": [
+        "RT_GOSM",
+        "GOSM_HISTORY"
+      ],
+      "status": "Source identities separated",
+      "case": "The archived /gosm is an analysis-depth dispatcher; historical GOSM instructions describe projects, gates and state records.",
+      "repair": "Translate both versions explicitly. The /pce dependency of Full remains unadmitted here."
+    },
+    {
+      "label": "Reasoningtool dimension variation proves independence",
+      "source_ids": [
+        "RT_DD"
+      ],
+      "status": "Not admitted as statistical independence or full product feasibility",
+      "case": "One coordinate can vary while another stays fixed in some examples although a different pair of values is impossible.",
+      "repair": "Retain coordinate distinctions; investigate constraints and statistical independence only under their own definitions."
+    },
+    {
+      "label": "Reasoningtool coverage of examples proves domain completeness",
+      "source_ids": [
+        "RT_DD",
+        "RT_SE"
+      ],
+      "status": "Restricted to coverage of the declared examples or domains",
+      "case": "A third omitted example can introduce a new consequential dimension despite complete encoding of the seed examples.",
+      "repair": "M01 certifies finite enumeration. The domain-completeness claim remains separate."
+    },
+    {
+      "label": "Reasoningtool all plausible methods before evaluation",
+      "source_ids": [
+        "RT_FOHT"
+      ],
+      "status": "Not admitted as a generally terminating prerequisite",
+      "case": "An open-ended method space has no supplied finite enumeration or completion condition.",
+      "repair": "Use declared candidate inventories and expansion routes; retain the unresolved possibility of another method."
+    },
+    {
+      "label": "Reasoningtool agreement across three futures means high confidence",
+      "source_ids": [
+        "RT_FUT"
+      ],
+      "status": "Restricted to invariance within those scenarios",
+      "case": "The three scenarios can share a false premise; their agreement supplies no probability calibration for omitted futures.",
+      "repair": "Preserve the conditional shared consequence and stated scenario domain."
+    },
+    {
+      "label": "Reasoningtool complete procedure repertoire",
+      "source_ids": [
+        "RT_AGENTS"
+      ],
+      "status": "Not claimed from metadata",
+      "case": "The recovered source reports 415 skills; the separate archive contains 656 metadata entries and seven inspected bodies.",
+      "repair": "Unreviewed procedures remain source candidates, not admitted techniques or completed studies."
+    }
+  ],
+  "relations": [
+    {
+      "a": "Subject",
+      "relation": "is investigated by",
+      "b": "Study",
+      "case": "A fixed matter can be investigated by several studies; one study can investigate several distinct matters.",
+      "consequence": "Subject identity does not determine study method or number."
+    },
+    {
+      "a": "Study specification",
+      "relation": "specifies",
+      "b": "Study execution",
+      "case": "A protocol can exist without a run; a run can fail to follow the protocol.",
+      "consequence": "Specified is not executed."
+    },
+    {
+      "a": "Study execution",
+      "relation": "produces",
+      "b": "Finding",
+      "case": "An investigation can yield a counterexample, a construction, an unresolved result or no informative result.",
+      "consequence": "An activity record is not automatically a supported finding."
+    },
+    {
+      "a": "Study execution",
+      "relation": "uses",
+      "b": "Technique",
+      "case": "A study applies a method to its particular material.",
+      "consequence": "Methods are reusable contributors, not synonymous with the subjects investigated."
+    },
+    {
+      "a": "Study execution",
+      "relation": "uses result of",
+      "b": "Earlier study",
+      "case": "A finite coverage finding reveals an unhandled state in the GOSM gate.",
+      "consequence": "Transferred findings retain their domain and assumptions."
+    },
+    {
+      "a": "Study execution",
+      "relation": "investigates",
+      "b": "Technique",
+      "case": "A branch-coverage investigation tests the operation used by an achievement assessment.",
+      "consequence": "Using a technique and studying that technique are different relations."
+    },
+    {
+      "a": "System",
+      "relation": "organizes",
+      "b": "Components",
+      "case": "Interfaces, order, conditions and state connect participating operations, artifacts or studies.",
+      "consequence": "A bare set of subjects does not recover those relations."
+    },
+    {
+      "a": "System",
+      "relation": "can be investigated as",
+      "b": "Subject",
+      "case": "The order-dependence of a composition becomes a specified matter.",
+      "consequence": "Being a subject of inquiry is not being physically composed of subject descriptions."
+    },
+    {
+      "a": "Subject-specific system",
+      "relation": "serves",
+      "b": "Subject",
+      "case": "Several local methods can contribute to one target's required result.",
+      "consequence": "Multiple subjects are not a necessary condition for every subject-specific system."
+    },
+    {
+      "a": "Study program",
+      "relation": "coordinates",
+      "b": "Studies",
+      "case": "Several inquiries can contribute to a common unresolved matter.",
+      "consequence": "It is a functioning research system only to the extent that the coordination itself is specified or realized."
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Subjects are the fundamental units of this repository's organization.",
+      "verdict": "Adopted as a design rule",
+      "basis": "Stable subject definitions let methods, studies and source families vary while their target remains identifiable.",
+      "limit": "A subject can be refined further; this does not establish an indivisible atom of reality."
+    },
+    {
+      "claim": "Every system is a set of subjects.",
+      "verdict": "Rejected as a sufficient description",
+      "basis": "Increment and doubling components with input 1 produce 4 or 3 under two orders; their subject set is unchanged.",
+      "limit": "A system can be indexed by the subjects it serves or studied as a subject. Neither relation supplies its composition."
+    },
+    {
+      "claim": "Every named project is a conducted study or collection of conducted studies.",
+      "verdict": "Rejected",
+      "basis": "The inspected Reasoningtool AGENTS file describes reusable procedures; a stored procedure is not evidence of a conducted investigation.",
+      "limit": "Some project contents are studies, findings or study specifications. Classification must follow the particular artifact."
+    },
+    {
+      "claim": "A research system can coordinate several studies.",
+      "verdict": "Supported as a possible construction",
+      "basis": "A candidate-enumeration study supplies cases to a gate-coverage study, whose counterexample drives a repaired achievement assessment.",
+      "limit": "The coordination includes more than the unordered list of study names."
+    },
+    {
+      "claim": "Every subject requires an unrelated method written entirely from scratch.",
+      "verdict": "Rejected",
+      "basis": "The same finite Cartesian enumeration supports candidate generation and Boolean counterexample search with different domains and interpretation contracts.",
+      "limit": "Custom systems still need local targets, inputs, interpretation and success conditions."
+    },
+    {
+      "claim": "The more source techniques we admit, the more capable the resulting system must be.",
+      "verdict": "Rejected without additional conditions",
+      "basis": "Adding an unresolvable router branch or a forced unsupported verdict can reduce coverage or correctness.",
+      "limit": "An added method needs an applicable place and a valid composition with existing work."
+    },
+    {
+      "claim": "Every well-specified technique is well formed.",
+      "verdict": "Rejected",
+      "basis": "The GOSM numeric outcome rules are explicit but leave the all-required-pass/optional-shortfall state unclassified.",
+      "limit": "Specification completeness, coverage and rule consistency are independent study targets."
+    },
+    {
+      "claim": "Every well-formed technique is effective for its target.",
+      "verdict": "Rejected",
+      "basis": "A total rule returning one fixed forecast is mechanically well formed and can systematically miss the actual outcomes.",
+      "limit": "Effectiveness requires the appropriate proof or case evidence, separately from contract well-formedness."
+    }
+  ],
+  "compositions": [
+    {
+      "id": "CS1",
+      "name": "Claim inference finite validity",
+      "subject": "Claim inference validity",
+      "local_path": "systems/claim-inference-finite-validity.md",
+      "source_families": [
+        "ARAW",
+        "Reasoningtool"
+      ],
+      "technique_ids": [
+        "M01",
+        "M02"
+      ],
+      "components": [
+        "Formula validation",
+        "Boolean assignment enumeration",
+        "Premise evaluation",
+        "Conclusion evaluation",
+        "Counterexample retention"
+      ],
+      "flow": "Validated formulas supply atoms to complete enumeration. Each assignment enters premise evaluation; assignments with true premises enter conclusion evaluation. False conclusions are retained as counterexamples.",
+      "termination": "Complete finite domain exhausted, or explicit input error before a validity verdict.",
+      "case": "Five valid analytical implications plus an invalid inference from goal achievement to causal process success.",
+      "standing": "Custom specification and executable finite method; scoped cases executed by run_study_cases.py."
+    },
+    {
+      "id": "CS2",
+      "name": "Goal achievement assessment",
+      "subject": "Goal achievement status",
+      "local_path": "systems/goal-achievement-assessment.md",
+      "source_families": [
+        "GOSM",
+        "Reasoningtool"
+      ],
+      "technique_ids": [
+        "M03",
+        "M04"
+      ],
+      "components": [
+        "Required-condition input validation",
+        "Required-condition assessment",
+        "Optional-condition retention",
+        "Activity-state retention"
+      ],
+      "flow": "Required observations determine achievement. Optional observations and abandonment state are retained in separate output fields; neither silently changes the required-condition rule.",
+      "termination": "One status per valid finite required-condition map; invalid specifications receive no achievement verdict.",
+      "case": "The GOSM threshold gap and all 54 two-required/one-optional/abandonment-state combinations.",
+      "standing": "Custom specification and executable finite method; scoped cases executed by run_study_cases.py."
+    },
+    {
+      "id": "CS3",
+      "name": "Reasoning candidate finite generation",
+      "subject": "Reasoning candidate generation",
+      "local_path": "systems/reasoning-candidate-finite-generation.md",
+      "source_families": [
+        "Reasoningtool"
+      ],
+      "technique_ids": [
+        "M01"
+      ],
+      "components": [
+        "Named-domain validation",
+        "Domain-size calculation",
+        "Cartesian tuple construction"
+      ],
+      "flow": "Explicit finite domains pass validation and execution-bound checks, then generate every named tuple. Downstream investigators provide the interpretation and any feasibility conditions.",
+      "termination": "All tuples produced; empty factor yields an empty space; an oversized or malformed input is rejected explicitly.",
+      "case": "Generate the 54 gate-condition cases used by the achievement study.",
+      "standing": "Custom specification and executable finite method; actual enumeration used in another study."
+    }
+  ],
+  "result_reuse": [
+    {
+      "source_study": "Reasoning candidate generation",
+      "consumer_study": "Reasoning approach branch coverage",
+      "relation": "Method reuse",
+      "transferred": "Finite Cartesian enumeration over declared condition states.",
+      "preserved": "Finite domains and exhaustive mode.",
+      "added": "Interpret each tuple as an input to the GOSM numeric branch rules.",
+      "actual_change": "Exposes a reachable state with no assigned outcome."
+    },
+    {
+      "source_study": "Reasoning approach branch coverage",
+      "consumer_study": "Goal achievement status",
+      "relation": "Finding reuse",
+      "transferred": "The original gate leaves all-required-pass with optional shortfall unclassified.",
+      "preserved": "Exact original source thresholds and the specified non-abandoned state.",
+      "added": "Achievement is defined by required conditions; optional merit is separately returned.",
+      "actual_change": "The replacement returns achieved in the separating case."
+    },
+    {
+      "source_study": "Claim inference validity",
+      "consumer_study": "Reasoning approach rule consistency",
+      "relation": "Finding reuse",
+      "transferred": "All five fixed analytical examples have valid Boolean implications.",
+      "preserved": "The finite classical formulas actually checked.",
+      "added": "A mandatory proportion of contrary or genuinely uncertain verdicts would need support absent in these examples.",
+      "actual_change": "Rejects a forced verdict distribution as an admission condition."
+    },
+    {
+      "source_study": "Claim support preservation",
+      "consumer_study": "Plan modification",
+      "relation": "Conditional result transfer",
+      "transferred": "A conclusion can retain support when one premise path fails.",
+      "preserved": "The alternative support paths and their separately justified sufficiency.",
+      "added": "A plan step depends on the conclusion rather than exclusively on the rejected path.",
+      "actual_change": "The example retains the independently supported conclusion; no live project-plan execution is claimed."
+    }
+  ],
+  "family_views": [
+    {
+      "family": "SDS",
+      "subjects": [
+        "Preference hypothesis creation"
+      ],
+      "particular_matter": "Infer which selected aspects explain a preference across materially different candidates.",
+      "required_result": "Produce a preference hypothesis and a contrasting candidate that could refute it.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "SDS",
+      "subjects": [
+        "Design candidate construction"
+      ],
+      "particular_matter": "Construct new candidate forms that retain selected aspects while changing other dimensions.",
+      "required_result": "Produce a candidate with explicit preserved aspects and actual new differences.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "SDS",
+      "subjects": [
+        "Resource configuration feasibility"
+      ],
+      "particular_matter": "Determine whether one specified candidate can satisfy its requirements under actual constraints.",
+      "required_result": "Give a feasibility verdict whose limiting conditions can change the next iteration.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "QuestionRoute",
+      "subjects": [
+        "Question identity"
+      ],
+      "particular_matter": "Fix what makes two question records the same question despite wording changes.",
+      "required_result": "Specify referents, requested distinction, assumptions, and answer conditions.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "QuestionRoute",
+      "subjects": [
+        "Question route specification"
+      ],
+      "particular_matter": "Specify different future continuations for materially different answers.",
+      "required_result": "Produce a branching course with explicit trigger answers and consequential next work.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "QuestionRoute",
+      "subjects": [
+        "Question route continuation selection"
+      ],
+      "particular_matter": "Choose the applicable continuation after a particular question receives an answer.",
+      "required_result": "Select a live branch while preserving the question and answer that justify it.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Discovery Engine",
+      "subjects": [
+        "Discovery contribution novelty"
+      ],
+      "particular_matter": "Determine what is newly available to a specified inquiry against a fixed earlier state.",
+      "required_result": "Separate a new contribution, a rediscovery, and a changed interpretation.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Discovery Engine",
+      "subjects": [
+        "Discovery contribution implication"
+      ],
+      "particular_matter": "Specify how a particular finding changes what another inquiry can use or pursue.",
+      "required_result": "Record the target inquiry and the exact contribution relation.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Discovery Engine",
+      "subjects": [
+        "Question candidate creation"
+      ],
+      "particular_matter": "Construct a new question made consequential by a specified discovery.",
+      "required_result": "Produce an actual question whose resolution could change continuing work.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "GOSM",
+      "subjects": [
+        "Goal achievement condition specification"
+      ],
+      "particular_matter": "Specify what would count as achieving a particular intended condition.",
+      "required_result": "Produce outcome conditions that distinguish completion from useful intermediate work.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "GOSM",
+      "subjects": [
+        "Goal means dependence"
+      ],
+      "particular_matter": "Reconstruct how a present action connects to intended conditions through actual dependencies.",
+      "required_result": "Expose the intervening assumptions whose failure changes the proposed journey.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "GOSM",
+      "subjects": [
+        "Plan contingency",
+        "Plan prerequisite"
+      ],
+      "particular_matter": "Arrange future work around prerequisites, decisions, and possible result states.",
+      "required_result": "Produce a course with meaningful alternative continuations rather than a single forecast.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Reasoningtool",
+      "subjects": [
+        "Reasoning approach specification"
+      ],
+      "particular_matter": "Specify the exact intellectual transformations a particular procedure prescribes.",
+      "required_result": "Retain the procedure's inputs, operations, conditions, and source identity.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Reasoningtool",
+      "subjects": [
+        "Reasoning approach selection"
+      ],
+      "particular_matter": "Choose which available procedure fits a specific unfinished intellectual task.",
+      "required_result": "Select a procedure because of its required contribution, with its actual source read.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Reasoningtool",
+      "subjects": [
+        "Subject name construction",
+        "Subject scope inclusion"
+      ],
+      "particular_matter": "Construct explicit subject expressions from broad labels and test their type relations.",
+      "required_result": "Produce a completed expression whose relation and classified unit are inspectable.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Reasoningtool2",
+      "subjects": [
+        "Reasoning contribution selection"
+      ],
+      "particular_matter": "Choose the fitting contribution from available knowledge, operations, and possible departures.",
+      "required_result": "Select what can change the live inquiry rather than merely continue its presentation.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Reasoningtool2",
+      "subjects": [
+        "Reasoning approach creation"
+      ],
+      "particular_matter": "Construct a new operation when existing prescriptions do not provide the required transformation.",
+      "required_result": "Specify an actual transformation with observable input and result distinctions.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Reasoningtool2",
+      "subjects": [
+        "Learning correction uptake"
+      ],
+      "particular_matter": "Make a retained correction alter a later consequential choice or transformation.",
+      "required_result": "Show the later work using the corrected distinction at the point where it matters.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Master Framework",
+      "subjects": [
+        "System identity specification"
+      ],
+      "particular_matter": "Resolve which exact artifact and version the name refers to.",
+      "required_result": "Find the defining source or retain a precise unresolved identity; source presently unresolved.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Master Framework",
+      "subjects": [
+        "Relation predicate definition"
+      ],
+      "particular_matter": "Specify a candidate account of how subjects, systems, operations, and results relate.",
+      "required_result": "Produce a local proposal clearly separated from the unidentified source.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Master Framework",
+      "subjects": [
+        "Subject scope overlap"
+      ],
+      "particular_matter": "Test a proposed relationship grammar against a matter assigned conflicting kinds.",
+      "required_result": "Give a separating case or show that the proposed categories overlap; this is a proposed investigation.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "ARAW",
+      "subjects": [
+        "Reasoning assumption consequence derivation"
+      ],
+      "particular_matter": "Derive constructive consequences when a specified claim is taken as right.",
+      "required_result": "Produce consequences and available continuations that genuinely depend on that assumption.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "ARAW",
+      "subjects": [
+        "Reasoning assumption alternative construction"
+      ],
+      "particular_matter": "Construct alternatives, implications, and further questions when a specified claim is taken as wrong.",
+      "required_result": "Produce a materially different possibility rather than a caution compatible with the claim.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "ARAW",
+      "subjects": [
+        "Claim support sufficiency",
+        "Claim support limits"
+      ],
+      "particular_matter": "Assess what the two branches establish about a fixed claim and its dependencies.",
+      "required_result": "Give a scoped verdict with the surviving grounds and unresolved alternatives.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "TruthFinder",
+      "subjects": [
+        "Claim inference specification"
+      ],
+      "particular_matter": "Fix the exact conclusion, premises, and inferential dependence being challenged.",
+      "required_result": "Produce a stable target whose wording and meaning do not drift during the challenge.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "TruthFinder",
+      "subjects": [
+        "Claim inference counterexample"
+      ],
+      "particular_matter": "Construct a case that satisfies the proposed premises while defeating the claimed conclusion.",
+      "required_result": "Produce an actual separating case or retain that none has been found.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "TruthFinder",
+      "subjects": [
+        "Reasoning error location"
+      ],
+      "particular_matter": "Identify which premise or inferential step the observed failure concerns.",
+      "required_result": "Produce a specific failure report that does not overstate the affected scope.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "PreferenceFinder",
+      "subjects": [
+        "Preference hypothesis creation"
+      ],
+      "particular_matter": "Represent an inferred favoring pattern separately from the observed reaction.",
+      "required_result": "State the alternatives, features, agent, and conditions supporting the hypothesis.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "PreferenceFinder",
+      "subjects": [
+        "Preference hypothesis prediction"
+      ],
+      "particular_matter": "Predict a reaction to a materially different candidate under stated circumstances.",
+      "required_result": "Record the predicted response before using the eventual reaction.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "PreferenceFinder",
+      "subjects": [
+        "Preference hypothesis revision"
+      ],
+      "particular_matter": "Revise a preference hypothesis after a reaction that its current form fails to explain.",
+      "required_result": "Change the relevant condition or relation and identify the cases whose predictions change.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Historical AxiomNet",
+      "subjects": [
+        "Claim content equivalence"
+      ],
+      "particular_matter": "Specify canonical claim identity under the historical formula and assumption rules.",
+      "required_result": "Preserve which changes are mere re-expression and which create another claim.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Historical AxiomNet",
+      "subjects": [
+        "Reasoning assumption consequence derivation"
+      ],
+      "particular_matter": "Perform a derivation using fixed premises and explicitly justified transitions.",
+      "required_result": "Retain a trace that identifies each premise and transformation.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Historical AxiomNet",
+      "subjects": [
+        "Claim support preservation"
+      ],
+      "particular_matter": "Revise dependent formal material when a specified assumption or identity changes.",
+      "required_result": "Identify the affected derivations without discarding independently supported claims.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "LogicSystem",
+      "subjects": [
+        "Reasoning approach specification"
+      ],
+      "particular_matter": "Specify one native formal tool's permitted transformations and input conditions.",
+      "required_result": "Keep that tool's actual rules distinct from other tools in the collection.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "LogicSystem",
+      "subjects": [
+        "Reasoning approach execution"
+      ],
+      "particular_matter": "Execute a specified transformation on fixed formal material.",
+      "required_result": "Return the transformed material with inspectable identity and rule application.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "LogicSystem",
+      "subjects": [
+        "Claim inference validity"
+      ],
+      "particular_matter": "Assess the output under the actual rules and assumptions of the chosen tool.",
+      "required_result": "Distinguish a valid transformation from truth of premises or general effectiveness.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Strategizer",
+      "subjects": [
+        "Reasoning approach applicability"
+      ],
+      "particular_matter": "Specify the conditions under which a strategy is eligible to be used.",
+      "required_result": "Produce conditions that can rule the strategy in or out for an actual case.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Strategizer",
+      "subjects": [
+        "Prediction construction"
+      ],
+      "particular_matter": "Represent plausible counterplay before it is observed.",
+      "required_result": "Identify what an opponent response would change about the proposed course.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Strategizer",
+      "subjects": [
+        "Plan modification"
+      ],
+      "particular_matter": "Revise a strategy's course when conditions or counterplay change.",
+      "required_result": "Produce a new conditional course with preserved and altered dependencies explicit.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Superintelbot",
+      "subjects": [
+        "Reasoning contribution selection"
+      ],
+      "particular_matter": "Choose which contribution fits the actual state of an interaction.",
+      "required_result": "Select a question, derivation, correction, construction, or other needed contribution.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Superintelbot",
+      "subjects": [
+        "Reasoning approach retrieval",
+        "Reasoning approach execution"
+      ],
+      "particular_matter": "Retrieve and use the exact method relevant to the selected contribution.",
+      "required_result": "Consult the source without silently replacing its operations with a summary.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Superintelbot",
+      "subjects": [
+        "Question answer construction"
+      ],
+      "particular_matter": "Construct a response that performs the selected contribution for the current interaction.",
+      "required_result": "Produce the substantive contribution with the required content and no substitute performance.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "PostAGI reasoning",
+      "subjects": [
+        "Expression representation selection"
+      ],
+      "particular_matter": "Select which representation exposes a consequential distinction in the current material.",
+      "required_result": "Choose from actual concept, dependency, depth, conversation, or regress forms.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "PostAGI reasoning",
+      "subjects": [
+        "Expression representation conversion"
+      ],
+      "particular_matter": "Transform intellectual material into a different specified representational form.",
+      "required_result": "Preserve the relevant content while exposing a new accessible continuation.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "PostAGI reasoning",
+      "subjects": [
+        "Question candidate creation"
+      ],
+      "particular_matter": "Construct further questions whose answers are not already supplied by the retained material.",
+      "required_result": "Produce a new uncertainty with consequences for continuing inquiry.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Autophilosophy",
+      "subjects": [],
+      "particular_matter": "Investigate a specified conceptual matter with revisable answers and objections.",
+      "required_result": "Produce a finding that alters the live conceptual question.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Autophilosophy",
+      "subjects": [
+        "Claim inference counterexample",
+        "Reasoning assumption alternative construction"
+      ],
+      "particular_matter": "Test a particular answer by constructing an incompatibility or alternative account.",
+      "required_result": "Identify what the answer fails to distinguish or explain.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Autophilosophy",
+      "subjects": [
+        "Question answer revision",
+        "Claim inference revision"
+      ],
+      "particular_matter": "Revise an answer in response to an identified conceptual failure.",
+      "required_result": "Write a changed answer whose new content addresses the actual failure.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "AutomaticScience",
+      "subjects": [
+        "Plan creation"
+      ],
+      "particular_matter": "Specify a proposed course of empirical inquiry from the distributed project plans.",
+      "required_result": "Make evidence-dependent continuations explicit; described plans are not executed research.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "AutomaticScience",
+      "subjects": [
+        "Expression representation creation"
+      ],
+      "particular_matter": "Construct a book or other investigative text around a fixed research matter.",
+      "required_result": "Preserve the distinction between sourced findings, proposals, and exposition.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "AutomaticScience",
+      "subjects": [
+        "Claim support sufficiency"
+      ],
+      "particular_matter": "Assess what evidence would support or revise one proposed investigative conclusion.",
+      "required_result": "Produce an evidence requirement that could change the inquiry's continuation.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Resource-engineering",
+      "subjects": [
+        "Resource configuration reconstruction"
+      ],
+      "particular_matter": "Reconstruct a specified episode through resources, uses, alternatives, and constraints.",
+      "required_result": "Expose the allocations and dependencies that the original description hides.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Resource-engineering",
+      "subjects": [
+        "Resource configuration comparison"
+      ],
+      "particular_matter": "Compare specified arrangements under fixed uses, stakes, and result criteria.",
+      "required_result": "Keep the arrangements and the grounds of comparison separate.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Resource-engineering",
+      "subjects": [
+        "Resource configuration modification"
+      ],
+      "particular_matter": "Transform an allocation or configuration under specified admissibility conditions.",
+      "required_result": "Produce a changed arrangement with its intended and observed consequences distinguished.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "BOD",
+      "subjects": [
+        "Capability use access",
+        "Capability evidence adequacy"
+      ],
+      "particular_matter": "Represent the difference between having an ability and realizing behavior through it.",
+      "required_result": "Fix the ability, occurrence conditions, initiation, persistence, and interruption distinctions.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "BOD",
+      "subjects": [
+        "Capability use blockage"
+      ],
+      "particular_matter": "Account for what prevents a specified available capability from becoming behavior.",
+      "required_result": "Identify the proposed causes and the conditions that would distinguish competing accounts.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "BOD",
+      "subjects": [
+        "Capability use intervention requirement"
+      ],
+      "particular_matter": "Specify what a proposed intervention must change while preserving stated limits.",
+      "required_result": "Produce target and constraint conditions; no health intervention is validated by this classification.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "System Recovery",
+      "subjects": [
+        "Memory record identity",
+        "Memory record context recovery"
+      ],
+      "particular_matter": "Preserve the identity and context of retrieved source material through later reuse.",
+      "required_result": "Keep the exact source/version and its original standing available.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "System Recovery",
+      "subjects": [
+        "Memory record provenance"
+      ],
+      "particular_matter": "Reconstruct actual links among preserved sources, claims, procedures, and results.",
+      "required_result": "Produce supported relationships while retaining unresolved or missing dependencies.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "System Recovery",
+      "subjects": [
+        "Memory reuse trigger",
+        "Memory reuse fidelity"
+      ],
+      "particular_matter": "Make a preserved earlier result usable at a relevant point in current work.",
+      "required_result": "Restore the needed material and context so it changes a consequential continuation.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Project Dashboard",
+      "subjects": [
+        "Execution state initiation",
+        "Reasoning approach execution"
+      ],
+      "particular_matter": "A proposed or documented occurrence of invoking a selected skill or script.",
+      "required_result": "The source describes invocation; runtime execution has not been verified here.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Project Dashboard",
+      "subjects": [
+        "Execution record comparison"
+      ],
+      "particular_matter": "A proposed or documented comparison of specified outputs under shared criteria.",
+      "required_result": "A comparison requires fixed inputs and criteria, beyond displaying outputs side by side.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    },
+    {
+      "family": "Project Dashboard",
+      "subjects": [
+        "Execution record representation"
+      ],
+      "particular_matter": "A record expressing the inputs, execution identity, and results of a run.",
+      "required_result": "Retained run history is source-described; this inquiry does not establish runtime persistence.",
+      "standing": "Recorded contribution translated to possible study targets; no newly admitted technique or completed investigation inferred."
+    }
+  ],
+  "new_subject_ids": [
+    "reasoning-approach-specification-completeness",
+    "reasoning-approach-branch-coverage",
+    "reasoning-approach-rule-consistency",
+    "inquiry-finding-transfer-condition",
+    "inquiry-finding-use-contribution",
+    "system-composition-order-dependence",
+    "system-composition-description-sufficiency"
+  ],
+  "reasoningtool_inventory": {
+    "reported": 656,
+    "entries": 656,
+    "generated": "2026-03-23T00:55:48.748237+00:00",
+    "sha256": "b8759ebeefaf9492df1700a271078b2538d408221d5106fb7965075e2b1b6550",
+    "body_reviewed": [
+      "araw",
+      "gosm",
+      "dd",
+      "se",
+      "foht",
+      "cmp",
+      "fut"
+    ],
+    "standing": "656 metadata entries in this archive; seven bodies examined. The older recovered AGENTS file reports 415. These are different source versions, not a reconciled count of one current runtime.",
+    "unreviewed_dependency_example": "/gosm Full invokes /pce; that body is not admitted through this review."
+  },
+  "admission_rules": [
+    {
+      "name": "Defined target",
+      "test": "The operation and required result have a fixed meaning; a desirable adjective is not an output rule."
+    },
+    {
+      "name": "Declared inputs",
+      "test": "Required data, semantic interpretation and permitted unknowns are explicit."
+    },
+    {
+      "name": "Executable transformation",
+      "test": "Each consequential step is supplied, points to an admitted dependency, or declares a bounded discretionary choice with an acceptance rule."
+    },
+    {
+      "name": "Covered conditions",
+      "test": "Every admitted input has a continuation, result or explicit unresolved/input-failure outcome."
+    },
+    {
+      "name": "Compatible rules",
+      "test": "Applicable instructions have a consistent interpretation or an explicit justified precedence."
+    },
+    {
+      "name": "Termination meaning",
+      "test": "Completion, unsuccessful search, resource exhaustion and unresolved work have distinct outcomes."
+    },
+    {
+      "name": "Evidence scope",
+      "test": "A proof, source description, implemented operation, observed result and transfer claim remain separate."
+    },
+    {
+      "name": "Source identity",
+      "test": "Original content and scope remain attributable; a repair is a named descendant, not an alleged faithful import."
+    }
+  ]
+}

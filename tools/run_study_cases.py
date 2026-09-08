@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from study_methods import finite_candidates,check_inference,achievement_status,requirement_filter,support_preservation
 
-R=Path(__file__).resolve().parents[1];D=R/'research/studies'
+R=Path(__file__).resolve().parents[1];D=R/'studies/system'
 u=json.loads((D/'study-systems.json').read_text())
 
 # This is an explicit interpretation of the recovered percentage thresholds,

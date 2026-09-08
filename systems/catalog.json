@@ -1,0 +1,74 @@
+{
+  "systems": [
+    {
+      "path": "systems/design-alternative-construction.md",
+      "name": "Design alternative construction",
+      "root": "Design"
+    },
+    {
+      "path": "systems/design-candidate-exploration.md",
+      "name": "Design candidate exploration",
+      "root": "Design"
+    },
+    {
+      "path": "systems/improvement-candidate-revision.md",
+      "name": "Improvement candidate revision",
+      "root": "Improvement"
+    },
+    {
+      "path": "systems/goal-achievement-assessment.md",
+      "name": "Goal achievement assessment",
+      "root": "Goal"
+    },
+    {
+      "path": "systems/goal-discovery.md",
+      "name": "Goal discovery",
+      "root": "Goal"
+    },
+    {
+      "path": "systems/criterion-discovery.md",
+      "name": "Criterion discovery",
+      "root": "Criterion"
+    },
+    {
+      "path": "systems/preference-discovery.md",
+      "name": "Preference discovery",
+      "root": "Preference"
+    },
+    {
+      "path": "systems/preference-question-route.md",
+      "name": "Preference question route",
+      "root": "Preference"
+    },
+    {
+      "path": "systems/discovery-contribution-assessment.md",
+      "name": "Discovery contribution assessment",
+      "root": "Discovery"
+    },
+    {
+      "path": "systems/expression-contribution-construction.md",
+      "name": "Expression contribution construction",
+      "root": "Expression"
+    },
+    {
+      "path": "systems/reasoning-approach-selection.md",
+      "name": "Reasoning approach selection",
+      "root": "Reasoning"
+    },
+    {
+      "path": "systems/reasoning-candidate-finite-generation.md",
+      "name": "Reasoning candidate finite generation",
+      "root": "Reasoning"
+    },
+    {
+      "path": "systems/claim-inference-finite-validity.md",
+      "name": "Claim inference finite validity",
+      "root": "Claim"
+    },
+    {
+      "path": "systems/claim-inference-counterexample-search.md",
+      "name": "Claim inference counterexample search",
+      "root": "Claim"
+    }
+  ]
+}

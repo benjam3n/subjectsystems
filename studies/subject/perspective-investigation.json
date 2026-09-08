@@ -1,0 +1,1194 @@
+{
+  "version": 1,
+  "date": "2026-09-07",
+  "basis_commit": "a87e4eb54db692e50a106f061b3ff2499a5b25ee",
+  "standing": "Authored definitions, scoped derivations and observed local work. Broad transfer remains a hypothesis.",
+  "subject_ids": [
+    "perspective-representation-construction",
+    "perspective-representation-omission",
+    "perspective-representation-equivalence",
+    "perspective-consequence-accessibility",
+    "perspective-change-contribution",
+    "perspective-change-criterion-drift",
+    "perspective-scope-applicability",
+    "perspective-scope-extension",
+    "perspective-scope-coverage",
+    "perspective-scope-limitation",
+    "perspective-selection",
+    "perspective-comparison-admissibility",
+    "anticipation-outcome-expectation",
+    "anticipation-outcome-correspondence",
+    "anticipation-action-dependence",
+    "anticipation-preparation-selection",
+    "anticipation-response-construction",
+    "anticipation-continuation-construction",
+    "anticipation-continuation-exclusion",
+    "anticipation-influence-attribution",
+    "anticipation-outcome-expectation-revision",
+    "anticipation-preparation-revision",
+    "prediction-claim-expression",
+    "model-state-estimation",
+    "uncertainty-alternative-specification",
+    "uncertainty-source-attribution",
+    "uncertainty-decision-sensitivity",
+    "uncertainty-reduction-intervention-selection",
+    "uncertainty-reduction-attainability",
+    "conflict-incompatibility-specification",
+    "conflict-resolution-condition",
+    "conflict-resolution-method-selection",
+    "conflict-resolution-method-creation",
+    "conflict-resolution-method-applicability",
+    "conflict-resolution-effect-attribution",
+    "deviation-reference-specification",
+    "deviation-extent-determination",
+    "deviation-cause-attribution",
+    "deviation-effect-comparison",
+    "deviation-effect-robustness",
+    "deviation-optimality-condition-derivation",
+    "deviation-optimality-case-determination",
+    "deviation-optimality-attainability",
+    "comparison-alternative-dominance",
+    "comparison-alternative-robust-dominance",
+    "resource-use-avoidable-cost",
+    "game-payoff-sum-invariance",
+    "subject-name-scope-underdetermination",
+    "subject-name-origin-reconstruction",
+    "subject-name-persistence-cause",
+    "subject-name-substitution-effect",
+    "expression-precision-requirement",
+    "explanation-account-operational-content",
+    "memory-active-content-interference",
+    "memory-active-content-interference-control",
+    "memory-active-content-binding",
+    "memory-active-content-external-support-dependence",
+    "memory-active-content-persistence-duration"
+  ],
+  "distinctions": [
+    {
+      "a": "Subject",
+      "b": "Study",
+      "relation": "Matter versus inquiry activity",
+      "case": "Conflict resolution method selection can be investigated through several studies.",
+      "consequence": "Studies does not need to be appended to every canonical subject name."
+    },
+    {
+      "a": "Study",
+      "b": "Practice",
+      "relation": "Investigating an operation versus performing it",
+      "case": "A person can resolve a dispute without investigating resolution methods; an investigator can compare methods without resolving the live dispute.",
+      "consequence": "Practice exposes separate applicability, execution, contribution and learning questions."
+    },
+    {
+      "a": "Theory",
+      "b": "Application",
+      "relation": "General relation versus particular instantiation",
+      "case": "A conditional optimality proof can hold in its model while a live case violates an assumption.",
+      "consequence": "Theoretical and applied are roles with different result obligations, not automatic top-level subjects."
+    },
+    {
+      "a": "Anticipation outcome expectation",
+      "b": "Prediction claim expression",
+      "relation": "Expectation versus expressed assertion",
+      "case": "A person prepares for rain without saying it will rain; a spokesperson can announce a forecast they do not personally expect.",
+      "consequence": "Preserve the distinct targets without imposing this one sense of prediction on every technical literature."
+    },
+    {
+      "a": "Anticipation outcome expectation",
+      "b": "Anticipation preparation selection",
+      "relation": "Expectation versus current preparation",
+      "case": "An agent can expect a delay without taking any preparatory action.",
+      "consequence": "Expectation content and its use can fail independently."
+    },
+    {
+      "a": "Model state estimation",
+      "b": "Anticipation outcome expectation",
+      "relation": "Hidden current state versus possible later event",
+      "case": "A model estimates the present source of a sensation without representing a future consequence.",
+      "consequence": "Not every model-generated prediction is future anticipation."
+    },
+    {
+      "a": "Anticipation outcome correspondence",
+      "b": "Anticipation influence attribution",
+      "relation": "Agreement versus causal influence",
+      "case": "An assistant announces a response plan and then follows it.",
+      "consequence": "Agreement may show successful control; it does not alone measure independent forecasting accuracy."
+    },
+    {
+      "a": "Perspective change contribution",
+      "b": "Perspective change criterion drift",
+      "relation": "Newly usable structure versus changed grading",
+      "case": "A hidden alternative becomes visible under the same goal; in a different case the same alternatives are merely graded by a new goal.",
+      "consequence": "Only the first directly supports an information or representation improvement under the original task."
+    },
+    {
+      "a": "Deviation extent determination",
+      "b": "Deviation effect comparison",
+      "relation": "Difference versus value",
+      "case": "A large departure can be harmful; a small departure can remove a bottleneck.",
+      "consequence": "Positive is the outcome of a specified comparison, not part of the primitive definition of deviation."
+    },
+    {
+      "a": "Resource use avoidable cost",
+      "b": "Creativity",
+      "relation": "Dominated expenditure versus candidate exploration",
+      "case": "Exploration has a real discovery objective or information benefit excluded by a narrower apparent task.",
+      "consequence": "Do not diagnose inefficiency by silently deleting exploration's contribution."
+    },
+    {
+      "a": "Comparison alternative dominance",
+      "b": "Game payoff sum invariance",
+      "relation": "Ordering relation versus game property",
+      "case": "Two choices trade off participant gains even though a third improves both.",
+      "consequence": "A local tradeoff does not establish a zero-sum game."
+    },
+    {
+      "a": "Perspective comparison admissibility",
+      "b": "All imaginable perspectives",
+      "relation": "Declared comparison domain versus unrestricted quantifier",
+      "case": "For any favored act, construct a perspective whose sole goal is avoiding that act.",
+      "consequence": "Universal goodness over arbitrary goals is generally unattainable; the admitted perspective set is substantive."
+    },
+    {
+      "a": "Perspective scope applicability",
+      "b": "Identity of everything with one perspective",
+      "relation": "A usable interpretation versus an ontological identity",
+      "case": "A biological process can be represented as allocation while its kinetic or geometric details remain necessary for particular questions.",
+      "consequence": "Demonstrate the mapping and what it makes inferable; a universal renaming does not establish explanation."
+    },
+    {
+      "a": "Subject name scope underdetermination",
+      "b": "Explanation account operational content",
+      "relation": "Name defect versus account defect",
+      "case": "A theory can have a loose title and precise equations; a literal title can accompany an empty account.",
+      "consequence": "Inspect naming precision and substantive content separately."
+    },
+    {
+      "a": "Conflict resolution method selection",
+      "b": "People interaction conflict resolution methods",
+      "relation": "General operation versus case qualification",
+      "case": "Interpersonal disputes instantiate a specified conflict with participants and institutional constraints.",
+      "consequence": "Use Conflict resolution method selection generally; add an interpersonal qualification when it changes the actual scope, assumptions or methods."
+    },
+    {
+      "a": "Shape representation rotation",
+      "b": "Shape representation rotation mechanism",
+      "relation": "Result transformation versus production process",
+      "case": "Calculate a rotated representation without identifying how a person's internal representation changes.",
+      "consequence": "The user's shorter general name is retained, while the mechanism question remains independently identifiable."
+    }
+  ],
+  "frame_applications": [
+    {
+      "domain": "Intelligence",
+      "native": "Performance is described by task success.",
+      "transformation": "For each candidate operation, represent the later questions, resources and conditions its use would create; compare reachable continuations.",
+      "result": "A currently successful operation can be inferior when it removes the only route to a required later result.",
+      "limit": "Anticipatory structure does not by itself establish every capability or explain all intelligence.",
+      "subjects": [
+        "Anticipation action dependence",
+        "Anticipation preparation selection",
+        "Capability use transfer"
+      ],
+      "standing": "Authored reconstruction and its consequence; transfer claim limited to the stated construction."
+    },
+    {
+      "domain": "LLM response construction",
+      "native": "The next answer is generated as a locally coherent continuation.",
+      "transformation": "Represent a prospective contribution, then use that representation to construct the next prompt and test which continuation becomes necessary or avoidable.",
+      "result": "A response can resolve a dependency before explaining it, or expose a missing distinction before producing a conclusion.",
+      "limit": "This is an external prompting operation; its benefit and the model's hidden internal state are separate claims.",
+      "subjects": [
+        "Anticipation response construction",
+        "Anticipation continuation construction",
+        "Anticipation continuation exclusion"
+      ],
+      "standing": "Authored reconstruction and its consequence; transfer claim limited to the stated construction."
+    },
+    {
+      "domain": "Moral deliberation",
+      "native": "An act is judged under a stated normative rule.",
+      "transformation": "Derive who will face which later choices, commitments or losses under each candidate act, while holding the rule explicit.",
+      "result": "A previously omitted consequence can change the premises of the moral judgment.",
+      "limit": "Expected consequences do not by themselves justify the normative rule or settle all deontological obligations.",
+      "subjects": [
+        "Anticipation action dependence",
+        "Norm justification sufficiency",
+        "Commitment scope specification"
+      ],
+      "standing": "Authored reconstruction and its consequence; transfer claim limited to the stated construction."
+    },
+    {
+      "domain": "Planning",
+      "native": "A plan specifies a sequence or contingency.",
+      "transformation": "Start from anticipated future conditions and work backward to what must already be available when each is reached.",
+      "result": "Preparation requirements appear before the point at which failure would otherwise be noticed.",
+      "limit": "An expected event is not an intended goal; reachability and feasibility still require their own arguments.",
+      "subjects": [
+        "Anticipation preparation selection",
+        "Plan prerequisite",
+        "Plan contingency"
+      ],
+      "standing": "Authored reconstruction and its consequence; transfer claim limited to the stated construction."
+    },
+    {
+      "domain": "Decision making",
+      "native": "An option is selected from a fixed visible list.",
+      "transformation": "For each option, represent its possible consequences, the information obtained, and the later options it preserves or removes.",
+      "result": "The decision can select an information-producing action or preserve an otherwise invisible later option.",
+      "limit": "Uncertain inputs remain uncertain; a supplied consequence model is not evidence that its values are true.",
+      "subjects": [
+        "Anticipation action dependence",
+        "Uncertainty decision sensitivity",
+        "Comparison alternative robust dominance"
+      ],
+      "standing": "Authored reconstruction and its consequence; transfer claim limited to the stated construction."
+    },
+    {
+      "domain": "Biology through allocation",
+      "native": "A biological process is classified by organ or mechanism.",
+      "transformation": "Identify actual limited resources, competing uses, constraints, and the changes in feasible outcomes when those allocations change.",
+      "result": "A resource bottleneck can become comparable across otherwise different biological settings.",
+      "limit": "Kinetics, geometry, development and other details can remain indispensable; not every question is settled by the allocation view.",
+      "subjects": [
+        "Resource configuration bottleneck",
+        "Resource use capacity",
+        "Perspective scope limitation"
+      ],
+      "standing": "Authored reconstruction and its consequence; transfer claim limited to the stated construction."
+    },
+    {
+      "domain": "Psychology through allocation",
+      "native": "A performance is classified by a familiar mental faculty.",
+      "transformation": "Specify the competing demands and which representations or actions remain available under the observed distribution of resources.",
+      "result": "A failure attributed to absent capacity can instead become a test of availability, interference or access.",
+      "limit": "This is a proposed explanatory alternative, not a universal identity or a biological mechanism already observed.",
+      "subjects": [
+        "Memory active content interference",
+        "Capability use access",
+        "Perspective consequence accessibility"
+      ],
+      "standing": "Authored reconstruction and its consequence; transfer claim limited to the stated construction."
+    },
+    {
+      "domain": "Conflict through anticipation",
+      "native": "The conflict is framed as selecting which party wins now.",
+      "transformation": "Construct the later uses and responses made possible by each arrangement and look for altered constraints or sequences.",
+      "result": "Scheduling can introduce an option that improves both parties relative to an immediate clash.",
+      "limit": "A nonzero-sum opportunity must be feasible and evidenced in the actual case; imagined agreement is not resolution.",
+      "subjects": [
+        "Conflict incompatibility specification",
+        "Anticipation action dependence",
+        "Game payoff sum invariance"
+      ],
+      "standing": "Authored reconstruction and its consequence; transfer claim limited to the stated construction."
+    },
+    {
+      "domain": "Subject development through perspectives",
+      "native": "A field's current labels define where its methods are considered applicable.",
+      "transformation": "Translate its operative relations into a new target and test which premises survive and which questions become answerable.",
+      "result": "Previously separated literatures can share a method or reveal a genuinely missing target.",
+      "limit": "Successful translation of one relation is not complete reduction of the new field.",
+      "subjects": [
+        "Perspective scope extension",
+        "Perspective scope coverage",
+        "Subject translation coverage"
+      ],
+      "standing": "Authored reconstruction and its consequence; transfer claim limited to the stated construction."
+    }
+  ],
+  "source_reconciliation": [
+    {
+      "source_label": "Working Memory",
+      "role": "Functional construct",
+      "translation_id": "T065",
+      "subjects": [
+        "Memory active content maintenance",
+        "Memory active content update",
+        "Memory active content capacity",
+        "Memory active content interference control"
+      ],
+      "disposition": "Composition of functional matters",
+      "residual": "No one atomic subject is asserted equivalent to the entire construct. Mechanisms and measurement remain separate.",
+      "source_ids": [
+        "WM_BRANCH"
+      ]
+    },
+    {
+      "source_label": "Active Maintenance",
+      "role": "Functional subconstruct",
+      "translation_id": "T066",
+      "subjects": [
+        "Memory active content maintenance"
+      ],
+      "disposition": "Specified functional matter",
+      "residual": "Does not select a unique biological implementation or prove that a listed task isolates maintenance.",
+      "source_ids": [
+        "WM_MAINTAIN"
+      ]
+    },
+    {
+      "source_label": "Flexible Updating",
+      "role": "Functional subconstruct",
+      "translation_id": "T067",
+      "subjects": [
+        "Memory active content update"
+      ],
+      "disposition": "Specified functional matter",
+      "residual": "Flexibility still needs task-dependent switching conditions; the label does not supply a mechanism.",
+      "source_ids": [
+        "WM_UPDATE"
+      ]
+    },
+    {
+      "source_label": "Limited Capacity",
+      "role": "Functional subconstruct",
+      "translation_id": "T068",
+      "subjects": [
+        "Memory active content capacity"
+      ],
+      "disposition": "Property under study",
+      "residual": "A measured limit is not assumed fixed across all contents, supports or tasks.",
+      "source_ids": [
+        "WM_CAPACITY"
+      ]
+    },
+    {
+      "source_label": "Interference Control",
+      "role": "Functional subconstruct",
+      "translation_id": "T069",
+      "subjects": [
+        "Memory active content interference",
+        "Memory active content interference control"
+      ],
+      "disposition": "Split occurrence from control",
+      "residual": "The occurrence of interference and the effectiveness of a control operation require different comparisons.",
+      "source_ids": [
+        "WM_INTERFERENCE"
+      ]
+    }
+  ],
+  "naming_execution": {
+    "subject": "Reasoning approach selection",
+    "local_system": "systems/reasoning-approach-selection.md",
+    "case": "Generalize shape rotation naming without losing the distinct transformation and mechanism questions.",
+    "input_commit": "a87e4eb54db692e50a106f061b3ff2499a5b25ee",
+    "requirements": [
+      "Use a literal general-first name.",
+      "Retain a distinct matter for the transformed representation and for how it is produced.",
+      "Allow an explicitly qualified internal-human case without making it the entire general scope.",
+      "Preserve stable IDs and source titles while updating current canonical references."
+    ],
+    "candidates": [
+      {
+        "approach": "Delete the word mental only",
+        "anticipated_contribution": "Shorter general wording",
+        "examined_result": "Produces a general label for the earlier mechanism definition while leaving a second general transformation entry under its old name.",
+        "decision": "Insufficient alone",
+        "reason": "Does not establish the boundary between transformation result and production mechanism."
+      },
+      {
+        "approach": "Retain the internal-human scope as the canonical general entry",
+        "anticipated_contribution": "Minimal semantic change",
+        "examined_result": "Preserves the earlier internal case but leaves computational and physical implementations outside that general entry.",
+        "decision": "Rejected for this goal",
+        "reason": "Fails the requested general scope; it can remain a qualified case."
+      },
+      {
+        "approach": "Compare completion conditions and reconstruct the target family",
+        "anticipated_contribution": "Literal general name with consequential distinctions retained",
+        "examined_result": "The transformation becomes Shape representation rotation; the mechanism becomes Shape representation rotation mechanism. Duration and fidelity remain independently named.",
+        "decision": "Selected and executed",
+        "reason": "Meets the four case requirements without adding an unnecessary mental qualifier to the general operation."
+      }
+    ],
+    "result_changes": [
+      {
+        "stable_id": "shape-orientation-transformation",
+        "old": "Shape orientation transformation",
+        "new": "Shape representation rotation",
+        "effect": "General representation transformation retained; parent now Shape representation."
+      },
+      {
+        "stable_id": "shape-representation-mental-rotation",
+        "old": "Shape representation mental rotation",
+        "new": "Shape representation rotation mechanism",
+        "effect": "Mechanism question generalized; the earlier human-internal scope is retained as a qualification, not declared coextensive."
+      }
+    ],
+    "actual_result": "Two current definitions and their canonical references revised; change records preserve prior scopes. This is an executed local naming result, not a general selector performance estimate.",
+    "limits": [
+      "Only the stated case and three candidate approaches were compared.",
+      "No universal optimality, controlled effectiveness result or exact original Reasoningtool skill execution is claimed.",
+      "The selector chooses an approach; executing the approach and propagating its result remain distinguishable operations."
+    ]
+  },
+  "deviation_case": {
+    "standing": "Authored finite mathematical example; all payoffs are stipulated, not measurements of people.",
+    "matter": "One resource, two participants, six admitted arrangements.",
+    "baseline": "chaotic_sharing",
+    "criteria": [
+      "Participant A payoff",
+      "Participant B payoff"
+    ],
+    "preference_direction": "Larger is better for both criteria.",
+    "outcomes": [
+      {
+        "id": "unused",
+        "label": "Leave unused",
+        "payoffs": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "damaging_conflict",
+        "label": "Damaging conflict",
+        "payoffs": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "chaotic_sharing",
+        "label": "Chaotic sharing",
+        "payoffs": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "scheduled_use",
+        "label": "Scheduled use",
+        "payoffs": [
+          4,
+          4
+        ]
+      },
+      {
+        "id": "exclusive_a",
+        "label": "Exclusive use by A",
+        "payoffs": [
+          6,
+          0
+        ]
+      },
+      {
+        "id": "exclusive_b",
+        "label": "Exclusive use by B",
+        "payoffs": [
+          0,
+          6
+        ]
+      }
+    ],
+    "restricted_domain": [
+      "exclusive_a",
+      "exclusive_b"
+    ],
+    "interpretation_limits": [
+      "Feasibility and these payoff values are assumptions.",
+      "A and B are the admitted evaluative perspectives; a joint-sum objective is an additional rule, not an independent observation.",
+      "The example establishes conditional comparisons, not efficacy of scheduling in a real conflict.",
+      "A finite deterministic case supplies no general claim about uncertain scenarios or repeated games."
+    ]
+  },
+  "questions": [
+    {
+      "subject": "Perspective consequence accessibility",
+      "question": "When two representations carry equivalent information, which operation or resource difference explains why one makes a consequence available and the other does not?",
+      "next_result": "A finite task with equivalent inputs but an explicitly bounded operation budget."
+    },
+    {
+      "subject": "Perspective scope extension",
+      "question": "Which preserved relations suffice to transfer one resource-allocation conclusion between a biological and a psychological case?",
+      "next_result": "One sourced case pair with an actual valid inference and a failed transfer caused by a missing premise."
+    },
+    {
+      "subject": "Anticipation continuation construction",
+      "question": "When does building the next prompt expose a necessary contribution that direct response construction misses?",
+      "next_result": "A live case with retained alternative responses and their different continuations."
+    },
+    {
+      "subject": "Anticipation influence attribution",
+      "question": "How much of expectation-outcome agreement comes from influencing the outcome rather than forecasting independently?",
+      "next_result": "A design that varies exposure to the expectation while retaining the original expectation record."
+    },
+    {
+      "subject": "Uncertainty decision sensitivity",
+      "question": "Which unresolved distinction changes the selected next operation rather than only its explanation?",
+      "next_result": "A sensitivity result with a decision that changes at an identified distinction."
+    },
+    {
+      "subject": "Resource use avoidable cost",
+      "question": "Which apparent inefficiencies disappear when exploration, information or option preservation enters the fixed task standard?",
+      "next_result": "One measured or fully specified comparison with the omitted contribution restored."
+    },
+    {
+      "subject": "Deviation effect robustness",
+      "question": "Which benefits survive changes in admissible contexts without redefining the objective after seeing the outcome?",
+      "next_result": "An explicit context set with at least one separating failure."
+    },
+    {
+      "subject": "Conflict resolution method applicability",
+      "question": "When does changing the sequence of access create a genuinely feasible joint improvement?",
+      "next_result": "A live conflict model with evidenced timing, resource and agreement constraints."
+    },
+    {
+      "subject": "Subject name substitution effect",
+      "question": "Which literal name changes alter inference with the underlying definition held fixed?",
+      "next_result": "A fixed-content comparison that distinguishes wording effects from definition effects."
+    },
+    {
+      "subject": "Memory active content interference control",
+      "question": "Which source-listed paradigms separate maintenance failure from updating demands and interference control?",
+      "next_result": "A task-specific construct comparison using the original paradigm evidence, beyond the functional branch inventory."
+    }
+  ],
+  "source_boundary": {
+    "domain": "NIMH RDoC Working Memory functional branch",
+    "date": "2026-09-07",
+    "inventory_rule": "The root construct plus all four immediately listed functional subconstructs and the defining qualifications on the root page. All five pages were read. Child-page biological and paradigm labels are preserved separately as source associations.",
+    "expected_labels": [
+      "Working Memory",
+      "Active Maintenance",
+      "Flexible Updating",
+      "Limited Capacity",
+      "Interference Control"
+    ],
+    "coverage_claim": "Five of five functional labels reconciled; five defining qualifications retained. No further functional child is listed on the inspected child pages.",
+    "outside_claim": "This is not coverage of all working-memory theories, every linked study, mechanisms, task variants or the whole RDoC matrix."
+  },
+  "source_qualifications": [
+    {
+      "qualification": "Task relevance",
+      "force": "Defines the functional context",
+      "subjects": [
+        "Memory active content maintenance",
+        "Memory active content update"
+      ],
+      "consequence": "State which content matters to the task; items, goals and strategies are examples, not three exclusive child subjects."
+    },
+    {
+      "qualification": "Binding",
+      "force": "Possible feature, not universal necessity",
+      "subjects": [
+        "Memory active content binding"
+      ],
+      "consequence": "Investigate whether and how relevant elements are associated in the case; do not require binding as an earlier step for every use."
+    },
+    {
+      "qualification": "External support",
+      "force": "Internal maintenance can occur without external support",
+      "subjects": [
+        "Memory active content external support dependence"
+      ],
+      "consequence": "Compare stated support conditions instead of requiring every task to be externally unsupported."
+    },
+    {
+      "qualification": "Temporary duration",
+      "force": "Frequent, not an invariant lifetime",
+      "subjects": [
+        "Memory active content persistence duration"
+      ],
+      "consequence": "Measure usability over time under stated conditions; do not assume a single expiry time."
+    },
+    {
+      "qualification": "Interference-related temporariness",
+      "force": "Possible causal contribution",
+      "subjects": [
+        "Memory active content interference",
+        "Memory active content persistence duration"
+      ],
+      "consequence": "Separate delay from competing material before attributing loss to elapsed time alone."
+    }
+  ],
+  "source_associations": [
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Molecules",
+      "label": "D1",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Molecules",
+      "label": "Dopamine",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Molecules",
+      "label": "GABA",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Molecules",
+      "label": "Glutamate",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Molecules",
+      "label": "NMDA",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Cells",
+      "label": "Distinct types of inhibitory neurons",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Cells",
+      "label": "Pyramidal cells",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Circuits",
+      "label": "Inferior Parietal Cortex",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Circuits",
+      "label": "PFC-parietal-cingulate-dorsal thalamus-dorsal striatum",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Circuits",
+      "label": "VLPFC",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Physiology",
+      "label": "Delta",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Physiology",
+      "label": "EEG Gamma Rhythms",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Physiology",
+      "label": "EEG Theta Rhythms",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "AX-CPT/DPX",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "Change detection tasks",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "Complex Span tasks",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "delayed match to non sample",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "delayed match to sample",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "keep track task",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "Letter memory/running memory",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "Letter Number Sequencing",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "N-back",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "Self-Ordered Pointing",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "sequence encoding and reproduction",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "Simple Span Tasks",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_MAINTAIN",
+      "source_category": "Paradigms",
+      "label": "Sternberg Item Recognition",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Molecules",
+      "label": "D2",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Molecules",
+      "label": "Dopamine",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Molecules",
+      "label": "GABA",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Molecules",
+      "label": "Glutamate",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Circuits",
+      "label": "dorsal striatum",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Circuits",
+      "label": "Dorsolateral Prefrontal Cortex",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Circuits",
+      "label": "MD",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Circuits",
+      "label": "PFC-parietal-cingulate-dorsal thalamus-dorsal striatum",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Circuits",
+      "label": "VA thalamus",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Physiology",
+      "label": "Delta",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Physiology",
+      "label": "EEG Gamma Rhythms",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Physiology",
+      "label": "EEG Theta Rhythms",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Paradigms",
+      "label": "AX-CPT/DPX",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Paradigms",
+      "label": "Complex Span tasks",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Paradigms",
+      "label": "keep track task",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Paradigms",
+      "label": "Letter memory/running memory",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Paradigms",
+      "label": "Letter Number Sequencing",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Paradigms",
+      "label": "N-back",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Paradigms",
+      "label": "Self-Ordered Pointing",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_UPDATE",
+      "source_category": "Paradigms",
+      "label": "Sternberg Item Recognition",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Molecules",
+      "label": "D1",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Molecules",
+      "label": "D2",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Molecules",
+      "label": "Dopamine",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Molecules",
+      "label": "GABA",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Molecules",
+      "label": "Glutamate",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Circuits",
+      "label": "Dorsal Parietal",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Circuits",
+      "label": "Dorsolateral Prefrontal Cortex",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Circuits",
+      "label": "Inferior Parietal Cortex",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Circuits",
+      "label": "MD",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Circuits",
+      "label": "PFC-parietal-cingulate-dorsal thalamus-dorsal striatum",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Circuits",
+      "label": "VA thalamus",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Circuits",
+      "label": "VLPFC",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Physiology",
+      "label": "Delta",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Physiology",
+      "label": "EEG Gamma Rhythms",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Physiology",
+      "label": "EEG Theta Rhythms",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "AX-CPT/DPX",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "Change detection tasks",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "Complex Span tasks",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "delayed match to non sample",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "delayed match to sample",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "keep track task",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "Letter memory/running memory",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "Letter Number Sequencing",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "N-back",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "Self-Ordered Pointing",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "sequence encoding and reproduction",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "Simple Span Tasks",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_CAPACITY",
+      "source_category": "Paradigms",
+      "label": "Sternberg Item Recognition",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Molecules",
+      "label": "D1",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Molecules",
+      "label": "D2",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Molecules",
+      "label": "Dopamine",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Molecules",
+      "label": "GABA",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Molecules",
+      "label": "Glutamate",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Cells",
+      "label": "Calbindin",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Cells",
+      "label": "Calretinin",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Cells",
+      "label": "Distinct types of inhibitory neurons",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Circuits",
+      "label": "Dorsolateral Prefrontal Cortex",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Circuits",
+      "label": "PFC-parietal-cingulate-dorsal thalamus-dorsal striatum",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Physiology",
+      "label": "Delta",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Physiology",
+      "label": "EEG Gamma Rhythms",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Physiology",
+      "label": "EEG Theta Rhythms",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "Complex Span tasks",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "delayed match to non sample",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "delayed match to sample",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "keep track task",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "Letter memory/running memory",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "Letter Number Sequencing",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "N-back",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "Self-Ordered Pointing",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "Simple Span Tasks",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    },
+    {
+      "source_id": "WM_INTERFERENCE",
+      "source_category": "Paradigms",
+      "label": "Sternberg Item Recognition",
+      "standing": "Source-associated label; no subtype, mechanism necessity or exclusive measurement inferred."
+    }
+  ],
+  "association_inventory_notes": [
+    "Flexible Updating has an empty Cells heading in the inspected page. Limited Capacity has no Cells heading. Neither observation establishes absence of cellular mechanisms.",
+    "Source category placement is retained, including the Interference Control Cells labels; it is not an independently validated entity taxonomy.",
+    "Repeated labels across subconstructs are source occurrences, not newly discovered independent mechanisms."
+  ]
+}

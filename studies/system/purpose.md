@@ -1,0 +1,8 @@
+- Accumulated understanding available when it can change an inquiry or operation.
+- Discovery of worthwhile questions absent from the current formulation.
+- Construction and revision of reasoning operations, representations, and compositions.
+- Connected execution, result use, revision, and resumption of substantive work.
+- New findings and capabilities within specified subjects.
+- Retained improvements used on later relevant occasions.
+- Expanded feasible options after a capability is acquired.
+- Useful understanding preserved across replacement of repositories, models, interfaces, and methods.

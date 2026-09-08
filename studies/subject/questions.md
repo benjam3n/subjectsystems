@@ -1,0 +1,32 @@
+- Which exact artifact defines the Master Framework, and which version is intended?
+- Which real, fully specified matter would defeat the current scope boundaries by satisfying two sibling definitions?
+- Which new result can be established within relation composition or improvement comparison, and which condition limits its transfer?
+- Which evaluation questions are clarified by distributing them, and which become harder to find?
+- Which source contributions remain invisible when the collection is approached through these subject entries?
+- Which single coupling relation requires a new scope, and which apparent overlap is several independently determinable matters within one task?
+- When does a proposed refinement establish an exclusive division, and when should it remain a partial narrower investigation within its parent?
+- Which generated or reconstructed source claims have mistakenly acquired the authority of direct observations or user decisions?
+- Which artifact matches the user's remembered second method for planning years ahead?
+- What determines which contribution a capable model actually makes when several useful operations are already available?
+- What changes when a model anticipates its response before producing it?
+- How much of that change comes from forecasting, intended effect, context reconstruction, or selection among alternatives?
+- Why can an anticipated contribution be more useful than the response that follows it?
+- Which unspecified executor choices make an otherwise explicit operation fail?
+- When does adding a compulsory transformation improve work, and when does it obstruct available judgment?
+- Which combinations of operations produce capabilities absent from the components used independently?
+- How can a system discover an operation that its current representation cannot express?
+- What distinguishes a new uncertainty-producing question from a renamed known answer?
+- Which kinds of departure can be selected before their value is known?
+- Can a useful discovery remain outside every current goal without being irrelevant?
+- What would perfection of the science of a subject mean when the subject's own concepts and standards can change?
+- Which forms of understanding are lost when a subject is developed exclusively through one successful frame?
+- When does improving representation reveal a fact, and when does it change the question being asked?
+- What evidence distinguishes a preference discovered through a selection from a preference induced by the available candidates?
+- How can a standard revealed by one example be justified for another?
+- When should a result revise the goal rather than only the plan or method?
+- Which retained corrections actually alter later work, and what prevents the others from doing so?
+- Which dependencies of a conclusion survive a change of representation or language?
+- What kinds of cross-subject transfer can preserve native distinctions without a universal intermediate schema?
+- What should follow after a subject's present methods become sufficiently capable to remove the original obstacle?
+- Which larger philosophical, scientific, design, or practical aims become feasible from those successes?
+- What would a new interface need to do that the present files and model cannot already do adequately?

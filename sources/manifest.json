@@ -1012,10 +1012,10 @@
     {
       "local_path": "sources/snapshots/reasoningtool2-CURRENT.txt",
       "repository": "benjam3n/reasoningtool2",
-      "path": "CURRENT.md",
+      "path": "studies/subject/scope.md",
       "commit": "ae2435b0004ac44de9bb09c2f045805722038dbb",
       "sha256": "09e5d688918ed6a61e45182211cac81fd40fde46f333178710ade628285f91e8",
-      "url": "https://github.com/benjam3n/reasoningtool2/blob/ae2435b0004ac44de9bb09c2f045805722038dbb/CURRENT.md",
+      "url": "https://github.com/benjam3n/reasoningtool2/blob/ae2435b0004ac44de9bb09c2f045805722038dbb/studies/subject/scope.md",
       "basis": "Preserved inspected snapshot; default-branch head rechecked unchanged during setup."
     },
     {

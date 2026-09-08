@@ -1,0 +1,7 @@
+| Case | Perspective reading to investigate | Consequential distinction | Attribution boundary |
+|---|---|---|---|
+| Hormone | The hormone's interaction disposition, or the receiving system's response configuration | The molecule's structure differs from its concentration history and from the receptor system responding to it | A hormone has beliefs, evaluates problems or chooses its target |
+| Gene or regulatory sequence | A sequence's contribution within a specified regulatory context | Sequence, regulatory interaction and resulting expression are distinct targets | An isolated gene contains a context-independent intention or a complete cellular viewpoint |
+| Cell | The cell's sensitivity, response and adaptation to specified conditions | Which external differences produce which response, and how response conditions change | Every cell implements the same learning or problem-recognition mechanism |
+| LLM | The context and computational operations making distinctions and continuations available | A described perspective differs from one that changes the next consequential operation | A written self-description is complete access to the generating mechanism |
+| Person | Operative distinctions, concerns, learned tendencies and available responses | A perspective can be active without being consciously selected or verbally expressible | Every act begins with explicit diagnosis or deliberation |

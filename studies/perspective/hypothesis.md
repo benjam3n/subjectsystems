@@ -1,0 +1,9 @@
+- Does every relevant perspective change require prior problem detection?
+- Which perspectives can activate before a defect is identified?
+- Which omissions remain invisible under the current recognition conditions?
+- When does writing construct, express, preserve, or modify a perspective?
+- Which perceptual changes supply new inputs, and which change the organizing interpretation?
+- What relation holds between perspective optimization and conscious experience?
+- What evidence supports the proposed hemispheric division between problem recognition and perspective development?
+- Which perspective processes account for particular social-media behaviors?
+- What does a hormone, sequence, or cell perspective attribution add to the specified mechanism account?
