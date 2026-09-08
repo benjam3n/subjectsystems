@@ -1,5 +1,6 @@
 | System | Description |
 |---|---|
+| [Mind change selection](mind-change-selection.md) | Selection, arrangement, execution, and revision of changes to a model, a person, their interaction, or the conditions in which they think and act. |
 | [Design alternative construction](design-alternative-construction.md) | Development of possibilities that differ in their available consequences, with useful alternatives retained during exploration. |
 | [Design candidate exploration](design-candidate-exploration.md) | Construction of an artifact through comparisons that develop its form and requirements. |
 | [Improvement candidate revision](improvement-candidate-revision.md) | Revision of an object against a specified baseline, with the intended improvement and its costs preserved in the comparison. |
