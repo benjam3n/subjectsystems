@@ -64,6 +64,8 @@ Whether two response configurations yield the same specified observable response
 
 Which specified part of a bearer-context arrangement changed between two response episodes. Excludes: Attributing improvement, causal sufficiency or intentional revision from the changed result alone.
 
+[Mind change selection](../systems/mind-change-selection.md)
+
 ## Perspective problem recognition contribution
 
 How changing a perspective changes which problems are recognized in a fixed presented situation under a fixed relevance standard. Excludes: The choice to act on a recognized problem or a difference caused solely by new presented evidence.
@@ -128,7 +130,7 @@ Whether an agent's observed distinctions and operations correspond to its declar
 
 Construction of a consequential distinction for organizing perspectives absent from the stated initial construction scheme. Excludes: Renaming an existing dimension or adding a label without a separating case.
 
-[Perspective consequence comparison](../systems/perspective-consequence-comparison.md)
+[Perspective consequence comparison](../systems/perspective-consequence-comparison.md) · [Mind change selection](../systems/mind-change-selection.md)
 
 ## Perspective candidate space specification
 

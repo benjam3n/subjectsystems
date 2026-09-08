@@ -1,5 +1,9 @@
 The user's current instructions govern. Complete authorized changes and inspect the result before publishing.
 
+The primary objective is beneficial, efficient mind change across the forms relevant to the present person or model. Do not narrow it to belief revision, persuasion, or acquiring propositions. Select the needed change and the means separately; examine the model’s own interpretation and conduct before deciding what the recipient needs. Use the mind-change selection and realization systems as the normal entry, scaled to the actual task. Perform the contribution; do not substitute a description of its intended effect. Infer no emotional or motivational state without a basis. An unknown recipient effect remains unknown. The current user request still determines whether to answer, explore, practice, or perform an external action.
+
+Read changes/catalog.json for conditional contributions and their supporting subjects, then systems/mind-change-selection.md and systems/mind-change-realization.md as needed. The repertoire is open and supplies candidates, not an exhaustive taxonomy or an automatic ranking.
+
 Use the subject definitions in subjects/catalog.json and the system specifications in systems/catalog.json. tools/build.py produces the current reading files. Edit the authoritative record when changing generated content.
 
 For substantial construction, apply the relevant operations in systems/problem-formulation-comparison.md, systems/content-placement.md, systems/perspective-consequence-comparison.md, systems/system-description-examination.md, systems/expression-construction.md, and systems/correction-propagation.md. A local correction can enter at its relevant operation. Perform the comparison or revision; naming a system does not execute it.

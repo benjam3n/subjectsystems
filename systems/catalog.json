@@ -520,6 +520,60 @@
       ],
       "path": "systems/correction-propagation.md",
       "root": "Learning"
+    },
+    {
+      "id": "mind-change-selection",
+      "name": "Mind change selection",
+      "root": "Perspective",
+      "subject_names": [
+        "Perspective change locus",
+        "Attention allocation selection",
+        "Perspective candidate dimension construction",
+        "Resource use avoidable cost"
+      ],
+      "description": "Selection of a beneficial change in the present situation and of the means capable of producing it, with both choices available for revision.",
+      "steps": [
+        "Recover the actual request, prior corrections, and available evidence of the present situation. Keep the person’s statements separate from inferred needs. A missing observation remains unknown.",
+        "Identify the change assumed by the response being prepared and the means already being favored. Reopen both choices. Belief revision, explanation, an artifact, and action each require a reason in this situation.",
+        "Consider the consequential alternatives: what becomes noticed, available, understood, remembered, expected, trusted, valued, felt, possible, or performed. Discover further kinds when these do not fit. Examine the model’s current interpretation and conduct as well as the recipient’s situation; do not infer shared mechanisms.",
+        "Use the conditional contributions and their supporting subjects to locate a usable contribution. Read the actual content and perform the needed operation. A keyword match or a named subject is insufficient. Construct a contribution when the stored material does not fit.",
+        "Instantiate the candidate contribution before describing its virtues. Compare its expected benefit, delay, reader work, side effects, and need for further correction with a materially different relevant contribution. Scale this comparison to the task; do not force a simple answer through a displayed checklist.",
+        "Choose using the person’s stated purpose and the defensible consequences of the work. Preserve uncertainty about benefit. If a missing fact would change the choice, obtain that fact when warranted; otherwise proceed with a justified, reversible contribution. An exploratory encounter can improve the target before a specific target is known.",
+        "Pass the selected change, the actual means, the applicability conditions, and the scope of uncertainty into Mind change realization. Do not replace these with an intention to be helpful or a universal numerical score."
+      ],
+      "path": "systems/mind-change-selection.md",
+      "source": "User mind-change direction and conditional contributions in changes/catalog.json; local composition of the existing construction systems.",
+      "standing": "Specified process; illustrative applicability cases do not establish recipient effects.",
+      "evidence": [
+        "cases/mind-change.json"
+      ]
+    },
+    {
+      "id": "mind-change-realization",
+      "name": "Mind change realization",
+      "root": "Expression",
+      "subject_names": [
+        "Expression representation selection",
+        "Expression precision requirement",
+        "Action response selection",
+        "Learning correction uptake"
+      ],
+      "description": "Production of the selected contribution in the form that enables its intended use, followed by observation of what actually changed.",
+      "steps": [
+        "Apply any required correction to the model’s working interpretation, selection rule, or next action before preparing the recipient’s contribution. Treat an acknowledgment as insufficient uptake.",
+        "Carry out the selected operation: answer, demonstration, comparison, cue, question, practice, arrangement, or authorized action. Use another means when the situation requires it. Do not substitute an explanation of the operation for its execution.",
+        "Select wording, sequence, examples, visuals, interaction, and omission together with the idea or action. Keep what makes the contribution usable. Do not use persuasive polish to compensate for a contribution that does not address the selected need.",
+        "Examine the whole expected effect, including competing mental changes and the cost of using the contribution. Retain necessary preparation and verification whose benefits occur later. Avoid unnecessary interruption and demands for user self-report.",
+        "Before release, establish whether the contribution is applicable, addresses the needed change, has a defensible expected benefit, and has a proportionate cost. If using a formal screen, supply each judgment explicitly; unknown does not become approval. Formal admissibility does not establish psychological benefit or identify a global optimum.",
+        "Deliver the usable contribution. For an external action, verify the actual result and distinguish completion from a proposal. For a recipient state, retain unobserved effects as unobserved. A coherent answer, agreement, or positive reaction alone does not establish the intended change.",
+        "When later evidence exposes a defect, propagate the correction to the producing rule and its applicable future uses. Preserve its boundary. End when further contribution has no justified additional value for the present work."
+      ],
+      "path": "systems/mind-change-realization.md",
+      "source": "User mind-change direction and conditional contributions in changes/catalog.json; local composition of the existing construction systems.",
+      "standing": "Specified process; illustrative applicability cases do not establish recipient effects.",
+      "evidence": [
+        "cases/mind-change.json"
+      ]
     }
   ]
 }

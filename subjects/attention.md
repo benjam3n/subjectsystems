@@ -4,6 +4,8 @@ Which available material receives operative focus under specified conditions.
 
 Which available matter should receive the next interval of operative focus. Excludes: Selecting an entire long-term plan.
 
+[Mind change selection](../systems/mind-change-selection.md)
+
 ## Attention allocation duration
 
 How long focus should persist before the next reassessment. Excludes: Confusing persistence with indefinite repetition.

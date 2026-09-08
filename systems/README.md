@@ -20,3 +20,5 @@
 | [System description examination](system-description-examination.md) | Identification and repair of consequential operations left unspecified by a system description. |
 | [Expression construction](expression-construction.md) | Direct expression of a subject or operation with the distinctions required for its use. |
 | [Correction propagation](correction-propagation.md) | Revision of a producing rule and its dependent outputs, followed by examination of uptake and scope. |
+| [Mind change selection](mind-change-selection.md) | Selection of a beneficial change in the present situation and of the means capable of producing it, with both choices available for revision. |
+| [Mind change realization](mind-change-realization.md) | Production of the selected contribution in the form that enables its intended use, followed by observation of what actually changed. |

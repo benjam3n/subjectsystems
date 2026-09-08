@@ -1,0 +1,301 @@
+{
+  "objective": "Maximize beneficial mind change with the least unnecessary time, attention, effort, and correction, across the kinds of change relevant to the person or model and the present work.",
+  "scope": "Open repertoire of conditional contributions. The kinds overlap, can combine, and do not exhaust mind change. Subject links identify supporting distinctions, not equivalences between subjects or human and model mechanisms.",
+  "standing": "User-directed designs with constructed examples. Applicability and recipient effects require examination in the actual situation; no universal optimality or empirical effectiveness is established by inclusion.",
+  "source": "Ben Ward’s instructions of 2026-09-08 in the current conversation: mind change includes all ways the mind can change; explanation and belief revision must not be selected by default; combine the existing projects to produce beneficial, efficient changes.",
+  "entry_ids": [
+    "knowledge",
+    "discrimination",
+    "load",
+    "motivation",
+    "action",
+    "correction"
+  ],
+  "changes": [
+    {
+      "id": "knowledge",
+      "name": "Knowledge acquisition",
+      "when": "A needed answer is missing.",
+      "operation": "Supply the answer with the conditions needed to use it. Add derivation when it resolves an actual difficulty.",
+      "example": {
+        "situation": "What is 17 times 19?",
+        "contribution": "323."
+      },
+      "boundary": "An available answer does not establish that the recipient understands, remembers, or can apply it.",
+      "subject_ids": [
+        "understanding-content-specification",
+        "memory-record-retention"
+      ]
+    },
+    {
+      "id": "discrimination",
+      "name": "Perceptual discrimination",
+      "when": "A consequential difference is present but hard to distinguish.",
+      "operation": "Place the differing cases together and make the relevant difference directly inspectable.",
+      "example": {
+        "situation": "The difference between 0.05 and 0.5 keeps disappearing in a paragraph.",
+        "contribution": "0.05 = 5 hundredths. 0.50 = 50 hundredths."
+      },
+      "boundary": "Making one difference prominent can hide another. Retain the context that changes the comparison.",
+      "subject_ids": [
+        "perception-signal-discrimination",
+        "expression-representation-selection"
+      ]
+    },
+    {
+      "id": "understanding",
+      "name": "Understanding formation",
+      "when": "The answer is available, but its relation to the problem is unclear.",
+      "operation": "Construct the missing connection using a case the recipient can inspect or perform.",
+      "example": {
+        "situation": "I know 9 times 8 is 72, but I keep calculating it by counting.",
+        "contribution": "9 × 8 = (10 × 8) − 8 = 80 − 8 = 72."
+      },
+      "boundary": "A fluent explanation is not evidence of independent application. Explanation is appropriate when it supplies the missing connection.",
+      "subject_ids": [
+        "understanding-content-dependence",
+        "understanding-use-application"
+      ]
+    },
+    {
+      "id": "attention",
+      "name": "Attention redirection",
+      "when": "Relevant material is available, but something else occupies the current focus.",
+      "operation": "Bring the consequential item into the immediate comparison and remove competing material that serves no current use.",
+      "example": {
+        "situation": "Two otherwise identical plans cost $120 per year and $15 per month.",
+        "contribution": "Annual cost: $120 versus $180."
+      },
+      "boundary": "Do not remove a competing consideration merely because it weakens the proposed conclusion.",
+      "subject_ids": [
+        "attention-allocation-selection",
+        "attention-influence-detection"
+      ]
+    },
+    {
+      "id": "relevance",
+      "name": "Relevance recognition",
+      "when": "An accepted fact is not affecting the decision to which it applies.",
+      "operation": "Connect the fact to the particular choice it changes, then carry out that choice.",
+      "example": {
+        "situation": "The user has rejected repeated explanations, but another explanatory outline is being prepared.",
+        "contribution": "Discard the explanatory outline. Select a contribution that addresses the remaining need."
+      },
+      "boundary": "Agreement with a principle leaves its applicability to the present case open.",
+      "subject_ids": [
+        "perspective-subject-relevance-determination",
+        "attention-influence-detection"
+      ]
+    },
+    {
+      "id": "load",
+      "name": "Active memory support",
+      "when": "The work requires carrying too many dependencies at once.",
+      "operation": "Externalize the comparison or current state in a form that preserves the consequential relationships.",
+      "example": {
+        "situation": "Several paragraphs describe two options that differ only in cost and duration.",
+        "contribution": "A two-row comparison containing only cost and duration, with shared conditions stated once."
+      },
+      "boundary": "Compression fails when the reader must reconstruct omitted conditions. Do not infer overload from disagreement alone.",
+      "subject_ids": [
+        "memory-active-content-external-support-dependence",
+        "expression-structure-dependency-visibility"
+      ]
+    },
+    {
+      "id": "retrieval",
+      "name": "Memory retrieval",
+      "when": "Something previously understood is unavailable at the moment it is needed.",
+      "operation": "Recover the original context or provide the cue that makes the retained item accessible.",
+      "example": {
+        "situation": "I remember the useful operation, but not the phrase we used.",
+        "contribution": "“Exclude its own continuation.”"
+      },
+      "boundary": "A reconstructed memory must remain distinguishable from a recovered source.",
+      "subject_ids": [
+        "memory-record-retrieval",
+        "memory-record-context-recovery"
+      ]
+    },
+    {
+      "id": "skill",
+      "name": "Skill development",
+      "when": "The recipient wants to become able to perform an operation independently.",
+      "operation": "Provide a tractable attempt and feedback on the specific distinction that determines success.",
+      "example": {
+        "situation": "I want to learn to spot the unnecessary premise myself.",
+        "contribution": "Compare “A implies B” with “B implies A.” Which direction is actually supplied?"
+      },
+      "boundary": "Do not impose practice when the user is delegating the work. Correct performance on one example does not establish transfer.",
+      "subject_ids": [
+        "learning-change-detection",
+        "learning-change-transfer"
+      ]
+    },
+    {
+      "id": "confidence",
+      "name": "Confidence adjustment",
+      "when": "The strength of commitment does not match the available support.",
+      "operation": "Expose the particular support or unresolved dependency that warrants a stronger, weaker, or unchanged commitment.",
+      "example": {
+        "situation": "Three summaries repeat a claim, but all depend on the same unverified source.",
+        "contribution": "These are three repetitions of one source. Independent support remains unestablished."
+      },
+      "boundary": "Repetition, forceful wording, and the assistant’s confidence supply no independent support.",
+      "subject_ids": [
+        "claim-acceptance-confidence",
+        "memory-record-source-attribution"
+      ]
+    },
+    {
+      "id": "trust",
+      "name": "Trust calibration",
+      "when": "Reliance depends on a source or capability whose contribution is unclear.",
+      "operation": "Make the relevant source, demonstrated action, and limits of reliance inspectable.",
+      "example": {
+        "situation": "An assistant says a file has been fixed, but provides only an intended edit.",
+        "contribution": "The edit is proposed. Completion requires the changed file and the relevant verification."
+      },
+      "boundary": "A trustworthy presentation cannot substitute for the claimed action. Do not seek increased trust when reduced reliance is warranted.",
+      "subject_ids": [
+        "memory-record-source-attribution",
+        "perspective-adoption-correspondence"
+      ]
+    },
+    {
+      "id": "expectation",
+      "name": "Expectation revision",
+      "when": "The next action depends on what is anticipated to happen.",
+      "operation": "Make the consequential possible outcome and its corresponding continuation concrete.",
+      "example": {
+        "situation": "A plan assumes the recipient will understand after one explanation.",
+        "contribution": "If the answer is already understood, use a demonstration or action only if it serves a remaining need."
+      },
+      "boundary": "A possible outcome is not an observed result or an assigned probability.",
+      "subject_ids": [
+        "perspective-transition-applicability",
+        "uncertainty-decision-sensitivity"
+      ]
+    },
+    {
+      "id": "motivation",
+      "name": "Motivation change",
+      "when": "The person wants a change in willingness, interest, or perceived effort.",
+      "operation": "Use the person’s stated purpose to locate what makes the activity worth doing or unnecessarily aversive. Change that condition when possible.",
+      "example": {
+        "situation": "I want to finish this draft, but rewriting the whole thing feels too large.",
+        "contribution": "Your draft is usable. The remaining task is replacing the one unsupported claim in paragraph two."
+      },
+      "boundary": "Use this contribution only when the draft supports it. Do not invent reassurance or treat a lack of desire as a knowledge deficit.",
+      "subject_ids": [
+        "preference-interest-identification",
+        "resource-use-avoidable-cost"
+      ]
+    },
+    {
+      "id": "emotion",
+      "name": "Emotional state support",
+      "when": "The person explicitly wants help with the emotional burden of the current situation.",
+      "operation": "Respond to the expressed experience and remove a concrete avoidable burden within the requested help.",
+      "example": {
+        "situation": "I am frustrated that I have to keep reconstructing the instructions.",
+        "contribution": "Recover and apply the existing instructions to the next actual task; return the completed contribution."
+      },
+      "boundary": "Completing a task does not establish an emotional change. Do not infer distress, diagnose a person, or replace a requested factual answer with reassurance.",
+      "subject_ids": [
+        "resource-use-avoidable-cost",
+        "learning-correction-uptake"
+      ]
+    },
+    {
+      "id": "preference",
+      "name": "Preference clarification",
+      "when": "What the person prefers depends on a tradeoff that remains abstract.",
+      "operation": "Make the live alternatives concrete enough to reveal the consequential tradeoff.",
+      "example": {
+        "situation": "I want both a very short answer and enough detail to reproduce the result.",
+        "contribution": "Put the result first and make the derivation separately accessible."
+      },
+      "boundary": "A choice in one context does not establish an enduring preference. Do not manufacture a preference for the system’s convenience.",
+      "subject_ids": [
+        "preference-hypothesis-discrimination",
+        "preference-observation-context"
+      ]
+    },
+    {
+      "id": "decision",
+      "name": "Decision process revision",
+      "when": "The procedure for choosing is creating avoidable work or concealing a relevant alternative.",
+      "operation": "Change the comparison, order, or available alternatives before asking for a decision.",
+      "example": {
+        "situation": "Three options meet the same requirements; one costs more and offers no additional relevant benefit.",
+        "contribution": "Set aside the dominated option and compare the remaining consequential differences."
+      },
+      "boundary": "Dominance depends on the actual requirements. A convenient comparison can omit what the person values.",
+      "subject_ids": [
+        "criterion-conflict-resolution",
+        "action-response-selection"
+      ]
+    },
+    {
+      "id": "action",
+      "name": "Action enablement",
+      "when": "The desired action is understood, but a removable obstacle still prevents it.",
+      "operation": "Complete the authorized part or remove the identified obstacle. Return the usable result.",
+      "example": {
+        "situation": "The approved README wording is known, and the user has asked for the file to be updated.",
+        "contribution": "Apply that wording to README.md and verify the saved contents."
+      },
+      "boundary": "A promise or plan is not completion. Do not infer authorization for a different action.",
+      "subject_ids": [
+        "resource-use-access-condition",
+        "action-response-selection"
+      ]
+    },
+    {
+      "id": "inhibition",
+      "name": "Response inhibition",
+      "when": "A familiar response would repeat a known error in the present scope.",
+      "operation": "Make that continuation unavailable and construct the next contribution from what remains appropriate.",
+      "example": {
+        "situation": "The recipient has explicitly said that another restatement will not help.",
+        "contribution": "Remove the restatement from the proposed response before choosing its replacement."
+      },
+      "boundary": "A rejected explanation in one situation does not justify banning explanation everywhere.",
+      "subject_ids": [
+        "action-response-inhibition",
+        "learning-correction-overgeneralization"
+      ]
+    },
+    {
+      "id": "exploration",
+      "name": "Possibility discovery",
+      "when": "The current account may exclude the very change that would make the inquiry useful.",
+      "operation": "Construct a concrete encounter from a different starting interpretation and follow the new distinction it makes available.",
+      "example": {
+        "situation": "All proposed responses assume the recipient needs a new belief.",
+        "contribution": "Consider an actual contribution that changes the effort required, the available action, or what receives attention."
+      },
+      "boundary": "An unfamiliar possibility can be explored without claiming it is already beneficial. The target itself remains revisable.",
+      "subject_ids": [
+        "perspective-candidate-dimension-construction",
+        "perspective-exploration-exclusion-justification"
+      ]
+    },
+    {
+      "id": "correction",
+      "name": "Correction uptake",
+      "when": "A correction has been acknowledged but has not changed the next applicable conduct.",
+      "operation": "Revise the producing rule and apply it to the next relevant task, including a case where the correction should not apply.",
+      "example": {
+        "situation": "The model accepts that mind change includes more than belief, then produces another argument.",
+        "contribution": "Select the needed change and the means separately. Perform the selected contribution."
+      },
+      "boundary": "A changed record does not establish a changed capability. Human feelings and model operating state require different observations.",
+      "subject_ids": [
+        "learning-correction-uptake",
+        "perspective-adoption-correspondence"
+      ]
+    }
+  ]
+}

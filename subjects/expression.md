@@ -4,6 +4,8 @@ The form used to express identified content, or its interpretation by a specifie
 
 Selection of a form for expressing fixed content under stated requirements. Excludes: Changing the content to make a chosen form convenient.
 
+[Mind change realization](../systems/mind-change-realization.md)
+
 ## Expression representation creation
 
 Construction of an expression that represents the specified content. Excludes: Establishing the truth of the content.
@@ -84,7 +86,7 @@ What action requirement the recipient attributes to the instruction. Excludes: E
 
 Which distinctions an expression must preserve for a particular use to be adequate. Excludes: Demanding maximal detail in every context or confusing brevity with imprecision.
 
-[Expression construction](../systems/expression-construction.md)
+[Expression construction](../systems/expression-construction.md) · [Mind change realization](../systems/mind-change-realization.md)
 
 - [Expression prompt effect](../studies/expression/prompt-effect.md)
 - [Expression questions](../studies/expression/questions.md)

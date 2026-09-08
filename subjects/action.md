@@ -4,6 +4,8 @@ Specified behavioral responses and conditions governing their selection or inhib
 
 Which candidate behavioral response is selected under specified task conditions. Excludes: General reasoning approach choice or whether the chosen response is executed.
 
+[Mind change realization](../systems/mind-change-realization.md)
+
 ## Action response inhibition
 
 Whether a specified response is withheld or stopped following a stated condition. Excludes: Selecting another response or permanently removing the capacity to respond.
