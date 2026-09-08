@@ -11,7 +11,10 @@
         "Perspective change contribution",
         "Perspective change criterion drift",
         "Perspective improvement retention",
-        "Learning correction uptake"
+        "Learning correction uptake",
+        "Attention allocation selection",
+        "Perspective candidate dimension construction",
+        "Resource use avoidable cost"
       ],
       "description": "Selection, arrangement, execution, and revision of changes to a model, a person, their interaction, or the conditions in which they think and act.",
       "scope": "Mind change includes changes of time, duration, pace, order, location, environment, bodily readiness, attention, perception, representation, knowledge, uncertainty, trust, emotion, motivation, goals, priorities, identity, memory, skill, available possibilities, decision rules, action, relationships, tools, resources, and the way later changes are selected. These overlap and do not exhaust the possibilities. Distinguish a person's state, a model's working state, and their shared conditions wherever different operations or evidence follow. For a model, changes to context, retrieved material, representation, instructions, tools, and working assumptions are available only through the host's actual capabilities; a conversation does not establish a change to model weights.",
@@ -61,10 +64,10 @@
         "Recover the current request, relevant prior corrections, available material, and actual capabilities. Identify what is observed, inferred, or unavailable about the person, model, and setting. Retrieve resolvable context yourself. Ask for a fact only when its answer would materially change the next contribution and cannot reasonably be recovered; do not make the person choose your method or complete an intake form.",
         "Anticipate the strongest response or continuation you would presently choose. Identify the interpretation and selection rule that make it appear appropriate. At a consequential unresolved choice, construct a credible alternative that changes what is being changed, not just its wording. If the governing interpretation excludes a promising direction, temporarily set its continuation aside and examine that direction without first pretending the original is false. Skip manufactured alternatives when no consequential choice remains.",
         "Locate a useful next change using the scope and standards. Inspect whether the obstacle is in the model's interpretation or conduct, the person's current state or access, or their conditions of interaction. Keep competing locations when evidence does not distinguish them. If the needed change is unclear, choose an observation, encounter, or reversible exploratory operation that could reveal it; diagnosis and a fixed destination are not prerequisites for exploration.",
-        "Retrieve an existing operation when its actual input, transformation, and result fit the situation. Read the exact source before claiming to execute a named original procedure. Adapt or construct an operation when the available ones leave a consequential gap, keeping the adaptation distinct. Consider a different representation, timing, setting, tool, role, or allocation of work when these could change what becomes possible. A capability or authorization gap changes what can be performed now.",
+        "Consult the conditional contributions and their supporting subjects when they fit the live situation. Retrieve an existing operation when its actual input, transformation, and result fit the situation. Read the exact source before claiming to execute a named original procedure. Adapt or construct an operation when the available ones leave a consequential gap, keeping the adaptation distinct. Consider a different representation, timing, setting, tool, role, or allocation of work when these could change what becomes possible. A capability or authorization gap changes what can be performed now.",
         "Construct the viable arrangement. For each consequential operation, identify what it consumes, what changes, what later operation uses that change, and what result would redirect the sequence. Compare meaningful orderings when they can differ. Include preparation, a pause, repetition, simplification, removal, or stopping when warranted. A prerequisite may earn its cost through a later operation even when it has little immediate visible effect.",
         "Select using the supported benefits, competing consequences, and total costs over the relevant horizon. Eliminate a route when another is at least as good on every supported relevant comparison and better on one, with no unresolved material trade-off. Otherwise preserve the trade-off and choose on the best supported current priorities. Where uncertainty would reverse the choice, obtain a discriminating observation if its likely value warrants the cost; otherwise make a bounded reversible choice and retain the uncertainty. Do not turn estimates into measurements.",
-        "Perform the selected change through available, authorized means. Revise the model's working interpretation, representation, search, context, or operation before addressing a problem caused there. Construct the representation, inspect the source, provide the useful distinction, or carry out the task when that is the contribution. Describe a human action when the person must perform it. A proposed relocation or later encounter is not a completed change; a later action requires an actual scheduling or continuation mechanism.",
+        "Perform the selected change through available, authorized means. Revise the model's working interpretation, representation, search, context, or operation before addressing a problem caused there. Construct the representation, inspect the source, provide the useful distinction, or carry out the task when that is the contribution. Describe a human action when the person must perform it. A proposed relocation or later encounter is not a completed change; a later action requires an actual scheduling or continuation mechanism. Use Mind change realization for the particular demands of producing and delivering the selected contribution.",
         "Compare the consequence with the expected change and the relevant alternative using the least burdensome adequate evidence. Check consequential effects on other dimensions, including future revisability. Keep natural change, changed criteria, new resources, and other competing explanations visible when attributing an effect. If a criterion itself changes, preserve the earlier comparison and justify the revised criterion separately. A worked model example establishes only what happened in that example.",
         "Use the result to continue, alter the operation or order, change the locus, revisit the concern or criterion, obtain missing evidence, or stop. A rejection reopens the model of the situation; it does not automatically call for stronger rhetoric or repeating the same method. Stop when the requested work is sufficiently handled or the next supported marginal benefit no longer warrants the burden; defer when the opportunity is genuinely better later and a feasible continuation exists.",
         "Retain only the reusable situation, operation, observed consequence, scope, and future trigger needed for subsequent use. Propagate corrections to the rule and dependent work that produced the failure. Check the next suitable recurrence and a boundary case when available. Present the contribution in the form the person can use, with material reasons or uncertainty; keep method-selection bookkeeping out of the response unless it helps their decision or they request it.",
@@ -73,7 +76,8 @@
       "standing": "Operational instruction standard with worked design cases; comparative human benefit and universal optimality are unestablished.",
       "source": "User request, 2026-09-08: automate selection and arrangement for beneficial efficient mind change across time, location, representation, motivation, and all other aspects; develops the current Subject Systems construction operations and Reasoningtool2 contribution-selection contract.",
       "evidence": [
-        "cases/mind-change-selection.md"
+        "cases/mind-change-selection.md",
+        "cases/mind-change.json"
       ],
       "path": "systems/mind-change-selection.md",
       "root": "Perspective"
@@ -598,6 +602,33 @@
       ],
       "path": "systems/correction-propagation.md",
       "root": "Learning"
+    },
+    {
+      "id": "mind-change-realization",
+      "name": "Mind change realization",
+      "root": "Expression",
+      "subject_names": [
+        "Expression representation selection",
+        "Expression precision requirement",
+        "Action response selection",
+        "Learning correction uptake"
+      ],
+      "description": "Production of the selected contribution in the form that enables its intended use, followed by observation of what actually changed.",
+      "steps": [
+        "Apply any required correction to the model’s working interpretation, selection rule, or next action before preparing the recipient’s contribution. Treat an acknowledgment as insufficient uptake.",
+        "Carry out the selected operation: answer, demonstration, comparison, cue, question, practice, arrangement, or authorized action. Use another means when the situation requires it. Do not substitute an explanation of the operation for its execution.",
+        "Select wording, sequence, examples, visuals, interaction, and omission together with the idea or action. Keep what makes the contribution usable. Do not use persuasive polish to compensate for a contribution that does not address the selected need.",
+        "Examine the whole expected effect, including competing mental changes and the cost of using the contribution. Retain necessary preparation and verification whose benefits occur later. Avoid unnecessary interruption and demands for user self-report.",
+        "Before release, establish whether the contribution is applicable, addresses the needed change, has a defensible expected benefit, and has a proportionate cost. If using a formal screen, supply each judgment explicitly; unknown does not become approval. Formal admissibility does not establish psychological benefit or identify a global optimum.",
+        "Deliver the usable contribution. For an external action, verify the actual result and distinguish completion from a proposal. For a recipient state, retain unobserved effects as unobserved. A coherent answer, agreement, or positive reaction alone does not establish the intended change.",
+        "When later evidence exposes a defect, propagate the correction to the producing rule and its applicable future uses. Preserve its boundary. End when further contribution has no justified additional value for the present work."
+      ],
+      "path": "systems/mind-change-realization.md",
+      "source": "User mind-change direction and conditional contributions in changes/catalog.json; local composition of the existing construction systems.",
+      "standing": "Specified process; illustrative applicability cases do not establish recipient effects.",
+      "evidence": [
+        "cases/mind-change.json"
+      ]
     }
   ]
 }

@@ -37,6 +37,31 @@ def outputs():
 
     catalog = json.loads((ROOT / 'subjects/catalog.json').read_text())
     names = {s['name']: s for s in catalog['subjects']}
+    by_id = {s['id']: s for s in catalog['subjects']}
+    changes = json.loads((ROOT / 'changes/catalog.json').read_text())
+    entries = {c['id']: c for c in changes['changes']}
+    for change in changes['changes']:
+        page = ROOT / 'changes' / (change['id'] + '.md')
+        example = change['example']
+        capture(page, [change['when'], change['operation'],
+                      'Example: ' + example['situation'],
+                      '> ' + example['contribution'].replace('\n', '\n> '),
+                      change['boundary'], ' · '.join(
+                          f"[{by_id[s]['name']}](../subjects/{slug(by_id[s]['root'])}.md#{slug(by_id[s]['name'])})"
+                          for s in change['subject_ids'])])
+    capture(ROOT / 'changes/README.md', [changes['scope'], descriptions.table(
+        ['When', 'Contribution'], [(c['when'], f"[{c['name']}]({c['id']}.md)")
+                                   for c in changes['changes']]), changes['standing'],
+        '[Select a change](../systems/mind-change-selection.md) · '
+        '[Produce the contribution](../systems/mind-change-realization.md)'])
+    capture(ROOT / 'README.md', [changes['objective'], descriptions.table(
+        ['When', 'Use'], [(entries[k]['when'], f"[{entries[k]['name']}](changes/{k}.md)")
+                         for k in changes['entry_ids']]),
+        '[Further changes](changes/README.md) · [Subjects](subjects/README.md) · '
+        '[Systems](systems/README.md) · [Studies](studies/README.md)',
+        '[Select the needed change](systems/mind-change-selection.md) · '
+        '[Produce the contribution](systems/mind-change-realization.md) · '
+        '[Perspective Optimizer](https://github.com/benjam3n/perspectiveoptimizer)'])
     systems = json.loads((ROOT / 'systems/catalog.json').read_text())['systems']
     capture(ROOT / 'systems/README.md', [descriptions.table(['System', 'Description'], [
         (f"[{s['name']}]({s['id']}.md)", s['description']) for s in systems])])
@@ -53,6 +78,8 @@ def outputs():
         sections.append(' · '.join(
             f"[{name}](../subjects/{slug(names[name]['root'])}.md#{slug(name)})"
             for name in system['subject_names']))
+        if system['id'].startswith('mind-change-'):
+            sections.append('[Conditional contributions](../changes/README.md)')
         for evidence in system.get('evidence', []):
             label = 'Repository construction' if evidence.startswith('cases/repository') else 'Case results'
             sections.append(descriptions.link(page, ROOT / evidence, label))

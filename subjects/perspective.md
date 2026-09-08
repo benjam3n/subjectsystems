@@ -134,7 +134,7 @@ Whether an agent's observed distinctions and operations correspond to its declar
 
 Construction of a consequential distinction for organizing perspectives absent from the stated initial construction scheme. Excludes: Renaming an existing dimension or adding a label without a separating case.
 
-[Perspective consequence comparison](../systems/perspective-consequence-comparison.md)
+[Mind change selection](../systems/mind-change-selection.md) · [Perspective consequence comparison](../systems/perspective-consequence-comparison.md)
 
 ## Perspective candidate space specification
 

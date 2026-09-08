@@ -82,4 +82,6 @@ The cost of locating and accessing an identified retained resource in a specifie
 
 The excess resources consumed relative to an available feasible alternative meeting the same specified result standard. Excludes: Declaring creative exploration wasteful solely because a cheaper familiar answer existed.
 
+[Mind change selection](../systems/mind-change-selection.md)
+
 - [Resource questions](../studies/resource/questions.md)

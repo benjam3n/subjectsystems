@@ -24,7 +24,7 @@ How later experience alters an earlier learned ability under comparable conditio
 
 Whether a supplied correction changes the next applicable conduct. Excludes: Merely acknowledging or storing the correction.
 
-[Mind change selection](../systems/mind-change-selection.md) · [Correction propagation](../systems/correction-propagation.md)
+[Mind change selection](../systems/mind-change-selection.md) · [Correction propagation](../systems/correction-propagation.md) · [Mind change realization](../systems/mind-change-realization.md)
 
 ## Learning correction generalization
 

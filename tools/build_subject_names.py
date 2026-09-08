@@ -67,7 +67,7 @@ for root in sorted(roots):
         out.append('\n'.join('- '+link(page,p,root+' '+p.stem.replace('-',' ')) for p in studies))
     write(page, out)
     index.append((root, page, record['scope']))
-for page in [REPO/'README.md', REPO/'subjects/README.md']:
+for page in [REPO/'subjects/README.md']:
     write(page,[table(['Subject','Definition'],[(link(page,p,root),scope) for root,p,scope in index]),
                 '\n'.join('- '+link(page,REPO/d/'README.md',name) for d,name in [('studies','Study'),('systems','System'),('sources','Source')])])
 write(REPO/'studies/subject/name-change.md', [table(['Earlier scope','Earlier name','Name','Relation','Reason'], [(r['code'],r['old'],'; '.join(r['names']),r['relation'],r['reason']) for r in analysis['name_changes']])])

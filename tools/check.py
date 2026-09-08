@@ -37,7 +37,7 @@ expected = outputs()
 for name, content in expected.items():
     path = ROOT / name
     require(path.is_file() and path.read_text() == content, 'Outdated generated content: ' + name)
-for directory in ['subjects', 'systems']:
+for directory in ['subjects', 'systems', 'changes']:
     actual = {p.relative_to(ROOT).as_posix() for p in (ROOT / directory).glob('*.md')}
     require(actual == {p for p in expected if str(Path(p).parent) == directory}, 'Unregistered current pages: ' + directory)
 for root in catalog['roots']:
@@ -57,6 +57,15 @@ for row in systems:
     require(set(row['subject_names']) <= {r['name'] for r in records}, 'Unknown qualified system subject: ' + row['name'])
     require(bool(row['description']) and bool(row['steps']), 'Incomplete system: ' + row['name'])
     require(bool(row.get('source') or row.get('source_specification')), 'Missing system origin: ' + row['name'])
+
+changes = read('changes/catalog.json')
+change_ids = {c['id'] for c in changes['changes']}
+require(len(change_ids) == len(changes['changes']), 'Duplicate change identity')
+require(set(changes['entry_ids']) <= change_ids, 'Unknown change entry point')
+for change in changes['changes']:
+    require(set(change['subject_ids']) <= ids, 'Unknown supporting subject: ' + change['id'])
+    require(all(change.get(k) for k in ['when', 'operation', 'boundary', 'example']),
+            'Incomplete conditional contribution: ' + change['id'])
 
 construction = read('cases/repository-construction.json')
 inherited = [{k: v for k, v in r.items() if k != 'description'} for r in records]

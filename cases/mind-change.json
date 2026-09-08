@@ -1,0 +1,49 @@
+{
+  "standing": "The rejected response and correction are observed in the conversation. Alternative contributions and transfer cases are constructed; recipient effects are unobserved.",
+  "cases": [
+    {
+      "id": "rejected-explanation",
+      "situation": "The user already endorses the broad goal and explicitly rejects another explanation aimed at belief revision.",
+      "prior_contribution": "A reasoning method can work extremely well because an earlier part of the system keeps creating the problem it solves.",
+      "observed_correction": "You are trying to mind change me through explanation. You are specifically trying to do belief mind change on me, but is this really the best type of mind change I should be making right now.",
+      "producing_choice": "Select an explanatory thesis before selecting the needed kind of change.",
+      "revised_operation": "Reopen the target and the means; use the existing project material to construct the requested process and inspect the actual result.",
+      "recipient_effect": null
+    },
+    {
+      "id": "explanation-needed",
+      "situation": "The answer 72 is known, but a usable way to derive 9 times 8 is missing.",
+      "revised_operation": "Supply 9 × 8 = (10 × 8) − 8 = 80 − 8 = 72.",
+      "boundary": "The correction does not prohibit an explanation that supplies the needed connection.",
+      "recipient_effect": null
+    },
+    {
+      "id": "delegated-action",
+      "situation": "An exact README edit is authorized and fully specified.",
+      "revised_operation": "Save the edited README and inspect the saved contents.",
+      "boundary": "A statement that the edit will help is not the edit.",
+      "recipient_effect": null
+    },
+    {
+      "id": "uncertain-need",
+      "situation": "A short disagreement supplies no reliable evidence of the person’s motivation or emotional state.",
+      "revised_operation": "Leave those states unknown; address the explicit correction or obtain a consequential missing fact.",
+      "boundary": "Do not invent a motivational or emotional diagnosis to fill the repertoire.",
+      "recipient_effect": null
+    },
+    {
+      "id": "confidence-without-belief-reversal",
+      "situation": "A proposition remains accepted but its apparent independent support turns out to be repeated use of one source.",
+      "revised_operation": "Expose the shared source and preserve uncertainty about independent support.",
+      "boundary": "Beneficial change need not reverse the accepted proposition.",
+      "recipient_effect": null
+    },
+    {
+      "id": "correct-unchanged-state",
+      "situation": "The available evidence already supports the present judgment and confidence.",
+      "revised_operation": "Preserve the supported judgment; add only a contribution that serves a remaining need.",
+      "boundary": "The objective does not require novelty or movement on every dimension.",
+      "recipient_effect": null
+    }
+  ]
+}
