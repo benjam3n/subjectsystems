@@ -1,0 +1,46 @@
+{
+  "basis_commit": "005ff6674b513ae6781abaac42bf0068696f8b39",
+  "inherited_subjects": 471,
+  "inherited_contract_sha256": "0d18bbab6d28c5e4bf18149bcef80c71fdd2d118a8d3c564f540d937423f6da2",
+  "revised_inherited_contract_sha256": "0d18bbab6d28c5e4bf18149bcef80c71fdd2d118a8d3c564f540d937423f6da2",
+  "changed_inherited_subjects": [],
+  "cases": [
+    {
+      "matter": "Expression representation fidelity",
+      "operation": "Compare every inherited subject field with its revised record.",
+      "result": "All inherited names, identities, scopes, exclusions, and recorded relations are preserved.",
+      "evidence": "subjects/catalog.json"
+    },
+    {
+      "matter": "Expression structure grouping",
+      "operation": "Replace competing legacy reading routes with one page per current general subject and links to the systems and inquiries actually associated with it.",
+      "result": "Current subject pages are generated from the canonical inventory.",
+      "evidence": "tools/build.py"
+    },
+    {
+      "matter": "System implementation correspondence",
+      "operation": "Render the current descriptions from their records and compare the resulting bytes with the saved files.",
+      "result": "The checker rejects a stale generated entry without requiring legacy groups.",
+      "evidence": "tools/check.py"
+    },
+    {
+      "matter": "Learning correction uptake",
+      "operation": "Apply the direct-description rule to subject entries and system entries with different content and operations.",
+      "result": "Subject entries contain the defined matter; system entries contain the description and executable intellectual steps.",
+      "evidence": "systems/expression-construction.md"
+    },
+    {
+      "matter": "Learning correction overgeneralization",
+      "operation": "Retain the three-state required-condition rule while removing the surrounding source and status narration.",
+      "result": "A false required condition yields not achieved; an unknown required condition without a false one yields undetermined; otherwise the result is achieved.",
+      "evidence": "systems/goal-achievement-assessment.md"
+    },
+    {
+      "matter": "Memory record provenance",
+      "operation": "Preserve source-body digests and pin the prior repository tree while replacing the current reading structure.",
+      "result": "The previous files retain their original commit and blob identities.",
+      "evidence": "sources/history.json"
+    }
+  ],
+  "contract_encoding": "UTF-8 JSON of the ordered subject record list, with sorted keys, default separators, and ensure_ascii=False; added description fields excluded."
+}

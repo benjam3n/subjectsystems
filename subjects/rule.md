@@ -1,43 +1,33 @@
 Authority, scope, interpretation, compliance, revision, or effects of specified rules.
 
-## Rule authority
+## Rule authority basis
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Rule authority basis | Determine which specified source authorizes an institution to issue or apply an identified rule in a stated jurisdiction. | Whether the rule is desirable or achieves its intended outcome. |
+Which specified source authorizes an institution to issue or apply an identified rule in a stated jurisdiction. Excludes: Whether the rule is desirable or achieves its intended outcome.
 
-## Rule scope
+## Rule scope applicability
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Rule scope applicability | Determine whether identified facts fall within a rule's stated application conditions. | The rule's legal validity or justified moral authority. |
+Whether identified facts fall within a rule's stated application conditions. Excludes: The rule's legal validity or justified moral authority.
 
-## Rule content
+## Rule content interpretation
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Rule content interpretation | Determine what an identified rule prescribes under a stated interpretive framework. | Whether anyone complied with it or whether it should have that content. |
-| Rule content revision | Specify a changed rule while preserving the prior version and the scope of the change. | Authorization or successful implementation of that revision. |
+What an identified rule prescribes under a stated interpretive framework. Excludes: Whether anyone complied with it or whether it should have that content.
 
-## Rule compliance
+Within [Expression instruction interpretation](expression.md#expression-instruction-interpretation).
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Rule compliance determination | Determine whether specified conduct satisfies an applicable rule under an identified interpretation. | The justice of the rule or factual truth of unexamined testimony. |
+## Rule content revision
 
-## Rule effect
+A changed rule while preserving the prior version and the scope of the change. Excludes: Authorization or successful implementation of that revision.
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Rule effect attribution | Determine what difference a rule's introduction or enforcement caused in a specified outcome relative to a defensible comparison. | Whether the rule was validly enacted or correlation alone. |
+## Rule compliance determination
 
-## Rule proposal
+Whether specified conduct satisfies an applicable rule under an identified interpretation. Excludes: The justice of the rule or factual truth of unexamined testimony.
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Rule proposal comment relevance | Determine which submitted information bears on a specified proposed rule or its supporting rationale. | Counting supportive comments or treating popularity as dispositive legal authority. |
+Within [Criterion application result](criterion.md#criterion-application-result).
 
-| Subject | Containing subject |
-|---|---|
-| Rule content interpretation | Expression instruction interpretation |
-| Rule compliance determination | Criterion application result |
+## Rule effect attribution
+
+What difference a rule's introduction or enforcement caused in a specified outcome relative to a defensible comparison. Excludes: Whether the rule was validly enacted or correlation alone.
+
+## Rule proposal comment relevance
+
+Which submitted information bears on a specified proposed rule or its supporting rationale. Excludes: Counting supportive comments or treating popularity as dispositive legal authority.

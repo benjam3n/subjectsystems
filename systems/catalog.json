@@ -1,74 +1,525 @@
 {
   "systems": [
     {
-      "path": "systems/design-alternative-construction.md",
+      "id": "design-alternative-construction",
       "name": "Design alternative construction",
-      "root": "Design"
+      "subject_names": [
+        "Design candidate construction",
+        "Reasoning candidate generation"
+      ],
+      "description": "Development of possibilities that differ in their available consequences, with useful alternatives retained during exploration.",
+      "steps": [
+        "Generate candidates under different assumptions, forms, or constraints relevant to the live work. Identify what each candidate makes possible.",
+        "Group candidates only where their differences do not change the intended inquiry or use. Keep a surprising difference visible even when no final application is known.",
+        "Select several directions for the distinct possibilities they expose. Preserve the reason for retaining each rather than assigning a universal novelty score.",
+        "For each retained direction, vary the assumption that produced it and develop its consequences. Cross selected features when their combination could create a new possibility.",
+        "Compare the resulting possibilities with their parents. Reject a claim of novelty when only the words changed; preserve useful recombination without falsely claiming independent invention.",
+        "Return the developed alternatives, the distinctions among them, and the direction each makes worth pursuing next."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/creation/creativity/systems/alternative-development.md",
+      "source_urls": [
+        "https://github.com/benjam3n/sds/blob/9a1e05a55cdefba8d17fd76dc184f757f92f21ea/README.md"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/design-alternative-construction.md",
+      "root": "Design",
+      "evidence": []
     },
     {
-      "path": "systems/design-candidate-exploration.md",
+      "id": "design-candidate-exploration",
       "name": "Design candidate exploration",
-      "root": "Design"
+      "subject_names": [
+        "Design candidate construction",
+        "Design requirement elicitation"
+      ],
+      "description": "Construction of an artifact through comparisons that develop its form and requirements.",
+      "steps": [
+        "Produce materially different forms of the artifact at the fidelity needed for the choice. Include an alternative that changes the assumed form where that could alter the result.",
+        "Present or exercise the candidates in the relevant context. Record whole-candidate selections separately from comments about a particular aspect.",
+        "Generate variations that preserve the favored aspect while changing another consequential property. Include a contrast that could show the favored aspect was incidental.",
+        "Derive candidate requirements from the selections and stated use. Preserve their evidence and the distinction between a necessary condition and one attractive implementation.",
+        "Assess the factual constraints of the candidate through the appropriate inspection or test. Approval and buildability receive separate results.",
+        "Revise the design when feasibility changes; revise the requirement when the changed design exposes a mistaken interpretation. Preserve both histories.",
+        "Return the selected or still-competing design, justified requirements, construction dependencies, and the next authorized realization step."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/creation/design/systems/design-exploration.md",
+      "source_urls": [
+        "https://github.com/benjam3n/sds/blob/9a1e05a55cdefba8d17fd76dc184f757f92f21ea/README.md"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/design-candidate-exploration.md",
+      "root": "Design",
+      "evidence": []
     },
     {
-      "path": "systems/improvement-candidate-revision.md",
+      "id": "improvement-candidate-revision",
       "name": "Improvement candidate revision",
-      "root": "Improvement"
+      "subject_names": [
+        "Improvement comparison baseline",
+        "Design candidate construction"
+      ],
+      "description": "Revision of an object against a specified baseline, with the intended improvement and its costs preserved in the comparison.",
+      "steps": [
+        "Retain the baseline and the specific respect in which improvement is sought. Preserve uncertainty about the standard if discovering it is part of the work.",
+        "Generate candidates that change a plausible cause of the limitation, including a different approach when local polishing preserves the limitation.",
+        "Use selections to identify promising changes, recording why they are favored. Do not relabel approval as measured benefit.",
+        "Compare candidate and baseline using evidence appropriate to the target: a derivation, actual use, observation, or a scoped test. Keep material context differences visible.",
+        "Determine what became better, what became worse or more costly, and which result remains unresolved. Do not hide a tradeoff in a single unsupported score.",
+        "If the criterion changes, reconsider the baseline and candidate under the revised standard. If only a proxy improves, reopen the claimed benefit.",
+        "Retain the chosen change with the actual comparison and the conditions under which another use is warranted."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/development/improvement/systems/candidate-improvement.md",
+      "source_urls": [
+        "https://github.com/benjam3n/sds/blob/9a1e05a55cdefba8d17fd76dc184f757f92f21ea/README.md"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/improvement-candidate-revision.md",
+      "root": "Improvement",
+      "evidence": []
     },
     {
-      "path": "systems/goal-achievement-assessment.md",
+      "id": "goal-achievement-assessment",
       "name": "Goal achievement assessment",
+      "subject_names": [
+        "Goal achievement status"
+      ],
+      "description": "Achievement under declared required conditions, with optional observations and activity state retained separately.",
+      "steps": [
+        "Accept a nonempty map of required conditions, an optional-condition map, and a Boolean abandonment flag. Each observation must be true, false, or unknown. Reject an empty or malformed required map.",
+        "If any required condition is false, return not achieved and retain all failed and unknown conditions.",
+        "Otherwise, if any required condition is unknown, return undetermined with those conditions.",
+        "Otherwise return achieved. Preserve optional observations and abandonment state in every result.",
+        "When applying the result to an actual goal, examine the justification of the required conditions and the evidence for the observations."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/goals/systems/achievement-assessment.md",
+      "source_urls": [],
+      "standing": "Custom v0.1; executable and exercised across 54 specified condition combinations.",
+      "implementation": "tools/study_methods.py#achievement_status",
+      "evidence": [
+        "studies/system/execution.md"
+      ],
+      "path": "systems/goal-achievement-assessment.md",
       "root": "Goal"
     },
     {
-      "path": "systems/goal-discovery.md",
+      "id": "goal-discovery",
       "name": "Goal discovery",
-      "root": "Goal"
+      "subject_names": [
+        "Goal creation",
+        "Goal achievement condition specification"
+      ],
+      "description": "Development of a goal and its achievement conditions from competing possible aims.",
+      "steps": [
+        "Construct materially different candidate aims from the live situation, including different purposes and a candidate that revises the initial framing. Preserve already explicit commitments rather than pretending they are unknown.",
+        "For each candidate, construct a concrete case in which it would be met and a case that appears to meet it while missing the intended purpose.",
+        "Use existing explicit selections or obtain the particular missing comparison when needed. Separate the selected aim, the attractive consequence, and the means through which it was presented.",
+        "Change a means while preserving the proposed end, then change the end while preserving the means. Use the contrast to develop competing accounts of what mattered.",
+        "Derive candidate achievement conditions from the supported account. Keep desired properties of an artifact separate from the purpose the artifact serves.",
+        "If no candidate expresses the purpose, regenerate the aims or change the representation. If the conflict concerns what is worth pursuing, retain that conflict instead of forcing a score.",
+        "Return the current goal, grounds for it, conditions of achievement, alternatives still live, and the next decision those conditions affect."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/goals/systems/goal-discovery.md",
+      "source_urls": [
+        "https://github.com/benjam3n/sds/blob/9a1e05a55cdefba8d17fd76dc184f757f92f21ea/README.md"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/goal-discovery.md",
+      "root": "Goal",
+      "evidence": []
     },
     {
-      "path": "systems/criterion-discovery.md",
+      "id": "criterion-discovery",
       "name": "Criterion discovery",
-      "root": "Criterion"
+      "subject_names": [
+        "Criterion creation",
+        "Criterion justification"
+      ],
+      "description": "Development and revision of a judgment standard through consequential differences between cases.",
+      "steps": [
+        "State what kind of judgment is being developed: for example preference, validity of inference, fitness for use, or contribution to a purpose. Preserve unresolved disagreement over that target.",
+        "Collect the cases that distinguish the live proposed standards, including a case where an initially plausible standard gives a problematic verdict.",
+        "Generate alternative standards that account for the contrast. Derive what each would require in a different case before accepting it.",
+        "Separate an observed verdict from its justification. A user judgment can establish what the user chose; a claim of validity requires its own grounds.",
+        "Apply the candidate standards to the contrasting cases. Keep a contextual rule or an unresolved conflict where a single rule would erase a consequential difference.",
+        "Revise the standard or its scope and reopen the verdicts that depended on it. Leave unaffected factual claims and independent grounds intact.",
+        "Return the criterion, the comparison that motivates it, its grounds and scope, and the verdicts requiring reconsideration."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/judgment/systems/criterion-discovery.md",
+      "source_urls": [
+        "https://github.com/benjam3n/sds/blob/9a1e05a55cdefba8d17fd76dc184f757f92f21ea/README.md"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/criterion-discovery.md",
+      "root": "Criterion",
+      "evidence": []
     },
     {
-      "path": "systems/preference-discovery.md",
+      "id": "preference-discovery",
       "name": "Preference discovery",
-      "root": "Preference"
+      "subject_names": [
+        "Preference hypothesis creation",
+        "Preference hypothesis revision"
+      ],
+      "description": "Discrimination between accounts of a contextual preference through contrasts among selected features.",
+      "steps": [
+        "Record the actual candidate, judgment, and context. Keep an explicit statement of preference separate from an explanation inferred from a selection.",
+        "Construct competing accounts of the judgment that predict a different selection somewhere. If the accounts do not yet differ on any comparison, develop the missing distinction.",
+        "Construct candidates that separate those predictions while holding other consequential features stable where possible. If they cannot be held stable, record the ambiguity the comparison leaves.",
+        "Use the actual answer. A tie, rejection of both, context-dependent answer, or inability to choose remains a possible observation; no answer is invented for the person.",
+        "Revise the accounts that disagree with the observation. A changed context may require a conditional account rather than a declaration that the person is inconsistent.",
+        "Test whether a favored feature remains favored when placed in another candidate, or whether its value depended on the whole example.",
+        "Return explicit preferences, supported conditional hypotheses, competing explanations, and the next comparison that would distinguish what remains."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/preferences/systems/preference-discovery.md",
+      "source_urls": [
+        "https://github.com/benjam3n/sds/blob/9a1e05a55cdefba8d17fd76dc184f757f92f21ea/README.md"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/preference-discovery.md",
+      "root": "Preference",
+      "evidence": []
     },
     {
-      "path": "systems/preference-question-route.md",
+      "id": "preference-question-route",
       "name": "Preference question route",
-      "root": "Preference"
+      "subject_names": [
+        "Preference hypothesis discrimination",
+        "Question route continuation selection"
+      ],
+      "description": "Selection and continuation of a preference inquiry through the distinctions made by its possible answers.",
+      "steps": [
+        "Start from a consequential unresolved distinction in the preference account. Construct alternative questions if the current wording presupposes the disputed preference.",
+        "For each candidate question, construct plausible answer branches, including neither, both, tie, context-dependent, and unable-to-judge where relevant. These are anticipated possibilities, not observations.",
+        "Derive which hypothesis or contextual distinction each answer would change. Replace a question whose answers all leave the live distinction unchanged.",
+        "Choose a question for the distinction needed by the receiving task. Use an already recorded answer when it actually addresses that question; otherwise seek only the necessary missing judgment.",
+        "After an actual answer, follow the corresponding clarification, opposition, concretization, or other justified route. Preserve alternatives that the answer did not distinguish.",
+        "Revise the question when its assumptions were rejected. Return a new discriminator or a contextual account that is sufficient for the receiving use."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/preferences/systems/preference-question-route.md",
+      "source_urls": [
+        "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/questionroute/src/lib/types.ts"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/preference-question-route.md",
+      "root": "Preference",
+      "evidence": []
     },
     {
-      "path": "systems/discovery-contribution-assessment.md",
+      "id": "discovery-contribution-assessment",
       "name": "Discovery contribution assessment",
-      "root": "Discovery"
+      "subject_names": [
+        "Discovery contribution identity"
+      ],
+      "description": "Identification of an investigation's established contribution and the further work it enables.",
+      "steps": [
+        "Recover the initial inquiry and its current formulation. Record which goal, question, scope, or criterion changed and the result that warranted the change.",
+        "Separate artifacts produced from findings established. For each proposed finding, attach the supporting observation, derivation, or source at the required scope.",
+        "Compare the finding with the actual unresolved question. Record whether it resolves that scope, changes the question, exposes another alternative, or leaves the inquiry open.",
+        "Identify the next inquiry or method that can use the finding and preserve the conditions it needs. A merely mentioned relation is not a required dependency.",
+        "If work stopped for lack of access or resources, retain the needed condition without marking the question answered. If a criterion changed, reopen dependent closure claims.",
+        "Continue from the newly available work, including a new purpose made possible by success. Do not require the entire subject to be finished before using a scoped finding."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/discovery/systems/discovery-progress.md",
+      "source_urls": [
+        "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/GOSM/library/gates/outcome_verification.yaml",
+        "https://github.com/benjam3n/discoveryengine/blob/fe62d75cf82634bd864817a3f82e6f9768f85945/README.md"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/discovery-contribution-assessment.md",
+      "root": "Discovery",
+      "evidence": []
     },
     {
-      "path": "systems/expression-contribution-construction.md",
+      "id": "expression-contribution-construction",
       "name": "Expression contribution construction",
+      "subject_names": [
+        "Expression representation creation",
+        "Expression structure sequence"
+      ],
+      "description": "Construction of text through the changes in understanding its successive contributions produce.",
+      "steps": [
+        "Determine the contribution required by the actual request and available context. Keep an unresolved purpose open where writing itself is needed to discover it.",
+        "Separate the substantive material from claims still requiring a derivation, source, comparison, or other operation. Perform the needed intellectual work instead of covering the gap with explanation.",
+        "Identify what each prospective part would make the reader able to distinguish, infer, consider, or reconsider. Delete or change a part that merely announces the topic without serving the contribution.",
+        "Construct an ordering from the actual dependencies among those changes. Develop another ordering or frame if the first hides a consequential relation.",
+        "Write the passage and inspect whether it performs the intended operation. A declared intention to persuade, explain, or analyze does not count as the operation being performed.",
+        "If a premise, interpretation, or criterion changes, revise the dependent passages and preserve independently justified material.",
+        "Return the organized text at the requested scope, with evidence and uncertainty where needed for the reader to assess it."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/interaction/writing/systems/contribution-construction.md",
+      "source_urls": [
+        "https://github.com/benjam3n/reasoningtool2/blob/ae2435b0004ac44de9bb09c2f045805722038dbb/CURRENT.md",
+        "https://github.com/benjam3n/reasoningtool2/blob/ae2435b0004ac44de9bb09c2f045805722038dbb/METHODS.md"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/expression-contribution-construction.md",
+      "root": "Expression",
+      "evidence": []
+    },
+    {
+      "id": "reasoning-approach-selection",
+      "name": "Reasoning approach selection",
+      "subject_names": [
+        "Reasoning approach selection"
+      ],
+      "description": "Selection of an available reasoning approach through the contribution needed in a naming or scope problem.",
+      "steps": [
+        "Identify the distinction the task must settle using the current definitions and a concrete case.",
+        "Compare the completion conditions of candidate approaches. Where apparent synonyms conceal different matters, construct a case that separates them.",
+        "Inspect an actual candidate output or a separating case. Retain the approaches that can supply the required contribution and identify any missing operation.",
+        "Choose an available approach supported by the comparison. If none supplies the contribution, construct an approach or revise the task formulation before selecting.",
+        "Execute the selected approach when required by the task and inspect its actual contribution.",
+        "Revise dependent definitions and uses while retaining stable identity, aliases, and any change of scope."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/systems/approach-selection.md",
+      "source_urls": [],
+      "standing": "Custom specification v0.1, executed on one catalog naming case; general effectiveness unestablished.",
+      "evidence": [
+        "cases/shape-rotation.md"
+      ],
+      "path": "systems/reasoning-approach-selection.md",
+      "root": "Reasoning"
+    },
+    {
+      "id": "reasoning-candidate-finite-generation",
+      "name": "Reasoning candidate finite generation",
+      "subject_names": [
+        "Reasoning candidate generation"
+      ],
+      "description": "Every assignment in an explicitly supplied finite Cartesian product.",
+      "steps": [
+        "Accept an ordered map of named dimensions to finite lists of distinct strings. Validate the names and values.",
+        "Multiply the dimension sizes. Return an input error if the product exceeds 4096.",
+        "Enumerate every tuple in dimension and value order and retain its named coordinates. An empty dimension yields no tuples; an empty dimension map yields one empty assignment.",
+        "Return the assignments. Apply any feasibility or exclusion conditions in a separate examination that retains their reasons and unresolved cases."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/systems/finite-candidate-generation.md",
+      "source_urls": [],
+      "standing": "Custom v0.1; executable and used to supply cases to the achievement-assessment study.",
+      "implementation": "tools/study_methods.py#finite_candidates",
+      "evidence": [
+        "studies/system/execution.md"
+      ],
+      "path": "systems/reasoning-candidate-finite-generation.md",
+      "root": "Reasoning"
+    },
+    {
+      "id": "claim-inference-finite-validity",
+      "name": "Claim inference finite validity",
+      "subject_names": [
+        "Claim inference validity"
+      ],
+      "description": "Classical Boolean entailment of a supplied conclusion by supplied premises across their complete finite valuation space.",
+      "steps": [
+        "Accept at most 12 distinct atoms, a premise list, and a conclusion. Permit Boolean constants, declared atoms, unary not, and binary and, or, implies, and iff, with nesting at most 64.",
+        "Reject malformed formulas, undeclared atoms, and exceeded bounds before issuing a verdict.",
+        "Enumerate every Boolean assignment. Evaluate the premises under each assignment; where all are true, evaluate the conclusion and retain assignments where it is false.",
+        "Return all counterexamples, the valuation count, and validity within the supplied model. Report vacuous validity when no assignment satisfies the premises.",
+        "Examine the translation from the original claim separately whenever the formal result is used to judge that claim."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/systems/finite-inference-validity.md",
+      "source_urls": [],
+      "standing": "Custom v0.1; executable and exercised on six fixed analytical inferences, with scope and input failures recorded.",
+      "implementation": "tools/study_methods.py#check_inference",
+      "evidence": [
+        "studies/system/execution.md"
+      ],
+      "path": "systems/claim-inference-finite-validity.md",
+      "root": "Claim"
+    },
+    {
+      "id": "claim-inference-counterexample-search",
+      "name": "Claim inference counterexample search",
+      "subject_names": [
+        "Claim inference validity",
+        "Claim inference counterexample"
+      ],
+      "description": "Examination of an exact inference through support paths and cases that satisfy its premises while defeating its conclusion.",
+      "steps": [
+        "State the inference with its quantifiers, conditions, and intended interpretation. Separate a conclusion about truth from a recommendation or preference before selecting a challenge.",
+        "Reconstruct the particular transition on which the conclusion depends. Preserve any assumption introduced by the reconstruction as an assumption rather than a supplied premise.",
+        "Develop a challenge targeted to that transition: a case where the premises hold and the conclusion fails, a shifted definition, or an unlicensed assumption. Identify which of these the challenge actually is.",
+        "Determine whether the challenge meets its own conditions. A possibility compatible with the conclusion, an undesirable consequence, or a changed question is not automatically a refutation.",
+        "If a transition is defeated, withdraw the inference it supplied and inspect the uses that depended on it. Keep independently supported conclusions and unchallenged alternatives separate.",
+        "If no defeating case is obtained, retain the actual search scope and unresolved result. Do not infer general validity from survival of the attempted challenges."
+      ],
+      "source_specification": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/systems/inference-challenge.md",
+      "source_urls": [
+        "https://github.com/benjam3n/systemrecovery/blob/d71a8430452fb8563d722c5df3b904bb7109197e/structure/sources/TruthFinder/README.md"
+      ],
+      "standing": "specified design, version 0.1. Prospective effectiveness is unestablished.",
+      "path": "systems/claim-inference-counterexample-search.md",
+      "root": "Claim",
+      "evidence": []
+    },
+    {
+      "id": "problem-formulation-comparison",
+      "name": "Problem formulation comparison",
+      "subject_names": [
+        "Problem formulation cause",
+        "Problem remedy adequacy",
+        "Problem remedy incompleteness",
+        "Problem remedy displacement",
+        "Design requirement elicitation"
+      ],
+      "description": "Comparison of competing causes and repairs for a rejected result, including defects in the process that reproduces it.",
+      "steps": [
+        "Recover a rejected item, the requested correction, and the content that must survive it. Keep the user's correction distinct from an inferred general rule.",
+        "Construct competing explanations of the failure. Each explanation names a condition whose removal would change the observed result.",
+        "Apply the proposed repair to a small actual specimen. Inspect which original requirements remain unsatisfied and which new defects appear.",
+        "Follow any recurring defect backward to the source record, construction decision, generator, or acceptance rule that reproduces it.",
+        "Select the formulation that accounts for the consequential failures being addressed. Retain additional causes when one repair leaves an independently produced defect.",
+        "Reopen the formulation when a result contradicts its predicted effect."
+      ],
+      "standing": "Specified construction system; repository applications recorded in cases/repository-construction.json.",
+      "source": "Repository construction design, adopted by the user on 2026-09-08.",
+      "evidence": [
+        "cases/repository-construction.md"
+      ],
+      "path": "systems/problem-formulation-comparison.md",
+      "root": "Problem"
+    },
+    {
+      "id": "content-placement",
+      "name": "Content placement",
+      "subject_names": [
+        "Memory record status recovery",
+        "Memory record context recovery",
+        "Subject scope identity",
+        "Subject scope inclusion",
+        "Expression structure grouping"
+      ],
+      "description": "Conversion of conversational material into current subject content with its meaning, status, and dependencies preserved.",
+      "steps": [
+        "Split the material at changes of subject, assertion, operation, condition, evidence, or status. Preserve dependencies between the resulting pieces.",
+        "Identify the matter each piece concerns. Recover whether it is a user requirement, a proposed account, an established result, an operation, a rejected formulation, or context needed to interpret another piece.",
+        "Compare the matter with existing definitions. Reuse an identity when the matters coincide. Refine or separate identities when one description contains several determinations. Preserve an unresolved relation as unresolved.",
+        "Place each current definition once. Connect findings, operations, applications, and evidence to that definition through the relation they actually bear to it.",
+        "Construct the reading order from the required distinctions and dependencies. Inspect whether neighboring placement implies an unsupported equivalence or containment.",
+        "Remove source-history prose from the ordinary entry when the reader can interpret and use the content without it. Preserve the source and correspondence needed to recover or revise the result."
+      ],
+      "standing": "Specified construction system; repository applications recorded in cases/repository-construction.json.",
+      "source": "Repository construction design, adopted by the user on 2026-09-08.",
+      "evidence": [
+        "cases/repository-construction.md"
+      ],
+      "path": "systems/content-placement.md",
+      "root": "Memory"
+    },
+    {
+      "id": "perspective-consequence-comparison",
+      "name": "Perspective consequence comparison",
+      "subject_names": [
+        "Perspective problem recognition contribution",
+        "Perspective candidate dimension construction",
+        "Perspective subject relevance determination",
+        "Perspective exploration exclusion justification",
+        "Perspective composition interference"
+      ],
+      "description": "Construction and comparison of perspectives through the differences they make to the same piece of work.",
+      "steps": [
+        "Fix an actual piece of work and recover its governing requirements. Leave the problem formulation revisable.",
+        "Express the current perspective through what it treats as the object, relevant differences, available operations, acceptable results, and grounds for stopping. Infer these from the artifact and conduct where possible.",
+        "Change one consequential commitment: the object being organized, the unit of content, the comparison standard, the assumed reader task, the timescale of success, or a restriction on available operations.",
+        "Construct the resulting alternative on the same piece of work. Preserve the required content so that unrelated improvements do not conceal the effect of the perspective change.",
+        "Compare the alternatives by the distinctions they preserve, the work they enable, the errors they expose, and the burdens they impose.",
+        "When two cases are treated alike but require different continuations, introduce the missing distinction. When two named perspectives make no relevant difference in the stated use, treat them as equivalent for that comparison.",
+        "Examine exclusions. A reason for withholding reliance on a perspective may still permit exploration of it. A failure in one application does not by itself justify exclusion everywhere.",
+        "Combine perspectives only after assigning each contribution a role. Inspect whether one contribution's assumptions or visible expression obstruct another.",
+        "Change the problem, criterion, construction operation, or dependency when the comparison reveals a defect there. Preserve the identity of earlier comparisons when their basis changes.",
+        "Retain a useful transition with the conditions that made it useful. Check whether it affects the next applicable construction."
+      ],
+      "standing": "Specified construction system; repository applications recorded in cases/repository-construction.json.",
+      "source": "Repository construction design, adopted by the user on 2026-09-08.",
+      "evidence": [
+        "cases/repository-construction.md"
+      ],
+      "path": "systems/perspective-consequence-comparison.md",
+      "root": "Perspective"
+    },
+    {
+      "id": "system-description-examination",
+      "name": "System description examination",
+      "subject_names": [
+        "System composition description sufficiency",
+        "System interface compatibility",
+        "System implementation correspondence",
+        "Perspective adoption correspondence"
+      ],
+      "description": "Identification and repair of consequential operations left unspecified by a system description.",
+      "steps": [
+        "Select a concrete input and the result the system must distinguish or produce.",
+        "Execute the described operations with that input. Mark the first place where proceeding requires inventing an operation, choosing an unsupported criterion, or interpreting an undefined condition.",
+        "Construct two realizations consistent with the description that differ on the required property. If both fit, the description is insufficient for that property.",
+        "Supply the missing transformation, interpretation rule, or condition. If it must be performed by a model or a person, state the actual examination they perform and what can correct it.",
+        "Inspect result consumers. Preserve distinctions such as false, unknown, unavailable, contradictory, and inapplicable wherever they require different actions.",
+        "Remove components that supply no necessary result, evidence, condition, or useful continuation in the defined use. Retain construction, exploration, and verification steps whose value appears later.",
+        "Exercise a case that defeated the earlier design. Record the actual difference in result or continuation."
+      ],
+      "standing": "Specified construction system; repository applications recorded in cases/repository-construction.json.",
+      "source": "Repository construction design, adopted by the user on 2026-09-08.",
+      "evidence": [
+        "cases/repository-construction.md"
+      ],
+      "path": "systems/system-description-examination.md",
+      "root": "System"
+    },
+    {
+      "id": "expression-construction",
+      "name": "Expression construction",
+      "subject_names": [
+        "Expression precision requirement",
+        "Expression representation fidelity",
+        "Expression representation compression",
+        "Expression structure sequence",
+        "Expression representation ambiguity"
+      ],
+      "description": "Direct expression of a subject or operation with the distinctions required for its use.",
+      "steps": [
+        "Establish what the reader needs to identify, distinguish, infer, or perform from this entry. Use the accepted task and the content's actual dependencies.",
+        "Draft the substantive description or operation directly. Use the subject or system name when a heading is needed to distinguish entries.",
+        "Locate every condition that changes the claim or action. Place it with the proposition or operation it qualifies.",
+        "Remove a sentence or label provisionally. Compare the resulting interpretations and available actions with the original. Retain it when its removal loses a required distinction, creates a consequential ambiguity, or prevents the intended use.",
+        "Compare the remaining form with the source and intended content. Repair semantic drift caused by compression, including altered scope, modality, authority, or unresolved status.",
+        "Read the result without its construction notes. Inspect whether its sequence, naming, grouping, and level of detail express the intended priorities.",
+        "Challenge the apparent simplicity. Check whether the reader now has to invent a missing condition, retrieve a basic distinction from several files, or interpret a compressed slogan."
+      ],
+      "standing": "Specified construction system; repository applications recorded in cases/repository-construction.json.",
+      "source": "Repository construction design, adopted by the user on 2026-09-08.",
+      "evidence": [
+        "cases/repository-construction.md"
+      ],
+      "path": "systems/expression-construction.md",
       "root": "Expression"
     },
     {
-      "path": "systems/reasoning-approach-selection.md",
-      "name": "Reasoning approach selection",
-      "root": "Reasoning"
-    },
-    {
-      "path": "systems/reasoning-candidate-finite-generation.md",
-      "name": "Reasoning candidate finite generation",
-      "root": "Reasoning"
-    },
-    {
-      "path": "systems/claim-inference-finite-validity.md",
-      "name": "Claim inference finite validity",
-      "root": "Claim"
-    },
-    {
-      "path": "systems/claim-inference-counterexample-search.md",
-      "name": "Claim inference counterexample search",
-      "root": "Claim"
+      "id": "correction-propagation",
+      "name": "Correction propagation",
+      "subject_names": [
+        "Learning correction uptake",
+        "Learning correction generalization",
+        "Learning correction overgeneralization",
+        "Memory reuse trigger",
+        "Perspective improvement retention"
+      ],
+      "description": "Revision of a producing rule and its dependent outputs, followed by examination of uptake and scope.",
+      "steps": [
+        "Preserve the rejected result, the correction, and the relevant setting.",
+        "Construct a nearby case to which the correction should apply and another in which applying it would damage the result. Use the contrast to establish its scope.",
+        "Identify the producing decision or mechanism. Distinguish an incorrect source fact, a mistaken selection rule, a faulty transformation, an expression habit, and an acceptance rule that failed to catch the result.",
+        "Revise the responsible source or rule. Find its dependent current outputs through existing references, generation paths, and targeted content search.",
+        "Regenerate or revise affected outputs. Preserve independent content and the evidence needed to recover previous states.",
+        "Apply the changed construction rule to the nearby case. Check for the original failure in altered wording or placement.",
+        "Apply the scope boundary case. Repair the rule if it removes necessary content or constrains unrelated work.",
+        "Treat a stored correction as effective only when it changes an applicable later result."
+      ],
+      "standing": "Specified construction system; repository applications recorded in cases/repository-construction.json.",
+      "source": "Repository construction design, adopted by the user on 2026-09-08.",
+      "evidence": [
+        "cases/repository-construction.md"
+      ],
+      "path": "systems/correction-propagation.md",
+      "root": "Learning"
     }
   ]
 }

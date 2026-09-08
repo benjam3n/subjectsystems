@@ -1,31 +1,43 @@
 An explicit standard governing a specified comparison or decision.
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Criterion creation | Formulate a criterion that distinguishes a consequential difference for a stated purpose. | Scoring an item under an already fixed criterion. |
-| Criterion modification | Revise what the criterion counts or how it applies, with the difference explicit. | Claiming an unchanged item improved because the standard changed. |
-| Criterion justification | Establish why the specified distinction should count for the stated purpose. | Citing endorsement as sufficient justification. |
-| Criterion scope | Identify the cases in which the criterion's justification applies. | Assuming a criterion useful for one case applies everywhere. |
+## Criterion creation
 
-## Criterion application
+Formulation of a criterion that distinguishes a consequential difference for a stated purpose. Excludes: Scoring an item under an already fixed criterion.
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Criterion application condition | Specify what information is needed to apply the criterion to an item. | Concluding that missing information means failure. |
-| Criterion application consistency | Determine whether the same stated criterion yields compatible judgments in relevantly equivalent cases. | Demanding identical judgments when consequential conditions differ. |
-| Criterion application result | Determine the result of applying a specified criterion to identified material under fixed application conditions. | Justifying the criterion or checking consistency across several applications. |
+[Criterion discovery](../systems/criterion-discovery.md)
 
-## Criterion conflict
+## Criterion modification
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Criterion conflict identification | Identify a case where satisfying one criterion obstructs another specified criterion. | Treating merely different criteria as conflicting. |
-| Criterion conflict resolution | Specify how the identified criterion conflict is decided under stated reasons. | Hiding the conflict in an unexplained aggregate score. |
+Revision of what the criterion counts or how it applies, with the difference explicit. Excludes: Claiming an unchanged item improved because the standard changed.
 
-## Study
+## Criterion justification
+
+The grounds establishing why the specified distinction should count for the stated purpose. Excludes: Citing endorsement as sufficient justification.
+
+[Criterion discovery](../systems/criterion-discovery.md)
+
+## Criterion scope
+
+The cases in which the criterion's justification applies. Excludes: Assuming a criterion useful for one case applies everywhere.
+
+## Criterion application condition
+
+What information is needed to apply the criterion to an item. Excludes: Concluding that missing information means failure.
+
+## Criterion application consistency
+
+Whether the same stated criterion yields compatible judgments in relevantly equivalent cases. Excludes: Demanding identical judgments when consequential conditions differ.
+
+## Criterion conflict identification
+
+A case where satisfying one criterion obstructs another specified criterion. Excludes: Treating merely different criteria as conflicting.
+
+## Criterion conflict resolution
+
+How the identified criterion conflict is decided under stated reasons. Excludes: Hiding the conflict in an unexplained aggregate score.
+
+## Criterion application result
+
+The result of applying a specified criterion to identified material under fixed application conditions. Excludes: Justifying the criterion or checking consistency across several applications.
 
 - [Criterion questions](../studies/criterion/questions.md)
-
-## System
-
-- [Criterion discovery](../systems/criterion-discovery.md)

@@ -1,17 +1,11 @@
 Customer demand and cash requirements within specified commercial activity.
 
-## Business customer
+## Business customer demand estimation
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Business customer demand estimation | Estimate demand from a specified customer population for an identified offering under stated conditions. | A recommendation to enter the market or general customer satisfaction. |
+Estimation of demand from a specified customer population for an identified offering under stated conditions. Excludes: A recommendation to enter the market or general customer satisfaction.
 
-## Business cash
+Within [Prediction construction](prediction.md#prediction-construction).
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Business cash requirement | Determine the cash needed across a specified operating or startup interval under explicit payment assumptions. | Accounting profit or obtaining funding. |
+## Business cash requirement
 
-| Subject | Containing subject |
-|---|---|
-| Business customer demand estimation | Prediction construction |
+The cash needed across a specified operating or startup interval under explicit payment assumptions. Excludes: Accounting profit or obtaining funding.

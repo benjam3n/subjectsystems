@@ -1,7 +1,5 @@
 Justificatory grounds for specified normative conclusions.
 
-## Norm justification
+## Norm justification sufficiency
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Norm justification sufficiency | Determine whether stated reasons warrant a specified normative conclusion under an explicit justificatory framework. | A descriptive claim about popularity or a jurisdiction's enactment procedure. |
+Whether stated reasons warrant a specified normative conclusion under an explicit justificatory framework. Excludes: A descriptive claim about popularity or a jurisdiction's enactment procedure.

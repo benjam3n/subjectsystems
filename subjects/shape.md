@@ -1,27 +1,31 @@
 Form and orientation of represented shapes, including defined human representational tasks.
 
-## Shape orientation
+## Shape orientation specification
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Shape orientation specification | Specify a shape's orientation relative to an identified reference frame. | The shape's intrinsic form or position in space. |
-| Shape orientation equivalence | Determine whether two represented shapes coincide under an allowed rotation and translation. | Equivalence permitting reflection or scaling unless separately allowed. |
+A shape's orientation relative to an identified reference frame. Excludes: The shape's intrinsic form or position in space.
 
-## Shape representation
+## Shape representation rotation
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Shape representation rotation | Determine the representation produced by changing a represented shape's orientation through a specified rotation in a stated frame. | Identifying the mechanism producing the transformation, timing it, or measuring its fidelity. |
-| Shape representation rotation mechanism | Identify the operations or physical processes producing a specified rotation of a shape representation in an identified implementation. | Merely calculating the rotated representation or inferring a unique mechanism from total response time alone. |
-| Shape representation rotation duration | Determine how long a specified representational rotation takes under defined task conditions. | Time attributable only to orientation change when measured response time also contains other stages. |
-| Shape representation rotation accuracy | Determine how faithfully a specified representational rotation preserves the required shape relations. | Response speed or accuracy of unrelated spatial abilities. |
+The representation produced by changing a represented shape's orientation through a specified rotation in a stated frame. Excludes: Identifying the mechanism producing the transformation, timing it, or measuring its fidelity.
 
-## Shape mirror
+## Shape orientation equivalence
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Shape mirror equivalence | Determine whether one represented shape coincides with a reflected version of another under specified alignment rules. | Equivalence by rotation alone. |
+Whether two represented shapes coincide under an allowed rotation and translation. Excludes: Equivalence permitting reflection or scaling unless separately allowed.
 
-| Subject | Containing subject |
-|---|---|
-| Shape representation rotation accuracy | Expression representation fidelity |
+## Shape mirror equivalence
+
+Whether one represented shape coincides with a reflected version of another under specified alignment rules. Excludes: Equivalence by rotation alone.
+
+## Shape representation rotation mechanism
+
+The operations or physical processes producing a specified rotation of a shape representation in an identified implementation. Excludes: Merely calculating the rotated representation or inferring a unique mechanism from total response time alone.
+
+## Shape representation rotation duration
+
+How long a specified representational rotation takes under defined task conditions. Excludes: Time attributable only to orientation change when measured response time also contains other stages.
+
+## Shape representation rotation accuracy
+
+How faithfully a specified representational rotation preserves the required shape relations. Excludes: Response speed or accuracy of unrelated spatial abilities.
+
+Within [Expression representation fidelity](expression.md#expression-representation-fidelity).

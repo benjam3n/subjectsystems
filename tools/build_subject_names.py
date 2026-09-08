@@ -52,19 +52,19 @@ for root in sorted(roots):
     page = REPO/'subjects'/f'{anchor(root)}.md'
     selected = [e for e in entries if e['root'] == root]
     out = [record['scope']]
-    for group in dict.fromkeys(e['parent'] for e in selected):
-        if group != root:
-            out.append('## ' + group)
-        out.append(table(['Subject', 'Definition', 'Exclusion'], [(e['name'], e['settles'], e['excludes']) for e in selected if e['parent'] == group]))
-    edges = [(e['name'], '; '.join(e.get('broader_subjects', []))) for e in selected if e.get('broader_subjects')]
-    if edges:
-        out.append(table(['Subject', 'Containing subject'], edges))
-    local = [s for s in systems if s['root'] == root]
+    for subject in selected:
+        out += ['## ' + subject['name'], subject['description'] + ' Excludes: ' + subject['excludes']]
+        related = [s for s in systems if subject['name'] in s['subject_names']]
+        if related:
+            out.append(' · '.join(link(page, REPO/s['path'], s['name']) for s in related))
+        parents = subject.get('broader_subjects', [])
+        if parents:
+            out.append('Within ' + ' · '.join(
+                '['+name+']('+anchor(names[name]['root'])+'.md#'+anchor(name)+')'
+                for name in parents) + '.')
     studies = sorted((REPO/'studies'/anchor(root)).glob('*.md'))
     if studies:
-        out += ['## Study', '\n'.join('- '+link(page,p,root+' '+p.stem.replace('-',' ')) for p in studies)]
-    if local:
-        out += ['## System', '\n'.join('- '+link(page,REPO/s['path'],s['name']) for s in local)]
+        out.append('\n'.join('- '+link(page,p,root+' '+p.stem.replace('-',' ')) for p in studies))
     write(page, out)
     index.append((root, page, record['scope']))
 for page in [REPO/'README.md', REPO/'subjects/README.md']:

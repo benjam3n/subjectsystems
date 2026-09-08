@@ -1,0 +1,1046 @@
+{
+  "repository": "benjam3n/subjectsystems",
+  "commit": "005ff6674b513ae6781abaac42bf0068696f8b39",
+  "files": [
+    {
+      "path": ".gitignore",
+      "blob_sha": "4a5bb25f7096ae714e1567277512b7b2c15ce857",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/.gitignore"
+    },
+    {
+      "path": "AGENTS.md",
+      "blob_sha": "690d93689b0fdcad1cce626e523fc8b1e463beb5",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/AGENTS.md"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "blob_sha": "075b589773215db38fc710bd0874d3349a9cbbb7",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/ARCHITECTURE.md"
+    },
+    {
+      "path": "CURRENT.md",
+      "blob_sha": "d759c1c095e7026be5eadb54d0759ec219646ae9",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/CURRENT.md"
+    },
+    {
+      "path": "CUSTOMIZATION.md",
+      "blob_sha": "96e7acf6386c4218bdf1ae4f2ad2812491a2880f",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/CUSTOMIZATION.md"
+    },
+    {
+      "path": "DISTINCTIONS.md",
+      "blob_sha": "d3ae8631201debf4f3663120624bc2383caf6edc",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/DISTINCTIONS.md"
+    },
+    {
+      "path": "GOAL-JOURNEY.md",
+      "blob_sha": "d6722b352197947764bd15f105405ef77883aceb",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/GOAL-JOURNEY.md"
+    },
+    {
+      "path": "NEXT.md",
+      "blob_sha": "aa64bab5aa0f451ba9f3278b23962b08f8538a10",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/NEXT.md"
+    },
+    {
+      "path": "PERFECTION.md",
+      "blob_sha": "400e5a625cd9c7027aa074bebb005abbe574fff0",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/PERFECTION.md"
+    },
+    {
+      "path": "PURPOSE.md",
+      "blob_sha": "82eeea7faded22a2d33b6a4f93cd045816ab40e1",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/PURPOSE.md"
+    },
+    {
+      "path": "README.md",
+      "blob_sha": "09142d24c7ecfd3a6319bf70e91e1fa93e27aa74",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/README.md"
+    },
+    {
+      "path": "cases/custom-system-outputs.md",
+      "blob_sha": "aa82e7eaf4f85abc99a6c0c748bc11b7627db3ba",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/cases/custom-system-outputs.md"
+    },
+    {
+      "path": "cases/naming-and-placement.md",
+      "blob_sha": "cd93c984c555caf3f386e36d8899ad5a32642932",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/cases/naming-and-placement.md"
+    },
+    {
+      "path": "cases/subject-boundaries.md",
+      "blob_sha": "a9c3583a5b46f3cd84aee0d5868b89698abfe09e",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/cases/subject-boundaries.md"
+    },
+    {
+      "path": "cases/subject-names.md",
+      "blob_sha": "a8f57052d46a77ae42164c7cc47580617cc51197",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/cases/subject-names.md"
+    },
+    {
+      "path": "decisions/0001-name-and-organization.md",
+      "blob_sha": "d45ff83307a62aecd39b10d3ca94b2a9574e19c5",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/decisions/0001-name-and-organization.md"
+    },
+    {
+      "path": "decisions/0002-subject-boundaries.md",
+      "blob_sha": "49808f474c7a316fdc5a802555167f7d940d78f7",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/decisions/0002-subject-boundaries.md"
+    },
+    {
+      "path": "decisions/0003-custom-systems.md",
+      "blob_sha": "9c8afddceb364af2eae4840abf678076f362b9ea",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/decisions/0003-custom-systems.md"
+    },
+    {
+      "path": "decisions/0004-functional-groups.md",
+      "blob_sha": "86b899aa014227da32585020cd0916e1d90d53c4",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/decisions/0004-functional-groups.md"
+    },
+    {
+      "path": "decisions/0005-non-overlapping-subjects.md",
+      "blob_sha": "103f88eeb4e5b0a80f978ce0e001ea2691375bf3",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/decisions/0005-non-overlapping-subjects.md"
+    },
+    {
+      "path": "decisions/0006-subjects-as-scopes.md",
+      "blob_sha": "de9aa3019cd5c9c010e185edca004eff4c8b0f55",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/decisions/0006-subjects-as-scopes.md"
+    },
+    {
+      "path": "decisions/README.md",
+      "blob_sha": "2200f20670abdde68861f62e8fc6cb5d5c505f75",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/decisions/README.md"
+    },
+    {
+      "path": "research/CUSTOMIZATION-PLAN.md",
+      "blob_sha": "bbcbebdebb1c4a35c2e9ae7f2429c4f5cc4d27cf",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/CUSTOMIZATION-PLAN.md"
+    },
+    {
+      "path": "research/OPEN-QUESTIONS.md",
+      "blob_sha": "d00e565a9c5bcc4b39672f61b68a10b1212d0468",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/OPEN-QUESTIONS.md"
+    },
+    {
+      "path": "research/RECENT-WORK.md",
+      "blob_sha": "63bf53e5a9447af2403e02203531901cd7cc6a79",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/RECENT-WORK.md"
+    },
+    {
+      "path": "research/SCOPE-MAP.md",
+      "blob_sha": "daeb013b51b406bc95276e883f2e2034eea6dbab",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/SCOPE-MAP.md"
+    },
+    {
+      "path": "research/SCOPE-SYSTEMS.md",
+      "blob_sha": "48c57533855b43e2a4817a332afe12e63108f7ff",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/SCOPE-SYSTEMS.md"
+    },
+    {
+      "path": "research/SUBJECT-AUDIT.md",
+      "blob_sha": "1f36400758e9a6d4667ff495a642e79e0526d7ec",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/SUBJECT-AUDIT.md"
+    },
+    {
+      "path": "research/perspectives/CONSTRUCTION.md",
+      "blob_sha": "d270902e6ae42dbe2a3a645bf99c7caa76aa3e16",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/perspectives/CONSTRUCTION.md"
+    },
+    {
+      "path": "research/perspectives/FOUNDATION.md",
+      "blob_sha": "4854d8b57c31012490b6c83d740b043d14e1cbb4",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/perspectives/FOUNDATION.md"
+    },
+    {
+      "path": "research/perspectives/PROCESS-FINDINGS.md",
+      "blob_sha": "3477ebca3c547dfc13f0fa18aacba9ce51db76af",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/perspectives/PROCESS-FINDINGS.md"
+    },
+    {
+      "path": "research/perspectives/SUBJECT-DEVELOPMENT.md",
+      "blob_sha": "79efdf801f16f42f503ad6e8dc28d8b792501270",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/perspectives/SUBJECT-DEVELOPMENT.md"
+    },
+    {
+      "path": "research/perspectives/development.json",
+      "blob_sha": "6179ab3edd749147cf301c238623cc185f1a697d",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/perspectives/development.json"
+    },
+    {
+      "path": "research/perspectives/user-note.txt",
+      "blob_sha": "377467998d45e8ea3f60bc3b876cb881fb01780d",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/perspectives/user-note.txt"
+    },
+    {
+      "path": "research/studies/EXECUTIONS.md",
+      "blob_sha": "f9e7fef1eaa77697cf65e0d2f9cd836b4153ad3b",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/EXECUTIONS.md"
+    },
+    {
+      "path": "research/studies/SOURCES.md",
+      "blob_sha": "19d515ae2b56c696c3263298b5372b0a004556ad",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/SOURCES.md"
+    },
+    {
+      "path": "research/studies/STUDY-REUSE.md",
+      "blob_sha": "2345d18f2d70d518e063b80ec974c72b5fc44383",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/STUDY-REUSE.md"
+    },
+    {
+      "path": "research/studies/STUDY-TRANSLATIONS.md",
+      "blob_sha": "b68ecce8555169a4d06aa61a5cbcad53900c2975",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/STUDY-TRANSLATIONS.md"
+    },
+    {
+      "path": "research/studies/SUBJECT-STUDY-SYSTEM.md",
+      "blob_sha": "b5da13503baf46f214331c676975cf09571ec78a",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/SUBJECT-STUDY-SYSTEM.md"
+    },
+    {
+      "path": "research/studies/TECHNIQUES.md",
+      "blob_sha": "c5533a7e5cbf2c3ea636509f9748ed693c9f0a07",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/TECHNIQUES.md"
+    },
+    {
+      "path": "research/studies/execution-results.json",
+      "blob_sha": "1f2f42b6e6bf7ff873aa21478b0c0016128ea59a",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/execution-results.json"
+    },
+    {
+      "path": "research/studies/sources/araw_readme.txt",
+      "blob_sha": "93bd43e9d3e860363e9c47d0e0428d813b2fab7a",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/araw_readme.txt"
+    },
+    {
+      "path": "research/studies/sources/gosm_bridge.txt",
+      "blob_sha": "12c6b5f81acd2704174f34e2341a3af96acadcc8",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/gosm_bridge.txt"
+    },
+    {
+      "path": "research/studies/sources/gosm_hierarchy.txt",
+      "blob_sha": "e63ab41a65a60b80c1344627ae786efd3d857a94",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/gosm_hierarchy.txt"
+    },
+    {
+      "path": "research/studies/sources/gosm_history.txt",
+      "blob_sha": "8050f7e6d6c2ba03d1273028b1f0c0a1a0467c27",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/gosm_history.txt"
+    },
+    {
+      "path": "research/studies/sources/gosm_matrix.txt",
+      "blob_sha": "289c86034da924f03156b296205b06519ef46abb",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/gosm_matrix.txt"
+    },
+    {
+      "path": "research/studies/sources/gosm_outcome.txt",
+      "blob_sha": "02f2822252f25b12a04bad1b09543a78a39ffbc8",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/gosm_outcome.txt"
+    },
+    {
+      "path": "research/studies/sources/rt_agents.txt",
+      "blob_sha": "b44a155a81151cb975ff550519580d160d72f2ed",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/rt_agents.txt"
+    },
+    {
+      "path": "research/studies/sources/rt_araw.txt",
+      "blob_sha": "7931a7ef1bb7c525744481a8b84dbc8975d7b67d",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/rt_araw.txt"
+    },
+    {
+      "path": "research/studies/sources/rt_cmp.txt",
+      "blob_sha": "5d119b34c8cc57a4bfba2b4f632c81fb36e7e4eb",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/rt_cmp.txt"
+    },
+    {
+      "path": "research/studies/sources/rt_dd.txt",
+      "blob_sha": "2958e9bb28e5622e32c97d241750872742e3a39e",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/rt_dd.txt"
+    },
+    {
+      "path": "research/studies/sources/rt_foht.txt",
+      "blob_sha": "fef7c25fd56816086ab83682fd64c9f1fd6a1114",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/rt_foht.txt"
+    },
+    {
+      "path": "research/studies/sources/rt_fut.txt",
+      "blob_sha": "125587b02599f42c715bf475b42cd59838ac6e2e",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/rt_fut.txt"
+    },
+    {
+      "path": "research/studies/sources/rt_gosm.txt",
+      "blob_sha": "8cc2474f0b3cf063bd408c3c04a469fad01639dd",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/rt_gosm.txt"
+    },
+    {
+      "path": "research/studies/sources/rt_se.txt",
+      "blob_sha": "79693be120f46491bd237672148033d8a213025c",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/sources/rt_se.txt"
+    },
+    {
+      "path": "research/studies/study-systems.json",
+      "blob_sha": "158db82db84943d35d9a26085c942bfa4cf70ff1",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/studies/study-systems.json"
+    },
+    {
+      "path": "research/type-relations/APPROACH-SELECTION-CASE.md",
+      "blob_sha": "20637699ba1584b9253b25f7725b7a2b70d9e4f2",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/APPROACH-SELECTION-CASE.md"
+    },
+    {
+      "path": "research/type-relations/DEVIATION-CASE.md",
+      "blob_sha": "2905eccd38e84634d993c08a1c73528571995e9f",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/DEVIATION-CASE.md"
+    },
+    {
+      "path": "research/type-relations/DOMAIN-TRANSLATIONS.md",
+      "blob_sha": "9138f92d8749550e5286f588de449691cc690328",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/DOMAIN-TRANSLATIONS.md"
+    },
+    {
+      "path": "research/type-relations/FRAME-APPLICATIONS.md",
+      "blob_sha": "1e2b82bd2e87c007dd681d1e42a633d4c7214011",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/FRAME-APPLICATIONS.md"
+    },
+    {
+      "path": "research/type-relations/INTEGRATION.md",
+      "blob_sha": "58f800142c612ed355ca0f211280f067f405550e",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/INTEGRATION.md"
+    },
+    {
+      "path": "research/type-relations/PERSPECTIVES.md",
+      "blob_sha": "5669c0ac2933fa0201f2e6770915403532a20b36",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/PERSPECTIVES.md"
+    },
+    {
+      "path": "research/type-relations/README.md",
+      "blob_sha": "dbb59e5b1946084090ff31f7d52e0eb97dede79c",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/README.md"
+    },
+    {
+      "path": "research/type-relations/SUBJECT-COMPLETION.md",
+      "blob_sha": "1f75fae837f90bcc0f2a8bdc2dd1f0616d8163e9",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/SUBJECT-COMPLETION.md"
+    },
+    {
+      "path": "research/type-relations/SUBJECT-DEVELOPMENT.md",
+      "blob_sha": "99b7fd0ea3fcd7fb201fb4502adae0572fd4ea68",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/SUBJECT-DEVELOPMENT.md"
+    },
+    {
+      "path": "research/type-relations/SUBJECT-NAMES.md",
+      "blob_sha": "7e581e0fd3f9cd81248eab30cc51c096703bc78d",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/SUBJECT-NAMES.md"
+    },
+    {
+      "path": "research/type-relations/SUBJECT-REQUIREMENTS.md",
+      "blob_sha": "630385b08fad28792d3efcedf2675b0c842afa99",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/SUBJECT-REQUIREMENTS.md"
+    },
+    {
+      "path": "research/type-relations/WORKING-MEMORY-RECONCILIATION.md",
+      "blob_sha": "9d7ecf25cf70b94c7d64ac5b3e4b58044881197d",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/WORKING-MEMORY-RECONCILIATION.md"
+    },
+    {
+      "path": "research/type-relations/about-history.json",
+      "blob_sha": "d0dbcc0f4b82c6489d372cc0a6a6d61abde129c0",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/about-history.json"
+    },
+    {
+      "path": "research/type-relations/build.mjs",
+      "blob_sha": "4a3221ac92af01413928e8706c9b1f725f2fb300",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/build.mjs"
+    },
+    {
+      "path": "research/type-relations/completion-analysis.json",
+      "blob_sha": "ebd70215826c0dbd2561dc827c2b042cbef506bf",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/completion-analysis.json"
+    },
+    {
+      "path": "research/type-relations/completions.json",
+      "blob_sha": "5701dfc22d57a01a01e4cd2a3ae084c08fecb422",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/completions.json"
+    },
+    {
+      "path": "research/type-relations/explorations.json",
+      "blob_sha": "521750896cb0ccc37e06e35537fbfe229814e00b",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/explorations.json"
+    },
+    {
+      "path": "research/type-relations/model.json",
+      "blob_sha": "5ce011b39025d7ec7af8dc3d45ba8b2786620732",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/model.json"
+    },
+    {
+      "path": "research/type-relations/perspective-case-results.json",
+      "blob_sha": "11d2970a805dc8db13963b120bdb3cef75e75130",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/perspective-case-results.json"
+    },
+    {
+      "path": "research/type-relations/perspective-investigation.json",
+      "blob_sha": "0ddc2fe490b044e71020d764a19eda2cd41ba9bf",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/perspective-investigation.json"
+    },
+    {
+      "path": "research/type-relations/project-subjects.json",
+      "blob_sha": "857fb330618bd3e6cdedcefc196a912f49d8c0cb",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/project-subjects.json"
+    },
+    {
+      "path": "research/type-relations/subject-integration.json",
+      "blob_sha": "d316372ba6b5cdb538af571f8fa1fb29bbb6d8d8",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/subject-integration.json"
+    },
+    {
+      "path": "research/type-relations/subject-name-analysis.json",
+      "blob_sha": "b016b653ca22ebc752cd5f2e510d33cfcfb53e77",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/subject-name-analysis.json"
+    },
+    {
+      "path": "research/type-relations/subject-names.json",
+      "blob_sha": "856297f8c511f981bafbe422122716d2b64257ed",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/research/type-relations/subject-names.json"
+    },
+    {
+      "path": "sources/README.md",
+      "blob_sha": "ad6e323a267150aeaeee80427ec323911b7e7810",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/README.md"
+    },
+    {
+      "path": "sources/SETUP-VERIFICATION.md",
+      "blob_sha": "76f7054ee44fb9c1d38e4070de14b856552f8789",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/SETUP-VERIFICATION.md"
+    },
+    {
+      "path": "sources/manifest.json",
+      "blob_sha": "96b8514a158d56bc62791c923ef0e64c03b36d8d",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/manifest.json"
+    },
+    {
+      "path": "sources/reviews/README.md",
+      "blob_sha": "ce306e1b05ae250c40bb45ad2c6f7a1cd10e40bf",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/reviews/README.md"
+    },
+    {
+      "path": "sources/reviews/subject-sciences-proposal-2026-09-06.md",
+      "blob_sha": "e7d35fd892871f726c25ea3e968f58537e3488fc",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/reviews/subject-sciences-proposal-2026-09-06.md"
+    },
+    {
+      "path": "sources/reviews/systemrecovery-review-2026-09-06.md",
+      "blob_sha": "43efa1c6a26aa6582248bee5149ed9007bb8fea8",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/reviews/systemrecovery-review-2026-09-06.md"
+    },
+    {
+      "path": "sources/snapshots/discoveryengine-README.txt",
+      "blob_sha": "4fe49a3c721dde124eefc5b2779edccf7b1bdf42",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/snapshots/discoveryengine-README.txt"
+    },
+    {
+      "path": "sources/snapshots/project-dashboard-README.txt",
+      "blob_sha": "45ecd63b18536cf91299289ecf636baaebcdb837",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/snapshots/project-dashboard-README.txt"
+    },
+    {
+      "path": "sources/snapshots/reasoningtool2-CURRENT.txt",
+      "blob_sha": "aab1aa809e487d3d0de75d9dd8187d3215fd8693",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/snapshots/reasoningtool2-CURRENT.txt"
+    },
+    {
+      "path": "sources/snapshots/reasoningtool2-METHODS.txt",
+      "blob_sha": "1f170efe02f3f0fadafc8f26484946252abecdbf",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/snapshots/reasoningtool2-METHODS.txt"
+    },
+    {
+      "path": "sources/snapshots/sds-README.txt",
+      "blob_sha": "38e4d7b8017d0b8aedb0a3757ed8ee9e89b00788",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/sources/snapshots/sds-README.txt"
+    },
+    {
+      "path": "subjects/LEGACY.md",
+      "blob_sha": "cf9539016f467208f65b1f809bcf90d77cc6124e",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/LEGACY.md"
+    },
+    {
+      "path": "subjects/README.md",
+      "blob_sha": "d2296f1488acb81d4c7174295b57751c32ba39fe",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/README.md"
+    },
+    {
+      "path": "subjects/creation/README.md",
+      "blob_sha": "88097999b998d6dd9c06d07fb78a67fce45df175",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/creation/README.md"
+    },
+    {
+      "path": "subjects/creation/creativity/README.md",
+      "blob_sha": "523a804eec57b974f73f9fcfbed99498ffb972a7",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/creation/creativity/README.md"
+    },
+    {
+      "path": "subjects/creation/creativity/systems/alternative-development.md",
+      "blob_sha": "50c9b214236ade81329cb4d1db7934a26207ed7d",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/creation/creativity/systems/alternative-development.md"
+    },
+    {
+      "path": "subjects/creation/design/README.md",
+      "blob_sha": "64f4d818e391a67eb16e6f80d7f616f83495be75",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/creation/design/README.md"
+    },
+    {
+      "path": "subjects/creation/design/systems/design-exploration.md",
+      "blob_sha": "ec80ca3195e4dae8c49f0417ca27ae9abb39c0f0",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/creation/design/systems/design-exploration.md"
+    },
+    {
+      "path": "subjects/creation/problem-solving/README.md",
+      "blob_sha": "4eb4480b5eef8c82f3d6b0d231c7232f960fff20",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/creation/problem-solving/README.md"
+    },
+    {
+      "path": "subjects/development/README.md",
+      "blob_sha": "4cdd7cb744827d2c52cb813dd43b100bf71f71a0",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/development/README.md"
+    },
+    {
+      "path": "subjects/development/improvement/README.md",
+      "blob_sha": "3e1fe8ea9446eeb9e1c37fdb464791625cad68f5",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/development/improvement/README.md"
+    },
+    {
+      "path": "subjects/development/improvement/systems/candidate-improvement.md",
+      "blob_sha": "387277f5430975fc5285fd0efaac1647bf18b5c3",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/development/improvement/systems/candidate-improvement.md"
+    },
+    {
+      "path": "subjects/development/intelligence/README.md",
+      "blob_sha": "91b8991b91cb87703eb3091adb3e1971c0912615",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/development/intelligence/README.md"
+    },
+    {
+      "path": "subjects/development/learning/README.md",
+      "blob_sha": "2b1153e73f7b2671b154f97129ece6100e4d7db0",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/development/learning/README.md"
+    },
+    {
+      "path": "subjects/direction/README.md",
+      "blob_sha": "1343d9f20d1e1c9d9b93fcd6219247061c7f4882",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/README.md"
+    },
+    {
+      "path": "subjects/direction/decisions/README.md",
+      "blob_sha": "726bf18fec07bcf120ce89fdce59ab2c8f4d3dcc",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/decisions/README.md"
+    },
+    {
+      "path": "subjects/direction/goals/README.md",
+      "blob_sha": "c3609712811952efdfd286a069771b4edf05f390",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/goals/README.md"
+    },
+    {
+      "path": "subjects/direction/goals/systems/achievement-assessment.md",
+      "blob_sha": "30e969d6b38c66b8df04aef01571411cd0ad027c",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/goals/systems/achievement-assessment.md"
+    },
+    {
+      "path": "subjects/direction/goals/systems/goal-discovery.md",
+      "blob_sha": "54b56aa5dc5569fa34a904f4cddcd291bdd610b3",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/goals/systems/goal-discovery.md"
+    },
+    {
+      "path": "subjects/direction/judgment/README.md",
+      "blob_sha": "5092f54e561df8795b96cfcc8beaacf37f32394c",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/judgment/README.md"
+    },
+    {
+      "path": "subjects/direction/judgment/systems/criterion-discovery.md",
+      "blob_sha": "3cc9a661fde71aca0cdf6398388ca11feebd4e2e",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/judgment/systems/criterion-discovery.md"
+    },
+    {
+      "path": "subjects/direction/preferences/README.md",
+      "blob_sha": "4357dfa5121807272f0a20ff2fc7a0f0c5eda5ee",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/preferences/README.md"
+    },
+    {
+      "path": "subjects/direction/preferences/systems/preference-discovery.md",
+      "blob_sha": "89b7b34c45001828534ff9d218efd99cd4ee7dfb",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/preferences/systems/preference-discovery.md"
+    },
+    {
+      "path": "subjects/direction/preferences/systems/preference-question-route.md",
+      "blob_sha": "0d0ef6e69500b9294b66b67ea2f4965a729388d1",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/preferences/systems/preference-question-route.md"
+    },
+    {
+      "path": "subjects/direction/values/README.md",
+      "blob_sha": "f419077c953c213302acda1f72c44d70c5aebc5b",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/direction/values/README.md"
+    },
+    {
+      "path": "subjects/execution/README.md",
+      "blob_sha": "3ce8039ca5c7a6ad3f8f002ed192f0758dad2bd0",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/execution/README.md"
+    },
+    {
+      "path": "subjects/execution/action/README.md",
+      "blob_sha": "eb0195015b61d1a72e56c01628ea0d5d47a4c99f",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/execution/action/README.md"
+    },
+    {
+      "path": "subjects/execution/attention/README.md",
+      "blob_sha": "2d937fd4a02774fa857229755c03880d616a5db8",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/execution/attention/README.md"
+    },
+    {
+      "path": "subjects/execution/planning/README.md",
+      "blob_sha": "500613f4a821a519b0c76791991b55366f2681b0",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/execution/planning/README.md"
+    },
+    {
+      "path": "subjects/execution/relevance/README.md",
+      "blob_sha": "c6c181e4eac32948df98ce4f203b5a047c5c9f41",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/execution/relevance/README.md"
+    },
+    {
+      "path": "subjects/execution/resources/README.md",
+      "blob_sha": "a6ab04ab95787738c88434c44bdfac7a8365b6c1",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/execution/resources/README.md"
+    },
+    {
+      "path": "subjects/execution/strategy/README.md",
+      "blob_sha": "112048fa37179aacad5e28024e9912f96df12d91",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/execution/strategy/README.md"
+    },
+    {
+      "path": "subjects/inquiry/README.md",
+      "blob_sha": "d33a6ff34c1e1fe2758cd19a0f969a3b576c7562",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/README.md"
+    },
+    {
+      "path": "subjects/inquiry/curiosity/README.md",
+      "blob_sha": "4aa9fd5bfb1431563508ffb8b7717d1ad45d4b94",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/curiosity/README.md"
+    },
+    {
+      "path": "subjects/inquiry/discovery/README.md",
+      "blob_sha": "983ee3c2a70242f6c93720c5d152e8b52244f97c",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/discovery/README.md"
+    },
+    {
+      "path": "subjects/inquiry/discovery/systems/discovery-progress.md",
+      "blob_sha": "bf43ac44a05b75a04733342e39a7f283b4cae523",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/discovery/systems/discovery-progress.md"
+    },
+    {
+      "path": "subjects/inquiry/philosophy/README.md",
+      "blob_sha": "74fa4ee81f91450e0c77cbc598ffeb6e8c90ceb4",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/philosophy/README.md"
+    },
+    {
+      "path": "subjects/inquiry/problem-finding/README.md",
+      "blob_sha": "670528414c29507e479c69a4f21dee47fe5f9d8f",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/problem-finding/README.md"
+    },
+    {
+      "path": "subjects/inquiry/questions/README.md",
+      "blob_sha": "674dcc30260171a3611a823cb5bf3b6f63b579cb",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/questions/README.md"
+    },
+    {
+      "path": "subjects/inquiry/research/README.md",
+      "blob_sha": "33f01e20e9bdf4fb3a1007c1f4e2c1d9a340ab1f",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/research/README.md"
+    },
+    {
+      "path": "subjects/inquiry/science/README.md",
+      "blob_sha": "ed32026afd2d72ce930137277d77f45db1326e3b",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/science/README.md"
+    },
+    {
+      "path": "subjects/inquiry/search/README.md",
+      "blob_sha": "22b7bf39091f30f14f31b5ff1eef4f54ac0e3a61",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/inquiry/search/README.md"
+    },
+    {
+      "path": "subjects/interaction/README.md",
+      "blob_sha": "594e9cd2e7b6699d8588fba5ad6ec9a57637dc12",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/interaction/README.md"
+    },
+    {
+      "path": "subjects/interaction/communication/README.md",
+      "blob_sha": "955f201b65492dcc9104cce433758b7a4b9e446f",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/interaction/communication/README.md"
+    },
+    {
+      "path": "subjects/interaction/prompting/README.md",
+      "blob_sha": "f5a834b62d899c6fda213f30d0afffb0fa157800",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/interaction/prompting/README.md"
+    },
+    {
+      "path": "subjects/interaction/prompting/experiments.md",
+      "blob_sha": "6e7e7cbb2cf150f434101da963ba379d050c7639",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/interaction/prompting/experiments.md"
+    },
+    {
+      "path": "subjects/interaction/writing/README.md",
+      "blob_sha": "ba1705ef37b5680406ed27117b43e82884c0d3bc",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/interaction/writing/README.md"
+    },
+    {
+      "path": "subjects/interaction/writing/systems/contribution-construction.md",
+      "blob_sha": "015757d2c5b1782030404d1f75d9b01d1947f18f",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/interaction/writing/systems/contribution-construction.md"
+    },
+    {
+      "path": "subjects/organization/README.md",
+      "blob_sha": "cc7bbfb38a2e2ef672eb5f0516882280f39b8632",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/organization/README.md"
+    },
+    {
+      "path": "subjects/organization/connections/README.md",
+      "blob_sha": "eede3e42f62396571361b1da8eef26790bf8f568",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/organization/connections/README.md"
+    },
+    {
+      "path": "subjects/organization/knowledge/README.md",
+      "blob_sha": "7f3050c2752905e1b0d8b7481890f18c90dc0a6b",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/organization/knowledge/README.md"
+    },
+    {
+      "path": "subjects/organization/memory/README.md",
+      "blob_sha": "60167bfaf4a3f6cd476c548ffc21132ad1a07576",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/organization/memory/README.md"
+    },
+    {
+      "path": "subjects/organization/representation/README.md",
+      "blob_sha": "e63b5dad06681c8db388e1d859c8eaf12c88809b",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/organization/representation/README.md"
+    },
+    {
+      "path": "subjects/scopes/FIRST-MODEL.md",
+      "blob_sha": "17cc5cb9f648ebee57945c653951da2191d8f09b",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/FIRST-MODEL.md"
+    },
+    {
+      "path": "subjects/scopes/NAME-CHANGES.md",
+      "blob_sha": "5989ae76132b95de6efd88f9d2e423a16b6cbf26",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/NAME-CHANGES.md"
+    },
+    {
+      "path": "subjects/scopes/NAMES.md",
+      "blob_sha": "d5b8e036cf29705debace17321c79f2562a636c5",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/NAMES.md"
+    },
+    {
+      "path": "subjects/scopes/PROJECT-BINDINGS.md",
+      "blob_sha": "fc7dc1126356d3040c5e2f72ef56a8b3b9fbd9c0",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/PROJECT-BINDINGS.md"
+    },
+    {
+      "path": "subjects/scopes/README.md",
+      "blob_sha": "a34aea9da31cc479e187d02f3cb402000688ed21",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/README.md"
+    },
+    {
+      "path": "subjects/scopes/accounts.md",
+      "blob_sha": "c5c3e02bfdcb1d5ac96234057245d44a2d5b0aae",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/accounts.md"
+    },
+    {
+      "path": "subjects/scopes/activity.md",
+      "blob_sha": "6fafb19b388d2fde75e0b91a1dbcdeb9012ce2e7",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/activity.md"
+    },
+    {
+      "path": "subjects/scopes/arrangements.md",
+      "blob_sha": "fe42242f608fe3dd79b739887de6ee2307080714",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/arrangements.md"
+    },
+    {
+      "path": "subjects/scopes/availability.md",
+      "blob_sha": "f5e5d38ab1060979c0e419cae012088b8f0ea1e9",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/availability.md"
+    },
+    {
+      "path": "subjects/scopes/capability.md",
+      "blob_sha": "27afc8c06de01a04fe4715ccaa4b73c0df444bdd",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/capability.md"
+    },
+    {
+      "path": "subjects/scopes/expression.md",
+      "blob_sha": "aeff3265f0a2f2b1e5b7a9891b1dfe0c2be64fc2",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/expression.md"
+    },
+    {
+      "path": "subjects/scopes/general.md",
+      "blob_sha": "b6d53454b6171b37de9b4279594e8fa3e24d6b86",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/general.md"
+    },
+    {
+      "path": "subjects/scopes/inquiry.md",
+      "blob_sha": "cdc4052618b1c39afbb443836e6852f27fc860d0",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/inquiry.md"
+    },
+    {
+      "path": "subjects/scopes/purposes.md",
+      "blob_sha": "9da89c59d8a7fb1334b1f476bc330e398c310c50",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/purposes.md"
+    },
+    {
+      "path": "subjects/scopes/questions.md",
+      "blob_sha": "1b21e8a6faa9f020c8e9ad39a611b4cb7af20e71",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/questions.md"
+    },
+    {
+      "path": "subjects/scopes/valuation.md",
+      "blob_sha": "9d41477b2c0ef09bd6bc36a54b7b52b2d5fedcc9",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/scopes/valuation.md"
+    },
+    {
+      "path": "subjects/understanding/README.md",
+      "blob_sha": "7039a11ac4bb24f7f225f12f29e65cc7f826fb91",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/README.md"
+    },
+    {
+      "path": "subjects/understanding/explanation/README.md",
+      "blob_sha": "80aa81d66e2a8bd6294a8de98894f85f10b78578",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/explanation/README.md"
+    },
+    {
+      "path": "subjects/understanding/prediction/README.md",
+      "blob_sha": "0dd09299be399de502f5ecc4de1fa128eec4a0a3",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/prediction/README.md"
+    },
+    {
+      "path": "subjects/understanding/reasoning/README.md",
+      "blob_sha": "2f1366deeab7ca86599accf41c19ae3cea361c0c",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/README.md"
+    },
+    {
+      "path": "subjects/understanding/reasoning/operations.md",
+      "blob_sha": "72b6f3545a27b5f6d12493d6635a7d22b5f3daef",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/operations.md"
+    },
+    {
+      "path": "subjects/understanding/reasoning/systems/approach-selection.md",
+      "blob_sha": "d5df3d76d812d82f3b662580b30b30d804e841ba",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/systems/approach-selection.md"
+    },
+    {
+      "path": "subjects/understanding/reasoning/systems/finite-candidate-generation.md",
+      "blob_sha": "629655d3627e61bc03b12a301d24cb5ea9ac516f",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/systems/finite-candidate-generation.md"
+    },
+    {
+      "path": "subjects/understanding/reasoning/systems/finite-inference-validity.md",
+      "blob_sha": "853d8b997a6d1d81068986a20f545e2149c315fc",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/systems/finite-inference-validity.md"
+    },
+    {
+      "path": "subjects/understanding/reasoning/systems/inference-challenge.md",
+      "blob_sha": "39c1ed4e619efdc5799fa71abc32695658a3bca7",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/reasoning/systems/inference-challenge.md"
+    },
+    {
+      "path": "subjects/understanding/truth/README.md",
+      "blob_sha": "28dd59210537917b3e5495811090f305eaea0600",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/truth/README.md"
+    },
+    {
+      "path": "subjects/understanding/uncertainty/README.md",
+      "blob_sha": "3cd3bf199c4570decc6e7abaa78957dbdbc68301",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/uncertainty/README.md"
+    },
+    {
+      "path": "subjects/understanding/understanding/README.md",
+      "blob_sha": "4e5d158c2eaf22ab1b3bdc6f54747271239c6a65",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/understanding/understanding/README.md"
+    },
+    {
+      "path": "subjects/unplaced/README.md",
+      "blob_sha": "584628935493f169a2e6f3653ef9f03ac2b9360e",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/unplaced/README.md"
+    },
+    {
+      "path": "subjects/unplaced/promoting/README.md",
+      "blob_sha": "f3d106c8a55ffd113a76879a29a340a91d62c314",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/subjects/unplaced/promoting/README.md"
+    },
+    {
+      "path": "systems/README.md",
+      "blob_sha": "17b90a7833c9fd20e6dfeeaaa5f9d9ec5a4e8fb6",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/README.md"
+    },
+    {
+      "path": "systems/araw.md",
+      "blob_sha": "a18791d977499f3f9eb4a7edb479a8486ce89106",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/araw.md"
+    },
+    {
+      "path": "systems/automaticscience.md",
+      "blob_sha": "8ea67f45b60e54e564880f50b502e1598261ea95",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/automaticscience.md"
+    },
+    {
+      "path": "systems/autophilosophy.md",
+      "blob_sha": "8292dda13c6eaeb5191a01c282c3908871a993e6",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/autophilosophy.md"
+    },
+    {
+      "path": "systems/axiomnet-historical.md",
+      "blob_sha": "c4efa3f72fa914713aeea07ec84eadaa87caef91",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/axiomnet-historical.md"
+    },
+    {
+      "path": "systems/bod.md",
+      "blob_sha": "e0c5a2d865936b082c2b962b6f28822a9ebcaebd",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/bod.md"
+    },
+    {
+      "path": "systems/discovery-engine.md",
+      "blob_sha": "788f433cfb6aa3de6031badcac15ee8fc7f53f4d",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/discovery-engine.md"
+    },
+    {
+      "path": "systems/gosm.md",
+      "blob_sha": "2ed31e65535c64eeed0e87b095ed851e1fbf111b",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/gosm.md"
+    },
+    {
+      "path": "systems/logicsystem.md",
+      "blob_sha": "ed60a24f569ca3c141e9c166ac44807be11f2197",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/logicsystem.md"
+    },
+    {
+      "path": "systems/master-framework.md",
+      "blob_sha": "117348b0326fa386dfa6cc54a12d9a94cbc6b4c3",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/master-framework.md"
+    },
+    {
+      "path": "systems/postagi-reasoning.md",
+      "blob_sha": "5956237eb1a8e84767e3cd4853e0c8f8469546de",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/postagi-reasoning.md"
+    },
+    {
+      "path": "systems/preferencefinder.md",
+      "blob_sha": "f540b5d22676936e8a6dcb7579619d8fa3815d6e",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/preferencefinder.md"
+    },
+    {
+      "path": "systems/project-dashboard.md",
+      "blob_sha": "5f4772569531fb482690d4fc21634a691ed69d94",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/project-dashboard.md"
+    },
+    {
+      "path": "systems/questionroute.md",
+      "blob_sha": "7f2702606868e477b5b0e067441673ea0c5fee68",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/questionroute.md"
+    },
+    {
+      "path": "systems/reasoningtool.md",
+      "blob_sha": "498f929448362a34ee45845ddb94d5f55ab18943",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/reasoningtool.md"
+    },
+    {
+      "path": "systems/reasoningtool2.md",
+      "blob_sha": "aa54568cc80d04d0110299309b9692935ff8cffc",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/reasoningtool2.md"
+    },
+    {
+      "path": "systems/resource-engineering.md",
+      "blob_sha": "aa28d82798456fac8dcf2b05cdc4a1d13fae8087",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/resource-engineering.md"
+    },
+    {
+      "path": "systems/sds.md",
+      "blob_sha": "01885778e899ff65546c6015d87cfc68331eba94",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/sds.md"
+    },
+    {
+      "path": "systems/strategizer.md",
+      "blob_sha": "5200d0aaa946e7d104c25c9d416bdc79040ea7af",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/strategizer.md"
+    },
+    {
+      "path": "systems/superintelbot.md",
+      "blob_sha": "bd3f0416b458fc6f7a8e7090d0cf7b99a342e825",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/superintelbot.md"
+    },
+    {
+      "path": "systems/systemrecovery.md",
+      "blob_sha": "e0e5a88c7aee74cd52fff102ef16b58ef4eec04f",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/systemrecovery.md"
+    },
+    {
+      "path": "systems/truthfinder.md",
+      "blob_sha": "7a0c9d9c295ef42fc1c8ae0476a3169af94b5b7e",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/systems/truthfinder.md"
+    },
+    {
+      "path": "templates/README.md",
+      "blob_sha": "22cbd607398678bb619119939834f1bdb22f8fcb",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/templates/README.md"
+    },
+    {
+      "path": "templates/case.md",
+      "blob_sha": "f6db63b3ebe32ea3f17f812beac211e83e19bcda",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/templates/case.md"
+    },
+    {
+      "path": "templates/custom-system.md",
+      "blob_sha": "d79f48e0d035a1c2e39afc13ede19a150ac306fb",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/templates/custom-system.md"
+    },
+    {
+      "path": "templates/subject.md",
+      "blob_sha": "254d42fd5625eaeee2a7eb4745fbe0f99c95594d",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/templates/subject.md"
+    },
+    {
+      "path": "tools/build_perspective_investigation.py",
+      "blob_sha": "9bd35c1ffa92b9ffad7c4306216264cf49b8bcb1",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/tools/build_perspective_investigation.py"
+    },
+    {
+      "path": "tools/build_perspective_process.py",
+      "blob_sha": "7d020ab5bc6c3b3ecee1824747a4cea257bfee76",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/tools/build_perspective_process.py"
+    },
+    {
+      "path": "tools/build_study_systems.py",
+      "blob_sha": "22fb05c1b0c0b54dbb946523a24035028fcd0bbc",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/tools/build_study_systems.py"
+    },
+    {
+      "path": "tools/build_subject_integration.py",
+      "blob_sha": "513311a61e7ed89ffe32d5b27cffd00ae017bb50",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/tools/build_subject_integration.py"
+    },
+    {
+      "path": "tools/build_subject_names.py",
+      "blob_sha": "c84ccde4c28a13ea17a9962e8cb8708309be0498",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/tools/build_subject_names.py"
+    },
+    {
+      "path": "tools/check.py",
+      "blob_sha": "14bc9882dc28c6ef7d609be2bbdc4c1695427aea",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/tools/check.py"
+    },
+    {
+      "path": "tools/run_perspective_case.py",
+      "blob_sha": "b1c03ed66d58de188295b66188d61f3958ee6a65",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/tools/run_perspective_case.py"
+    },
+    {
+      "path": "tools/run_study_cases.py",
+      "blob_sha": "b380e42bc9327951d5e95762b6c0577be9194513",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/tools/run_study_cases.py"
+    },
+    {
+      "path": "tools/study_methods.py",
+      "blob_sha": "d4ceb3b6f06457d6aa86a91b3e18128fd5bca7ac",
+      "url": "https://github.com/benjam3n/subjectsystems/blob/005ff6674b513ae6781abaac42bf0068696f8b39/tools/study_methods.py"
+    }
+  ]
+}

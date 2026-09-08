@@ -1,24 +1,33 @@
 Adaptive use of available abilities when the appropriate means are not fixed in advance; a capability refinement, not an exclusive peer of all Capability.
 
-## Intelligence adaptation
+## Intelligence adaptation requirement
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Intelligence adaptation requirement | Specify the changes of task or environment that an intelligence claim requires the agent to handle. | Defining intelligence by a flattering unbounded adjective. |
-| Intelligence adaptation strategy selection | Determine whether the agent can select a fitting means under the specified changed conditions. | Merely listing candidate strategies. |
-| Intelligence adaptation strategy construction | Determine whether the agent can construct a fitting means when the stated available means are inadequate. | Calling any generated text an adequate adaptation. |
-| Intelligence adaptation transfer | Determine whether the adaptive ability persists across the specified change of task family. | Assuming that one task's success establishes generality. |
+The changes of task or environment that an intelligence claim requires the agent to handle. Excludes: Defining intelligence by a flattering unbounded adjective.
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Intelligence improvement | Determine whether a specified change improves adaptive ability against a fixed baseline and criterion. | Treating every capability modification as improvement. |
-| Intelligence maintenance | Determine what preserves the specified adaptive ability across an identified disturbance or interval. | Requiring new capability creation when preservation is the target. |
-| Intelligence regression | Identify a loss of previously demonstrated adaptive ability under comparable conditions. | Calling a harder new task evidence of regression without comparison. |
+## Intelligence adaptation strategy selection
 
-| Subject | Containing subject |
-|---|---|
-| Intelligence adaptation transfer | Capability use transfer |
+Whether the agent can select a fitting means under the specified changed conditions. Excludes: Merely listing candidate strategies.
 
-## Study
+## Intelligence adaptation strategy construction
+
+Whether the agent can construct a fitting means when the stated available means are inadequate. Excludes: Calling any generated text an adequate adaptation.
+
+## Intelligence adaptation transfer
+
+Whether the adaptive ability persists across the specified change of task family. Excludes: Assuming that one task's success establishes generality.
+
+Within [Capability use transfer](capability.md#capability-use-transfer).
+
+## Intelligence improvement
+
+Whether a specified change improves adaptive ability against a fixed baseline and criterion. Excludes: Treating every capability modification as improvement.
+
+## Intelligence maintenance
+
+What preserves the specified adaptive ability across an identified disturbance or interval. Excludes: Requiring new capability creation when preservation is the target.
+
+## Intelligence regression
+
+A loss of previously demonstrated adaptive ability under comparable conditions. Excludes: Calling a harder new task evidence of regression without comparison.
 
 - [Intelligence questions](../studies/intelligence/questions.md)

@@ -344,7 +344,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of an identifiable reasoning approach from a nonempty candidate set available at the time of choice for a specified matter; the selection rule may be implicit or explicit."
     },
     {
       "id": "reasoning-approach-creation",
@@ -359,7 +360,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a reasoning approach absent from the stated initial inventory, with executable intellectual operations."
     },
     {
       "id": "reasoning-approach-modification",
@@ -374,7 +376,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Production of a changed version of an identified reasoning approach with the changed operations explicit."
     },
     {
       "id": "reasoning-approach-identification",
@@ -389,7 +392,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which approach a description or performance instantiates under stated identity conditions."
     },
     {
       "id": "reasoning-approach-applicability",
@@ -404,7 +408,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether an approach's operating assumptions hold for the specified case."
     },
     {
       "id": "reasoning-approach-comparison",
@@ -419,7 +424,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The differences between candidate approaches under fixed comparison criteria."
     },
     {
       "id": "reasoning-approach-selection-criterion",
@@ -434,7 +440,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What should govern choosing among reasoning approaches for the stated class of matters."
     },
     {
       "id": "reasoning-approach-requirement",
@@ -449,7 +456,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What a proposed reasoning approach must accomplish under stated conditions."
     },
     {
       "id": "reasoning-approach-input-specification",
@@ -464,7 +472,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The intellectual material an approach accepts, including required distinctions."
     },
     {
       "id": "reasoning-approach-output-specification",
@@ -479,7 +488,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The contribution whose production counts as executing the approach."
     },
     {
       "id": "reasoning-approach-assumption-identification",
@@ -494,7 +504,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The assumptions on which the approach's operations rely."
     },
     {
       "id": "reasoning-approach-composition",
@@ -509,7 +520,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of an arrangement of approaches with explicit intermediate contributions."
     },
     {
       "id": "reasoning-approach-substitution",
@@ -524,7 +536,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether one approach can replace another while preserving the specified required contribution."
     },
     {
       "id": "reasoning-approach-termination-condition",
@@ -539,7 +552,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "When further execution of the approach should stop for the stated purpose."
     },
     {
       "id": "reasoning-approach-failure-diagnosis",
@@ -554,7 +568,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Location of the approach feature responsible for a specified failure under an explicit failure account."
     },
     {
       "id": "reasoning-approach-transfer-condition",
@@ -569,7 +584,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which changes of target preserve the applicability of the approach's transformation."
     },
     {
       "id": "reasoning-candidate-space-specification",
@@ -584,7 +600,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which possibilities the reasoning process can currently consider."
     },
     {
       "id": "reasoning-candidate-generation",
@@ -599,7 +616,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Production of possibilities within a specified reasoning candidate space."
     },
     {
       "id": "reasoning-candidate-exclusion",
@@ -614,7 +632,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing why an identified possibility can be removed under a stated exclusion condition."
     },
     {
       "id": "reasoning-candidate-space-expansion",
@@ -629,7 +648,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Addition of a distinct candidate dimension or admissible region absent from the earlier space."
     },
     {
       "id": "reasoning-assumption-consequence-derivation",
@@ -644,7 +664,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Derivation of what follows if an identified assumption is accepted under stated inference rules."
     },
     {
       "id": "reasoning-assumption-alternative-construction",
@@ -659,7 +680,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a specified alternative to an assumption that changes a consequential implication."
     },
     {
       "id": "reasoning-error-location",
@@ -674,7 +696,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The particular intellectual step that fails a stated correctness condition."
     },
     {
       "id": "reasoning-error-correction",
@@ -689,7 +712,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Replacement of the identified faulty intellectual step with a defensible contribution."
     },
     {
       "id": "reasoning-approach-specification",
@@ -703,7 +727,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The operations and their composition that constitute an identified approach."
     },
     {
       "id": "reasoning-approach-execution",
@@ -717,7 +742,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Execution of the specified intellectual transformations on the supplied material."
     },
     {
       "id": "reasoning-approach-retrieval",
@@ -731,7 +757,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Location of an existing approach matching an identified intellectual transformation need."
     },
     {
       "id": "reasoning-approach-representation",
@@ -745,7 +772,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Expression of an identified approach so its prescribed transformations can be recovered."
     },
     {
       "id": "reasoning-approach-execution-fidelity",
@@ -759,7 +787,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a particular performance followed the specified approach."
     },
     {
       "id": "reasoning-approach-contribution-adequacy",
@@ -773,7 +802,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the approach's actual output supplies the fixed required intellectual contribution."
     },
     {
       "id": "reasoning-approach-cost-estimation",
@@ -787,7 +817,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Estimation of the stated time or resource demand of using an approach in the specified case."
     },
     {
       "id": "reasoning-approach-retirement",
@@ -801,7 +832,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Removal of an identified approach from the operative candidate inventory under stated reasons."
     },
     {
       "id": "reasoning-contribution-requirement",
@@ -815,7 +847,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which kind of intellectual contribution would change the current unresolved matter."
     },
     {
       "id": "reasoning-contribution-selection",
@@ -829,7 +862,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of the next kind of contribution from the specified available alternatives."
     },
     {
       "id": "question-specification",
@@ -844,7 +878,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What a question asks about, including its requested distinction."
     },
     {
       "id": "question-identity",
@@ -859,7 +894,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two formulations request the same distinction under fixed interpretation."
     },
     {
       "id": "question-presupposition",
@@ -874,7 +910,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What must be taken for granted for the question's requested distinction to apply."
     },
     {
       "id": "question-scope",
@@ -889,7 +926,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The referents, cases, or time range covered by what is asked."
     },
     {
       "id": "question-candidate-creation",
@@ -904,7 +942,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a question specification introducing a stated unresolved distinction."
     },
     {
       "id": "question-candidate-modification",
@@ -919,7 +958,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of an identified question's requested distinction or conditions."
     },
     {
       "id": "question-candidate-selection",
@@ -934,7 +974,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of an already specified question to pursue under fixed criteria."
     },
     {
       "id": "question-answer-space-specification",
@@ -949,7 +990,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What differences among possible answers the question permits."
     },
     {
       "id": "question-answer-fit",
@@ -964,7 +1006,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a response addresses the question's requested distinction with its interpretation fixed."
     },
     {
       "id": "question-answer-completeness",
@@ -981,7 +1024,8 @@
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
       "broader_subjects": [
         "Question answer fit"
-      ]
+      ],
+      "description": "Which parts of the requested resolution a response supplies or leaves unsettled."
     },
     {
       "id": "question-answer-presupposition-correction",
@@ -996,7 +1040,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How rejecting a false presupposition resolves the original request."
     },
     {
       "id": "question-answer-equivalence",
@@ -1011,7 +1056,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two responses settle the same requested distinctions."
     },
     {
       "id": "question-route-specification",
@@ -1028,7 +1074,8 @@
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
       "broader_subjects": [
         "Plan contingency"
-      ]
+      ],
+      "description": "Which next question follows from each relevant answer condition."
     },
     {
       "id": "question-route-branch-distinction",
@@ -1043,7 +1090,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which answer differences require different continuations."
     },
     {
       "id": "question-route-gap-detection",
@@ -1058,7 +1106,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Identification of an admissible answer for which the stated route lacks an appropriate continuation."
     },
     {
       "id": "question-route-termination-condition",
@@ -1073,7 +1122,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which resolved distinctions make further traversal unnecessary for the stated purpose."
     },
     {
       "id": "question-answer-construction",
@@ -1087,7 +1137,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a response that supplies the requested distinction with any unresolved truth claims explicit."
     },
     {
       "id": "question-answer-revision",
@@ -1101,7 +1152,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of a specified response to repair an identified failure to address the fixed question."
     },
     {
       "id": "question-route-continuation-selection",
@@ -1115,7 +1167,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of the applicable continuation after a specified answer is available."
     },
     {
       "id": "claim-content-specification",
@@ -1131,7 +1184,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What an assertion says under an explicit interpretation."
     },
     {
       "id": "claim-content-reference",
@@ -1147,7 +1201,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What the assertion's expressions refer to in the stated context."
     },
     {
       "id": "claim-content-quantifier-scope",
@@ -1163,7 +1218,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which cases an assertion ranges over and where its quantifiers apply."
     },
     {
       "id": "claim-content-qualification",
@@ -1179,7 +1235,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The conditions restricting the assertion's applicability."
     },
     {
       "id": "claim-content-equivalence",
@@ -1195,7 +1252,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two assertions have the same stated content under a fixed interpretation."
     },
     {
       "id": "claim-truth-conditions",
@@ -1211,7 +1269,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which situations make the identified proposition true under its interpretation."
     },
     {
       "id": "claim-truth-condition-satisfaction",
@@ -1227,7 +1286,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the specified situation satisfies a formalized proposition's truth conditions, with its domain facts supplied."
     },
     {
       "id": "claim-support-identification",
@@ -1243,7 +1303,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which reasons or observations bear on the specified claim and through what stated support relation."
     },
     {
       "id": "claim-support-sufficiency",
@@ -1259,7 +1320,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the supplied grounds meet a stated acceptance threshold for this claim."
     },
     {
       "id": "claim-support-limits",
@@ -1275,7 +1337,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which conclusions remain unwarranted by the supplied grounds under the stated support rule."
     },
     {
       "id": "claim-support-dependence",
@@ -1291,7 +1354,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which support paths rely on the same premise or source rather than providing independent grounds."
     },
     {
       "id": "claim-support-defeater",
@@ -1307,7 +1371,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A condition that undermines the specified support relation."
     },
     {
       "id": "claim-support-preservation",
@@ -1323,7 +1388,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which grounds still support the claim after a specified premise or source correction."
     },
     {
       "id": "claim-inference-validity",
@@ -1339,7 +1405,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the identified conclusion follows from the supplied premises under stated rules."
     },
     {
       "id": "claim-inference-counterexample",
@@ -1355,7 +1422,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of an admissible case with true premises and a false conclusion for the specified inference."
     },
     {
       "id": "claim-acceptance-status",
@@ -1371,7 +1439,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether an identified record treats the claim as accepted, rejected, conditional, or unresolved."
     },
     {
       "id": "claim-acceptance-confidence",
@@ -1387,7 +1456,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The degree or form of confidence actually represented for the claim."
     },
     {
       "id": "claim-acceptance-alternatives",
@@ -1403,7 +1473,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which competing possibilities the record continues to leave open."
     },
     {
       "id": "claim-acceptance-revision",
@@ -1419,7 +1490,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which recorded claim status changes in response to a stated correction."
     },
     {
       "id": "claim-inference-specification",
@@ -1434,7 +1506,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Specification of the premises, conclusion, and alleged consequence relation of the argument to be assessed."
     },
     {
       "id": "claim-inference-revision",
@@ -1449,7 +1522,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of the identified premises or inference step to address a demonstrated defect."
     },
     {
       "id": "expression-representation-selection",
@@ -1464,7 +1538,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of a form for expressing fixed content under stated requirements."
     },
     {
       "id": "expression-representation-creation",
@@ -1479,7 +1554,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of an expression that represents the specified content."
     },
     {
       "id": "expression-representation-modification",
@@ -1494,7 +1570,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of an existing expression with the intended content change or preservation explicit."
     },
     {
       "id": "expression-representation-fidelity",
@@ -1509,7 +1586,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The consequential content distinctions a specified representation preserves or loses."
     },
     {
       "id": "expression-representation-conversion",
@@ -1524,7 +1602,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Translation of identified content into another representational form under an explicit correspondence."
     },
     {
       "id": "expression-representation-ambiguity",
@@ -1539,7 +1618,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Distinct interpretations permitted by the representation under stated conventions."
     },
     {
       "id": "expression-representation-compression",
@@ -1554,7 +1634,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Reduction of representational extent while specifying what information is retained or lost."
     },
     {
       "id": "expression-structure-sequence",
@@ -1569,7 +1650,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The order in which the expression presents identified contributions."
     },
     {
       "id": "expression-structure-dependency-visibility",
@@ -1584,7 +1666,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the expression makes a specified dependency inspectable."
     },
     {
       "id": "expression-structure-grouping",
@@ -1599,7 +1682,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which expressed contributions are grouped together under a stated representational distinction."
     },
     {
       "id": "expression-wording-selection",
@@ -1614,7 +1698,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of words for an identified content distinction under stated expression criteria."
     },
     {
       "id": "expression-wording-modification",
@@ -1629,7 +1714,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of the verbal form of identified content with semantic differences recorded."
     },
     {
       "id": "expression-interpretation-attribution",
@@ -1644,7 +1730,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What a specified recipient takes an expression to mean."
     },
     {
       "id": "expression-interpretation-alignment",
@@ -1659,7 +1746,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the attributed interpretation matches the specified intended content."
     },
     {
       "id": "expression-interpretation-repair",
@@ -1674,7 +1762,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Production of a communicative change directed at a specified interpretation mismatch."
     },
     {
       "id": "expression-instruction-requirement",
@@ -1689,7 +1778,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What the expression directs its recipient to do under its intended interpretation."
     },
     {
       "id": "expression-instruction-interpretation",
@@ -1704,7 +1794,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What action requirement the recipient attributes to the instruction."
     },
     {
       "id": "goal-creation",
@@ -1718,7 +1809,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a candidate intended outcome absent from the stated initial goal inventory."
     },
     {
       "id": "goal-modification",
@@ -1732,7 +1824,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of the intended outcome or its scope while identifying what changed."
     },
     {
       "id": "goal-identity",
@@ -1746,7 +1839,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two formulations specify the same intended outcome."
     },
     {
       "id": "goal-selection",
@@ -1760,7 +1854,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of an intended outcome from specified candidates under fixed criteria."
     },
     {
       "id": "goal-achievement-condition-specification",
@@ -1774,7 +1869,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What must be true for the goal to count as achieved."
     },
     {
       "id": "goal-achievement-indicator-adequacy",
@@ -1788,7 +1884,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How faithfully an indicator distinguishes goal achievement from non-achievement."
     },
     {
       "id": "goal-achievement-status",
@@ -1802,7 +1899,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the stated achievement conditions hold in the specified situation."
     },
     {
       "id": "goal-relation-compatibility",
@@ -1816,7 +1914,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the specified goals can be jointly achieved under fixed conditions."
     },
     {
       "id": "goal-relation-priority",
@@ -1830,7 +1929,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Precedence among specified goals under an explicit conflict rule."
     },
     {
       "id": "goal-relation-dependency",
@@ -1844,7 +1944,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which goal achievement is required for another specified goal."
     },
     {
       "id": "goal-means-dependence",
@@ -1859,7 +1960,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How a proposed activity contributes to an intended outcome under explicit dependency claims."
     },
     {
       "id": "commitment-adoption",
@@ -1873,7 +1975,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing which specified undertaking an agent has adopted within its authority."
     },
     {
       "id": "commitment-deferral",
@@ -1887,7 +1990,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing that an undertaking remains undecided until a specified condition."
     },
     {
       "id": "commitment-withdrawal",
@@ -1901,7 +2005,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing that an earlier undertaking is no longer in force."
     },
     {
       "id": "commitment-reopening",
@@ -1915,7 +2020,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which changed condition makes a prior undertaking subject to renewed decision."
     },
     {
       "id": "commitment-scope-specification",
@@ -1929,7 +2035,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The actions, conditions, or duration covered by an undertaking."
     },
     {
       "id": "commitment-scope-authority",
@@ -1943,7 +2050,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Who can establish or alter the specified undertaking."
     },
     {
       "id": "commitment-scope-persistence",
@@ -1957,7 +2065,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which commitments remain in force across an interruption or changed premise."
     },
     {
       "id": "preference-observation-identification",
@@ -1971,7 +2080,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What a recorded choice or rejection actually reveals about the offered contrast."
     },
     {
       "id": "preference-observation-context",
@@ -1985,7 +2095,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The circumstances that constrain interpretation of a preference observation."
     },
     {
       "id": "preference-hypothesis-creation",
@@ -1999,7 +2110,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of an account of favoring that explains identified contrasts without absorbing every candidate feature."
     },
     {
       "id": "preference-hypothesis-discrimination",
@@ -2013,7 +2125,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A contrast whose possible outcomes separate competing preference accounts."
     },
     {
       "id": "preference-hypothesis-exception",
@@ -2027,7 +2140,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Location of a case that falls outside the stated preference account despite meeting its conditions."
     },
     {
       "id": "preference-hypothesis-revision",
@@ -2041,7 +2155,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Modification of a preference account in response to a consequential observation."
     },
     {
       "id": "preference-hypothesis-prediction",
@@ -2055,7 +2170,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Specification of the choice a preference account anticipates before the choice is observed."
     },
     {
       "id": "preference-change-detection",
@@ -2069,7 +2185,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether favoring changed with comparable choice conditions held fixed."
     },
     {
       "id": "preference-change-cause",
@@ -2083,7 +2200,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What explains the identified change in favoring."
     },
     {
       "id": "preference-interest-identification",
@@ -2097,7 +2215,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which unresolved matters attract the agent's interest in finding out."
     },
     {
       "id": "criterion-creation",
@@ -2111,7 +2230,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Formulation of a criterion that distinguishes a consequential difference for a stated purpose."
     },
     {
       "id": "criterion-modification",
@@ -2125,7 +2245,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of what the criterion counts or how it applies, with the difference explicit."
     },
     {
       "id": "criterion-justification",
@@ -2139,7 +2260,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing why the specified distinction should count for the stated purpose."
     },
     {
       "id": "criterion-scope",
@@ -2153,7 +2275,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The cases in which the criterion's justification applies."
     },
     {
       "id": "criterion-application-condition",
@@ -2167,7 +2290,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What information is needed to apply the criterion to an item."
     },
     {
       "id": "criterion-application-consistency",
@@ -2181,7 +2305,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the same stated criterion yields compatible judgments in relevantly equivalent cases."
     },
     {
       "id": "criterion-conflict-identification",
@@ -2195,7 +2320,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A case where satisfying one criterion obstructs another specified criterion."
     },
     {
       "id": "criterion-conflict-resolution",
@@ -2209,7 +2335,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How the identified criterion conflict is decided under stated reasons."
     },
     {
       "id": "comparison-basis-alignment",
@@ -2223,7 +2350,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which features or conditions must be made comparable before applying a fixed standard."
     },
     {
       "id": "comparison-basis-baseline",
@@ -2237,7 +2365,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The reference item or state used by the comparison."
     },
     {
       "id": "comparison-result-ordering",
@@ -2251,7 +2380,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The ordering induced by the stated values under a fixed comparison rule."
     },
     {
       "id": "comparison-result-incomparability",
@@ -2265,7 +2395,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Why the supplied comparison rule leaves a pair unordered."
     },
     {
       "id": "comparison-result-sensitivity",
@@ -2279,7 +2410,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which changes in stated comparison inputs would reverse the ordering."
     },
     {
       "id": "comparison-result-aggregation",
@@ -2293,7 +2425,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a stated aggregation rule preserves the distinctions the comparison requires."
     },
     {
       "id": "explanation-target-specification",
@@ -2307,7 +2440,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The occurrence, pattern, or dependence the account must explain."
     },
     {
       "id": "explanation-target-contrast",
@@ -2321,7 +2455,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Why this outcome rather than which alternative is being explained."
     },
     {
       "id": "explanation-account-creation",
@@ -2335,7 +2470,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of an account of the specified target's dependence or mechanism."
     },
     {
       "id": "explanation-account-comparison",
@@ -2349,7 +2485,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How competing accounts differ in their explanation of a fixed target."
     },
     {
       "id": "explanation-account-discrimination",
@@ -2363,7 +2500,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "An observation that would separate the specified explanatory accounts."
     },
     {
       "id": "explanation-account-scope",
@@ -2377,7 +2515,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The conditions within which the proposed explanation applies."
     },
     {
       "id": "explanation-account-circularity",
@@ -2391,7 +2530,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the proposed explanation assumes the very dependence it claims to explain."
     },
     {
       "id": "explanation-account-revision",
@@ -2405,7 +2545,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of the explanation's dependence structure in response to an identified defect."
     },
     {
       "id": "prediction-target-specification",
@@ -2419,7 +2560,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The outcome variable whose future or unknown value is forecast."
     },
     {
       "id": "prediction-target-horizon",
@@ -2433,7 +2575,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The time or event boundary at which the prediction is to be resolved."
     },
     {
       "id": "prediction-construction",
@@ -2447,7 +2590,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Production of a forecast for the specified target from the information available at prediction time."
     },
     {
       "id": "prediction-information-boundary",
@@ -2461,7 +2605,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The information legitimately available to the predictor when the forecast was made."
     },
     {
       "id": "prediction-uncertainty-representation",
@@ -2475,7 +2620,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which possible outcomes or probability assignments the forecast expresses."
     },
     {
       "id": "prediction-resolution",
@@ -2489,7 +2635,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The observed outcome under the previously specified resolution rule."
     },
     {
       "id": "prediction-error",
@@ -2503,7 +2650,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The difference between forecast and outcome under a fixed error definition."
     },
     {
       "id": "prediction-calibration",
@@ -2517,7 +2665,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Comparison of stated probabilities with observed frequencies over a specified admissible set of forecasts."
     },
     {
       "id": "prediction-revision",
@@ -2531,7 +2680,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Updating of the forecast using identified new information while preserving its prior version."
     },
     {
       "id": "problem-formulation-creation",
@@ -2546,7 +2696,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "An obstruction relative to an explicit requirement and situation."
     },
     {
       "id": "problem-formulation-modification",
@@ -2561,7 +2712,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of the alleged obstruction, with the reason for the revision retained."
     },
     {
       "id": "problem-formulation-cause",
@@ -2576,7 +2728,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What produces the specified obstruction under an explicit causal account."
     },
     {
       "id": "problem-remedy-creation",
@@ -2591,7 +2744,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a proposed change whose stated effect addresses the specified obstruction."
     },
     {
       "id": "problem-remedy-adequacy",
@@ -2606,7 +2760,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a specified effect, if obtained, would remove or reduce the stated obstruction."
     },
     {
       "id": "problem-remedy-incompleteness",
@@ -2621,7 +2776,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which necessary problem condition a proposed effect leaves unsatisfied."
     },
     {
       "id": "problem-remedy-displacement",
@@ -2636,7 +2792,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A new obstruction introduced by the proposed remedy under fixed requirements."
     },
     {
       "id": "problem-remedy-selection",
@@ -2651,7 +2808,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of an already specified remedy under fixed adequacy facts and decision criteria."
     },
     {
       "id": "plan-creation",
@@ -2665,7 +2823,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a prospective arrangement of activities for a stated aim."
     },
     {
       "id": "plan-modification",
@@ -2679,7 +2838,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of the prospective arrangement in response to a changed condition."
     },
     {
       "id": "plan-prerequisite",
@@ -2693,7 +2853,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What must hold before a specified planned activity can proceed."
     },
     {
       "id": "plan-sequence",
@@ -2707,7 +2868,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The precedence relations among specified activities."
     },
     {
       "id": "plan-contingency",
@@ -2721,7 +2883,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which activity follows when a stated condition obtains."
     },
     {
       "id": "plan-gap",
@@ -2735,7 +2898,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A reachable condition for which the plan supplies no adequate continuation."
     },
     {
       "id": "plan-fallback",
@@ -2749,7 +2913,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The continuation used when an identified primary route becomes unavailable."
     },
     {
       "id": "plan-commitment-reversibility",
@@ -2763,7 +2928,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which planned choices preserve or remove later options under stated constraints."
     },
     {
       "id": "plan-horizon-specification",
@@ -2777,7 +2943,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The extent of the future for which the arrangement makes commitments."
     },
     {
       "id": "resource-use-identification",
@@ -2791,7 +2958,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What contribution makes an item a resource for the stated activity."
     },
     {
       "id": "resource-use-access-condition",
@@ -2805,7 +2973,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The conditions under which the activity can actually use the resource."
     },
     {
       "id": "resource-use-capacity",
@@ -2819,7 +2988,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The amount or range of contribution available from the resource under stated conditions."
     },
     {
       "id": "resource-configuration-construction",
@@ -2833,7 +3003,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of an allocation of specified means to uses under explicit constraints."
     },
     {
       "id": "resource-configuration-feasibility",
@@ -2847,7 +3018,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the proposed allocation satisfies joint capacity and access constraints."
     },
     {
       "id": "resource-configuration-bottleneck",
@@ -2861,7 +3033,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which binding resource constraint limits the specified configuration."
     },
     {
       "id": "resource-configuration-substitution",
@@ -2875,7 +3048,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a replacement resource preserves the specified configuration's required contribution."
     },
     {
       "id": "resource-configuration-opportunity-cost",
@@ -2889,7 +3063,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The best specified forgone use imposed by the proposed allocation under fixed comparison conditions."
     },
     {
       "id": "resource-configuration-comparison",
@@ -2904,7 +3079,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Comparison of specified resource configurations under fixed uses and criteria."
     },
     {
       "id": "resource-configuration-modification",
@@ -2919,7 +3095,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Production of a revised allocation with changed use or capacity assignments explicit."
     },
     {
       "id": "resource-configuration-reconstruction",
@@ -2934,7 +3111,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current naming derivation; source contribution exposes this missing target.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Reconstruction of an earlier allocation episode through its resource assignments, uses, alternatives, and constraints."
     },
     {
       "id": "memory-record-retention",
@@ -2948,7 +3126,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Preservation of an identified item across a specified interval or transition."
     },
     {
       "id": "memory-record-retrieval",
@@ -2962,7 +3141,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Location of an existing retained item that matches the specified retrieval target."
     },
     {
       "id": "memory-record-reconstruction",
@@ -2976,7 +3156,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Reconstruction of an earlier item from surviving evidence with inferred parts identified."
     },
     {
       "id": "memory-record-identity",
@@ -2990,7 +3171,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which earlier item or version a recovered record represents."
     },
     {
       "id": "memory-record-provenance",
@@ -3004,7 +3186,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Recovery of the source path through which the recorded material was obtained or derived."
     },
     {
       "id": "memory-record-context-recovery",
@@ -3018,7 +3201,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Recovery of the conditions needed to interpret a retained item as it was intended."
     },
     {
       "id": "memory-record-status-recovery",
@@ -3032,7 +3216,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Recovery of an earlier item's status as current, proposed, rejected, superseded, or unresolved."
     },
     {
       "id": "memory-record-version-distinction",
@@ -3046,7 +3231,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The substantive differences among retained versions of the same item."
     },
     {
       "id": "memory-reuse-fidelity",
@@ -3060,7 +3246,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a later use preserves the recovered item's consequential content and status."
     },
     {
       "id": "memory-reuse-trigger",
@@ -3074,7 +3261,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which later conditions make a retained result relevant to the current work."
     },
     {
       "id": "discovery-baseline-specification",
@@ -3088,7 +3276,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The earlier position against which a contribution is claimed to be new."
     },
     {
       "id": "discovery-baseline-inventory",
@@ -3102,7 +3291,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What distinctions or possibilities were already available within that baseline."
     },
     {
       "id": "discovery-contribution-novelty",
@@ -3116,7 +3306,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What the proposed contribution adds relative to the specified baseline."
     },
     {
       "id": "discovery-contribution-identity",
@@ -3130,7 +3321,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two contributions add the same distinction despite different wording."
     },
     {
       "id": "discovery-contribution-implication",
@@ -3144,7 +3336,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which previously unavailable possibilities become accessible through the contribution."
     },
     {
       "id": "discovery-contribution-dependence",
@@ -3158,7 +3351,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which earlier contributions are necessary for this specified discovery increment."
     },
     {
       "id": "discovery-contribution-recovery-distinction",
@@ -3172,7 +3366,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the increment comes from recovering earlier material or constructing something absent from that material."
     },
     {
       "id": "discovery-continuation-opportunity",
@@ -3186,7 +3381,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A concrete unresolved matter made investigable by the new contribution."
     },
     {
       "id": "attention-allocation-selection",
@@ -3200,7 +3396,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which available matter should receive the next interval of operative focus."
     },
     {
       "id": "attention-allocation-duration",
@@ -3214,7 +3411,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How long focus should persist before the next reassessment."
     },
     {
       "id": "attention-allocation-switching-condition",
@@ -3228,7 +3426,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which event should redirect focus from the current matter."
     },
     {
       "id": "attention-allocation-interruption",
@@ -3242,7 +3441,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What displaced focus from the specified live matter."
     },
     {
       "id": "attention-allocation-restoration",
@@ -3256,7 +3456,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Recovery of the live matter after displacement with consequential context intact."
     },
     {
       "id": "attention-influence-detection",
@@ -3270,7 +3471,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether identified available material affected the next intellectual contribution."
     },
     {
       "id": "execution-state-initiation",
@@ -3284,7 +3486,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing that the specified authorized activity actually began."
     },
     {
       "id": "execution-state-progress",
@@ -3298,7 +3501,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which specified activity conditions have been completed so far."
     },
     {
       "id": "execution-state-interruption",
@@ -3312,7 +3516,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The point and conditions at which ongoing activity ceased temporarily."
     },
     {
       "id": "execution-state-resumption",
@@ -3326,7 +3531,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Reestablishment of the interrupted activity from its consequential current state."
     },
     {
       "id": "execution-state-completion",
@@ -3340,7 +3546,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the specified activity's completion conditions were met."
     },
     {
       "id": "execution-state-termination",
@@ -3354,7 +3561,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing that further execution has ended under its stated stopping condition."
     },
     {
       "id": "execution-record-correspondence",
@@ -3368,7 +3576,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the execution record matches the operations actually performed."
     },
     {
       "id": "execution-record-comparison",
@@ -3382,7 +3591,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Comparison of specified executions under fixed input and outcome definitions."
     },
     {
       "id": "execution-record-representation",
@@ -3399,7 +3609,8 @@
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
       "broader_subjects": [
         "Expression representation creation"
-      ]
+      ],
+      "description": "Representation of the actual run identity, inputs, performed operations, and results."
     },
     {
       "id": "capability-scope-specification",
@@ -3413,7 +3624,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The class of tasks and conditions covered by a capability claim."
     },
     {
       "id": "capability-scope-limit",
@@ -3427,7 +3639,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A condition under which the claimed ability is unavailable."
     },
     {
       "id": "capability-use-access",
@@ -3441,7 +3654,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the agent can bring an available means into use when the specified case requires it."
     },
     {
       "id": "capability-use-blockage",
@@ -3455,7 +3669,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A condition preventing the agent from exercising an otherwise available ability."
     },
     {
       "id": "capability-use-transfer",
@@ -3469,7 +3684,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the ability can be exercised in a specified changed context."
     },
     {
       "id": "capability-evidence-adequacy",
@@ -3483,7 +3699,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which capability claim the observed performances warrant under stated sampling conditions."
     },
     {
       "id": "capability-evidence-discrimination",
@@ -3497,7 +3714,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a case that separates usable capability from memorized reproduction."
     },
     {
       "id": "capability-use-intervention-requirement",
@@ -3512,7 +3730,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current naming derivation; source contribution exposes this missing target.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What an intervention must change to remove the identified capability-use blockage while preserving stated limits."
     },
     {
       "id": "intelligence-adaptation-requirement",
@@ -3528,7 +3747,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The changes of task or environment that an intelligence claim requires the agent to handle."
     },
     {
       "id": "intelligence-adaptation-strategy-selection",
@@ -3544,7 +3764,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the agent can select a fitting means under the specified changed conditions."
     },
     {
       "id": "intelligence-adaptation-strategy-construction",
@@ -3560,7 +3781,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the agent can construct a fitting means when the stated available means are inadequate."
     },
     {
       "id": "intelligence-adaptation-transfer",
@@ -3578,7 +3800,8 @@
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
       "broader_subjects": [
         "Capability use transfer"
-      ]
+      ],
+      "description": "Whether the adaptive ability persists across the specified change of task family."
     },
     {
       "id": "intelligence-improvement",
@@ -3594,7 +3817,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a specified change improves adaptive ability against a fixed baseline and criterion."
     },
     {
       "id": "intelligence-maintenance",
@@ -3610,7 +3834,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What preserves the specified adaptive ability across an identified disturbance or interval."
     },
     {
       "id": "intelligence-regression",
@@ -3626,7 +3851,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A loss of previously demonstrated adaptive ability under comparable conditions."
     },
     {
       "id": "understanding-content-specification",
@@ -3640,7 +3866,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which relations an agent must be able to use for the stated understanding claim."
     },
     {
       "id": "understanding-content-dependence",
@@ -3654,7 +3881,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which grasped relations are required for the specified further understanding."
     },
     {
       "id": "understanding-use-application",
@@ -3668,7 +3896,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the agent can use the identified relation to handle the specified case."
     },
     {
       "id": "understanding-use-explanation",
@@ -3682,7 +3911,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the agent can reconstruct the identified relation for a stated explanatory task."
     },
     {
       "id": "understanding-use-transfer",
@@ -3698,7 +3928,8 @@
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
       "broader_subjects": [
         "Capability use transfer"
-      ]
+      ],
+      "description": "Whether the agent can use the relation in a changed representation or setting."
     },
     {
       "id": "understanding-error-diagnosis",
@@ -3712,7 +3943,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which relation the agent misconstrues or fails to use in the specified case."
     },
     {
       "id": "learning-change-detection",
@@ -3726,7 +3958,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which relevant ability or disposition changed after the specified experience."
     },
     {
       "id": "learning-change-attribution",
@@ -3740,7 +3973,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the identified change is attributable to the specified experience."
     },
     {
       "id": "learning-change-retention",
@@ -3754,7 +3988,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the experiential change persists across a specified interval."
     },
     {
       "id": "learning-change-transfer",
@@ -3768,7 +4003,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the experiential change affects a specified new applicable case."
     },
     {
       "id": "learning-change-interference",
@@ -3782,7 +4018,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How later experience alters an earlier learned ability under comparable conditions."
     },
     {
       "id": "learning-correction-uptake",
@@ -3796,7 +4033,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a supplied correction changes the next applicable conduct."
     },
     {
       "id": "learning-correction-generalization",
@@ -3810,7 +4048,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which further cases the correction legitimately governs."
     },
     {
       "id": "learning-correction-overgeneralization",
@@ -3824,7 +4063,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A later use that extends the correction beyond its justified conditions."
     },
     {
       "id": "inquiry-method-selection",
@@ -3838,7 +4078,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of an investigative method for a specified subject and evidential purpose."
     },
     {
       "id": "inquiry-method-creation",
@@ -3852,7 +4093,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of an investigative organization with explicit ways its results can alter the inquiry."
     },
     {
       "id": "inquiry-method-modification",
@@ -3866,7 +4108,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of a specified investigative organization in response to a concrete limitation."
     },
     {
       "id": "inquiry-method-assumption",
@@ -3880,7 +4123,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The assumptions required by the method's route from observations to findings."
     },
     {
       "id": "inquiry-method-limitation",
@@ -3894,7 +4138,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A class of finding the specified investigative organization cannot establish under its conditions."
     },
     {
       "id": "inquiry-test-design",
@@ -3908,7 +4153,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a test whose possible results distinguish the specified live alternatives."
     },
     {
       "id": "inquiry-test-interpretation-rule",
@@ -3922,7 +4168,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How each possible test outcome changes the status of the alternatives."
     },
     {
       "id": "inquiry-test-confound",
@@ -3936,7 +4183,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "An alternative factor that prevents the planned observation from discriminating its target."
     },
     {
       "id": "inquiry-finding-replication-condition",
@@ -3950,7 +4198,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What must be preserved for a repetition to test the same finding."
     },
     {
       "id": "inquiry-finding-revision-condition",
@@ -3964,7 +4213,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which result should revise the finding rather than only its stated application conditions."
     },
     {
       "id": "relation-predicate-definition",
@@ -3978,7 +4228,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What must hold between identified arguments for the stated relation predicate to apply."
     },
     {
       "id": "relation-predicate-direction",
@@ -3992,7 +4243,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What changes when the argument order of the relation is reversed."
     },
     {
       "id": "relation-predicate-inverse",
@@ -4006,7 +4258,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Definition of the relation obtained by reversing a specified predicate's argument roles."
     },
     {
       "id": "relation-predicate-negation",
@@ -4020,7 +4273,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What denial of the stated relation rules out under its domain and quantifiers."
     },
     {
       "id": "relation-predicate-necessity",
@@ -4034,7 +4288,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the relation expresses a necessary condition for its stated consequent."
     },
     {
       "id": "relation-predicate-sufficiency",
@@ -4048,7 +4303,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the relation establishes a sufficient condition under its stated scope."
     },
     {
       "id": "relation-composition-validity",
@@ -4062,7 +4318,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which relation follows from a specified chain under explicit relation rules."
     },
     {
       "id": "relation-composition-domain",
@@ -4076,7 +4333,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which argument domains make the proposed relation composition well formed."
     },
     {
       "id": "design-requirement-elicitation",
@@ -4090,7 +4348,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Derivation of a candidate requirement from identified contrasts among designs."
     },
     {
       "id": "design-requirement-justification",
@@ -4104,7 +4363,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing why the proposed requirement follows from the stated purpose or constraints."
     },
     {
       "id": "design-requirement-revision",
@@ -4118,7 +4378,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of an identified requirement when a concrete alternative exposes a missing distinction."
     },
     {
       "id": "design-requirement-compatibility",
@@ -4132,7 +4393,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the specified requirements admit at least one joint realization under fixed conditions."
     },
     {
       "id": "design-candidate-space-specification",
@@ -4146,7 +4408,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The design dimensions and admissible values within the current design investigation."
     },
     {
       "id": "design-candidate-contrast-construction",
@@ -4160,7 +4423,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of alternatives that isolate a consequential design difference."
     },
     {
       "id": "design-candidate-feature-attribution",
@@ -4174,7 +4438,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which feature supports a specified contribution attributed to the design."
     },
     {
       "id": "design-realization-feasibility",
@@ -4188,7 +4453,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the specified candidate can satisfy the stated cross-artifact realization constraints."
     },
     {
       "id": "design-realization-requirement-trace",
@@ -4202,7 +4468,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Where each specified requirement is realized or left unfulfilled in the candidate."
     },
     {
       "id": "design-candidate-construction",
@@ -4216,7 +4483,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current naming derivation; source contribution exposes this missing target.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a design candidate that realizes specified selected aspects while making its other design choices explicit."
     },
     {
       "id": "system-identity-specification",
@@ -4232,7 +4500,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which artifact or version constitutes the named system."
     },
     {
       "id": "system-identity-lineage",
@@ -4248,7 +4517,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Establishment of the sources and deliberate departures that define a custom descendant."
     },
     {
       "id": "system-purpose-specification",
@@ -4264,7 +4534,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The subject and result for which this particular system is being developed."
     },
     {
       "id": "system-design-creation",
@@ -4280,7 +4551,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a purpose-specific system specification with actual objects, operations, and results."
     },
     {
       "id": "system-design-modification",
@@ -4296,7 +4568,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of an identified system design with the changed behavior explicit."
     },
     {
       "id": "system-design-composition",
@@ -4312,7 +4585,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a system arrangement whose intermediate results have explicit consumers."
     },
     {
       "id": "system-interface-contract",
@@ -4328,7 +4602,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The content, conditions, and failure meanings exchanged by identified system components."
     },
     {
       "id": "system-interface-compatibility",
@@ -4344,7 +4619,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a producer's specified output satisfies a consumer's specified input requirements."
     },
     {
       "id": "system-interface-failure-propagation",
@@ -4360,7 +4636,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which dependent results are affected by a specified interface failure."
     },
     {
       "id": "system-implementation-correspondence",
@@ -4376,7 +4653,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which behaviors of the specified design the implementation actually realizes."
     },
     {
       "id": "system-implementation-execution-evidence",
@@ -4392,7 +4670,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which observed execution supports each specified implementation claim."
     },
     {
       "id": "improvement-comparison-baseline",
@@ -4406,7 +4685,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The earlier item or state against which improvement is claimed."
     },
     {
       "id": "improvement-comparison-criterion",
@@ -4420,7 +4700,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The fixed standard under which the changed item is judged better."
     },
     {
       "id": "improvement-comparison-result",
@@ -4434,7 +4715,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which stated respects are better, unchanged, or worse against the baseline."
     },
     {
       "id": "improvement-comparison-criterion-drift",
@@ -4448,7 +4730,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether an apparent improvement depends on changing the evaluative standard."
     },
     {
       "id": "improvement-effect-persistence",
@@ -4462,7 +4745,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How long the demonstrated betterment survives under specified conditions."
     },
     {
       "id": "improvement-effect-transfer",
@@ -4476,7 +4760,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the betterment also holds in a specified changed context under a comparable standard."
     },
     {
       "id": "improvement-effect-attribution",
@@ -4490,7 +4775,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What explains the identified comparative betterment."
     },
     {
       "id": "subject-scope-specification",
@@ -4504,7 +4790,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What determination belongs to the subject with consequential context explicit."
     },
     {
       "id": "subject-scope-identity",
@@ -4518,7 +4805,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two descriptions specify the same matter under a fixed interpretation."
     },
     {
       "id": "subject-scope-inclusion",
@@ -4532,7 +4820,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing that every matter admitted by a proposed child definition is admitted by its parent."
     },
     {
       "id": "subject-scope-overlap",
@@ -4546,7 +4835,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a single specified matter admitted by both proposed alternative definitions."
     },
     {
       "id": "subject-scope-exclusion",
@@ -4560,7 +4850,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The grounds establishing why no specified matter can satisfy both fixed alternative definitions."
     },
     {
       "id": "subject-scope-gap",
@@ -4574,7 +4865,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A specified matter covered by none of the candidate scopes within the declared coverage domain."
     },
     {
       "id": "subject-name-construction",
@@ -4588,7 +4880,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a literal general-first name for a specified subject without joining distinct targets."
     },
     {
       "id": "subject-name-ambiguity",
@@ -4602,7 +4895,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Materially different readings permitted by the proposed subject name."
     },
     {
       "id": "subject-name-equivalence",
@@ -4616,7 +4910,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two names are aliases for the same defined subject."
     },
     {
       "id": "subject-name-revision",
@@ -4630,7 +4925,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Replacement of a subject name while recording whether the underlying scope changed."
     },
     {
       "id": "subject-hierarchy-construction",
@@ -4644,7 +4940,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of containment relations among already defined subjects within a stated coverage domain."
     },
     {
       "id": "subject-hierarchy-collision-repair",
@@ -4658,7 +4955,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of or merge definitions after a single specified matter fits two proposed siblings."
     },
     {
       "id": "subject-hierarchy-coverage",
@@ -4672,7 +4970,8 @@
       ],
       "standing": "Defined proposal",
       "source": "Current user naming direction; derivation from the recorded scope definitions.",
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether every matter in a specified finite test domain is admitted by the hierarchy."
     },
     {
       "id": "criterion-application-result",
@@ -4687,7 +4986,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The result of applying a specified criterion to identified material under fixed application conditions."
     },
     {
       "id": "explanation-account-adequacy",
@@ -4702,7 +5002,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a proposed account resolves its specified explanatory contrast under stated adequacy conditions."
     },
     {
       "id": "reasoning-approach-availability",
@@ -4717,7 +5018,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which reasoning approaches a specified agent can access in a usable representation at the time of choice."
     },
     {
       "id": "reasoning-approach-repertoire-coverage",
@@ -4732,7 +5034,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which specified reasoning needs have at least one represented approach in an identified repertoire."
     },
     {
       "id": "relation-pattern-extraction",
@@ -4747,7 +5050,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A stated relational structure shared by specified cases while omitting designated incidental features."
     },
     {
       "id": "relation-pattern-case-mapping",
@@ -4762,7 +5066,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which elements of a target case can occupy the roles of a specified relational pattern."
     },
     {
       "id": "memory-record-availability",
@@ -4777,7 +5082,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which identified records are accessible to an agent through specified routes at a stated time."
     },
     {
       "id": "memory-record-source-attribution",
@@ -4792,7 +5098,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which origin produced a remembered or stored item, including perceived, imagined, inferred, or externally supplied origins."
     },
     {
       "id": "memory-record-retrieval-interference",
@@ -4807,7 +5114,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How competing records change retrieval of a specified target under fixed cues."
     },
     {
       "id": "memory-active-content-maintenance",
@@ -4822,7 +5130,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How identified content remains usable over a specified delay within an active task."
     },
     {
       "id": "memory-active-content-update",
@@ -4837,7 +5146,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How active task content is replaced or revised following a specified input."
     },
     {
       "id": "memory-active-content-capacity",
@@ -4852,7 +5162,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How much specified content can remain usable under stated active-task conditions."
     },
     {
       "id": "goal-representation-maintenance",
@@ -4867,7 +5178,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How a represented intended outcome remains available to govern activity over a stated interval."
     },
     {
       "id": "perception-signal-discrimination",
@@ -4882,7 +5194,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether specified sensory inputs can be distinguished by an agent under stated conditions."
     },
     {
       "id": "perception-signal-detection",
@@ -4897,7 +5210,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether an agent detects a specified signal against a stated background."
     },
     {
       "id": "perception-object-identification",
@@ -4912,7 +5226,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which candidate object a specified sensory presentation represents."
     },
     {
       "id": "action-response-selection",
@@ -4927,7 +5242,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which candidate behavioral response is selected under specified task conditions."
     },
     {
       "id": "action-response-inhibition",
@@ -4942,7 +5258,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a specified response is withheld or stopped following a stated condition."
     },
     {
       "id": "reward-outcome-anticipation",
@@ -4957,7 +5274,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What rewarding outcome an agent expects before the relevant event."
     },
     {
       "id": "reward-outcome-valuation",
@@ -4972,7 +5290,8 @@
       "source_ids": [
         "RDOC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The value an agent assigns to a specified rewarding outcome under stated conditions."
     },
     {
       "id": "reward-prediction-error",
@@ -4989,7 +5308,8 @@
       ],
       "broader_subjects": [
         "Prediction error"
-      ]
+      ],
+      "description": "The discrepancy between an expected rewarding outcome and its observed occurrence under a fixed coding rule."
     },
     {
       "id": "shape-orientation-specification",
@@ -5004,7 +5324,8 @@
       "source_ids": [
         "ROTATION"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A shape's orientation relative to an identified reference frame."
     },
     {
       "id": "shape-orientation-transformation",
@@ -5020,7 +5341,8 @@
         "ROTATION",
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The representation produced by changing a represented shape's orientation through a specified rotation in a stated frame."
     },
     {
       "id": "shape-orientation-equivalence",
@@ -5035,7 +5357,8 @@
       "source_ids": [
         "ROTATION"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two represented shapes coincide under an allowed rotation and translation."
     },
     {
       "id": "shape-mirror-equivalence",
@@ -5050,7 +5373,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether one represented shape coincides with a reflected version of another under specified alignment rules."
     },
     {
       "id": "shape-representation-mental-rotation",
@@ -5066,7 +5390,8 @@
         "ROTATION",
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The operations or physical processes producing a specified rotation of a shape representation in an identified implementation."
     },
     {
       "id": "shape-representation-rotation-duration",
@@ -5081,7 +5406,8 @@
       "source_ids": [
         "ROTATION"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How long a specified representational rotation takes under defined task conditions."
     },
     {
       "id": "shape-representation-rotation-accuracy",
@@ -5098,7 +5424,8 @@
       ],
       "broader_subjects": [
         "Expression representation fidelity"
-      ]
+      ],
+      "description": "How faithfully a specified representational rotation preserves the required shape relations."
     },
     {
       "id": "model-token-sequence-representation",
@@ -5113,7 +5440,8 @@
       "source_ids": [
         "TRANSFORMER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How a model's input symbols are represented as an ordered token sequence under a fixed vocabulary."
     },
     {
       "id": "model-token-vector-representation",
@@ -5128,7 +5456,8 @@
       "source_ids": [
         "TRANSFORMER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The vector assigned to a token at a stated model location and version."
     },
     {
       "id": "model-token-probability-estimation",
@@ -5143,7 +5472,8 @@
       "source_ids": [
         "TRANSFORMER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The model's probability assignments to candidate output tokens under specified context and parameters."
     },
     {
       "id": "model-token-output-selection",
@@ -5158,7 +5488,8 @@
       "source_ids": [
         "TRANSFORMER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of an output token from a specified model distribution under a stated decoding rule."
     },
     {
       "id": "model-attention-weight-computation",
@@ -5173,7 +5504,8 @@
       "source_ids": [
         "TRANSFORMER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Numerical weights from specified query and key representations under a fixed attention rule."
     },
     {
       "id": "model-attention-value-aggregation",
@@ -5188,7 +5520,8 @@
       "source_ids": [
         "TRANSFORMER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The representation obtained by combining value vectors with specified attention weights."
     },
     {
       "id": "model-sequence-position-representation",
@@ -5203,7 +5536,8 @@
       "source_ids": [
         "TRANSFORMER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How sequence position is represented for a stated model computation."
     },
     {
       "id": "model-parameter-update",
@@ -5218,7 +5552,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The changed parameter values produced by a stated training step."
     },
     {
       "id": "measurement-target-specification",
@@ -5233,7 +5568,8 @@
       "source_ids": [
         "NIST"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The quantity intended to be measured, including its object and conditions."
     },
     {
       "id": "measurement-instrument-calibration",
@@ -5248,7 +5584,8 @@
       "source_ids": [
         "NIST"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The relation between instrument indications and reference values under specified conditions."
     },
     {
       "id": "measurement-result-uncertainty",
@@ -5263,7 +5600,8 @@
       "source_ids": [
         "UNCERTAINTY"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Characterization of the range or distribution of values attributable to a stated measurement result under explicit assumptions."
     },
     {
       "id": "measurement-result-repeatability",
@@ -5278,7 +5616,8 @@
       "source_ids": [
         "UNCERTAINTY"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Variation across repeated measurements under stated stable conditions."
     },
     {
       "id": "measurement-proxy-validity",
@@ -5293,7 +5632,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a specified observable supports the intended inference about a target property in a bounded setting."
     },
     {
       "id": "integer-factor-decomposition",
@@ -5308,7 +5648,8 @@
       "source_ids": [
         "MSC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Prime factors and multiplicities whose product equals a specified integer greater than one."
     },
     {
       "id": "integer-primality-determination",
@@ -5323,7 +5664,8 @@
       "source_ids": [
         "MSC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether an integer greater than one has a positive divisor other than one and itself."
     },
     {
       "id": "graph-path-existence",
@@ -5338,7 +5680,8 @@
       "source_ids": [
         "MSC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a path connects specified vertices under a graph's permitted edge directions."
     },
     {
       "id": "graph-path-minimum-cost",
@@ -5353,7 +5696,8 @@
       "source_ids": [
         "MSC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A connecting path with minimum total cost under specified edge costs and admissibility conditions."
     },
     {
       "id": "graph-structure-equivalence",
@@ -5368,7 +5712,8 @@
       "source_ids": [
         "MSC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a bijection between vertex sets preserves the specified adjacency relation."
     },
     {
       "id": "equation-solution-existence",
@@ -5383,7 +5728,8 @@
       "source_ids": [
         "MSC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether any admissible assignment satisfies a specified equation system."
     },
     {
       "id": "equation-solution-uniqueness",
@@ -5398,7 +5744,8 @@
       "source_ids": [
         "MSC"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a specified equation system has exactly one admissible solution."
     },
     {
       "id": "price-demand-response",
@@ -5413,7 +5760,8 @@
       "source_ids": [
         "JEL"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How demand for a specified good changes with its price under stated conditions."
     },
     {
       "id": "exchange-allocation-feasibility",
@@ -5428,7 +5776,8 @@
       "source_ids": [
         "JEL"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a proposed allocation meets specified resource and exchange constraints."
     },
     {
       "id": "exchange-allocation-incentive-compatibility",
@@ -5443,7 +5792,8 @@
       "source_ids": [
         "JEL"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether participants achieve the stated preference objective by prescribed behavior under specified information and rules."
     },
     {
       "id": "production-input-requirement",
@@ -5458,7 +5808,8 @@
       "source_ids": [
         "JEL"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The inputs required to produce a specified output by a stated technology."
     },
     {
       "id": "production-cost-estimation",
@@ -5473,7 +5824,8 @@
       "source_ids": [
         "JEL"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Estimation of costs of producing a specified output under stated technology and input prices."
     },
     {
       "id": "business-customer-demand-estimation",
@@ -5490,7 +5842,8 @@
       ],
       "broader_subjects": [
         "Prediction construction"
-      ]
+      ],
+      "description": "Estimation of demand from a specified customer population for an identified offering under stated conditions."
     },
     {
       "id": "business-cash-requirement",
@@ -5505,7 +5858,8 @@
       "source_ids": [
         "SBA"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The cash needed across a specified operating or startup interval under explicit payment assumptions."
     },
     {
       "id": "rule-authority-basis",
@@ -5520,7 +5874,8 @@
       "source_ids": [
         "RULES"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which specified source authorizes an institution to issue or apply an identified rule in a stated jurisdiction."
     },
     {
       "id": "rule-scope-applicability",
@@ -5535,7 +5890,8 @@
       "source_ids": [
         "RULES"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether identified facts fall within a rule's stated application conditions."
     },
     {
       "id": "rule-content-interpretation",
@@ -5552,7 +5908,8 @@
       ],
       "broader_subjects": [
         "Expression instruction interpretation"
-      ]
+      ],
+      "description": "What an identified rule prescribes under a stated interpretive framework."
     },
     {
       "id": "rule-content-revision",
@@ -5567,7 +5924,8 @@
       "source_ids": [
         "RULES"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A changed rule while preserving the prior version and the scope of the change."
     },
     {
       "id": "rule-compliance-determination",
@@ -5584,7 +5942,8 @@
       ],
       "broader_subjects": [
         "Criterion application result"
-      ]
+      ],
+      "description": "Whether specified conduct satisfies an applicable rule under an identified interpretation."
     },
     {
       "id": "rule-effect-attribution",
@@ -5599,7 +5958,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What difference a rule's introduction or enforcement caused in a specified outcome relative to a defensible comparison."
     },
     {
       "id": "rule-proposal-comment-relevance",
@@ -5614,7 +5974,8 @@
       "source_ids": [
         "RULES"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which submitted information bears on a specified proposed rule or its supporting rationale."
     },
     {
       "id": "norm-justification-sufficiency",
@@ -5629,7 +5990,8 @@
       "source_ids": [
         "PHIL"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether stated reasons warrant a specified normative conclusion under an explicit justificatory framework."
     },
     {
       "id": "object-identity-persistence",
@@ -5644,7 +6006,8 @@
       "source_ids": [
         "PHIL"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which stated criteria make an object at one time count as the same object at another."
     },
     {
       "id": "experience-quality-discrimination",
@@ -5659,7 +6022,8 @@
       "source_ids": [
         "PHIL"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which qualitative differences a subject reports or discriminates between specified experiences."
     },
     {
       "id": "narrative-event-ordering",
@@ -5676,7 +6040,8 @@
       ],
       "broader_subjects": [
         "Expression structure sequence"
-      ]
+      ],
+      "description": "The order in which specified events are presented in a narrative."
     },
     {
       "id": "narrative-event-causal-coherence",
@@ -5691,7 +6056,8 @@
       "source_ids": [
         "POETICS"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether proposed causal links between represented events fit the narrative's stated world conditions."
     },
     {
       "id": "narrative-audience-expectation",
@@ -5706,7 +6072,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What a specified audience anticipates at a given point in a narrative."
     },
     {
       "id": "narrative-audience-information-access",
@@ -5721,7 +6088,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which story facts are available to a specified audience at each presentation point."
     },
     {
       "id": "narrative-audience-enjoyment",
@@ -5736,7 +6104,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The enjoyment a specified audience experiences from a defined narrative exposure under stated conditions."
     },
     {
       "id": "resource-retention-selection",
@@ -5751,7 +6120,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of identified resources for retention for specified possible future uses under stated constraints."
     },
     {
       "id": "resource-retention-duration",
@@ -5766,7 +6136,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How long an identified resource should be retained under specified use and loss conditions."
     },
     {
       "id": "resource-retention-cost",
@@ -5781,7 +6152,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The costs attributable to retaining specified resources over a stated interval."
     },
     {
       "id": "resource-disposal-consequence",
@@ -5796,7 +6168,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which future possibilities are lost or changed by disposing of an identified resource under stated alternatives."
     },
     {
       "id": "resource-disposal-reversibility",
@@ -5811,7 +6184,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a disposed resource or its required function can be recovered under stated conditions."
     },
     {
       "id": "resource-future-use-likelihood",
@@ -5828,7 +6202,8 @@
       ],
       "broader_subjects": [
         "Prediction construction"
-      ]
+      ],
+      "description": "Estimation of the chance that a specified resource will be needed for a defined use within a stated horizon."
     },
     {
       "id": "resource-future-use-value",
@@ -5843,7 +6218,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The value of a possible later use of an identified resource under a stated objective."
     },
     {
       "id": "resource-retrieval-cost",
@@ -5858,7 +6234,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The cost of locating and accessing an identified retained resource in a specified storage arrangement."
     },
     {
       "id": "subject-requirement-necessity",
@@ -5873,7 +6250,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a stated condition is necessary for a specified subject operation or justified result under explicit scope."
     },
     {
       "id": "subject-requirement-alternatives",
@@ -5888,7 +6266,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which alternative condition sets can support the same specified result."
     },
     {
       "id": "subject-translation-coverage",
@@ -5903,7 +6282,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which defined matters in a specified source term are preserved by a proposed translation into named subjects."
     },
     {
       "id": "subject-translation-equivalence",
@@ -5918,7 +6298,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two fixed subject descriptions pick out the same specified matter under stated conditions."
     },
     {
       "id": "subject-development-assessment",
@@ -5933,7 +6314,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What specified results, techniques, evidence, and remaining limitations have been established within a subject's bounded scope."
     },
     {
       "id": "subject-importance-assessment",
@@ -5948,7 +6330,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How resolving a specified matter affects stated goals, costs, risks, or further work relative to alternatives."
     },
     {
       "id": "subject-attention-measurement",
@@ -5963,7 +6346,8 @@
       "source_ids": [
         "USER"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How much documented research or practical effort a subject receives within a declared corpus, period, and counting rule."
     },
     {
       "id": "perspective-representation-construction",
@@ -5978,7 +6362,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a specified organization of a matter that exposes selected distinctions and operations."
     },
     {
       "id": "perspective-representation-omission",
@@ -5993,7 +6378,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which consequential distinctions of the target matter a specified perspective leaves unavailable."
     },
     {
       "id": "perspective-representation-equivalence",
@@ -6008,7 +6394,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two specified perspectives preserve the same discriminations and licensed transitions on a declared case domain."
     },
     {
       "id": "perspective-consequence-accessibility",
@@ -6023,7 +6410,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which consequences an agent can derive using a specified perspective under stated resources."
     },
     {
       "id": "perspective-change-contribution",
@@ -6038,7 +6426,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What changing a perspective adds to a specified inquiry or performance with the target and success standard fixed."
     },
     {
       "id": "perspective-change-criterion-drift",
@@ -6053,7 +6442,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a changed verdict follows from a changed evaluative rule rather than a changed representation of the same matter."
     },
     {
       "id": "perspective-scope-applicability",
@@ -6068,7 +6458,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a perspective's required distinctions and assumptions can be instantiated in a specified new matter."
     },
     {
       "id": "perspective-scope-extension",
@@ -6083,7 +6474,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a justified application of a perspective to a matter outside its previously recorded use domain."
     },
     {
       "id": "perspective-scope-coverage",
@@ -6098,7 +6490,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which matters in a declared domain a perspective can address under a specified adequacy requirement."
     },
     {
       "id": "perspective-scope-limitation",
@@ -6113,7 +6506,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A specified question or distinction the perspective cannot resolve under its stated assumptions."
     },
     {
       "id": "perspective-selection",
@@ -6128,7 +6522,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of a perspective for a specified inquiry from stated candidates under a declared selection rule."
     },
     {
       "id": "perspective-comparison-admissibility",
@@ -6143,7 +6538,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which perspectives are admitted to a comparison and why each belongs to that set."
     },
     {
       "id": "anticipation-outcome-expectation",
@@ -6158,7 +6554,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What an agent expects may occur at a stated later point, including uncertainty when represented."
     },
     {
       "id": "anticipation-outcome-correspondence",
@@ -6173,7 +6570,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How a recorded or operationally specified earlier expectation relates to the later observed outcome."
     },
     {
       "id": "anticipation-action-dependence",
@@ -6188,7 +6586,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How expected later consequences differ under specified alternative actions."
     },
     {
       "id": "anticipation-preparation-selection",
@@ -6203,7 +6602,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of present preparations in view of specified possible later conditions."
     },
     {
       "id": "anticipation-response-construction",
@@ -6218,7 +6618,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a prospective response contribution from the anticipated conversation conditions and unresolved matter."
     },
     {
       "id": "anticipation-continuation-construction",
@@ -6233,7 +6634,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a possible subsequent exchange by using an anticipated response as input to a further anticipated prompt or response."
     },
     {
       "id": "anticipation-continuation-exclusion",
@@ -6248,7 +6650,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a continuation that preserves the unresolved matter while excluding a specified anticipated way of proceeding."
     },
     {
       "id": "anticipation-influence-attribution",
@@ -6263,7 +6666,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How expressing or using an anticipation changes later activity or outcomes."
     },
     {
       "id": "anticipation-outcome-expectation-revision",
@@ -6278,7 +6682,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of an agent's expected outcome in response to an identified consequential difference."
     },
     {
       "id": "anticipation-preparation-revision",
@@ -6293,7 +6698,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Revision of a specified preparation in view of an identified difference in later conditions or available means."
     },
     {
       "id": "prediction-claim-expression",
@@ -6308,7 +6714,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Expression of a claim about a specified future or unknown outcome with its scope and epistemic force explicit."
     },
     {
       "id": "model-state-estimation",
@@ -6323,7 +6730,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "A model's estimate or distribution over an unobserved state from specified observations and assumptions."
     },
     {
       "id": "uncertainty-alternative-specification",
@@ -6338,7 +6746,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The unresolved alternatives for a defined target relative to an information state."
     },
     {
       "id": "uncertainty-source-attribution",
@@ -6353,7 +6762,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which missing observations, ambiguous representations or model assumptions sustain a specified uncertainty."
     },
     {
       "id": "uncertainty-decision-sensitivity",
@@ -6368,7 +6778,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which unresolved differences would change a specified choice under fixed decision conditions."
     },
     {
       "id": "uncertainty-reduction-intervention-selection",
@@ -6383,7 +6794,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of an observation or transformation expected to distinguish specified live alternatives under stated costs."
     },
     {
       "id": "uncertainty-reduction-attainability",
@@ -6398,7 +6810,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether specified uncertainty can be reduced using the admissible observations or operations."
     },
     {
       "id": "conflict-incompatibility-specification",
@@ -6413,7 +6826,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which identified demands, states or commitments cannot jointly be satisfied under stated constraints."
     },
     {
       "id": "conflict-resolution-condition",
@@ -6428,7 +6842,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What change would count as resolving an identified incompatibility."
     },
     {
       "id": "conflict-resolution-method-selection",
@@ -6443,7 +6858,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Selection of a method for resolving a specified incompatibility under identified constraints."
     },
     {
       "id": "conflict-resolution-method-creation",
@@ -6458,7 +6874,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a method for changing the conditions producing a specified incompatibility."
     },
     {
       "id": "conflict-resolution-method-applicability",
@@ -6473,7 +6890,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a proposed resolution method's operating conditions hold in a specified conflict."
     },
     {
       "id": "conflict-resolution-effect-attribution",
@@ -6488,7 +6906,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which changes in the incompatibility are attributable to a specified resolution attempt."
     },
     {
       "id": "deviation-reference-specification",
@@ -6503,7 +6922,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The reference state, rule or pattern from which a departure is being considered."
     },
     {
       "id": "deviation-extent-determination",
@@ -6518,7 +6938,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The amount or structure of a departure under a specified difference relation."
     },
     {
       "id": "deviation-cause-attribution",
@@ -6533,7 +6954,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What produced a specified departure from its reference under stated causal assumptions."
     },
     {
       "id": "deviation-effect-comparison",
@@ -6548,7 +6970,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How a specified departure changes the relevant outcomes under a fixed comparison standard."
     },
     {
       "id": "deviation-effect-robustness",
@@ -6563,7 +6986,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a departure's comparative effect persists across a declared set of conditions or evaluative perspectives."
     },
     {
       "id": "deviation-optimality-condition-derivation",
@@ -6578,7 +7002,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Derivation of conditions under which a departure attains the best permitted result in a specified formal model."
     },
     {
       "id": "deviation-optimality-case-determination",
@@ -6593,7 +7018,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a particular departure attains the specified optimum under the actual case's admitted alternatives and evidence."
     },
     {
       "id": "deviation-optimality-attainability",
@@ -6608,7 +7034,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether any feasible departure attains the stipulated optimum or all required criteria jointly."
     },
     {
       "id": "comparison-alternative-dominance",
@@ -6625,7 +7052,8 @@
       ],
       "broader_subjects": [
         "Comparison result ordering"
-      ]
+      ],
+      "description": "Whether one alternative is no worse on every specified criterion and better on at least one."
     },
     {
       "id": "comparison-alternative-robust-dominance",
@@ -6642,7 +7070,8 @@
       ],
       "broader_subjects": [
         "Comparison alternative dominance"
-      ]
+      ],
+      "description": "Whether a dominance relation holds under every admitted scenario with its strictness rule stated."
     },
     {
       "id": "resource-use-avoidable-cost",
@@ -6657,7 +7086,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The excess resources consumed relative to an available feasible alternative meeting the same specified result standard."
     },
     {
       "id": "game-payoff-sum-invariance",
@@ -6672,7 +7102,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the sum of specified participant payoffs is constant across all admitted outcomes under a fixed payoff representation."
     },
     {
       "id": "subject-name-scope-underdetermination",
@@ -6687,7 +7118,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which consequential parts of a subject's scope its name and available definition leave unspecified."
     },
     {
       "id": "subject-name-origin-reconstruction",
@@ -6702,7 +7134,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Reconstruction of how a specified subject label acquired its recorded wording and referent from available historical evidence."
     },
     {
       "id": "subject-name-persistence-cause",
@@ -6717,7 +7150,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What sustains a subject label's continued use despite identified scope defects."
     },
     {
       "id": "subject-name-substitution-effect",
@@ -6732,7 +7166,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How replacing a subject label changes the inferences, questions or operations people actually perform with fixed underlying content."
     },
     {
       "id": "expression-precision-requirement",
@@ -6747,7 +7182,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which distinctions an expression must preserve for a particular use to be adequate."
     },
     {
       "id": "explanation-account-operational-content",
@@ -6762,7 +7198,8 @@
       "source_ids": [
         "PERSPECTIVE_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The specified variables, relations or transformations by which an account explains its target and the choices it leaves unspecified."
     },
     {
       "id": "memory-active-content-interference",
@@ -6777,7 +7214,8 @@
       "source_ids": [
         "WM_BRANCH"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How specified competing material changes the usability of active task content."
     },
     {
       "id": "memory-active-content-interference-control",
@@ -6794,7 +7232,8 @@
       ],
       "broader_subjects": [
         "Memory active content maintenance"
-      ]
+      ],
+      "description": "Which operations preserve active task content against specified competing material and under what conditions."
     },
     {
       "id": "memory-active-content-binding",
@@ -6809,7 +7248,8 @@
       "source_ids": [
         "WM_BRANCH"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How elements of active task content are associated into a usable structure under stated conditions."
     },
     {
       "id": "memory-active-content-external-support-dependence",
@@ -6824,7 +7264,8 @@
       "source_ids": [
         "WM_BRANCH"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How active-content performance changes when specified external support is available or removed."
     },
     {
       "id": "memory-active-content-persistence-duration",
@@ -6839,7 +7280,8 @@
       "source_ids": [
         "WM_BRANCH"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How long specified active content remains usable under stated interference and support conditions."
     },
     {
       "id": "reasoning-approach-specification-completeness",
@@ -6854,7 +7296,8 @@
       "source_ids": [
         "STUDY_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether an approach specification resolves every execution-relevant choice required by its declared contract, including explicit permitted discretion."
     },
     {
       "id": "reasoning-approach-branch-coverage",
@@ -6869,7 +7312,8 @@
       "source_ids": [
         "STUDY_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether every admitted input or reachable state has a defined continuation or terminal outcome under the approach's rules."
     },
     {
       "id": "reasoning-approach-rule-consistency",
@@ -6884,7 +7328,8 @@
       "source_ids": [
         "STUDY_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether simultaneously applicable rules can be jointly satisfied under the approach's declared precedence and scope."
     },
     {
       "id": "inquiry-finding-transfer-condition",
@@ -6899,7 +7344,8 @@
       "source_ids": [
         "STUDY_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which assumptions and case qualifications must hold for an existing finding to justify a stated conclusion in a new inquiry."
     },
     {
       "id": "inquiry-finding-use-contribution",
@@ -6914,7 +7360,8 @@
       "source_ids": [
         "STUDY_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How using a specified earlier finding changes the work or result of a later inquiry with its target and standard fixed."
     },
     {
       "id": "system-composition-order-dependence",
@@ -6929,7 +7376,8 @@
       "source_ids": [
         "STUDY_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which changes of component execution order change a specified system result when the components and input are fixed."
     },
     {
       "id": "system-composition-description-sufficiency",
@@ -6944,7 +7392,8 @@
       "source_ids": [
         "STUDY_NOTE"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a specified description fixes the system properties needed for an identified task, or whether two realizations satisfy it while differing on those properties."
     },
     {
       "id": "perspective-bearer-attribution",
@@ -6959,7 +7408,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which specified entity, component or interaction bears the configuration responsible for a declared response distinction."
     },
     {
       "id": "perspective-response-sensitivity",
@@ -6974,7 +7424,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which specified input or context changes alter an identified bearer response under declared comparison conditions."
     },
     {
       "id": "perspective-response-equivalence",
@@ -6989,7 +7440,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether two response configurations yield the same specified observable response on every case of a declared domain."
     },
     {
       "id": "perspective-change-locus",
@@ -7004,7 +7456,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which specified part of a bearer-context arrangement changed between two response episodes."
     },
     {
       "id": "perspective-problem-recognition-contribution",
@@ -7021,7 +7474,8 @@
       ],
       "broader_subjects": [
         "Perspective change contribution"
-      ]
+      ],
+      "description": "How changing a perspective changes which problems are recognized in a fixed presented situation under a fixed relevance standard."
     },
     {
       "id": "perspective-subject-relevance-determination",
@@ -7036,7 +7490,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "What result from a specified subject would contribute to the current matter under an identified perspective and conditions."
     },
     {
       "id": "perspective-study-configuration-construction",
@@ -7053,7 +7508,8 @@
       ],
       "broader_subjects": [
         "System design composition"
-      ]
+      ],
+      "description": "Construction of a system arrangement of specified studies whose results supply identified subsequent contributions under an adopted perspective."
     },
     {
       "id": "perspective-result-interpretation-rule",
@@ -7068,7 +7524,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How materially different results of an identified study change a perspective, its commitment or its next contribution."
     },
     {
       "id": "perspective-transition-construction",
@@ -7083,7 +7540,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of an operation intended to make a specified change of perspective available from declared starting conditions."
     },
     {
       "id": "perspective-transition-applicability",
@@ -7098,7 +7556,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether the declared requirements of a specified perspective-transition operation hold in identified starting conditions."
     },
     {
       "id": "perspective-transition-reachability",
@@ -7113,7 +7572,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which specified perspectives can be reached through identified transition operations under declared starting conditions and path constraints."
     },
     {
       "id": "perspective-improvement-retention",
@@ -7128,7 +7588,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a previously established beneficial perspective change remains available for relevant use after a specified interval or transition."
     },
     {
       "id": "perspective-formation-condition",
@@ -7143,7 +7604,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which specified conditions make a perspective newly available to an identified bearer or arrangement."
     },
     {
       "id": "perspective-activation-trigger",
@@ -7158,7 +7620,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which event or condition brings an available perspective into operative use in a declared context."
     },
     {
       "id": "perspective-adoption-commitment",
@@ -7173,7 +7636,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The scope and degree of reliance assigned to an interpretation in a particular inquiry or action."
     },
     {
       "id": "perspective-adoption-correspondence",
@@ -7188,7 +7652,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether an agent's observed distinctions and operations correspond to its declared perspective in a specified context."
     },
     {
       "id": "perspective-candidate-dimension-construction",
@@ -7203,7 +7668,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Construction of a consequential distinction for organizing perspectives absent from the stated initial construction scheme."
     },
     {
       "id": "perspective-candidate-space-specification",
@@ -7218,7 +7684,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "The perspectives constructible from declared dimensions, values and compatibility rules under a fixed identity convention."
     },
     {
       "id": "perspective-candidate-space-coverage",
@@ -7233,7 +7700,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether a specified perspective inventory supplies required distinctions or contributions across every case of a declared domain."
     },
     {
       "id": "perspective-exploration-exclusion-justification",
@@ -7248,7 +7716,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Whether an identified reason justifies excluding a candidate perspective from a specified exploration purpose and stage."
     },
     {
       "id": "perspective-composition-interference",
@@ -7263,7 +7732,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "How combining perspectives impairs an identified contribution relative to their separately specified uses."
     },
     {
       "id": "perspective-improvement-transfer",
@@ -7278,7 +7748,8 @@
       "source_ids": [
         "PERSPECTIVE_PROCESS_002"
       ],
-      "broader_subjects": []
+      "broader_subjects": [],
+      "description": "Which conditions permit a previously established beneficial perspective change to contribute in a new setting."
     }
   ]
 }

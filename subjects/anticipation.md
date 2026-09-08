@@ -1,41 +1,41 @@
 Represented or inferred expectations of possible later events and their role in preparing, selecting or constructing subsequent activity.
 
-## Anticipation outcome
+## Anticipation outcome expectation
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Anticipation outcome expectation | Determine what an agent expects may occur at a stated later point, including uncertainty when represented. | A verbal forecast, a desired outcome, or readiness inferred without evidence. |
-| Anticipation outcome correspondence | Determine how a recorded or operationally specified earlier expectation relates to the later observed outcome. | Independent predictive accuracy when the expectation itself changes the outcome. |
-| Anticipation outcome expectation revision | Change what an agent expects will occur in response to an identified consequential difference. | Changing only the preparation while the expectation stays fixed, or erasing the prior expectation. |
+What an agent expects may occur at a stated later point, including uncertainty when represented. Excludes: A verbal forecast, a desired outcome, or readiness inferred without evidence.
 
-## Anticipation action
+## Anticipation outcome correspondence
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Anticipation action dependence | Determine how expected later consequences differ under specified alternative actions. | Selecting an action or treating conditional possibilities as equally believed forecasts. |
+How a recorded or operationally specified earlier expectation relates to the later observed outcome. Excludes: Independent predictive accuracy when the expectation itself changes the outcome.
 
-## Anticipation preparation
+## Anticipation action dependence
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Anticipation preparation selection | Choose what to prepare now in view of specified possible later conditions. | Accurately forecasting which condition will occur or asserting a future claim. |
-| Anticipation preparation revision | Change a specified preparation in view of an identified difference in later conditions or available means. | Changing only the estimated likelihood without changing the preparation. |
+How expected later consequences differ under specified alternative actions. Excludes: Selecting an action or treating conditional possibilities as equally believed forecasts.
 
-## Anticipation response
+## Anticipation preparation selection
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Anticipation response construction | Construct a prospective response contribution from the anticipated conversation conditions and unresolved matter. | Retrospectively explaining a response already produced. |
+Selection of present preparations in view of specified possible later conditions. Excludes: Accurately forecasting which condition will occur or asserting a future claim.
 
-## Anticipation continuation
+## Anticipation response construction
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Anticipation continuation construction | Construct a possible subsequent exchange by using an anticipated response as input to a further anticipated prompt or response. | A single forecast with no continued interaction or fabricated observed dialogue. |
-| Anticipation continuation exclusion | Construct a continuation that preserves the unresolved matter while excluding a specified anticipated way of proceeding. | Irrelevance, random text, or banning the same operation in every later task. |
+Construction of a prospective response contribution from the anticipated conversation conditions and unresolved matter. Excludes: Retrospectively explaining a response already produced.
 
-## Anticipation influence
+## Anticipation continuation construction
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Anticipation influence attribution | Determine how expressing or using an anticipation changes later activity or outcomes. | Treating a deliberately fulfilled anticipation as independent predictive validation. |
+Construction of a possible subsequent exchange by using an anticipated response as input to a further anticipated prompt or response. Excludes: A single forecast with no continued interaction or fabricated observed dialogue.
+
+## Anticipation continuation exclusion
+
+Construction of a continuation that preserves the unresolved matter while excluding a specified anticipated way of proceeding. Excludes: Irrelevance, random text, or banning the same operation in every later task.
+
+## Anticipation influence attribution
+
+How expressing or using an anticipation changes later activity or outcomes. Excludes: Treating a deliberately fulfilled anticipation as independent predictive validation.
+
+## Anticipation outcome expectation revision
+
+Revision of an agent's expected outcome in response to an identified consequential difference. Excludes: Changing only the preparation while the expectation stays fixed, or erasing the prior expectation.
+
+## Anticipation preparation revision
+
+Revision of a specified preparation in view of an identified difference in later conditions or available means. Excludes: Changing only the estimated likelihood without changing the preparation.

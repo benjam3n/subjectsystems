@@ -1,7 +1,5 @@
 Discriminable qualitative aspects of specified experiences.
 
-## Experience quality
+## Experience quality discrimination
 
-| Subject | Definition | Exclusion |
-|---|---|---|
-| Experience quality discrimination | Determine which qualitative differences a subject reports or discriminates between specified experiences. | An inference that a particular computational operation produces consciousness. |
+Which qualitative differences a subject reports or discriminates between specified experiences. Excludes: An inference that a particular computational operation produces consciousness.
