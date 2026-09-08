@@ -67,8 +67,14 @@ def outputs():
         (f"[{s['name']}]({s['id']}.md)", s['description']) for s in systems])])
     for system in systems:
         page = ROOT / system['path']
-        sections = [system['description'], '\n'.join(
-            f'{i}. {step}' for i, step in enumerate(system['steps'], 1))]
+        sections = [system['description']]
+        if system.get('scope'):
+            sections.append(system['scope'])
+        if system.get('standards'):
+            sections.append(descriptions.table(['Standard', 'Requirement'], [
+                (row['name'], row['requirement']) for row in system['standards']]))
+        sections.append('\n'.join(
+            f'{i}. {step}' for i, step in enumerate(system['steps'], 1)))
         sections.append(' · '.join(
             f"[{name}](../subjects/{slug(names[name]['root'])}.md#{slug(name)})"
             for name in system['subject_names']))

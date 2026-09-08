@@ -30,6 +30,8 @@ The differences between candidate approaches under fixed comparison criteria. Ex
 
 What should govern choosing among reasoning approaches for the stated class of matters. Excludes: Making a particular choice under an already fixed criterion.
 
+[Mind change selection](../systems/mind-change-selection.md)
+
 ## Reasoning approach requirement
 
 What a proposed reasoning approach must accomplish under stated conditions. Excludes: Prescribing its internal steps.
@@ -147,6 +149,8 @@ Which reasoning approaches a specified agent can access in a usable representati
 ## Reasoning approach repertoire coverage
 
 Which specified reasoning needs have at least one represented approach in an identified repertoire. Excludes: Choosing an approach for one case or proving universal completeness of reasoning.
+
+[Mind change selection](../systems/mind-change-selection.md)
 
 ## Reasoning approach specification completeness
 

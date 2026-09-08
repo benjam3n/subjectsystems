@@ -20,9 +20,13 @@ Which consequences an agent can derive using a specified perspective under state
 
 What changing a perspective adds to a specified inquiry or performance with the target and success standard fixed. Excludes: Improvement produced only by replacing the goal or grading rule.
 
+[Mind change selection](../systems/mind-change-selection.md)
+
 ## Perspective change criterion drift
 
 Whether a changed verdict follows from a changed evaluative rule rather than a changed representation of the same matter. Excludes: Judging the new criterion illegitimate simply because it changed.
+
+[Mind change selection](../systems/mind-change-selection.md)
 
 ## Perspective scope applicability
 
@@ -106,7 +110,7 @@ Which specified perspectives can be reached through identified transition operat
 
 Whether a previously established beneficial perspective change remains available for relevant use after a specified interval or transition. Excludes: Establishing the original benefit, immediate repetition alone or assuming a saved note is used.
 
-[Correction propagation](../systems/correction-propagation.md)
+[Mind change selection](../systems/mind-change-selection.md) · [Correction propagation](../systems/correction-propagation.md)
 
 ## Perspective formation condition
 
@@ -130,7 +134,7 @@ Whether an agent's observed distinctions and operations correspond to its declar
 
 Construction of a consequential distinction for organizing perspectives absent from the stated initial construction scheme. Excludes: Renaming an existing dimension or adding a label without a separating case.
 
-[Perspective consequence comparison](../systems/perspective-consequence-comparison.md) · [Mind change selection](../systems/mind-change-selection.md)
+[Mind change selection](../systems/mind-change-selection.md) · [Perspective consequence comparison](../systems/perspective-consequence-comparison.md)
 
 ## Perspective candidate space specification
 

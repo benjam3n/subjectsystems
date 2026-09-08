@@ -52,6 +52,8 @@ Which observed execution supports each specified implementation claim. Excludes:
 
 Which changes of component execution order change a specified system result when the components and input are fixed. Excludes: Differences caused by adding components, changing their implementations or changing the input.
 
+[Mind change selection](../systems/mind-change-selection.md)
+
 ## System composition description sufficiency
 
 Whether a specified description fixes the system properties needed for an identified task, or whether two realizations satisfy it while differing on those properties. Excludes: Assuming a set of topics specifies causal order, interfaces or stopping behavior.
